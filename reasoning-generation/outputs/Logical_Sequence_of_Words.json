@@ -1,0 +1,370 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Infant 2. Adult 3. Child 4. Teenager 5. Old Age",
+    "options": ["A) 1, 3, 4, 2, 5", "B) 1, 2, 3, 4, 5", "C) 3, 1, 4, 2, 5", "D) 1, 4, 3, 2, 5"],
+    "correct_answer": "A) 1, 3, 4, 2, 5",
+    "explanation": "The logical sequence follows stages of human life: Infant → Child → Teenager → Adult → Old Age. This represents the natural order of human development."
+  },
+  {
+    "id": 2,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Seed 2. Fruit 3. Plant 4. Flower 5. Sapling",
+    "options": ["A) 1, 5, 3, 4, 2", "B) 1, 3, 5, 4, 2", "C) 1, 3, 4, 5, 2", "D) 2, 1, 5, 3, 4"],
+    "correct_answer": "A) 1, 5, 3, 4, 2",
+    "explanation": "The logical sequence follows plant growth: Seed → Sapling → Plant → Flower → Fruit. This is the natural lifecycle of a flowering plant."
+  },
+  {
+    "id": 3,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Country 2. Village 3. District 4. State 5. Town",
+    "options": ["A) 2, 5, 3, 4, 1", "B) 2, 3, 5, 4, 1", "C) 5, 2, 3, 4, 1", "D) 2, 5, 4, 3, 1"],
+    "correct_answer": "A) 2, 5, 3, 4, 1",
+    "explanation": "The logical sequence follows administrative hierarchy from smallest to largest: Village → Town → District → State → Country."
+  },
+  {
+    "id": 4,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Sentence 2. Letter 3. Word 4. Paragraph 5. Chapter",
+    "options": ["A) 2, 3, 1, 4, 5", "B) 3, 2, 1, 4, 5", "C) 2, 1, 3, 4, 5", "D) 2, 3, 4, 1, 5"],
+    "correct_answer": "A) 2, 3, 1, 4, 5",
+    "explanation": "The logical sequence follows the building blocks of writing: Letter → Word → Sentence → Paragraph → Chapter."
+  },
+  {
+    "id": 5,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Bronze 2. Gold 3. Silver 4. Platinum 5. Iron",
+    "options": ["A) 5, 1, 3, 2, 4", "B) 1, 5, 3, 2, 4", "C) 5, 3, 1, 2, 4", "D) 5, 1, 2, 3, 4"],
+    "correct_answer": "A) 5, 1, 3, 2, 4",
+    "explanation": "The logical sequence follows increasing value/preciousness of metals: Iron → Bronze → Silver → Gold → Platinum."
+  },
+  {
+    "id": 6,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Diagnosis 2. Doctor 3. Treatment 4. Disease 5. Recovery",
+    "options": ["A) 4, 2, 1, 3, 5", "B) 2, 4, 1, 3, 5", "C) 4, 1, 2, 3, 5", "D) 2, 1, 4, 3, 5"],
+    "correct_answer": "A) 4, 2, 1, 3, 5",
+    "explanation": "The logical sequence follows medical process: Disease → Doctor → Diagnosis → Treatment → Recovery."
+  },
+  {
+    "id": 7,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Butterfly 2. Larva 3. Egg 4. Pupa 5. Caterpillar",
+    "options": ["A) 3, 2, 5, 4, 1", "B) 3, 5, 2, 4, 1", "C) 2, 3, 5, 4, 1", "D) 3, 2, 4, 5, 1"],
+    "correct_answer": "A) 3, 2, 5, 4, 1",
+    "explanation": "The logical sequence follows butterfly metamorphosis: Egg → Larva → Caterpillar → Pupa → Butterfly."
+  },
+  {
+    "id": 8,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Graduation 2. Primary School 3. Nursery 4. Secondary School 5. College",
+    "options": ["A) 3, 2, 4, 5, 1", "B) 2, 3, 4, 5, 1", "C) 3, 4, 2, 5, 1", "D) 3, 2, 5, 4, 1"],
+    "correct_answer": "A) 3, 2, 4, 5, 1",
+    "explanation": "The logical sequence follows educational progression: Nursery → Primary School → Secondary School → College → Graduation."
+  },
+  {
+    "id": 9,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Sun 2. Universe 3. Milky Way 4. Earth 5. Solar System",
+    "options": ["A) 4, 1, 5, 3, 2", "B) 1, 4, 5, 3, 2", "C) 4, 5, 1, 3, 2", "D) 4, 1, 3, 5, 2"],
+    "correct_answer": "A) 4, 1, 5, 3, 2",
+    "explanation": "The logical sequence follows increasing cosmic scale: Earth → Sun → Solar System → Milky Way → Universe."
+  },
+  {
+    "id": 10,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Wood 2. Forest 3. Furniture 4. Tree 5. Timber",
+    "options": ["A) 2, 4, 5, 1, 3", "B) 4, 2, 5, 1, 3", "C) 2, 5, 4, 1, 3", "D) 2, 4, 1, 5, 3"],
+    "correct_answer": "A) 2, 4, 5, 1, 3",
+    "explanation": "The logical sequence follows wood processing: Forest → Tree → Timber → Wood → Furniture."
+  },
+  {
+    "id": 11,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Bud 2. Petal 3. Seed 4. Fruit 5. Flower",
+    "options": ["A) 3, 1, 5, 2, 4", "B) 1, 3, 5, 2, 4", "C) 3, 5, 1, 2, 4", "D) 3, 1, 2, 5, 4"],
+    "correct_answer": "A) 3, 1, 5, 2, 4",
+    "explanation": "The logical sequence follows flower development: Seed → Bud → Flower → Petal → Fruit."
+  },
+  {
+    "id": 12,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Calf 2. Bull 3. Cow 4. Ox 5. Cattle",
+    "options": ["A) 1, 3, 4, 2, 5", "B) 1, 4, 3, 2, 5", "C) 3, 1, 4, 2, 5", "D) 1, 2, 3, 4, 5"],
+    "correct_answer": "A) 1, 3, 4, 2, 5",
+    "explanation": "The logical sequence follows cattle development: Calf → Cow → Ox → Bull → Cattle (collective term)."
+  },
+  {
+    "id": 13,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Brick 2. Clay 3. House 4. Wall 5. Cement",
+    "options": ["A) 2, 1, 5, 4, 3", "B) 1, 2, 5, 4, 3", "C) 2, 5, 1, 4, 3", "D) 2, 1, 4, 5, 3"],
+    "correct_answer": "A) 2, 1, 5, 4, 3",
+    "explanation": "The logical sequence follows construction: Clay → Brick → Cement → Wall → House."
+  },
+  {
+    "id": 14,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Manuscript 2. Idea 3. Book 4. Draft 5. Publication",
+    "options": ["A) 2, 4, 1, 3, 5", "B) 4, 2, 1, 3, 5", "C) 2, 1, 4, 3, 5", "D) 2, 4, 3, 1, 5"],
+    "correct_answer": "A) 2, 4, 1, 3, 5",
+    "explanation": "The logical sequence follows book creation: Idea → Draft → Manuscript → Book → Publication."
+  },
+  {
+    "id": 15,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Flood 2. Rain 3. Cloud 4. Drought 5. Evaporation",
+    "options": ["A) 5, 3, 2, 1, 4", "B) 3, 5, 2, 1, 4", "C) 5, 2, 3, 1, 4", "D) 5, 3, 1, 2, 4"],
+    "correct_answer": "A) 5, 3, 2, 1, 4",
+    "explanation": "The logical sequence follows water cycle consequences: Evaporation → Cloud → Rain → Flood → Drought."
+  },
+  {
+    "id": 16,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Arrest 2. Crime 3. Judgment 4. Trial 5. Punishment",
+    "options": ["A) 2, 1, 4, 3, 5", "B) 1, 2, 4, 3, 5", "C) 2, 4, 1, 3, 5", "D) 2, 1, 3, 4, 5"],
+    "correct_answer": "A) 2, 1, 4, 3, 5",
+    "explanation": "The logical sequence follows legal process: Crime → Arrest → Trial → Judgment → Punishment."
+  },
+  {
+    "id": 17,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Kilometre 2. Centimetre 3. Metre 4. Millimetre 5. Decimetre",
+    "options": ["A) 4, 2, 5, 3, 1", "B) 2, 4, 5, 3, 1", "C) 4, 5, 2, 3, 1", "D) 4, 2, 3, 5, 1"],
+    "correct_answer": "A) 4, 2, 5, 3, 1",
+    "explanation": "The logical sequence follows increasing length: Millimetre → Centimetre → Decimetre → Metre → Kilometre."
+  },
+  {
+    "id": 18,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Hunger 2. Food 3. Cooking 4. Eating 5. Satisfaction",
+    "options": ["A) 1, 2, 3, 4, 5", "B) 2, 1, 3, 4, 5", "C) 1, 3, 2, 4, 5", "D) 1, 2, 4, 3, 5"],
+    "correct_answer": "A) 1, 2, 3, 4, 5",
+    "explanation": "The logical sequence follows eating process: Hunger → Food → Cooking → Eating → Satisfaction."
+  },
+  {
+    "id": 19,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Proposal 2. Marriage 3. Engagement 4. Wedding 5. Honeymoon",
+    "options": ["A) 1, 3, 2, 4, 5", "B) 3, 1, 2, 4, 5", "C) 1, 2, 3, 4, 5", "D) 1, 3, 4, 2, 5"],
+    "correct_answer": "A) 1, 3, 2, 4, 5",
+    "explanation": "The logical sequence follows marriage events: Proposal → Engagement → Marriage → Wedding → Honeymoon."
+  },
+  {
+    "id": 20,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Wheat 2. Bread 3. Field 4. Flour 5. Dough",
+    "options": ["A) 3, 1, 4, 5, 2", "B) 1, 3, 4, 5, 2", "C) 3, 4, 1, 5, 2", "D) 3, 1, 5, 4, 2"],
+    "correct_answer": "A) 3, 1, 4, 5, 2",
+    "explanation": "The logical sequence follows bread making: Field → Wheat → Flour → Dough → Bread."
+  },
+  {
+    "id": 21,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Adolescence 2. Childhood 3. Birth 4. Death 5. Old Age",
+    "options": ["A) 3, 2, 1, 5, 4", "B) 2, 3, 1, 5, 4", "C) 3, 1, 2, 5, 4", "D) 3, 2, 5, 1, 4"],
+    "correct_answer": "A) 3, 2, 1, 5, 4",
+    "explanation": "The logical sequence follows human life stages: Birth → Childhood → Adolescence → Old Age → Death."
+  },
+  {
+    "id": 22,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Atom 2. Molecule 3. Compound 4. Element 5. Matter",
+    "options": ["A) 1, 4, 2, 3, 5", "B) 4, 1, 2, 3, 5", "C) 1, 2, 4, 3, 5", "D) 1, 4, 3, 2, 5"],
+    "correct_answer": "A) 1, 4, 2, 3, 5",
+    "explanation": "The logical sequence follows chemistry hierarchy: Atom → Element → Molecule → Compound → Matter."
+  },
+  {
+    "id": 23,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Pond 2. Ocean 3. River 4. Lake 5. Sea",
+    "options": ["A) 1, 4, 3, 5, 2", "B) 4, 1, 3, 5, 2", "C) 1, 3, 4, 5, 2", "D) 1, 4, 5, 3, 2"],
+    "correct_answer": "A) 1, 4, 3, 5, 2",
+    "explanation": "The logical sequence follows increasing size of water bodies: Pond → Lake → River → Sea → Ocean."
+  },
+  {
+    "id": 24,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Retirement 2. Job 3. Education 4. Childhood 5. Old Age",
+    "options": ["A) 4, 3, 2, 1, 5", "B) 3, 4, 2, 1, 5", "C) 4, 2, 3, 1, 5", "D) 4, 3, 1, 2, 5"],
+    "correct_answer": "A) 4, 3, 2, 1, 5",
+    "explanation": "The logical sequence follows life progression: Childhood → Education → Job → Retirement → Old Age."
+  },
+  {
+    "id": 25,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Inauguration 2. Planning 3. Construction 4. Foundation 5. Completion",
+    "options": ["A) 2, 4, 3, 5, 1", "B) 4, 2, 3, 5, 1", "C) 2, 3, 4, 5, 1", "D) 2, 4, 5, 3, 1"],
+    "correct_answer": "A) 2, 4, 3, 5, 1",
+    "explanation": "The logical sequence follows building construction: Planning → Foundation → Construction → Completion → Inauguration."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Tadpole 2. Frog 3. Egg 4. Froglet 5. Spawn",
+    "options": ["A) 5, 3, 1, 4, 2", "B) 3, 5, 1, 4, 2", "C) 5, 1, 3, 4, 2", "D) 5, 3, 4, 1, 2"],
+    "correct_answer": "A) 5, 3, 1, 4, 2",
+    "explanation": "The logical sequence follows frog lifecycle: Spawn → Egg → Tadpole → Froglet → Frog."
+  },
+  {
+    "id": 27,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Newspaper 2. Reporter 3. Event 4. Printing 5. Editing",
+    "options": ["A) 3, 2, 5, 4, 1", "B) 2, 3, 5, 4, 1", "C) 3, 5, 2, 4, 1", "D) 3, 2, 4, 5, 1"],
+    "correct_answer": "A) 3, 2, 5, 4, 1",
+    "explanation": "The logical sequence follows newspaper production: Event → Reporter → Editing → Printing → Newspaper."
+  },
+  {
+    "id": 28,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Grapes 2. Wine 3. Vineyard 4. Fermentation 5. Harvest",
+    "options": ["A) 3, 5, 1, 4, 2", "B) 5, 3, 1, 4, 2", "C) 3, 1, 5, 4, 2", "D) 3, 5, 4, 1, 2"],
+    "correct_answer": "A) 3, 5, 1, 4, 2",
+    "explanation": "The logical sequence follows wine making: Vineyard → Harvest → Grapes → Fermentation → Wine."
+  },
+  {
+    "id": 29,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Caterpillar 2. Cocoon 3. Egg 4. Moth 5. Larva",
+    "options": ["A) 3, 5, 1, 2, 4", "B) 5, 3, 1, 2, 4", "C) 3, 1, 5, 2, 4", "D) 3, 5, 2, 1, 4"],
+    "correct_answer": "A) 3, 5, 1, 2, 4",
+    "explanation": "The logical sequence follows moth lifecycle: Egg → Larva → Caterpillar → Cocoon → Moth."
+  },
+  {
+    "id": 30,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Teenager 2. Toddler 3. Newborn 4. Youth 5. Middle Age",
+    "options": ["A) 3, 2, 1, 4, 5", "B) 2, 3, 1, 4, 5", "C) 3, 1, 2, 4, 5", "D) 3, 2, 4, 1, 5"],
+    "correct_answer": "A) 3, 2, 1, 4, 5",
+    "explanation": "The logical sequence follows age progression: Newborn → Toddler → Teenager → Youth → Middle Age."
+  },
+  {
+    "id": 31,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Soil 2. Crop 3. Harvest 4. Ploughing 5. Sowing",
+    "options": ["A) 1, 4, 5, 2, 3", "B) 4, 1, 5, 2, 3", "C) 1, 5, 4, 2, 3", "D) 1, 4, 2, 5, 3"],
+    "correct_answer": "A) 1, 4, 5, 2, 3",
+    "explanation": "The logical sequence follows farming: Soil → Ploughing → Sowing → Crop → Harvest."
+  },
+  {
+    "id": 32,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Ambulance 2. Accident 3. Hospital 4. Recovery 5. Treatment",
+    "options": ["A) 2, 1, 3, 5, 4", "B) 1, 2, 3, 5, 4", "C) 2, 3, 1, 5, 4", "D) 2, 1, 5, 3, 4"],
+    "correct_answer": "A) 2, 1, 3, 5, 4",
+    "explanation": "The logical sequence follows emergency response: Accident → Ambulance → Hospital → Treatment → Recovery."
+  },
+  {
+    "id": 33,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Silk 2. Cocoon 3. Silkworm 4. Fabric 5. Thread",
+    "options": ["A) 3, 2, 1, 5, 4", "B) 2, 3, 1, 5, 4", "C) 3, 1, 2, 5, 4", "D) 3, 2, 5, 1, 4"],
+    "correct_answer": "A) 3, 2, 1, 5, 4",
+    "explanation": "The logical sequence follows silk production: Silkworm → Cocoon → Silk → Thread → Fabric."
+  },
+  {
+    "id": 34,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Examination 2. Result 3. Study 4. Admission 5. Degree",
+    "options": ["A) 4, 3, 1, 2, 5", "B) 3, 4, 1, 2, 5", "C) 4, 1, 3, 2, 5", "D) 4, 3, 2, 1, 5"],
+    "correct_answer": "A) 4, 3, 1, 2, 5",
+    "explanation": "The logical sequence follows academic process: Admission → Study → Examination → Result → Degree."
+  },
+  {
+    "id": 35,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Milk 2. Cow 3. Butter 4. Cream 5. Cheese",
+    "options": ["A) 2, 1, 4, 3, 5", "B) 1, 2, 4, 3, 5", "C) 2, 4, 1, 3, 5", "D) 2, 1, 3, 4, 5"],
+    "correct_answer": "A) 2, 1, 4, 3, 5",
+    "explanation": "The logical sequence follows dairy production: Cow → Milk → Cream → Butter → Cheese."
+  },
+  {
+    "id": 36,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Complaint 2. Solution 3. Problem 4. Analysis 5. Implementation",
+    "options": ["A) 3, 1, 4, 2, 5", "B) 1, 3, 4, 2, 5", "C) 3, 4, 1, 2, 5", "D) 3, 1, 2, 4, 5"],
+    "correct_answer": "A) 3, 1, 4, 2, 5",
+    "explanation": "The logical sequence follows problem-solving: Problem → Complaint → Analysis → Solution → Implementation."
+  },
+  {
+    "id": 37,
+    "topic": "Logical Sequence of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following words in a logical sequence: 1. Sunrise 2. Midnight 3. Noon 4. Sunset 5. Dawn",
+    "options": ["A) 2, 5, 1, 3, 4", "B) 5, 2, 1, 3, 4", "C) 2, 1, 5, 3, 4", "D) 2, 5, 3, 1, 

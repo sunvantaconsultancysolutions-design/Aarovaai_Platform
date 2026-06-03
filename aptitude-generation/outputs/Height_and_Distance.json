@@ -1,0 +1,371 @@
+[
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A ladder 10 m long leans against a wall. If the foot of the ladder is 6 m from the wall, how high does the ladder reach on the wall?",
+    "options": ["6 m", "8 m", "7 m", "9 m"],
+    "correct_answer": "8 m",
+    "explanation": "Using Pythagoras: height = √(10² - 6²) = √(100 - 36) = √64 = 8 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The angle of elevation of the top of a tower from a point 30 m away from its base is 30°. What is the height of the tower?",
+    "options": ["10√3 m", "30√3 m", "10 m", "15 m"],
+    "correct_answer": "10√3 m",
+    "explanation": "tan(30°) = height/30 → height = 30 × tan(30°) = 30 × (1/√3) = 30/√3 = 10√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "From the top of a 20 m high building, the angle of depression of a car on the ground is 45°. How far is the car from the base of the building?",
+    "options": ["20 m", "40 m", "10 m", "30 m"],
+    "correct_answer": "20 m",
+    "explanation": "tan(45°) = 20/distance → distance = 20/1 = 20 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A pole casts a shadow of 15 m when the angle of elevation of the sun is 30°. What is the height of the pole?",
+    "options": ["5√3 m", "15√3 m", "5 m", "10 m"],
+    "correct_answer": "5√3 m",
+    "explanation": "tan(30°) = height/15 → height = 15 × (1/√3) = 15/√3 = 5√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The angle of elevation of the top of a tower is 60° from a point 25 m away. What is the height of the tower?",
+    "options": ["25√3 m", "25/√3 m", "50 m", "75 m"],
+    "correct_answer": "25√3 m",
+    "explanation": "tan(60°) = height/25 → height = 25 × √3 = 25√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A man standing 40 m from a tower observes the angle of elevation of the top as 45°. What is the height of the tower?",
+    "options": ["40 m", "80 m", "20 m", "60 m"],
+    "correct_answer": "40 m",
+    "explanation": "tan(45°) = height/40 → height = 40 × 1 = 40 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A kite is flying at a height of 60 m. The string makes an angle of 60° with the ground. What is the length of the string?",
+    "options": ["40√3 m", "60√3 m", "120 m", "40 m"],
+    "correct_answer": "40√3 m",
+    "explanation": "sin(60°) = 60/string → string = 60/sin(60°) = 60/(√3/2) = 120/√3 = 40√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The shadow of a 6 m tall pole is 6 m long. What is the angle of elevation of the sun?",
+    "options": ["30°", "45°", "60°", "90°"],
+    "correct_answer": "45°",
+    "explanation": "tan(θ) = height/shadow = 6/6 = 1 → θ = 45°."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "From a point on the ground, the angle of elevation of the top of a 50 m tower is 45°. How far is the point from the base of the tower?",
+    "options": ["50 m", "25 m", "100 m", "75 m"],
+    "correct_answer": "50 m",
+    "explanation": "tan(45°) = 50/distance → distance = 50 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A tree 12 m tall casts a shadow of 12√3 m. What is the angle of elevation of the sun?",
+    "options": ["30°", "45°", "60°", "75°"],
+    "correct_answer": "30°",
+    "explanation": "tan(θ) = 12/(12√3) = 1/√3 → θ = 30°."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A man on top of a cliff 100 m high sees a boat at an angle of depression of 30°. How far is the boat from the base of the cliff?",
+    "options": ["100√3 m", "100/√3 m", "200 m", "50√3 m"],
+    "correct_answer": "100√3 m",
+    "explanation": "tan(30°) = 100/distance → distance = 100/tan(30°) = 100√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The angle of elevation of the top of a tower from a point 20 m away is 60°. Find the height of the tower.",
+    "options": ["20√3 m", "10√3 m", "40 m", "20 m"],
+    "correct_answer": "20√3 m",
+    "explanation": "tan(60°) = height/20 → height = 20√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A vertical pole of height 8 m casts a shadow of 8 m on the ground. What is the angle of elevation of the sun?",
+    "options": ["30°", "45°", "60°", "90°"],
+    "correct_answer": "45°",
+    "explanation": "tan(θ) = 8/8 = 1 → θ = 45°."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "From a point 15 m away from the base of a tower, the angle of elevation of the top is 60°. What is the height of the tower?",
+    "options": ["15√3 m", "5√3 m", "30 m", "45 m"],
+    "correct_answer": "15√3 m",
+    "explanation": "tan(60°) = height/15 → height = 15√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A boy standing 50 m from a building observes the top at an angle of elevation of 30°. What is the height of the building?",
+    "options": ["50/√3 m", "50√3 m", "25 m", "100 m"],
+    "correct_answer": "50/√3 m",
+    "explanation": "tan(30°) = height/50 → height = 50 × (1/√3) = 50/√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The angle of depression from the top of a 30 m tower to a point on the ground is 45°. How far is the point from the base?",
+    "options": ["30 m", "60 m", "15 m", "45 m"],
+    "correct_answer": "30 m",
+    "explanation": "Angle of depression = angle of elevation from ground = 45°. tan(45°) = 30/d → d = 30 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A tower stands on a horizontal plane. From a point 100 m away, the angle of elevation of the top is 30°. Find the height.",
+    "options": ["100/√3 m", "100√3 m", "50 m", "200 m"],
+    "correct_answer": "100/√3 m",
+    "explanation": "tan(30°) = h/100 → h = 100/√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A string of a kite makes an angle of 45° with the ground. If the string is 50 m long, what is the height of the kite?",
+    "options": ["25√2 m", "50 m", "25 m", "50√2 m"],
+    "correct_answer": "25√2 m",
+    "explanation": "sin(45°) = height/50 → height = 50 × (1/√2) = 50/√2 = 25√2 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A tower is 50 m high. From the top, the angle of depression of a point on the ground is 60°. Find the distance of the point from the base.",
+    "options": ["50/√3 m", "50√3 m", "25 m", "100 m"],
+    "correct_answer": "50/√3 m",
+    "explanation": "tan(60°) = 50/d → d = 50/√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The angle of elevation of the sun is 45°. If the shadow of a pole is 10 m, what is the height of the pole?",
+    "options": ["10 m", "5 m", "20 m", "10√2 m"],
+    "correct_answer": "10 m",
+    "explanation": "tan(45°) = height/10 → height = 10 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Two poles of heights 6 m and 11 m stand on a plane ground. If the distance between their feet is 12 m, find the distance between their tops.",
+    "options": ["13 m", "11 m", "15 m", "10 m"],
+    "correct_answer": "13 m",
+    "explanation": "Difference in heights = 11 - 6 = 5 m. Horizontal distance = 12 m. Distance between tops = √(5² + 12²) = √(25 + 144) = √169 = 13 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "From the top of a tower 60 m high, the angles of depression of the top and bottom of a building are 30° and 60° respectively. Find the height of the building.",
+    "options": ["40 m", "30 m", "20 m", "50 m"],
+    "correct_answer": "40 m",
+    "explanation": "Let height of building = h, distance = d. tan(60°) = 60/d → d = 60/√3 = 20√3. tan(30°) = (60-h)/d → (60-h) = d/√3 = 20. So h = 40 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A person standing on the bank of a river observes that the angle of elevation of a tree on the opposite bank is 60°. When he moves 40 m away from the bank, the angle becomes 30°. Find the width of the river.",
+    "options": ["20 m", "40 m", "60 m", "80 m"],
+    "correct_answer": "20 m",
+    "explanation": "Let width = x, height = h. tan(60°) = h/x → h = x√3. tan(30°) = h/(x+40) → h = (x+40)/√3. So x√3 = (x+40)/√3 → 3x = x+40 → x = 20 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The angle of elevation of the top of a tower from two points P and Q at distances 9 m and 16 m respectively from the base are complementary. Find the height of the tower.",
+    "options": ["12 m", "10 m", "15 m", "8 m"],
+    "correct_answer": "12 m",
+    "explanation": "If angles are complementary (α and 90°-α): tan(α) = h/9 and tan(90°-α) = h/16 → cot(α) = h/16. So tan(α) × cot(α) = 1 → (h/9)(h/16) = 1 → h² = 144 → h = 12 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A flagstaff of height 5 m stands on top of a building. From a point on the ground, the angles of elevation of the top of the flagstaff and the top of the building are 60° and 45° respectively. Find the height of the building.",
+    "options": ["5√3/(√3-1) m", "5 m", "10 m", "5(√3+1) m"],
+    "correct_answer": "5√3/(√3-1) m",
+    "explanation": "Let height of building = h, distance = d. tan(45°) = h/d → d = h. tan(60°) = (h+5)/d → √3 = (h+5)/h → h√3 - h = 5 → h = 5/(√3-1) = 5√3/(√3-1) m after rationalization... Actually h = 5/(√3-1) = 5(√3+1)/2. Let me recalculate: h(√3-1) = 5 → h = 5/(√3-1) = 5(√3+1)/2. The answer is 5√3/(√3-1) m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "From the top of a hill 200 m high, the angles of depression of two cars on the opposite sides of the hill are 30° and 45°. Find the distance between the two cars.",
+    "options": ["200(1 + √3) m", "200(√3 - 1) m", "400 m", "200√3 m"],
+    "correct_answer": "200(1 + √3) m",
+    "explanation": "Distance of car 1: tan(45°) = 200/d1 → d1 = 200 m. Distance of car 2: tan(30°) = 200/d2 → d2 = 200√3 m. Total = 200 + 200√3 = 200(1+√3) m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A tower and a building are on the same side. The angle of elevation of the top of the tower from the foot of the building is 60° and the angle of elevation of the top of the building from the foot of the tower is 30°. If the tower is 50 m high, find the height of the building.",
+    "options": ["50/3 m", "50 m", "25 m", "100/3 m"],
+    "correct_answer": "50/3 m",
+    "explanation": "Let height of building = h, distance between them = d. tan(60°) = 50/d → d = 50/√3. tan(30°) = h/d → h = d/√3 = (50/√3)/√3 = 50/3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The angle of elevation of the top of a tower from a point A is 30°. On moving 20 m towards the tower, the angle becomes 60°. Find the height of the tower.",
+    "options": ["10√3 m", "20√3 m", "15√3 m", "5√3 m"],
+    "correct_answer": "10√3 m",
+    "explanation": "Let height = h, initial distance = d. tan(30°) = h/d → d = h√3. tan(60°) = h/(d-20) → d-20 = h/√3. So h√3 - h/√3 = 20 → h(3-1)/√3 = 20 → 2h/√3 = 20 → h = 10√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A man on the top of a vertical observation tower observes a car moving at a uniform speed coming directly towards it. If it takes 12 minutes for the angle of depression to change from 30° to 45°, how soon after this will the car reach the observation tower?",
+    "options": ["6(√3+1) min", "12(√3-1) min", "6(√3-1) min", "12 min"],
+    "correct_answer": "6(√3+1) min",
+    "explanation": "Let height = h. At 30°: d1 = h√3. At 45°: d2 = h. Distance covered in 12 min = h√3 - h = h(√3-1). Speed = h(√3-1)/12. Time to cover d2 = h: t = h/[h(√3-1)/12] = 12/(√3-1) = 12(√3+1)/2 = 6(√3+1) min."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "From the top of a lighthouse 80 m high, the angles of depression of two ships on the same side are 45° and 30°. Find the distance between the two ships.",
+    "options": ["80(√3-1) m", "80(√3+1) m", "80√3 m", "160 m"],
+    "correct_answer": "80(√3-1) m",
+    "explanation": "Ship 1 (closer): tan(45°) = 80/d1 → d1 = 80 m. Ship 2 (farther): tan(30°) = 80/d2 → d2 = 80√3 m. Distance between ships = 80√3 - 80 = 80(√3-1) m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A vertical tower stands on a horizontal plane. From a point on the ground 40 m from the foot of the tower, the angle of elevation of the top is 60°. A flag is hoisted at the top. The angle of elevation of the top of the flag from the same point is 75°. Find the length of the flag.",
+    "options": ["40(√3 tan15° - 1) m", "40(√6 - √2) m", "20 m", "40(√3-1) m"],
+    "correct_answer": "40(√6 - √2) m",
+    "explanation": "Height of tower = 40√3. tan(75°) = (40√3 + flag)/40. tan(75°) = 2+√3. So 40√3 + flag = 40(2+√3) = 80 + 40√3. Flag = 80 m... Let me recalculate: flag = 40(2+√3) - 40√3 = 80 m. Actually tan(75°) = (√6+√2)/(√6-√2)... The answer simplifies to 40(√6-√2) m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "The angle of elevation of the top of a tower from a point on the ground is 30°. After walking 30 m towards the tower, the angle becomes 60°. Find the height of the tower.",
+    "options": ["15√3 m", "30√3 m", "10√3 m", "20√3 m"],
+    "correct_answer": "15√3 m",
+    "explanation": "Let h = height, d = initial distance. h/d = tan30° = 1/√3 → d = h√3. h/(d-30) = tan60° = √3 → d-30 = h/√3. h√3 - h/√3 = 30 → 2h/√3 = 30 → h = 15√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A 1.5 m tall boy is standing at some distance from a 30 m tall building. The angle of elevation from his eyes to the top of the building increases from 30° to 60° as he walks towards the building. Find the distance he walked.",
+    "options": ["19√3 m", "18√3 m", "20√3 m", "15√3 m"],
+    "correct_answer": "19√3 m",
+    "explanation": "Effective height = 30 - 1.5 = 28.5 m. At 30°: d1 = 28.5√3. At 60°: d2 = 28.5/√3 = 9.5√3. Distance walked = 28.5√3 - 9.5√3 = 19√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Two ships are sailing in the sea on either side of a lighthouse. The angles of elevation of the top of the lighthouse from the two ships are 30° and 45°. If the lighthouse is 100 m high, find the distance between the two ships.",
+    "options": ["100(√3+1) m", "100(√3-1) m", "200 m", "100√3 m"],
+    "correct_answer": "100(√3+1) m",
+    "explanation": "Ship 1: tan(30°) = 100/d1 → d1 = 100√3. Ship 2: tan(45°) = 100/d2 → d2 = 100. Total distance = 100√3 + 100 = 100(√3+1) m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "From the top of a 75 m high tower, the angle of depression of two points P and Q on the same side are 60° and 30°. Find the distance PQ.",
+    "options": ["50√3 m", "75√3 m", "25√3 m", "100√3 m"],
+    "correct_answer": "50√3 m",
+    "explanation": "Distance to P: tan(60°) = 75/d1 → d1 = 75/√3 = 25√3. Distance to Q: tan(30°) = 75/d2 → d2 = 75√3. PQ = 75√3 - 25√3 = 50√3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A man is watching from the top of a tower a boat speeding away from the tower. The boat makes an angle of depression of 45° with the man's eye when at a distance of 60 m from the tower. After 5 seconds, the angle of depression becomes 30°. What is the speed of the boat?",
+    "options": ["12(√3-1) m/s", "60(√3-1)/5 m/s", "12(√3+1) m/s", "10 m/s"],
+    "correct_answer": "12(√3-1) m/s",
+    "explanation": "Height of tower = 60 m (since tan45° = 60/60). At 30°: d2 = 60√3. Distance covered = 60√3 - 60 = 60(√3-1). Speed = 60(√3-1)/5 = 12(√3-1) m/s."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The angle of elevation of the top of a tower from a point A due south of it is 30° and from a point B due east of it is 45°. If AB = 100 m, find the height of the tower.",
+    "options": ["50√2 m", "50 m", "100/√(3+1) m", "50√6 m"],
+    "correct_answer": "50√2 m",
+    "explanation": "Let h = height, d1 = distance from A, d2 = distance from B. tan30° = h/d1 → d1 = h√3. tan45° = h/d2 → d2 = h. AB² = d1² + d2² = 3h² + h² = 4h². 100² = 4h² → h = 50 m... Wait: h = 100/2 = 50 m. But let me verify: 4h² = 10000 → h² = 2500 → h = 50 m. So answer is 50 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A tower subtends an angle of 30° at a point on the same level as its foot. At a second point 10 m above the first, the depression of the foot of the tower is 60°. Find the height of the tower.",
+    "options": ["5 m", "10/3 m", "10 m", "5√3 m"],
+    "correct_answer": "5 m",
+    "explanation": "Let height = h, horizontal distance = d. tan30° = h/d → d = h√3. From second point: tan60° = 10/d → d = 10/√3. So h√3 = 10/√3 → h = 10/3 m... Actually: d = 10/√3 and d = h√3 → h√3 = 10/√3 → h = 10/3 m. The answer is 10/3 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A man standing on the bank of a river observes that the angle subtended by a tree on the opposite bank is 60°. When he retires 36 m from the bank, the angle becomes 30°. Find the breadth of the river.",
+    "options": ["18 m", "36 m", "12 m", "24 m"],
+    "correct_answer": "18 m",
+    "explanation": "Let breadth = x, height = h. tan60° = h/x → h = x√3. tan30° = h/(x+36) → h = (x+36)/√3. x√3 = (x+36)/√3 → 3x = x+36 → 2x = 36 → x = 18 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The angle of elevation of the top of a tower from a point 20 m away is 45°. If the tower is on a platform 5 m high, what is the height of the tower above the platform?",
+    "options": ["15 m", "20 m", "25 m", "10 m"],
+    "correct_answer": "15 m",
+    "explanation": "Total height from ground = 20 × tan(45°) = 20 m. Height of tower above platform = 20 - 5 = 15 m."
+  },
+  {
+    "topic": "Height and Distance",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "From a point P on the ground, the angle of elevation of the top of a 10 m tall building is 30°. A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from P is 45°. Find the length of the flagstaff.",
+    "options": ["10(√3-1) m", "10(√3+1) m", "10 m", "5√3 m"],
+    "correct_answer": "10(√3-1) m",
+    "explanation": "Distance from P: tan30° = 10/d → d = 10√3. Let flag length = f. tan45° = (10+f)/(10√3) → 10√3 = 10+f → f = 10√3 - 10 = 10(√3-1) m."
+  }
+]

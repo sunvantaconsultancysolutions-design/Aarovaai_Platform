@@ -1,0 +1,509 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a database?",
+    "options": ["A) A collection of related data organized for easy access", "B) A programming language", "C) An operating system component", "D) A type of network protocol"],
+    "correct_answer": "A) A collection of related data organized for easy access",
+    "explanation": "A database is an organized collection of structured information or data, typically stored electronically in a computer system, allowing easy access, management, and updating."
+  },
+  {
+    "id": 2,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DBMS stand for?",
+    "options": ["A) Data Base Management System", "B) Data Base Monitoring System", "C) Digital Base Management System", "D) Data Backup Management System"],
+    "correct_answer": "A) Data Base Management System",
+    "explanation": "DBMS stands for Database Management System — software that interacts with end users, applications, and the database itself to capture and analyze data."
+  },
+  {
+    "id": 3,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of database model?",
+    "options": ["A) Relational Model", "B) Hierarchical Model", "C) Sequential Model", "D) Network Model"],
+    "correct_answer": "C) Sequential Model",
+    "explanation": "The main database models are Relational, Hierarchical, Network, and Object-Oriented. Sequential Model is not a recognized database model."
+  },
+  {
+    "id": 4,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relational database, data is stored in:",
+    "options": ["A) Trees", "B) Tables (Relations)", "C) Graphs", "D) Linked Lists"],
+    "correct_answer": "B) Tables (Relations)",
+    "explanation": "In a relational database, data is organized into tables (also called relations), where each table consists of rows (tuples) and columns (attributes)."
+  },
+  {
+    "id": 5,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a primary key in a database table?",
+    "options": ["A) A key that can have duplicate values", "B) A key that uniquely identifies each record in a table", "C) A key used only for sorting", "D) A key that links two databases"],
+    "correct_answer": "B) A key that uniquely identifies each record in a table",
+    "explanation": "A primary key is a column or set of columns that uniquely identifies each row in a table. It cannot contain NULL values and must be unique."
+  },
+  {
+    "id": 6,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to retrieve data from a database?",
+    "options": ["A) INSERT", "B) UPDATE", "C) SELECT", "D) DELETE"],
+    "correct_answer": "C) SELECT",
+    "explanation": "The SELECT statement is used to query and retrieve data from one or more tables in a database. It is the most commonly used SQL command."
+  },
+  {
+    "id": 7,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a foreign key?",
+    "options": ["A) A key imported from another country's database", "B) A key that references the primary key of another table", "C) A key that is always encrypted", "D) A key used for backup purposes"],
+    "correct_answer": "B) A key that references the primary key of another table",
+    "explanation": "A foreign key is a field in one table that refers to the primary key in another table, establishing a link between the two tables and enforcing referential integrity."
+  },
+  {
+    "id": 8,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a popular Relational DBMS?",
+    "options": ["A) MongoDB", "B) Redis", "C) MySQL", "D) Cassandra"],
+    "correct_answer": "C) MySQL",
+    "explanation": "MySQL is a widely used open-source Relational Database Management System. MongoDB and Redis are NoSQL databases, while Cassandra is a wide-column store."
+  },
+  {
+    "id": 9,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does SQL stand for?",
+    "options": ["A) Structured Query Language", "B) Simple Query Language", "C) Standard Query Logic", "D) Sequential Query Language"],
+    "correct_answer": "A) Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language. It is the standard language used to communicate with relational databases for querying, updating, and managing data."
+  },
+  {
+    "id": 10,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A row in a relational database table is also called a:",
+    "options": ["A) Attribute", "B) Column", "C) Tuple", "D) Schema"],
+    "correct_answer": "C) Tuple",
+    "explanation": "In relational database terminology, a row is called a tuple. Each tuple represents a single record in the table."
+  },
+  {
+    "id": 11,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A column in a relational database table is also called a/an:",
+    "options": ["A) Tuple", "B) Attribute", "C) Record", "D) Instance"],
+    "correct_answer": "B) Attribute",
+    "explanation": "In relational database terminology, a column is called an attribute. Each attribute represents a property or characteristic of the entity being stored."
+  },
+  {
+    "id": 12,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes data redundancy?",
+    "options": ["A) Storing data in encrypted form", "B) The same data being stored in multiple places unnecessarily", "C) Backing up data to a remote server", "D) Compressing data to save space"],
+    "correct_answer": "B) The same data being stored in multiple places unnecessarily",
+    "explanation": "Data redundancy occurs when the same piece of data is stored in multiple locations. DBMS helps reduce redundancy through normalization and centralized data management."
+  },
+  {
+    "id": 13,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the WHERE clause in SQL?",
+    "options": ["A) To sort the results", "B) To filter records based on a condition", "C) To join two tables", "D) To group records together"],
+    "correct_answer": "B) To filter records based on a condition",
+    "explanation": "The WHERE clause is used to filter records and extract only those that fulfill a specified condition. It limits the rows returned by a SELECT, UPDATE, or DELETE statement."
+  },
+  {
+    "id": 14,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to add new records to a table?",
+    "options": ["A) ADD", "B) INSERT INTO", "C) APPEND", "D) CREATE"],
+    "correct_answer": "B) INSERT INTO",
+    "explanation": "The INSERT INTO statement is used to insert new rows of data into a table. You specify the table name and the values to be inserted."
+  },
+  {
+    "id": 15,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a schema in a database?",
+    "options": ["A) A backup copy of the database", "B) The logical structure or blueprint of the database", "C) A type of SQL query", "D) A database user account"],
+    "correct_answer": "B) The logical structure or blueprint of the database",
+    "explanation": "A database schema defines the logical structure of the database, including tables, fields, relationships, views, and constraints. It acts as a blueprint for how data is organized."
+  },
+  {
+    "id": 16,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DDL (Data Definition Language) command?",
+    "options": ["A) SELECT", "B) INSERT", "C) CREATE", "D) UPDATE"],
+    "correct_answer": "C) CREATE",
+    "explanation": "DDL commands define the database structure. CREATE, ALTER, and DROP are DDL commands. SELECT, INSERT, and UPDATE are DML (Data Manipulation Language) commands."
+  },
+  {
+    "id": 17,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DML (Data Manipulation Language) command?",
+    "options": ["A) CREATE", "B) DROP", "C) ALTER", "D) DELETE"],
+    "correct_answer": "D) DELETE",
+    "explanation": "DML commands manipulate data within existing tables. DELETE, INSERT, UPDATE, and SELECT are DML commands. CREATE, DROP, and ALTER are DDL commands."
+  },
+  {
+    "id": 18,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ACID stand for in database transactions?",
+    "options": ["A) Atomicity, Consistency, Isolation, Durability", "B) Accuracy, Consistency, Integrity, Durability", "C) Atomicity, Concurrency, Isolation, Data", "D) Accuracy, Concurrency, Integrity, Data"],
+    "correct_answer": "A) Atomicity, Consistency, Isolation, Durability",
+    "explanation": "ACID properties ensure reliable database transactions: Atomicity (all or nothing), Consistency (valid state), Isolation (independent transactions), Durability (permanent changes)."
+  },
+  {
+    "id": 19,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a database, NULL means:",
+    "options": ["A) Zero value", "B) Empty string", "C) Unknown or missing value", "D) False value"],
+    "correct_answer": "C) Unknown or missing value",
+    "explanation": "NULL in a database represents an unknown, missing, or inapplicable value. It is different from zero (0) or an empty string ('')."
+  },
+  {
+    "id": 20,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to sort the result set?",
+    "options": ["A) GROUP BY", "B) ORDER BY", "C) SORT BY", "D) ARRANGE BY"],
+    "correct_answer": "B) ORDER BY",
+    "explanation": "The ORDER BY clause is used to sort the result set in ascending (ASC) or descending (DESC) order based on one or more columns."
+  },
+  {
+    "id": 21,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an index in a database?",
+    "options": ["A) A list of all database users", "B) A data structure that improves the speed of data retrieval", "C) A backup of the database", "D) A type of constraint"],
+    "correct_answer": "B) A data structure that improves the speed of data retrieval",
+    "explanation": "An index is a database object that speeds up data retrieval operations on a table at the cost of additional storage space and slower write operations."
+  },
+  {
+    "id": 22,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid SQL data type?",
+    "options": ["A) INTEGER", "B) VARCHAR", "C) BOOLEAN", "D) CHARACTERSET"],
+    "correct_answer": "D) CHARACTERSET",
+    "explanation": "Common SQL data types include INTEGER, VARCHAR, BOOLEAN, DATE, FLOAT, etc. CHARACTERSET is not a standard SQL data type."
+  },
+  {
+    "id": 23,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of a SELECT * FROM Employees query?",
+    "options": ["A) Retrieves only the first row", "B) Retrieves all columns and all rows from the Employees table", "C) Retrieves only the column names", "D) Deletes all records from Employees"],
+    "correct_answer": "B) Retrieves all columns and all rows from the Employees table",
+    "explanation": "SELECT * means select all columns, and without a WHERE clause, it returns all rows. So SELECT * FROM Employees returns every column and every row in the table."
+  },
+  {
+    "id": 24,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to remove a table from a database permanently?",
+    "options": ["A) DELETE", "B) REMOVE", "C) DROP", "D) TRUNCATE"],
+    "correct_answer": "C) DROP",
+    "explanation": "DROP TABLE removes the table structure and all its data permanently from the database. DELETE removes rows but keeps the table, and TRUNCATE removes all rows but keeps the structure."
+  },
+  {
+    "id": 25,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of ER in ER Diagram?",
+    "options": ["A) Entity Relationship", "B) Element Record", "C) Entity Record", "D) Element Relationship"],
+    "correct_answer": "A) Entity Relationship",
+    "explanation": "ER stands for Entity-Relationship. An ER Diagram is a visual representation of entities, their attributes, and the relationships between them in a database."
+  },
+  {
+    "id": 26,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a NoSQL database?",
+    "options": ["A) Oracle", "B) PostgreSQL", "C) MongoDB", "D) Microsoft SQL Server"],
+    "correct_answer": "C) MongoDB",
+    "explanation": "MongoDB is a NoSQL document-oriented database. Oracle, PostgreSQL, and Microsoft SQL Server are all relational (SQL) databases."
+  },
+  {
+    "id": 27,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the GROUP BY clause do in SQL?",
+    "options": ["A) Sorts records in ascending order", "B) Groups rows with the same values in specified columns", "C) Filters records based on a condition", "D) Joins two tables together"],
+    "correct_answer": "B) Groups rows with the same values in specified columns",
+    "explanation": "GROUP BY groups rows that have the same values in specified columns into summary rows. It is often used with aggregate functions like COUNT, SUM, AVG, MAX, MIN."
+  },
+  {
+    "id": 28,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which constraint ensures that a column cannot have NULL values?",
+    "options": ["A) UNIQUE", "B) PRIMARY KEY", "C) NOT NULL", "D) CHECK"],
+    "correct_answer": "C) NOT NULL",
+    "explanation": "The NOT NULL constraint ensures that a column cannot store NULL values. Every row must have a value for that column."
+  },
+  {
+    "id": 29,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is normalization in databases?",
+    "options": ["A) Converting data to uppercase", "B) The process of organizing data to reduce redundancy and improve integrity", "C) Encrypting database passwords", "D) Compressing database files"],
+    "correct_answer": "B) The process of organizing data to reduce redundancy and improve integrity",
+    "explanation": "Normalization is the process of structuring a relational database to reduce data redundancy and improve data integrity by dividing large tables into smaller related tables."
+  },
+  {
+    "id": 30,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL aggregate function returns the total number of rows?",
+    "options": ["A) SUM()", "B) TOTAL()", "C) COUNT()", "D) NUMBER()"],
+    "correct_answer": "C) COUNT()",
+    "explanation": "COUNT() is an aggregate function that returns the number of rows that match a specified condition. COUNT(*) counts all rows including NULLs."
+  },
+  {
+    "id": 31,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a view in a database?",
+    "options": ["A) A physical copy of a table", "B) A virtual table based on the result of a SQL query", "C) A type of index", "D) A database backup file"],
+    "correct_answer": "B) A virtual table based on the result of a SQL query",
+    "explanation": "A view is a virtual table whose contents are defined by a SQL query. It does not store data physically but presents data from one or more tables."
+  },
+  {
+    "id": 32,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct syntax to update a record in SQL?",
+    "options": ["A) MODIFY table SET column = value WHERE condition", "B) UPDATE table SET column = value WHERE condition", "C) CHANGE table SET column = value WHERE condition", "D) ALTER table SET column = value WHERE condition"],
+    "correct_answer": "B) UPDATE table SET column = value WHERE condition",
+    "explanation": "The correct SQL syntax for updating records is: UPDATE table_name SET column_name = value WHERE condition. Without WHERE, all rows would be updated."
+  },
+  {
+    "id": 33,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database terminology, what is an entity?",
+    "options": ["A) A SQL command", "B) A real-world object or concept that can be stored in a database", "C) A type of relationship", "D) A database constraint"],
+    "correct_answer": "B) A real-world object or concept that can be stored in a database",
+    "explanation": "An entity is a real-world object, person, place, or concept about which data can be stored. For example, Student, Employee, and Product are entities."
+  },
+  {
+    "id": 34,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the DISTINCT keyword do in SQL?",
+    "options": ["A) Sorts the result in descending order", "B) Returns only unique (non-duplicate) values", "C) Filters NULL values", "D) Counts distinct rows only"],
+    "correct_answer": "B) Returns only unique (non-duplicate) values",
+    "explanation": "The DISTINCT keyword in a SELECT statement eliminates duplicate rows from the result set, returning only unique values."
+  },
+  {
+    "id": 35,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DCL (Data Control Language) command?",
+    "options": ["A) SELECT", "B) CREATE", "C) GRANT", "D) INSERT"],
+    "correct_answer": "C) GRANT",
+    "explanation": "DCL commands control access to data. GRANT and REVOKE are DCL commands. GRANT gives privileges to users, while REVOKE removes them."
+  },
+  {
+    "id": 36,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": ["A) To filter individual rows before grouping", "B) To filter groups after GROUP BY has been applied", "C) To sort the result set", "D) To join tables"],
+    "correct_answer": "B) To filter groups after GROUP BY has been applied",
+    "explanation": "HAVING is used to filter groups created by GROUP BY, similar to how WHERE filters individual rows. HAVING can use aggregate functions, but WHERE cannot."
+  },
+  {
+    "id": 37,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of JOIN returns all rows from both tables, with NULLs where there is no match?",
+    "options": ["A) INNER JOIN", "B) LEFT JOIN", "C) RIGHT JOIN", "D) FULL OUTER JOIN"],
+    "correct_answer": "D) FULL OUTER JOIN",
+    "explanation": "FULL OUTER JOIN returns all rows from both tables. Where there is no match, NULL values are returned for the columns of the table without a matching row."
+  },
+  {
+    "id": 38,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a transaction in a database?",
+    "options": ["A) A type of SQL query", "B) A unit of work that is performed against a database", "C) A database backup operation", "D) A type of index"],
+    "correct_answer": "B) A unit of work that is performed against a database",
+    "explanation": "A transaction is a sequence of one or more SQL operations treated as a single unit of work. It either completes fully (COMMIT) or is rolled back entirely (ROLLBACK)."
+  },
+  {
+    "id": 39,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the average value of a numeric column?",
+    "options": ["A) MEAN()", "B) AVERAGE()", "C) AVG()", "D) MID()"],
+    "correct_answer": "C) AVG()",
+    "explanation": "AVG() is the SQL aggregate function that calculates the average value of a numeric column. It ignores NULL values in its calculation."
+  },
+  {
+    "id": 40,
+    "topic": "Introduction to Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the three-schema architecture of a DBMS?",
+    "options": ["A) Physical, Logical, View levels", "B) Input, Process, Output levels", "C) Client, Server, Database levels", "D) Read, Write, Execute levels"],
+    "correct_answer": "A) Physical, Logical, View levels",
+    "explanation": "The three-schema architecture consists of: Internal/Physical schema (how data is stored), Conceptual/Logical schema (overall structure), and External/View schema (user views)."
+  },
+  {
+    "id": 41,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a table 'Students' with 500 rows. After executing SELECT DISTINCT Department FROM Students, only 8 rows are returned. What does this indicate?",
+    "options": ["A) The query has an error", "B) There are exactly 8 unique departments among 500 students", "C) Only 8 students have a department assigned", "D) The table has only 8 columns"],
+    "correct_answer": "B) There are exactly 8 unique departments among 500 students",
+    "explanation": "DISTINCT eliminates duplicate values. If 8 rows are returned, it means there are exactly 8 unique department values across all 500 student records."
+  },
+  {
+    "id": 42,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates partial dependencies?",
+    "options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "B) Second Normal Form (2NF)",
+    "explanation": "2NF eliminates partial dependencies — where a non-key attribute depends on only part of a composite primary key. A table must first be in 1NF to achieve 2NF."
+  },
+  {
+    "id": 43,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In an ER diagram, a diamond shape represents:",
+    "options": ["A) An entity", "B) An attribute", "C) A relationship", "D) A primary key"],
+    "correct_answer": "C) A relationship",
+    "explanation": "In ER diagrams: rectangles represent entities, ellipses represent attributes, diamonds represent relationships, and lines connect entities to relationships."
+  },
+  {
+    "id": 44,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a composite key?",
+    "options": ["A) A key made up of two or more columns that together uniquely identify a row", "B) A key that references another table", "C) A key with encrypted values", "D) A key that allows NULL values"],
+    "correct_answer": "A) A key made up of two or more columns that together uniquely identify a row",
+    "explanation": "A composite key uses two or more columns together to uniquely identify a record. No single column alone is sufficient to uniquely identify the row."
+  },
+  {
+    "id": 45,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following SQL queries finds the second highest salary from an Employee table?",
+    "options": ["A) SELECT MAX(Salary) FROM Employee WHERE Salary < (SELECT MAX(Salary) FROM Employee)", "B) SELECT SECOND(Salary) FROM Employee", "C) SELECT TOP 2 Salary FROM Employee ORDER BY Salary DESC", "D) SELECT Salary FROM Employee ORDER BY Salary LIMIT 2"],
+    "correct_answer": "A) SELECT MAX(Salary) FROM Employee WHERE Salary < (SELECT MAX(Salary) FROM Employee)",
+    "explanation": "This subquery first finds the maximum salary, then finds the maximum salary that is less than the overall maximum — giving the second highest salary."
+  },
+  {
+    "id": 46,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is referential integrity in a database?",
+    "options": ["A) Ensuring data is stored in the correct format", "B) Ensuring that foreign key values always refer to existing primary key values", "C) Ensuring all columns have unique values", "D) Ensuring data is backed up regularly"],
+    "correct_answer": "B) Ensuring that foreign key values always refer to existing primary key values",
+    "explanation": "Referential integrity ensures that a foreign key value in one table must match an existing primary key value in the referenced table, or be NULL."
+  },
+  {
+    "id": 47,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between DELETE and TRUNCATE in SQL?",
+    "options": ["A) DELETE removes the table; TRUNCATE removes only rows", "B) DELETE can use WHERE clause and is logged; TRUNCATE removes all rows faster and cannot be rolled back easily", "C) They are identical commands", "D) TRUNCATE can use WHERE clause; DELETE cannot"],
+    "correct_answer": "B) DELETE can use WHERE clause and is logged; TRUNCATE removes all rows faster and cannot be rolled back easily",
+    "explanation": "DELETE is a DML command that can filter rows with WHERE and is fully logged. TRUNCATE is a DDL command that removes all rows quickly with minimal logging and resets identity counters."
+  },
+  {
+    "id": 48,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a relational database, what is a candidate key?",
+    "options": ["A) Any key that can potentially become a primary key", "B) A key used in candidate elections", "C) A foreign key candidate", "D) A key with the most unique values"],
+    "correct_answer": "A) Any key that can potentially become a primary key",
+    "explanation": "A candidate key is a minimal set of attributes that can uniquely identify a tuple. One candidate key is chosen as the primary key; the rest become alternate keys."
+  },
+  {
+    "id": 49,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does the INNER JOIN operation return?",
+    "options": ["A) All rows from the left table", "B) All rows from both tables", "C) Only rows where there is a match in both tables", "D) Rows that do not match in either table"],
+    "correct_answer": "C) Only rows where there is a match in both tables",
+    "explanation": "INNER JOIN returns only the rows where there is a matching value in both tables based on the join condition. Non-matching rows from either table are excluded."
+  },
+  {
+    "id": 50,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a UNIQUE constraint?",
+    "options": ["A) It does not allow duplicate values but allows multiple NULL values", "B) It does not allow duplicate values and allows only one NULL value", "C) It allows duplicate values but not NULL values", "D) It is the same as a PRIMARY KEY constraint"],
+    "correct_answer": "B) It does not allow duplicate values and allows only one NULL value",
+    "explanation": "UNIQUE constraint prevents duplicate values in a column. Unlike PRIMARY KEY, it allows NULL values, but typically only one NULL (since two NULLs would be considered duplicates in most DBMS)."
+  },
+  {
+    "id": 51,
+    "topic": "Introduction to Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a stored procedure in a database?",
+    "options": ["A) A saved SQL query that can be reused", "B) A precompiled set of SQL statements stored in the database that can be

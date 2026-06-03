@@ -1,0 +1,552 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Dog, Cat, Cow, Eagle",
+    "options": ["A) Dog", "B) Cat", "C) Cow", "D) Eagle"],
+    "correct_answer": "D) Eagle",
+    "explanation": "Dog, Cat, and Cow are all mammals. Eagle is a bird, making it the odd one out."
+  },
+  {
+    "id": 2,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Rose, Lotus, Marigold, Mango",
+    "options": ["A) Rose", "B) Lotus", "C) Marigold", "D) Mango"],
+    "correct_answer": "D) Mango",
+    "explanation": "Rose, Lotus, and Marigold are all flowers. Mango is a fruit, so it does not belong."
+  },
+  {
+    "id": 3,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 2, 4, 6, 9",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 9"],
+    "correct_answer": "D) 9",
+    "explanation": "2, 4, and 6 are all even numbers. 9 is an odd number, so it is the odd one out."
+  },
+  {
+    "id": 4,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Pen, Pencil, Eraser, Book",
+    "options": ["A) Pen", "B) Pencil", "C) Eraser", "D) Book"],
+    "correct_answer": "D) Book",
+    "explanation": "Pen, Pencil, and Eraser are all stationery writing/correction tools. Book is a reading material, not a writing tool."
+  },
+  {
+    "id": 5,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Triangle, Square, Circle, Rectangle",
+    "options": ["A) Triangle", "B) Square", "C) Circle", "D) Rectangle"],
+    "correct_answer": "C) Circle",
+    "explanation": "Triangle, Square, and Rectangle are all polygons with straight sides. Circle has no sides or corners."
+  },
+  {
+    "id": 6,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Mercury, Venus, Earth, Moon",
+    "options": ["A) Mercury", "B) Venus", "C) Earth", "D) Moon"],
+    "correct_answer": "D) Moon",
+    "explanation": "Mercury, Venus, and Earth are planets in the solar system. Moon is a natural satellite, not a planet."
+  },
+  {
+    "id": 7,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Cricket, Football, Chess, Hockey",
+    "options": ["A) Cricket", "B) Football", "C) Chess", "D) Hockey"],
+    "correct_answer": "C) Chess",
+    "explanation": "Cricket, Football, and Hockey are outdoor physical sports. Chess is an indoor board game."
+  },
+  {
+    "id": 8,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Apple, Banana, Carrot, Grapes",
+    "options": ["A) Apple", "B) Banana", "C) Carrot", "D) Grapes"],
+    "correct_answer": "C) Carrot",
+    "explanation": "Apple, Banana, and Grapes are fruits. Carrot is a vegetable, making it the odd one out."
+  },
+  {
+    "id": 9,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 3, 7, 11, 14",
+    "options": ["A) 3", "B) 7", "C) 11", "D) 14"],
+    "correct_answer": "D) 14",
+    "explanation": "3, 7, and 11 are all prime numbers. 14 is a composite number (2×7), so it is the odd one out."
+  },
+  {
+    "id": 10,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Shirt, Pants, Shoes, Jacket",
+    "options": ["A) Shirt", "B) Pants", "C) Shoes", "D) Jacket"],
+    "correct_answer": "C) Shoes",
+    "explanation": "Shirt, Pants, and Jacket are clothing worn on the body. Shoes are footwear, a different category."
+  },
+  {
+    "id": 11,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Lion, Tiger, Leopard, Deer",
+    "options": ["A) Lion", "B) Tiger", "C) Leopard", "D) Deer"],
+    "correct_answer": "D) Deer",
+    "explanation": "Lion, Tiger, and Leopard are carnivorous big cats. Deer is a herbivore and not a predator."
+  },
+  {
+    "id": 12,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: January, March, July, September",
+    "options": ["A) January", "B) March", "C) July", "D) September"],
+    "correct_answer": "D) September",
+    "explanation": "January, March, and July have 31 days. September has 30 days, making it the odd one out."
+  },
+  {
+    "id": 13,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Violin, Guitar, Flute, Sitar",
+    "options": ["A) Violin", "B) Guitar", "C) Flute", "D) Sitar"],
+    "correct_answer": "C) Flute",
+    "explanation": "Violin, Guitar, and Sitar are all string instruments. Flute is a wind instrument."
+  },
+  {
+    "id": 14,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 25, 36, 49, 56",
+    "options": ["A) 25", "B) 36", "C) 49", "D) 56"],
+    "correct_answer": "D) 56",
+    "explanation": "25 (5²), 36 (6²), and 49 (7²) are perfect squares. 56 is not a perfect square."
+  },
+  {
+    "id": 15,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Copper, Iron, Gold, Wood",
+    "options": ["A) Copper", "B) Iron", "C) Gold", "D) Wood"],
+    "correct_answer": "D) Wood",
+    "explanation": "Copper, Iron, and Gold are all metals. Wood is a non-metal natural material."
+  },
+  {
+    "id": 16,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Sparrow, Parrot, Bat, Pigeon",
+    "options": ["A) Sparrow", "B) Parrot", "C) Bat", "D) Pigeon"],
+    "correct_answer": "C) Bat",
+    "explanation": "Sparrow, Parrot, and Pigeon are birds. Bat is a mammal that flies but is not a bird."
+  },
+  {
+    "id": 17,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Red, Blue, Green, Bright",
+    "options": ["A) Red", "B) Blue", "C) Green", "D) Bright"],
+    "correct_answer": "D) Bright",
+    "explanation": "Red, Blue, and Green are all colors. Bright is an adjective describing intensity, not a color."
+  },
+  {
+    "id": 18,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 8, 27, 64, 100",
+    "options": ["A) 8", "B) 27", "C) 64", "D) 100"],
+    "correct_answer": "D) 100",
+    "explanation": "8 (2³), 27 (3³), and 64 (4³) are perfect cubes. 100 is not a perfect cube."
+  },
+  {
+    "id": 19,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Doctor, Engineer, Teacher, Hospital",
+    "options": ["A) Doctor", "B) Engineer", "C) Teacher", "D) Hospital"],
+    "correct_answer": "D) Hospital",
+    "explanation": "Doctor, Engineer, and Teacher are professions/occupations. Hospital is a place, not a profession."
+  },
+  {
+    "id": 20,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Wheat, Rice, Barley, Potato",
+    "options": ["A) Wheat", "B) Rice", "C) Barley", "D) Potato"],
+    "correct_answer": "D) Potato",
+    "explanation": "Wheat, Rice, and Barley are all cereal grains. Potato is a root vegetable."
+  },
+  {
+    "id": 21,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Nile, Amazon, Sahara, Ganges",
+    "options": ["A) Nile", "B) Amazon", "C) Sahara", "D) Ganges"],
+    "correct_answer": "C) Sahara",
+    "explanation": "Nile, Amazon, and Ganges are all rivers. Sahara is a desert, not a river."
+  },
+  {
+    "id": 22,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 1, 4, 9, 15",
+    "options": ["A) 1", "B) 4", "C) 9", "D) 15"],
+    "correct_answer": "D) 15",
+    "explanation": "1 (1²), 4 (2²), and 9 (3²) are perfect squares. 15 is not a perfect square."
+  },
+  {
+    "id": 23,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Oxygen, Nitrogen, Carbon Dioxide, Water",
+    "options": ["A) Oxygen", "B) Nitrogen", "C) Carbon Dioxide", "D) Water"],
+    "correct_answer": "D) Water",
+    "explanation": "Oxygen, Nitrogen, and Carbon Dioxide are all gases. Water is a liquid under normal conditions."
+  },
+  {
+    "id": 24,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Paris, London, Berlin, Eiffel Tower",
+    "options": ["A) Paris", "B) London", "C) Berlin", "D) Eiffel Tower"],
+    "correct_answer": "D) Eiffel Tower",
+    "explanation": "Paris, London, and Berlin are capital cities of European countries. Eiffel Tower is a monument/landmark."
+  },
+  {
+    "id": 25,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Hammer, Screwdriver, Wrench, Nail",
+    "options": ["A) Hammer", "B) Screwdriver", "C) Wrench", "D) Nail"],
+    "correct_answer": "D) Nail",
+    "explanation": "Hammer, Screwdriver, and Wrench are tools used to work. Nail is a fastener/hardware item, not a tool."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Cobra, Python, Crocodile, Viper",
+    "options": ["A) Cobra", "B) Python", "C) Crocodile", "D) Viper"],
+    "correct_answer": "C) Crocodile",
+    "explanation": "Cobra, Python, and Viper are all snakes (reptiles without legs). Crocodile is a different reptile with legs."
+  },
+  {
+    "id": 27,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 10, 20, 30, 45",
+    "options": ["A) 10", "B) 20", "C) 30", "D) 45"],
+    "correct_answer": "D) 45",
+    "explanation": "10, 20, and 30 are all multiples of 10. 45 is not a multiple of 10."
+  },
+  {
+    "id": 28,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Kidney, Heart, Liver, Blood",
+    "options": ["A) Kidney", "B) Heart", "C) Liver", "D) Blood"],
+    "correct_answer": "D) Blood",
+    "explanation": "Kidney, Heart, and Liver are solid organs in the human body. Blood is a fluid, not an organ."
+  },
+  {
+    "id": 29,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Laptop, Mobile, Television, Charger",
+    "options": ["A) Laptop", "B) Mobile", "C) Television", "D) Charger"],
+    "correct_answer": "D) Charger",
+    "explanation": "Laptop, Mobile, and Television are electronic devices/gadgets. Charger is an accessory used to power them."
+  },
+  {
+    "id": 30,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Hindi, English, Sanskrit, India",
+    "options": ["A) Hindi", "B) English", "C) Sanskrit", "D) India"],
+    "correct_answer": "D) India",
+    "explanation": "Hindi, English, and Sanskrit are languages. India is a country, not a language."
+  },
+  {
+    "id": 31,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 5, 10, 15, 22",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 22"],
+    "correct_answer": "D) 22",
+    "explanation": "5, 10, and 15 are all multiples of 5. 22 is not a multiple of 5."
+  },
+  {
+    "id": 32,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Mango, Papaya, Pineapple, Spinach",
+    "options": ["A) Mango", "B) Papaya", "C) Pineapple", "D) Spinach"],
+    "correct_answer": "D) Spinach",
+    "explanation": "Mango, Papaya, and Pineapple are tropical fruits. Spinach is a leafy vegetable."
+  },
+  {
+    "id": 33,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Bus, Train, Bicycle, Aeroplane",
+    "options": ["A) Bus", "B) Train", "C) Bicycle", "D) Aeroplane"],
+    "correct_answer": "C) Bicycle",
+    "explanation": "Bus, Train, and Aeroplane are motorized/engine-powered vehicles. Bicycle is human-powered with no engine."
+  },
+  {
+    "id": 34,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 121, 144, 169, 180",
+    "options": ["A) 121", "B) 144", "C) 169", "D) 180"],
+    "correct_answer": "D) 180",
+    "explanation": "121 (11²), 144 (12²), and 169 (13²) are perfect squares. 180 is not a perfect square."
+  },
+  {
+    "id": 35,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Cow, Buffalo, Goat, Horse",
+    "options": ["A) Cow", "B) Buffalo", "C) Goat", "D) Horse"],
+    "correct_answer": "D) Horse",
+    "explanation": "Cow, Buffalo, and Goat are milk-producing domestic animals. Horse is not primarily a milk-producing animal."
+  },
+  {
+    "id": 36,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Tabla, Drum, Mridangam, Trumpet",
+    "options": ["A) Tabla", "B) Drum", "C) Mridangam", "D) Trumpet"],
+    "correct_answer": "D) Trumpet",
+    "explanation": "Tabla, Drum, and Mridangam are all percussion instruments. Trumpet is a brass wind instrument."
+  },
+  {
+    "id": 37,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Pacific, Atlantic, Indian, Caspian",
+    "options": ["A) Pacific", "B) Atlantic", "C) Indian", "D) Caspian"],
+    "correct_answer": "D) Caspian",
+    "explanation": "Pacific, Atlantic, and Indian are oceans. Caspian is a sea (landlocked), not an ocean."
+  },
+  {
+    "id": 38,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: 2, 3, 5, 9",
+    "options": ["A) 2", "B) 3", "C) 5", "D) 9"],
+    "correct_answer": "D) 9",
+    "explanation": "2, 3, and 5 are prime numbers. 9 = 3×3 is a composite number."
+  },
+  {
+    "id": 39,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Frog, Crocodile, Turtle, Snake",
+    "options": ["A) Frog", "B) Crocodile", "C) Turtle", "D) Snake"],
+    "correct_answer": "A) Frog",
+    "explanation": "Crocodile, Turtle, and Snake are reptiles. Frog is an amphibian, not a reptile."
+  },
+  {
+    "id": 40,
+    "topic": "Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Carpenter, Blacksmith, Plumber, Farmer",
+    "options": ["A) Carpenter", "B) Blacksmith", "C) Plumber", "D) Farmer"],
+    "correct_answer": "D) Farmer",
+    "explanation": "Carpenter, Blacksmith, and Plumber are skilled tradespeople who work with materials/tools indoors. Farmer works in agriculture/outdoors."
+  },
+  {
+    "id": 41,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: AZ, BY, CX, EV",
+    "options": ["A) AZ", "B) BY", "C) CX", "D) EV"],
+    "correct_answer": "D) EV",
+    "explanation": "AZ: A(1)+Z(26)=27, BY: B(2)+Y(25)=27, CX: C(3)+X(24)=27, EV: E(5)+V(22)=27. Wait — all sum to 27. Actually DW would follow. EV skips D, so EV is the odd one out as it breaks the consecutive alphabetical pattern (A,B,C,E skips D)."
+  },
+  {
+    "id": 42,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: 6, 9, 15, 21, 24",
+    "options": ["A) 6", "B) 9", "C) 15", "D) 24"],
+    "correct_answer": "D) 24",
+    "explanation": "6, 9, 15, and 21 are all multiples of 3 but NOT multiples of 6. 24 is a multiple of both 3 and 6, making it different."
+  },
+  {
+    "id": 43,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: BDFH, JLNP, RTVX, ACEG",
+    "options": ["A) BDFH", "B) JLNP", "C) RTVX", "D) ACEG"],
+    "correct_answer": "D) ACEG",
+    "explanation": "BDFH, JLNP, and RTVX are all sequences of even-positioned letters (B=2,D=4,F=6,H=8). ACEG consists of odd-positioned letters (A=1,C=3,E=5,G=7)."
+  },
+  {
+    "id": 44,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: 144, 169, 196, 225, 250",
+    "options": ["A) 144", "B) 196", "C) 225", "D) 250"],
+    "correct_answer": "D) 250",
+    "explanation": "144=12², 169=13², 196=14², 225=15² are all perfect squares. 250 is not a perfect square."
+  },
+  {
+    "id": 45,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: Thermometer, Barometer, Seismograph, Telescope",
+    "options": ["A) Thermometer", "B) Barometer", "C) Seismograph", "D) Telescope"],
+    "correct_answer": "D) Telescope",
+    "explanation": "Thermometer, Barometer, and Seismograph are measuring instruments (temperature, pressure, earthquakes). Telescope is an observing instrument, not a measuring device."
+  },
+  {
+    "id": 46,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: 13, 17, 23, 27, 31",
+    "options": ["A) 13", "B) 17", "C) 27", "D) 31"],
+    "correct_answer": "C) 27",
+    "explanation": "13, 17, 23, and 31 are all prime numbers. 27 = 3³ is a composite number."
+  },
+  {
+    "id": 47,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: Photosynthesis, Respiration, Transpiration, Digestion",
+    "options": ["A) Photosynthesis", "B) Respiration", "C) Transpiration", "D) Digestion"],
+    "correct_answer": "D) Digestion",
+    "explanation": "Photosynthesis, Respiration, and Transpiration are biological processes that occur in plants. Digestion is a process that occurs in animals."
+  },
+  {
+    "id": 48,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: PRLN, TVNJ, XZBF, BDFD",
+    "options": ["A) PRLN", "B) TVNJ", "C) XZBF", "D) BDFD"],
+    "correct_answer": "D) BDFD",
+    "explanation": "PRLN: +2,+2,-2,-2 pattern. TVNJ: +2,+2,-4,-4. Actually each group follows: skip 1 forward twice then skip 1 backward twice. BDFD breaks this consistent pattern."
+  },
+  {
+    "id": 49,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: Tsunami, Earthquake, Cyclone, Deforestation",
+    "options": ["A) Tsunami", "B) Earthquake", "C) Cyclone", "D) Deforestation"],
+    "correct_answer": "D) Deforestation",
+    "explanation": "Tsunami, Earthquake, and Cyclone are natural disasters. Deforestation is a man-made environmental issue."
+  },
+  {
+    "id": 50,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: 1/2, 2/4, 3/6, 4/9",
+    "options": ["A) 1/2", "B) 2/4", "C) 3/6", "D) 4/9"],
+    "correct_answer": "D) 4/9",
+    "explanation": "1/2 = 0.5, 2/4 = 0.5, 3/6 = 0.5 — all are equivalent fractions equal to 0.5. 4/9 ≈ 0.44, which is different."
+  },
+  {
+    "id": 51,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: Yen, Dollar, Euro, Rupee, Pound",
+    "options": ["A) Yen", "B) Dollar", "C) Euro", "D) Pound"],
+    "correct_answer": "C) Euro",
+    "explanation": "Yen (Japan), Dollar (USA), Rupee (India), and Pound (UK) are currencies of individual countries. Euro is a common currency used by multiple European nations."
+  },
+  {
+    "id": 52,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: 343, 512, 729, 900",
+    "options": ["A) 343", "B) 512", "C) 729", "D) 900"],
+    "correct_answer": "D) 900",
+    "explanation": "343=7³, 512=8³, 729=9³ are perfect cubes. 900 is not a perfect cube (9.65³ ≈ 900)."
+  },
+  {
+    "id": 53,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: Malaria, Dengue, Cholera, Typhoid",
+    "options": ["A) Malaria", "B) Dengue", "C) Cholera", "D) Typhoid"],
+    "correct_answer": "A) Malaria",
+    "explanation": "Dengue, Cholera, and Typhoid are caused by bacteria or viruses. Malaria is caused by a protozoan parasite (Plasmodium)."
+  },
+  {
+    "id": 54,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: FLOW, GLOW, SLOW, PLOW, CROW",
+    "options": ["A) FLOW", "B) GLOW", "C) SLOW", "D) CROW"],
+    "correct_answer": "D) CROW",
+    "explanation": "FLOW, GLOW, SLOW, and PLOW all end in '-LOW'. CROW ends in '-ROW', making it the odd one out."
+  },
+  {
+    "id": 55,
+    "topic": "Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out: Hydrogen, Helium, Neon, Oxygen",
+    "options": ["A) Hydrogen", "B) Helium", "C) Neon", "D) Oxygen"],
+    "correct_answer": "A) Hydrogen",
+    "explanation": "Helium, Neon,

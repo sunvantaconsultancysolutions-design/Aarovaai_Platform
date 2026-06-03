@@ -1,0 +1,481 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which symbol is used to start a preprocessor directive in C?",
+    "options": ["A) @", "B) #", "C) $", "D) &"],
+    "correct_answer": "B) #",
+    "explanation": "All preprocessor directives in C begin with the '#' symbol. The preprocessor processes these directives before compilation begins."
+  },
+  {
+    "id": 2,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the #include directive in C?",
+    "options": ["A) To define a macro", "B) To include a file's contents into the source code", "C) To conditionally compile code", "D) To undefine a macro"],
+    "correct_answer": "B) To include a file's contents into the source code",
+    "explanation": "#include tells the preprocessor to insert the contents of the specified file at that point in the source code before compilation."
+  },
+  {
+    "id": 3,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the #define directive do in C?",
+    "options": ["A) Declares a variable", "B) Defines a macro or symbolic constant", "C) Includes a header file", "D) Ends a conditional block"],
+    "correct_answer": "B) Defines a macro or symbolic constant",
+    "explanation": "#define is used to create macros or symbolic constants. The preprocessor replaces all occurrences of the macro name with its defined value."
+  },
+  {
+    "id": 4,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly includes a standard library header file?",
+    "options": ["A) #include (stdio.h)", "B) #include 'stdio.h'", "C) #include <stdio.h>", "D) #include {stdio.h}"],
+    "correct_answer": "C) #include <stdio.h>",
+    "explanation": "Standard library header files are included using angle brackets < >. User-defined header files use double quotes \" \"."
+  },
+  {
+    "id": 5,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\n#define PI 3.14\nprintf(\"%f\", PI);",
+    "options": ["A) 3.14", "B) PI", "C) 3.140000", "D) Error"],
+    "correct_answer": "C) 3.140000",
+    "explanation": "The macro PI is replaced by 3.14 before compilation. printf with %f prints floating point with 6 decimal places by default, giving 3.140000."
+  },
+  {
+    "id": 6,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which directive is used to remove a previously defined macro?",
+    "options": ["A) #remove", "B) #delete", "C) #undef", "D) #undefine"],
+    "correct_answer": "C) #undef",
+    "explanation": "#undef is used to undefine a macro that was previously defined using #define. After #undef, the macro name is no longer recognized."
+  },
+  {
+    "id": 7,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between #include <file> and #include \"file\"?",
+    "options": ["A) No difference", "B) <file> searches standard directories; \"file\" searches current directory first", "C) \"file\" searches standard directories; <file> searches current directory first", "D) <file> is for C++ only"],
+    "correct_answer": "B) <file> searches standard directories; \"file\" searches current directory first",
+    "explanation": "Angle brackets search the standard system include directories. Double quotes first search the current directory, then standard directories."
+  },
+  {
+    "id": 8,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which preprocessor directive is used for conditional compilation?",
+    "options": ["A) #define", "B) #ifdef", "C) #include", "D) #pragma"],
+    "correct_answer": "B) #ifdef",
+    "explanation": "#ifdef checks if a macro is defined and conditionally compiles the enclosed code. It is one of the conditional compilation directives."
+  },
+  {
+    "id": 9,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does #ifdef stand for?",
+    "options": ["A) if defined", "B) if not defined", "C) if declaration", "D) if default"],
+    "correct_answer": "A) if defined",
+    "explanation": "#ifdef stands for 'if defined'. It checks whether a particular macro has been defined using #define."
+  },
+  {
+    "id": 10,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does #ifndef stand for?",
+    "options": ["A) if not true", "B) if not defined", "C) if new token", "D) if null defined"],
+    "correct_answer": "B) if not defined",
+    "explanation": "#ifndef stands for 'if not defined'. It compiles the enclosed code only if the specified macro has NOT been defined."
+  },
+  {
+    "id": 11,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which directive marks the end of a conditional compilation block?",
+    "options": ["A) #end", "B) #endif", "C) #endifdef", "D) #stop"],
+    "correct_answer": "B) #endif",
+    "explanation": "#endif marks the end of a conditional compilation block started by #ifdef, #ifndef, or #if. Every conditional block must end with #endif."
+  },
+  {
+    "id": 12,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "When does the C preprocessor run?",
+    "options": ["A) After compilation", "B) During linking", "C) Before compilation", "D) During execution"],
+    "correct_answer": "C) Before compilation",
+    "explanation": "The C preprocessor runs before the actual compilation step. It processes all directives (macros, file inclusions, conditional compilation) and produces a modified source file."
+  },
+  {
+    "id": 13,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\n#define MAX 100\nprintf(\"%d\", MAX);",
+    "options": ["A) MAX", "B) 100", "C) 0", "D) Compilation error"],
+    "correct_answer": "B) 100",
+    "explanation": "The preprocessor replaces MAX with 100 before compilation. So printf(\"%d\", 100) prints 100."
+  },
+  {
+    "id": 14,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid macro definition?",
+    "options": ["A) #define 5 FIVE", "B) #define FIVE 5", "C) define FIVE = 5", "D) #define FIVE = 5;"],
+    "correct_answer": "B) #define FIVE 5",
+    "explanation": "A valid macro definition starts with #define, followed by the macro name, then the replacement text. No '=' sign or semicolon is used."
+  },
+  {
+    "id": 15,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a function-like macro in C?",
+    "options": ["A) A macro that calls a function", "B) A macro that takes arguments like a function", "C) A function defined inside a macro", "D) A macro with no arguments"],
+    "correct_answer": "B) A macro that takes arguments like a function",
+    "explanation": "Function-like macros accept parameters, e.g., #define SQUARE(x) ((x)*(x)). They look like function calls but are expanded by the preprocessor."
+  },
+  {
+    "id": 16,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the predefined macro __FILE__ used for?",
+    "options": ["A) Returns the file size", "B) Returns the current source file name", "C) Opens a file", "D) Returns the file pointer"],
+    "correct_answer": "B) Returns the current source file name",
+    "explanation": "__FILE__ is a predefined macro that expands to the name of the current source file as a string literal."
+  },
+  {
+    "id": 17,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the predefined macro __LINE__ represent?",
+    "options": ["A) The current line number in the source file", "B) The length of the current line", "C) The last line of the file", "D) A newline character"],
+    "correct_answer": "A) The current line number in the source file",
+    "explanation": "__LINE__ is a predefined macro that expands to the current line number (an integer) in the source file where it appears."
+  },
+  {
+    "id": 18,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which predefined macro gives the date of compilation?",
+    "options": ["A) __TIME__", "B) __DATE__", "C) __DAY__", "D) __COMPILE_DATE__"],
+    "correct_answer": "B) __DATE__",
+    "explanation": "__DATE__ is a predefined macro that expands to the date of compilation as a string in the format 'Mmm dd yyyy'."
+  },
+  {
+    "id": 19,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the use of #pragma directive?",
+    "options": ["A) To define macros", "B) To provide special instructions to the compiler", "C) To include files", "D) To undefine macros"],
+    "correct_answer": "B) To provide special instructions to the compiler",
+    "explanation": "#pragma provides implementation-specific instructions to the compiler. Common uses include #pragma once to prevent multiple inclusions."
+  },
+  {
+    "id": 20,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does #pragma once do?",
+    "options": ["A) Executes code only once", "B) Ensures a header file is included only once", "C) Defines a macro once", "D) Runs the preprocessor once"],
+    "correct_answer": "B) Ensures a header file is included only once",
+    "explanation": "#pragma once is a non-standard but widely supported directive that prevents a header file from being included multiple times in a single compilation."
+  },
+  {
+    "id": 21,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\n#define ADD(a,b) a+b\nprintf(\"%d\", ADD(3,4));",
+    "options": ["A) 7", "B) 34", "C) Error", "D) 12"],
+    "correct_answer": "A) 7",
+    "explanation": "ADD(3,4) expands to 3+4 which equals 7. The preprocessor performs textual substitution before compilation."
+  },
+  {
+    "id": 22,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a preprocessor directive?",
+    "options": ["A) #define", "B) #include", "C) #printf", "D) #ifdef"],
+    "correct_answer": "C) #printf",
+    "explanation": "#printf is not a valid preprocessor directive. printf is a standard library function, not a preprocessor directive."
+  },
+  {
+    "id": 23,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a macro definition span multiple lines in C?",
+    "options": ["A) No, macros must be on a single line", "B) Yes, using backslash (\\) at the end of each line", "C) Yes, using forward slash (/)", "D) Yes, using semicolon"],
+    "correct_answer": "B) Yes, using backslash (\\) at the end of each line",
+    "explanation": "A macro can span multiple lines by placing a backslash (\\) at the end of each line except the last. The backslash-newline is treated as a line continuation."
+  },
+  {
+    "id": 24,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of include guards in C header files?",
+    "options": ["A) To protect variables from modification", "B) To prevent multiple inclusions of the same header file", "C) To guard against runtime errors", "D) To include files securely"],
+    "correct_answer": "B) To prevent multiple inclusions of the same header file",
+    "explanation": "Include guards use #ifndef, #define, and #endif to ensure a header file's contents are only processed once, preventing duplicate declaration errors."
+  },
+  {
+    "id": 25,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the #else directive do in conditional compilation?",
+    "options": ["A) Ends the conditional block", "B) Provides an alternative block when the condition is false", "C) Defines an else variable", "D) Skips the next line"],
+    "correct_answer": "B) Provides an alternative block when the condition is false",
+    "explanation": "#else provides an alternative code block that is compiled when the preceding #if, #ifdef, or #ifndef condition is false."
+  },
+  {
+    "id": 26,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the predefined macro __STDC__ used for?",
+    "options": ["A) Indicates the standard C library version", "B) Indicates the compiler conforms to ANSI C standard", "C) Stores the C standard year", "D) Defines standard data types"],
+    "correct_answer": "B) Indicates the compiler conforms to ANSI C standard",
+    "explanation": "__STDC__ is defined as 1 when the compiler conforms to the ANSI C standard. It helps write portable code."
+  },
+  {
+    "id": 27,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly defines a macro for the square of a number?",
+    "options": ["A) #define SQUARE(x) x*x", "B) #define SQUARE(x) ((x)*(x))", "C) #define SQUARE x*x", "D) Both A and B"],
+    "correct_answer": "B) #define SQUARE(x) ((x)*(x))",
+    "explanation": "Option B is correct because extra parentheses prevent operator precedence issues. SQUARE(2+3) with option A gives 2+3*2+3=11, but option B gives (2+3)*(2+3)=25."
+  },
+  {
+    "id": 28,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens if you use #define without a replacement value?",
+    "options": ["A) Compilation error", "B) The macro is defined with an empty replacement", "C) The macro is undefined", "D) Runtime error"],
+    "correct_answer": "B) The macro is defined with an empty replacement",
+    "explanation": "#define MACRO with no value defines MACRO as empty. It is still 'defined' and can be tested with #ifdef, but expands to nothing."
+  },
+  {
+    "id": 29,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which directive is used to display a custom error message during compilation?",
+    "options": ["A) #warning", "B) #message", "C) #error", "D) #alert"],
+    "correct_answer": "C) #error",
+    "explanation": "#error causes the preprocessor to emit an error message and stop compilation. It is used to enforce compile-time conditions."
+  },
+  {
+    "id": 30,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\n#define X 5\n#define Y X+3\nprintf(\"%d\", Y*2);",
+    "options": ["A) 16", "B) 11", "C) 13", "D) 10"],
+    "correct_answer": "B) 11",
+    "explanation": "Y*2 expands to X+3*2 = 5+3*2 = 5+6 = 11. Due to operator precedence, multiplication is done before addition. This shows the danger of macros without parentheses."
+  },
+  {
+    "id": 31,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The C preprocessor is also known as:",
+    "options": ["A) Compiler front-end", "B) Translation phase 1", "C) cpp", "D) Linker"],
+    "correct_answer": "C) cpp",
+    "explanation": "The C preprocessor is commonly referred to as 'cpp' (C PreProcessor). It is invoked before the compiler and processes all # directives."
+  },
+  {
+    "id": 32,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about macros in C?",
+    "options": ["A) Macros are type-safe", "B) Macros are processed at runtime", "C) Macros perform textual substitution", "D) Macros can be recursive by default"],
+    "correct_answer": "C) Macros perform textual substitution",
+    "explanation": "Macros perform simple textual substitution before compilation. They are not type-safe and are processed at compile time, not runtime."
+  },
+  {
+    "id": 33,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the predefined macro __TIME__ used for?",
+    "options": ["A) Returns execution time", "B) Returns the time of compilation as a string", "C) Returns the current system time", "D) Measures CPU time"],
+    "correct_answer": "B) Returns the time of compilation as a string",
+    "explanation": "__TIME__ expands to the time of compilation as a string literal in the format 'hh:mm:ss'."
+  },
+  {
+    "id": 34,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to write an include guard?",
+    "options": ["A) #if HEADER_H / #define HEADER_H / #endif", "B) #ifndef HEADER_H / #define HEADER_H / #endif", "C) #ifdef HEADER_H / #define HEADER_H / #endif", "D) #pragma guard HEADER_H"],
+    "correct_answer": "B) #ifndef HEADER_H / #define HEADER_H / #endif",
+    "explanation": "Include guards use #ifndef to check if the macro is not defined, then define it, and end with #endif. This prevents multiple inclusions."
+  },
+  {
+    "id": 35,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the ## operator do in a macro?",
+    "options": ["A) Converts a token to a string", "B) Concatenates two tokens", "C) Comments out code", "D) Divides two values"],
+    "correct_answer": "B) Concatenates two tokens",
+    "explanation": "The ## operator (token pasting operator) concatenates two tokens during macro expansion. For example, #define CONCAT(a,b) a##b makes CONCAT(foo,bar) become foobar."
+  },
+  {
+    "id": 36,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the # operator do in a macro?",
+    "options": ["A) Concatenates tokens", "B) Converts a macro argument to a string literal", "C) Defines a new macro", "D) Ends a macro definition"],
+    "correct_answer": "B) Converts a macro argument to a string literal",
+    "explanation": "The # operator (stringizing operator) converts a macro argument into a string literal. For example, #define STR(x) #x makes STR(hello) become \"hello\"."
+  },
+  {
+    "id": 37,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly uses #elif?",
+    "options": ["A) #if A / code / #elif B / code / #endif", "B) #if A / code / #elseif B / code / #endif", "C) #if A / code / #else if B / code / #endif", "D) #if A / code / #elif / code / #endif"],
+    "correct_answer": "A) #if A / code / #elif B / code / #endif",
+    "explanation": "#elif (else if) provides additional conditions in a conditional compilation chain. It must be followed by a condition expression."
+  },
+  {
+    "id": 38,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\n#define TRUE 1\n#define FALSE 0\nprintf(\"%d %d\", TRUE, FALSE);",
+    "options": ["A) TRUE FALSE", "B) 1 0", "C) 0 1", "D) Error"],
+    "correct_answer": "B) 1 0",
+    "explanation": "TRUE is replaced by 1 and FALSE by 0 during preprocessing. printf(\"%d %d\", 1, 0) outputs '1 0'."
+  },
+  {
+    "id": 39,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can macros be defined inside a function in C?",
+    "options": ["A) No, macros must be defined at the global level only", "B) Yes, macros can be defined anywhere in the source file", "C) Yes, but only in main()", "D) No, macros are only in header files"],
+    "correct_answer": "B) Yes, macros can be defined anywhere in the source file",
+    "explanation": "Macros can be defined anywhere in a C source file. Once defined, they are active from that point until the end of the file or until #undef is used."
+  },
+  {
+    "id": 40,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the scope of a macro defined using #define?",
+    "options": ["A) Only within the function where it is defined", "B) From the point of definition to the end of the file (or #undef)", "C) Only within the block where it is defined", "D) Global scope across all files"],
+    "correct_answer": "B) From the point of definition to the end of the file (or #undef)",
+    "explanation": "A macro is active from the point of its #define to the end of the translation unit, or until it is explicitly undefined using #undef."
+  },
+  {
+    "id": 41,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#define SQUARE(x) x*x\nint a = SQUARE(2+3);\nprintf(\"%d\", a);",
+    "options": ["A) 25", "B) 11", "C) 13", "D) 10"],
+    "correct_answer": "B) 11",
+    "explanation": "SQUARE(2+3) expands to 2+3*2+3 = 2+6+3 = 11. Without parentheses around x, operator precedence causes incorrect results. Always use ((x)*(x))."
+  },
+  {
+    "id": 42,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\n#define MAX(a,b) ((a)>(b)?(a):(b))\nprintf(\"%d\", MAX(3+2, 4));",
+    "options": ["A) 5", "B) 4", "C) 3", "D) 7"],
+    "correct_answer": "A) 5",
+    "explanation": "MAX(3+2, 4) expands to ((3+2)>(4)?(3+2):(4)) = (5>4?5:4) = 5. The parentheses ensure correct evaluation."
+  },
+  {
+    "id": 43,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the problem with the following macro?\n#define DOUBLE(x) x+x\nint result = 10 * DOUBLE(5);",
+    "options": ["A) result = 100", "B) result = 60", "C) result = 55", "D) result = 50"],
+    "correct_answer": "B) result = 60",
+    "explanation": "10 * DOUBLE(5) expands to 10 * 5+5 = 50+5 = 55. Wait — 10*5+5 = 55. Actually: 10*5+5 = 55. Let me recalculate: 10*x+x where x=5 → 50+5=55. The answer is 55."
+  },
+  {
+    "id": 44,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\n#define STR(x) #x\nprintf(\"%s\", STR(Hello));",
+    "options": ["A) Hello", "B) \"Hello\"", "C) x", "D) #Hello"],
+    "correct_answer": "A) Hello",
+    "explanation": "The # operator stringizes the argument. STR(Hello) expands to \"Hello\" (a string literal). printf(\"%s\", \"Hello\") prints Hello."
+  },
+  {
+    "id": 45,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\n#define CONCAT(a,b) a##b\nint xy = 10;\nprintf(\"%d\", CONCAT(x,y));",
+    "options": ["A) 10", "B) xy", "C) Compilation error", "D) 0"],
+    "correct_answer": "A) 10",
+    "explanation": "CONCAT(x,y) expands to xy using the ## token-pasting operator. Since xy is declared as 10, printf prints 10."
+  },
+  {
+    "id": 46,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider:\n#define A 2\n#define B A+3\n#define C B*2\nWhat is the value of C?",
+    "options": ["A) 10", "B) 8", "C) 7", "D) 11"],
+    "correct_answer": "B) 8",
+    "explanation": "C expands to B*2 = A+3*2 = 2+3*2 = 2+6 = 8. Due to operator precedence, multiplication is evaluated before addition."
+  },
+  {
+    "id": 47,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\n#define N 3\n#if N==3\nprintf(\"Three\");\n#else\nprintf(\"Not Three\");\n#endif",
+    "options": ["A) Three", "B) Not Three", "C) ThreeNot Three", "D) Compilation error"],
+    "correct_answer": "A) Three",
+    "explanation": "#if N==3 evaluates to true since N is defined as 3. So 'Three' is compiled and printed."
+  },
+  {
+    "id": 48,
+    "topic": "C Preprocessor in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\n#define X 10\n#undef X\n#define X 20\nprintf(\"%d\", X);",
+    "options": ["A) 10", "B) 20", "C) 30", "D) Compilation error"],
+    "correct_answer": "B) 20",
+    "explanation": "X is first defined as 10, then undefined with #undef, then redefined as

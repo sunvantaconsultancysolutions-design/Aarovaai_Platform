@@ -1,0 +1,531 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file is required to use printf() and scanf() in C?",
+    "options": ["A) stdlib.h", "B) stdio.h", "C) string.h", "D) conio.h"],
+    "correct_answer": "B) stdio.h",
+    "explanation": "printf() and scanf() are declared in the standard input/output header file stdio.h. It must be included at the top of the program."
+  },
+  {
+    "id": 2,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  printf(\"Hello World\");\n  return 0;\n}",
+    "options": ["A) hello world", "B) Hello World", "C) HELLO WORLD", "D) Compile Error"],
+    "correct_answer": "B) Hello World",
+    "explanation": "printf() prints the string exactly as given. 'Hello World' is printed with the same case as written in the string literal."
+  },
+  {
+    "id": 3,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which format specifier is used to print an integer in C?",
+    "options": ["A) %f", "B) %c", "C) %d", "D) %s"],
+    "correct_answer": "C) %d",
+    "explanation": "%d is the format specifier for printing integers. %f is for float, %c for char, and %s for strings."
+  },
+  {
+    "id": 4,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does scanf() return on successful input of one integer?",
+    "options": ["A) 0", "B) -1", "C) 1", "D) The value entered"],
+    "correct_answer": "C) 1",
+    "explanation": "scanf() returns the number of items successfully read. If one integer is read successfully, it returns 1."
+  },
+  {
+    "id": 5,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 5+3);",
+    "options": ["A) 5+3", "B) 53", "C) 8", "D) Error"],
+    "correct_answer": "C) 8",
+    "explanation": "The expression 5+3 is evaluated first giving 8, then printf prints 8 using %d format specifier."
+  },
+  {
+    "id": 6,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to read a single character from the keyboard in C?",
+    "options": ["A) getchar()", "B) gets()", "C) scanf()", "D) Both A and C"],
+    "correct_answer": "D) Both A and C",
+    "explanation": "Both getchar() and scanf(\"%c\",&ch) can read a single character. getchar() is specifically designed for single character input."
+  },
+  {
+    "id": 7,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the format specifier for a float value in printf()?",
+    "options": ["A) %d", "B) %i", "C) %f", "D) %lf"],
+    "correct_answer": "C) %f",
+    "explanation": "%f is used to print float values. %lf is used for double in scanf() but %f works for both float and double in printf()."
+  },
+  {
+    "id": 8,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of: printf(\"%c\", 65);",
+    "options": ["A) 65", "B) A", "C) a", "D) Error"],
+    "correct_answer": "B) A",
+    "explanation": "%c prints the character corresponding to the ASCII value. ASCII value 65 corresponds to the character 'A'."
+  },
+  {
+    "id": 9,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which escape sequence is used for a newline in C?",
+    "options": ["A) \\t", "B) \\r", "C) \\n", "D) \\b"],
+    "correct_answer": "C) \\n",
+    "explanation": "\\n is the newline escape sequence in C. \\t is tab, \\r is carriage return, and \\b is backspace."
+  },
+  {
+    "id": 10,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d %d\", 10, 20);",
+    "options": ["A) 1020", "B) 10 20", "C) 10,20", "D) Error"],
+    "correct_answer": "B) 10 20",
+    "explanation": "printf with two %d specifiers separated by a space prints both integers separated by a space: 10 20."
+  },
+  {
+    "id": 11,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function outputs a string followed by a newline in C?",
+    "options": ["A) printf()", "B) puts()", "C) putchar()", "D) fprintf()"],
+    "correct_answer": "B) puts()",
+    "explanation": "puts() prints a string and automatically appends a newline character at the end. printf() does not add a newline automatically."
+  },
+  {
+    "id": 12,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to read an integer using scanf()?",
+    "options": ["A) scanf(\"%d\", n);", "B) scanf(\"%d\", &n);", "C) scanf(\"%i\", n);", "D) scanf(n);"],
+    "correct_answer": "B) scanf(\"%d\", &n);",
+    "explanation": "scanf() requires the address of the variable using & operator. Without &, the behavior is undefined as scanf needs a pointer."
+  },
+  {
+    "id": 13,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will printf(\"%s\", \"C Programming\") output?",
+    "options": ["A) C", "B) Programming", "C) C Programming", "D) \"C Programming\""],
+    "correct_answer": "C) C Programming",
+    "explanation": "%s format specifier prints the entire string. The quotes are not part of the output, only the content between them."
+  },
+  {
+    "id": 14,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 10/3);",
+    "options": ["A) 3.33", "B) 3", "C) 4", "D) 3.0"],
+    "correct_answer": "B) 3",
+    "explanation": "10/3 is integer division in C, which gives 3 (truncated). %d prints the integer result 3."
+  },
+  {
+    "id": 15,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to print a long integer?",
+    "options": ["A) %d", "B) %ld", "C) %li", "D) Both B and C"],
+    "correct_answer": "D) Both B and C",
+    "explanation": "Both %ld and %li are valid format specifiers for long int. %ld is more commonly used in practice."
+  },
+  {
+    "id": 16,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the \\t escape sequence do in printf()?",
+    "options": ["A) Prints a newline", "B) Prints a tab space", "C) Prints a backslash", "D) Terminates the string"],
+    "correct_answer": "B) Prints a tab space",
+    "explanation": "\\t is the horizontal tab escape sequence. It moves the cursor to the next tab stop, typically 8 spaces."
+  },
+  {
+    "id": 17,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%f\", 3.14);",
+    "options": ["A) 3.14", "B) 3.140000", "C) 3", "D) 3.1"],
+    "correct_answer": "B) 3.140000",
+    "explanation": "By default, %f prints 6 decimal places. So 3.14 is printed as 3.140000 with trailing zeros."
+  },
+  {
+    "id": 18,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to print a single character in C?",
+    "options": ["A) putchar()", "B) puts()", "C) getchar()", "D) gets()"],
+    "correct_answer": "A) putchar()",
+    "explanation": "putchar() is used to output a single character to stdout. It is equivalent to printf(\"%c\", ch)."
+  },
+  {
+    "id": 19,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", -5);",
+    "options": ["A) 5", "B) -5", "C) Error", "D) Undefined"],
+    "correct_answer": "B) -5",
+    "explanation": "%d can print negative integers. The minus sign is included in the output, so -5 is printed as -5."
+  },
+  {
+    "id": 20,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What format specifier is used to print an unsigned integer?",
+    "options": ["A) %d", "B) %i", "C) %u", "D) %o"],
+    "correct_answer": "C) %u",
+    "explanation": "%u is the format specifier for unsigned integers. %d is for signed integers, %o for octal, %x for hexadecimal."
+  },
+  {
+    "id": 21,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%%\");",
+    "options": ["A) %%", "B) %", "C) Error", "D) Nothing"],
+    "correct_answer": "B) %",
+    "explanation": "%% is an escape sequence in printf() that prints a literal percent sign %. It is used to print % in the output."
+  },
+  {
+    "id": 22,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will scanf(\"%d %d\", &a, &b) do?",
+    "options": ["A) Read one integer", "B) Read two integers", "C) Read a string", "D) Cause an error"],
+    "correct_answer": "B) Read two integers",
+    "explanation": "scanf with two %d specifiers reads two integers from input and stores them in variables a and b respectively."
+  },
+  {
+    "id": 23,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 2*3+4);",
+    "options": ["A) 10", "B) 14", "C) 24", "D) 6"],
+    "correct_answer": "A) 10",
+    "explanation": "Following operator precedence, 2*3=6 first, then 6+4=10. printf prints 10 using %d."
+  },
+  {
+    "id": 24,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which format specifier prints a value in hexadecimal (lowercase)?",
+    "options": ["A) %X", "B) %h", "C) %x", "D) %hex"],
+    "correct_answer": "C) %x",
+    "explanation": "%x prints an integer in lowercase hexadecimal format. %X prints in uppercase hexadecimal. Neither requires a special header."
+  },
+  {
+    "id": 25,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", sizeof(int));",
+    "options": ["A) 2", "B) 4", "C) 8", "D) Depends on compiler"],
+    "correct_answer": "D) Depends on compiler",
+    "explanation": "sizeof(int) is implementation-defined. It is typically 4 bytes on 32/64-bit systems but can be 2 bytes on 16-bit systems."
+  },
+  {
+    "id": 26,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%o\", 8);",
+    "options": ["A) 8", "B) 10", "C) 0x8", "D) 1000"],
+    "correct_answer": "B) 10",
+    "explanation": "%o prints the integer in octal format. 8 in decimal is 10 in octal (8 = 1×8 + 0)."
+  },
+  {
+    "id": 27,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does gets() function do in C?",
+    "options": ["A) Reads a single character", "B) Reads a string including spaces", "C) Reads only one word", "D) Reads an integer"],
+    "correct_answer": "B) Reads a string including spaces",
+    "explanation": "gets() reads an entire line including spaces until a newline is encountered. scanf(\"%s\") stops at whitespace."
+  },
+  {
+    "id": 28,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%5d\", 42);",
+    "options": ["A) 42", "B) 42   ", "C)    42", "D) 00042"],
+    "correct_answer": "C)    42",
+    "explanation": "%5d specifies a field width of 5. The number 42 is right-aligned in a field of 5 characters, padded with spaces on the left."
+  },
+  {
+    "id": 29,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%.2f\", 3.14159);",
+    "options": ["A) 3.14159", "B) 3.14", "C) 3.1", "D) 3"],
+    "correct_answer": "B) 3.14",
+    "explanation": "%.2f specifies 2 decimal places. 3.14159 is rounded to 2 decimal places giving 3.14."
+  },
+  {
+    "id": 30,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the return type of printf() in C?",
+    "options": ["A) void", "B) char", "C) int", "D) float"],
+    "correct_answer": "C) int",
+    "explanation": "printf() returns an int representing the number of characters successfully printed. On error, it returns a negative value."
+  },
+  {
+    "id": 31,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%x\", 255);",
+    "options": ["A) 255", "B) ff", "C) FF", "D) 0xff"],
+    "correct_answer": "B) ff",
+    "explanation": "%x prints in lowercase hexadecimal. 255 in hex is ff (15×16 + 15 = 255). %X would print FF."
+  },
+  {
+    "id": 32,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following reads a float value using scanf()?",
+    "options": ["A) scanf(\"%d\", &f);", "B) scanf(\"%f\", &f);", "C) scanf(\"%lf\", &f);", "D) scanf(\"%F\", &f);"],
+    "correct_answer": "B) scanf(\"%f\", &f);",
+    "explanation": "%f is used in scanf() to read a float value. %lf is used for double. %d is for integers."
+  },
+  {
+    "id": 33,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 'A');",
+    "options": ["A) A", "B) 65", "C) 97", "D) Error"],
+    "correct_answer": "B) 65",
+    "explanation": "'A' has ASCII value 65. When printed with %d, it prints the integer ASCII value 65, not the character."
+  },
+  {
+    "id": 34,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the format specifier %e do in printf()?",
+    "options": ["A) Prints in exponential notation", "B) Prints an error", "C) Prints an integer", "D) Prints end of line"],
+    "correct_answer": "A) Prints in exponential notation",
+    "explanation": "%e prints a floating-point number in scientific (exponential) notation, e.g., 3.14 becomes 3.140000e+00."
+  },
+  {
+    "id": 35,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 0);",
+    "options": ["A) NULL", "B) 0", "C) False", "D) Nothing"],
+    "correct_answer": "B) 0",
+    "explanation": "%d prints the integer value. 0 is a valid integer and is printed as 0."
+  },
+  {
+    "id": 36,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function reads a string safely with a size limit?",
+    "options": ["A) gets()", "B) scanf(\"%s\")", "C) fgets()", "D) getchar()"],
+    "correct_answer": "C) fgets()",
+    "explanation": "fgets() reads a string with a specified maximum size, preventing buffer overflow. gets() is unsafe as it has no size limit."
+  },
+  {
+    "id": 37,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\\n%d\", 1, 2);",
+    "options": ["A) 1 2", "B) 12", "C) 1\\n2", "D) 1 followed by newline then 2"],
+    "correct_answer": "D) 1 followed by newline then 2",
+    "explanation": "\\n is a newline character. printf prints 1, then a newline, then 2 on the next line."
+  },
+  {
+    "id": 38,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%05d\", 42);",
+    "options": ["A) 42   ", "B) 00042", "C)    42", "D) 42000"],
+    "correct_answer": "B) 00042",
+    "explanation": "%05d pads the number with leading zeros to make total width 5. 42 becomes 00042."
+  },
+  {
+    "id": 39,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the format specifier for a double in scanf()?",
+    "options": ["A) %f", "B) %d", "C) %lf", "D) %df"],
+    "correct_answer": "C) %lf",
+    "explanation": "In scanf(), %lf is used to read a double value. In printf(), %f works for both float and double."
+  },
+  {
+    "id": 40,
+    "topic": "Input Output in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%s\", \"Hello\" + 1);",
+    "options": ["A) Hello", "B) ello", "C) H", "D) Error"],
+    "correct_answer": "B) ello",
+    "explanation": "\"Hello\" is a pointer to 'H'. Adding 1 moves the pointer to 'e'. printf(\"%s\") prints from 'e' onwards: ello."
+  },
+  {
+    "id": 41,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  int x = 10;\n  printf(\"%d %d %d\", x, x++, ++x);\n  return 0;\n}",
+    "options": ["A) 10 10 12", "B) 12 11 12", "C) Undefined Behavior", "D) 10 11 12"],
+    "correct_answer": "C) Undefined Behavior",
+    "explanation": "Modifying a variable multiple times between sequence points causes undefined behavior in C. The order of evaluation of function arguments is unspecified."
+  },
+  {
+    "id": 42,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", printf(\"Hello\"));",
+    "options": ["A) Hello5", "B) 5Hello", "C) Hello", "D) 5"],
+    "correct_answer": "A) Hello5",
+    "explanation": "Inner printf(\"Hello\") prints 'Hello' and returns 5 (number of chars). Outer printf then prints 5. Output: Hello5."
+  },
+  {
+    "id": 43,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%-10s|\", \"Hi\");",
+    "options": ["A) |Hi        ", "B) Hi        |", "C)         Hi|", "D) Hi|"],
+    "correct_answer": "B) Hi        |",
+    "explanation": "%-10s left-aligns the string in a field of width 10. 'Hi' is printed followed by 8 spaces, then |."
+  },
+  {
+    "id": 44,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output?\n#include<stdio.h>\nint main(){\n  printf(\"%d\", 1==1);\n  return 0;\n}",
+    "options": ["A) true", "B) 1", "C) 0", "D) Error"],
+    "correct_answer": "B) 1",
+    "explanation": "In C, the result of a comparison is an integer: 1 for true, 0 for false. 1==1 is true, so printf prints 1."
+  },
+  {
+    "id": 45,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", (int)3.9);",
+    "options": ["A) 4", "B) 3", "C) 3.9", "D) Error"],
+    "correct_answer": "B) 3",
+    "explanation": "Casting 3.9 to int truncates the decimal part, giving 3. C truncates towards zero, not rounds."
+  },
+  {
+    "id": 46,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\n#include<stdio.h>\nint main(){\n  char c = 'A';\n  printf(\"%d\", c + 1);\n  return 0;\n}",
+    "options": ["A) B", "B) A1", "C) 66", "D) 65"],
+    "correct_answer": "C) 66",
+    "explanation": "'A' has ASCII value 65. Adding 1 gives 66. %d prints the integer value 66, not the character 'B'."
+  },
+  {
+    "id": 47,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%*d\", 5, 42);",
+    "options": ["A) 42", "B) 42   ", "C)    42", "D) Error"],
+    "correct_answer": "C)    42",
+    "explanation": "%*d uses the first argument (5) as the field width. 42 is right-aligned in a field of width 5, padded with spaces."
+  },
+  {
+    "id": 48,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does scanf() return when it encounters EOF?",
+    "options": ["A) 0", "B) -1", "C) NULL", "D) EOF (which is typically -1)"],
+    "correct_answer": "D) EOF (which is typically -1)",
+    "explanation": "scanf() returns EOF (defined as -1 in stdio.h) when end-of-file is reached or an input failure occurs before any conversion."
+  },
+  {
+    "id": 49,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 10 % 3);",
+    "options": ["A) 3", "B) 1", "C) 0", "D) 3.33"],
+    "correct_answer": "B) 1",
+    "explanation": "10 % 3 is the modulo operation: 10 = 3×3 + 1, so the remainder is 1. printf prints 1."
+  },
+  {
+    "id": 50,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  int a = 5;\n  printf(\"%d\", a++);\n  printf(\"%d\", a);\n  return 0;\n}",
+    "options": ["A) 55", "B) 56", "C) 65", "D) 66"],
+    "correct_answer": "B) 56",
+    "explanation": "a++ is post-increment: prints current value 5, then increments a to 6. Second printf prints 6. Output: 56."
+  },
+  {
+    "id": 51,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", ~0);",
+    "options": ["A) 0", "B) 1", "C) -1", "D) Undefined"],
+    "correct_answer": "C) -1",
+    "explanation": "~0 is bitwise NOT of 0. All bits become 1, which in two's complement represents -1. printf prints -1."
+  },
+  {
+    "id": 52,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 1 << 3);",
+    "options": ["A) 3", "B) 6", "C) 8", "D) 4"],
+    "correct_answer": "C) 8",
+    "explanation": "1 << 3 is left shift: 1 shifted left by 3 positions = 2^3 = 8. printf prints 8."
+  },
+  {
+    "id": 53,
+    "topic": "Input Output in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nprintf(\"%d\", scanf(\"%d\", &n)); when user enters 42",
+    "options": ["A) 42", "B) 1", "C) 0", "D) 2"],
+    "correct_answer": "B) 1",
+    "explanation": "scanf returns the number of items successfully read. Reading one

@@ -1,0 +1,542 @@
+[
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: 2^3 × 2^4",
+    "options": ["2^7", "2^12", "4^7", "2^1"],
+    "correct_answer": "2^7",
+    "explanation": "When multiplying powers with the same base, add the exponents: 2^3 × 2^4 = 2^(3+4) = 2^7."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of (5^3)^2?",
+    "options": ["5^5", "5^6", "5^9", "25^5"],
+    "correct_answer": "5^6",
+    "explanation": "When raising a power to another power, multiply the exponents: (5^3)^2 = 5^(3×2) = 5^6."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of √144?",
+    "options": ["11", "12", "13", "14"],
+    "correct_answer": "12",
+    "explanation": "√144 = 12 because 12 × 12 = 144."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: 3^0 + 4^0 + 5^0",
+    "options": ["0", "1", "3", "12"],
+    "correct_answer": "3",
+    "explanation": "Any non-zero number raised to the power 0 equals 1. So 3^0 + 4^0 + 5^0 = 1 + 1 + 1 = 3."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of 4^(1/2)?",
+    "options": ["1", "2", "4", "8"],
+    "correct_answer": "2",
+    "explanation": "4^(1/2) = √4 = 2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 6^5 ÷ 6^3",
+    "options": ["6^2", "6^8", "6^15", "1"],
+    "correct_answer": "6^2",
+    "explanation": "When dividing powers with the same base, subtract the exponents: 6^5 ÷ 6^3 = 6^(5-3) = 6^2 = 36."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of 2^(-3)?",
+    "options": ["8", "-8", "1/8", "-1/8"],
+    "correct_answer": "1/8",
+    "explanation": "A negative exponent means reciprocal: 2^(-3) = 1/2^3 = 1/8."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: √(25 × 16)",
+    "options": ["20", "40", "200", "10"],
+    "correct_answer": "20",
+    "explanation": "√(25 × 16) = √25 × √16 = 5 × 4 = 20."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of 27^(1/3)?",
+    "options": ["3", "9", "6", "27"],
+    "correct_answer": "3",
+    "explanation": "27^(1/3) = ∛27 = 3 because 3^3 = 27."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: (2^4 × 2^3) / 2^5",
+    "options": ["2^2", "2^3", "2^12", "2^0"],
+    "correct_answer": "2^2",
+    "explanation": "2^4 × 2^3 = 2^7. Then 2^7 / 2^5 = 2^(7-5) = 2^2 = 4."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of √(0.0049)?",
+    "options": ["0.07", "0.7", "0.007", "7"],
+    "correct_answer": "0.07",
+    "explanation": "√(0.0049) = √(49/10000) = 7/100 = 0.07."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of (1/3)^(-2)?",
+    "options": ["9", "1/9", "6", "1/6"],
+    "correct_answer": "9",
+    "explanation": "(1/3)^(-2) = 3^2 = 9."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: √81 + √49",
+    "options": ["16", "13", "18", "14"],
+    "correct_answer": "16",
+    "explanation": "√81 = 9 and √49 = 7. So 9 + 7 = 16."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of 10^3?",
+    "options": ["30", "300", "1000", "10000"],
+    "correct_answer": "1000",
+    "explanation": "10^3 = 10 × 10 × 10 = 1000."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: (3^2)^3",
+    "options": ["3^5", "3^6", "9^5", "3^8"],
+    "correct_answer": "3^6",
+    "explanation": "(3^2)^3 = 3^(2×3) = 3^6 = 729."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of 64^(2/3)?",
+    "options": ["8", "16", "4", "32"],
+    "correct_answer": "16",
+    "explanation": "64^(2/3) = (64^(1/3))^2 = 4^2 = 16."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: √(36/49)",
+    "options": ["6/7", "7/6", "36/49", "6/49"],
+    "correct_answer": "6/7",
+    "explanation": "√(36/49) = √36/√49 = 6/7."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of 5^2 × 5^0?",
+    "options": ["5^2", "5^0", "25^2", "0"],
+    "correct_answer": "5^2",
+    "explanation": "5^0 = 1, so 5^2 × 5^0 = 5^2 × 1 = 5^2 = 25."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of ∛125?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "5",
+    "explanation": "∛125 = 5 because 5^3 = 125."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: 7^4 / 7^4",
+    "options": ["0", "1", "7", "7^8"],
+    "correct_answer": "1",
+    "explanation": "7^4 / 7^4 = 7^(4-4) = 7^0 = 1."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of (16)^(3/4)?",
+    "options": ["4", "8", "12", "2"],
+    "correct_answer": "8",
+    "explanation": "16^(3/4) = (16^(1/4))^3 = 2^3 = 8."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: √(121) × √(4)",
+    "options": ["22", "44", "11", "242"],
+    "correct_answer": "22",
+    "explanation": "√121 = 11 and √4 = 2. So 11 × 2 = 22."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of 2^10?",
+    "options": ["512", "1024", "2048", "256"],
+    "correct_answer": "1024",
+    "explanation": "2^10 = 1024."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: (a^3 × a^5) / a^4",
+    "options": ["a^4", "a^2", "a^12", "a^6"],
+    "correct_answer": "a^4",
+    "explanation": "a^3 × a^5 = a^8. Then a^8 / a^4 = a^(8-4) = a^4."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of 9^(1/2) + 16^(1/2)?",
+    "options": ["5", "7", "9", "25"],
+    "correct_answer": "7",
+    "explanation": "9^(1/2) = 3 and 16^(1/2) = 4. So 3 + 4 = 7."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: (2/3)^2",
+    "options": ["4/9", "2/9", "4/6", "2/6"],
+    "correct_answer": "4/9",
+    "explanation": "(2/3)^2 = 2^2/3^2 = 4/9."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of 3^4?",
+    "options": ["12", "27", "81", "64"],
+    "correct_answer": "81",
+    "explanation": "3^4 = 3 × 3 × 3 × 3 = 81."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: √(9 + 16)",
+    "options": ["3 + 4", "5", "7", "√25"],
+    "correct_answer": "5",
+    "explanation": "√(9 + 16) = √25 = 5. Note: √9 + √16 ≠ √(9+16)."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of 8^(2/3)?",
+    "options": ["2", "4", "6", "16"],
+    "correct_answer": "4",
+    "explanation": "8^(2/3) = (8^(1/3))^2 = 2^2 = 4."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 5^3 × 5^(-1)",
+    "options": ["5^2", "5^4", "5^(-3)", "25"],
+    "correct_answer": "5^2",
+    "explanation": "5^3 × 5^(-1) = 5^(3-1) = 5^2 = 25."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of (0.01)^(1/2)?",
+    "options": ["0.001", "0.1", "0.01", "1"],
+    "correct_answer": "0.1",
+    "explanation": "(0.01)^(1/2) = √(1/100) = 1/10 = 0.1."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: (4^3)^(1/2)",
+    "options": ["4^(3/2)", "4^6", "2^3", "8"],
+    "correct_answer": "8",
+    "explanation": "(4^3)^(1/2) = 4^(3/2) = (4^(1/2))^3 = 2^3 = 8."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of 100^(1/2)?",
+    "options": ["5", "10", "50", "20"],
+    "correct_answer": "10",
+    "explanation": "100^(1/2) = √100 = 10."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: 2^5 × 4^2",
+    "options": ["2^9", "8^7", "2^7", "2^10"],
+    "correct_answer": "2^9",
+    "explanation": "4^2 = (2^2)^2 = 2^4. So 2^5 × 2^4 = 2^9."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of √(1.44)?",
+    "options": ["1.1", "1.2", "1.4", "0.12"],
+    "correct_answer": "1.2",
+    "explanation": "√(1.44) = √(144/100) = 12/10 = 1.2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: (x^4 × x^(-2))",
+    "options": ["x^6", "x^2", "x^(-8)", "x^8"],
+    "correct_answer": "x^2",
+    "explanation": "x^4 × x^(-2) = x^(4-2) = x^2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of 32^(1/5)?",
+    "options": ["2", "4", "8", "16"],
+    "correct_answer": "2",
+    "explanation": "32^(1/5) = ⁵√32 = 2 because 2^5 = 32."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: 3√12",
+    "options": ["6√3", "3√3", "12√3", "√36"],
+    "correct_answer": "6√3",
+    "explanation": "3√12 = 3 × √(4×3) = 3 × 2√3 = 6√3."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of (2^3 × 3^2)?",
+    "options": ["36", "72", "48", "54"],
+    "correct_answer": "72",
+    "explanation": "2^3 = 8 and 3^2 = 9. So 8 × 9 = 72."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: √50",
+    "options": ["5√2", "10√5", "25√2", "5√10"],
+    "correct_answer": "5√2",
+    "explanation": "√50 = √(25 × 2) = 5√2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of 4^(-1/2)?",
+    "options": ["2", "1/2", "4", "1/4"],
+    "correct_answer": "1/2",
+    "explanation": "4^(-1/2) = 1/4^(1/2) = 1/√4 = 1/2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If 2^x = 32, what is the value of x?",
+    "options": ["4", "5", "6", "3"],
+    "correct_answer": "5",
+    "explanation": "2^5 = 32, so x = 5."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Simplify: (√5 + √3)(√5 - √3)",
+    "options": ["2", "8", "√2", "√8"],
+    "correct_answer": "2",
+    "explanation": "Using (a+b)(a-b) = a² - b²: (√5)² - (√3)² = 5 - 3 = 2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If 3^(x+1) = 81, find x.",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "3",
+    "explanation": "81 = 3^4, so 3^(x+1) = 3^4 → x+1 = 4 → x = 3."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Rationalize the denominator: 1/√7",
+    "options": ["√7/7", "7/√7", "1/7", "√7"],
+    "correct_answer": "√7/7",
+    "explanation": "Multiply numerator and denominator by √7: (1×√7)/(√7×√7) = √7/7."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Simplify: (√6 + √2)(√6 - √2)",
+    "options": ["4", "8", "√4", "2√2"],
+    "correct_answer": "4",
+    "explanation": "(√6)² - (√2)² = 6 - 2 = 4."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If 4^x = 256, find x.",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "explanation": "4^4 = 256, so x = 4."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Simplify: (27/8)^(2/3)",
+    "options": ["9/4", "3/2", "27/4", "9/2"],
+    "correct_answer": "9/4",
+    "explanation": "(27/8)^(2/3) = (27^(2/3))/(8^(2/3)) = (3^2)/(2^2) = 9/4."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If 5^(2x-1) = 125, find x.",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "explanation": "125 = 5^3, so 2x-1 = 3 → 2x = 4 → x = 2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Simplify: √(75) - √(48) + √(27)",
+    "options": ["4√3", "6√3", "2√3", "8√3"],
+    "correct_answer": "4√3",
+    "explanation": "√75 = 5√3, √48 = 4√3, √27 = 3√3. So 5√3 - 4√3 + 3√3 = 4√3."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of (0.125)^(-1/3)?",
+    "options": ["2", "1/2", "4", "1/4"],
+    "correct_answer": "2",
+    "explanation": "0.125 = 1/8 = 2^(-3). So (2^(-3))^(-1/3) = 2^1 = 2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Simplify: 2^(n+4) - 2(2^n) / 2(2^(n+3))",
+    "options": ["1", "7/8", "15/16", "1/2"],
+    "correct_answer": "7/8",
+    "explanation": "Numerator: 2^(n+4) - 2^(n+1) = 2^(n+1)(2^3 - 1) = 7 × 2^(n+1). Denominator: 2 × 2^(n+3) = 2^(n+4). Result = 7×2^(n+1)/2^(n+4) = 7/2^3 = 7/8."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If x = 3 + 2√2, find the value of x + 1/x.",
+    "options": ["6", "4√2", "3 + 2√2", "6 + 4√2"],
+    "correct_answer": "6",
+    "explanation": "1/x = 1/(3+2√2) = (3-2√2)/((3+2√2)(3-2√2)) = (3-2√2)/(9-8) = 3-2√2. So x + 1/x = (3+2√2) + (3-2√2) = 6."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Simplify: (a^(1/2) × b^(1/3))^6",
+    "options": ["a^3 × b^2", "a^6 × b^6", "a^2 × b^3", "a^3 × b^6"],
+    "correct_answer": "a^3 × b^2",
+    "explanation": "(a^(1/2))^6 × (b^(1/3))^6 = a^3 × b^2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If 2^(x+y) = 8 and 2^(x-y) = 2, find x.",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "explanation": "2^(x+y) = 2^3 → x+y = 3. 2^(x-y) = 2^1 → x-y = 1. Adding: 2x = 4 → x = 2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Rationalize: 5/(√3 + √2)",
+    "options": ["5(√3 - √2)", "5(√3 + √2)", "5/(√3 - √2)", "√3 - √2"],
+    "correct_answer": "5(√3 - √2)",
+    "explanation": "Multiply by (√3 - √2)/(√3 - √2): 5(√3 - √2)/((√3)² - (√2)²) = 5(√3 - √2)/(3-2) = 5(√3 - √2)."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Simplify: (x^a / x^b)^(a+b) × (x^b / x^c)^(b+c) × (x^c / x^a)^(c+a)",
+    "options": ["x", "1", "0", "x^(a+b+c)"],
+    "correct_answer": "1",
+    "explanation": "Each factor: x^((a-b)(a+b)) × x^((b-c)(b+c)) × x^((c-a)(c+a)) = x^(a²-b²+b²-c²+c²-a²) = x^0 = 1."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If √(x+5) = 4, find x.",
+    "options": ["9", "11", "16", "21"],
+    "correct_answer": "11",
+    "explanation": "√(x+5) = 4 → x+5 = 16 → x = 11."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Simplify: (√2 + 1)² ",
+    "options": ["3 + 2√2", "3", "2 + √2", "5"],
+    "correct_answer": "3 + 2√2",
+    "explanation": "(√2 + 1)² = (√2)² + 2(√2)(1) + 1² = 2 + 2√2 + 1 = 3 + 2√2."
+  },
+  {
+    "topic": "Surds and Indices",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If 9^x = 3^(x+6), find x.",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "6",
+    "explanation": "9^x = (3^2)^x = 3^(2x). So 3^(2x) = 3^(x+6) → 2x = x+6 → x = 6."
+  }
+]

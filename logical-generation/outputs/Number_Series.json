@@ -1,0 +1,527 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 2, 4, 6, 8, 10, ?",
+    "options": ["A) 11", "B) 12", "C) 13", "D) 14"],
+    "correct_answer": "B) 12",
+    "explanation": "This is an arithmetic series with common difference 2. Each term increases by 2, so 10 + 2 = 12."
+  },
+  {
+    "id": 2,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 3, 6, 12, 24, 48, ?",
+    "options": ["A) 72", "B) 84", "C) 96", "D) 108"],
+    "correct_answer": "C) 96",
+    "explanation": "This is a geometric series with common ratio 2. Each term is multiplied by 2, so 48 × 2 = 96."
+  },
+  {
+    "id": 3,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 4, 9, 16, 25, ?",
+    "options": ["A) 30", "B) 35", "C) 36", "D) 49"],
+    "correct_answer": "C) 36",
+    "explanation": "These are perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, so next is 6²=36."
+  },
+  {
+    "id": 4,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 1, 2, 3, 5, 8, ?",
+    "options": ["A) 11", "B) 13", "C) 15", "D) 16"],
+    "correct_answer": "B) 13",
+    "explanation": "This is the Fibonacci series where each term is the sum of the two preceding terms. 5 + 8 = 13."
+  },
+  {
+    "id": 5,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 5, 10, 15, 20, 25, ?",
+    "options": ["A) 28", "B) 30", "C) 32", "D) 35"],
+    "correct_answer": "B) 30",
+    "explanation": "This is an arithmetic series with common difference 5. Each term increases by 5, so 25 + 5 = 30."
+  },
+  {
+    "id": 6,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 100, 90, 80, 70, 60, ?",
+    "options": ["A) 40", "B) 45", "C) 50", "D) 55"],
+    "correct_answer": "C) 50",
+    "explanation": "This is a decreasing arithmetic series with common difference -10. 60 - 10 = 50."
+  },
+  {
+    "id": 7,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 2, 6, 18, 54, ?",
+    "options": ["A) 108", "B) 144", "C) 162", "D) 180"],
+    "correct_answer": "C) 162",
+    "explanation": "This is a geometric series with common ratio 3. Each term is multiplied by 3, so 54 × 3 = 162."
+  },
+  {
+    "id": 8,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 7, 14, 21, 28, 35, ?",
+    "options": ["A) 40", "B) 42", "C) 44", "D) 49"],
+    "correct_answer": "B) 42",
+    "explanation": "These are multiples of 7. The next multiple of 7 after 35 is 42 (7 × 6 = 42)."
+  },
+  {
+    "id": 9,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 8, 27, 64, 125, ?",
+    "options": ["A) 196", "B) 210", "C": "216", "D) 225"],
+    "correct_answer": "C) 216",
+    "explanation": "These are perfect cubes: 1³=1, 2³=8, 3³=27, 4³=64, 5³=125, so next is 6³=216."
+  },
+  {
+    "id": 10,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 10, 20, 30, ?, 50, 60",
+    "options": ["A) 35", "B) 38", "C) 40", "D) 45"],
+    "correct_answer": "C) 40",
+    "explanation": "This is an arithmetic series with common difference 10. The missing term is 30 + 10 = 40."
+  },
+  {
+    "id": 11,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 3, 9, 27, 81, ?",
+    "options": ["A) 162", "B) 243", "C) 270", "D) 324"],
+    "correct_answer": "B) 243",
+    "explanation": "This is a geometric series with common ratio 3. Each term is multiplied by 3, so 81 × 3 = 243."
+  },
+  {
+    "id": 12,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 2, 5, 8, 11, 14, ?",
+    "options": ["A) 15", "B) 16", "C) 17", "D) 18"],
+    "correct_answer": "C) 17",
+    "explanation": "This is an arithmetic series with common difference 3. Each term increases by 3, so 14 + 3 = 17."
+  },
+  {
+    "id": 13,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 50, 45, 40, 35, 30, ?",
+    "options": ["A) 20", "B) 22", "C) 25", "D) 28"],
+    "correct_answer": "C) 25",
+    "explanation": "This is a decreasing arithmetic series with common difference -5. 30 - 5 = 25."
+  },
+  {
+    "id": 14,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 4, 8, 16, 32, 64, ?",
+    "options": ["A) 96", "B) 112", "C) 128", "D) 144"],
+    "correct_answer": "C) 128",
+    "explanation": "This is a geometric series with common ratio 2. Each term is doubled, so 64 × 2 = 128."
+  },
+  {
+    "id": 15,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 3, 5, 7, 9, ?",
+    "options": ["A) 10", "B) 11", "C) 12", "D) 13"],
+    "correct_answer": "B) 11",
+    "explanation": "These are consecutive odd numbers. Each term increases by 2, so 9 + 2 = 11."
+  },
+  {
+    "id": 16,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 2, 4, 8, 14, 22, ?",
+    "options": ["A) 28", "B) 30", "C) 32", "D) 34"],
+    "correct_answer": "C) 32",
+    "explanation": "Differences are 2, 4, 6, 8, 10... (increasing by 2). So 22 + 10 = 32."
+  },
+  {
+    "id": 17,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 0, 2, 6, 12, 20, ?",
+    "options": ["A) 28", "B) 30", "C) 32", "D) 36"],
+    "correct_answer": "B) 30",
+    "explanation": "Differences are 2, 4, 6, 8, 10... (increasing by 2). So 20 + 10 = 30. Also n(n+1) pattern: 5×6=30."
+  },
+  {
+    "id": 18,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 11, 22, 33, 44, 55, ?",
+    "options": ["A) 60", "B) 64", "C) 66", "D) 70"],
+    "correct_answer": "C) 66",
+    "explanation": "These are multiples of 11. The next multiple of 11 after 55 is 66 (11 × 6 = 66)."
+  },
+  {
+    "id": 19,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 5, 11, 17, 23, 29, ?",
+    "options": ["A) 33", "B) 35", "C) 37", "D) 39"],
+    "correct_answer": "B) 35",
+    "explanation": "This is an arithmetic series with common difference 6. Each term increases by 6, so 29 + 6 = 35."
+  },
+  {
+    "id": 20,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 2, 4, 7, 11, ?",
+    "options": ["A) 14", "B) 15", "C) 16", "D) 17"],
+    "correct_answer": "C) 16",
+    "explanation": "Differences are 1, 2, 3, 4, 5... (increasing by 1). So 11 + 5 = 16."
+  },
+  {
+    "id": 21,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 81, 27, 9, 3, ?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "correct_answer": "B) 1",
+    "explanation": "This is a geometric series with common ratio 1/3. Each term is divided by 3, so 3 ÷ 3 = 1."
+  },
+  {
+    "id": 22,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 6, 11, 16, 21, 26, ?",
+    "options": ["A) 29", "B) 30", "C) 31", "D) 32"],
+    "correct_answer": "C) 31",
+    "explanation": "This is an arithmetic series with common difference 5. Each term increases by 5, so 26 + 5 = 31."
+  },
+  {
+    "id": 23,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 2, 3, 5, 7, 11, 13, ?",
+    "options": ["A) 15", "B) 16", "C) 17", "D) 19"],
+    "correct_answer": "C) 17",
+    "explanation": "These are consecutive prime numbers: 2, 3, 5, 7, 11, 13, 17. The next prime after 13 is 17."
+  },
+  {
+    "id": 24,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 4, 9, 16, ?, 36",
+    "options": ["A) 20", "B) 22", "C) 25", "D) 28"],
+    "correct_answer": "C) 25",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5², 6². The missing term is 5² = 25."
+  },
+  {
+    "id": 25,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 15, 30, 45, 60, 75, ?",
+    "options": ["A) 85", "B) 88", "C) 90", "D) 95"],
+    "correct_answer": "C) 90",
+    "explanation": "These are multiples of 15. The next multiple of 15 after 75 is 90 (15 × 6 = 90)."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 3, 7, 13, 21, 31, ?",
+    "options": ["A) 41", "B) 43", "C) 45", "D) 47"],
+    "correct_answer": "B) 43",
+    "explanation": "Differences are 4, 6, 8, 10, 12... (increasing by 2). So 31 + 12 = 43."
+  },
+  {
+    "id": 27,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 256, 128, 64, 32, ?",
+    "options": ["A) 8", "B) 12", "C) 16", "D) 24"],
+    "correct_answer": "C) 16",
+    "explanation": "This is a geometric series with common ratio 1/2. Each term is halved, so 32 ÷ 2 = 16."
+  },
+  {
+    "id": 28,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 4, 9, 16, 25, 36, ?",
+    "options": ["A) 42", "B) 45", "C) 49", "D) 56"],
+    "correct_answer": "C) 49",
+    "explanation": "These are perfect squares starting from 2²: 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49."
+  },
+  {
+    "id": 29,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 2, 3, 5, 8, 13, 21, ?",
+    "options": ["A) 29", "B) 32", "C) 34", "D) 36"],
+    "correct_answer": "C) 34",
+    "explanation": "This is the Fibonacci series. Each term is the sum of the two preceding terms: 13 + 21 = 34."
+  },
+  {
+    "id": 30,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 9, 18, 27, 36, 45, ?",
+    "options": ["A) 50", "B) 52", "C) 54", "D) 56"],
+    "correct_answer": "C) 54",
+    "explanation": "These are multiples of 9. The next multiple of 9 after 45 is 54 (9 × 6 = 54)."
+  },
+  {
+    "id": 31,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 3, 7, 15, 31, ?",
+    "options": ["A) 47", "B) 55", "C) 63", "D) 71"],
+    "correct_answer": "C) 63",
+    "explanation": "Each term = 2 × previous term + 1. So 31 × 2 + 1 = 63. Or differences: 2, 4, 8, 16, 32."
+  },
+  {
+    "id": 32,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 20, 17, 14, 11, 8, ?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "C) 5",
+    "explanation": "This is a decreasing arithmetic series with common difference -3. 8 - 3 = 5."
+  },
+  {
+    "id": 33,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 2, 6, 12, 20, 30, ?",
+    "options": ["A) 38", "B) 40", "C) 42", "D) 44"],
+    "correct_answer": "C) 42",
+    "explanation": "Pattern is n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42."
+  },
+  {
+    "id": 34,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 5, 10, 20, 40, 80, ?",
+    "options": ["A) 120", "B) 140", "C) 160", "D) 180"],
+    "correct_answer": "C) 160",
+    "explanation": "This is a geometric series with common ratio 2. Each term is doubled, so 80 × 2 = 160."
+  },
+  {
+    "id": 35,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 13, 26, 39, 52, 65, ?",
+    "options": ["A) 72", "B) 76", "C) 78", "D) 80"],
+    "correct_answer": "C) 78",
+    "explanation": "These are multiples of 13. The next multiple of 13 after 65 is 78 (13 × 6 = 78)."
+  },
+  {
+    "id": 36,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 5, 14, 30, 55, ?",
+    "options": ["A) 80", "B) 85", "C) 90", "D) 91"],
+    "correct_answer": "D) 91",
+    "explanation": "Differences are 4, 9, 16, 25, 36 (perfect squares). So 55 + 36 = 91."
+  },
+  {
+    "id": 37,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 72, 60, 48, 36, 24, ?",
+    "options": ["A) 8", "B) 10", "C) 12", "D) 14"],
+    "correct_answer": "C) 12",
+    "explanation": "This is a decreasing arithmetic series with common difference -12. 24 - 12 = 12."
+  },
+  {
+    "id": 38,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 4, 12, 36, 108, ?",
+    "options": ["A) 216", "B) 270", "C) 324", "D) 432"],
+    "correct_answer": "C) 324",
+    "explanation": "This is a geometric series with common ratio 3. Each term is multiplied by 3, so 108 × 3 = 324."
+  },
+  {
+    "id": 39,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 1, 2, 6, 24, 120, ?",
+    "options": ["A) 360", "B) 480", "C) 600", "D) 720"],
+    "correct_answer": "D) 720",
+    "explanation": "These are factorials: 1!=1, 2!=2, 3!=6, 4!=24, 5!=120, 6!=720."
+  },
+  {
+    "id": 40,
+    "topic": "Number Series",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing number: 8, 16, 24, 32, 40, ?",
+    "options": ["A) 44", "B) 46", "C) 48", "D) 50"],
+    "correct_answer": "C) 48",
+    "explanation": "These are multiples of 8. The next multiple of 8 after 40 is 48 (8 × 6 = 48)."
+  },
+  {
+    "id": 41,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 3, 4, 7, 11, 18, 29, ?",
+    "options": ["A) 40", "B) 45", "C) 47", "D) 52"],
+    "correct_answer": "C) 47",
+    "explanation": "Each term is the sum of the two preceding terms (like Fibonacci): 18 + 29 = 47."
+  },
+  {
+    "id": 42,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 5, 6, 9, 15, 24, 36, ?",
+    "options": ["A) 48", "B) 51", "C) 54", "D) 60"],
+    "correct_answer": "B) 51",
+    "explanation": "Differences are 1, 3, 6, 9, 12, 15... (increasing by 3 after first). So 36 + 15 = 51."
+  },
+  {
+    "id": 43,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 7, 26, 63, 124, 215, ?",
+    "options": ["A) 296", "B) 320", "C) 342", "D) 360"],
+    "correct_answer": "C) 342",
+    "explanation": "Pattern is n³ - 1: 2³-1=7, 3³-1=26, 4³-1=63, 5³-1=124, 6³-1=215, 7³-1=342."
+  },
+  {
+    "id": 44,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 2, 5, 11, 23, 47, ?",
+    "options": ["A) 89", "B) 93", "C) 95", "D) 97"],
+    "correct_answer": "C) 95",
+    "explanation": "Each term = 2 × previous term + 1. So 47 × 2 + 1 = 95."
+  },
+  {
+    "id": 45,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 4, 7, 12, 19, 28, 39, ?",
+    "options": ["A) 48", "B) 50", "C) 52", "D) 54"],
+    "correct_answer": "C) 52",
+    "explanation": "Differences are 3, 5, 7, 9, 11, 13 (odd numbers increasing by 2). So 39 + 13 = 52."
+  },
+  {
+    "id": 46,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 1, 6, 15, 28, 45, ?",
+    "options": ["A) 60", "B) 64", "C) 66", "D) 70"],
+    "correct_answer": "C) 66",
+    "explanation": "Differences are 5, 9, 13, 17, 21 (increasing by 4). So 45 + 21 = 66."
+  },
+  {
+    "id": 47,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 144, 121, 100, 81, 64, ?",
+    "options": ["A) 36", "B) 42", "C) 49", "D) 56"],
+    "correct_answer": "C) 49",
+    "explanation": "These are perfect squares in decreasing order: 12², 11², 10², 9², 8², 7². So 7² = 49."
+  },
+  {
+    "id": 48,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 6, 13, 25, 51, 101, ?",
+    "options": ["A) 195", "B) 200", "C) 203", "D) 210"],
+    "correct_answer": "C) 203",
+    "explanation": "Each term = 2 × previous term + 1 (approximately). Pattern: 6×2+1=13, 13×2-1=25, 25×2+1=51, 51×2-1=101, 101×2+1=203."
+  },
+  {
+    "id": 49,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 2, 3, 7, 13, 27, 53, ?",
+    "options": ["A) 97", "B) 103", "C) 107", "D) 113"],
+    "correct_answer": "C) 107",
+    "explanation": "Each term = 2 × previous term - 1 (alternating). Pattern: 2×2-1=3, 3×2+1=7, 7×2-1=13, 13×2+1=27, 27×2-1=53, 53×2+1=107."
+  },
+  {
+    "id": 50,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 10, 14, 22, 38, 70, ?",
+    "options": ["A) 120", "B) 126", "C) 130", "D) 134"],
+    "correct_answer": "D) 134",
+    "explanation": "Differences are 4, 8, 16, 32, 64 (doubling each time). So 70 + 64 = 134."
+  },
+  {
+    "id": 51,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 3, 5, 9, 17, 33, ?",
+    "options": ["A) 55", "B) 60", "C) 65", "D) 70"],
+    "correct_answer": "C) 65",
+    "explanation": "Each term = 2 × previous term - 1. So 33 × 2 - 1 = 65."
+  },
+  {
+    "id": 52,
+    "topic": "Number Series",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing number: 1, 2, 5, 10, 17, 26, ?",
+    "options": ["A) 35", "B) 36", "C) 37", "D) 38"],
+    "correct_answer": "C) 37",
+    "explanation": "Differences are 1, 3, 5, 7, 9, 11 (consecutive odd numbers). So 26 + 11 = 37."
+  },
+  {
+    "id": 53,
+    "topic": "Number Series",
+    "difficulty":

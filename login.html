@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>AarovaaiAI — Login</title>
+<meta name="description" content="Login to AarovaaiAI — India's smartest aptitude learning platform"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#08080e;--surf:#0f0f18;--card:#161620;--card2:#1c1c28;
+  --b1:#252538;--b2:#333348;
+  --acc:#7c5cfc;--acc2:#a78bfa;--accbg:#7c5cfc12;--accbg2:#7c5cfc22;--accbg3:#7c5cfc33;
+  --gr:#22c55e;--grbg:#031a09;--grb:#154828;
+  --rd:#ef4444;--rdbg:#130202;--rdb:#4a1010;
+  --tx:#eeeeff;--tx2:#9898b8;--tx3:#5a5a7a;--tx4:#3a3a52;
+  --r:14px;--rs:9px;
+}
+html,body{background:var(--bg);color:var(--tx);font-family:'Sora',sans-serif;min-height:100vh;font-size:14px;line-height:1.5;overflow-x:hidden}
+button{cursor:pointer;font-family:inherit}
+a{text-decoration:none;color:var(--acc2)}
+
+/* ── BACKGROUND ── */
+.bg-glow{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.bg-glow::before{content:"";position:absolute;top:-200px;left:50%;transform:translateX(-50%);width:700px;height:700px;background:radial-gradient(circle,#7c5cfc0d 0%,transparent 65%)}
+.bg-glow::after{content:"";position:absolute;bottom:-200px;right:-100px;width:500px;height:500px;background:radial-gradient(circle,#22c55e06 0%,transparent 65%)}
+
+/* ── LAYOUT ── */
+.wrapper{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;position:relative;z-index:1}
+
+/* ── CARD ── */
+.auth-card{background:var(--surf);border:1px solid var(--b2);border-radius:20px;padding:36px 32px;width:100%;max-width:420px;box-shadow:0 24px 80px #00000066;animation:slideUp .35s ease}
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── LOGO ── */
+.logo-wrap{display:flex;align-items:center;gap:11px;margin-bottom:28px;justify-content:center}
+.logo-box{width:42px;height:42px;background:var(--acc);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800;color:#fff;letter-spacing:-.5px;flex-shrink:0;box-shadow:0 4px 20px #7c5cfc44}
+.logo-txt{font-size:20px;font-weight:800;letter-spacing:-.4px}
+.logo-txt span{color:var(--acc2)}
+
+/* ── HEADING ── */
+.auth-title{font-size:22px;font-weight:800;letter-spacing:-.4px;margin-bottom:6px;text-align:center}
+.auth-sub{font-size:13px;color:var(--tx2);text-align:center;margin-bottom:28px}
+
+/* ── FORM ── */
+.field{margin-bottom:16px}
+.field label{display:block;font-size:12px;font-weight:700;color:var(--tx2);margin-bottom:6px;text-transform:uppercase;letter-spacing:.06em}
+.field input{width:100%;background:var(--card);border:1.5px solid var(--b1);border-radius:var(--rs);padding:12px 14px;font-size:14px;color:var(--tx);font-family:inherit;outline:none;transition:.15s}
+.field input:focus{border-color:var(--acc);box-shadow:0 0 0 3px var(--accbg3)}
+.field input::placeholder{color:var(--tx3)}
+.field input.error{border-color:var(--rd)}
+
+/* ── ERROR MSG ── */
+.field-err{font-size:11px;color:var(--rd);margin-top:5px;display:none}
+.field-err.show{display:block}
+
+/* ── REMEMBER ROW ── */
+.rem-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
+.rem-label{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--tx2);cursor:pointer}
+.rem-label input[type="checkbox"]{width:16px;height:16px;accent-color:var(--acc);cursor:pointer}
+.forgot-link{font-size:12px;color:var(--acc2)}
+.forgot-link:hover{text-decoration:underline}
+
+/* ── SUBMIT BTN ── */
+.btn-submit{width:100%;background:var(--acc);color:#fff;border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:700;transition:.15s;position:relative;overflow:hidden}
+.btn-submit:hover{background:#6b4ef0;transform:translateY(-1px)}
+.btn-submit:active{transform:scale(.98)}
+.btn-submit:disabled{background:var(--card2);color:var(--tx3);cursor:not-allowed;transform:none}
+
+/* ── SPINNER ── */
+.spinner{display:inline-block;width:16px;height:16px;border:2px solid #ffffff44;border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;vertical-align:middle;margin-right:8px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── DIVIDER ── */
+.divider{display:flex;align-items:center;gap:12px;margin:20px 0}
+.divider::before,.divider::after{content:"";flex:1;height:1px;background:var(--b1)}
+.divider span{font-size:11px;color:var(--tx3);font-weight:600}
+
+/* ── OAUTH BTN ── */
+.btn-oauth{width:100%;background:var(--card);border:1.5px solid var(--b1);border-radius:12px;padding:12px;font-size:13px;font-weight:600;color:var(--tx);display:flex;align-items:center;justify-content:center;gap:10px;transition:.15s}
+.btn-oauth:hover{border-color:var(--b2);background:var(--card2)}
+
+/* ── SWITCH LINK ── */
+.switch-txt{text-align:center;margin-top:22px;font-size:13px;color:var(--tx2)}
+.switch-txt a{color:var(--acc2);font-weight:600}
+.switch-txt a:hover{text-decoration:underline}
+
+/* ── TOAST ── */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--card2);border:1px solid var(--b2);border-radius:12px;padding:12px 20px;font-size:13px;font-weight:600;color:var(--tx);opacity:0;transition:.3s;z-index:999;white-space:nowrap;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.toast.toast-err{border-color:var(--rdb);background:var(--rdbg);color:var(--rd)}
+.toast.toast-ok{border-color:var(--grb);background:var(--grbg);color:var(--gr)}
+
+/* ── STATS STRIP ── */
+.stats-strip{display:flex;justify-content:center;gap:28px;margin-bottom:28px;padding:14px;background:var(--card);border:1px solid var(--b1);border-radius:12px}
+.ss-item{text-align:center}
+.ss-item b{display:block;font-size:16px;font-weight:800;color:var(--acc2);letter-spacing:-.3px}
+.ss-item span{font-size:10px;color:var(--tx3);margin-top:2px;display:block}
+</style>
+</head>
+<body>
+<div class="bg-glow"></div>
+
+<div class="wrapper">
+  <div class="auth-card">
+    <!-- Logo -->
+    <div class="logo-wrap">
+      <div class="logo-box">A</div>
+      <div class="logo-txt">Aarovaai<span>AI</span></div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-strip">
+      <div class="ss-item"><b>3200+</b><span>Questions</span></div>
+      <div class="ss-item"><b>32</b><span>Topics</span></div>
+      <div class="ss-item"><b>94%</b><span>Pass Rate</span></div>
+    </div>
+
+    <div class="auth-title">Welcome back! 👋</div>
+    <div class="auth-sub">Login to continue your aptitude journey</div>
+
+    <!-- Form -->
+    <form id="login-form" onsubmit="handleLogin(event)">
+      <div class="field">
+        <label for="email">Email address</label>
+        <input type="email" id="email" placeholder="you@email.com" autocomplete="email" required/>
+        <div class="field-err" id="email-err">Please enter a valid email</div>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" autocomplete="current-password" required/>
+        <div class="field-err" id="pass-err">Password is required</div>
+      </div>
+
+      <div class="rem-row">
+        <label class="rem-label">
+          <input type="checkbox" id="remember"/> Remember me
+        </label>
+        <a href="#" class="forgot-link">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="btn-submit" id="submit-btn">Login →</button>
+    </form>
+
+    <div class="switch-txt">
+      Don't have an account? <a href="register.html">Create one free →</a>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const API = 'http://localhost:3000/api';
+
+// If already logged in, go to dashboard
+if (localStorage.getItem('aarovaai_token')) {
+  window.location.href = 'aarovaai_platform_ui.html';
+}
+
+function showToast(msg, type = '') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show' + (type ? ' toast-' + type : '');
+  setTimeout(() => t.className = 'toast', 3000);
+}
+
+async function handleLogin(e) {
+  e.preventDefault();
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value;
+  const remember = document.getElementById('remember').checked;
+  const btn = document.getElementById('submit-btn');
+
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>Logging in…';
+
+  try {
+    const res = await fetch(`${API}/auth/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password })
+    });
+    const data = await res.json();
+
+    if (!res.ok) throw new Error(data.message || 'Login failed');
+
+    // Store tokens
+    const storage = remember ? localStorage : sessionStorage;
+    localStorage.setItem('aarovaai_token', data.accessToken);
+    localStorage.setItem('aarovaai_refresh', data.refreshToken);
+    localStorage.setItem('aarovaai_user', JSON.stringify(data.user));
+
+    showToast('Login successful! Redirecting…', 'ok');
+    setTimeout(() => window.location.href = 'aarovaai_platform_ui.html', 800);
+  } catch (err) {
+    showToast('❌ ' + err.message, 'err');
+    btn.disabled = false;
+    btn.innerHTML = 'Login →';
+  }
+}
+</script>
+</body>
+</html>

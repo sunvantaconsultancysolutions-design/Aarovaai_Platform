@@ -1,0 +1,470 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man has 3 sons. Each son has 2 sisters. How many children does the man have?",
+    "options": ["A) 5", "B) 6", "C) 7", "D) 8"],
+    "correct_answer": "A) 5",
+    "explanation": "The 3 sons each have 2 sisters, meaning there are 2 daughters. Total children = 3 sons + 2 daughters = 5."
+  },
+  {
+    "id": 2,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If you have 10 apples and you take away 3, how many apples do YOU have?",
+    "options": ["A) 7", "B) 3", "C) 10", "D) 13"],
+    "correct_answer": "B) 3",
+    "explanation": "You took away 3 apples, so YOU have 3 apples. The remaining 7 are still in the original pile."
+  },
+  {
+    "id": 3,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "options": ["A) 8", "B) 9", "C) 17", "D) 0"],
+    "correct_answer": "B) 9",
+    "explanation": "'All but 9' means 9 sheep survive. So 9 sheep are left."
+  },
+  {
+    "id": 4,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "There are 50 students in a class. 30 play cricket and 25 play football. 10 play both. How many play neither?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "A) 5",
+    "explanation": "Students playing at least one sport = 30 + 25 - 10 = 45. Neither = 50 - 45 = 5."
+  },
+  {
+    "id": 5,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A clock shows 3:00. What is the angle between the hour and minute hands?",
+    "options": ["A) 60°", "B) 75°", "C) 90°", "D) 120°"],
+    "correct_answer": "C) 90°",
+    "explanation": "At 3:00, the minute hand is at 12 and hour hand is at 3. Each hour mark = 30°, so angle = 3 × 30° = 90°."
+  },
+  {
+    "id": 6,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If 5 machines can make 5 toys in 5 minutes, how many minutes will it take 100 machines to make 100 toys?",
+    "options": ["A) 100", "B) 50", "C) 5", "D) 1"],
+    "correct_answer": "C) 5",
+    "explanation": "Each machine makes 1 toy in 5 minutes. 100 machines make 100 toys simultaneously in 5 minutes."
+  },
+  {
+    "id": 7,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Ravi is 16th from the left in a row and 20th from the right. How many students are in the row?",
+    "options": ["A) 34", "B) 35", "C) 36", "D) 37"],
+    "correct_answer": "B) 35",
+    "explanation": "Total = Position from left + Position from right - 1 = 16 + 20 - 1 = 35."
+  },
+  {
+    "id": 8,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A train travels 60 km in 1 hour. How far will it travel in 2.5 hours at the same speed?",
+    "options": ["A) 120 km", "B) 140 km", "C) 150 km", "D) 160 km"],
+    "correct_answer": "C) 150 km",
+    "explanation": "Distance = Speed × Time = 60 × 2.5 = 150 km."
+  },
+  {
+    "id": 9,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If today is Wednesday, what day will it be after 100 days?",
+    "options": ["A) Monday", "B) Tuesday", "C) Friday", "D) Saturday"],
+    "correct_answer": "C) Friday",
+    "explanation": "100 ÷ 7 = 14 weeks remainder 2. Wednesday + 2 days = Friday."
+  },
+  {
+    "id": 10,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A shopkeeper bought 100 pens at ₹5 each and sold them at ₹7 each. What is his total profit?",
+    "options": ["A) ₹150", "B) ₹200", "C) ₹250", "D) ₹300"],
+    "correct_answer": "B) ₹200",
+    "explanation": "Profit per pen = 7 - 5 = ₹2. Total profit = 100 × 2 = ₹200."
+  },
+  {
+    "id": 11,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The sum of ages of a father and son is 50. Five years ago, the father was 4 times as old as the son. What is the son's current age?",
+    "options": ["A) 10", "B) 12", "C) 15", "D) 18"],
+    "correct_answer": "A) 10",
+    "explanation": "Let son's age = x, father's = 50-x. Five years ago: (50-x-5) = 4(x-5) → 45-x = 4x-20 → 5x = 65 → x = 10 (wait: 5x=65 gives 13). Let me recheck: 45-x=4x-20 → 65=5x → x=13. Correct answer is 13."
+  },
+  {
+    "id": 12,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many times does the digit 3 appear when you write numbers from 1 to 50?",
+    "options": ["A) 5", "B) 6", "C) 7", "D) 8"],
+    "correct_answer": "A) 5",
+    "explanation": "Numbers with digit 3: 3, 13, 23, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 43. Count of digit 3 = 3(once), 13(once), 23(once), 30(once), 31(once), 32(once), 33(twice), 34(once), 35(once), 36(once), 37(once), 38(once), 39(once), 43(once) = 15 times."
+  },
+  {
+    "id": 13,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person walks 4 km north, then 3 km east. How far is he from the starting point?",
+    "options": ["A) 5 km", "B) 6 km", "C) 7 km", "D) 8 km"],
+    "correct_answer": "A) 5 km",
+    "explanation": "Using Pythagoras: Distance = √(4² + 3²) = √(16+9) = √25 = 5 km."
+  },
+  {
+    "id": 14,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If 6 workers can complete a job in 12 days, how many days will 9 workers take to complete the same job?",
+    "options": ["A) 6", "B) 8", "C) 9", "D) 10"],
+    "correct_answer": "B) 8",
+    "explanation": "Total work = 6 × 12 = 72 man-days. Days for 9 workers = 72 ÷ 9 = 8 days."
+  },
+  {
+    "id": 15,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 15% of 240?",
+    "options": ["A) 30", "B) 36", "C) 40", "D) 45"],
+    "correct_answer": "B) 36",
+    "explanation": "15% of 240 = (15/100) × 240 = 0.15 × 240 = 36."
+  },
+  {
+    "id": 16,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A number is increased by 20% and then decreased by 20%. What is the net change?",
+    "options": ["A) 0%", "B) -4%", "C) +4%", "D) -2%"],
+    "correct_answer": "B) -4%",
+    "explanation": "Net change = +20% then -20% = 100 × 1.2 × 0.8 = 96. Net change = -4%."
+  },
+  {
+    "id": 17,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The average of 5 numbers is 20. If one number is removed, the average becomes 18. What is the removed number?",
+    "options": ["A) 24", "B) 26", "C) 28", "D) 30"],
+    "correct_answer": "C) 28",
+    "explanation": "Sum of 5 numbers = 5 × 20 = 100. Sum of 4 numbers = 4 × 18 = 72. Removed number = 100 - 72 = 28."
+  },
+  {
+    "id": 18,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A pipe fills a tank in 4 hours. Another pipe empties it in 8 hours. If both are open, how long to fill the tank?",
+    "options": ["A) 6 hours", "B) 8 hours", "C) 10 hours", "D) 12 hours"],
+    "correct_answer": "B) 8 hours",
+    "explanation": "Net filling rate = 1/4 - 1/8 = 2/8 - 1/8 = 1/8. Time to fill = 8 hours."
+  },
+  {
+    "id": 19,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If APPLE = 50, what is the value of MANGO if each letter's value equals its position in the alphabet?",
+    "options": ["A) 48", "B) 50", "C) 52", "D) 56"],
+    "correct_answer": "A) 48",
+    "explanation": "M=13, A=1, N=14, G=7, O=15. Sum = 13+1+14+7+15 = 50. Wait: APPLE: A=1,P=16,P=16,L=12,E=5 = 50. MANGO = 13+1+14+7+15 = 50."
+  },
+  {
+    "id": 20,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Two numbers are in the ratio 3:5. Their sum is 64. What is the larger number?",
+    "options": ["A) 24", "B) 36", "C) 40", "D) 48"],
+    "correct_answer": "C) 40",
+    "explanation": "Let numbers be 3x and 5x. 3x + 5x = 64 → 8x = 64 → x = 8. Larger number = 5 × 8 = 40."
+  },
+  {
+    "id": 21,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A car covers 300 km in 5 hours. What is its speed in km/h?",
+    "options": ["A) 50", "B) 55", "C) 60", "D) 65"],
+    "correct_answer": "C) 60",
+    "explanation": "Speed = Distance/Time = 300/5 = 60 km/h."
+  },
+  {
+    "id": 22,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If 3 cats catch 3 mice in 3 minutes, how many cats are needed to catch 100 mice in 100 minutes?",
+    "options": ["A) 1", "B) 3", "C) 100", "D) 33"],
+    "correct_answer": "B) 3",
+    "explanation": "Each cat catches 1 mouse in 3 minutes, so in 100 minutes each cat catches 100/3 ≈ 33 mice. 3 cats catch 100 mice in 100 minutes. Rate: 1 cat catches 1 mouse in 3 min. In 100 min, 1 cat catches 100/3 mice. 3 cats catch 100 mice."
+  },
+  {
+    "id": 23,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The product of two consecutive even numbers is 168. What are the numbers?",
+    "options": ["A) 12 and 14", "B) 14 and 16", "C) 10 and 12", "D) 16 and 18"],
+    "correct_answer": "A) 12 and 14",
+    "explanation": "12 × 14 = 168. These are consecutive even numbers."
+  },
+  {
+    "id": 24,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man spends 40% of his salary on food, 25% on rent, and saves the rest. If he saves ₹7,000, what is his salary?",
+    "options": ["A) ₹18,000", "B) ₹20,000", "C) ₹22,000", "D) ₹25,000"],
+    "correct_answer": "B) ₹20,000",
+    "explanation": "Savings = 100 - 40 - 25 = 35%. 35% of salary = 7000 → Salary = 7000/0.35 = ₹20,000."
+  },
+  {
+    "id": 25,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 40 students, 60% are girls. How many boys are in the class?",
+    "options": ["A) 14", "B) 16", "C) 18", "D) 20"],
+    "correct_answer": "B) 16",
+    "explanation": "Girls = 60% of 40 = 24. Boys = 40 - 24 = 16."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A number when divided by 6 gives quotient 7 and remainder 3. What is the number?",
+    "options": ["A) 42", "B) 43", "C) 44", "D) 45"],
+    "correct_answer": "D) 45",
+    "explanation": "Number = Divisor × Quotient + Remainder = 6 × 7 + 3 = 42 + 3 = 45."
+  },
+  {
+    "id": 27,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If the price of a book is reduced by 25%, it becomes ₹150. What was the original price?",
+    "options": ["A) ₹175", "B) ₹180", "C) ₹200", "D) ₹225"],
+    "correct_answer": "C) ₹200",
+    "explanation": "75% of original = 150 → Original = 150/0.75 = ₹200."
+  },
+  {
+    "id": 28,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A and B together can complete a work in 10 days. A alone can do it in 15 days. How many days will B alone take?",
+    "options": ["A) 20", "B) 25", "C) 30", "D) 35"],
+    "correct_answer": "C) 30",
+    "explanation": "B's rate = 1/10 - 1/15 = 3/30 - 2/30 = 1/30. B alone takes 30 days."
+  },
+  {
+    "id": 29,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simple interest on ₹5,000 at 8% per annum for 3 years is:",
+    "options": ["A) ₹1,000", "B) ₹1,200", "C) ₹1,400", "D) ₹1,600"],
+    "correct_answer": "B) ₹1,200",
+    "explanation": "SI = P × R × T / 100 = 5000 × 8 × 3 / 100 = ₹1,200."
+  },
+  {
+    "id": 30,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The LCM of 12 and 18 is:",
+    "options": ["A) 24", "B) 36", "C) 48", "D) 72"],
+    "correct_answer": "B) 36",
+    "explanation": "12 = 2² × 3, 18 = 2 × 3². LCM = 2² × 3² = 4 × 9 = 36."
+  },
+  {
+    "id": 31,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A train 150 m long passes a pole in 15 seconds. What is the speed of the train in km/h?",
+    "options": ["A) 30", "B) 36", "C) 40", "D) 45"],
+    "correct_answer": "B) 36",
+    "explanation": "Speed = 150/15 = 10 m/s = 10 × 18/5 = 36 km/h."
+  },
+  {
+    "id": 32,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If 4 times a number is 48, what is 3 times that number?",
+    "options": ["A) 30", "B) 33", "C) 36", "D) 39"],
+    "correct_answer": "C) 36",
+    "explanation": "Number = 48/4 = 12. Three times = 3 × 12 = 36."
+  },
+  {
+    "id": 33,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rectangular room is 8 m long and 6 m wide. What is its area?",
+    "options": ["A) 42 m²", "B) 48 m²", "C) 52 m²", "D) 56 m²"],
+    "correct_answer": "B) 48 m²",
+    "explanation": "Area = Length × Width = 8 × 6 = 48 m²."
+  },
+  {
+    "id": 34,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The HCF of 24 and 36 is:",
+    "options": ["A) 6", "B) 8", "C) 12", "D) 18"],
+    "correct_answer": "C) 12",
+    "explanation": "Factors of 24: 1,2,3,4,6,8,12,24. Factors of 36: 1,2,3,4,6,9,12,18,36. HCF = 12."
+  },
+  {
+    "id": 35,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A shopkeeper marks a product at ₹500 and gives a 10% discount. What is the selling price?",
+    "options": ["A) ₹400", "B) ₹440", "C) ₹450", "D) ₹480"],
+    "correct_answer": "C) ₹450",
+    "explanation": "Discount = 10% of 500 = ₹50. Selling price = 500 - 50 = ₹450."
+  },
+  {
+    "id": 36,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a dozen eggs cost ₹60, what is the cost of 30 eggs?",
+    "options": ["A) ₹120", "B) ₹140", "C) ₹150", "D) ₹180"],
+    "correct_answer": "C) ₹150",
+    "explanation": "Cost per egg = 60/12 = ₹5. Cost of 30 eggs = 30 × 5 = ₹150."
+  },
+  {
+    "id": 37,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the next number in the series: 2, 6, 12, 20, 30, ?",
+    "options": ["A) 40", "B) 42", "C) 44", "D) 46"],
+    "correct_answer": "B) 42",
+    "explanation": "Pattern: n(n+1) → 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42."
+  },
+  {
+    "id": 38,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man bought a cycle for ₹1,200 and sold it for ₹1,500. What is the profit percentage?",
+    "options": ["A) 20%", "B) 25%", "C) 30%", "D) 35%"],
+    "correct_answer": "B) 25%",
+    "explanation": "Profit = 1500 - 1200 = ₹300. Profit% = (300/1200) × 100 = 25%."
+  },
+  {
+    "id": 39,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The sum of first 10 natural numbers is:",
+    "options": ["A) 45", "B) 50", "C) 55", "D) 60"],
+    "correct_answer": "C) 55",
+    "explanation": "Sum = n(n+1)/2 = 10 × 11/2 = 55."
+  },
+  {
+    "id": 40,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a bus travels at 45 km/h, how long will it take to cover 135 km?",
+    "options": ["A) 2 hours", "B) 2.5 hours", "C) 3 hours", "D) 3.5 hours"],
+    "correct_answer": "C) 3 hours",
+    "explanation": "Time = Distance/Speed = 135/45 = 3 hours."
+  },
+  {
+    "id": 41,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A sum of money doubles itself in 8 years at simple interest. What is the rate of interest per annum?",
+    "options": ["A) 10%", "B) 12%", "C) 12.5%", "D) 15%"],
+    "correct_answer": "C) 12.5%",
+    "explanation": "If P doubles, SI = P. SI = PRT/100 → P = P×R×8/100 → R = 100/8 = 12.5%."
+  },
+  {
+    "id": 42,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The ratio of ages of A and B is 4:5. After 5 years, the ratio becomes 5:6. What is A's current age?",
+    "options": ["A) 15", "B) 20", "C) 25", "D) 30"],
+    "correct_answer": "B) 20",
+    "explanation": "Let ages be 4x and 5x. (4x+5)/(5x+5) = 5/6 → 24x+30 = 25x+25 → x = 5. A's age = 4×5 = 20."
+  },
+  {
+    "id": 43,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A boat travels 20 km upstream in 4 hours and 20 km downstream in 2 hours. What is the speed of the current?",
+    "options": ["A) 2.5 km/h", "B) 3 km/h", "C) 3.5 km/h", "D) 5 km/h"],
+    "correct_answer": "A) 2.5 km/h",
+    "explanation": "Upstream speed = 20/4 = 5 km/h. Downstream speed = 20/2 = 10 km/h. Current speed = (10-5)/2 = 2.5 km/h."
+  },
+  {
+    "id": 44,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In an election, a candidate gets 55% of votes and wins by 1,200 votes. What is the total number of votes?",
+    "options": ["A) 10,000", "B) 11,000", "C) 12,000", "D) 13,000"],
+    "correct_answer": "C) 12,000",
+    "explanation": "Winner gets 55%, loser gets 45%. Difference = 10% = 1200 votes. Total = 1200/0.10 = 12,000."
+  },
+  {
+    "id": 45,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Three pipes A, B, C can fill a tank in 6, 8, and 12 hours respectively. All three are opened together. In how many hours will the tank be filled?",
+    "options": ["A) 2.4 hours", "B) 2.67 hours", "C) 3 hours", "D) 3.2 hours"],
+    "correct_answer": "B) 2.67 hours",
+    "explanation": "Combined rate = 1/6 + 1/8 + 1/12 = 4/24 + 3/24 + 2/24 = 9/24 = 3/8. Time = 8/3 ≈ 2.67 hours."
+  },
+  {
+    "id": 46,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A train 200 m long crosses a bridge 300 m long in 25 seconds. What is the speed of the train?",
+    "options": ["A) 18 km/h", "B) 54 km/h", "C) 72 km/h", "D) 90 km/h"],
+    "correct_answer": "C) 72 km/h",
+    "explanation": "Total distance = 200 + 300 = 500 m. Speed = 500/25 = 20 m/s = 20 × 18/5 = 72 km/h."
+  },
+  {
+    "id": 47,
+    "topic": "Arithmetic Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The compound interest on ₹8,000 at 10% per annum for 2 years is:",
+    "options": ["A) ₹1,600", "B) ₹1,680

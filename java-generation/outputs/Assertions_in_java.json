@@ -1,0 +1,456 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary purpose of assertions in Java?",
+    "options": ["A) To handle exceptions at runtime", "B) To test assumptions made by the programmer during development", "C) To replace try-catch blocks", "D) To improve program performance"],
+    "correct_answer": "B) To test assumptions made by the programmer during development",
+    "explanation": "Assertions are used to verify assumptions made by the programmer. They help detect bugs during development and testing phases. They are not meant for production error handling."
+  },
+  {
+    "id": 2,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to write an assertion in Java?",
+    "options": ["A) assert", "B) Assert", "C) ASSERT", "D) assertion"],
+    "correct_answer": "A) assert",
+    "explanation": "The 'assert' keyword (lowercase) is used to write assertions in Java. It was introduced in Java 1.4. Java keywords are case-sensitive, so 'Assert' or 'ASSERT' are not valid."
+  },
+  {
+    "id": 3,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What exception is thrown when an assertion fails in Java?",
+    "options": ["A) AssertionException", "B) AssertionError", "C) RuntimeException", "D) IllegalArgumentException"],
+    "correct_answer": "B) AssertionError",
+    "explanation": "When an assertion fails, Java throws an AssertionError, which is a subclass of Error (not Exception). It signals a serious programming bug that should not be caught in normal code."
+  },
+  {
+    "id": 4,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "By default, are assertions enabled or disabled in Java?",
+    "options": ["A) Enabled", "B) Disabled", "C) Enabled only in debug mode", "D) Depends on the JVM version"],
+    "correct_answer": "B) Disabled",
+    "explanation": "By default, assertions are disabled at runtime in Java. They must be explicitly enabled using the -ea (or -enableassertions) JVM flag when running the program."
+  },
+  {
+    "id": 5,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JVM flag is used to enable assertions in Java?",
+    "options": ["A) -da", "B) -ea", "C) -assert", "D) -enableAssert"],
+    "correct_answer": "B) -ea",
+    "explanation": "-ea stands for 'enable assertions'. It can also be written as -enableassertions. The flag -da is used to disable assertions, which is the default behavior."
+  },
+  {
+    "id": 6,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code when assertions are enabled?\nassert 5 > 3 : \"Five is not greater than three\";",
+    "options": ["A) AssertionError is thrown", "B) Program continues normally", "C) Compilation error", "D) NullPointerException"],
+    "correct_answer": "B) Program continues normally",
+    "explanation": "The condition 5 > 3 is true, so the assertion passes and the program continues normally. An AssertionError is only thrown when the boolean expression evaluates to false."
+  },
+  {
+    "id": 7,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code when assertions are enabled?\nassert 2 > 5 : \"Assertion failed\";",
+    "options": ["A) Program continues normally", "B) AssertionError: Assertion failed", "C) Compilation error", "D) RuntimeException"],
+    "correct_answer": "B) AssertionError: Assertion failed",
+    "explanation": "The condition 2 > 5 is false, so the assertion fails and throws AssertionError with the message 'Assertion failed'. The message after the colon is the detail message."
+  },
+  {
+    "id": 8,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct syntax for a simple assertion in Java?",
+    "options": ["A) assert(condition);", "B) assert condition;", "C) assert: condition;", "D) Both A and B are correct"],
+    "correct_answer": "D) Both A and B are correct",
+    "explanation": "Both 'assert condition;' and 'assert(condition);' are valid. The parentheses are optional since 'assert' is a statement keyword, not a method call. Both forms compile and work correctly."
+  },
+  {
+    "id": 9,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In which Java version was the 'assert' keyword introduced?",
+    "options": ["A) Java 1.2", "B) Java 1.3", "C) Java 1.4", "D) Java 5"],
+    "correct_answer": "C) Java 1.4",
+    "explanation": "The 'assert' keyword was introduced in Java 1.4 (J2SE 1.4). Before this version, 'assert' could be used as an identifier. Programs using 'assert' as a variable name may not compile in Java 1.4+."
+  },
+  {
+    "id": 10,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What are the two forms of the assert statement in Java?",
+    "options": ["A) assert expression1; and assert expression1 : expression2;", "B) assert(expression1); and assert(expression1, expression2);", "C) assert expression1; and assert expression1, expression2;", "D) assert expression1; and assert expression1 || expression2;"],
+    "correct_answer": "A) assert expression1; and assert expression1 : expression2;",
+    "explanation": "Java supports two forms: 'assert expression1;' (simple form) and 'assert expression1 : expression2;' (with detail message). The second expression provides a message when the assertion fails."
+  },
+  {
+    "id": 11,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type must the first expression in an assert statement be?",
+    "options": ["A) int", "B) String", "C) boolean", "D) Object"],
+    "correct_answer": "C) boolean",
+    "explanation": "The first expression in an assert statement must evaluate to a boolean value (true or false). If it evaluates to true, the assertion passes; if false, AssertionError is thrown."
+  },
+  {
+    "id": 12,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid use case for assertions?",
+    "options": ["A) Checking preconditions in private methods", "B) Validating user input in public methods", "C) Checking postconditions", "D) Checking class invariants"],
+    "correct_answer": "B) Validating user input in public methods",
+    "explanation": "Assertions should NOT be used to validate user input in public methods because assertions can be disabled. User input validation should use exceptions. Assertions are best for internal consistency checks."
+  },
+  {
+    "id": 13,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of the JVM flag -ea?",
+    "options": ["A) enable assertions", "B) enable all", "C) execute assertions", "D) enable application"],
+    "correct_answer": "A) enable assertions",
+    "explanation": "-ea is the short form of -enableassertions. Both flags enable assertion checking in the JVM. You can also use -enableassertions as the full form of this flag."
+  },
+  {
+    "id": 14,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of the JVM flag -da?",
+    "options": ["A) disable all", "B) disable assertions", "C) debug assertions", "D) default assertions"],
+    "correct_answer": "B) disable assertions",
+    "explanation": "-da stands for -disableassertions. It is used to explicitly disable assertions. Since assertions are disabled by default, -da is mainly used to selectively disable assertions for specific packages or classes."
+  },
+  {
+    "id": 15,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when assertions are disabled and an assert statement is encountered?",
+    "options": ["A) AssertionError is thrown", "B) The assert statement is completely ignored", "C) A warning is printed", "D) The program terminates"],
+    "correct_answer": "B) The assert statement is completely ignored",
+    "explanation": "When assertions are disabled (default), assert statements are completely skipped by the JVM with no performance overhead. This is why assertions should not have side effects."
+  },
+  {
+    "id": 16,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class is AssertionError a subclass of?",
+    "options": ["A) Exception", "B) RuntimeException", "C) Error", "D) Throwable"],
+    "correct_answer": "C) Error",
+    "explanation": "AssertionError extends Error, which extends Throwable. It is NOT a subclass of Exception. Errors represent serious problems that applications should not try to catch or recover from."
+  },
+  {
+    "id": 17,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if you try to catch AssertionError in a catch block?",
+    "options": ["A) Compilation error", "B) It can be caught since AssertionError is Throwable", "C) It cannot be caught", "D) The program will crash"],
+    "correct_answer": "B) It can be caught since AssertionError is Throwable",
+    "explanation": "AssertionError can technically be caught since it extends Throwable. However, it is strongly discouraged to catch AssertionError as it indicates a programming bug that should be fixed, not handled."
+  },
+  {
+    "id": 18,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the second expression in 'assert condition : expression2;' represent?",
+    "options": ["A) A second condition to check", "B) The detail message passed to AssertionError", "C) The return value of the assertion", "D) A fallback condition"],
+    "correct_answer": "B) The detail message passed to AssertionError",
+    "explanation": "The second expression (after the colon) provides a detail message that is passed to the AssertionError constructor when the assertion fails. It helps identify what went wrong."
+  },
+  {
+    "id": 19,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following commands correctly enables assertions when running a Java program?",
+    "options": ["A) java -ea MyProgram", "B) java -enable MyProgram", "C) java -assert MyProgram", "D) java -debug MyProgram"],
+    "correct_answer": "A) java -ea MyProgram",
+    "explanation": "The correct command is 'java -ea MyProgram' or 'java -enableassertions MyProgram'. The -ea flag tells the JVM to enable assertion checking for all user classes."
+  },
+  {
+    "id": 20,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can the second expression in an assert statement be void?",
+    "options": ["A) Yes, it can be void", "B) No, it must have a value", "C) Yes, but only for primitive types", "D) It depends on the JVM version"],
+    "correct_answer": "B) No, it must have a value",
+    "explanation": "The second expression in 'assert condition : expression2;' must produce a value (cannot be void). It is passed to the AssertionError constructor as the detail message, so it must evaluate to something."
+  },
+  {
+    "id": 21,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will the following code print when assertions are disabled?\nint x = 5;\nassert x > 10 : \"x is too small\";\nSystem.out.println(\"Done\");",
+    "options": ["A) AssertionError: x is too small", "B) Done", "C) Compilation error", "D) Nothing"],
+    "correct_answer": "B) Done",
+    "explanation": "When assertions are disabled (default), the assert statement is skipped entirely. The program continues to the println statement and prints 'Done'."
+  },
+  {
+    "id": 22,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Assertions are primarily used in which phase of software development?",
+    "options": ["A) Production deployment", "B) Development and testing", "C) Database design", "D) UI design"],
+    "correct_answer": "B) Development and testing",
+    "explanation": "Assertions are primarily used during development and testing to catch programming bugs early. In production, assertions are typically disabled for performance reasons."
+  },
+  {
+    "id": 23,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a correct assertion statement?",
+    "options": ["A) assert x != null : \"x is null\";", "B) assert(x != null, \"x is null\");", "C) assert x != null, \"x is null\";", "D) assert: x != null : \"x is null\";"],
+    "correct_answer": "A) assert x != null : \"x is null\";",
+    "explanation": "The correct syntax is 'assert expression : message;'. Option B uses method-call syntax which is wrong. Option C uses a comma instead of colon. Option D has an extra colon before the condition."
+  },
+  {
+    "id": 24,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of the following assertion when enabled?\nint age = -5;\nassert age >= 0;",
+    "options": ["A) Program continues normally", "B) AssertionError is thrown with no message", "C) AssertionError is thrown with message '-5'", "D) IllegalArgumentException is thrown"],
+    "correct_answer": "B) AssertionError is thrown with no message",
+    "explanation": "Since age = -5 and the condition age >= 0 is false, AssertionError is thrown. Since no detail message is provided (simple form), the error has no message."
+  },
+  {
+    "id": 25,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can 'assert' be used as a variable name in Java 1.4 and later?",
+    "options": ["A) Yes, always", "B) No, it is a reserved keyword", "C) Yes, but only in static methods", "D) Yes, but only as a local variable"],
+    "correct_answer": "B) No, it is a reserved keyword",
+    "explanation": "Since Java 1.4, 'assert' became a reserved keyword and cannot be used as an identifier (variable name, method name, etc.). Code using 'assert' as an identifier will fail to compile."
+  },
+  {
+    "id": 26,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about assertions is TRUE?",
+    "options": ["A) Assertions are always enabled in Java", "B) Assertions can replace exception handling", "C) Assertions should not be used for argument checking in public methods", "D) Assertions are checked at compile time"],
+    "correct_answer": "C) Assertions should not be used for argument checking in public methods",
+    "explanation": "Assertions should not validate public method arguments because they can be disabled. Public method argument validation should use exceptions like IllegalArgumentException."
+  },
+  {
+    "id": 27,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: assert false; when assertions are enabled?",
+    "options": ["A) false", "B) AssertionError", "C) Compilation error", "D) Program continues normally"],
+    "correct_answer": "B) AssertionError",
+    "explanation": "assert false; always fails because the condition is the literal boolean value false. This throws AssertionError with no detail message when assertions are enabled."
+  },
+  {
+    "id": 28,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: assert true; when assertions are enabled?",
+    "options": ["A) true", "B) AssertionError", "C) Program continues normally", "D) Compilation error"],
+    "correct_answer": "C) Program continues normally",
+    "explanation": "assert true; always passes because the condition is the literal boolean value true. The program continues normally without throwing any error."
+  },
+  {
+    "id": 29,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How can you enable assertions for a specific class named 'MyClass'?",
+    "options": ["A) java -ea:MyClass MyProgram", "B) java -ea MyClass MyProgram", "C) java -enable:MyClass MyProgram", "D) java -assert:MyClass MyProgram"],
+    "correct_answer": "A) java -ea:MyClass MyProgram",
+    "explanation": "To enable assertions for a specific class, use 'java -ea:ClassName'. The colon followed by the class name targets assertions for that specific class only."
+  },
+  {
+    "id": 30,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes an assertion?",
+    "options": ["A) A statement that always executes", "B) A boolean expression that the programmer believes to be true at a specific point", "C) A method that validates input", "D) A type of loop construct"],
+    "correct_answer": "B) A boolean expression that the programmer believes to be true at a specific point",
+    "explanation": "An assertion is a boolean expression that the programmer believes should be true at a specific point in the code. If it's false, it indicates a bug in the program logic."
+  },
+  {
+    "id": 31,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the package of AssertionError in Java?",
+    "options": ["A) java.util", "B) java.lang", "C) java.io", "D) java.assert"],
+    "correct_answer": "B) java.lang",
+    "explanation": "AssertionError is in the java.lang package, which is automatically imported. It extends java.lang.Error. No explicit import is needed to use AssertionError."
+  },
+  {
+    "id": 32,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Should assertions have side effects? Why?",
+    "options": ["A) Yes, to log information", "B) No, because assertions may be disabled and side effects would be skipped", "C) Yes, to update state", "D) No, because they cause compilation errors"],
+    "correct_answer": "B) No, because assertions may be disabled and side effects would be skipped",
+    "explanation": "Assertions should never have side effects because when disabled, the assert statement is skipped entirely. If an assertion modifies state, the program behavior would differ based on whether assertions are enabled."
+  },
+  {
+    "id": 33,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following command do? java -ea:com.example... MyApp",
+    "options": ["A) Enables assertions for the class com.example", "B) Enables assertions for the package com.example and all its subpackages", "C) Disables assertions for com.example", "D) Enables assertions for all classes"],
+    "correct_answer": "B) Enables assertions for the package com.example and all its subpackages",
+    "explanation": "The '...' (three dots) after a package name enables assertions for that package and all its subpackages. This is the wildcard syntax for package-level assertion enabling."
+  },
+  {
+    "id": 34,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct hierarchy? AssertionError → ?",
+    "options": ["A) AssertionError → Exception → Throwable", "B) AssertionError → Error → Throwable", "C) AssertionError → RuntimeException → Exception", "D) AssertionError → Throwable directly"],
+    "correct_answer": "B) AssertionError → Error → Throwable",
+    "explanation": "The hierarchy is: AssertionError extends Error, Error extends Throwable. AssertionError is NOT an Exception. This is why it doesn't need to be declared in throws clauses."
+  },
+  {
+    "id": 35,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if the expression in an assert statement throws an exception?",
+    "options": ["A) AssertionError is thrown", "B) The exception propagates normally", "C) The exception is ignored", "D) Compilation error"],
+    "correct_answer": "B) The exception propagates normally",
+    "explanation": "If the boolean expression in an assert statement throws an exception, that exception propagates normally (not wrapped in AssertionError). The exception takes precedence over the assertion check."
+  },
+  {
+    "id": 36,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can assertions be used inside constructors?",
+    "options": ["A) No, assertions are only for methods", "B) Yes, assertions can be used anywhere in Java code", "C) Yes, but only at the end of constructors", "D) No, they cause compilation errors in constructors"],
+    "correct_answer": "B) Yes, assertions can be used anywhere in Java code",
+    "explanation": "Assertions can be used anywhere in Java code including constructors, methods, static blocks, and instance initializers. They are valid wherever a statement is valid."
+  },
+  {
+    "id": 37,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of using assertions to check postconditions?",
+    "options": ["A) To validate input before a method executes", "B) To verify that a method produced the correct result after execution", "C) To check class variables", "D) To validate user interface elements"],
+    "correct_answer": "B) To verify that a method produced the correct result after execution",
+    "explanation": "Postcondition assertions verify that a method produced the expected result after its execution. They help ensure the method's logic is correct and the output meets expected criteria."
+  },
+  {
+    "id": 38,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid second expression in an assert statement?",
+    "options": ["A) assert x > 0 : void;", "B) assert x > 0 : \"x must be positive\";", "C) assert x > 0 : ;", "D) assert x > 0 : return;"],
+    "correct_answer": "B) assert x > 0 : \"x must be positive\";",
+    "explanation": "The second expression must produce a value. A String literal like \"x must be positive\" is valid. void, empty expression, and return statement are not valid as they don't produce values."
+  },
+  {
+    "id": 39,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following when assertions are enabled?\nint x = 10;\nassert x == 10 : \"x is not 10\";\nSystem.out.println(\"x = \" + x);",
+    "options": ["A) AssertionError: x is not 10", "B) x = 10", "C) Compilation error", "D) x is not 10"],
+    "correct_answer": "B) x = 10",
+    "explanation": "x == 10 is true, so the assertion passes. The program continues and prints 'x = 10'. The assertion message is only used when the assertion fails."
+  },
+  {
+    "id": 40,
+    "topic": "Assertions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to enable assertions for system classes?",
+    "options": ["A) java -ea MyProgram", "B) java -esa MyProgram", "C) java -sa MyProgram", "D) java -enableSystem MyProgram"],
+    "correct_answer": "B) java -esa MyProgram",
+    "explanation": "-esa (or -enablesystemassertions) enables assertions in system classes (bootstrap class loader). Regular -ea does not enable assertions in system classes. -esa is used for JDK internal class testing."
+  },
+  {
+    "id": 41,
+    "topic": "Assertions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code when assertions are enabled?\npublic class Test {\n    public static void main(String[] args) {\n        int x = 5;\n        assert x++ > 5 : x;\n        System.out.println(x);\n    }\n}",
+    "options": ["A) 5", "B) 6", "C) AssertionError: 6", "D) AssertionError: 5"],
+    "correct_answer": "C) AssertionError: 6",
+    "explanation": "x++ is post-increment, so x > 5 evaluates as 5 > 5 = false. The assertion fails. At the time of failure, x has been incremented to 6, so the detail message is 6. AssertionError: 6 is thrown."
+  },
+  {
+    "id": 42,
+    "topic": "Assertions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is wrong with the following code?\npublic void setAge(int age) {\n    assert age > 0 : \"Age must be positive\";\n    this.age = age;\n}",
+    "options": ["A) Syntax error in assert statement", "B) Using assertion to validate public method parameter is inappropriate", "C) The detail message format is wrong", "D) Nothing is wrong"],
+    "correct_answer": "B) Using assertion to validate public method parameter is inappropriate",
+    "explanation": "Assertions should not validate public method parameters because assertions can be disabled. If disabled, invalid age values would pass through. Use IllegalArgumentException for public method validation instead."
+  },
+  {
+    "id": 43,
+    "topic": "Assertions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code when assertions are DISABLED?\npublic class Test {\n    static int count = 0;\n    public static void main(String[] args) {\n        assert ++count > 0;\n        System.out.println(count);\n    }\n}",
+    "options": ["A) 1", "B) 0", "C) AssertionError", "D) Compilation error"],
+    "correct_answer": "B) 0",
+    "explanation": "When assertions are disabled, the assert statement is completely skipped, including the ++count expression. Since count is never incremented, it remains 0. This demonstrates why assertions should not have side effects."
+  },
+  {
+    "id": 44,
+    "topic": "Assertions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly enables assertions for package 'com.test' but disables them for class 'com.test.MyClass'?",
+    "options": ["A) java -ea:com.test... -da:com.test.MyClass MyApp", "B) java -da:com.test.MyClass -ea:com.test... MyApp", "C) java -ea:com.test -da:com.test.MyClass MyApp", "D) Both A and B are correct"],
+    "correct_answer": "D) Both A and B are correct",
+    "explanation": "Both commands work because JVM processes assertion flags left to right, and the more specific flag (class-level) overrides the less specific (package-level). The order doesn't matter for specificity-based overriding."
+  },
+  {
+    "id": 45,
+    "topic": "Assertions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code when assertions are enabled?\npublic class Test {\n    public static void main(String[] args) {\n        try {\n            assert false : \"Test\";\n        } catch (AssertionError e) {\n            System.out.println(\"Caught: \" + e.getMessage());\n        }\n    }\n}",
+    "options": ["A) Compilation error", "B) Caught: Test", "C) AssertionError: Test", "D) Nothing is printed"],
+    "correct_answer": "B) Caught: Test",
+    "explanation": "Although catching AssertionError is discouraged, it is technically possible since AssertionError extends Throwable. The catch block catches it and prints 'Caught: Test'."
+  },
+  {
+    "id": 46,
+    "topic": "Assertions in java",
+    "difficulty": "medium",

@@ -1,0 +1,471 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the parent class of all exception classes in Java?",
+    "options": ["A) Exception", "B) Error", "C) Throwable", "D) RuntimeException"],
+    "correct_answer": "C) Throwable",
+    "explanation": "In Java, 'Throwable' is the root class of all errors and exceptions. Both 'Exception' and 'Error' extend 'Throwable'."
+  },
+  {
+    "id": 2,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to manually throw an exception in Java?",
+    "options": ["A) throws", "B) throw", "C) catch", "D) finally"],
+    "correct_answer": "B) throw",
+    "explanation": "'throw' keyword is used to explicitly throw an exception object. 'throws' is used in method signatures to declare exceptions."
+  },
+  {
+    "id": 3,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following exceptions is thrown when dividing an integer by zero in Java?",
+    "options": ["A) NullPointerException", "B) ArithmeticException", "C) NumberFormatException", "D) IllegalArgumentException"],
+    "correct_answer": "B) ArithmeticException",
+    "explanation": "When an integer is divided by zero, Java throws ArithmeticException with the message '/ by zero'. Note: floating-point division by zero returns Infinity."
+  },
+  {
+    "id": 4,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\ntry {\n    System.out.println(\"try\");\n} finally {\n    System.out.println(\"finally\");\n}",
+    "options": ["A) try", "B) finally", "C) try\nfinally", "D) Compilation error"],
+    "correct_answer": "C) try\nfinally",
+    "explanation": "The try block executes printing 'try', then the finally block always executes printing 'finally'. A try block can exist without a catch block if it has a finally block."
+  },
+  {
+    "id": 5,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a checked exception in Java?",
+    "options": ["A) NullPointerException", "B) ArrayIndexOutOfBoundsException", "C) IOException", "D) ClassCastException"],
+    "correct_answer": "C) IOException",
+    "explanation": "IOException is a checked exception that must be either caught or declared using 'throws'. The others listed are unchecked (RuntimeException subclasses)."
+  },
+  {
+    "id": 6,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which block is always executed whether an exception occurs or not?",
+    "options": ["A) try", "B) catch", "C) finally", "D) throw"],
+    "correct_answer": "C) finally",
+    "explanation": "The 'finally' block always executes regardless of whether an exception is thrown or caught, making it ideal for cleanup code like closing resources."
+  },
+  {
+    "id": 7,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What exception is thrown when you try to access an array element with an invalid index?",
+    "options": ["A) IndexOutOfBoundsException", "B) ArrayIndexOutOfBoundsException", "C) NullPointerException", "D) IllegalStateException"],
+    "correct_answer": "B) ArrayIndexOutOfBoundsException",
+    "explanation": "Accessing an array with an index less than 0 or greater than or equal to the array length throws ArrayIndexOutOfBoundsException."
+  },
+  {
+    "id": 8,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid way to handle exceptions in Java?",
+    "options": ["A) try-catch", "B) try-finally", "C) try-catch-finally", "D) catch-finally"],
+    "correct_answer": "D) catch-finally",
+    "explanation": "A 'catch' or 'finally' block cannot exist without a 'try' block. Valid combinations are try-catch, try-finally, and try-catch-finally."
+  },
+  {
+    "id": 9,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\ntry {\n    int[] arr = new int[5];\n    arr[10] = 1;\n} catch (ArrayIndexOutOfBoundsException e) {\n    System.out.println(\"Caught\");\n}",
+    "options": ["A) Caught", "B) Runtime error", "C) Compilation error", "D) No output"],
+    "correct_answer": "A) Caught",
+    "explanation": "Accessing arr[10] on an array of size 5 throws ArrayIndexOutOfBoundsException, which is caught by the catch block, printing 'Caught'."
+  },
+  {
+    "id": 10,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which exception is thrown when a class is cast to an incompatible type?",
+    "options": ["A) ClassNotFoundException", "B) ClassCastException", "C) IllegalCastException", "D) TypeMismatchException"],
+    "correct_answer": "B) ClassCastException",
+    "explanation": "ClassCastException is thrown when you try to cast an object to a class of which it is not an instance, e.g., casting a String to Integer."
+  },
+  {
+    "id": 11,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about the 'throws' keyword is correct?",
+    "options": ["A) It is used to throw an exception", "B) It declares exceptions a method might throw", "C) It catches exceptions", "D) It is used inside a method body"],
+    "correct_answer": "B) It declares exceptions a method might throw",
+    "explanation": "'throws' is used in a method signature to declare that the method may throw certain exceptions, informing the caller to handle them."
+  },
+  {
+    "id": 12,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What exception is thrown when you call a method on a null reference?",
+    "options": ["A) NullPointerException", "B) IllegalArgumentException", "C) NullReferenceException", "D) ObjectNotFoundException"],
+    "correct_answer": "A) NullPointerException",
+    "explanation": "NullPointerException is thrown when an application attempts to use null where an object is required, such as calling a method on a null reference."
+  },
+  {
+    "id": 13,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an unchecked exception?",
+    "options": ["A) FileNotFoundException", "B) SQLException", "C) NullPointerException", "D) ClassNotFoundException"],
+    "correct_answer": "C) NullPointerException",
+    "explanation": "NullPointerException extends RuntimeException, making it an unchecked exception. Unchecked exceptions don't need to be declared or caught explicitly."
+  },
+  {
+    "id": 14,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to create a custom exception class in Java?",
+    "options": ["A) class MyException implements Exception", "B) class MyException extends Exception", "C) class MyException throws Exception", "D) class MyException catch Exception"],
+    "correct_answer": "B) class MyException extends Exception",
+    "explanation": "Custom exceptions are created by extending the Exception class (for checked) or RuntimeException (for unchecked). 'implements' is for interfaces, not classes."
+  },
+  {
+    "id": 15,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when an exception is thrown but not caught in Java?",
+    "options": ["A) The program continues normally", "B) The JVM terminates the program and prints the stack trace", "C) The exception is ignored", "D) The program restarts"],
+    "correct_answer": "B) The JVM terminates the program and prints the stack trace",
+    "explanation": "If an exception propagates up the call stack without being caught, the JVM's default exception handler terminates the thread and prints the stack trace."
+  },
+  {
+    "id": 16,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of the Throwable class returns the detail message of the exception?",
+    "options": ["A) toString()", "B) getMessage()", "C) getError()", "D) getDescription()"],
+    "correct_answer": "B) getMessage()",
+    "explanation": "getMessage() returns the detail message string of the Throwable. toString() returns the class name plus the message, but getMessage() returns just the message."
+  },
+  {
+    "id": 17,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following exceptions is thrown when the JVM runs out of memory?",
+    "options": ["A) MemoryException", "B) OutOfMemoryError", "C) StackOverflowError", "D) HeapException"],
+    "correct_answer": "B) OutOfMemoryError",
+    "explanation": "OutOfMemoryError is thrown when the JVM cannot allocate an object because it is out of memory. It extends Error, not Exception."
+  },
+  {
+    "id": 18,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a single try block have multiple catch blocks in Java?",
+    "options": ["A) No, only one catch block is allowed", "B) Yes, multiple catch blocks are allowed", "C) Only if they catch the same exception type", "D) Only in Java 8 and above"],
+    "correct_answer": "B) Yes, multiple catch blocks are allowed",
+    "explanation": "A try block can have multiple catch blocks to handle different types of exceptions. The JVM matches the exception to the first compatible catch block."
+  },
+  {
+    "id": 19,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What exception is thrown when Integer.parseInt(\"abc\") is called?",
+    "options": ["A) IllegalArgumentException", "B) NumberFormatException", "C) ParseException", "D) ArithmeticException"],
+    "correct_answer": "B) NumberFormatException",
+    "explanation": "NumberFormatException is thrown when a string cannot be parsed into a number. 'abc' is not a valid integer, so parseInt throws this exception."
+  },
+  {
+    "id": 20,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about Error in Java?",
+    "options": ["A) Errors are checked exceptions", "B) Errors should be caught and handled", "C) Errors represent serious problems that applications should not try to catch", "D) Errors extend RuntimeException"],
+    "correct_answer": "C) Errors represent serious problems that applications should not try to catch",
+    "explanation": "Errors like OutOfMemoryError and StackOverflowError represent serious JVM problems. They extend Throwable directly and are not meant to be caught by applications."
+  },
+  {
+    "id": 21,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\ntry {\n    System.out.println(10/0);\n} catch (ArithmeticException e) {\n    System.out.println(\"Error\");\n} finally {\n    System.out.println(\"Done\");\n}",
+    "options": ["A) Error", "B) Done", "C) Error\nDone", "D) 0\nDone"],
+    "correct_answer": "C) Error\nDone",
+    "explanation": "10/0 throws ArithmeticException, caught by catch block printing 'Error'. Then finally block always executes printing 'Done'."
+  },
+  {
+    "id": 22,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which exception is thrown when a stack overflow occurs due to infinite recursion?",
+    "options": ["A) StackOverflowException", "B) RecursionException", "C) StackOverflowError", "D) InfiniteLoopError"],
+    "correct_answer": "C) StackOverflowError",
+    "explanation": "StackOverflowError is thrown when the call stack exceeds its limit, typically due to infinite or very deep recursion. It extends Error, not Exception."
+  },
+  {
+    "id": 23,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly catches multiple exceptions in a single catch block (Java 7+)?",
+    "options": ["A) catch (IOException, SQLException e)", "B) catch (IOException | SQLException e)", "C) catch (IOException & SQLException e)", "D) catch (IOException + SQLException e)"],
+    "correct_answer": "B) catch (IOException | SQLException e)",
+    "explanation": "Java 7 introduced multi-catch using the pipe '|' operator. This allows catching multiple exception types in a single catch block."
+  },
+  {
+    "id": 24,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the printStackTrace() method do?",
+    "options": ["A) Returns the stack trace as a String", "B) Prints the stack trace to standard error stream", "C) Throws the exception again", "D) Clears the stack trace"],
+    "correct_answer": "B) Prints the stack trace to standard error stream",
+    "explanation": "printStackTrace() prints the Throwable and its backtrace to the standard error stream (System.err), showing the sequence of method calls that led to the exception."
+  },
+  {
+    "id": 25,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about checked exceptions?",
+    "options": ["A) They extend RuntimeException", "B) They must be caught or declared with throws", "C) They are checked at runtime only", "D) They cannot be caught"],
+    "correct_answer": "B) They must be caught or declared with throws",
+    "explanation": "Checked exceptions are verified at compile time. The compiler enforces that they are either caught in a try-catch block or declared in the method signature using 'throws'."
+  },
+  {
+    "id": 26,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nString s = null;\ntry {\n    System.out.println(s.length());\n} catch (NullPointerException e) {\n    System.out.println(\"NPE caught\");\n}",
+    "options": ["A) 0", "B) null", "C) NPE caught", "D) Compilation error"],
+    "correct_answer": "C) NPE caught",
+    "explanation": "Calling length() on a null reference throws NullPointerException, which is caught by the catch block, printing 'NPE caught'."
+  },
+  {
+    "id": 27,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which package contains the Exception class in Java?",
+    "options": ["A) java.io", "B) java.util", "C) java.lang", "D) java.exception"],
+    "correct_answer": "C) java.lang",
+    "explanation": "The Exception class is part of the java.lang package, which is automatically imported in every Java program. No explicit import is needed."
+  },
+  {
+    "id": 28,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens if a finally block contains a return statement?",
+    "options": ["A) Compilation error", "B) The finally return value overrides the try/catch return value", "C) The try block return value is used", "D) An exception is thrown"],
+    "correct_answer": "B) The finally return value overrides the try/catch return value",
+    "explanation": "If finally contains a return statement, it overrides any return in the try or catch block. This is considered bad practice but is valid Java."
+  },
+  {
+    "id": 29,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which exception is thrown when you try to use a negative array size?",
+    "options": ["A) ArrayIndexOutOfBoundsException", "B) NegativeArraySizeException", "C) IllegalArgumentException", "D) ArithmeticException"],
+    "correct_answer": "B) NegativeArraySizeException",
+    "explanation": "NegativeArraySizeException is thrown when code tries to create an array with a negative size, e.g., new int[-5]."
+  },
+  {
+    "id": 30,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In Java, which of the following is true about the 'finally' block?",
+    "options": ["A) It executes only when an exception occurs", "B) It executes only when no exception occurs", "C) It always executes unless JVM exits", "D) It is mandatory with every try block"],
+    "correct_answer": "C) It always executes unless JVM exits",
+    "explanation": "The finally block always executes after try/catch, except when System.exit() is called or the JVM crashes, which terminates the JVM before finally can run."
+  },
+  {
+    "id": 31,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares a method that throws a checked exception?",
+    "options": ["A) public void read() throw IOException", "B) public void read() throws IOException", "C) public void read() throwing IOException", "D) public void read() catch IOException"],
+    "correct_answer": "B) public void read() throws IOException",
+    "explanation": "The correct syntax uses 'throws' (with an 's') in the method signature. 'throw' is used inside method body to throw an exception object."
+  },
+  {
+    "id": 32,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of exception is FileNotFoundException?",
+    "options": ["A) Unchecked exception", "B) Error", "C) Checked exception", "D) Runtime exception"],
+    "correct_answer": "C) Checked exception",
+    "explanation": "FileNotFoundException extends IOException which extends Exception (not RuntimeException), making it a checked exception that must be handled at compile time."
+  },
+  {
+    "id": 33,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\ntry {\n    throw new RuntimeException(\"test\");\n} catch (Exception e) {\n    System.out.println(e.getMessage());\n}",
+    "options": ["A) RuntimeException", "B) test", "C) Exception", "D) null"],
+    "correct_answer": "B) test",
+    "explanation": "getMessage() returns the detail message passed to the exception constructor. Here 'test' was passed, so it prints 'test'."
+  },
+  {
+    "id": 34,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct hierarchy? (from parent to child)",
+    "options": ["A) Object → Throwable → Exception → RuntimeException", "B) Object → Exception → Throwable → RuntimeException", "C) Object → RuntimeException → Exception → Throwable", "D) Throwable → Object → Exception → RuntimeException"],
+    "correct_answer": "A) Object → Throwable → Exception → RuntimeException",
+    "explanation": "The correct hierarchy is: Object → Throwable → Exception → RuntimeException. All classes in Java extend Object, and Throwable is the root of exception hierarchy."
+  },
+  {
+    "id": 35,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What exception is thrown when you try to access a String character at an invalid index using charAt()?",
+    "options": ["A) ArrayIndexOutOfBoundsException", "B) StringIndexOutOfBoundsException", "C) IndexOutOfBoundsException", "D) InvalidIndexException"],
+    "correct_answer": "B) StringIndexOutOfBoundsException",
+    "explanation": "StringIndexOutOfBoundsException is thrown when a String method is passed an index that is negative or greater than or equal to the string's length."
+  },
+  {
+    "id": 36,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can we catch an Error in Java?",
+    "options": ["A) No, Errors cannot be caught", "B) Yes, Errors can be caught using catch(Error e)", "C) Only OutOfMemoryError can be caught", "D) Only using a special error handler"],
+    "correct_answer": "B) Yes, Errors can be caught using catch(Error e)",
+    "explanation": "Technically, Errors can be caught since they extend Throwable. However, it is not recommended as Errors indicate serious JVM problems that applications cannot recover from."
+  },
+  {
+    "id": 37,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is exception propagation in Java?",
+    "options": ["A) Creating a new exception", "B) An uncaught exception moving up the call stack", "C) Catching an exception in finally", "D) Throwing multiple exceptions simultaneously"],
+    "correct_answer": "B) An uncaught exception moving up the call stack",
+    "explanation": "Exception propagation occurs when an exception is not caught in the current method and is passed to the calling method, continuing up the call stack until caught or the program terminates."
+  },
+  {
+    "id": 38,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about try-with-resources in Java?",
+    "options": ["A) It was introduced in Java 5", "B) Resources are closed automatically after the try block", "C) It requires a finally block", "D) It only works with file resources"],
+    "correct_answer": "B) Resources are closed automatically after the try block",
+    "explanation": "Try-with-resources (Java 7+) automatically closes resources that implement AutoCloseable interface after the try block completes, eliminating the need for explicit finally blocks."
+  },
+  {
+    "id": 39,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nSystem.out.println(10.0/0);",
+    "options": ["A) ArithmeticException", "B) Infinity", "C) 0", "D) NaN"],
+    "correct_answer": "B) Infinity",
+    "explanation": "In Java, dividing a floating-point number by zero does not throw an exception; it returns Infinity (positive or negative). Only integer division by zero throws ArithmeticException."
+  },
+  {
+    "id": 40,
+    "topic": "Exceptions in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following exceptions is thrown when a required class is not found at runtime?",
+    "options": ["A) ClassNotFoundException", "B) NoClassDefFoundError", "C) ClassNotLoadedException", "D) Both A and B can occur"],
+    "correct_answer": "D) Both A and B can occur",
+    "explanation": "ClassNotFoundException occurs when Class.forName() fails. NoClassDefFoundError occurs when a class was present at compile time but missing at runtime. Both relate to missing classes."
+  },
+  {
+    "id": 41,
+    "topic": "Exceptions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\npublic static int test() {\n    try {\n        return 1;\n    } finally {\n        return 2;\n    }\n}\nSystem.out.println(test());",
+    "options": ["A) 1", "B) 2", "C) Compilation error", "D) 1\n2"],
+    "correct_answer": "B) 2",
+    "explanation": "The finally block's return statement overrides the try block's return. Even though try returns 1, finally executes and returns 2, which becomes the method's return value."
+  },
+  {
+    "id": 42,
+    "topic": "Exceptions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\ntry {\n    try {\n        throw new Exception(\"inner\");\n    } finally {\n        System.out.println(\"inner finally\");\n    }\n} catch (Exception e) {\n    System.out.println(e.getMessage());\n}",
+    "options": ["A) inner", "B) inner finally\ninner", "C) inner\ninner finally", "D) inner finally"],
+    "correct_answer": "B) inner finally\ninner",
+    "explanation": "The inner finally block executes before the exception propagates to the outer catch. So 'inner finally' prints first, then the outer catch prints 'inner'."
+  },
+  {
+    "id": 43,
+    "topic": "Exceptions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about re-throwing an exception in Java?",
+    "options": ["A) You must create a new exception object to re-throw", "B) You can re-throw the caught exception using 'throw e'", "C) Re-throwing is not allowed in Java", "D) Re-throwing changes the exception type"],
+    "correct_answer": "B) You can re-throw the caught exception using 'throw e'",
+    "explanation": "Inside a catch block, you can re-throw the caught exception using 'throw e'. This preserves the original exception and its stack trace."
+  },
+  {
+    "id": 44,
+    "topic": "Exceptions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is exception chaining in Java?",
+    "options": ["A) Catching multiple exceptions in one catch block", "B) Wrapping one exception inside another to preserve the original cause", "C) Throwing exceptions in a loop", "D) Having multiple catch blocks"],
+    "correct_answer": "B) Wrapping one exception inside another to preserve the original cause",
+    "explanation": "Exception chaining wraps the original exception as the 'cause' of a new exception using constructors like new Exception('msg', cause). getCause() retrieves the original exception."
+  },
+  {
+    "id": 45,
+    "topic": "Exceptions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\ntry {\n    System.out.println(\"A\");\n    if(true) throw new Exception();\n    System.out.println(\"B\");\n} catch(Exception e) {\n    System.out.println(\"C\");\n} finally {\n    System.out.println(\"D\");\n}",
+    "options": ["A) A B C D", "B) A C D", "C) A C", "D) A B D"],
+    "correct_answer": "B) A C D",
+    "explanation": "'A' prints, then exception is thrown skipping 'B'. Catch block prints 'C', then finally always executes printing 'D'. Output: A, C, D."
+  },
+  {
+    "id": 46,
+    "topic": "Exceptions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a multi-catch block, which of the following is NOT allowed?",
+    "options": ["A) catch (IOException | SQLException e)", "B) catch (IOException | IOException e)", "C) catch (FileNotFoundException | NullPointerException e)", "D) catch (Exception | RuntimeException e)"],
+    "correct_answer": "B) catch (IOException | IOException e)",
+    "explanation": "In a multi-catch block, you cannot catch the same exception type twice. Also, you cannot catch a subclass and its parent class together (like D). Option B has duplicate types."
+  },
+  {
+    "id": 47,
+    "topic": "Exceptions in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\npublic static void main(String[] args) {\n    try {\n        method();\n    } catch (Exception e) {\n        System.out.println(\"main: \" + e.getMessage());\n    }\n}\nstatic void method() throws Exception {\n    throw new Exception(\"from method\");\n}",
+    "options": ["A) from method", "B) main: from method", "C) Compilation error", "D) method: from method"],
+    "correct_answer": "B) main: from method",
+    "explanation": "method() throws Exception with message 'from method'. It propagates to main's catch block which prints 'main: ' + e.getMessage() = 'main: from method'

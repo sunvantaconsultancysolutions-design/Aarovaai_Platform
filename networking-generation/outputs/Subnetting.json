@@ -1,0 +1,462 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default subnet mask for a Class C IP address?",
+    "options": ["A) 255.0.0.0", "B) 255.255.0.0", "C) 255.255.255.0", "D) 255.255.255.255"],
+    "correct_answer": "C) 255.255.255.0",
+    "explanation": "Class C addresses use the first 24 bits for the network portion, giving a default subnet mask of 255.255.255.0 (/24)."
+  },
+  {
+    "id": 2,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many usable host addresses are available in a /24 subnet?",
+    "options": ["A) 254", "B) 256", "C) 255", "D) 252"],
+    "correct_answer": "A) 254",
+    "explanation": "A /24 subnet has 2^8 = 256 addresses. Subtract 2 (network and broadcast) = 254 usable hosts."
+  },
+  {
+    "id": 3,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default subnet mask for a Class A IP address?",
+    "options": ["A) 255.255.255.0", "B) 255.0.0.0", "C) 255.255.0.0", "D) 0.0.0.0"],
+    "correct_answer": "B) 255.0.0.0",
+    "explanation": "Class A addresses use the first 8 bits for the network, so the default subnet mask is 255.0.0.0 (/8)."
+  },
+  {
+    "id": 4,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following IP addresses belongs to Class B?",
+    "options": ["A) 10.0.0.1", "B) 172.16.0.1", "C) 192.168.1.1", "D) 224.0.0.1"],
+    "correct_answer": "B) 172.16.0.1",
+    "explanation": "Class B addresses range from 128.0.0.0 to 191.255.255.255. 172.16.0.1 falls in this range."
+  },
+  {
+    "id": 5,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many subnets are created when you borrow 3 bits from the host portion?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "Number of subnets = 2^n where n is the number of borrowed bits. 2^3 = 8 subnets."
+  },
+  {
+    "id": 6,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the broadcast address of the network 192.168.1.0/24?",
+    "options": ["A) 192.168.1.0", "B) 192.168.1.1", "C) 192.168.1.254", "D) 192.168.1.255"],
+    "correct_answer": "D) 192.168.1.255",
+    "explanation": "The broadcast address is the last address in the subnet. For 192.168.1.0/24, all host bits set to 1 gives 192.168.1.255."
+  },
+  {
+    "id": 7,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does CIDR stand for in networking?",
+    "options": ["A) Classless Inter-Domain Routing", "B) Classful Internet Domain Routing", "C) Common Internet Data Routing", "D) Classless Internal Data Routing"],
+    "correct_answer": "A) Classless Inter-Domain Routing",
+    "explanation": "CIDR stands for Classless Inter-Domain Routing, a method for allocating IP addresses and routing without class boundaries."
+  },
+  {
+    "id": 8,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many host bits are available in a /26 subnet?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 2"],
+    "correct_answer": "B) 6",
+    "explanation": "A /26 subnet uses 26 bits for the network. Remaining host bits = 32 - 26 = 6 bits."
+  },
+  {
+    "id": 9,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the network address of the host 192.168.10.130/25?",
+    "options": ["A) 192.168.10.0", "B) 192.168.10.128", "C) 192.168.10.1", "D) 192.168.10.64"],
+    "correct_answer": "B) 192.168.10.128",
+    "explanation": "/25 means subnet mask 255.255.255.128. 130 AND 128 = 128. So network address is 192.168.10.128."
+  },
+  {
+    "id": 10,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many usable hosts does a /30 subnet support?",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 8"],
+    "correct_answer": "A) 2",
+    "explanation": "A /30 has 2 host bits. Total addresses = 2^2 = 4. Usable hosts = 4 - 2 = 2. Used for point-to-point links."
+  },
+  {
+    "id": 11,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class of IP address has the range 192.0.0.0 to 223.255.255.255?",
+    "options": ["A) Class A", "B) Class B", "C) Class C", "D) Class D"],
+    "correct_answer": "C) Class C",
+    "explanation": "Class C addresses range from 192.0.0.0 to 223.255.255.255 with a default /24 subnet mask."
+  },
+  {
+    "id": 12,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the subnet mask in dotted decimal for /28?",
+    "options": ["A) 255.255.255.192", "B) 255.255.255.224", "C) 255.255.255.240", "D) 255.255.255.248"],
+    "correct_answer": "C) 255.255.255.240",
+    "explanation": "/28 means 28 ones in binary. Last octet: 11110000 = 240. So mask is 255.255.255.240."
+  },
+  {
+    "id": 13,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the first usable host address in the subnet 10.0.0.0/8?",
+    "options": ["A) 10.0.0.0", "B) 10.0.0.1", "C) 10.0.0.2", "D) 10.255.255.254"],
+    "correct_answer": "B) 10.0.0.1",
+    "explanation": "The network address is 10.0.0.0. The first usable host is the next address: 10.0.0.1."
+  },
+  {
+    "id": 14,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many total IP addresses (including network and broadcast) are in a /29 subnet?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "A /29 has 3 host bits. Total addresses = 2^3 = 8. Usable hosts = 8 - 2 = 6."
+  },
+  {
+    "id": 15,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default subnet mask for a Class B network?",
+    "options": ["A) 255.0.0.0", "B) 255.255.0.0", "C) 255.255.255.0", "D) 255.255.255.128"],
+    "correct_answer": "B) 255.255.0.0",
+    "explanation": "Class B uses the first 16 bits for the network portion, giving a default subnet mask of 255.255.0.0 (/16)."
+  },
+  {
+    "id": 16,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a private IP address range?",
+    "options": ["A) 172.32.0.0 – 172.63.255.255", "B) 172.16.0.0 – 172.31.255.255", "C) 192.169.0.0 – 192.169.255.255", "D) 10.0.0.0 – 10.255.255.0"],
+    "correct_answer": "B) 172.16.0.0 – 172.31.255.255",
+    "explanation": "RFC 1918 defines private ranges: 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. 172.16.0.0–172.31.255.255 is the /12 range."
+  },
+  {
+    "id": 17,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the CIDR notation for subnet mask 255.255.255.0?",
+    "options": ["A) /22", "B) /23", "C) /24", "D) /25"],
+    "correct_answer": "C) /24",
+    "explanation": "255.255.255.0 in binary has 24 consecutive 1s (8+8+8+0), so CIDR notation is /24."
+  },
+  {
+    "id": 18,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many subnets can be created from a Class C network using a /26 mask?",
+    "options": ["A) 2", "B) 4", "C) 8", "D) 16"],
+    "correct_answer": "B) 4",
+    "explanation": "Class C default is /24. Borrowing 2 bits (26-24=2) gives 2^2 = 4 subnets."
+  },
+  {
+    "id": 19,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the broadcast address for the subnet 192.168.5.64/26?",
+    "options": ["A) 192.168.5.95", "B) 192.168.5.127", "C) 192.168.5.128", "D) 192.168.5.255"],
+    "correct_answer": "B) 192.168.5.127",
+    "explanation": "/26 has 64 addresses per subnet. Starting at .64, the broadcast is .64 + 64 - 1 = .127."
+  },
+  {
+    "id": 20,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which address is the loopback address in IPv4?",
+    "options": ["A) 0.0.0.0", "B) 127.0.0.1", "C) 255.255.255.255", "D) 192.168.0.1"],
+    "correct_answer": "B) 127.0.0.1",
+    "explanation": "127.0.0.1 is the standard loopback address used to test the network stack on the local machine."
+  },
+  {
+    "id": 21,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many usable hosts are in a /27 subnet?",
+    "options": ["A) 28", "B) 30", "C) 32", "D) 62"],
+    "correct_answer": "B) 30",
+    "explanation": "A /27 has 5 host bits. Total = 2^5 = 32. Usable = 32 - 2 = 30 hosts."
+  },
+  {
+    "id": 22,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the subnet mask in decimal for /20?",
+    "options": ["A) 255.255.240.0", "B) 255.255.248.0", "C) 255.255.252.0", "D) 255.255.224.0"],
+    "correct_answer": "A) 255.255.240.0",
+    "explanation": "/20 means 20 bits set to 1. Third octet: 11110000 = 240. Mask = 255.255.240.0."
+  },
+  {
+    "id": 23,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the last usable host address in the subnet 172.16.0.0/16?",
+    "options": ["A) 172.16.255.254", "B) 172.16.255.255", "C) 172.16.0.254", "D) 172.31.255.254"],
+    "correct_answer": "A) 172.16.255.254",
+    "explanation": "Broadcast for 172.16.0.0/16 is 172.16.255.255. Last usable host = broadcast - 1 = 172.16.255.254."
+  },
+  {
+    "id": 24,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a subnet has 4 host bits, how many usable hosts does it support?",
+    "options": ["A) 12", "B) 14", "C) 16", "D) 30"],
+    "correct_answer": "B) 14",
+    "explanation": "With 4 host bits: 2^4 = 16 total addresses. Usable = 16 - 2 = 14 hosts."
+  },
+  {
+    "id": 25,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid subnet mask?",
+    "options": ["A) 255.255.255.0", "B) 255.255.128.0", "C) 255.255.255.240", "D) 255.255.100.0"],
+    "correct_answer": "D) 255.255.100.0",
+    "explanation": "Valid subnet masks must have contiguous 1s followed by contiguous 0s. 100 in binary is 01100100, which is not contiguous."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits are in an IPv4 address?",
+    "options": ["A) 16", "B) 32", "C) 64", "D) 128"],
+    "correct_answer": "B) 32",
+    "explanation": "IPv4 addresses are 32 bits long, written as four 8-bit octets in dotted decimal notation."
+  },
+  {
+    "id": 27,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the network address of 192.168.1.200/28?",
+    "options": ["A) 192.168.1.192", "B) 192.168.1.200", "C) 192.168.1.208", "D) 192.168.1.176"],
+    "correct_answer": "A) 192.168.1.192",
+    "explanation": "/28 block size = 16. 200 ÷ 16 = 12 remainder 8. Network = 12 × 16 = 192. So network is 192.168.1.192."
+  },
+  {
+    "id": 28,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the CIDR notation for subnet mask 255.255.255.128?",
+    "options": ["A) /24", "B) /25", "C) /26", "D) /27"],
+    "correct_answer": "B) /25",
+    "explanation": "255.255.255.128 = 11111111.11111111.11111111.10000000. Count of 1s = 25. So CIDR = /25."
+  },
+  {
+    "id": 29,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many Class C networks can fit in a Class B network?",
+    "options": ["A) 256", "B) 512", "C) 1024", "D) 65536"],
+    "correct_answer": "A) 256",
+    "explanation": "Class B has 16 host bits; Class C has 8 host bits. 2^(16-8) = 2^8 = 256 Class C networks fit in one Class B."
+  },
+  {
+    "id": 30,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the block size (subnet size) for a /26 subnet?",
+    "options": ["A) 32", "B) 64", "C) 128", "D) 16"],
+    "correct_answer": "B) 64",
+    "explanation": "Block size = 2^(32-26) = 2^6 = 64. Each /26 subnet contains 64 IP addresses."
+  },
+  {
+    "id": 31,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following addresses is a valid host address in the subnet 10.10.10.0/24?",
+    "options": ["A) 10.10.10.0", "B) 10.10.10.255", "C) 10.10.10.100", "D) 10.10.11.1"],
+    "correct_answer": "C) 10.10.10.100",
+    "explanation": "10.10.10.0 is the network address, 10.10.10.255 is broadcast, 10.10.11.1 is outside the subnet. 10.10.10.100 is a valid host."
+  },
+  {
+    "id": 32,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of subnetting?",
+    "options": ["A) To increase IP address size", "B) To divide a network into smaller segments", "C) To connect two different protocols", "D) To encrypt network traffic"],
+    "correct_answer": "B) To divide a network into smaller segments",
+    "explanation": "Subnetting divides a large network into smaller, manageable segments to improve performance, security, and IP address utilization."
+  },
+  {
+    "id": 33,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many usable hosts are in a /16 subnet?",
+    "options": ["A) 65534", "B) 65536", "C) 32766", "D) 16382"],
+    "correct_answer": "A) 65534",
+    "explanation": "A /16 has 16 host bits. Total = 2^16 = 65536. Usable = 65536 - 2 = 65534 hosts."
+  },
+  {
+    "id": 34,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the subnet mask for /22 in dotted decimal?",
+    "options": ["A) 255.255.248.0", "B) 255.255.252.0", "C) 255.255.254.0", "D) 255.255.240.0"],
+    "correct_answer": "B) 255.255.252.0",
+    "explanation": "/22 means 22 bits set. Third octet has 6 bits set: 11111100 = 252. Mask = 255.255.252.0."
+  },
+  {
+    "id": 35,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the network address for host 192.168.4.67/26?",
+    "options": ["A) 192.168.4.0", "B) 192.168.4.64", "C) 192.168.4.32", "D) 192.168.4.128"],
+    "correct_answer": "B) 192.168.4.64",
+    "explanation": "/26 block size = 64. 67 falls in block starting at 64 (64 to 127). Network address = 192.168.4.64."
+  },
+  {
+    "id": 36,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum number of hosts in a Class A network (default mask)?",
+    "options": ["A) 16,777,214", "B) 16,777,216", "C) 65,534", "D) 254"],
+    "correct_answer": "A) 16,777,214",
+    "explanation": "Class A has 24 host bits. Total = 2^24 = 16,777,216. Usable = 16,777,216 - 2 = 16,777,214 hosts."
+  },
+  {
+    "id": 37,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the host portion of an IP address identify?",
+    "options": ["A) The network the device belongs to", "B) The specific device within a network", "C) The routing protocol used", "D) The subnet mask length"],
+    "correct_answer": "B) The specific device within a network",
+    "explanation": "The host portion of an IP address uniquely identifies a specific device (interface) within a given network."
+  },
+  {
+    "id": 38,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many subnets does a /27 mask create from a Class C /24 network?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "Bits borrowed = 27 - 24 = 3. Number of subnets = 2^3 = 8 subnets, each with 30 usable hosts."
+  },
+  {
+    "id": 39,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the broadcast address of the subnet 10.0.0.0/8?",
+    "options": ["A) 10.0.0.255", "B) 10.255.255.254", "C) 10.255.255.255", "D) 10.0.255.255"],
+    "correct_answer": "C) 10.255.255.255",
+    "explanation": "For 10.0.0.0/8, all 24 host bits set to 1 gives 10.255.255.255 as the broadcast address."
+  },
+  {
+    "id": 40,
+    "topic": "Subnetting",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which subnet does the IP address 192.168.1.145/25 belong to?",
+    "options": ["A) 192.168.1.0/25", "B) 192.168.1.128/25", "C) 192.168.1.64/25", "D) 192.168.1.192/25"],
+    "correct_answer": "B) 192.168.1.128/25",
+    "explanation": "/25 divides the network into two halves: .0–.127 and .128–.255. 145 falls in the .128 subnet."
+  },
+  {
+    "id": 41,
+    "topic": "Subnetting",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A company needs 5 subnets with at least 25 hosts each from the network 192.168.10.0/24. Which subnet mask should be used?",
+    "options": ["A) /26", "B) /27", "C) /28", "D) /25"],
+    "correct_answer": "B) /27",
+    "explanation": "/27 gives 8 subnets (2^3) with 30 usable hosts each (2^5-2=30). This satisfies both requirements of 5 subnets and 25+ hosts."
+  },
+  {
+    "id": 42,
+    "topic": "Subnetting",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the number of valid host addresses in the subnet 172.16.32.0/20?",
+    "options": ["A) 4094", "B) 4096", "C) 2046", "D) 8190"],
+    "correct_answer": "A) 4094",
+    "explanation": "/20 has 12 host bits. Total = 2^12 = 4096. Usable hosts = 4096 - 2 = 4094."
+  },
+  {
+    "id": 43,
+    "topic": "Subnetting",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which of the following IP addresses is NOT in the same subnet as 192.168.1.33/28?",
+    "options": ["A) 192.168.1.34", "B) 192.168.1.46", "C) 192.168.1.47", "D) 192.168.1.48"],
+    "correct_answer": "D) 192.168.1.48",
+    "explanation": "/28 block size = 16. 33 is in block 32–47. 192.168.1.48 starts the next block, so it's in a different subnet."
+  },
+  {
+    "id": 44,
+    "topic": "Subnetting",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "How many subnets and hosts per subnet does 10.0.0.0/11 provide?",
+    "options": ["A) 8 subnets, 2097150 hosts", "B) 8 subnets, 2097152 hosts", "C) 4 subnets, 4194302 hosts", "D) 8 subnets, 2097154 hosts"],
+    "correct_answer": "A) 8 subnets, 2097150 hosts",
+    "explanation": "Class A default is /8. Bits borrowed = 11-8 = 3. Subnets = 2^3 = 8. Host bits = 21. Hosts = 2^21 - 2 = 2,097,150."
+  },
+  {
+    "id": 45,
+    "topic": "Subnetting",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the broadcast address for the subnet containing host 172.20.15.200/21?",
+    "options": ["A) 172.20.15.255", "B) 172.20.7.255", "C) 172.20.23.255", "D) 172.20.8.255"],
+    "correct_answer": "A) 172.20.15.255",
+    "explanation": "/21 block size in third octet = 8. 15 ÷ 8 = 1 remainder 7. Block starts at 8. Range: 172.20.8.0 – 172.20.15.255. Broadcast = 172.20.15.255."
+  },
+  {
+    "id": 46,
+    "topic": "Subnetting",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "An organization has the network 192.168.0.0/24 and needs to create subnets for departments of sizes 50, 25, 10, and 5 hosts. What is the minimum number of IP addresses wasted if VLSM is used?",
+    "options": ["A) 0", "B) 10", "C) 12", "D) 14"],
+    "correct_answer": "D) 14",
+    "explanation": "VLSM: 50 hosts→/26(62 usable, waste 12),

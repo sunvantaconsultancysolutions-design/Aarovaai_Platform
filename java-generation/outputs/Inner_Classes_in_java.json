@@ -1,0 +1,480 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an inner class in Java?",
+    "options": ["A) A class defined inside another class", "B) A class with no methods", "C) A class that extends another class", "D) A class with only static members"],
+    "correct_answer": "A) A class defined inside another class",
+    "explanation": "An inner class is a class that is defined within the body of another class. It is also called a nested class."
+  },
+  {
+    "id": 2,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many types of inner classes are there in Java?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "correct_answer": "C) 4",
+    "explanation": "Java has 4 types of inner classes: Member inner class, Static nested class, Local inner class, and Anonymous inner class."
+  },
+  {
+    "id": 3,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to create a static nested class in Java?",
+    "options": ["A) inner", "B) nested", "C) static", "D) final"],
+    "correct_answer": "C) static",
+    "explanation": "A static nested class is declared using the 'static' keyword inside the outer class. It does not require an instance of the outer class."
+  },
+  {
+    "id": 4,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an inner class access the private members of its outer class?",
+    "options": ["A) No, never", "B) Yes, always", "C) Only if declared public", "D) Only static members"],
+    "correct_answer": "B) Yes, always",
+    "explanation": "An inner class has access to all members (including private) of its enclosing outer class. This is one of the key features of inner classes."
+  },
+  {
+    "id": 5,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to instantiate a non-static inner class from outside the outer class?",
+    "options": ["A) Inner obj = new Inner();", "B) Outer.Inner obj = new Outer.Inner();", "C) Outer outer = new Outer(); Outer.Inner obj = outer.new Inner();", "D) Inner obj = Outer.new Inner();"],
+    "correct_answer": "C) Outer outer = new Outer(); Outer.Inner obj = outer.new Inner();",
+    "explanation": "A non-static inner class requires an instance of the outer class. You first create an outer object, then use it to create the inner class object."
+  },
+  {
+    "id": 6,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of inner class is defined inside a method?",
+    "options": ["A) Member inner class", "B) Static nested class", "C) Local inner class", "D) Anonymous inner class"],
+    "correct_answer": "C) Local inner class",
+    "explanation": "A local inner class is defined within a method body. Its scope is limited to the method in which it is defined."
+  },
+  {
+    "id": 7,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An anonymous inner class in Java is a class that:",
+    "options": ["A) Has no constructor", "B) Has no name", "C) Has no methods", "D) Has no fields"],
+    "correct_answer": "B) Has no name",
+    "explanation": "An anonymous inner class is a class without a name. It is declared and instantiated at the same time, typically used for one-time use."
+  },
+  {
+    "id": 8,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a static nested class access non-static members of the outer class directly?",
+    "options": ["A) Yes", "B) No", "C) Only public members", "D) Only protected members"],
+    "correct_answer": "B) No",
+    "explanation": "A static nested class cannot directly access non-static members of the outer class. It needs an instance of the outer class to access them."
+  },
+  {
+    "id": 9,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the compiled file name for an inner class named 'Inner' inside outer class 'Outer'?",
+    "options": ["A) Inner.class", "B) Outer.class", "C) Outer$Inner.class", "D) Outer_Inner.class"],
+    "correct_answer": "C) Outer$Inner.class",
+    "explanation": "Java compiler generates a separate .class file for inner classes using the naming convention OuterClass$InnerClass.class."
+  },
+  {
+    "id": 10,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following access modifiers can be applied to a member inner class?",
+    "options": ["A) public only", "B) private only", "C) public, private, protected, default", "D) Only default"],
+    "correct_answer": "C) public, private, protected, default",
+    "explanation": "A member inner class can have any access modifier: public, private, protected, or default (package-private)."
+  },
+  {
+    "id": 11,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if you try to declare a static member inside a non-static inner class?",
+    "options": ["A) It compiles fine", "B) Compilation error", "C) Runtime error", "D) Warning only"],
+    "correct_answer": "B) Compilation error",
+    "explanation": "A non-static inner class cannot have static members (except static final constants). Declaring a static variable inside it causes a compilation error."
+  },
+  {
+    "id": 12,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about anonymous inner classes?",
+    "options": ["A) They can extend a class or implement an interface", "B) They can only extend a class", "C) They can only implement an interface", "D) They cannot extend or implement anything"],
+    "correct_answer": "A) They can extend a class or implement an interface",
+    "explanation": "An anonymous inner class can either extend a class or implement an interface, but not both at the same time."
+  },
+  {
+    "id": 13,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main advantage of using inner classes in Java?",
+    "options": ["A) Faster execution", "B) Logical grouping of classes and better encapsulation", "C) Reduced memory usage", "D) Easier garbage collection"],
+    "correct_answer": "B) Logical grouping of classes and better encapsulation",
+    "explanation": "Inner classes allow logical grouping of classes that are only used in one place and increase encapsulation by hiding implementation details."
+  },
+  {
+    "id": 14,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an anonymous inner class have a constructor?",
+    "options": ["A) Yes, like any other class", "B) No, because it has no name", "C) Yes, but only default constructor", "D) Yes, but only parameterized constructor"],
+    "correct_answer": "B) No, because it has no name",
+    "explanation": "Anonymous inner classes cannot have explicit constructors because they have no name. Constructors require the class name."
+  },
+  {
+    "id": 15,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How do you access the outer class instance from within a non-static inner class?",
+    "options": ["A) super.this", "B) Outer.this", "C) this.outer", "D) outer.this"],
+    "correct_answer": "B) Outer.this",
+    "explanation": "Inside a non-static inner class, you can refer to the enclosing outer class instance using OuterClassName.this syntax."
+  },
+  {
+    "id": 16,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of inner class can be instantiated without an outer class object?",
+    "options": ["A) Member inner class", "B) Local inner class", "C) Static nested class", "D) Anonymous inner class"],
+    "correct_answer": "C) Static nested class",
+    "explanation": "A static nested class does not need an instance of the outer class to be instantiated. It can be created using Outer.StaticNested obj = new Outer.StaticNested()."
+  },
+  {
+    "id": 17,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to instantiate a static nested class 'Nested' inside 'Outer'?",
+    "options": ["A) Outer.Nested obj = new Outer.Nested();", "B) Nested obj = new Nested();", "C) Outer obj = new Outer(); obj.new Nested();", "D) Outer.Nested obj = Outer.new Nested();"],
+    "correct_answer": "A) Outer.Nested obj = new Outer.Nested();",
+    "explanation": "Static nested classes are instantiated using the outer class name as a qualifier: new Outer.Nested(). No outer class instance is needed."
+  },
+  {
+    "id": 18,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a local inner class access local variables of the enclosing method?",
+    "options": ["A) No", "B) Yes, all local variables", "C) Yes, but only effectively final variables", "D) Yes, but only static variables"],
+    "correct_answer": "C) Yes, but only effectively final variables",
+    "explanation": "A local inner class can access local variables of the enclosing method only if they are final or effectively final (not modified after initialization)."
+  },
+  {
+    "id": 19,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about inner classes is FALSE?",
+    "options": ["A) Inner classes can access outer class members", "B) Inner classes can be private", "C) Inner classes can be abstract", "D) Inner classes cannot implement interfaces"],
+    "correct_answer": "D) Inner classes cannot implement interfaces",
+    "explanation": "Inner classes CAN implement interfaces. This is actually a common use case for inner classes, especially anonymous inner classes."
+  },
+  {
+    "id": 20,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a member inner class?",
+    "options": ["A) A class defined inside a method", "B) A non-static class defined at the member level of an outer class", "C) A class with only member variables", "D) A class that is a member of a package"],
+    "correct_answer": "B) A non-static class defined at the member level of an outer class",
+    "explanation": "A member inner class is a non-static class defined directly inside another class at the class body level (not inside a method)."
+  },
+  {
+    "id": 21,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following code create? new Runnable() { public void run() { System.out.println(\"Hello\"); } };",
+    "options": ["A) A static nested class", "B) A local inner class", "C) An anonymous inner class", "D) A member inner class"],
+    "correct_answer": "C) An anonymous inner class",
+    "explanation": "The syntax 'new InterfaceName() { ... }' creates an anonymous inner class that implements the given interface."
+  },
+  {
+    "id": 22,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an inner class be declared as abstract?",
+    "options": ["A) No", "B) Yes", "C) Only static inner classes", "D) Only anonymous inner classes"],
+    "correct_answer": "B) Yes",
+    "explanation": "An inner class can be declared abstract. It can have abstract methods that must be implemented by subclasses."
+  },
+  {
+    "id": 23,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid type of nested class in Java?",
+    "options": ["A) Static nested class", "B) Local inner class", "C) Package inner class", "D) Anonymous inner class"],
+    "correct_answer": "C) Package inner class",
+    "explanation": "Java does not have a 'package inner class'. The four types are: member inner class, static nested class, local inner class, and anonymous inner class."
+  },
+  {
+    "id": 24,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a local inner class be declared with access modifiers like public or private?",
+    "options": ["A) Yes, any access modifier", "B) No, local inner classes cannot have access modifiers", "C) Only public", "D) Only private"],
+    "correct_answer": "B) No, local inner classes cannot have access modifiers",
+    "explanation": "Local inner classes are local to the method and cannot have access modifiers (public, private, protected). Their scope is limited to the method."
+  },
+  {
+    "id": 25,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the relationship between an inner class and its outer class called?",
+    "options": ["A) IS-A relationship", "B) HAS-A relationship", "C) Enclosing relationship", "D) Inheritance relationship"],
+    "correct_answer": "C) Enclosing relationship",
+    "explanation": "The outer class is called the enclosing class and the inner class is the enclosed class. This is an enclosing/enclosed relationship."
+  },
+
+  {
+    "id": 26,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes a static nested class?",
+    "options": ["A) It is associated with an instance of the outer class", "B) It is associated with the outer class itself, not an instance", "C) It can only have static methods", "D) It cannot access any outer class members"],
+    "correct_answer": "B) It is associated with the outer class itself, not an instance",
+    "explanation": "A static nested class is associated with the outer class (not an instance). It behaves like a top-level class but is nested for packaging purposes."
+  },
+  {
+    "id": 27,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\nclass Outer {\n  int x = 10;\n  class Inner {\n    void show() { System.out.println(x); }\n  }\n}\npublic class Test {\n  public static void main(String[] args) {\n    Outer o = new Outer();\n    Outer.Inner i = o.new Inner();\n    i.show();\n  }\n}",
+    "options": ["A) 0", "B) 10", "C) Compilation error", "D) Runtime error"],
+    "correct_answer": "B) 10",
+    "explanation": "The inner class accesses the outer class field x=10 directly. The inner class object is created using the outer class instance, so it prints 10."
+  },
+  {
+    "id": 28,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an anonymous inner class implement multiple interfaces?",
+    "options": ["A) Yes", "B) No", "C) Only if they are functional interfaces", "D) Only in Java 8+"],
+    "correct_answer": "B) No",
+    "explanation": "An anonymous inner class can implement only one interface or extend one class. It cannot implement multiple interfaces simultaneously."
+  },
+  {
+    "id": 29,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which inner class type is commonly used with event handling in GUI programming?",
+    "options": ["A) Static nested class", "B) Local inner class", "C) Anonymous inner class", "D) Member inner class"],
+    "correct_answer": "C) Anonymous inner class",
+    "explanation": "Anonymous inner classes are commonly used in GUI event handling (e.g., ActionListener) because they provide a concise way to implement interfaces for one-time use."
+  },
+  {
+    "id": 30,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the scope of a local inner class?",
+    "options": ["A) Entire program", "B) Entire outer class", "C) The method or block where it is defined", "D) The package"],
+    "correct_answer": "C) The method or block where it is defined",
+    "explanation": "A local inner class is scoped to the method or block in which it is declared. It cannot be accessed outside that method or block."
+  },
+  {
+    "id": 31,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a static nested class have instance methods?",
+    "options": ["A) No", "B) Yes", "C) Only if the outer class is also static", "D) Only abstract methods"],
+    "correct_answer": "B) Yes",
+    "explanation": "A static nested class can have both static and instance methods. The 'static' keyword only means it doesn't need an outer class instance to be created."
+  },
+  {
+    "id": 32,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about member inner classes?",
+    "options": ["A) They require the outer class to be static", "B) They are implicitly static", "C) They have access to all members of the outer class", "D) They cannot be instantiated"],
+    "correct_answer": "C) They have access to all members of the outer class",
+    "explanation": "Member inner classes have access to all members (including private) of the enclosing outer class. They are not static by default."
+  },
+  {
+    "id": 33,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when an inner class and outer class have a variable with the same name?",
+    "options": ["A) Compilation error", "B) Inner class variable shadows the outer class variable", "C) Outer class variable is used always", "D) Runtime exception"],
+    "correct_answer": "B) Inner class variable shadows the outer class variable",
+    "explanation": "When both inner and outer class have the same variable name, the inner class variable shadows the outer one. Use OuterClass.this.varName to access the outer variable."
+  },
+  {
+    "id": 34,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an inner class extend the outer class?",
+    "options": ["A) No, it is not allowed", "B) Yes, it is allowed", "C) Only static inner classes can", "D) Only anonymous inner classes can"],
+    "correct_answer": "B) Yes, it is allowed",
+    "explanation": "An inner class can extend its outer class. This is syntactically valid in Java, though it may lead to complex code."
+  },
+  {
+    "id": 35,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid declaration of an anonymous inner class implementing Runnable?",
+    "options": ["A) Runnable r = new Runnable() { void run() {} };", "B) Runnable r = new Runnable() { public void run() {} };", "C) Runnable r = Runnable() { public void run() {} };", "D) Runnable r = new Runnable { public void run() {} };"],
+    "correct_answer": "B) Runnable r = new Runnable() { public void run() {} };",
+    "explanation": "The correct syntax uses 'new InterfaceName() { ... }'. The run() method must be public since it overrides the interface method."
+  },
+  {
+    "id": 36,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a top-level class be declared as private in Java?",
+    "options": ["A) Yes", "B) No", "C) Only abstract classes", "D) Only final classes"],
+    "correct_answer": "B) No",
+    "explanation": "Top-level classes can only be public or default (package-private). Only inner classes can be declared private, protected, or static."
+  },
+  {
+    "id": 37,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary purpose of using a private inner class?",
+    "options": ["A) To improve performance", "B) To hide implementation details from other classes", "C) To allow multiple inheritance", "D) To reduce memory usage"],
+    "correct_answer": "B) To hide implementation details from other classes",
+    "explanation": "A private inner class is completely hidden from other classes, providing strong encapsulation of implementation details within the outer class."
+  },
+  {
+    "id": 38,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an inner class be declared as final?",
+    "options": ["A) No", "B) Yes", "C) Only static inner classes", "D) Only anonymous inner classes"],
+    "correct_answer": "B) Yes",
+    "explanation": "An inner class can be declared as final, which means it cannot be subclassed. This applies to member inner classes and static nested classes."
+  },
+  {
+    "id": 39,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In Java, which of the following inner class types is implicitly final?",
+    "options": ["A) Member inner class", "B) Static nested class", "C) Local inner class", "D) Anonymous inner class"],
+    "correct_answer": "D) Anonymous inner class",
+    "explanation": "Anonymous inner classes are implicitly final because they cannot be subclassed (they have no name to reference for subclassing)."
+  },
+  {
+    "id": 40,
+    "topic": "Inner Classes in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nclass Outer {\n  static class Nested {\n    void display() { System.out.println(\"Static Nested\"); }\n  }\n}\npublic class Test {\n  public static void main(String[] args) {\n    Outer.Nested obj = new Outer.Nested();\n    obj.display();\n  }\n}",
+    "options": ["A) Compilation error", "B) Static Nested", "C) Outer Nested", "D) Runtime error"],
+    "correct_answer": "B) Static Nested",
+    "explanation": "Static nested class is instantiated using Outer.Nested obj = new Outer.Nested(). The display() method prints 'Static Nested'."
+  },
+
+  {
+    "id": 41,
+    "topic": "Inner Classes in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\nclass Outer {\n  private int data = 30;\n  class Inner {\n    void msg() { System.out.println(data); }\n  }\n  void display() {\n    Inner i = new Inner();\n    i.msg();\n  }\n}\npublic class Test {\n  public static void main(String[] args) {\n    new Outer().display();\n  }\n}",
+    "options": ["A) 0", "B) 30", "C) Compilation error", "D) null"],
+    "correct_answer": "B) 30",
+    "explanation": "The inner class accesses the private field 'data' of the outer class. Inner classes have direct access to all outer class members including private ones."
+  },
+  {
+    "id": 42,
+    "topic": "Inner Classes in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will happen when you compile the following code?\nclass Outer {\n  class Inner {\n    static int x = 5;\n  }\n}",
+    "options": ["A) Compiles successfully", "B) Compilation error: non-static inner class cannot have static fields", "C) Runtime error", "D) Warning but compiles"],
+    "correct_answer": "B) Compilation error: non-static inner class cannot have static fields",
+    "explanation": "Non-static inner classes cannot have static members (except static final constants). Declaring static int x inside a non-static inner class causes a compilation error."
+  },
+  {
+    "id": 43,
+    "topic": "Inner Classes in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nclass Outer {\n  int x = 10;\n  class Inner {\n    int x = 20;\n    void display() {\n      int x = 30;\n      System.out.println(x + \" \" + this.x + \" \" + Outer.this.x);\n    }\n  }\n}\npublic class Test {\n  public static void main(String[] args) {\n    new Outer().new Inner().display();\n  }\n}",
+    "options": ["A) 10 20 30", "B) 30 20 10", "C) 30 10 20", "D) 20 30 10"],
+    "correct_answer": "B) 30 20 10",
+    "explanation": "x refers to local variable (30), this.x refers to Inner's x (20), Outer.this.x refers to Outer's x (10). Output is '30 20 10'."
+  },
+  {
+    "id": 44,
+    "topic": "Inner Classes in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a local inner class accessing a local variable?",
+    "options": ["A) It can access any local variable freely", "B) It can only access final or effectively final local variables", "C) It cannot access any local variables", "D) It can only access static local variables"],
+    "correct_answer": "B) It can only access final or effectively final local variables",
+    "explanation": "Local inner classes can only access local variables that are final or effectively final. This is because the inner class may outlive the method's stack frame."
+  },
+  {
+    "id": 45,
+    "topic": "Inner Classes in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output?\ninterface Greeting {\n  void greet();\n}\npublic class Test {\n  public static void main(String[] args) {\n    int x = 5;\n    Greeting g = new Greeting() {\n      public void greet() {\n        System.out.println(\"Hello \" + x);\n      }\n    };\n    g.greet();\n  }\n}",
+    "options": ["A) Hello 5", "B) Hello 0", "C) Compilation error", "D) Hello null"],
+    "correct_answer": "A) Hello 5",
+    "explanation": "The anonymous inner class captures the effectively final local variable x=5. Since x is not modified, it is effectively final and can be accessed."
+  },
+  {
+    "id": 46,
+    "topic": "Inner Classes in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will happen in the following code?\npublic class Test {\n  public static void main(String[] args) {\n    int x = 5;\n    x = 10;\n    Runnable r = new Runnable() {\n      public void run() {\n        System.out.println(x);\n      }\n    };\n  }\n}",
+    "options": ["A) Prints 10", "B) Prints 5", "C) Compilation error", "D) Runtime error"],
+    "correct_answer": "C) Compilation error",
+    "explanation": "Variable x is modified after initialization (x=5, then x=10), so it is NOT effectively final. Anonymous inner class cannot capture a non-effectively-final variable."
+  },
+  {
+    "id": 47,
+    "topic": "Inner Classes in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "How many .class files will be generated for the following code?\nclass Outer {\n  class Inner1 {}\n  static class Inner2 {}\n  void method() {\n    class Local {}\n  }\n}",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "correct_answer": "D) 4",
+    "explanation": "Java generates separate .class files: Outer.class, Outer$Inner1.class, Outer$Inner2.class, and Outer$1Local.class for the local class. Total = 4."
+  },
+  {
+    "id": 48,
+    "topic": "Inner Classes in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "

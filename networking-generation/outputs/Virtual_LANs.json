@@ -1,0 +1,474 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does VLAN stand for?",
+    "options": ["A) Virtual Local Area Network", "B) Virtual Large Area Network", "C) Variable Local Area Network", "D) Virtual Logical Area Network"],
+    "correct_answer": "A) Virtual Local Area Network",
+    "explanation": "VLAN stands for Virtual Local Area Network. It is a logical grouping of network devices regardless of their physical location."
+  },
+  {
+    "id": 2,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which device is primarily used to create and manage VLANs?",
+    "options": ["A) Hub", "B) Repeater", "C) Managed Switch", "D) Modem"],
+    "correct_answer": "C) Managed Switch",
+    "explanation": "Managed switches support VLAN configuration. Hubs and repeaters operate at Layer 1 and cannot segment traffic logically."
+  },
+  {
+    "id": 3,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "At which OSI layer do VLANs primarily operate?",
+    "options": ["A) Layer 1 (Physical)", "B) Layer 2 (Data Link)", "C) Layer 3 (Network)", "D) Layer 4 (Transport)"],
+    "correct_answer": "B) Layer 2 (Data Link)",
+    "explanation": "VLANs operate at Layer 2 (Data Link layer) of the OSI model, using MAC addresses and switch ports for segmentation."
+  },
+  {
+    "id": 4,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default VLAN on most Cisco switches?",
+    "options": ["A) VLAN 0", "B) VLAN 1", "C) VLAN 100", "D) VLAN 1024"],
+    "correct_answer": "B) VLAN 1",
+    "explanation": "VLAN 1 is the default VLAN on Cisco switches. All ports are assigned to VLAN 1 by default unless reconfigured."
+  },
+  {
+    "id": 5,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which IEEE standard defines VLANs and VLAN tagging?",
+    "options": ["A) IEEE 802.3", "B) IEEE 802.11", "C) IEEE 802.1Q", "D) IEEE 802.1X"],
+    "correct_answer": "C) IEEE 802.1Q",
+    "explanation": "IEEE 802.1Q is the standard for VLAN tagging. It defines how VLAN tags are inserted into Ethernet frames."
+  },
+  {
+    "id": 6,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum number of VLANs supported by the IEEE 802.1Q standard?",
+    "options": ["A) 256", "B) 1024", "C) 4094", "D) 65535"],
+    "correct_answer": "C) 4094",
+    "explanation": "IEEE 802.1Q uses a 12-bit VLAN ID field, allowing values from 1 to 4094 (0 and 4095 are reserved), giving 4094 usable VLANs."
+  },
+  {
+    "id": 7,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of switch port carries traffic for multiple VLANs?",
+    "options": ["A) Access port", "B) Trunk port", "C) Mirror port", "D) Uplink port"],
+    "correct_answer": "B) Trunk port",
+    "explanation": "A trunk port carries traffic for multiple VLANs simultaneously using 802.1Q tagging to differentiate between them."
+  },
+  {
+    "id": 8,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of switch port is assigned to only one VLAN and connects to end devices?",
+    "options": ["A) Trunk port", "B) Hybrid port", "C) Access port", "D) Tagged port"],
+    "correct_answer": "C) Access port",
+    "explanation": "An access port belongs to a single VLAN and connects end devices like PCs and printers. Frames on access ports are untagged."
+  },
+  {
+    "id": 9,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can two devices on different VLANs communicate directly without a Layer 3 device?",
+    "options": ["A) Yes, always", "B) No, they cannot", "C) Yes, if on the same switch", "D) Yes, using a hub"],
+    "correct_answer": "B) No, they cannot",
+    "explanation": "Devices on different VLANs are in separate broadcast domains and require a Layer 3 device (router or Layer 3 switch) to communicate."
+  },
+  {
+    "id": 10,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of the VLAN tag added by IEEE 802.1Q to an Ethernet frame?",
+    "options": ["A) 2 bytes", "B) 4 bytes", "C) 6 bytes", "D) 8 bytes"],
+    "correct_answer": "B) 4 bytes",
+    "explanation": "The 802.1Q VLAN tag is 4 bytes (32 bits) long, consisting of a 2-byte TPID and a 2-byte TCI field."
+  },
+  {
+    "id": 11,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a primary benefit of using VLANs?",
+    "options": ["A) Increases physical cable length", "B) Reduces broadcast domain size", "C) Eliminates need for IP addresses", "D) Increases collision domain size"],
+    "correct_answer": "B) Reduces broadcast domain size",
+    "explanation": "VLANs segment a network into smaller broadcast domains, reducing unnecessary broadcast traffic and improving performance."
+  },
+  {
+    "id": 12,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the VLAN ID range for normal/standard VLANs?",
+    "options": ["A) 1–256", "B) 1–1005", "C) 1–2048", "D) 1–4094"],
+    "correct_answer": "B) 1–1005",
+    "explanation": "Normal range VLANs have IDs from 1 to 1005. Extended range VLANs use IDs from 1006 to 4094."
+  },
+  {
+    "id": 13,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used by Cisco switches to automatically propagate VLAN information across a network?",
+    "options": ["A) STP", "B) VTP", "C) OSPF", "D) EIGRP"],
+    "correct_answer": "B) VTP",
+    "explanation": "VTP (VLAN Trunking Protocol) is a Cisco proprietary protocol that propagates VLAN configuration across all switches in a VTP domain."
+  },
+  {
+    "id": 14,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the Native VLAN on a trunk port?",
+    "options": ["A) To carry tagged traffic only", "B) To carry untagged traffic", "C) To block all traffic", "D) To encrypt VLAN data"],
+    "correct_answer": "B) To carry untagged traffic",
+    "explanation": "The Native VLAN on a trunk port carries untagged frames. By default, VLAN 1 is the native VLAN on Cisco switches."
+  },
+  {
+    "id": 15,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which field in the 802.1Q tag identifies the VLAN?",
+    "options": ["A) TPID", "B) DEI", "C) PCP", "D) VID"],
+    "correct_answer": "D) VID",
+    "explanation": "VID (VLAN Identifier) is the 12-bit field in the 802.1Q tag that identifies which VLAN the frame belongs to."
+  },
+  {
+    "id": 16,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits are used for the VLAN ID in the 802.1Q tag?",
+    "options": ["A) 8 bits", "B) 10 bits", "C) 12 bits", "D) 16 bits"],
+    "correct_answer": "C) 12 bits",
+    "explanation": "The VLAN ID field in 802.1Q is 12 bits wide, allowing 2^12 = 4096 possible values (0–4095), with 4094 usable VLANs."
+  },
+  {
+    "id": 17,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'VLAN hopping' refer to?",
+    "options": ["A) Moving a device between VLANs", "B) A security attack to gain access to another VLAN", "C) Routing between VLANs", "D) Assigning multiple VLANs to one port"],
+    "correct_answer": "B) A security attack to gain access to another VLAN",
+    "explanation": "VLAN hopping is a network attack where an attacker sends frames to a VLAN they are not authorized to access, bypassing VLAN segmentation."
+  },
+  {
+    "id": 18,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of VLAN is used to separate voice traffic from data traffic?",
+    "options": ["A) Data VLAN", "B) Management VLAN", "C) Voice VLAN", "D) Native VLAN"],
+    "correct_answer": "C) Voice VLAN",
+    "explanation": "A Voice VLAN (also called auxiliary VLAN) is dedicated to VoIP traffic, ensuring QoS prioritization for voice communications."
+  },
+  {
+    "id": 19,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is inter-VLAN routing?",
+    "options": ["A) Routing within the same VLAN", "B) Communication between devices on different VLANs using a Layer 3 device", "C) Blocking traffic between VLANs", "D) Assigning IP addresses to VLANs"],
+    "correct_answer": "B) Communication between devices on different VLANs using a Layer 3 device",
+    "explanation": "Inter-VLAN routing allows devices on different VLANs to communicate by routing traffic through a Layer 3 device like a router or Layer 3 switch."
+  },
+  {
+    "id": 20,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Router-on-a-Stick' configuration?",
+    "options": ["A) A router with multiple physical interfaces for each VLAN", "B) A single router interface configured with subinterfaces for inter-VLAN routing", "C) A router connected to a hub", "D) A router used only for WAN connections"],
+    "correct_answer": "B) A single router interface configured with subinterfaces for inter-VLAN routing",
+    "explanation": "Router-on-a-Stick uses one physical router interface divided into logical subinterfaces, each handling traffic for a different VLAN."
+  },
+  {
+    "id": 21,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which VLAN is typically used for network management traffic such as SSH and Telnet?",
+    "options": ["A) Data VLAN", "B) Voice VLAN", "C) Management VLAN", "D) Native VLAN"],
+    "correct_answer": "C) Management VLAN",
+    "explanation": "The Management VLAN is dedicated to network management traffic. It is a security best practice to separate management traffic from user data."
+  },
+  {
+    "id": 22,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a switch has 24 ports and all are in VLAN 10, how many broadcast domains exist on that switch?",
+    "options": ["A) 1", "B) 24", "C) 12", "D) 2"],
+    "correct_answer": "A) 1",
+    "explanation": "All 24 ports are in the same VLAN (VLAN 10), so they share one broadcast domain. Each VLAN = one broadcast domain."
+  },
+  {
+    "id": 23,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A switch has 12 ports in VLAN 10 and 12 ports in VLAN 20. How many broadcast domains exist?",
+    "options": ["A) 1", "B) 2", "C) 12", "D) 24"],
+    "correct_answer": "B) 2",
+    "explanation": "Each VLAN forms one broadcast domain. With VLAN 10 and VLAN 20, there are 2 broadcast domains regardless of the number of ports."
+  },
+  {
+    "id": 24,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the TPID value used in the 802.1Q VLAN tag?",
+    "options": ["A) 0x0800", "B) 0x8100", "C) 0x0806", "D) 0x86DD"],
+    "correct_answer": "B) 0x8100",
+    "explanation": "The TPID (Tag Protocol Identifier) value 0x8100 identifies an Ethernet frame as carrying an 802.1Q VLAN tag."
+  },
+  {
+    "id": 25,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a port-based VLAN?",
+    "options": ["A) VLAN membership based on MAC address", "B) VLAN membership based on IP address", "C) VLAN membership based on switch port assignment", "D) VLAN membership based on protocol type"],
+    "correct_answer": "C) VLAN membership based on switch port assignment",
+    "explanation": "Port-based VLANs assign VLAN membership based on the physical switch port a device is connected to, which is the most common method."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens to a broadcast frame sent by a device in VLAN 30?",
+    "options": ["A) It is forwarded to all ports on the switch", "B) It is forwarded only to ports in VLAN 30", "C) It is dropped by the switch", "D) It is forwarded to all VLANs"],
+    "correct_answer": "B) It is forwarded only to ports in VLAN 30",
+    "explanation": "Broadcast frames are confined to the VLAN they originate from. The switch forwards them only to ports belonging to VLAN 30."
+  },
+  {
+    "id": 27,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to create VLAN 50 on a Cisco switch?",
+    "options": ["A) switch(config)# vlan create 50", "B) switch(config)# vlan 50", "C) switch(config)# create vlan 50", "D) switch(config)# set vlan 50"],
+    "correct_answer": "B) switch(config)# vlan 50",
+    "explanation": "The command 'vlan 50' in global configuration mode creates VLAN 50 on a Cisco switch and enters VLAN configuration mode."
+  },
+  {
+    "id": 28,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of VTP (VLAN Trunking Protocol)?",
+    "options": ["A) To encrypt VLAN traffic", "B) To synchronize VLAN databases across switches", "C) To route traffic between VLANs", "D) To prevent VLAN loops"],
+    "correct_answer": "B) To synchronize VLAN databases across switches",
+    "explanation": "VTP allows a VTP server to distribute VLAN configuration information to all VTP client switches in the same VTP domain automatically."
+  },
+  {
+    "id": 29,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which VTP mode allows a switch to create, modify, and delete VLANs and propagate changes?",
+    "options": ["A) Client mode", "B) Transparent mode", "C) Server mode", "D) Passive mode"],
+    "correct_answer": "C) Server mode",
+    "explanation": "In VTP Server mode, a switch can create, modify, and delete VLANs and advertise those changes to all switches in the VTP domain."
+  },
+  {
+    "id": 30,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In VTP Client mode, can a switch create new VLANs?",
+    "options": ["A) Yes, always", "B) No, it cannot create VLANs", "C) Yes, but only locally", "D) Yes, with administrator approval"],
+    "correct_answer": "B) No, it cannot create VLANs",
+    "explanation": "VTP Client mode switches cannot create, modify, or delete VLANs. They only receive and apply VLAN updates from VTP servers."
+  },
+  {
+    "id": 31,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the function of Spanning Tree Protocol (STP) in a VLAN environment?",
+    "options": ["A) To create VLANs automatically", "B) To prevent Layer 2 loops in the network", "C) To route traffic between VLANs", "D) To assign IP addresses to VLANs"],
+    "correct_answer": "B) To prevent Layer 2 loops in the network",
+    "explanation": "STP prevents Layer 2 loops by blocking redundant paths. In VLAN environments, Per-VLAN STP (PVST) runs a separate STP instance per VLAN."
+  },
+  {
+    "id": 32,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a benefit of VLANs?",
+    "options": ["A) Improved security", "B) Reduced broadcast traffic", "C) Increased physical cable distance", "D) Logical grouping of users"],
+    "correct_answer": "C) Increased physical cable distance",
+    "explanation": "VLANs provide security, reduce broadcasts, and allow logical grouping, but they do not extend physical cable distances — that requires repeaters or fiber."
+  },
+  {
+    "id": 33,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'tagged frame' in the context of VLANs?",
+    "options": ["A) A frame with a VLAN ID inserted in the header", "B) A frame marked for deletion", "C) A frame with a priority label", "D) A frame sent over a wireless network"],
+    "correct_answer": "A) A frame with a VLAN ID inserted in the header",
+    "explanation": "A tagged frame has a 4-byte 802.1Q VLAN tag inserted between the source MAC address and the EtherType field, identifying its VLAN."
+  },
+  {
+    "id": 34,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of VLAN membership is based on the MAC address of the device?",
+    "options": ["A) Port-based VLAN", "B) Protocol-based VLAN", "C) MAC-based VLAN", "D) IP subnet-based VLAN"],
+    "correct_answer": "C) MAC-based VLAN",
+    "explanation": "MAC-based VLANs assign VLAN membership based on the device's MAC address, allowing mobility — the device keeps its VLAN when moved to another port."
+  },
+  {
+    "id": 35,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the extended VLAN ID range in IEEE 802.1Q?",
+    "options": ["A) 1006–2048", "B) 1006–4094", "C) 2048–4096", "D) 1024–4096"],
+    "correct_answer": "B) 1006–4094",
+    "explanation": "Extended range VLANs use IDs from 1006 to 4094. These are typically used in service provider environments and require VTP transparent mode."
+  },
+  {
+    "id": 36,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol does a Layer 3 switch use to route between VLANs?",
+    "options": ["A) STP", "B) VTP", "C) IP routing", "D) ARP only"],
+    "correct_answer": "C) IP routing",
+    "explanation": "A Layer 3 switch uses IP routing to forward packets between VLANs. Each VLAN interface (SVI) is assigned an IP address as the default gateway."
+  },
+  {
+    "id": 37,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an SVI (Switched Virtual Interface)?",
+    "options": ["A) A physical switch port", "B) A virtual interface on a switch used for inter-VLAN routing", "C) A type of trunk port", "D) A wireless access point interface"],
+    "correct_answer": "B) A virtual interface on a switch used for inter-VLAN routing",
+    "explanation": "An SVI is a virtual Layer 3 interface on a switch associated with a VLAN. It provides a default gateway IP address for devices in that VLAN."
+  },
+  {
+    "id": 38,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a network has 5 VLANs, how many separate broadcast domains does it have?",
+    "options": ["A) 1", "B) 3", "C) 5", "D) 10"],
+    "correct_answer": "C) 5",
+    "explanation": "Each VLAN is a separate broadcast domain. With 5 VLANs, there are exactly 5 broadcast domains, one per VLAN."
+  },
+  {
+    "id": 39,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a security best practice for VLANs?",
+    "options": ["A) Use VLAN 1 as the management VLAN", "B) Change the native VLAN from VLAN 1 to an unused VLAN", "C) Disable trunk ports on all switches", "D) Assign all ports to the same VLAN"],
+    "correct_answer": "B) Change the native VLAN from VLAN 1 to an unused VLAN",
+    "explanation": "Changing the native VLAN from the default VLAN 1 to an unused VLAN helps prevent VLAN hopping attacks and improves security."
+  },
+  {
+    "id": 40,
+    "topic": "Virtual LANs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DTP stand for in the context of VLANs?",
+    "options": ["A) Dynamic Trunk Protocol", "B) Data Transfer Protocol", "C) Dynamic Trunking Protocol", "D) Distributed Trunk Protocol"],
+    "correct_answer": "C) Dynamic Trunking Protocol",
+    "explanation": "DTP (Dynamic Trunking Protocol) is a Cisco proprietary protocol that automatically negotiates trunking between switches. It should be disabled for security."
+  },
+  {
+    "id": 41,
+    "topic": "Virtual LANs",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A company has 3 departments: HR (15 users), Finance (20 users), and IT (10 users). Each department is assigned a separate VLAN. How many broadcast domains exist in this network?",
+    "options": ["A) 1", "B) 3", "C) 45", "D) 6"],
+    "correct_answer": "B) 3",
+    "explanation": "Each department has its own VLAN, and each VLAN is a separate broadcast domain. 3 departments = 3 VLANs = 3 broadcast domains."
+  },
+  {
+    "id": 42,
+    "topic": "Virtual LANs",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A switch has 48 ports. Ports 1–16 are in VLAN 10, ports 17–32 are in VLAN 20, and ports 33–48 are in VLAN 30. How many collision domains exist?",
+    "options": ["A) 3", "B) 16", "C) 48", "D) 1"],
+    "correct_answer": "C) 48",
+    "explanation": "Each switch port is its own collision domain regardless of VLAN assignment. With 48 ports, there are 48 collision domains."
+  },
+  {
+    "id": 43,
+    "topic": "Virtual LANs",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In a Router-on-a-Stick setup with 4 VLANs, how many subinterfaces must be configured on the router?",
+    "options": ["A) 1", "B) 2", "C) 4", "D) 8"],
+    "correct_answer": "C) 4",
+    "explanation": "In Router-on-a-Stick, one subinterface is needed per VLAN for inter-VLAN routing. For 4 VLANs, 4 subinterfaces are required."
+  },
+  {
+    "id": 44,
+    "topic": "Virtual LANs",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which VTP mode allows a switch to forward VTP advertisements but does not apply them to its own VLAN database?",
+    "options": ["A) Server mode", "B) Client mode", "C) Transparent mode", "D) Off mode"],
+    "correct_answer": "C) Transparent mode",
+    "explanation": "In VTP Transparent mode, a switch forwards VTP advertisements to other switches but maintains its own independent VLAN database."
+  },
+  {
+    "id": 45,
+    "topic": "Virtual LANs",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the maximum size of an Ethernet frame after adding an 802.1Q VLAN tag?",
+    "options": ["A) 1518 bytes", "B) 1522 bytes", "C) 1500 bytes", "D) 1526 bytes"],
+    "correct_answer": "B) 1522 bytes",
+    "explanation": "Standard Ethernet frame is 1518 bytes. Adding a 4-byte 802.1Q tag increases the maximum frame size to 1518 + 4 = 1522 bytes."
+  },
+  {
+    "id": 46,
+    "topic": "Virtual LANs",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A network administrator configures VLAN 10 with subnet 192.168.10.0/24 and VLAN 20 with subnet 192.168.20.0/24. How many usable host addresses are available per VLAN?",
+    "options": ["A) 254", "B) 256", "C) 252", "D) 255"],
+    "correct_answer": "A) 254",
+    "explanation": "A /24 subnet has 2^8 = 256 addresses. Subtracting the network address and broadcast address gives 256 - 2 = 254 usable host addresses per VLAN."
+  },
+  {
+    "id": 47,
+    "topic": "Virtual LANs",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which attack exploits the DTP protocol to gain unauthorized access to a trunk link?",
+    "options": ["A) ARP spoofing", "B) Switch spoofing", "C) MAC flooding", "D) IP spoofing"],
+    "correct_answer": "B) Switch spoofing",
+    "explanation": "Switch spoofing is a VLAN hopping attack where an attacker configures their device to act as a switch and negotiate a trunk link using DTP."
+  },
+  {

@@ -1,0 +1,438 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'relation' in the relational model?",
+    "options": ["A) A two-dimensional table with rows and columns", "B) A linked list of records", "C) A hierarchical tree structure", "D) A network of nodes and edges"],
+    "correct_answer": "A) A two-dimensional table with rows and columns",
+    "explanation": "In the relational model, a relation is represented as a two-dimensional table where rows are tuples and columns are attributes. This is the fundamental structure proposed by E.F. Codd."
+  },
+  {
+    "id": 2,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'tuple' in the context of the relational model?",
+    "options": ["A) A column in a table", "B) A row in a table", "C) A constraint on a table", "D) An index on a table"],
+    "correct_answer": "B) A row in a table",
+    "explanation": "A tuple corresponds to a single row in a relational table. Each tuple represents one instance or record of the entity described by the relation."
+  },
+  {
+    "id": 3,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form requires that every non-key attribute is fully functionally dependent on the primary key?",
+    "options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "B) Second Normal Form (2NF)",
+    "explanation": "2NF requires that a table is in 1NF and every non-key attribute is fully functionally dependent on the entire primary key, eliminating partial dependencies."
+  },
+  {
+    "id": 4,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A table is said to be in First Normal Form (1NF) if:",
+    "options": ["A) It has no transitive dependencies", "B) All attributes contain only atomic (indivisible) values", "C) Every non-key attribute depends on the whole key", "D) It has no repeating groups and no partial dependencies"],
+    "correct_answer": "B) All attributes contain only atomic (indivisible) values",
+    "explanation": "1NF requires that each column contains atomic values and each row is unique. Multi-valued or composite attributes violate 1NF."
+  },
+  {
+    "id": 5,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a property of a primary key?",
+    "options": ["A) It can contain NULL values", "B) It must be unique and not null", "C) It can have duplicate values", "D) It is optional in a relation"],
+    "correct_answer": "B) It must be unique and not null",
+    "explanation": "A primary key uniquely identifies each tuple in a relation. It must be unique across all rows and cannot contain NULL values (entity integrity rule)."
+  },
+  {
+    "id": 6,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'referential integrity' ensure in a relational database?",
+    "options": ["A) All primary keys are unique", "B) Foreign key values match existing primary key values or are NULL", "C) All attributes have atomic values", "D) No transitive dependencies exist"],
+    "correct_answer": "B) Foreign key values match existing primary key values or are NULL",
+    "explanation": "Referential integrity ensures that a foreign key value in one table either matches a primary key value in the referenced table or is NULL, maintaining consistency between related tables."
+  },
+  {
+    "id": 7,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates transitive dependencies?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) 4NF"],
+    "correct_answer": "C) 3NF",
+    "explanation": "Third Normal Form (3NF) requires that a table is in 2NF and no non-key attribute is transitively dependent on the primary key. This removes indirect dependencies."
+  },
+  {
+    "id": 8,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A foreign key in a relational table:",
+    "options": ["A) Must always be unique", "B) References the primary key of another (or the same) table", "C) Cannot contain NULL values", "D) Is always a single attribute"],
+    "correct_answer": "B) References the primary key of another (or the same) table",
+    "explanation": "A foreign key is an attribute (or set of attributes) in one table that references the primary key of another table, establishing a link between the two relations."
+  },
+  {
+    "id": 9,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The degree of a relation refers to:",
+    "options": ["A) The number of tuples (rows) in the relation", "B) The number of attributes (columns) in the relation", "C) The number of candidate keys", "D) The number of foreign keys"],
+    "correct_answer": "B) The number of attributes (columns) in the relation",
+    "explanation": "The degree (or arity) of a relation is the number of attributes it has. For example, a relation with 5 columns has degree 5."
+  },
+  {
+    "id": 10,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The cardinality of a relation refers to:",
+    "options": ["A) The number of attributes in the relation", "B) The number of tuples (rows) in the relation", "C) The number of candidate keys", "D) The number of indexes"],
+    "correct_answer": "B) The number of tuples (rows) in the relation",
+    "explanation": "Cardinality refers to the number of tuples (rows) in a relation at any given time. It changes as rows are inserted or deleted."
+  },
+  {
+    "id": 11,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following anomalies is caused by data redundancy in an unnormalized table?",
+    "options": ["A) Insertion anomaly", "B) Deletion anomaly", "C) Update anomaly", "D) All of the above"],
+    "correct_answer": "D) All of the above",
+    "explanation": "Data redundancy leads to insertion, deletion, and update anomalies. Normalization is the process of eliminating these anomalies by organizing data efficiently."
+  },
+  {
+    "id": 12,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A candidate key is:",
+    "options": ["A) Any attribute that can uniquely identify a tuple", "B) A minimal superkey that uniquely identifies each tuple", "C) The primary key chosen by the database designer", "D) A key that references another table"],
+    "correct_answer": "B) A minimal superkey that uniquely identifies each tuple",
+    "explanation": "A candidate key is a minimal superkey — it uniquely identifies tuples and no proper subset of it can do so. One candidate key is chosen as the primary key."
+  },
+  {
+    "id": 13,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a relational algebra operation?",
+    "options": ["A) Select (σ)", "B) Project (π)", "C) Join (⋈)", "D) Compile (∁)"],
+    "correct_answer": "D) Compile (∁)",
+    "explanation": "Relational algebra operations include Select, Project, Union, Difference, Cartesian Product, and Join. 'Compile' is not a relational algebra operation."
+  },
+  {
+    "id": 14,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'superkey' in the relational model?",
+    "options": ["A) A key that is a subset of the primary key", "B) Any set of attributes that uniquely identifies a tuple", "C) A key used only in foreign key references", "D) A key with exactly one attribute"],
+    "correct_answer": "B) Any set of attributes that uniquely identifies a tuple",
+    "explanation": "A superkey is any set of attributes that can uniquely identify a tuple in a relation. A candidate key is a minimal superkey."
+  },
+  {
+    "id": 15,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relation R(A, B, C, D) with primary key A, if B → C (B determines C), and B is not a key, this violates which normal form?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "C) 3NF",
+    "explanation": "If B → C and B is not a superkey, and C is a non-key attribute, this is a transitive dependency (A → B → C), violating 3NF. The table is in 2NF but not 3NF."
+  },
+  {
+    "id": 16,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes a 'partial dependency'?",
+    "options": ["A) A non-key attribute depends on only part of a composite primary key", "B) A non-key attribute depends on another non-key attribute", "C) A key attribute depends on a non-key attribute", "D) An attribute depends on the entire primary key"],
+    "correct_answer": "A) A non-key attribute depends on only part of a composite primary key",
+    "explanation": "A partial dependency occurs when a non-key attribute is functionally dependent on only a part (proper subset) of a composite primary key, violating 2NF."
+  },
+  {
+    "id": 17,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The concept of normalization was introduced by:",
+    "options": ["A) Charles Bachman", "B) E.F. Codd", "C) Peter Chen", "D) Edgar Dijkstra"],
+    "correct_answer": "B) E.F. Codd",
+    "explanation": "E.F. Codd introduced the relational model in 1970 and subsequently introduced the concept of normalization (1NF, 2NF, 3NF) to reduce data redundancy and improve data integrity."
+  },
+  {
+    "id": 18,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about NULL values in the relational model?",
+    "options": ["A) NULL means zero", "B) NULL means an empty string", "C) NULL represents an unknown or missing value", "D) NULL is not allowed in any column"],
+    "correct_answer": "C) NULL represents an unknown or missing value",
+    "explanation": "NULL in the relational model represents an unknown, missing, or inapplicable value. It is distinct from zero or an empty string."
+  },
+  {
+    "id": 19,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A relation with a single-attribute primary key and no repeating groups is at least in which normal form?",
+    "options": ["A) 1NF only", "B) 1NF and 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "B) 1NF and 2NF",
+    "explanation": "With a single-attribute primary key, partial dependencies cannot exist (you can't have a proper subset of a single attribute). So the relation automatically satisfies 2NF if it's in 1NF."
+  },
+  {
+    "id": 20,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a multi-valued attribute that violates 1NF?",
+    "options": ["A) Employee(EmpID, Name, Salary)", "B) Student(RollNo, Name, {PhoneNumbers})", "C) Product(ProdID, Price, Category)", "D) Order(OrderID, Date, Amount)"],
+    "correct_answer": "B) Student(RollNo, Name, {PhoneNumbers})",
+    "explanation": "The {PhoneNumbers} attribute is multi-valued (a student can have multiple phone numbers), which violates 1NF's requirement that all attributes must be atomic."
+  },
+  {
+    "id": 21,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the relational model, the term 'domain' refers to:",
+    "options": ["A) The set of all possible values for an attribute", "B) The primary key of a relation", "C) The number of rows in a table", "D) A constraint on foreign keys"],
+    "correct_answer": "A) The set of all possible values for an attribute",
+    "explanation": "A domain defines the set of permissible values for an attribute. For example, the domain of 'Age' might be positive integers between 0 and 150."
+  },
+  {
+    "id": 22,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operation in relational algebra is used to extract specific rows from a relation based on a condition?",
+    "options": ["A) Project (π)", "B) Select (σ)", "C) Join (⋈)", "D) Union (∪)"],
+    "correct_answer": "B) Select (σ)",
+    "explanation": "The Select operation (σ) filters rows (tuples) from a relation based on a specified condition, similar to the WHERE clause in SQL."
+  },
+  {
+    "id": 23,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operation in relational algebra is used to extract specific columns from a relation?",
+    "options": ["A) Select (σ)", "B) Project (π)", "C) Rename (ρ)", "D) Difference (−)"],
+    "correct_answer": "B) Project (π)",
+    "explanation": "The Project operation (π) extracts specific columns (attributes) from a relation, similar to the SELECT column list in SQL."
+  },
+  {
+    "id": 24,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "BCNF (Boyce-Codd Normal Form) is a stricter version of which normal form?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) 4NF"],
+    "correct_answer": "C) 3NF",
+    "explanation": "BCNF is a stronger version of 3NF. Every relation in BCNF is also in 3NF, but not every 3NF relation is in BCNF. BCNF requires every determinant to be a superkey."
+  },
+  {
+    "id": 25,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a table has attributes (StudentID, CourseID, StudentName, CourseName, Grade) with primary key (StudentID, CourseID), which dependency causes a 2NF violation?",
+    "options": ["A) (StudentID, CourseID) → Grade", "B) StudentID → StudentName", "C) Grade → StudentID", "D) CourseName → Grade"],
+    "correct_answer": "B) StudentID → StudentName",
+    "explanation": "StudentID → StudentName is a partial dependency because StudentName depends only on part of the composite primary key (StudentID), not on the full key (StudentID, CourseID), violating 2NF."
+  },
+
+  {
+    "id": 26,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about functional dependency is correct?",
+    "options": ["A) A → B means B determines A", "B) A → B means A determines B", "C) A → B means A and B are independent", "D) A → B means A is a subset of B"],
+    "correct_answer": "B) A → B means A determines B",
+    "explanation": "A → B (A functionally determines B) means that for every value of A, there is exactly one corresponding value of B. A is the determinant and B is the dependent."
+  },
+  {
+    "id": 27,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An 'update anomaly' in a database occurs when:",
+    "options": ["A) A new record cannot be inserted without adding unrelated data", "B) Deleting a record causes unintended loss of other data", "C) Changing data in one place requires changes in multiple places", "D) A query returns incorrect results"],
+    "correct_answer": "C) Changing data in one place requires changes in multiple places",
+    "explanation": "An update anomaly occurs due to data redundancy — the same data stored in multiple rows means updating it requires changing all occurrences, risking inconsistency."
+  },
+  {
+    "id": 28,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct order of normal forms from lowest to highest?",
+    "options": ["A) 1NF → 3NF → 2NF → BCNF", "B) 1NF → 2NF → 3NF → BCNF", "C) BCNF → 3NF → 2NF → 1NF", "D) 2NF → 1NF → BCNF → 3NF"],
+    "correct_answer": "B) 1NF → 2NF → 3NF → BCNF",
+    "explanation": "The normal forms progress from 1NF (least strict) to BCNF (most strict among these four). Each higher normal form includes all requirements of the lower ones."
+  },
+  {
+    "id": 29,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relation, which of the following is true about the order of tuples?",
+    "options": ["A) Tuples must be stored in ascending order of primary key", "B) The order of tuples in a relation is significant", "C) The order of tuples in a relation is not significant", "D) Tuples must be ordered by insertion time"],
+    "correct_answer": "C) The order of tuples in a relation is not significant",
+    "explanation": "In the relational model, a relation is a set of tuples, and sets have no ordering. The order of rows in a table is mathematically irrelevant."
+  },
+  {
+    "id": 30,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'composite key'?",
+    "options": ["A) A key made up of two or more attributes", "B) A key that references another table", "C) A key with only one attribute", "D) A key that allows NULL values"],
+    "correct_answer": "A) A key made up of two or more attributes",
+    "explanation": "A composite key is a primary key that consists of two or more attributes. Together, these attributes uniquely identify each tuple in the relation."
+  },
+  {
+    "id": 31,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'lossless join decomposition'?",
+    "options": ["A) Decomposition where no data is lost and original relation can be reconstructed", "B) Decomposition that removes all functional dependencies", "C) Decomposition that always results in BCNF", "D) Decomposition where some tuples are permanently removed"],
+    "correct_answer": "A) Decomposition where no data is lost and original relation can be reconstructed",
+    "explanation": "A lossless join decomposition ensures that when the decomposed relations are joined back, the original relation is exactly reconstructed without spurious tuples."
+  },
+  {
+    "id": 32,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form deals with multi-valued dependencies?",
+    "options": ["A) 2NF", "B) 3NF", "C) BCNF", "D) 4NF"],
+    "correct_answer": "D) 4NF",
+    "explanation": "Fourth Normal Form (4NF) deals with multi-valued dependencies. A relation is in 4NF if it is in BCNF and has no non-trivial multi-valued dependencies."
+  },
+  {
+    "id": 33,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The 'entity integrity rule' states that:",
+    "options": ["A) Foreign keys cannot be NULL", "B) Primary key attributes cannot be NULL", "C) All attributes must be atomic", "D) No two tuples can have the same values for all attributes"],
+    "correct_answer": "B) Primary key attributes cannot be NULL",
+    "explanation": "The entity integrity rule states that no attribute that is part of the primary key can have a NULL value, ensuring every entity can be uniquely identified."
+  },
+  {
+    "id": 34,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A relation R has attributes {A, B, C} with functional dependencies A → B and B → C. What is the highest normal form R is in if A is the primary key?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "B) 2NF",
+    "explanation": "Since A is the primary key (single attribute), there are no partial dependencies, so R is in 2NF. However, B → C is a transitive dependency (A → B → C), so R is NOT in 3NF."
+  },
+  {
+    "id": 35,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a property of relations in the relational model?",
+    "options": ["A) Each attribute has a distinct name", "B) All values in a column are from the same domain", "C) Rows can be duplicated", "D) The order of columns is insignificant"],
+    "correct_answer": "C) Rows can be duplicated",
+    "explanation": "In the relational model, a relation is a set of tuples, and sets do not allow duplicates. Every tuple must be unique. Duplicate rows are not permitted."
+  },
+  {
+    "id": 36,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is denormalization?",
+    "options": ["A) The process of converting a table to higher normal forms", "B) The intentional introduction of redundancy to improve query performance", "C) The removal of all functional dependencies", "D) The process of splitting a table into multiple tables"],
+    "correct_answer": "B) The intentional introduction of redundancy to improve query performance",
+    "explanation": "Denormalization is the deliberate process of adding redundancy to a normalized database to improve read performance, at the cost of increased storage and potential update anomalies."
+  },
+  {
+    "id": 37,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a table Employee(EmpID, Name, DeptID, DeptName), if DeptID → DeptName, what anomaly exists?",
+    "options": ["A) Partial dependency — violates 2NF", "B) Transitive dependency — violates 3NF", "C) Multi-valued dependency — violates 4NF", "D) No anomaly exists"],
+    "correct_answer": "B) Transitive dependency — violates 3NF",
+    "explanation": "EmpID → DeptID → DeptName is a transitive dependency. DeptName depends on DeptID (a non-key attribute), not directly on EmpID (the primary key), violating 3NF."
+  },
+  {
+    "id": 38,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a correct definition of a 'trivial functional dependency'?",
+    "options": ["A) A → B where B is not a subset of A", "B) A → B where B is a subset of A", "C) A → B where A and B are unrelated", "D) A → B where A is a foreign key"],
+    "correct_answer": "B) A → B where B is a subset of A",
+    "explanation": "A functional dependency A → B is trivial if B is a subset of A. For example, {A, B} → A is trivial. Trivial dependencies always hold and are not useful for normalization."
+  },
+  {
+    "id": 39,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many candidate keys can a relation have?",
+    "options": ["A) Exactly one", "B) At most two", "C) One or more", "D) Exactly two"],
+    "correct_answer": "C) One or more",
+    "explanation": "A relation can have one or more candidate keys. Each candidate key is a minimal superkey. One of them is chosen as the primary key; the rest are called alternate keys."
+  },
+  {
+    "id": 40,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL constraints enforces referential integrity?",
+    "options": ["A) PRIMARY KEY", "B) UNIQUE", "C) FOREIGN KEY", "D) NOT NULL"],
+    "correct_answer": "C) FOREIGN KEY",
+    "explanation": "The FOREIGN KEY constraint enforces referential integrity by ensuring that values in a column match values in the referenced primary key column of another table."
+  },
+
+  {
+    "id": 41,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider relation R(A, B, C, D, E) with FDs: {AB → C, C → D, D → E}. What is the closure of {A, B}?",
+    "options": ["A) {A, B, C}", "B) {A, B, C, D}", "C) {A, B, C, D, E}", "D) {A, B}"],
+    "correct_answer": "C) {A, B, C, D, E}",
+    "explanation": "Start: {A,B}. AB→C adds C: {A,B,C}. C→D adds D: {A,B,C,D}. D→E adds E: {A,B,C,D,E}. So {AB}+ = {A,B,C,D,E}, meaning AB is a superkey."
+  },
+  {
+    "id": 42,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Relation R(A, B, C, D) has FDs: {A → B, B → C, C → D, D → A}. How many candidate keys does R have?",
+    "options": ["A) 1", "B) 2", "C) 4", "D) 3"],
+    "correct_answer": "C) 4",
+    "explanation": "Since A→B→C→D→A, all attributes determine each other. Each single attribute {A}, {B}, {C}, {D} is a candidate key. So there are 4 candidate keys."
+  },
+  {
+    "id": 43,
+    "topic": "The Relational Model and Normalization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct condition for BCNF?",
+    "options": ["A) For every FD X → Y, X is a superkey or Y is a prime attribute", "B) For every non-trivial FD X → Y, X must be a superkey", "C) For every FD X → Y, Y must be a prime attribute", "D) For every FD X → Y, X must be a candidate key and Y must be non-prime"],
+    "correct_answer": "B) For every non-trivial FD X → Y, X must be a superkey",
+    "explanation": "BCNF requires that for every non-trivial functional dependency X → Y, X must be a superkey. This is stricter than 3NF which allows Y to be a prime attribute."
+  },
+  {
+    "id": 44,
+    "topic": "The Relational Model and Normalization",
+    "difficulty

@@ -1,0 +1,637 @@
+[
+  {
+    "testId": "d9e61cdb-ef52-4cd0-be50-d86776624729",
+    "userId": "a412d5c9-d516-4bf1-963f-05cee3bb72a4",
+    "topicId": "percentage",
+    "topicName": "Percentage",
+    "score": 0,
+    "accuracy": 0,
+    "correct": 0,
+    "wrong": 0,
+    "skipped": 10,
+    "total": 10,
+    "timeTaken": 6,
+    "mode": "practice",
+    "byDifficulty": {
+      "Easy": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 4
+      },
+      "Medium": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 6
+      },
+      "Hard": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 0
+      }
+    },
+    "points": 0,
+    "answers": [
+      {
+        "questionId": "percentage-46",
+        "question": "Two numbers are respectively 20% and 50% more than a third number. What percentage is the first of the second?",
+        "options": [
+          "70%",
+          "75%",
+          "80%",
+          "85%"
+        ],
+        "correct_answer": "80%",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "Let third = 100. First = 120, Second = 150. (120/150) × 100 = 80%.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-7",
+        "question": "A price of Rs. 500 is increased by 10%. What is the new price?",
+        "options": [
+          "540",
+          "545",
+          "550",
+          "555"
+        ],
+        "correct_answer": "550",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "New price = 500 + 10% of 500 = 500 + 50 = 550.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-60",
+        "question": "A shopkeeper gives successive discounts of 10% and 20%. What is the effective discount?",
+        "options": [
+          "26%",
+          "27%",
+          "28%",
+          "30%"
+        ],
+        "correct_answer": "28%",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "Effective discount = 10 + 20 - (10×20)/100 = 30 - 2 = 28%.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-13",
+        "question": "In an election, a candidate got 55% of the total votes. If total votes are 8000, how many votes did the candidate get?",
+        "options": [
+          "4200",
+          "4300",
+          "4400",
+          "4500"
+        ],
+        "correct_answer": "4400",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "55% of 8000 = (55/100) × 8000 = 4400.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-52",
+        "question": "If 15% of x = 20% of y, then x:y is:",
+        "options": [
+          "3:4",
+          "4:3",
+          "2:3",
+          "3:2"
+        ],
+        "correct_answer": "4:3",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 1,
+        "explanation": "15x = 20y → x/y = 20/15 = 4/3. So x:y = 4:3.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-22",
+        "question": "What is 80% of 95?",
+        "options": [
+          "72",
+          "74",
+          "76",
+          "78"
+        ],
+        "correct_answer": "76",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "80% of 95 = (80/100) × 95 = 76.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-18",
+        "question": "What percentage is 36 of 144?",
+        "options": [
+          "20%",
+          "22%",
+          "25%",
+          "28%"
+        ],
+        "correct_answer": "25%",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "(36/144) × 100 = 25%.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-57",
+        "question": "If the price of sugar increases by 25%, by how much percent should a family reduce its consumption to maintain the same expenditure?",
+        "options": [
+          "18%",
+          "20%",
+          "22%",
+          "25%"
+        ],
+        "correct_answer": "20%",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 1,
+        "explanation": "Reduction = [25/(100+25)] × 100 = (25/125) × 100 = 20%.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-45",
+        "question": "The price of petrol increases by 20%. By what percentage should consumption be reduced to keep expenditure the same?",
+        "options": [
+          "15.67%",
+          "16.33%",
+          "16.67%",
+          "17%"
+        ],
+        "correct_answer": "16.67%",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "Reduction = [20/(100+20)] × 100 = (20/120) × 100 = 16.67%.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "percentage-47",
+        "question": "A man's income is increased by 20% and his expenditure is increased by 15%. If his savings were Rs. 2000, what are his new savings? (Income = Rs. 10000, Expenditure = Rs. 8000)",
+        "options": [
+          "2600",
+          "2700",
+          "2800",
+          "2900"
+        ],
+        "correct_answer": "2800",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "New income = 12000. New expenditure = 9200. New savings = 12000 - 9200 = 2800.",
+        "isCorrect": false,
+        "skipped": true
+      }
+    ],
+    "createdAt": "2026-05-29T12:00:54.590Z"
+  },
+  {
+    "testId": "d92a6e91-9909-4c35-809a-60483e417b28",
+    "userId": "a412d5c9-d516-4bf1-963f-05cee3bb72a4",
+    "topicId": "number-series",
+    "topicName": "Number Series",
+    "score": 0,
+    "accuracy": 0,
+    "correct": 0,
+    "wrong": 0,
+    "skipped": 10,
+    "total": 10,
+    "timeTaken": 7,
+    "mode": "practice",
+    "byDifficulty": {
+      "Easy": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 0
+      },
+      "Medium": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 0
+      },
+      "Hard": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 0
+      },
+      "easy": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 9
+      },
+      "medium": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 1
+      }
+    },
+    "points": 0,
+    "answers": [
+      {
+        "questionId": 31,
+        "question": "Find the missing number: 1, 3, 7, 15, 31, ?",
+        "options": [
+          "A) 47",
+          "B) 55",
+          "C) 63",
+          "D) 71"
+        ],
+        "correct_answer": "C) 63",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "Each term = 2 × previous term + 1. So 31 × 2 + 1 = 63. Or differences: 2, 4, 8, 16, 32.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 4,
+        "question": "Find the missing number: 1, 1, 2, 3, 5, 8, ?",
+        "options": [
+          "A) 11",
+          "B) 13",
+          "C) 15",
+          "D) 16"
+        ],
+        "correct_answer": "B) 13",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 1,
+        "explanation": "This is the Fibonacci series where each term is the sum of the two preceding terms. 5 + 8 = 13.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 40,
+        "question": "Find the missing number: 8, 16, 24, 32, 40, ?",
+        "options": [
+          "A) 44",
+          "B) 46",
+          "C) 48",
+          "D) 50"
+        ],
+        "correct_answer": "C) 48",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "These are multiples of 8. The next multiple of 8 after 40 is 48 (8 × 6 = 48).",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 7,
+        "question": "Find the missing number: 2, 6, 18, 54, ?",
+        "options": [
+          "A) 108",
+          "B) 144",
+          "C) 162",
+          "D) 180"
+        ],
+        "correct_answer": "C) 162",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "This is a geometric series with common ratio 3. Each term is multiplied by 3, so 54 × 3 = 162.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 10,
+        "question": "Find the missing number: 10, 20, 30, ?, 50, 60",
+        "options": [
+          "A) 35",
+          "B) 38",
+          "C) 40",
+          "D) 45"
+        ],
+        "correct_answer": "C) 40",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "This is an arithmetic series with common difference 10. The missing term is 30 + 10 = 40.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 41,
+        "question": "Find the missing number: 3, 4, 7, 11, 18, 29, ?",
+        "options": [
+          "A) 40",
+          "B) 45",
+          "C) 47",
+          "D) 52"
+        ],
+        "correct_answer": "C) 47",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "Each term is the sum of the two preceding terms (like Fibonacci): 18 + 29 = 47.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 32,
+        "question": "Find the missing number: 20, 17, 14, 11, 8, ?",
+        "options": [
+          "A) 3",
+          "B) 4",
+          "C) 5",
+          "D) 6"
+        ],
+        "correct_answer": "C) 5",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "This is a decreasing arithmetic series with common difference -3. 8 - 3 = 5.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 25,
+        "question": "Find the missing number: 15, 30, 45, 60, 75, ?",
+        "options": [
+          "A) 85",
+          "B) 88",
+          "C) 90",
+          "D) 95"
+        ],
+        "correct_answer": "C) 90",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "These are multiples of 15. The next multiple of 15 after 75 is 90 (15 × 6 = 90).",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 24,
+        "question": "Find the missing number: 1, 4, 9, 16, ?, 36",
+        "options": [
+          "A) 20",
+          "B) 22",
+          "C) 25",
+          "D) 28"
+        ],
+        "correct_answer": "C) 25",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "These are perfect squares: 1², 2², 3², 4², 5², 6². The missing term is 5² = 25.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": 9,
+        "question": "Find the missing number: 1, 8, 27, 64, 125, ?",
+        "options": [
+          "A) 196",
+          "B) 210",
+          "C) 216",
+          "D) 225"
+        ],
+        "correct_answer": "C) 216",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "These are perfect cubes: 1³=1, 2³=8, 3³=27, 4³=64, 5³=125, so next is 6³=216.",
+        "isCorrect": false,
+        "skipped": true
+      }
+    ],
+    "createdAt": "2026-06-02T04:32:35.625Z"
+  },
+  {
+    "testId": "396a5559-d284-418b-bb22-2e702ebf2f47",
+    "userId": "a412d5c9-d516-4bf1-963f-05cee3bb72a4",
+    "topicId": "antonyms",
+    "topicName": "Antonyms",
+    "score": 0,
+    "accuracy": 0,
+    "correct": 0,
+    "wrong": 0,
+    "skipped": 10,
+    "total": 10,
+    "timeTaken": 3,
+    "mode": "practice",
+    "byDifficulty": {
+      "Easy": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 0
+      },
+      "Medium": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 0
+      },
+      "Hard": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 0
+      },
+      "easy": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 8
+      },
+      "medium": {
+        "correct": 0,
+        "wrong": 0,
+        "total": 2
+      }
+    },
+    "points": 0,
+    "answers": [
+      {
+        "questionId": "Choose the antonym of the word: NOISY",
+        "question": "Choose the antonym of the word: NOISY",
+        "options": [
+          "Loud",
+          "Boisterous",
+          "Quiet",
+          "Clamorous"
+        ],
+        "correct_answer": "Quiet",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "NOISY means making a lot of noise. Its antonym is QUIET, meaning making little or no noise. Loud, Boisterous, and Clamorous are synonyms of Noisy.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: GENEROUS",
+        "question": "Choose the antonym of the word: GENEROUS",
+        "options": [
+          "Kind",
+          "Liberal",
+          "Stingy",
+          "Benevolent"
+        ],
+        "correct_answer": "Stingy",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "GENEROUS means willing to give more than expected. Its antonym is STINGY, meaning unwilling to give or spend. Kind, Liberal, and Benevolent are synonyms.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: HUMBLE",
+        "question": "Choose the antonym of the word: HUMBLE",
+        "options": [
+          "Modest",
+          "Meek",
+          "Arrogant",
+          "Unassuming"
+        ],
+        "correct_answer": "Arrogant",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "HUMBLE means having a modest view of one's own importance. Its antonym is ARROGANT, meaning having an exaggerated sense of self-importance. Modest and Meek are synonyms.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: ASCEND",
+        "question": "Choose the antonym of the word: ASCEND",
+        "options": [
+          "Rise",
+          "Climb",
+          "Descend",
+          "Mount"
+        ],
+        "correct_answer": "Descend",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "ASCEND means to go up or climb. Its antonym is DESCEND, meaning to go down. Rise, Climb, and Mount are synonyms of Ascend.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: FRESH",
+        "question": "Choose the antonym of the word: FRESH",
+        "options": [
+          "New",
+          "Stale",
+          "Crisp",
+          "Recent"
+        ],
+        "correct_answer": "Stale",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 1,
+        "explanation": "FRESH means not previously known or used; new. Its antonym is STALE, meaning no longer fresh. New, Crisp, and Recent are synonyms of Fresh.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: BRAVE",
+        "question": "Choose the antonym of the word: BRAVE",
+        "options": [
+          "Bold",
+          "Courageous",
+          "Cowardly",
+          "Daring"
+        ],
+        "correct_answer": "Cowardly",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "BRAVE means ready to face danger without fear. Its antonym is COWARDLY, meaning lacking courage. Bold, Courageous, and Daring are synonyms of Brave.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: BRIGHT",
+        "question": "Choose the antonym of the word: BRIGHT",
+        "options": [
+          "Shiny",
+          "Luminous",
+          "Dim",
+          "Radiant"
+        ],
+        "correct_answer": "Dim",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "BRIGHT means emitting or reflecting a lot of light. Its antonym is DIM, which means not bright or giving little light. Shiny, Luminous, and Radiant are synonyms.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: COMPLEX",
+        "question": "Choose the antonym of the word: COMPLEX",
+        "options": [
+          "Complicated",
+          "Intricate",
+          "Simple",
+          "Elaborate"
+        ],
+        "correct_answer": "Simple",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "COMPLEX means consisting of many different and connected parts. Its antonym is SIMPLE, meaning easily understood. Complicated, Intricate, and Elaborate are synonyms.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: LETHARGIC",
+        "question": "Choose the antonym of the word: LETHARGIC",
+        "options": [
+          "Sluggish",
+          "Torpid",
+          "Energetic",
+          "Listless"
+        ],
+        "correct_answer": "Energetic",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "LETHARGIC means affected by lethargy; sluggish and apathetic. Its antonym is ENERGETIC, meaning showing or involving great activity. Sluggish, Torpid, and Listless are synonyms.",
+        "isCorrect": false,
+        "skipped": true
+      },
+      {
+        "questionId": "Choose the antonym of the word: PLACID",
+        "question": "Choose the antonym of the word: PLACID",
+        "options": [
+          "Calm",
+          "Serene",
+          "Turbulent",
+          "Tranquil"
+        ],
+        "correct_answer": "Turbulent",
+        "userAnswer": null,
+        "answerIndex": null,
+        "correctIndex": 2,
+        "explanation": "PLACID means not easily upset or excited; calm. Its antonym is TURBULENT, meaning characterized by conflict or disorder. Calm, Serene, and Tranquil are synonyms.",
+        "isCorrect": false,
+        "skipped": true
+      }
+    ],
+    "createdAt": "2026-06-02T06:43:32.936Z"
+  }
+]

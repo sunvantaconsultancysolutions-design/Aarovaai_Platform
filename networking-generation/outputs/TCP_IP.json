@@ -1,0 +1,497 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does TCP stand for in networking?",
+    "options": ["A) Transmission Control Protocol", "B) Transfer Communication Protocol", "C) Transmission Communication Process", "D) Transfer Control Process"],
+    "correct_answer": "A) Transmission Control Protocol",
+    "explanation": "TCP stands for Transmission Control Protocol. It is a core protocol of the Internet Protocol Suite that provides reliable, ordered, and error-checked delivery of data."
+  },
+  {
+    "id": 2,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the TCP/IP model is responsible for routing packets across networks?",
+    "options": ["A) Application Layer", "B) Transport Layer", "C) Internet Layer", "D) Network Access Layer"],
+    "correct_answer": "C) Internet Layer",
+    "explanation": "The Internet Layer in the TCP/IP model handles logical addressing and routing of packets from source to destination across multiple networks using IP addresses."
+  },
+  {
+    "id": 3,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many layers does the TCP/IP model have?",
+    "options": ["A) 7", "B) 5", "C) 4", "D) 3"],
+    "correct_answer": "C) 4",
+    "explanation": "The TCP/IP model has 4 layers: Application, Transport, Internet, and Network Access (Link) Layer. This is different from the OSI model which has 7 layers."
+  },
+  {
+    "id": 4,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to assign IP addresses automatically to devices on a network?",
+    "options": ["A) DNS", "B) DHCP", "C) FTP", "D) SMTP"],
+    "correct_answer": "B) DHCP",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network configuration parameters to devices on a network."
+  },
+  {
+    "id": 5,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default port number for HTTP?",
+    "options": ["A) 21", "B) 25", "C) 80", "D) 443"],
+    "correct_answer": "C) 80",
+    "explanation": "HTTP (HyperText Transfer Protocol) uses port 80 by default. HTTPS uses port 443, FTP uses port 21, and SMTP uses port 25."
+  },
+  {
+    "id": 6,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol operates at the Transport Layer of the TCP/IP model and provides connectionless service?",
+    "options": ["A) TCP", "B) IP", "C) UDP", "D) ICMP"],
+    "correct_answer": "C) UDP",
+    "explanation": "UDP (User Datagram Protocol) operates at the Transport Layer and provides connectionless, unreliable but fast data transmission without establishing a connection first."
+  },
+  {
+    "id": 7,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of an IPv4 address?",
+    "options": ["A) 16 bits", "B) 32 bits", "C) 64 bits", "D) 128 bits"],
+    "correct_answer": "B) 32 bits",
+    "explanation": "IPv4 addresses are 32 bits long, written as four octets in dotted decimal notation (e.g., 192.168.1.1). IPv6 addresses are 128 bits long."
+  },
+  {
+    "id": 8,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid IPv4 address?",
+    "options": ["A) 256.168.1.1", "B) 192.168.1.256", "C) 192.168.1.1", "D) 192.168.1"],
+    "correct_answer": "C) 192.168.1.1",
+    "explanation": "A valid IPv4 address has four octets each ranging from 0 to 255. 192.168.1.1 is valid. Options A and B have values exceeding 255, and D is incomplete."
+  },
+  {
+    "id": 9,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does IP stand for in TCP/IP?",
+    "options": ["A) Internet Protocol", "B) Internal Process", "C) Interconnect Protocol", "D) Internet Process"],
+    "correct_answer": "A) Internet Protocol",
+    "explanation": "IP stands for Internet Protocol. It is responsible for addressing and routing packets of data so they can travel across networks and arrive at the correct destination."
+  },
+  {
+    "id": 10,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to translate domain names to IP addresses?",
+    "options": ["A) DHCP", "B) ARP", "C) DNS", "D) NAT"],
+    "correct_answer": "C) DNS",
+    "explanation": "DNS (Domain Name System) translates human-readable domain names (like www.google.com) into IP addresses that computers use to identify each other on the network."
+  },
+  {
+    "id": 11,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number used by HTTPS?",
+    "options": ["A) 80", "B) 8080", "C) 443", "D) 8443"],
+    "correct_answer": "C) 443",
+    "explanation": "HTTPS (HTTP Secure) uses port 443 by default. It is the secure version of HTTP and uses SSL/TLS encryption to protect data in transit."
+  },
+  {
+    "id": 12,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a loopback IP address?",
+    "options": ["A) 192.168.0.1", "B) 10.0.0.1", "C) 127.0.0.1", "D) 172.16.0.1"],
+    "correct_answer": "C) 127.0.0.1",
+    "explanation": "127.0.0.1 is the loopback address (also called localhost). It is used to test network software on the local machine without sending data over the network."
+  },
+  {
+    "id": 13,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "TCP uses a three-way handshake to establish a connection. What is the correct sequence?",
+    "options": ["A) SYN, ACK, SYN-ACK", "B) SYN, SYN-ACK, ACK", "C) ACK, SYN, SYN-ACK", "D) SYN-ACK, SYN, ACK"],
+    "correct_answer": "B) SYN, SYN-ACK, ACK",
+    "explanation": "TCP three-way handshake: Client sends SYN → Server responds with SYN-ACK → Client sends ACK. This establishes a reliable connection before data transfer begins."
+  },
+  {
+    "id": 14,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class of IP address has the range 192.0.0.0 to 223.255.255.255?",
+    "options": ["A) Class A", "B) Class B", "C) Class C", "D) Class D"],
+    "correct_answer": "C) Class C",
+    "explanation": "Class C addresses range from 192.0.0.0 to 223.255.255.255. Class A: 1-126, Class B: 128-191, Class C: 192-223, Class D: 224-239 (multicast)."
+  },
+  {
+    "id": 15,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default subnet mask for a Class C network?",
+    "options": ["A) 255.0.0.0", "B) 255.255.0.0", "C) 255.255.255.0", "D) 255.255.255.255"],
+    "correct_answer": "C) 255.255.255.0",
+    "explanation": "Class C networks use a default subnet mask of 255.255.255.0 (/24), allowing 254 usable host addresses. Class A uses 255.0.0.0 and Class B uses 255.255.0.0."
+  },
+  {
+    "id": 16,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to send email?",
+    "options": ["A) POP3", "B) IMAP", "C) SMTP", "D) FTP"],
+    "correct_answer": "C) SMTP",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send emails. POP3 and IMAP are used to receive emails. SMTP uses port 25 (or 587 for submission)."
+  },
+  {
+    "id": 17,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ARP stand for?",
+    "options": ["A) Address Resolution Protocol", "B) Automatic Routing Protocol", "C) Address Routing Process", "D) Automatic Resolution Protocol"],
+    "correct_answer": "A) Address Resolution Protocol",
+    "explanation": "ARP (Address Resolution Protocol) maps a known IP address to a MAC (physical) address. It operates at the Network Access layer of the TCP/IP model."
+  },
+  {
+    "id": 18,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which port number is used by FTP for data transfer?",
+    "options": ["A) 20", "B) 21", "C) 22", "D) 23"],
+    "correct_answer": "A) 20",
+    "explanation": "FTP uses two ports: port 21 for control (commands) and port 20 for actual data transfer. Port 22 is SSH and port 23 is Telnet."
+  },
+  {
+    "id": 19,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum number of hosts in a Class C network?",
+    "options": ["A) 254", "B) 255", "C) 256", "D) 65534"],
+    "correct_answer": "A) 254",
+    "explanation": "A Class C network has 8 host bits (2^8 = 256). Subtracting network address and broadcast address gives 256 - 2 = 254 usable host addresses."
+  },
+  {
+    "id": 20,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the TCP/IP model does the HTTP protocol belong to?",
+    "options": ["A) Transport Layer", "B) Internet Layer", "C) Application Layer", "D) Network Access Layer"],
+    "correct_answer": "C) Application Layer",
+    "explanation": "HTTP operates at the Application Layer of the TCP/IP model. This layer includes protocols like HTTP, FTP, SMTP, DNS, and DHCP that provide services to end users."
+  },
+  {
+    "id": 21,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of an IPv6 address?",
+    "options": ["A) 32 bits", "B) 64 bits", "C) 128 bits", "D) 256 bits"],
+    "correct_answer": "C) 128 bits",
+    "explanation": "IPv6 addresses are 128 bits long, written as eight groups of four hexadecimal digits separated by colons. This provides a vastly larger address space than IPv4."
+  },
+  {
+    "id": 22,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol uses port 23 for remote terminal access?",
+    "options": ["A) SSH", "B) FTP", "C) Telnet", "D) SNMP"],
+    "correct_answer": "C) Telnet",
+    "explanation": "Telnet uses port 23 for remote terminal access. However, it transmits data in plaintext, making it insecure. SSH (port 22) is the secure alternative to Telnet."
+  },
+  {
+    "id": 23,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ICMP stand for?",
+    "options": ["A) Internet Control Message Protocol", "B) Internal Communication Management Protocol", "C) Internet Communication Management Process", "D) Internal Control Message Process"],
+    "correct_answer": "A) Internet Control Message Protocol",
+    "explanation": "ICMP (Internet Control Message Protocol) is used for error reporting and diagnostic functions. The 'ping' command uses ICMP Echo Request and Echo Reply messages."
+  },
+  {
+    "id": 24,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a private IP address range?",
+    "options": ["A) 8.8.8.0/24", "B) 172.16.0.0/12", "C) 200.168.1.0/24", "D) 100.64.0.0/10"],
+    "correct_answer": "B) 172.16.0.0/12",
+    "explanation": "Private IP ranges are: 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. These are not routable on the public internet and are used for internal networks."
+  },
+  {
+    "id": 25,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used by the 'ping' command?",
+    "options": ["A) TCP", "B) UDP", "C) ICMP", "D) ARP"],
+    "correct_answer": "C) ICMP",
+    "explanation": "The ping command uses ICMP (Internet Control Message Protocol) Echo Request and Echo Reply messages to test connectivity between two hosts on a network."
+  },
+  {
+    "id": 26,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number for SSH (Secure Shell)?",
+    "options": ["A) 20", "B) 21", "C) 22", "D) 23"],
+    "correct_answer": "C) 22",
+    "explanation": "SSH (Secure Shell) uses port 22. It provides encrypted remote login and command execution, replacing the insecure Telnet protocol which uses port 23."
+  },
+  {
+    "id": 27,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits are in one octet of an IP address?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "One octet consists of 8 bits. An IPv4 address has 4 octets × 8 bits = 32 bits total. Each octet can represent values from 0 (00000000) to 255 (11111111)."
+  },
+  {
+    "id": 28,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which TCP/IP layer corresponds to the OSI Physical and Data Link layers combined?",
+    "options": ["A) Application Layer", "B) Transport Layer", "C) Internet Layer", "D) Network Access Layer"],
+    "correct_answer": "D) Network Access Layer",
+    "explanation": "The Network Access Layer (also called Link Layer) in TCP/IP combines the functions of both the Physical and Data Link layers of the OSI model."
+  },
+  {
+    "id": 29,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the broadcast address for the network 192.168.1.0/24?",
+    "options": ["A) 192.168.1.0", "B) 192.168.1.1", "C) 192.168.1.254", "D) 192.168.1.255"],
+    "correct_answer": "D) 192.168.1.255",
+    "explanation": "For network 192.168.1.0/24, the broadcast address is the last address: 192.168.1.255. The network address is 192.168.1.0 and usable hosts are .1 to .254."
+  },
+  {
+    "id": 30,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to receive emails from a mail server while keeping them on the server?",
+    "options": ["A) SMTP", "B) POP3", "C) IMAP", "D) MIME"],
+    "correct_answer": "C) IMAP",
+    "explanation": "IMAP (Internet Message Access Protocol) allows users to access emails on the server without downloading them. POP3 downloads and typically deletes emails from the server."
+  },
+  {
+    "id": 31,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number for DNS?",
+    "options": ["A) 43", "B) 53", "C) 63", "D) 73"],
+    "correct_answer": "B) 53",
+    "explanation": "DNS (Domain Name System) uses port 53 for both UDP (for queries) and TCP (for zone transfers and large responses). It is one of the most fundamental internet protocols."
+  },
+  {
+    "id": 32,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a transport layer protocol in TCP/IP?",
+    "options": ["A) TCP", "B) UDP", "C) SCTP", "D) ICMP"],
+    "correct_answer": "D) ICMP",
+    "explanation": "ICMP operates at the Internet (Network) Layer, not the Transport Layer. TCP, UDP, and SCTP (Stream Control Transmission Protocol) are all Transport Layer protocols."
+  },
+  {
+    "id": 33,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of NAT in networking?",
+    "options": ["A) Network Address Translation", "B) Network Access Technology", "C) Node Address Transfer", "D) Network Allocation Table"],
+    "correct_answer": "A) Network Address Translation",
+    "explanation": "NAT (Network Address Translation) translates private IP addresses to public IP addresses, allowing multiple devices on a private network to share a single public IP address."
+  },
+  {
+    "id": 34,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class of IP address supports the most hosts per network?",
+    "options": ["A) Class A", "B) Class B", "C) Class C", "D) Class D"],
+    "correct_answer": "A) Class A",
+    "explanation": "Class A networks have 24 host bits, supporting 2^24 - 2 = 16,777,214 hosts per network. Class B supports ~65,534 and Class C supports only 254 hosts."
+  },
+  {
+    "id": 35,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does TTL stand for in IP packets?",
+    "options": ["A) Time To Live", "B) Transfer To Link", "C) Total Transmission Length", "D) Time To Load"],
+    "correct_answer": "A) Time To Live",
+    "explanation": "TTL (Time To Live) is a field in IP packets that limits the packet's lifetime. Each router decrements TTL by 1; when it reaches 0, the packet is discarded to prevent infinite loops."
+  },
+  {
+    "id": 36,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used for secure file transfer over SSH?",
+    "options": ["A) FTP", "B) TFTP", "C) SFTP", "D) FTPS"],
+    "correct_answer": "C) SFTP",
+    "explanation": "SFTP (SSH File Transfer Protocol) provides secure file transfer over an SSH connection. Unlike FTP, SFTP encrypts both commands and data, preventing passwords and data from being exposed."
+  },
+  {
+    "id": 37,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number for POP3?",
+    "options": ["A) 25", "B) 110", "C) 143", "D) 993"],
+    "correct_answer": "B) 110",
+    "explanation": "POP3 (Post Office Protocol version 3) uses port 110. SMTP uses port 25, IMAP uses port 143, and IMAPS (IMAP over SSL) uses port 993."
+  },
+  {
+    "id": 38,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In TCP/IP, which layer is responsible for end-to-end communication between applications?",
+    "options": ["A) Application Layer", "B) Transport Layer", "C) Internet Layer", "D) Network Access Layer"],
+    "correct_answer": "B) Transport Layer",
+    "explanation": "The Transport Layer provides end-to-end communication between applications using port numbers. TCP and UDP are the main protocols at this layer."
+  },
+  {
+    "id": 39,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the network address for the IP 192.168.10.50 with subnet mask 255.255.255.0?",
+    "options": ["A) 192.168.10.0", "B) 192.168.10.1", "C) 192.168.10.50", "D) 192.168.10.255"],
+    "correct_answer": "A) 192.168.10.0",
+    "explanation": "Performing AND operation: 192.168.10.50 AND 255.255.255.0 = 192.168.10.0. The network address is always obtained by ANDing the IP address with the subnet mask."
+  },
+  {
+    "id": 40,
+    "topic": "TCP_IP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following protocols operates at the Application Layer of TCP/IP?",
+    "options": ["A) IP", "B) TCP", "C) SNMP", "D) ARP"],
+    "correct_answer": "C) SNMP",
+    "explanation": "SNMP (Simple Network Management Protocol) operates at the Application Layer. IP is at the Internet Layer, TCP is at the Transport Layer, and ARP is at the Network Access Layer."
+  },
+  {
+    "id": 41,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A network has the IP address 172.16.45.0/20. How many usable host addresses are available?",
+    "options": ["A) 4094", "B) 4096", "C) 2046", "D) 2048"],
+    "correct_answer": "A) 4094",
+    "explanation": "A /20 subnet has 32-20=12 host bits. Total addresses = 2^12 = 4096. Usable hosts = 4096 - 2 = 4094 (subtracting network and broadcast addresses)."
+  },
+  {
+    "id": 42,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which TCP flag is used to abruptly terminate a connection?",
+    "options": ["A) FIN", "B) SYN", "C) RST", "D) ACK"],
+    "correct_answer": "C) RST",
+    "explanation": "The RST (Reset) flag abruptly terminates a TCP connection. FIN is used for graceful connection termination. SYN initiates connections and ACK acknowledges received data."
+  },
+  {
+    "id": 43,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the CIDR notation for subnet mask 255.255.252.0?",
+    "options": ["A) /20", "B) /21", "C) /22", "D) /23"],
+    "correct_answer": "C) /22",
+    "explanation": "255.255.252.0 in binary: 11111111.11111111.11111100.00000000. Counting the 1s: 8+8+6+0 = 22. So the CIDR notation is /22."
+  },
+  {
+    "id": 44,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "How many subnets can be created from a Class B network using a /26 subnet mask?",
+    "options": ["A) 256", "B) 512", "C) 1024", "D) 2048"],
+    "correct_answer": "C) 1024",
+    "explanation": "Class B has 16 network bits. /26 uses 26 bits total, so 26-16=10 bits for subnetting. Number of subnets = 2^10 = 1024."
+  },
+  {
+    "id": 45,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the purpose of the TCP sliding window mechanism?",
+    "options": ["A) Error detection", "B) Flow control", "C) Routing", "D) Encryption"],
+    "correct_answer": "B) Flow control",
+    "explanation": "TCP's sliding window mechanism provides flow control by allowing the sender to transmit multiple packets before requiring an acknowledgment, optimizing throughput while preventing receiver buffer overflow."
+  },
+  {
+    "id": 46,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which of the following best describes the difference between TCP and UDP?",
+    "options": ["A) TCP is faster but unreliable; UDP is slower but reliable", "B) TCP provides reliable, ordered delivery; UDP provides faster but unreliable delivery", "C) TCP is used for video streaming; UDP is used for web browsing", "D) TCP operates at Network layer; UDP operates at Transport layer"],
+    "correct_answer": "B) TCP provides reliable, ordered delivery; UDP provides faster but unreliable delivery",
+    "explanation": "TCP ensures reliable, ordered, error-checked delivery with acknowledgments. UDP is connectionless and faster but doesn't guarantee delivery, making it suitable for real-time applications."
+  },
+  {
+    "id": 47,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the range of well-known port numbers?",
+    "options": ["A) 0 to 255", "B) 0 to 1023", "C) 1024 to 49151", "D) 49152 to 65535"],
+    "correct_answer": "B) 0 to 1023",
+    "explanation": "Well-known ports range from 0 to 1023. Registered ports are 1024-49151, and dynamic/private ports are 49152-65535. Well-known ports are assigned by IANA for standard services."
+  },
+  {
+    "id": 48,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In subnetting, what is the subnet mask in binary for /27?",
+    "options": ["A) 11111111.11111111.11111111.11100000", "B) 11111111.11111111.11111111.11110000", "C) 11111111.11111111.11111111.11000000", "D) 11111111.11111111.11111111.10000000"],
+    "correct_answer": "A) 11111111.11111111.11111111.11100000",
+    "explanation": "/27 means 27 bits are set to 1. The last octet has 3 ones: 11100000 = 224. So the mask is 255.255.255.224, which in binary is 11111111.11111111.11111111.11100000."
+  },
+  {
+    "id": 49,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which routing protocol uses the Bellman-Ford algorithm?",
+    "options": ["A) OSPF", "B) BGP", "C) RIP", "D) EIGRP"],
+    "correct_answer": "C) RIP",
+    "explanation": "RIP (Routing Information Protocol) uses the Bellman-Ford distance-vector algorithm. OSPF uses Dijkstra's algorithm, BGP uses path vector, and EIGRP uses DUAL algorithm."
+  },
+  {
+    "id": 50,
+    "topic": "TCP_IP",
+    "difficulty": "medium",
+    "exam_type

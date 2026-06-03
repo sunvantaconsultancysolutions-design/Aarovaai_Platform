@@ -1,0 +1,470 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary purpose of 'typedef' in C?",
+    "options": ["A) To define a new data type", "B) To create an alias for an existing data type", "C) To allocate memory dynamically", "D) To declare a global variable"],
+    "correct_answer": "B) To create an alias for an existing data type",
+    "explanation": "typedef is used to give a new name (alias) to an existing data type, making code more readable and portable. It does not create a new type."
+  },
+  {
+    "id": 2,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct syntax for typedef?",
+    "options": ["A) typedef int Integer;", "B) int typedef Integer;", "C) Integer typedef int;", "D) define int Integer;"],
+    "correct_answer": "A) typedef int Integer;",
+    "explanation": "The correct syntax is: typedef existing_type new_name; So 'typedef int Integer;' creates 'Integer' as an alias for 'int'."
+  },
+  {
+    "id": 3,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\n#include<stdio.h>\ntypedef int myInt;\nint main() {\n  myInt x = 10;\n  printf(\"%d\", x);\n  return 0;\n}",
+    "options": ["A) 10", "B) myInt", "C) Compilation error", "D) 0"],
+    "correct_answer": "A) 10",
+    "explanation": "typedef int myInt; makes myInt an alias for int. So myInt x = 10; is equivalent to int x = 10; and prints 10."
+  },
+  {
+    "id": 4,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to create a type alias in C?",
+    "options": ["A) #define", "B) alias", "C) typedef", "D) type"],
+    "correct_answer": "C) typedef",
+    "explanation": "The 'typedef' keyword is specifically used in C to create aliases for existing data types."
+  },
+  {
+    "id": 5,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "After 'typedef unsigned int uint;', which declaration is valid?",
+    "options": ["A) uint x = 5;", "B) unsigned uint x = 5;", "C) uint int x = 5;", "D) int uint x = 5;"],
+    "correct_answer": "A) uint x = 5;",
+    "explanation": "After typedef unsigned int uint; the name 'uint' becomes a complete alias for 'unsigned int', so uint x = 5; is valid."
+  },
+  {
+    "id": 6,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can typedef be used with structures in C?",
+    "options": ["A) No, typedef only works with primitive types", "B) Yes, typedef can be used with structures", "C) Only in C++", "D) Only with pointers"],
+    "correct_answer": "B) Yes, typedef can be used with structures",
+    "explanation": "typedef can be used with any data type including structures, unions, enums, and pointers in C."
+  },
+  {
+    "id": 7,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following declaration do?\ntypedef float REAL;",
+    "options": ["A) Creates a variable REAL of type float", "B) Creates an alias REAL for float", "C) Converts float to REAL type", "D) Defines a macro REAL as float"],
+    "correct_answer": "B) Creates an alias REAL for float",
+    "explanation": "typedef float REAL; creates REAL as an alias for float. After this, REAL can be used anywhere float is used."
+  },
+  {
+    "id": 8,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly defines a typedef for a pointer to int?",
+    "options": ["A) typedef int* IntPtr;", "B) typedef *int IntPtr;", "C) int* typedef IntPtr;", "D) typedef IntPtr int*;"],
+    "correct_answer": "A) typedef int* IntPtr;",
+    "explanation": "typedef int* IntPtr; correctly creates IntPtr as an alias for 'pointer to int'. The asterisk goes with the type before the alias name."
+  },
+  {
+    "id": 9,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the scope of a typedef declared inside a function?",
+    "options": ["A) Global scope", "B) File scope", "C) Local to that function", "D) Program scope"],
+    "correct_answer": "C) Local to that function",
+    "explanation": "Like any other declaration, a typedef declared inside a function has local scope and is only visible within that function."
+  },
+  {
+    "id": 10,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if you write: typedef int int;\n",
+    "options": ["A) int becomes a new type", "B) Compilation error", "C) int is redefined successfully", "D) Warning but compiles"],
+    "correct_answer": "B) Compilation error",
+    "explanation": "You cannot use a reserved keyword like 'int' as a typedef alias name. This will cause a compilation error."
+  },
+  {
+    "id": 11,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid use of typedef with a struct?",
+    "options": ["A) typedef struct { int x; } Point;", "B) struct typedef { int x; } Point;", "C) typedef { int x; } struct Point;", "D) struct { int x; } typedef Point;"],
+    "correct_answer": "A) typedef struct { int x; } Point;",
+    "explanation": "The correct syntax is typedef struct { members; } AliasName; This creates Point as an alias for the anonymous struct."
+  },
+  {
+    "id": 12,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "After 'typedef char* String;', what does 'String s;' declare?",
+    "options": ["A) A char variable", "B) A pointer to char", "C) An array of chars", "D) A string literal"],
+    "correct_answer": "B) A pointer to char",
+    "explanation": "typedef char* String; makes String an alias for char*. So String s; is equivalent to char* s; which is a pointer to char."
+  },
+  {
+    "id": 13,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is typedef a storage class specifier in C?",
+    "options": ["A) Yes, it is a storage class specifier", "B) No, it is a type qualifier", "C) No, it is a type declaration keyword", "D) Yes, it allocates storage"],
+    "correct_answer": "A) Yes, it is a storage class specifier",
+    "explanation": "In C, typedef is syntactically classified as a storage class specifier (like auto, register, static, extern), though it doesn't actually specify storage."
+  },
+  {
+    "id": 14,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\ntypedef int arr[5];\narr a = {1,2,3,4,5};\nprintf(\"%d\", a[2]);",
+    "options": ["A) 2", "B) 3", "C) 1", "D) Compilation error"],
+    "correct_answer": "B) 3",
+    "explanation": "typedef int arr[5]; makes arr an alias for 'array of 5 ints'. a[2] accesses index 2 which is 3 (0-indexed: 1,2,3,4,5)."
+  },
+  {
+    "id": 15,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about typedef is FALSE?",
+    "options": ["A) typedef creates a new data type", "B) typedef improves code readability", "C) typedef helps in portability", "D) typedef can alias struct types"],
+    "correct_answer": "A) typedef creates a new data type",
+    "explanation": "typedef does NOT create a new data type; it only creates an alias (alternate name) for an existing type. The underlying type remains the same."
+  },
+  {
+    "id": 16,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "After 'typedef struct Node { int data; struct Node* next; } Node;', how do you declare a variable?",
+    "options": ["A) Node n;", "B) struct Node n;", "C) Both A and B are valid", "D) Node struct n;"],
+    "correct_answer": "C) Both A and B are valid",
+    "explanation": "After the typedef, both 'Node n;' and 'struct Node n;' are valid. The typedef allows omitting the 'struct' keyword."
+  },
+  {
+    "id": 17,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between #define and typedef?",
+    "options": ["A) No difference", "B) typedef is processed by preprocessor, #define by compiler", "C) #define is processed by preprocessor, typedef by compiler", "D) Both are processed by preprocessor"],
+    "correct_answer": "C) #define is processed by preprocessor, typedef by compiler",
+    "explanation": "#define is a preprocessor directive (text substitution), while typedef is processed by the compiler and is type-safe."
+  },
+  {
+    "id": 18,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file needs to be included to use typedef?",
+    "options": ["A) <typedef.h>", "B) <stdlib.h>", "C) No header file needed", "D) <types.h>"],
+    "correct_answer": "C) No header file needed",
+    "explanation": "typedef is a built-in C keyword and does not require any header file to be included."
+  },
+  {
+    "id": 19,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'typedef void (*FuncPtr)(int);' declare?",
+    "options": ["A) A void function", "B) A pointer to a function taking int and returning void", "C) A void pointer", "D) An integer function pointer"],
+    "correct_answer": "B) A pointer to a function taking int and returning void",
+    "explanation": "typedef void (*FuncPtr)(int); creates FuncPtr as an alias for a pointer to a function that takes an int parameter and returns void."
+  },
+  {
+    "id": 20,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can the same typedef name be declared twice in the same scope?",
+    "options": ["A) Yes, always allowed", "B) No, it causes a compilation error", "C) Yes, if the type is the same", "D) Only in C99 and later"],
+    "correct_answer": "B) No, it causes a compilation error",
+    "explanation": "Redeclaring a typedef name in the same scope causes a compilation error. Each typedef name must be unique within its scope."
+  },
+  {
+    "id": 21,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output?\ntypedef int* ptr;\nptr p, q;\nHow many pointer variables are declared?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) Compilation error"],
+    "correct_answer": "C) 2",
+    "explanation": "With typedef int* ptr; both p and q are pointers to int. This is different from int* p, q; where only p is a pointer."
+  },
+  {
+    "id": 22,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "typedef is used in C to improve which of the following?",
+    "options": ["A) Program execution speed", "B) Memory efficiency", "C) Code readability and portability", "D) Recursion depth"],
+    "correct_answer": "C) Code readability and portability",
+    "explanation": "typedef improves code readability by giving meaningful names to types and portability by abstracting platform-specific type details."
+  },
+  {
+    "id": 23,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly uses typedef with an enum?",
+    "options": ["A) typedef enum { RED, GREEN, BLUE } Color;", "B) enum typedef { RED, GREEN, BLUE } Color;", "C) typedef Color enum { RED, GREEN, BLUE };", "D) enum { RED, GREEN, BLUE } typedef Color;"],
+    "correct_answer": "A) typedef enum { RED, GREEN, BLUE } Color;",
+    "explanation": "The correct syntax for typedef with enum is: typedef enum { values } AliasName; This creates Color as an alias for the enum type."
+  },
+  {
+    "id": 24,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "After 'typedef double DOUBLE;', which of the following is valid?",
+    "options": ["A) DOUBLE x = 3.14;", "B) double DOUBLE x = 3.14;", "C) DOUBLE double x = 3.14;", "D) Both A and B"],
+    "correct_answer": "A) DOUBLE x = 3.14;",
+    "explanation": "After typedef double DOUBLE; DOUBLE is a complete alias for double. Only 'DOUBLE x = 3.14;' is valid; combining both names is not allowed."
+  },
+  {
+    "id": 25,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Where can a typedef declaration be placed in a C program?",
+    "options": ["A) Only at the beginning of the file", "B) Only inside functions", "C) Inside or outside functions, similar to variable declarations", "D) Only in header files"],
+    "correct_answer": "C) Inside or outside functions, similar to variable declarations",
+    "explanation": "typedef can be placed anywhere a variable declaration can appear — globally (file scope) or locally (inside a function)."
+  },
+  {
+    "id": 26,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\ntypedef int INT;\nINT a = 5, b = 3;\nprintf(\"%d\", a + b);",
+    "options": ["A) 53", "B) 8", "C) 2", "D) Compilation error"],
+    "correct_answer": "B) 8",
+    "explanation": "INT is an alias for int. a=5, b=3, so a+b = 8. The printf outputs 8."
+  },
+  {
+    "id": 27,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a benefit of using typedef?",
+    "options": ["A) Simplifies complex declarations", "B) Improves portability", "C) Increases execution speed", "D) Makes code more readable"],
+    "correct_answer": "C) Increases execution speed",
+    "explanation": "typedef is a compile-time feature that creates aliases. It does not affect runtime execution speed in any way."
+  },
+  {
+    "id": 28,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "After 'typedef unsigned char BYTE;', what is sizeof(BYTE)?",
+    "options": ["A) 2", "B) 4", "C) 1", "D) 8"],
+    "correct_answer": "C) 1",
+    "explanation": "BYTE is an alias for unsigned char. sizeof(unsigned char) is always 1 byte, so sizeof(BYTE) = 1."
+  },
+  {
+    "id": 29,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can typedef be used to alias a pointer to a structure?",
+    "options": ["A) No", "B) Yes", "C) Only in C++", "D) Only with void pointers"],
+    "correct_answer": "B) Yes",
+    "explanation": "Yes, typedef can alias any type including pointers to structures. Example: typedef struct Node* NodePtr; makes NodePtr an alias for struct Node*."
+  },
+  {
+    "id": 30,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following code print?\ntypedef int mytype;\nmytype x = 100;\nprintf(\"%d\", sizeof(x));",
+    "options": ["A) 1", "B) 2", "C) 4", "D) 8"],
+    "correct_answer": "C) 4",
+    "explanation": "mytype is an alias for int. sizeof(int) is typically 4 bytes on most modern systems, so sizeof(x) = 4."
+  },
+  {
+    "id": 31,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following typedef declarations is used in <stdint.h>?",
+    "options": ["A) typedef int integer;", "B) typedef unsigned char uint8_t;", "C) typedef float real;", "D) typedef char character;"],
+    "correct_answer": "B) typedef unsigned char uint8_t;",
+    "explanation": "<stdint.h> uses typedef to define fixed-width integer types like uint8_t (unsigned char), int32_t, etc. for portability."
+  },
+  {
+    "id": 32,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of the following?\ntypedef int Matrix[3][3];\nMatrix m;\nprintf(\"%d\", sizeof(m)/sizeof(int));",
+    "options": ["A) 3", "B) 6", "C) 9", "D) 12"],
+    "correct_answer": "C) 9",
+    "explanation": "Matrix is an alias for int[3][3], a 3x3 array of ints. Total elements = 3*3 = 9. sizeof(m)/sizeof(int) = 9."
+  },
+  {
+    "id": 33,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "After 'typedef long long LL;', what is the typical size of LL?",
+    "options": ["A) 4 bytes", "B) 8 bytes", "C) 2 bytes", "D) 16 bytes"],
+    "correct_answer": "B) 8 bytes",
+    "explanation": "LL is an alias for long long. sizeof(long long) is 8 bytes on most modern 32-bit and 64-bit systems."
+  },
+  {
+    "id": 34,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares a typedef for a 2D array of floats with 4 columns?",
+    "options": ["A) typedef float Row[4];", "B) typedef float[4] Row;", "C) float typedef Row[4];", "D) typedef Row float[4];"],
+    "correct_answer": "A) typedef float Row[4];",
+    "explanation": "typedef float Row[4]; creates Row as an alias for 'array of 4 floats'. The alias name goes where the variable name would normally go."
+  },
+  {
+    "id": 35,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you use typedef with a const type?\ntypedef const int CINT;",
+    "options": ["A) Compilation error", "B) CINT becomes an alias for const int", "C) const is ignored", "D) int becomes constant globally"],
+    "correct_answer": "B) CINT becomes an alias for const int",
+    "explanation": "typedef const int CINT; is valid. CINT becomes an alias for const int, so CINT x = 5; declares a constant integer."
+  },
+  {
+    "id": 36,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In C, typedef names follow which naming convention by common practice?",
+    "options": ["A) All lowercase", "B) Starting with underscore", "C) All uppercase or CamelCase", "D) Starting with 't_'"],
+    "correct_answer": "C) All uppercase or CamelCase",
+    "explanation": "By common convention, typedef names are written in ALL_CAPS or CamelCase to distinguish them from regular variables, though this is not enforced by the compiler."
+  },
+  {
+    "id": 37,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output?\ntypedef int (*fp)(int, int);\nint add(int a, int b) { return a + b; }\nfp f = add;\nprintf(\"%d\", f(3, 4));",
+    "options": ["A) 34", "B) 7", "C) Compilation error", "D) 0"],
+    "correct_answer": "B) 7",
+    "explanation": "fp is a typedef for a function pointer taking two ints and returning int. f = add assigns the add function. f(3,4) = add(3,4) = 7."
+  },
+  {
+    "id": 38,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about typedef and #define for type aliasing?",
+    "options": ["A) typedef is safer because it respects scope and type checking", "B) #define is safer because it is type-checked", "C) Both are equally safe", "D) #define is processed by compiler"],
+    "correct_answer": "A) typedef is safer because it respects scope and type checking",
+    "explanation": "typedef is processed by the compiler and is type-safe and scope-aware. #define is a simple text substitution by the preprocessor with no type checking."
+  },
+  {
+    "id": 39,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "After 'typedef struct { int x; int y; } Point;', how do you access member x of a Point variable p?",
+    "options": ["A) p->x", "B) p.x", "C) Point.x", "D) (*p).x"],
+    "correct_answer": "B) p.x",
+    "explanation": "p is a struct variable (not a pointer), so member access uses the dot operator: p.x. Arrow (->) is used for pointer to struct."
+  },
+  {
+    "id": 40,
+    "topic": "Typedef in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output?\ntypedef int INT;\nINT x = 10;\nINT y = 3;\nprintf(\"%d\", x % y);",
+    "options": ["A) 3", "B) 1", "C) 0", "D) 10"],
+    "correct_answer": "B) 1",
+    "explanation": "INT is an alias for int. x=10, y=3. 10 % 3 = 1 (remainder when 10 is divided by 3)."
+  },
+  {
+    "id": 41,
+    "topic": "Typedef in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between the following two declarations?\n1) typedef char* String;\n   String s1, s2;\n2) char* s1, s2;",
+    "options": ["A) No difference, both declare two char pointers", "B) In (1) both s1 and s2 are char pointers; in (2) only s1 is a pointer", "C) In (1) only s1 is a pointer; in (2) both are pointers", "D) Both cause compilation errors"],
+    "correct_answer": "B) In (1) both s1 and s2 are char pointers; in (2) only s1 is a pointer",
+    "explanation": "With typedef char* String; String s1, s2; both are char*. But char* s1, s2; only s1 is char*, s2 is just char. This is a key advantage of typedef."
+  },
+  {
+    "id": 42,
+    "topic": "Typedef in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does the following code output?\ntypedef struct {\n  int id;\n  float salary;\n} Employee;\nEmployee e = {101, 50000.5};\nprintf(\"%d %.1f\", e.id, e.salary);",
+    "options": ["A) 101 50000.5", "B) 101 50000", "C) Compilation error", "D) 0 0.0"],
+    "correct_answer": "A) 101 50000.5",
+    "explanation": "Employee is a typedef for the struct. e is initialized with id=101 and salary=50000.5. printf outputs '101 50000.5'."
+  },
+  {
+    "id": 43,
+    "topic": "Typedef in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider: typedef int (*Compare)(const void*, const void*);\nWhat does this declare?",
+    "options": ["A) A function named Compare", "B) A typedef for a function pointer used in qsort-style comparisons", "C) A pointer to void", "D) A const integer pointer"],
+    "correct_answer": "B) A typedef for a function pointer used in qsort-style comparisons",
+    "explanation": "This creates Compare as an alias for a pointer to a function taking two const void* parameters and returning int — exactly the signature used by qsort's comparator."
+  },
+  {
+    "id": 44,
+    "topic": "Typedef in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\ntypedef int A;\ntypedef A B;\ntypedef B C;\nC x = 42;\nprintf(\"%d\", x);",
+    "options": ["A) 42", "B) Compilation error", "C) 0", "D) Undefined behavior"],
+    "correct_answer": "A) 42",
+    "explanation": "Chained typedefs are valid. A=int, B=A=int, C=B=int. So C x = 42; is int x = 42; and prints 42."
+  },
+  {
+    "id": 45,
+    "topic": "Typedef in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly creates a typedef for a pointer to a function that takes no arguments and returns a pointer to int?",
+    "options": ["A) typedef int* (*FP)(void);", "B) typedef int (*FP)(void)*;", "C) typedef *int (*FP)(void);", "D) typedef int* FP(void);"],
+    "correct_answer": "A) typedef int* (*FP)(void);",
+    "explanation": "typedef int* (*FP)(void); declares FP as a pointer to a function taking void and returning int*. The (*FP) syntax indicates it's a function pointer."
+  },
+  {
+    "id": 46,
+    "topic": "Typedef in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is wrong with the following code?\ntypedef struct Node {\n  int data;\n  Node* next;\n} Node;",
+    "options": ["A) Nothing is wrong", "B) Node* next is invalid because Node is not yet defined at that point", "C) typedef cannot be used with self-referential structs", "D) The struct tag and typedef name cannot be the same"],
+    "correct_answer": "B) Node* next is invalid because Node is not yet defined at that point",
+    "explanation": "Inside the struct definition, the typedef name Node is not yet available. You must use 'struct Node* next;' instead of 'Node* next;' for self-referential structs."
+  },
+  {
+    "id": 47,
+    "topic": "Typedef in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the correct way to write a self-referential struct using typedef?",
+    "options": ["A) typedef struct Node { int data; Node* next; } Node;", "B) typedef struct Node { int data; struct Node* next; } Node;", "C) typedef struct { int data; Node* next; } Node;", "D) struct Node { int data; Node* next; };"],
+    "correct_answer": "B) typedef struct Node { int data; struct Node* next; }

@@ -1,0 +1,471 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which interface must be implemented to create a thread in Java?",
+    "options": ["A) Runnable", "B) Serializable", "C) Cloneable", "D) Comparable"],
+    "correct_answer": "A) Runnable",
+    "explanation": "The Runnable interface provides the run() method that must be implemented to define the thread's task. A class implementing Runnable can be passed to a Thread object."
+  },
+  {
+    "id": 2,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to start a thread in Java?",
+    "options": ["A) run()", "B) start()", "C) execute()", "D) begin()"],
+    "correct_answer": "B) start()",
+    "explanation": "The start() method creates a new thread and calls the run() method internally. Calling run() directly does not create a new thread; it executes in the current thread."
+  },
+  {
+    "id": 3,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class must be extended to create a thread by inheritance in Java?",
+    "options": ["A) Object", "B) Thread", "C) Process", "D) Task"],
+    "correct_answer": "B) Thread",
+    "explanation": "By extending the Thread class and overriding its run() method, you can create a thread. The start() method is then called on the object to begin execution."
+  },
+  {
+    "id": 4,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default priority of a thread in Java?",
+    "options": ["A) 1", "B) 5", "C) 10", "D) 0"],
+    "correct_answer": "B) 5",
+    "explanation": "Thread priority ranges from 1 (MIN_PRIORITY) to 10 (MAX_PRIORITY). The default priority is 5 (NORM_PRIORITY), which is the value of Thread.NORM_PRIORITY constant."
+  },
+  {
+    "id": 5,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method puts a thread to sleep for a specified number of milliseconds?",
+    "options": ["A) Thread.wait(1000)", "B) Thread.sleep(1000)", "C) Thread.pause(1000)", "D) Thread.halt(1000)"],
+    "correct_answer": "B) Thread.sleep(1000)",
+    "explanation": "Thread.sleep(milliseconds) is a static method that causes the currently executing thread to sleep for the specified duration. It throws InterruptedException."
+  },
+  {
+    "id": 6,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the state of a thread after it has been created but before start() is called?",
+    "options": ["A) Running", "B) Blocked", "C) New", "D) Waiting"],
+    "correct_answer": "C) New",
+    "explanation": "When a Thread object is created using new keyword but start() has not been called yet, the thread is in the NEW state. It transitions to RUNNABLE after start() is called."
+  },
+  {
+    "id": 7,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method returns the name of the current thread?",
+    "options": ["A) Thread.getID()", "B) Thread.currentThread().getName()", "C) Thread.name()", "D) Thread.getThread()"],
+    "correct_answer": "B) Thread.currentThread().getName()",
+    "explanation": "Thread.currentThread() returns a reference to the currently executing thread object, and getName() returns its name. Default names are Thread-0, Thread-1, etc."
+  },
+  {
+    "id": 8,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the join() method do in Java threading?",
+    "options": ["A) Merges two threads into one", "B) Waits for a thread to die", "C) Starts a thread", "D) Pauses a thread indefinitely"],
+    "correct_answer": "B) Waits for a thread to die",
+    "explanation": "Calling join() on a thread makes the current thread wait until the thread on which join() is called finishes its execution. It ensures sequential completion."
+  },
+  {
+    "id": 9,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to prevent multiple threads from accessing a method simultaneously?",
+    "options": ["A) volatile", "B) static", "C) synchronized", "D) transient"],
+    "correct_answer": "C) synchronized",
+    "explanation": "The synchronized keyword ensures that only one thread can execute a synchronized method or block at a time, preventing race conditions and ensuring thread safety."
+  },
+  {
+    "id": 10,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a daemon thread in Java?",
+    "options": ["A) A thread with highest priority", "B) A background service thread that dies when all user threads finish", "C) A thread that cannot be interrupted", "D) A thread that runs only once"],
+    "correct_answer": "B) A background service thread that dies when all user threads finish",
+    "explanation": "Daemon threads are background threads (like garbage collector) that automatically terminate when all non-daemon (user) threads have finished. Set using setDaemon(true) before start()."
+  },
+  {
+    "id": 11,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to check if a thread is alive?",
+    "options": ["A) isRunning()", "B) isAlive()", "C) isActive()", "D) isStarted()"],
+    "correct_answer": "B) isAlive()",
+    "explanation": "The isAlive() method returns true if the thread has been started and has not yet died. It returns false if the thread is in NEW or TERMINATED state."
+  },
+  {
+    "id": 12,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens if you call start() on a thread that has already been started?",
+    "options": ["A) The thread restarts", "B) Nothing happens", "C) IllegalThreadStateException is thrown", "D) A new thread is created"],
+    "correct_answer": "C) IllegalThreadStateException is thrown",
+    "explanation": "Calling start() on an already started thread throws IllegalThreadStateException. A thread can only be started once; after termination, it cannot be restarted."
+  },
+  {
+    "id": 13,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid thread state in Java?",
+    "options": ["A) RUNNABLE", "B) BLOCKED", "C) SLEEPING", "D) WAITING"],
+    "correct_answer": "C) SLEEPING",
+    "explanation": "Java thread states defined in Thread.State enum are: NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, and TERMINATED. SLEEPING is not a valid state; sleep() puts a thread in TIMED_WAITING."
+  },
+  {
+    "id": 14,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the minimum thread priority value in Java?",
+    "options": ["A) 0", "B) 1", "C) -1", "D) 5"],
+    "correct_answer": "B) 1",
+    "explanation": "Thread.MIN_PRIORITY = 1, Thread.NORM_PRIORITY = 5, Thread.MAX_PRIORITY = 10. Priority 0 is not valid; setting priority below 1 or above 10 throws IllegalArgumentException."
+  },
+  {
+    "id": 15,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method releases the lock and causes the thread to wait until another thread calls notify()?",
+    "options": ["A) sleep()", "B) yield()", "C) wait()", "D) join()"],
+    "correct_answer": "C) wait()",
+    "explanation": "wait() releases the object's monitor lock and puts the thread in WAITING state. It must be called from a synchronized context. notify() or notifyAll() wakes the waiting thread."
+  },
+  {
+    "id": 16,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does Thread.yield() do?",
+    "options": ["A) Terminates the thread", "B) Hints the scheduler to give other threads a chance to run", "C) Pauses the thread for 1 second", "D) Increases thread priority"],
+    "correct_answer": "B) Hints the scheduler to give other threads a chance to run",
+    "explanation": "yield() is a static method that hints the thread scheduler to pause the current thread and allow other threads of same or higher priority to execute. It's just a hint, not guaranteed."
+  },
+  {
+    "id": 17,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which package contains the Thread class in Java?",
+    "options": ["A) java.util", "B) java.io", "C) java.lang", "D) java.thread"],
+    "correct_answer": "C) java.lang",
+    "explanation": "The Thread class is part of java.lang package, which is automatically imported in every Java program. So you don't need an explicit import statement to use Thread."
+  },
+  {
+    "id": 18,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is multithreading in Java?",
+    "options": ["A) Running multiple programs simultaneously", "B) Executing multiple threads concurrently within a single program", "C) Using multiple processors", "D) Creating multiple objects of a class"],
+    "correct_answer": "B) Executing multiple threads concurrently within a single program",
+    "explanation": "Multithreading allows concurrent execution of two or more threads within a single Java program, sharing the same memory space and improving CPU utilization and application performance."
+  },
+  {
+    "id": 19,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is called when a thread's execution begins?",
+    "options": ["A) main()", "B) start()", "C) run()", "D) init()"],
+    "correct_answer": "C) run()",
+    "explanation": "The run() method contains the code that the thread executes. When start() is called, the JVM internally calls run(). Overriding run() defines the thread's behavior."
+  },
+  {
+    "id": 20,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How do you set a thread as a daemon thread?",
+    "options": ["A) thread.setDaemon(true) before start()", "B) thread.setDaemon(true) after start()", "C) thread.makeDaemon()", "D) Extend DaemonThread class"],
+    "correct_answer": "A) thread.setDaemon(true) before start()",
+    "explanation": "setDaemon(true) must be called before start(). Calling it after start() throws IllegalThreadStateException. Daemon threads are background threads that die when all user threads finish."
+  },
+  {
+    "id": 21,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a race condition in multithreading?",
+    "options": ["A) When threads compete for CPU time", "B) When multiple threads access shared data concurrently causing unpredictable results", "C) When a thread runs faster than others", "D) When threads are created in a loop"],
+    "correct_answer": "B) When multiple threads access shared data concurrently causing unpredictable results",
+    "explanation": "A race condition occurs when the outcome depends on the relative timing of thread execution. It happens when multiple threads read/write shared data without proper synchronization."
+  },
+  {
+    "id": 22,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method wakes up all threads waiting on an object's monitor?",
+    "options": ["A) notify()", "B) notifyAll()", "C) wakeAll()", "D) resumeAll()"],
+    "correct_answer": "B) notifyAll()",
+    "explanation": "notifyAll() wakes up all threads that are waiting on the object's monitor. notify() wakes only one arbitrary waiting thread. Both must be called from synchronized context."
+  },
+  {
+    "id": 23,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is thread safety?",
+    "options": ["A) Preventing threads from crashing", "B) Ensuring code behaves correctly when accessed by multiple threads simultaneously", "C) Using try-catch in threads", "D) Limiting the number of threads"],
+    "correct_answer": "B) Ensuring code behaves correctly when accessed by multiple threads simultaneously",
+    "explanation": "Thread safety means that shared data is accessed and modified correctly when multiple threads execute concurrently. It is achieved through synchronization, locks, or atomic operations."
+  },
+  {
+    "id": 24,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly creates a thread using Runnable interface?",
+    "options": ["A) Thread t = new Thread(new Runnable(){ public void run(){} });", "B) Thread t = new Runnable(){ public void run(){} };", "C) Runnable t = new Thread(){ public void run(){} };", "D) Thread t = Runnable.create();"],
+    "correct_answer": "A) Thread t = new Thread(new Runnable(){ public void run(){} });",
+    "explanation": "A Runnable object is passed to the Thread constructor. The Thread object then calls the Runnable's run() method when start() is invoked. This is the standard way to use Runnable."
+  },
+  {
+    "id": 25,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the volatile keyword in Java threading?",
+    "options": ["A) Makes a variable thread-local", "B) Ensures visibility of variable changes across threads", "C) Makes a variable immutable", "D) Prevents a variable from being serialized"],
+    "correct_answer": "B) Ensures visibility of variable changes across threads",
+    "explanation": "volatile ensures that reads/writes to a variable go directly to main memory, not thread-local cache. This guarantees visibility of changes made by one thread to other threads."
+  },
+  {
+    "id": 26,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the TERMINATED state of a thread?",
+    "options": ["A) Thread is waiting for I/O", "B) Thread has completed execution", "C) Thread is blocked on a lock", "D) Thread has been paused"],
+    "correct_answer": "B) Thread has completed execution",
+    "explanation": "A thread enters the TERMINATED (DEAD) state when its run() method completes execution, either normally or due to an uncaught exception. A terminated thread cannot be restarted."
+  },
+  {
+    "id": 27,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method returns the ID of the current thread?",
+    "options": ["A) Thread.currentThread().getId()", "B) Thread.getThreadId()", "C) Thread.currentId()", "D) Thread.id()"],
+    "correct_answer": "A) Thread.currentThread().getId()",
+    "explanation": "Thread.currentThread() returns the currently executing thread reference, and getId() returns its unique long ID assigned by the JVM. Thread IDs are positive and unique during thread lifetime."
+  },
+  {
+    "id": 28,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What exception is thrown by Thread.sleep()?",
+    "options": ["A) IOException", "B) ThreadException", "C) InterruptedException", "D) RuntimeException"],
+    "correct_answer": "C) InterruptedException",
+    "explanation": "Thread.sleep() throws InterruptedException, which is a checked exception. It is thrown when another thread interrupts the sleeping thread by calling interrupt() on it."
+  },
+  {
+    "id": 29,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main thread in Java?",
+    "options": ["A) The thread with highest priority", "B) The first thread created by JVM to execute the main() method", "C) The thread that manages other threads", "D) The daemon thread"],
+    "correct_answer": "B) The first thread created by JVM to execute the main() method",
+    "explanation": "When a Java program starts, JVM creates the main thread to execute the main() method. All other threads are typically created from this main thread. It is a non-daemon thread."
+  },
+  {
+    "id": 30,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about synchronized methods?",
+    "options": ["A) Multiple threads can execute them simultaneously", "B) Only one thread can execute them at a time per object", "C) They cannot have return values", "D) They must be static"],
+    "correct_answer": "B) Only one thread can execute them at a time per object",
+    "explanation": "A synchronized instance method acquires the lock on the object (this). Only one thread can hold the lock at a time, so only one thread can execute any synchronized method of that object."
+  },
+  {
+    "id": 31,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does Thread.currentThread() return?",
+    "options": ["A) The main thread", "B) A reference to the currently executing thread", "C) The thread with highest priority", "D) The first created thread"],
+    "correct_answer": "B) A reference to the currently executing thread",
+    "explanation": "Thread.currentThread() is a static method that returns a reference to the Thread object representing the currently executing thread. It can be used to get thread name, priority, etc."
+  },
+  {
+    "id": 32,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is deadlock in Java multithreading?",
+    "options": ["A) A thread that runs forever", "B) A situation where two or more threads wait for each other's locks indefinitely", "C) A thread that cannot be started", "D) When a thread throws an exception"],
+    "correct_answer": "B) A situation where two or more threads wait for each other's locks indefinitely",
+    "explanation": "Deadlock occurs when Thread A holds lock X and waits for lock Y, while Thread B holds lock Y and waits for lock X. Neither can proceed, causing the program to hang."
+  },
+  {
+    "id": 33,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which java.util.concurrent class provides a thread-safe integer that can be incremented atomically?",
+    "options": ["A) SafeInteger", "B) AtomicInteger", "C) SyncInteger", "D) ThreadInteger"],
+    "correct_answer": "B) AtomicInteger",
+    "explanation": "AtomicInteger in java.util.concurrent.atomic package provides atomic operations like incrementAndGet(), compareAndSet() without using synchronized blocks, ensuring thread safety."
+  },
+  {
+    "id": 34,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a thread pool?",
+    "options": ["A) A collection of thread objects stored in memory", "B) A group of pre-created threads that execute submitted tasks", "C) A synchronized collection for threads", "D) A pool of daemon threads"],
+    "correct_answer": "B) A group of pre-created threads that execute submitted tasks",
+    "explanation": "A thread pool maintains a pool of worker threads, reusing them to execute multiple tasks. This avoids the overhead of creating/destroying threads for each task, improving performance."
+  },
+  {
+    "id": 35,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class is used to create a fixed-size thread pool in Java?",
+    "options": ["A) ThreadPool", "B) Executors", "C) ThreadGroup", "D) ExecutorPool"],
+    "correct_answer": "B) Executors",
+    "explanation": "Executors.newFixedThreadPool(n) creates a thread pool with n threads. The Executors factory class provides methods to create various types of thread pools using ExecutorService."
+  },
+  {
+    "id": 36,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the interrupt() method in Java threads?",
+    "options": ["A) Immediately stops a thread", "B) Sets the interrupt flag of a thread", "C) Pauses a thread", "D) Destroys a thread"],
+    "correct_answer": "B) Sets the interrupt flag of a thread",
+    "explanation": "interrupt() sets the interrupt status flag of the thread. If the thread is sleeping or waiting, it throws InterruptedException. The thread itself must check and handle the interruption."
+  },
+  {
+    "id": 37,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which state is a thread in when it is waiting to acquire a lock?",
+    "options": ["A) WAITING", "B) TIMED_WAITING", "C) BLOCKED", "D) RUNNABLE"],
+    "correct_answer": "C) BLOCKED",
+    "explanation": "A thread enters the BLOCKED state when it is waiting to acquire a monitor lock held by another thread. Once the lock is released, the thread moves back to RUNNABLE state."
+  },
+  {
+    "id": 38,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a class extend Thread and implement Runnable at the same time?",
+    "options": ["A) No, it's not allowed", "B) Yes, but only run() from Thread is used", "C) Yes, it is valid Java", "D) No, it causes compilation error"],
+    "correct_answer": "C) Yes, it is valid Java",
+    "explanation": "A class can both extend Thread and implement Runnable since Thread itself implements Runnable. However, this is unusual and generally not recommended as it's redundant."
+  },
+  {
+    "id": 39,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Thread.currentThread().getName() in the main method?",
+    "options": ["A) Thread-0", "B) main", "C) Main-Thread", "D) Thread-main"],
+    "correct_answer": "B) main",
+    "explanation": "The main thread created by JVM is named 'main'. Thread.currentThread().getName() called from the main() method returns the string 'main'."
+  },
+  {
+    "id": 40,
+    "topic": "Threads in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an advantage of implementing Runnable over extending Thread?",
+    "options": ["A) Runnable threads have higher priority", "B) Allows the class to extend another class since Java supports single inheritance", "C) Runnable threads are faster", "D) Runnable provides more thread methods"],
+    "correct_answer": "B) Allows the class to extend another class since Java supports single inheritance",
+    "explanation": "Since Java doesn't support multiple inheritance, implementing Runnable is preferred as it allows the class to extend another class. Extending Thread prevents extending any other class."
+  },
+  {
+    "id": 41,
+    "topic": "Threads in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\n```java\nclass MyThread extends Thread {\n    public void run() { System.out.println(\"Running\"); }\n}\npublic class Test {\n    public static void main(String[] args) {\n        MyThread t = new MyThread();\n        t.run();\n        t.start();\n    }\n}```",
+    "options": ["A) Running (once)", "B) Running Running", "C) Compilation error", "D) Runtime exception"],
+    "correct_answer": "B) Running Running",
+    "explanation": "t.run() executes run() in the main thread (no new thread created), printing 'Running'. t.start() creates a new thread and calls run() again, printing 'Running' a second time."
+  },
+  {
+    "id": 42,
+    "topic": "Threads in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between wait() and sleep() in Java?",
+    "options": ["A) wait() is in Thread class, sleep() is in Object class", "B) sleep() releases the lock, wait() does not", "C) wait() releases the lock, sleep() does not release the lock", "D) Both release the lock"],
+    "correct_answer": "C) wait() releases the lock, sleep() does not release the lock",
+    "explanation": "wait() (Object class) releases the monitor lock and waits for notify(). sleep() (Thread class) pauses execution but retains the lock. wait() must be in synchronized context; sleep() need not."
+  },
+  {
+    "id": 43,
+    "topic": "Threads in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n```java\npublic class Test implements Runnable {\n    public void run() {\n        System.out.println(Thread.currentThread().getName());\n    }\n    public static void main(String[] args) {\n        Test t = new Test();\n        Thread t1 = new Thread(t, \"MyThread\");\n        t1.start();\n    }\n}```",
+    "options": ["A) Test", "B) main", "C) MyThread", "D) Thread-0"],
+    "correct_answer": "C) MyThread",
+    "explanation": "The Thread constructor Thread(Runnable, String) sets the thread name to 'MyThread'. When t1.start() is called, run() executes in the new thread, printing its name 'MyThread'."
+  },
+  {
+    "id": 44,
+    "topic": "Threads in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a synchronized block and how does it differ from a synchronized method?",
+    "options": ["A) Synchronized block locks the class, method locks the object", "B) Synchronized block allows specifying the lock object, method locks 'this'", "C) They are identical in behavior", "D) Synchronized block is faster but less safe"],
+    "correct_answer": "B) Synchronized block allows specifying the lock object, method locks 'this'",
+    "explanation": "synchronized(obj){} allows you to specify any object as the lock, providing finer granularity. A synchronized method implicitly uses 'this' as the lock (or Class object for static methods)."
+  },
+  {
+    "id": 45,
+    "topic": "Threads in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is thread starvation?",
+    "options": ["A) A thread that consumes too much memory", "B) A thread that is perpetually denied CPU time due to other higher-priority threads", "C) A thread waiting for I/O indefinitely", "D) A thread that runs out of stack space"],
+    "correct_answer": "B) A thread that is perpetually denied CPU time due to other higher-priority threads",
+    "explanation": "Starvation occurs when a low-priority thread never gets CPU time because higher-priority threads continuously occupy the CPU. It differs from deadlock as the thread is not blocked, just never scheduled."
+  },
+  {
+    "id": 46,
+    "topic": "Threads in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the Callable interface and how does it differ from Runnable?",
+    "options": ["A) Callable extends Runnable with a return value", "B) Callable's call() method can return a value and throw checked exceptions, unlike Runnable's run()", "C) Callable is used for daemon threads only", "D) Callable is deprecated in Java 8"],
+    "correct_answer": "B) Callable's call() method can return a value and throw checked exceptions, unlike Runnable's run()",
+    "explanation": "Callable<V> has call() that returns type V and can throw checked exceptions. Runnable's run() returns void and cannot throw checked exceptions. Callable is used with ExecutorService.submit()."
+  },
+  {
+    "id": 47,
+    "topic": "Threads in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a Future object in Java concurrency?",
+    "options": ["A) A thread scheduled to run in the future", "B) A placeholder for a result that will be available after an asynchronous computation", "C) A thread that runs after all other threads", "D) A delayed thread execution mechanism"],
+    "correct_answer": "B) A placeholder for a result that will be available after an asynchronous computation",
+    "explanation": "Future<V> represents the result of an asynchronous

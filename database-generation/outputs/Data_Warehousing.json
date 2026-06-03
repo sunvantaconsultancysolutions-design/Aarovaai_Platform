@@ -1,0 +1,461 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a Data Warehouse primarily used for?",
+    "options": ["A) Online transaction processing", "B) Analytical reporting and decision support", "C) Real-time data entry", "D) Network management"],
+    "correct_answer": "B) Analytical reporting and decision support",
+    "explanation": "A Data Warehouse is designed for analytical reporting, querying, and decision support rather than day-to-day transaction processing. It consolidates data from multiple sources for business intelligence."
+  },
+  {
+    "id": 2,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Who is known as the 'father of Data Warehousing'?",
+    "options": ["A) Edgar Codd", "B) Bill Inmon", "C) Ralph Kimball", "D) James Martin"],
+    "correct_answer": "B) Bill Inmon",
+    "explanation": "Bill Inmon is widely recognized as the 'father of Data Warehousing.' He defined a data warehouse as a subject-oriented, integrated, time-variant, and non-volatile collection of data."
+  },
+  {
+    "id": 3,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a characteristic of a Data Warehouse?",
+    "options": ["A) Subject-oriented", "B) Volatile", "C) Time-variant", "D) Integrated"],
+    "correct_answer": "B) Volatile",
+    "explanation": "A Data Warehouse is non-volatile, meaning data is not deleted or modified once loaded. The four key characteristics are: subject-oriented, integrated, time-variant, and non-volatile."
+  },
+  {
+    "id": 4,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ETL stand for in Data Warehousing?",
+    "options": ["A) Extract, Transform, Load", "B) Extract, Transfer, Link", "C) Evaluate, Transform, Load", "D) Extract, Test, Launch"],
+    "correct_answer": "A) Extract, Transform, Load",
+    "explanation": "ETL stands for Extract, Transform, Load. It is the process of extracting data from source systems, transforming it into a suitable format, and loading it into the data warehouse."
+  },
+  {
+    "id": 5,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a Data Mart?",
+    "options": ["A) A large centralized data warehouse", "B) A subset of a data warehouse focused on a specific business area", "C) A type of database for OLTP", "D) A tool for data visualization"],
+    "correct_answer": "B) A subset of a data warehouse focused on a specific business area",
+    "explanation": "A Data Mart is a subset of a data warehouse that is focused on a specific business line or department, such as sales, finance, or marketing."
+  },
+  {
+    "id": 6,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which schema is most commonly used in Data Warehousing?",
+    "options": ["A) Snowflake schema only", "B) Star schema and Snowflake schema", "C) Third Normal Form schema", "D) Entity-Relationship schema"],
+    "correct_answer": "B) Star schema and Snowflake schema",
+    "explanation": "Star schema and Snowflake schema are the most commonly used schemas in data warehousing. Star schema has a central fact table surrounded by dimension tables, while Snowflake normalizes dimension tables further."
+  },
+  {
+    "id": 7,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a Star Schema, what is at the center of the schema?",
+    "options": ["A) Dimension table", "B) Fact table", "C) Lookup table", "D) Bridge table"],
+    "correct_answer": "B) Fact table",
+    "explanation": "In a Star Schema, the Fact table is at the center, surrounded by Dimension tables. The fact table contains measurable, quantitative data (facts) and foreign keys to dimension tables."
+  },
+  {
+    "id": 8,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does OLAP stand for?",
+    "options": ["A) Online Logical Analysis Processing", "B) Online Analytical Processing", "C) Offline Analytical Processing", "D) Online Application Processing"],
+    "correct_answer": "B) Online Analytical Processing",
+    "explanation": "OLAP stands for Online Analytical Processing. It is a category of software tools that provides analysis of data stored in a database, enabling complex analytical queries."
+  },
+  {
+    "id": 9,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does OLTP stand for?",
+    "options": ["A) Online Transaction Processing", "B) Offline Transaction Processing", "C) Online Transfer Processing", "D) Operational Logical Transaction Processing"],
+    "correct_answer": "A) Online Transaction Processing",
+    "explanation": "OLTP stands for Online Transaction Processing. It manages transaction-oriented applications and is optimized for fast query processing and maintaining data integrity in multi-access environments."
+  },
+  {
+    "id": 10,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'Fact Table' in a data warehouse?",
+    "options": ["A) A table containing descriptive attributes", "B) A table containing measurable, quantitative data", "C) A table storing user information", "D) A table for storing metadata"],
+    "correct_answer": "B) A table containing measurable, quantitative data",
+    "explanation": "A Fact Table contains measurable, quantitative data (facts) such as sales amount, quantity sold, etc. It also contains foreign keys referencing dimension tables."
+  },
+  {
+    "id": 11,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a Dimension in a sales data warehouse?",
+    "options": ["A) Total Sales Amount", "B) Number of Units Sold", "C) Product Category", "D) Revenue"],
+    "correct_answer": "C) Product Category",
+    "explanation": "Dimensions are descriptive attributes used to categorize and filter data. Product Category is a dimension, while Total Sales Amount, Units Sold, and Revenue are facts (measures)."
+  },
+  {
+    "id": 12,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is metadata in the context of a Data Warehouse?",
+    "options": ["A) Raw transactional data", "B) Data about data", "C) Aggregated summary data", "D) Historical archived data"],
+    "correct_answer": "B) Data about data",
+    "explanation": "Metadata is 'data about data.' In a data warehouse, metadata describes the structure, origin, transformation rules, and meaning of the data stored in the warehouse."
+  },
+  {
+    "id": 13,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operation in OLAP is used to move from a higher level of aggregation to a lower level?",
+    "options": ["A) Roll-up", "B) Drill-down", "C) Slice", "D) Pivot"],
+    "correct_answer": "B) Drill-down",
+    "explanation": "Drill-down moves from a higher level of aggregation (e.g., Year) to a lower level (e.g., Quarter → Month). Roll-up is the opposite operation."
+  },
+  {
+    "id": 14,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which OLAP operation reduces the dimensionality of a data cube by selecting a single value for one dimension?",
+    "options": ["A) Dice", "B) Pivot", "C) Slice", "D) Roll-up"],
+    "correct_answer": "C) Slice",
+    "explanation": "The Slice operation selects a single value for one dimension, effectively reducing the data cube by one dimension. For example, selecting data for only the year 2023."
+  },
+  {
+    "id": 15,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between Slice and Dice in OLAP?",
+    "options": ["A) Slice selects one dimension value; Dice selects multiple dimension values", "B) Slice aggregates data; Dice disaggregates data", "C) Slice is for rows; Dice is for columns", "D) There is no difference"],
+    "correct_answer": "A) Slice selects one dimension value; Dice selects multiple dimension values",
+    "explanation": "Slice selects a single value for one dimension (reducing cube by one dimension). Dice selects a range of values for two or more dimensions, creating a sub-cube."
+  },
+  {
+    "id": 16,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of OLAP stores data in a multidimensional array?",
+    "options": ["A) ROLAP", "B) HOLAP", "C) MOLAP", "D) DOLAP"],
+    "correct_answer": "C) MOLAP",
+    "explanation": "MOLAP (Multidimensional OLAP) stores data in a multidimensional array (data cube). ROLAP uses relational databases, and HOLAP is a hybrid of both."
+  },
+  {
+    "id": 17,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ROLAP stand for?",
+    "options": ["A) Relational Online Analytical Processing", "B) Real-time Online Analytical Processing", "C) Recursive Online Analytical Processing", "D) Relational Offline Analytical Processing"],
+    "correct_answer": "A) Relational Online Analytical Processing",
+    "explanation": "ROLAP stands for Relational Online Analytical Processing. It performs dynamic multidimensional analysis of data stored in a relational database."
+  },
+  {
+    "id": 18,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a Snowflake Schema, dimension tables are:",
+    "options": ["A) Denormalized", "B) Normalized into multiple related tables", "C) Merged into the fact table", "D) Stored in separate databases"],
+    "correct_answer": "B) Normalized into multiple related tables",
+    "explanation": "In a Snowflake Schema, dimension tables are normalized into multiple related tables, reducing data redundancy. This is the key difference from a Star Schema where dimensions are denormalized."
+  },
+  {
+    "id": 19,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of OLTP systems?",
+    "options": ["A) Handles complex analytical queries", "B) Optimized for read-heavy workloads", "C) Handles large volumes of short online transactions", "D) Stores historical data for years"],
+    "correct_answer": "C) Handles large volumes of short online transactions",
+    "explanation": "OLTP systems are optimized for handling large volumes of short, fast transactions like INSERT, UPDATE, and DELETE operations in day-to-day business operations."
+  },
+  {
+    "id": 20,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'surrogate key' in a data warehouse?",
+    "options": ["A) A natural key from the source system", "B) A system-generated artificial key used in the data warehouse", "C) A composite key made of multiple columns", "D) A foreign key in the fact table"],
+    "correct_answer": "B) A system-generated artificial key used in the data warehouse",
+    "explanation": "A surrogate key is a system-generated artificial key (usually an integer) used in the data warehouse instead of the natural key from the source system. It helps handle slowly changing dimensions."
+  },
+  {
+    "id": 21,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'Extract' phase in ETL?",
+    "options": ["A) To clean and transform data", "B) To load data into the warehouse", "C) To pull data from various source systems", "D) To create reports from the warehouse"],
+    "correct_answer": "C) To pull data from various source systems",
+    "explanation": "The Extract phase in ETL involves pulling data from various source systems such as databases, flat files, APIs, and other data sources into a staging area."
+  },
+  {
+    "id": 22,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Slowly Changing Dimension' (SCD)?",
+    "options": ["A) A dimension that changes very frequently", "B) A dimension where attribute values change slowly over time", "C) A dimension with no changes", "D) A dimension used only for historical data"],
+    "correct_answer": "B) A dimension where attribute values change slowly over time",
+    "explanation": "A Slowly Changing Dimension (SCD) refers to a dimension where the attribute values change slowly over time, not on a regular schedule. Managing SCDs is a key challenge in data warehousing."
+  },
+  {
+    "id": 23,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In SCD Type 1, how are changes handled?",
+    "options": ["A) A new row is added for each change", "B) The old value is overwritten with the new value", "C) A new column is added for each change", "D) Changes are stored in a separate history table"],
+    "correct_answer": "B) The old value is overwritten with the new value",
+    "explanation": "In SCD Type 1, the old value is simply overwritten with the new value. No history is maintained. This is the simplest approach but loses historical data."
+  },
+  {
+    "id": 24,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Data Cube' in OLAP?",
+    "options": ["A) A three-dimensional database", "B) A multidimensional representation of data", "C) A cube-shaped storage device", "D) A type of data compression technique"],
+    "correct_answer": "B) A multidimensional representation of data",
+    "explanation": "A Data Cube is a multidimensional representation of data that allows analysis across multiple dimensions simultaneously. It can have more than three dimensions despite the name 'cube'."
+  },
+  {
+    "id": 25,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following tools is commonly used for ETL in data warehousing?",
+    "options": ["A) Microsoft Excel", "B) Informatica PowerCenter", "C) Adobe Photoshop", "D) Microsoft Word"],
+    "correct_answer": "B) Informatica PowerCenter",
+    "explanation": "Informatica PowerCenter is a widely used ETL tool in data warehousing. Other popular ETL tools include IBM DataStage, Talend, Microsoft SSIS, and Apache Spark."
+  },
+  {
+    "id": 26,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary difference between a Data Warehouse and a Database?",
+    "options": ["A) A database stores current data; a data warehouse stores historical data for analysis", "B) A database is larger than a data warehouse", "C) A data warehouse is used for OLTP", "D) There is no difference"],
+    "correct_answer": "A) A database stores current data; a data warehouse stores historical data for analysis",
+    "explanation": "A database is optimized for OLTP with current operational data. A data warehouse stores historical, integrated data optimized for analytical queries and decision support."
+  },
+  {
+    "id": 27,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'subject-oriented' mean in the context of a Data Warehouse?",
+    "options": ["A) Data is organized around subjects like sales, customers, or products", "B) Data is organized by database subjects", "C) Data is stored in subject-specific files", "D) Data is classified by academic subjects"],
+    "correct_answer": "A) Data is organized around subjects like sales, customers, or products",
+    "explanation": "Subject-oriented means the data warehouse is organized around major subjects of the enterprise (e.g., customers, sales, products) rather than around applications or functions."
+  },
+  {
+    "id": 28,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Staging Area' in ETL?",
+    "options": ["A) The final destination of data in the warehouse", "B) An intermediate storage area where data is held during ETL processing", "C) A backup storage for the data warehouse", "D) A reporting layer of the data warehouse"],
+    "correct_answer": "B) An intermediate storage area where data is held during ETL processing",
+    "explanation": "A Staging Area is an intermediate storage area used during the ETL process. Data is extracted from source systems into the staging area before being transformed and loaded into the warehouse."
+  },
+  {
+    "id": 29,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a benefit of using a Data Warehouse?",
+    "options": ["A) Faster transaction processing", "B) Improved data quality and consistency for analysis", "C) Reduced storage requirements", "D) Real-time data updates"],
+    "correct_answer": "B) Improved data quality and consistency for analysis",
+    "explanation": "Data Warehouses improve data quality and consistency by integrating data from multiple sources, applying transformation rules, and providing a single source of truth for analytical reporting."
+  },
+  {
+    "id": 30,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'data granularity' in a data warehouse?",
+    "options": ["A) The size of the data warehouse", "B) The level of detail stored in the data warehouse", "C) The number of dimensions in the data cube", "D) The speed of data loading"],
+    "correct_answer": "B) The level of detail stored in the data warehouse",
+    "explanation": "Data granularity refers to the level of detail in the data. Fine granularity means more detailed data (e.g., individual transactions), while coarse granularity means summarized data (e.g., monthly totals)."
+  },
+  {
+    "id": 31,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the OLAP operation 'Roll-up'?",
+    "options": ["A) Moving from detailed data to summarized data", "B) Moving from summarized data to detailed data", "C) Rotating the data cube", "D) Selecting a subset of data"],
+    "correct_answer": "A) Moving from detailed data to summarized data",
+    "explanation": "Roll-up (also called consolidation) moves from detailed data to summarized data by climbing up a concept hierarchy. For example, from daily sales to monthly sales to yearly sales."
+  },
+  {
+    "id": 32,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a fact in a retail data warehouse?",
+    "options": ["A) Customer Name", "B) Product Color", "C) Sales Amount", "D) Store Location"],
+    "correct_answer": "C) Sales Amount",
+    "explanation": "Facts are measurable, quantitative values. Sales Amount is a fact (measure). Customer Name, Product Color, and Store Location are dimensions (descriptive attributes)."
+  },
+  {
+    "id": 33,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Conformed Dimension' in data warehousing?",
+    "options": ["A) A dimension used in only one data mart", "B) A dimension shared across multiple fact tables or data marts", "C) A dimension with no foreign keys", "D) A dimension that never changes"],
+    "correct_answer": "B) A dimension shared across multiple fact tables or data marts",
+    "explanation": "A Conformed Dimension is a dimension that is shared and used consistently across multiple fact tables or data marts, enabling integrated analysis across different business processes."
+  },
+  {
+    "id": 34,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'data cleansing' in the ETL process?",
+    "options": ["A) Deleting all old data from the warehouse", "B) Identifying and correcting errors and inconsistencies in data", "C) Compressing data for storage", "D) Encrypting data for security"],
+    "correct_answer": "B) Identifying and correcting errors and inconsistencies in data",
+    "explanation": "Data cleansing (or data scrubbing) involves identifying and correcting errors, inconsistencies, and inaccuracies in data during the Transform phase of ETL."
+  },
+  {
+    "id": 35,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which architecture approach does Bill Inmon advocate for data warehousing?",
+    "options": ["A) Bottom-up approach (Data Mart first)", "B) Top-down approach (Enterprise Data Warehouse first)", "C) Middle-out approach", "D) Distributed approach"],
+    "correct_answer": "B) Top-down approach (Enterprise Data Warehouse first)",
+    "explanation": "Bill Inmon advocates a top-down approach where an enterprise-wide data warehouse is built first in 3NF, and then data marts are derived from it. Ralph Kimball advocates the bottom-up approach."
+  },
+  {
+    "id": 36,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Degenerate Dimension'?",
+    "options": ["A) A dimension with very few attributes", "B) A dimension key that exists in the fact table with no corresponding dimension table", "C) A dimension that has been deleted", "D) A dimension with duplicate values"],
+    "correct_answer": "B) A dimension key that exists in the fact table with no corresponding dimension table",
+    "explanation": "A Degenerate Dimension is a dimension key stored in the fact table that has no corresponding dimension table. Examples include order numbers or invoice numbers."
+  },
+  {
+    "id": 37,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'time-variant' mean as a characteristic of a Data Warehouse?",
+    "options": ["A) Data changes in real-time", "B) Data is stored with time stamps and historical data is maintained", "C) Data expires after a certain time", "D) Data is updated every hour"],
+    "correct_answer": "B) Data is stored with time stamps and historical data is maintained",
+    "explanation": "Time-variant means the data warehouse maintains historical data over time. Every record has a time element, allowing analysis of trends and changes over time periods."
+  },
+  {
+    "id": 38,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Galaxy Schema' (also called Fact Constellation)?",
+    "options": ["A) A schema with only one fact table", "B) A schema with multiple fact tables sharing dimension tables", "C) A schema used only for small data marts", "D) A schema with no dimension tables"],
+    "correct_answer": "B) A schema with multiple fact tables sharing dimension tables",
+    "explanation": "A Galaxy Schema (Fact Constellation) contains multiple fact tables that share dimension tables. It is more complex than a Star or Snowflake schema and is used for complex business scenarios."
+  },
+  {
+    "id": 39,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'non-volatile' as a characteristic of a Data Warehouse?",
+    "options": ["A) Data is frequently updated", "B) Once data is loaded, it is not changed or deleted", "C) Data is stored in volatile memory", "D) Data is automatically purged after 30 days"],
+    "correct_answer": "B) Once data is loaded, it is not changed or deleted",
+    "explanation": "Non-volatile means that once data is loaded into the data warehouse, it is not changed or deleted. Only two operations are performed: initial loading and access (reading) of data."
+  },
+  {
+    "id": 40,
+    "topic": "Data Warehousing",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main purpose of an ODS (Operational Data Store)?",
+    "options": ["A) Long-term historical data storage", "B) Integration of data from multiple sources for operational reporting", "C) Replacing the data warehouse", "D) Storing only metadata"],
+    "correct_answer": "B) Integration of data from multiple sources for operational reporting",
+    "explanation": "An ODS (Operational Data Store) integrates data from multiple sources for operational reporting and decision making. It contains current or near-current data, unlike a data warehouse which stores historical data."
+  },
+  {
+    "id": 41,
+    "topic": "Data Warehousing",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In SCD Type 2, how are historical changes tracked?",
+    "options": ["A) By overwriting the existing record", "B) By adding a new column for each version", "C) By inserting a new row with effective date and expiry date columns", "D) By moving old records to an archive table"],
+    "correct_answer": "C) By inserting a new row with effective date and expiry date columns",
+    "explanation": "SCD Type 2 inserts a new row for each change, with start_date and end_date (or a current_flag) to track the history. The old row's end_date is updated to the change date."
+  },
+  {
+    "id": 42,
+    "topic": "Data Warehousing",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A fact table has 5 million rows. If you add a new dimension with 100 distinct values, what is the maximum number of rows the fact table could theoretically have after a full cross join?",
+    "options": ["A) 5,000,100", "B) 500,000,000", "C) 5,000,000", "D) 100,000"],
+    "correct_answer": "B) 500,000,000",
+    "explanation": "A cross join of 5,000,000 fact rows with 100 dimension values = 5,000,000 × 100 = 500,000,000 rows. This illustrates why proper joins (not cross joins) are used in practice."
+  },
+  {
+    "id": 43,
+    "topic": "Data Warehousing",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct order of steps in the ETL process?",
+    "options": ["A) Load → Transform → Extract", "B) Extract → Load → Transform", "C) Extract → Transform → Load", "D) Transform → Extract → Load"],
+    "correct_answer": "C) Extract → Transform → Load",
+    "explanation": "The correct order is Extract (pull data from sources) → Transform (clean, convert, aggregate data) → Load (insert into the data warehouse). This is the standard ETL pipeline."
+  },
+  {
+    "id": 44,
+    "topic": "Data Warehousing",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the key advantage of MOLAP over ROLAP?",
+    "options": ["A) Better scalability for large datasets", "B) Faster query performance due to pre-aggregated multidimensional storage", "C) Lower storage requirements", "D) Better support for ad-hoc queries on raw data"],
+    "correct_answer": "B) Faster query performance due to pre-aggregated multidimensional storage",
+    "explanation": "MOLAP pre-aggregates data and stores it in multidimensional arrays, resulting in faster query performance. However, it has limitations in scalability compared to ROLAP for very large datasets."
+  },
+  {
+    "id": 45,
+    "topic": "Data Warehousing",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A data warehouse has a Time dimension with levels: Year → Quarter → Month → Week → Day. If you are viewing data at the Month level and perform a drill-down, what level do you move to?",
+    "options": ["A) Year", "B) Quarter", "C) Week", "D) Day"],
+    "correct_answer": "C) Week",
+    "explanation": "Drill-down moves from a higher level to the next lower level in the hierarchy. From Month, the next lower level is Week. Drill-up (roll-up) would move from Month to Quarter."
+  },
+  {
+    "id": 46,
+    "topic": "Data Warehousing",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a 'Junk Dimension'?",
+    "options": ["A) A dimension with poor data quality", "B) A dimension combining low-cardinality flags and indicators into one table", "C) A dimension that is no longer used", "D) A dimension with too many attributes"],
+    "correct_answer": "B) A dimension combining low-cardinality flags and indicators into one table",
+    "explanation": "A Junk Dimension combines multiple low-cardinality flags, indicators, or codes (e.g., yes/no flags) into a single dimension table to avoid

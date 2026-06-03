@@ -1,0 +1,469 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the following passage and identify its central theme: 'Trees provide oxygen, prevent soil erosion, offer shelter to wildlife, and help maintain the water cycle. Cutting them down leads to floods, droughts, and loss of biodiversity.' What is the theme?",
+    "options": ["A) Importance of forests and conservation", "B) Causes of floods and droughts", "C) Wildlife protection laws", "D) Water cycle explanation"],
+    "correct_answer": "A) Importance of forests and conservation",
+    "explanation": "The passage highlights multiple benefits of trees and the consequences of deforestation, pointing to the central theme of forest conservation."
+  },
+  {
+    "id": 2,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Regular exercise reduces the risk of heart disease, controls weight, improves mental health, and increases life expectancy. A sedentary lifestyle leads to obesity and chronic illness.'",
+    "options": ["A) Diet and nutrition", "B) Benefits of physical activity", "C) Mental health awareness", "D) Medical treatments for obesity"],
+    "correct_answer": "B) Benefits of physical activity",
+    "explanation": "The passage consistently emphasizes how exercise benefits health and how inactivity harms it, making physical activity the central theme."
+  },
+  {
+    "id": 3,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Education empowers individuals to think critically, earn better livelihoods, and contribute to society. Nations with higher literacy rates tend to have stronger economies and lower crime rates.'",
+    "options": ["A) Crime prevention strategies", "B) Economic development policies", "C) Role and importance of education", "D) Literacy programs in rural areas"],
+    "correct_answer": "C) Role and importance of education",
+    "explanation": "The passage discusses how education benefits individuals and nations, making the importance of education the central theme."
+  },
+  {
+    "id": 4,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Plastic waste clogs rivers, harms marine life, and enters the food chain. Governments worldwide are banning single-use plastics to protect the environment.'",
+    "options": ["A) Government regulations", "B) Marine biology", "C) Plastic pollution and its impact", "D) Food safety standards"],
+    "correct_answer": "C) Plastic pollution and its impact",
+    "explanation": "The passage focuses on the harmful effects of plastic waste and efforts to reduce it, making plastic pollution the central theme."
+  },
+  {
+    "id": 5,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Social media connects people across the globe, enables information sharing, and supports businesses. However, it also spreads misinformation and affects mental health negatively.'",
+    "options": ["A) Internet safety", "B) Dual nature of social media", "C) Business marketing strategies", "D) Mental health disorders"],
+    "correct_answer": "B) Dual nature of social media",
+    "explanation": "The passage presents both positive and negative aspects of social media, indicating the theme is the dual nature of social media."
+  },
+  {
+    "id": 6,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Women who receive education are more likely to delay marriage, have fewer children, and raise healthier families. Educated women also participate more in the workforce and community decisions.'",
+    "options": ["A) Population control", "B) Women's empowerment through education", "C) Child health and nutrition", "D) Marriage customs"],
+    "correct_answer": "B) Women's empowerment through education",
+    "explanation": "The passage highlights how education transforms women's lives and roles, making women's empowerment through education the central theme."
+  },
+  {
+    "id": 7,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Renewable energy sources like solar and wind power reduce dependence on fossil fuels, lower carbon emissions, and create new jobs. They are key to combating climate change.'",
+    "options": ["A) Job creation in the energy sector", "B) Fossil fuel depletion", "C) Renewable energy as a solution to climate change", "D) Carbon tax policies"],
+    "correct_answer": "C) Renewable energy as a solution to climate change",
+    "explanation": "The passage emphasizes renewable energy's role in reducing emissions and fighting climate change, making it the central theme."
+  },
+  {
+    "id": 8,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Corruption erodes public trust, diverts resources from development, and weakens institutions. Countries with high corruption indices tend to have poor infrastructure and low human development.'",
+    "options": ["A) Infrastructure development", "B) Human development index", "C) Harmful effects of corruption", "D) Public trust in government"],
+    "correct_answer": "C) Harmful effects of corruption",
+    "explanation": "The passage consistently describes how corruption damages society and governance, making its harmful effects the central theme."
+  },
+  {
+    "id": 9,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Reading books enhances vocabulary, improves concentration, reduces stress, and stimulates imagination. Children who read regularly perform better academically.'",
+    "options": ["A) Academic performance of children", "B) Stress management techniques", "C) Benefits of reading", "D) Vocabulary building methods"],
+    "correct_answer": "C) Benefits of reading",
+    "explanation": "The passage lists multiple advantages of reading for both children and adults, making the benefits of reading the central theme."
+  },
+  {
+    "id": 10,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Water scarcity affects billions of people worldwide. Over-extraction of groundwater, pollution of rivers, and climate change are depleting freshwater resources at an alarming rate.'",
+    "options": ["A) Climate change effects", "B) River pollution", "C) Global water crisis", "D) Groundwater management"],
+    "correct_answer": "C) Global water crisis",
+    "explanation": "The passage discusses multiple causes contributing to water scarcity globally, making the global water crisis the central theme."
+  },
+  {
+    "id": 11,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Technology has transformed healthcare through telemedicine, AI diagnostics, robotic surgery, and electronic health records. Patients in remote areas now have access to specialist care.'",
+    "options": ["A) Artificial intelligence in daily life", "B) Technology revolutionizing healthcare", "C) Rural healthcare infrastructure", "D) Robotic surgery procedures"],
+    "correct_answer": "B) Technology revolutionizing healthcare",
+    "explanation": "The passage describes how various technologies are improving healthcare delivery, making technology's impact on healthcare the central theme."
+  },
+  {
+    "id": 12,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Child labor deprives children of education, exposes them to hazardous conditions, and perpetuates the cycle of poverty. Laws against child labor must be strictly enforced.'",
+    "options": ["A) Poverty alleviation programs", "B) Child labor and its consequences", "C) Education policy reforms", "D) Labor laws in developing countries"],
+    "correct_answer": "B) Child labor and its consequences",
+    "explanation": "The passage focuses on the harmful effects of child labor and the need to eliminate it, making child labor the central theme."
+  },
+  {
+    "id": 13,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Urbanization leads to better job opportunities, improved infrastructure, and access to services. However, it also causes overcrowding, pollution, and loss of agricultural land.'",
+    "options": ["A) Agricultural land preservation", "B) Job market in cities", "C) Pros and cons of urbanization", "D) Pollution control measures"],
+    "correct_answer": "C) Pros and cons of urbanization",
+    "explanation": "The passage presents both benefits and drawbacks of urbanization, making its dual impact the central theme."
+  },
+  {
+    "id": 14,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Yoga and meditation reduce anxiety, improve flexibility, enhance focus, and promote overall well-being. Ancient Indian practices are now embraced globally for their health benefits.'",
+    "options": ["A) Ancient Indian culture", "B) Global wellness trends", "C) Health benefits of yoga and meditation", "D) Anxiety treatment methods"],
+    "correct_answer": "C) Health benefits of yoga and meditation",
+    "explanation": "The passage highlights the physical and mental health benefits of yoga and meditation, making this the central theme."
+  },
+  {
+    "id": 15,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Fast food consumption has increased dramatically, leading to rising obesity rates, diabetes, and cardiovascular diseases. Nutritionists urge people to adopt balanced diets.'",
+    "options": ["A) Nutritionist recommendations", "B) Dangers of fast food and unhealthy eating", "C) Diabetes management", "D) Food industry growth"],
+    "correct_answer": "B) Dangers of fast food and unhealthy eating",
+    "explanation": "The passage links fast food consumption to health problems and advocates for better eating habits, making unhealthy eating the central theme."
+  },
+  {
+    "id": 16,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Space exploration has led to satellite technology, weather forecasting, GPS navigation, and medical advancements. Investment in space research benefits life on Earth.'",
+    "options": ["A) GPS technology development", "B) Medical research breakthroughs", "C) Benefits of space exploration", "D) Weather forecasting accuracy"],
+    "correct_answer": "C) Benefits of space exploration",
+    "explanation": "The passage describes how space exploration has produced practical benefits for humanity, making this the central theme."
+  },
+  {
+    "id": 17,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Domestic violence affects millions of families, causing physical and psychological trauma. Victims often remain silent due to fear, financial dependence, and social stigma.'",
+    "options": ["A) Financial independence for women", "B) Social stigma in communities", "C) Domestic violence and its impact", "D) Psychological trauma treatment"],
+    "correct_answer": "C) Domestic violence and its impact",
+    "explanation": "The passage focuses on the prevalence and effects of domestic violence and why victims stay silent, making domestic violence the central theme."
+  },
+  {
+    "id": 18,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Electric vehicles reduce air pollution, decrease dependence on oil, and have lower operating costs. Governments are offering subsidies to accelerate their adoption.'",
+    "options": ["A) Government subsidy policies", "B) Oil price fluctuations", "C) Electric vehicles and their advantages", "D) Air quality standards"],
+    "correct_answer": "C) Electric vehicles and their advantages",
+    "explanation": "The passage highlights the environmental and economic benefits of electric vehicles and government support for them, making EVs the central theme."
+  },
+  {
+    "id": 19,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Hunger and malnutrition affect over 800 million people globally. Food waste in developed nations contrasts sharply with food insecurity in developing countries.'",
+    "options": ["A) Food waste management", "B) Global hunger and food inequality", "C) Agricultural productivity", "D) Development aid programs"],
+    "correct_answer": "B) Global hunger and food inequality",
+    "explanation": "The passage contrasts food waste with food insecurity, highlighting the global problem of hunger and unequal food distribution."
+  },
+  {
+    "id": 20,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Mental health disorders are as serious as physical illnesses. Stigma prevents many from seeking help, leading to untreated conditions and reduced quality of life.'",
+    "options": ["A) Physical illness treatment", "B) Mental health awareness and stigma", "C) Quality of life improvement", "D) Healthcare system reforms"],
+    "correct_answer": "B) Mental health awareness and stigma",
+    "explanation": "The passage emphasizes the seriousness of mental health and how stigma prevents treatment, making mental health awareness the central theme."
+  },
+  {
+    "id": 21,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Climate change is causing rising sea levels, extreme weather events, and melting glaciers. Immediate global action is needed to reduce greenhouse gas emissions.'",
+    "options": ["A) Glacier preservation", "B) Extreme weather preparedness", "C) Urgency of addressing climate change", "D) Sea level monitoring"],
+    "correct_answer": "C) Urgency of addressing climate change",
+    "explanation": "The passage describes climate change impacts and calls for urgent action, making the urgency of addressing climate change the central theme."
+  },
+  {
+    "id": 22,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Entrepreneurship drives innovation, creates employment, and stimulates economic growth. Young entrepreneurs with creative ideas are transforming industries worldwide.'",
+    "options": ["A) Youth employment programs", "B) Industrial transformation", "C) Role of entrepreneurship in economic growth", "D) Innovation in technology"],
+    "correct_answer": "C) Role of entrepreneurship in economic growth",
+    "explanation": "The passage highlights how entrepreneurship contributes to innovation and economic development, making this the central theme."
+  },
+  {
+    "id": 23,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Drug addiction destroys families, leads to criminal behavior, and burdens healthcare systems. Rehabilitation programs offer hope for recovery and reintegration into society.'",
+    "options": ["A) Criminal justice reform", "B) Healthcare system burden", "C) Drug addiction and rehabilitation", "D) Family counseling services"],
+    "correct_answer": "C) Drug addiction and rehabilitation",
+    "explanation": "The passage discusses the destructive effects of drug addiction and the role of rehabilitation, making this the central theme."
+  },
+  {
+    "id": 24,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Biodiversity loss threatens ecosystem stability, reduces food security, and eliminates potential medical discoveries. Protecting endangered species is crucial for planetary health.'",
+    "options": ["A) Medical research from nature", "B) Food security challenges", "C) Biodiversity conservation", "D) Ecosystem management"],
+    "correct_answer": "C) Biodiversity conservation",
+    "explanation": "The passage emphasizes the importance of biodiversity and the need to protect it, making biodiversity conservation the central theme."
+  },
+  {
+    "id": 25,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Digital literacy is essential in the modern world. People who cannot use technology are excluded from job markets, banking services, and educational opportunities.'",
+    "options": ["A) Banking digitization", "B) Job market requirements", "C) Digital divide and importance of digital literacy", "D) Online education platforms"],
+    "correct_answer": "C) Digital divide and importance of digital literacy",
+    "explanation": "The passage highlights how lack of digital skills excludes people from modern opportunities, making digital literacy and the digital divide the central theme."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Overpopulation strains natural resources, increases pollution, and leads to unemployment. Family planning education and access to contraception are vital solutions.'",
+    "options": ["A) Unemployment solutions", "B) Natural resource management", "C) Overpopulation and its challenges", "D) Contraception awareness"],
+    "correct_answer": "C) Overpopulation and its challenges",
+    "explanation": "The passage discusses the problems caused by overpopulation and suggests solutions, making overpopulation the central theme."
+  },
+  {
+    "id": 27,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Volunteering builds community bonds, develops personal skills, and provides a sense of purpose. Organizations rely on volunteers to deliver essential services to vulnerable populations.'",
+    "options": ["A) Community service organizations", "B) Personal skill development", "C) Value and impact of volunteering", "D) Services for vulnerable populations"],
+    "correct_answer": "C) Value and impact of volunteering",
+    "explanation": "The passage highlights the benefits of volunteering for individuals and communities, making the value of volunteering the central theme."
+  },
+  {
+    "id": 28,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Air pollution from vehicles and industries causes respiratory diseases, reduces visibility, and damages crops. Clean air policies and emission standards are urgently needed.'",
+    "options": ["A) Crop damage from pollution", "B) Vehicle emission standards", "C) Air pollution and its consequences", "D) Respiratory disease treatment"],
+    "correct_answer": "C) Air pollution and its consequences",
+    "explanation": "The passage describes the harmful effects of air pollution and the need for clean air policies, making air pollution the central theme."
+  },
+  {
+    "id": 29,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Cybercrime is growing rapidly with hackers stealing personal data, disrupting businesses, and compromising national security. Stronger cybersecurity measures are essential.'",
+    "options": ["A) National security threats", "B) Business continuity planning", "C) Rise of cybercrime and need for cybersecurity", "D) Personal data protection laws"],
+    "correct_answer": "C) Rise of cybercrime and need for cybersecurity",
+    "explanation": "The passage discusses the growing threat of cybercrime and the need for better security, making cybercrime and cybersecurity the central theme."
+  },
+  {
+    "id": 30,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Aging populations in developed countries are straining pension systems, healthcare services, and labor markets. Policies must adapt to support elderly citizens effectively.'",
+    "options": ["A) Healthcare system reforms", "B) Labor market challenges", "C) Challenges of aging populations", "D) Pension fund management"],
+    "correct_answer": "C) Challenges of aging populations",
+    "explanation": "The passage focuses on the multiple challenges posed by aging demographics, making this the central theme."
+  },
+  {
+    "id": 31,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Organic farming avoids chemical pesticides, improves soil health, and produces nutritious food. Though more expensive, it is better for both human health and the environment.'",
+    "options": ["A) Food pricing policies", "B) Chemical pesticide dangers", "C) Benefits of organic farming", "D) Soil conservation techniques"],
+    "correct_answer": "C) Benefits of organic farming",
+    "explanation": "The passage highlights the health and environmental advantages of organic farming, making its benefits the central theme."
+  },
+  {
+    "id": 32,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Sports teach teamwork, discipline, and resilience. Athletes who compete at high levels develop mental toughness that benefits them in all areas of life.'",
+    "options": ["A) Athletic training methods", "B) Mental health in sports", "C) Life lessons from sports", "D) Competitive sports careers"],
+    "correct_answer": "C) Life lessons from sports",
+    "explanation": "The passage emphasizes the broader life skills gained through sports participation, making life lessons from sports the central theme."
+  },
+  {
+    "id": 33,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Noise pollution from traffic, construction, and industries causes hearing loss, sleep disorders, and increased stress levels. Urban planning must incorporate noise reduction strategies.'",
+    "options": ["A) Urban planning principles", "B) Sleep disorder treatments", "C) Noise pollution and its health effects", "D) Construction regulations"],
+    "correct_answer": "C) Noise pollution and its health effects",
+    "explanation": "The passage describes the health impacts of noise pollution and the need for solutions, making noise pollution the central theme."
+  },
+  {
+    "id": 34,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Microfinance programs provide small loans to entrepreneurs in developing countries, enabling them to start businesses, escape poverty, and improve their communities.'",
+    "options": ["A) Banking sector expansion", "B) Poverty reduction through microfinance", "C) Entrepreneurship in developing nations", "D) Community development programs"],
+    "correct_answer": "B) Poverty reduction through microfinance",
+    "explanation": "The passage focuses on how microfinance helps people escape poverty by enabling entrepreneurship, making poverty reduction through microfinance the central theme."
+  },
+  {
+    "id": 35,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Cultural diversity enriches societies by bringing different perspectives, traditions, and innovations. Multicultural nations tend to be more creative and adaptable.'",
+    "options": ["A) Immigration policies", "B) National identity formation", "C) Value of cultural diversity", "D) Traditional customs preservation"],
+    "correct_answer": "C) Value of cultural diversity",
+    "explanation": "The passage highlights the positive contributions of cultural diversity to society, making the value of cultural diversity the central theme."
+  },
+  {
+    "id": 36,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Deforestation for agriculture and urban expansion destroys habitats, contributes to climate change, and reduces rainfall. Reforestation efforts must be scaled up globally.'",
+    "options": ["A) Agricultural expansion policies", "B) Rainfall patterns and climate", "C) Deforestation and the need for reforestation", "D) Urban expansion planning"],
+    "correct_answer": "C) Deforestation and the need for reforestation",
+    "explanation": "The passage discusses the harmful effects of deforestation and advocates for reforestation, making this the central theme."
+  },
+  {
+    "id": 37,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Peer pressure influences teenagers to engage in risky behaviors like smoking, drinking, and reckless driving. Strong family bonds and self-confidence help resist negative influences.'",
+    "options": ["A) Teenage driving safety", "B) Family relationship building", "C) Peer pressure and its effects on teenagers", "D) Substance abuse prevention"],
+    "correct_answer": "C) Peer pressure and its effects on teenagers",
+    "explanation": "The passage focuses on how peer pressure affects teen behavior and how to resist it, making peer pressure the central theme."
+  },
+  {
+    "id": 38,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Artificial intelligence is automating repetitive tasks, improving efficiency, and enabling new discoveries in medicine and science. However, it also raises concerns about job displacement.'",
+    "options": ["A) Medical research advancements", "B) Job market automation concerns", "C) Impact of artificial intelligence on society", "D) Scientific discoveries through technology"],
+    "correct_answer": "C) Impact of artificial intelligence on society",
+    "explanation": "The passage discusses both the benefits and concerns of AI across multiple sectors, making AI's societal impact the central theme."
+  },
+  {
+    "id": 39,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the theme of: 'Sanitation and hygiene practices prevent the spread of diseases like cholera, typhoid, and diarrhea. Access to clean toilets and handwashing facilities saves millions of lives annually.'",
+    "options": ["A) Disease treatment protocols", "B) Water purification methods", "C) Importance of sanitation and hygiene", "D) Public health infrastructure"],
+    "correct_answer": "C) Importance of sanitation and hygiene",
+    "explanation": "The passage emphasizes how proper sanitation and hygiene prevent disease and save lives, making this the central theme."
+  },
+  {
+    "id": 40,
+    "topic": "Theme Detection",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the theme: 'Tourism boosts local economies, promotes cultural exchange, and creates employment. However, mass tourism can damage fragile ecosystems and erode local cultures.'",
+    "options": ["A) Cultural exchange programs", "B) Employment in hospitality", "C) Benefits and drawbacks of tourism", "D) Ecosystem protection policies"],
+    "correct_answer": "C) Benefits and drawbacks of tourism",
+    "explanation": "The passage presents both positive economic effects and negative environmental/cultural impacts of tourism, making its dual nature the central theme."
+  },
+  {
+    "id": 41,
+    "topic": "Theme Detection",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Read the passage and identify the theme: 'The right to vote is the cornerstone of democracy. When citizens are disenfranchised through literacy tests, poll taxes, or intimidation, the democratic process is undermined. Universal suffrage must be protected and expanded.'",
+    "options": ["A) Electoral reform mechanisms", "B) Sanctity of voting rights in democracy", "C) Literacy and civic education", "D) Political party systems"],
+    "correct_answer": "B) Sanctity of voting rights in democracy",
+    "explanation": "The passage argues that voting rights are fundamental to democracy and must be protected from suppression, making this the central theme."
+  },
+  {
+    "id": 42,
+    "topic": "Theme Detection",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the theme of: 'Judicial independence ensures that courts can make decisions based on law rather than political pressure. When judges fear retribution or seek favor, justice becomes a casualty of power.'",
+    "options": ["A) Political interference in governance", "B) Judicial independence as pillar of justice", "C) Court system reforms", "D) Legal education standards"],
+    "correct_answer": "B) Judicial independence as pillar of justice",
+    "explanation": "The passage emphasizes that judicial independence is essential for fair justice, making this the central theme."
+  },
+  {
+    "id": 43,
+    "topic": "Theme Detection",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Identify the theme: 'Subsidized food programs, free healthcare, and housing assistance are not charity but investments in human capital. A healthy, well-fed population is more productive and contributes more to national growth.'",
+    "options": ["A) Government expenditure management", "B) Social welfare as economic investment", "C) Healthcare system funding", "D) Housing policy reforms"],
+    "correct_answer": "B) Social welfare as economic investment",
+    "explanation": "The passage reframes social welfare programs as economic investments rather than charity, making this perspective the central theme."
+  },
+  {
+    "id": 44,
+    "topic": "Theme Detection",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the theme of: 'Tribal communities possess centuries of ecological knowledge about medicinal plants, sustainable farming, and weather patterns. Modernization threatens to erase this irreplaceable wisdom.'",
+    "options": ["A) Modernization and development", "B) Medicinal plant research", "C) Preservation of indigenous knowledge", "D) Sustainable farming practices"],
+    "correct_answer": "C) Preservation of indigenous knowledge",
+    "explanation": "The passage highlights the value of tribal ecological knowledge and the threat modernization poses to it, making preservation of indigenous knowledge the central theme."
+  },
+  {
+    "id": 45,
+    "topic": "Theme Detection",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Identify the theme: 'The gender pay gap persists across industries despite equal qualifications. Women are often passed over for promotions, assigned less prestigious projects, and expected to prioritize family over career.'",
+    "options": ["A) Family and work-life balance", "B) Corporate promotion policies", "C) Gender inequality in the workplace", "D) Qualification standards in hiring"],
+    "correct_answer": "C) Gender inequality in the workplace",
+    "explanation": "The passage describes multiple forms of workplace discrimination against women, making gender inequality in the workplace the central theme."
+  },
+  {
+    "id": 46,
+    "topic": "Theme Detection",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the theme of: 'Federalism distributes power between central and state governments, preventing concentration of authority. It allows regions to govern according to local needs while maintaining national unity.'",
+    "options": ["A) National unity and integration", "B) State government autonomy", "C) Federalism as a system of governance", "D) Constitutional law principles"],
+    "correct_answer": "C) Federalism as a system of governance",
+    "explanation": "The passage explains the structure and benefits of federalism, making federalism as a governance system the central theme."
+  },
+  {
+    "id": 47,
+    "topic": "Theme Detection",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Identify the theme: 'Refugee crises arise

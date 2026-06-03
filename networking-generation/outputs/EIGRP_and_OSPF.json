@@ -1,0 +1,481 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does EIGRP stand for?",
+    "options": ["A) Enhanced Interior Gateway Routing Protocol", "B) Extended Interior Gateway Routing Protocol", "C) Enhanced Internet Gateway Routing Protocol", "D) External Interior Gateway Routing Protocol"],
+    "correct_answer": "A) Enhanced Interior Gateway Routing Protocol",
+    "explanation": "EIGRP stands for Enhanced Interior Gateway Routing Protocol. It is a Cisco proprietary advanced distance-vector routing protocol."
+  },
+  {
+    "id": 2,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does OSPF stand for?",
+    "options": ["A) Open Shortest Path First", "B) Open System Path First", "C) Optimized Shortest Path First", "D) Open Shortest Protocol First"],
+    "correct_answer": "A) Open Shortest Path First",
+    "explanation": "OSPF stands for Open Shortest Path First. It is a link-state routing protocol defined in RFC 2328 for IPv4."
+  },
+  {
+    "id": 3,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of routing protocol is OSPF?",
+    "options": ["A) Distance-vector", "B) Link-state", "C) Path-vector", "D) Hybrid"],
+    "correct_answer": "B) Link-state",
+    "explanation": "OSPF is a link-state routing protocol. It uses the Dijkstra Shortest Path First (SPF) algorithm to calculate the best path."
+  },
+  {
+    "id": 4,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of routing protocol is EIGRP classified as?",
+    "options": ["A) Pure distance-vector", "B) Link-state", "C) Advanced distance-vector (Hybrid)", "D) Path-vector"],
+    "correct_answer": "C) Advanced distance-vector (Hybrid)",
+    "explanation": "EIGRP is classified as an advanced distance-vector or hybrid protocol. It combines features of both distance-vector and link-state protocols."
+  },
+  {
+    "id": 5,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default administrative distance of OSPF?",
+    "options": ["A) 90", "B) 100", "C) 110", "D) 120"],
+    "correct_answer": "C) 110",
+    "explanation": "The default administrative distance of OSPF is 110. Administrative distance is used to select the best path when multiple routing protocols provide routes to the same destination."
+  },
+  {
+    "id": 6,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default administrative distance of EIGRP (internal routes)?",
+    "options": ["A) 90", "B) 100", "C) 110", "D) 170"],
+    "correct_answer": "A) 90",
+    "explanation": "EIGRP internal routes have a default administrative distance of 90. External EIGRP routes have an administrative distance of 170."
+  },
+  {
+    "id": 7,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which algorithm does OSPF use to calculate the shortest path?",
+    "options": ["A) Bellman-Ford", "B) Dijkstra SPF", "C) DUAL", "D) Floyd-Warshall"],
+    "correct_answer": "B) Dijkstra SPF",
+    "explanation": "OSPF uses the Dijkstra Shortest Path First (SPF) algorithm to build a loop-free topology and calculate the best routes."
+  },
+  {
+    "id": 8,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which algorithm does EIGRP use to calculate loop-free paths?",
+    "options": ["A) Dijkstra SPF", "B) Bellman-Ford", "C) DUAL (Diffusing Update Algorithm)", "D) A* Algorithm"],
+    "correct_answer": "C) DUAL (Diffusing Update Algorithm)",
+    "explanation": "EIGRP uses the DUAL (Diffusing Update Algorithm) to guarantee loop-free paths and fast convergence."
+  },
+  {
+    "id": 9,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What metric does OSPF use to determine the best path?",
+    "options": ["A) Hop count", "B) Bandwidth and delay", "C) Cost (based on bandwidth)", "D) MTU"],
+    "correct_answer": "C) Cost (based on bandwidth)",
+    "explanation": "OSPF uses cost as its metric, which is calculated based on the bandwidth of the interface. Lower cost means a better path."
+  },
+  {
+    "id": 10,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the OSPF cost formula?",
+    "options": ["A) Cost = Bandwidth / 100", "B) Cost = 100,000,000 / Bandwidth (in bps)", "C) Cost = Bandwidth × Delay", "D) Cost = 1 / Bandwidth"],
+    "correct_answer": "B) Cost = 100,000,000 / Bandwidth (in bps)",
+    "explanation": "OSPF cost = 10^8 / Bandwidth (in bps). For a 100 Mbps link, cost = 100,000,000 / 100,000,000 = 1."
+  },
+  {
+    "id": 11,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the OSPF cost of a 10 Mbps Ethernet link?",
+    "options": ["A) 1", "B) 10", "C) 100", "D) 1000"],
+    "correct_answer": "B) 10",
+    "explanation": "OSPF cost = 10^8 / 10^7 = 10. A 10 Mbps link has a bandwidth of 10,000,000 bps, giving a cost of 10."
+  },
+  {
+    "id": 12,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which multicast address does OSPF use to communicate with all OSPF routers?",
+    "options": ["A) 224.0.0.5", "B) 224.0.0.9", "C) 224.0.0.10", "D) 255.255.255.255"],
+    "correct_answer": "A) 224.0.0.5",
+    "explanation": "OSPF uses 224.0.0.5 to communicate with all OSPF routers and 224.0.0.6 to communicate with Designated Routers (DR)."
+  },
+  {
+    "id": 13,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which multicast address does EIGRP use?",
+    "options": ["A) 224.0.0.5", "B) 224.0.0.9", "C) 224.0.0.10", "D) 224.0.0.1"],
+    "correct_answer": "C) 224.0.0.10",
+    "explanation": "EIGRP uses the multicast address 224.0.0.10 to send hello packets and routing updates to neighboring EIGRP routers."
+  },
+  {
+    "id": 14,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default OSPF hello interval on a broadcast network?",
+    "options": ["A) 5 seconds", "B) 10 seconds", "C) 30 seconds", "D) 60 seconds"],
+    "correct_answer": "B) 10 seconds",
+    "explanation": "The default OSPF hello interval on broadcast and point-to-point networks is 10 seconds. On NBMA networks, it is 30 seconds."
+  },
+  {
+    "id": 15,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default OSPF dead interval on a broadcast network?",
+    "options": ["A) 10 seconds", "B) 20 seconds", "C) 40 seconds", "D) 120 seconds"],
+    "correct_answer": "C) 40 seconds",
+    "explanation": "The default OSPF dead interval is 4 times the hello interval. On broadcast networks: 4 × 10 = 40 seconds."
+  },
+  {
+    "id": 16,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default EIGRP hello interval on a LAN interface?",
+    "options": ["A) 5 seconds", "B) 10 seconds", "C) 30 seconds", "D) 60 seconds"],
+    "correct_answer": "A) 5 seconds",
+    "explanation": "EIGRP sends hello packets every 5 seconds on high-bandwidth links (LAN). On low-bandwidth links, the default is 60 seconds."
+  },
+  {
+    "id": 17,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default EIGRP hold time on a LAN interface?",
+    "options": ["A) 5 seconds", "B) 10 seconds", "C) 15 seconds", "D) 30 seconds"],
+    "correct_answer": "C) 15 seconds",
+    "explanation": "EIGRP hold time is 3 times the hello interval. On LAN: 3 × 5 = 15 seconds. If no hello is received within hold time, the neighbor is declared down."
+  },
+  {
+    "id": 18,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol number does OSPF use?",
+    "options": ["A) 6", "B) 17", "C) 88", "D) 89"],
+    "correct_answer": "D) 89",
+    "explanation": "OSPF uses IP protocol number 89. It operates directly over IP, not over TCP or UDP."
+  },
+  {
+    "id": 19,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol number does EIGRP use?",
+    "options": ["A) 88", "B) 89", "C) 90", "D) 17"],
+    "correct_answer": "A) 88",
+    "explanation": "EIGRP uses IP protocol number 88. It operates directly over IP without using TCP or UDP."
+  },
+  {
+    "id": 20,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the backbone area number in OSPF?",
+    "options": ["A) Area 1", "B) Area 0", "C) Area 100", "D) Area 255"],
+    "correct_answer": "B) Area 0",
+    "explanation": "OSPF Area 0 is the backbone area. All other areas must connect to Area 0 either directly or through a virtual link."
+  },
+  {
+    "id": 21,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum hop count supported by EIGRP by default?",
+    "options": ["A) 15", "B) 100", "C) 255", "D) Unlimited"],
+    "correct_answer": "B) 100",
+    "explanation": "EIGRP supports a default maximum hop count of 100, which can be configured up to 255. RIP has a maximum of 15 hops."
+  },
+  {
+    "id": 22,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which company originally developed EIGRP?",
+    "options": ["A) Juniper Networks", "B) Cisco Systems", "C) IBM", "D) Microsoft"],
+    "correct_answer": "B) Cisco Systems",
+    "explanation": "EIGRP was originally developed by Cisco Systems as a proprietary protocol. It was later partially opened as an informational RFC (RFC 7868)."
+  },
+  {
+    "id": 23,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the term for the best route to a destination in EIGRP?",
+    "options": ["A) Backup route", "B) Feasible successor", "C) Successor", "D) Neighbor route"],
+    "correct_answer": "C) Successor",
+    "explanation": "In EIGRP, the successor is the primary route (best path) to a destination network. It is stored in the routing table."
+  },
+  {
+    "id": 24,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a feasible successor in EIGRP?",
+    "options": ["A) The primary best path to a destination", "B) A backup route that meets the feasibility condition", "C) A route learned from an external source", "D) A route with the highest metric"],
+    "correct_answer": "B) A backup route that meets the feasibility condition",
+    "explanation": "A feasible successor is a backup route in EIGRP that satisfies the feasibility condition (its reported distance < feasible distance of the successor)."
+  },
+  {
+    "id": 25,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of updates does EIGRP send (as opposed to periodic updates)?",
+    "options": ["A) Periodic full updates", "B) Partial and bounded updates", "C) Broadcast updates every 30 seconds", "D) Full table updates every 90 seconds"],
+    "correct_answer": "B) Partial and bounded updates",
+    "explanation": "EIGRP sends partial (only changed routes) and bounded (only to affected routers) updates, making it more efficient than distance-vector protocols."
+  },
+  {
+    "id": 26,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the OSPF router ID?",
+    "options": ["A) The MAC address of the router", "B) A 32-bit number that uniquely identifies an OSPF router", "C) The IP address of the default gateway", "D) The AS number of the router"],
+    "correct_answer": "B) A 32-bit number that uniquely identifies an OSPF router",
+    "explanation": "The OSPF Router ID is a 32-bit number (written in dotted decimal) that uniquely identifies each router in an OSPF domain."
+  },
+  {
+    "id": 27,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OSPF, what is a Link State Advertisement (LSA)?",
+    "options": ["A) A hello packet sent to discover neighbors", "B) A packet containing routing table information", "C) A message describing the router's local state and links", "D) An acknowledgment packet"],
+    "correct_answer": "C) A message describing the router's local state and links",
+    "explanation": "An LSA is a data structure that describes the local state of a router or network. OSPF routers flood LSAs to build a complete topology map."
+  },
+  {
+    "id": 28,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What database does OSPF maintain that contains all LSAs?",
+    "options": ["A) Routing table", "B) Neighbor table", "C) Link State Database (LSDB)", "D) Topology table"],
+    "correct_answer": "C) Link State Database (LSDB)",
+    "explanation": "OSPF maintains a Link State Database (LSDB) that contains all LSAs received. All routers in the same area have an identical LSDB."
+  },
+  {
+    "id": 29,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What are the three tables maintained by EIGRP?",
+    "options": ["A) Routing, ARP, MAC tables", "B) Neighbor, Topology, Routing tables", "C) Link-state, SPF, Routing tables", "D) Hello, Update, Query tables"],
+    "correct_answer": "B) Neighbor, Topology, Routing tables",
+    "explanation": "EIGRP maintains three tables: Neighbor table (adjacent routers), Topology table (all learned routes), and Routing table (best routes)."
+  },
+  {
+    "id": 30,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the OSPF cost of a 100 Mbps Fast Ethernet link?",
+    "options": ["A) 1", "B) 10", "C) 100", "D) 1000"],
+    "correct_answer": "A) 1",
+    "explanation": "OSPF cost = 10^8 / 10^8 = 1. A 100 Mbps link has bandwidth = 100,000,000 bps, so cost = 100,000,000 / 100,000,000 = 1."
+  },
+  {
+    "id": 31,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which OSPF packet type is used to discover and maintain neighbor relationships?",
+    "options": ["A) DBD (Database Description)", "B) LSR (Link State Request)", "C) Hello", "D) LSU (Link State Update)"],
+    "correct_answer": "C) Hello",
+    "explanation": "OSPF Hello packets are used to discover neighbors, establish adjacencies, and maintain neighbor relationships."
+  },
+  {
+    "id": 32,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DR stand for in OSPF?",
+    "options": ["A) Dynamic Router", "B) Designated Router", "C) Default Router", "D) Distributed Router"],
+    "correct_answer": "B) Designated Router",
+    "explanation": "DR stands for Designated Router. On multi-access networks, the DR reduces LSA flooding by acting as a central point for LSA distribution."
+  },
+  {
+    "id": 33,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does BDR stand for in OSPF?",
+    "options": ["A) Backup Designated Router", "B) Border Designated Router", "C) Basic Default Router", "D) Broadcast Designated Router"],
+    "correct_answer": "A) Backup Designated Router",
+    "explanation": "BDR stands for Backup Designated Router. It monitors the DR and takes over if the DR fails, ensuring network stability."
+  },
+  {
+    "id": 34,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which OSPF router type connects two different OSPF areas?",
+    "options": ["A) Internal Router", "B) Backbone Router", "C) Area Border Router (ABR)", "D) AS Boundary Router (ASBR)"],
+    "correct_answer": "C) Area Border Router (ABR)",
+    "explanation": "An ABR (Area Border Router) connects two or more OSPF areas and maintains separate LSDBs for each area it belongs to."
+  },
+  {
+    "id": 35,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the EIGRP autonomous system number range?",
+    "options": ["A) 1 to 65535", "B) 0 to 255", "C) 1 to 255", "D) 1 to 1024"],
+    "correct_answer": "A) 1 to 65535",
+    "explanation": "EIGRP autonomous system numbers range from 1 to 65535. Routers must be in the same AS to form EIGRP neighbor relationships."
+  },
+  {
+    "id": 36,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a metric used by EIGRP?",
+    "options": ["A) Bandwidth", "B) Delay", "C) Hop count", "D) Reliability"],
+    "correct_answer": "C) Hop count",
+    "explanation": "EIGRP uses bandwidth, delay, reliability, load, and MTU as metrics. Hop count is used by RIP, not EIGRP."
+  },
+  {
+    "id": 37,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the OSPF cost of a 1 Gbps link using the default reference bandwidth?",
+    "options": ["A) 1", "B) 0.1", "C) 10", "D) 100"],
+    "correct_answer": "A) 1",
+    "explanation": "OSPF cost = 10^8 / 10^9 = 0.1, but OSPF rounds down to 1 (minimum cost is 1). This is why the reference bandwidth should be adjusted for Gigabit links."
+  },
+  {
+    "id": 38,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the OSPF network type on a point-to-point serial link?",
+    "options": ["A) Broadcast", "B) Non-Broadcast Multi-Access (NBMA)", "C) Point-to-Point", "D) Point-to-Multipoint"],
+    "correct_answer": "C) Point-to-Point",
+    "explanation": "Serial links are classified as point-to-point network type in OSPF. No DR/BDR election occurs on point-to-point networks."
+  },
+  {
+    "id": 39,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the OSPF router priority used for?",
+    "options": ["A) Determining the best route metric", "B) Electing the DR and BDR", "C) Setting the hello interval", "D) Configuring the area ID"],
+    "correct_answer": "B) Electing the DR and BDR",
+    "explanation": "OSPF router priority (0-255) is used in DR/BDR elections. The router with the highest priority becomes DR. A priority of 0 means the router cannot become DR/BDR."
+  },
+  {
+    "id": 40,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which OSPF state indicates that two routers have fully exchanged routing information?",
+    "options": ["A) Init state", "B) 2-Way state", "C) Full state", "D) Exchange state"],
+    "correct_answer": "C) Full state",
+    "explanation": "The Full state in OSPF means two routers have fully synchronized their LSDBs and formed a complete adjacency. This is the desired final state."
+  },
+  {
+    "id": 41,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A router running OSPF has interfaces with costs 5, 10, and 15. What is the total cost of a path that uses all three interfaces?",
+    "options": ["A) 15", "B) 20", "C) 30", "D) 10"],
+    "correct_answer": "C) 30",
+    "explanation": "OSPF path cost is cumulative. Total cost = 5 + 10 + 15 = 30. OSPF selects the path with the lowest total cost."
+  },
+  {
+    "id": 42,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Router A has two paths to a destination: Path 1 costs 20 and Path 2 costs 30. OSPF will install which path in the routing table?",
+    "options": ["A) Path 2 (cost 30)", "B) Path 1 (cost 20)", "C) Both paths with equal load balancing", "D) Neither path"],
+    "correct_answer": "B) Path 1 (cost 20)",
+    "explanation": "OSPF selects the path with the lowest cost. Path 1 with cost 20 is preferred over Path 2 with cost 30."
+  },
+  {
+    "id": 43,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the EIGRP feasibility condition?",
+    "options": ["A) Reported Distance > Feasible Distance", "B) Reported Distance < Feasible Distance", "C) Reported Distance = Feasible Distance", "D) Reported Distance ≥ Feasible Distance"],
+    "correct_answer": "B) Reported Distance < Feasible Distance",
+    "explanation": "The feasibility condition states that a neighbor's Reported Distance (RD) must be less than the current Feasible Distance (FD) to qualify as a feasible successor."
+  },
+  {
+    "id": 44,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In EIGRP, what is the Feasible Distance (FD)?",
+    "options": ["A) The metric advertised by a neighbor", "B) The total metric from the local router to the destination", "C) The hop count to the destination", "D) The bandwidth of the outgoing interface"],
+    "correct_answer": "B) The total metric from the local router to the destination",
+    "explanation": "Feasible Distance (FD) is the best metric (lowest) from the local router to the destination network, including the link to the next-hop router."
+  },
+  {
+    "id": 45,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In EIGRP, what is the Reported Distance (RD)?",
+    "options": ["A) The metric from the local router to the destination", "B) The metric advertised by a neighbor to reach the destination", "C) The total path cost including all hops", "D) The delay of the outgoing interface"],
+    "correct_answer": "B) The metric advertised by a neighbor to reach the destination",
+    "explanation": "Reported Distance (RD), also called Advertised Distance (AD), is the metric that a neighboring router advertises to reach a destination network."
+  },
+  {
+    "id": 46,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "OSPF uses which multicast address to send updates to the Designated Router?",
+    "options": ["A) 224.0.0.5", "B) 224.0.0.6", "C) 224.0.0.10", "D) 224.0.0.9"],
+    "correct_answer": "B) 224.0.0.6",
+    "explanation": "OSPF uses 224.0.0.6 to send updates to the DR and BDR. All OSPF routers listen on 224.0.0.5, while DR/BDR also listen on 224.0.0.6."
+  },
+  {
+    "id": 47,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the default OSPF hello interval on an NBMA network?",
+    "options": ["A) 10 seconds", "B) 20 seconds", "C) 30 seconds", "D) 60 seconds"],
+    "correct_answer": "C) 30 seconds",
+    "explanation": "On NBMA (Non-Broadcast Multi-Access) networks like Frame Relay, the default OSPF hello interval is 30 seconds and dead interval is 120 seconds."
+  },
+  {
+    "id": 48,
+    "topic": "EIGRP and OSPF",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which OSPF LSA type is generated by an ABR to describe routes in other areas?",
+    "options": ["A) Type 1 (Router LSA)", "B) Type 2 (Network LSA)", "C) Type 3 (Summary LSA)", "D) Type 5 (AS External LSA)"],
+    "correct_answer": "C) Type 3 (Summary LSA)",
+    "explanation": "Type 3 LSAs (Summary LSAs) are generated by ABRs to advertise routes from one area to other

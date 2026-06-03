@@ -1,0 +1,1383 @@
+[
+  {
+    "id": 1,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I am happy today.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she was happy that day.",
+      "B) She said that she is happy today.",
+      "C) She told that she was happy today.",
+      "D) She said that I was happy that day."
+    ],
+    "correct_answer": "A) She said that she was happy that day.",
+    "explanation": "In indirect speech, 'said' remains 'said', 'I' changes to 'she', 'am' changes to 'was', and 'today' changes to 'that day'."
+  },
+  {
+    "id": 2,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I will go to school tomorrow.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he will go to school the next day.",
+      "B) He said that he would go to school the next day.",
+      "C) He said that he would go to school tomorrow.",
+      "D) He told that he will go to school tomorrow."
+    ],
+    "correct_answer": "B) He said that he would go to school the next day.",
+    "explanation": "'Will' changes to 'would' in indirect speech, and 'tomorrow' changes to 'the next day'. 'Said' remains 'said' when no object is present."
+  },
+  {
+    "id": 3,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said to me, \"You are my best friend.\" Change to Indirect Speech.",
+    "options": [
+      "A) She told me that I was her best friend.",
+      "B) She said to me that you were her best friend.",
+      "C) She told me that you are her best friend.",
+      "D) She said me that I was her best friend."
+    ],
+    "correct_answer": "A) She told me that I was her best friend.",
+    "explanation": "'Said to me' changes to 'told me', 'you' changes to 'I' (referring to the listener), and 'are' changes to 'was'."
+  },
+  {
+    "id": 4,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I have finished my homework.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he has finished his homework.",
+      "B) He said that he had finished his homework.",
+      "C) He told that he finished his homework.",
+      "D) He said that he have finished his homework."
+    ],
+    "correct_answer": "B) He said that he had finished his homework.",
+    "explanation": "Present perfect 'have finished' changes to past perfect 'had finished' in indirect speech. 'My' changes to 'his'."
+  },
+  {
+    "id": 5,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I was reading a book.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she was reading a book.",
+      "B) She said that she had been reading a book.",
+      "C) She said that she is reading a book.",
+      "D) She told that she was reading a book."
+    ],
+    "correct_answer": "B) She said that she had been reading a book.",
+    "explanation": "Past continuous 'was reading' changes to past perfect continuous 'had been reading' in indirect speech."
+  },
+  {
+    "id": 6,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Ram said to Sita, \"Please help me.\" Change to Indirect Speech.",
+    "options": [
+      "A) Ram requested Sita to help him.",
+      "B) Ram told Sita to please help him.",
+      "C) Ram said to Sita to help him.",
+      "D) Ram requested Sita that please help him."
+    ],
+    "correct_answer": "A) Ram requested Sita to help him.",
+    "explanation": "For requests with 'please', use 'requested' as the reporting verb and convert to infinitive form. 'Me' changes to 'him'."
+  },
+  {
+    "id": 7,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The teacher said, \"The earth revolves around the sun.\" Change to Indirect Speech.",
+    "options": [
+      "A) The teacher said that the earth revolved around the sun.",
+      "B) The teacher said that the earth revolves around the sun.",
+      "C) The teacher told that the earth had revolved around the sun.",
+      "D) The teacher said that the earth is revolving around the sun."
+    ],
+    "correct_answer": "B) The teacher said that the earth revolves around the sun.",
+    "explanation": "Universal truths and scientific facts do not change tense in indirect speech. The present tense 'revolves' remains unchanged."
+  },
+  {
+    "id": 8,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I can swim very well.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he can swim very well.",
+      "B) He said that he could swim very well.",
+      "C) He told that he can swim very well.",
+      "D) He said that he may swim very well."
+    ],
+    "correct_answer": "B) He said that he could swim very well.",
+    "explanation": "'Can' changes to 'could' in indirect speech when the reporting verb is in past tense."
+  },
+  {
+    "id": 9,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I may attend the party.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she may attend the party.",
+      "B) She said that she might attend the party.",
+      "C) She told that she may attend the party.",
+      "D) She said that she would attend the party."
+    ],
+    "correct_answer": "B) She said that she might attend the party.",
+    "explanation": "'May' changes to 'might' in indirect speech when the reporting verb is in past tense."
+  },
+  {
+    "id": 10,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said to her, \"Do you like coffee?\" Change to Indirect Speech.",
+    "options": [
+      "A) He asked her if she liked coffee.",
+      "B) He asked her that she liked coffee.",
+      "C) He said to her if she liked coffee.",
+      "D) He asked her whether she likes coffee."
+    ],
+    "correct_answer": "A) He asked her if she liked coffee.",
+    "explanation": "Yes/No questions use 'if' or 'whether' in indirect speech. 'Said to' changes to 'asked', and 'like' changes to 'liked'."
+  },
+  {
+    "id": 11,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"What is your name?\" Change to Indirect Speech.",
+    "options": [
+      "A) She asked what my name was.",
+      "B) She asked what was my name.",
+      "C) She asked what is my name.",
+      "D) She said what my name was."
+    ],
+    "correct_answer": "A) She asked what my name was.",
+    "explanation": "Wh-questions in indirect speech follow subject-verb order (not inverted). 'Is' changes to 'was' and 'your' changes to 'my'."
+  },
+  {
+    "id": 12,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The officer said to the soldier, \"Stand at ease.\" Change to Indirect Speech.",
+    "options": [
+      "A) The officer ordered the soldier to stand at ease.",
+      "B) The officer told the soldier stand at ease.",
+      "C) The officer said to the soldier to stand at ease.",
+      "D) The officer commanded the soldier that stand at ease."
+    ],
+    "correct_answer": "A) The officer ordered the soldier to stand at ease.",
+    "explanation": "Imperative sentences (commands) use 'ordered/commanded' as reporting verb and convert to infinitive form."
+  },
+  {
+    "id": 13,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I lived here two years ago.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she had lived there two years before.",
+      "B) She said that she lived there two years ago.",
+      "C) She said that she has lived there two years before.",
+      "D) She told that she lived here two years ago."
+    ],
+    "correct_answer": "A) She said that she had lived there two years before.",
+    "explanation": "Simple past 'lived' changes to past perfect 'had lived'. 'Here' changes to 'there' and 'ago' changes to 'before'."
+  },
+  {
+    "id": 14,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I am going to the market now.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he was going to the market then.",
+      "B) He said that he is going to the market now.",
+      "C) He told that he was going to the market now.",
+      "D) He said that he went to the market then."
+    ],
+    "correct_answer": "A) He said that he was going to the market then.",
+    "explanation": "Present continuous 'am going' changes to past continuous 'was going'. 'Now' changes to 'then'."
+  },
+  {
+    "id": 15,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said to him, \"Don't make noise.\" Change to Indirect Speech.",
+    "options": [
+      "A) She told him not to make noise.",
+      "B) She said to him not to make noise.",
+      "C) She told him don't make noise.",
+      "D) She requested him not to make noise."
+    ],
+    "correct_answer": "A) She told him not to make noise.",
+    "explanation": "Negative imperatives use 'told + not + to + verb'. 'Said to' changes to 'told' when an object is present."
+  },
+  {
+    "id": 16,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I must complete this task.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he must complete that task.",
+      "B) He said that he had to complete that task.",
+      "C) He said that he should complete that task.",
+      "D) He told that he must complete this task."
+    ],
+    "correct_answer": "B) He said that he had to complete that task.",
+    "explanation": "'Must' changes to 'had to' in indirect speech when expressing obligation. 'This' changes to 'that'."
+  },
+  {
+    "id": 17,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"How beautiful this flower is!\" Change to Indirect Speech.",
+    "options": [
+      "A) She exclaimed that the flower was very beautiful.",
+      "B) She said how beautiful that flower was.",
+      "C) She exclaimed how beautiful this flower is.",
+      "D) She told that the flower is very beautiful."
+    ],
+    "correct_answer": "A) She exclaimed that the flower was very beautiful.",
+    "explanation": "Exclamatory sentences use 'exclaimed' as reporting verb. 'How beautiful' is replaced by 'very beautiful' and 'this' changes to 'the'."
+  },
+  {
+    "id": 18,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"Hurrah! We have won the match.\" Change to Indirect Speech.",
+    "options": [
+      "A) He exclaimed with joy that they had won the match.",
+      "B) He said hurrah that they had won the match.",
+      "C) He exclaimed that they have won the match.",
+      "D) He told with joy that they won the match."
+    ],
+    "correct_answer": "A) He exclaimed with joy that they had won the match.",
+    "explanation": "'Hurrah' indicates joy, so use 'exclaimed with joy'. 'We' changes to 'they' and 'have won' changes to 'had won'."
+  },
+  {
+    "id": 19,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"Alas! I have lost my purse.\" Change to Indirect Speech.",
+    "options": [
+      "A) She exclaimed with sorrow that she had lost her purse.",
+      "B) She said alas that she had lost her purse.",
+      "C) She exclaimed with joy that she had lost her purse.",
+      "D) She told with sorrow that she lost her purse."
+    ],
+    "correct_answer": "A) She exclaimed with sorrow that she had lost her purse.",
+    "explanation": "'Alas' indicates sorrow/grief, so use 'exclaimed with sorrow'. 'My' changes to 'her' and 'have lost' changes to 'had lost'."
+  },
+  {
+    "id": 20,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said to me, \"Where do you live?\" Change to Indirect Speech.",
+    "options": [
+      "A) He asked me where I lived.",
+      "B) He asked me where do I live.",
+      "C) He said to me where I lived.",
+      "D) He asked me where did I live."
+    ],
+    "correct_answer": "A) He asked me where I lived.",
+    "explanation": "Wh-questions use 'asked' as reporting verb. The question form changes to statement form (subject before verb). 'You' changes to 'I'."
+  },
+  {
+    "id": 21,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I will be playing cricket tomorrow.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she would be playing cricket the next day.",
+      "B) She said that she will be playing cricket the next day.",
+      "C) She told that she would play cricket tomorrow.",
+      "D) She said that she would have played cricket the next day."
+    ],
+    "correct_answer": "A) She said that she would be playing cricket the next day.",
+    "explanation": "Future continuous 'will be playing' changes to 'would be playing'. 'Tomorrow' changes to 'the next day'."
+  },
+  {
+    "id": 22,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I had already eaten dinner.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he had already eaten dinner.",
+      "B) He said that he has already eaten dinner.",
+      "C) He told that he had already eaten dinner.",
+      "D) He said that he already ate dinner."
+    ],
+    "correct_answer": "A) He said that he had already eaten dinner.",
+    "explanation": "Past perfect 'had eaten' remains past perfect 'had eaten' in indirect speech — it does not change further."
+  },
+  {
+    "id": 23,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said to him, \"Are you feeling well?\" Change to Indirect Speech.",
+    "options": [
+      "A) She asked him if he was feeling well.",
+      "B) She asked him whether he is feeling well.",
+      "C) She said to him if he was feeling well.",
+      "D) She asked him that he was feeling well."
+    ],
+    "correct_answer": "A) She asked him if he was feeling well.",
+    "explanation": "Yes/No questions use 'if/whether'. 'Said to' becomes 'asked'. 'Are feeling' changes to 'was feeling' and 'you' changes to 'he'."
+  },
+  {
+    "id": 24,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I should study harder.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he should study harder.",
+      "B) He said that he shall study harder.",
+      "C) He told that he should study harder.",
+      "D) He said that he would study harder."
+    ],
+    "correct_answer": "A) He said that he should study harder.",
+    "explanation": "'Should' does not change in indirect speech. It remains 'should' regardless of the tense of the reporting verb."
+  },
+  {
+    "id": 25,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I bought this dress yesterday.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she had bought that dress the previous day.",
+      "B) She said that she bought that dress yesterday.",
+      "C) She told that she had bought this dress the previous day.",
+      "D) She said that she has bought that dress the previous day."
+    ],
+    "correct_answer": "A) She said that she had bought that dress the previous day.",
+    "explanation": "Simple past 'bought' changes to past perfect 'had bought'. 'This' changes to 'that' and 'yesterday' changes to 'the previous day'."
+  },
+  {
+    "id": 26,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said to her, \"I love you.\" Change to Indirect Speech.",
+    "options": [
+      "A) He told her that he loved her.",
+      "B) He said to her that he loved her.",
+      "C) He told her that I love you.",
+      "D) He said that he loved her."
+    ],
+    "correct_answer": "A) He told her that he loved her.",
+    "explanation": "'Said to her' changes to 'told her'. 'I' changes to 'he' and 'you' changes to 'her'. 'Love' changes to 'loved'."
+  },
+  {
+    "id": 27,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I will have completed the project by Monday.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she would have completed the project by Monday.",
+      "B) She said that she will have completed the project by Monday.",
+      "C) She told that she would complete the project by Monday.",
+      "D) She said that she had completed the project by Monday."
+    ],
+    "correct_answer": "A) She said that she would have completed the project by Monday.",
+    "explanation": "Future perfect 'will have completed' changes to 'would have completed' in indirect speech."
+  },
+  {
+    "id": 28,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I used to play football in school.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he used to play football in school.",
+      "B) He said that he had used to play football in school.",
+      "C) He told that he used to play football in school.",
+      "D) He said that he would play football in school."
+    ],
+    "correct_answer": "A) He said that he used to play football in school.",
+    "explanation": "'Used to' does not change in indirect speech. It remains 'used to' regardless of the reporting verb tense."
+  },
+  {
+    "id": 29,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said to me, \"Come here immediately.\" Change to Indirect Speech.",
+    "options": [
+      "A) She told me to go there immediately.",
+      "B) She said to me to come here immediately.",
+      "C) She ordered me to come here immediately.",
+      "D) She told me to come here immediately."
+    ],
+    "correct_answer": "A) She told me to go there immediately.",
+    "explanation": "'Come here' changes to 'go there' in indirect speech as the direction changes. 'Said to me' becomes 'told me'."
+  },
+  {
+    "id": 30,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I know the answer.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he knew the answer.",
+      "B) He said that he knows the answer.",
+      "C) He told that he knew the answer.",
+      "D) He said that he had known the answer."
+    ],
+    "correct_answer": "A) He said that he knew the answer.",
+    "explanation": "Simple present 'know' changes to simple past 'knew' in indirect speech when the reporting verb is past tense."
+  },
+  {
+    "id": 31,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I will not lie to you.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she would not lie to me.",
+      "B) She said that she will not lie to me.",
+      "C) She told that she would not lie to me.",
+      "D) She said that she would not lie to you."
+    ],
+    "correct_answer": "A) She said that she would not lie to me.",
+    "explanation": "'Will not' changes to 'would not'. 'You' changes to 'me' (referring to the listener/reporter)."
+  },
+  {
+    "id": 32,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said to his friend, \"Let us go for a walk.\" Change to Indirect Speech.",
+    "options": [
+      "A) He proposed to his friend that they should go for a walk.",
+      "B) He told his friend to go for a walk.",
+      "C) He said to his friend that let them go for a walk.",
+      "D) He suggested his friend to go for a walk."
+    ],
+    "correct_answer": "A) He proposed to his friend that they should go for a walk.",
+    "explanation": "'Let us' in direct speech becomes 'proposed/suggested that they should' in indirect speech."
+  },
+  {
+    "id": 33,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I have been working here for five years.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she had been working there for five years.",
+      "B) She said that she has been working there for five years.",
+      "C) She told that she had been working here for five years.",
+      "D) She said that she was working there for five years."
+    ],
+    "correct_answer": "A) She said that she had been working there for five years.",
+    "explanation": "Present perfect continuous 'have been working' changes to past perfect continuous 'had been working'. 'Here' changes to 'there'."
+  },
+  {
+    "id": 34,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I might visit Paris next year.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he might visit Paris the following year.",
+      "B) He said that he may visit Paris next year.",
+      "C) He told that he might visit Paris the following year.",
+      "D) He said that he would visit Paris the following year."
+    ],
+    "correct_answer": "A) He said that he might visit Paris the following year.",
+    "explanation": "'Might' does not change in indirect speech. 'Next year' changes to 'the following year'."
+  },
+  {
+    "id": 35,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said to me, \"Thank you for your help.\" Change to Indirect Speech.",
+    "options": [
+      "A) She thanked me for my help.",
+      "B) She told me thank you for my help.",
+      "C) She said to me that she thanked me for my help.",
+      "D) She expressed thanks to me for my help."
+    ],
+    "correct_answer": "A) She thanked me for my help.",
+    "explanation": "Expressions of gratitude like 'thank you' are converted using 'thanked' as the reporting verb."
+  },
+  {
+    "id": 36,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I was born in Delhi.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he had been born in Delhi.",
+      "B) He said that he was born in Delhi.",
+      "C) He told that he was born in Delhi.",
+      "D) He said that he is born in Delhi."
+    ],
+    "correct_answer": "A) He said that he had been born in Delhi.",
+    "explanation": "Simple past 'was born' changes to past perfect 'had been born' in indirect speech."
+  },
+  {
+    "id": 37,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I would like some tea.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she would like some tea.",
+      "B) She said that she will like some tea.",
+      "C) She told that she would like some tea.",
+      "D) She said that she liked some tea."
+    ],
+    "correct_answer": "A) She said that she would like some tea.",
+    "explanation": "'Would' does not change in indirect speech. It remains 'would' as it is already a past modal."
+  },
+  {
+    "id": 38,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said to me, \"I am sorry for the mistake.\" Change to Indirect Speech.",
+    "options": [
+      "A) He apologized to me for the mistake.",
+      "B) He told me that he was sorry for the mistake.",
+      "C) He said to me that he was sorry for the mistake.",
+      "D) Both A and B are correct."
+    ],
+    "correct_answer": "D) Both A and B are correct.",
+    "explanation": "Apologies can be reported as 'apologized to me for the mistake' or 'told me that he was sorry for the mistake'. Both are grammatically correct."
+  },
+  {
+    "id": 39,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She said, \"I go to the gym every day.\" Change to Indirect Speech.",
+    "options": [
+      "A) She said that she went to the gym every day.",
+      "B) She said that she goes to the gym every day.",
+      "C) She told that she went to the gym every day.",
+      "D) She said that she had gone to the gym every day."
+    ],
+    "correct_answer": "A) She said that she went to the gym every day.",
+    "explanation": "Simple present 'go' changes to simple past 'went'. 'Every day' remains unchanged as it is a habitual expression."
+  },
+  {
+    "id": 40,
+    "topic": "Change of Speech",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He said, \"I cannot solve this problem.\" Change to Indirect Speech.",
+    "options": [
+      "A) He said that he could not solve that problem.",
+      "B) He said that he cannot solve that problem.",
+      "C) He told that he could not solve this problem.",
+      "D) He said that he would not solve that problem."
+    ],
+    "correct_answer": "A) He said that he could not solve that problem.",
+    "explanation": "'Cannot' changes to 'could not' in indirect speech. 'This' changes to 'that'."
+  },
+  {
+    "id": 41,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "He said to me, \"I have been waiting for you since morning.\" Change to Indirect Speech.",
+    "options": [
+      "A) He told me that he had been waiting for me since morning.",
+      "B) He told me that he has been waiting for me since morning.",
+      "C) He said to me that he had been waiting for me since morning.",
+      "D) He told me that he was waiting for me since morning."
+    ],
+    "correct_answer": "A) He told me that he had been waiting for me since morning.",
+    "explanation": "Present perfect continuous 'have been waiting' changes to past perfect continuous 'had been waiting'. 'You' changes to 'me'. 'Said to me' becomes 'told me'."
+  },
+  {
+    "id": 42,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"What a wonderful performance it was!\" Change to Indirect Speech.",
+    "options": [
+      "A) She exclaimed that it had been a very wonderful performance.",
+      "B) She exclaimed with wonder that it was a wonderful performance.",
+      "C) She exclaimed that it was a wonderful performance.",
+      "D) She said what a wonderful performance it was."
+    ],
+    "correct_answer": "A) She exclaimed that it had been a very wonderful performance.",
+    "explanation": "Exclamatory sentences with 'What a' are converted using 'exclaimed that' and 'very' replaces 'what a'. Past tense shifts accordingly."
+  },
+  {
+    "id": 43,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The doctor said to the patient, \"Take this medicine twice a day.\" Change to Indirect Speech.",
+    "options": [
+      "A) The doctor advised the patient to take that medicine twice a day.",
+      "B) The doctor told the patient to take this medicine twice a day.",
+      "C) The doctor said to the patient to take that medicine twice a day.",
+      "D) The doctor ordered the patient to take that medicine twice a day."
+    ],
+    "correct_answer": "A) The doctor advised the patient to take that medicine twice a day.",
+    "explanation": "When a doctor gives instructions, 'advised' is the appropriate reporting verb. 'This' changes to 'that'."
+  },
+  {
+    "id": 52,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 53,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 54,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "government",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 55,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 56,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 57,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 58,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 59,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 60,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "government",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 61,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 62,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 63,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 64,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 65,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 66,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "government",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 67,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 68,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 69,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 70,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 71,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 72,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "government",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 73,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 74,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 75,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 76,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 77,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 78,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "government",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 79,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 80,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 81,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 82,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 83,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 84,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "government",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 85,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 86,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 87,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 88,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 89,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 90,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "government",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 91,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 92,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 93,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 94,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 95,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 96,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "government",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 97,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  },
+  {
+    "id": 98,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She said, \"I cannot attend the meeting today.\"",
+    "options": [
+      "A) She said that she could not attend the meeting that day.",
+      "B) She said that she cannot attend the meeting today.",
+      "C) She told that she could not attend the meeting today.",
+      "D) She said that she would not attend the meeting that day."
+    ],
+    "correct_answer": "A) She said that she could not attend the meeting that day.",
+    "explanation": "'Cannot' changes to 'could not' and 'today' changes to 'that day' in indirect speech."
+  },
+  {
+    "id": 99,
+    "topic": "Change of Speech",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "The officer said, \"Everyone must follow the rules.\"",
+    "options": [
+      "A) The officer said that everyone had to follow the rules.",
+      "B) The officer said that everyone must follow the rules.",
+      "C) The officer told that everyone had followed the rules.",
+      "D) The officer ordered everyone follow the rules."
+    ],
+    "correct_answer": "A) The officer said that everyone had to follow the rules.",
+    "explanation": "'Must' changes to 'had to' when expressing obligation in indirect speech."
+  },
+  {
+    "id": 100,
+    "topic": "Change of Speech",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The manager said to the staff, \"Submit the report by evening.\"",
+    "options": [
+      "A) The manager instructed the staff to submit the report by evening.",
+      "B) The manager said the staff submit the report by evening.",
+      "C) The manager told that the staff submit the report by evening.",
+      "D) The manager requested that the staff submitted the report."
+    ],
+    "correct_answer": "A) The manager instructed the staff to submit the report by evening.",
+    "explanation": "Imperative sentences in indirect speech use reporting verbs like 'instructed' followed by infinitive form."
+  }
+
+]

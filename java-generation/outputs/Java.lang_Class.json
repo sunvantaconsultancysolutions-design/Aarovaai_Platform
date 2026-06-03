@@ -1,0 +1,508 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which package is automatically imported in every Java program?",
+    "options": ["A) java.util", "B) java.lang", "C) java.io", "D) java.net"],
+    "correct_answer": "B) java.lang",
+    "explanation": "java.lang is the default package automatically imported by the Java compiler into every Java program. It contains fundamental classes like String, Math, Object, etc."
+  },
+  {
+    "id": 2,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the return type of Math.abs(-15) in Java?",
+    "options": ["A) -15", "B) 15", "C) 0", "D) 1"],
+    "correct_answer": "B) 15",
+    "explanation": "Math.abs() returns the absolute value of the argument. Math.abs(-15) returns 15 because the absolute value of -15 is 15."
+  },
+  {
+    "id": 3,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of the String class returns the length of a string?",
+    "options": ["A) size()", "B) length()", "C) count()", "D) getLength()"],
+    "correct_answer": "B) length()",
+    "explanation": "The length() method of the String class returns the number of characters in the string. It is not length (a field used in arrays) but length() (a method for strings)."
+  },
+  {
+    "id": 4,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does System.out.println(Integer.MAX_VALUE) print?",
+    "options": ["A) 2147483647", "B) 2147483648", "C) 9223372036854775807", "D) 32767"],
+    "correct_answer": "A) 2147483647",
+    "explanation": "Integer.MAX_VALUE is 2^31 - 1 = 2147483647. This is the maximum value an int can hold in Java."
+  },
+  {
+    "id": 5,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Math.max(10, 20)?",
+    "options": ["A) 10", "B) 20", "C) 30", "D) 15"],
+    "correct_answer": "B) 20",
+    "explanation": "Math.max() returns the greater of two values. Between 10 and 20, the maximum is 20."
+  },
+  {
+    "id": 6,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class in java.lang is the superclass of all Java classes?",
+    "options": ["A) Class", "B) System", "C) Object", "D) String"],
+    "correct_answer": "C) Object",
+    "explanation": "java.lang.Object is the root class of the Java class hierarchy. Every class in Java implicitly extends Object if no other superclass is specified."
+  },
+  {
+    "id": 7,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of String.valueOf(42)?",
+    "options": ["A) 42 (int)", "B) \"42\" (String)", "C) 42.0", "D) Compilation error"],
+    "correct_answer": "B) \"42\" (String)",
+    "explanation": "String.valueOf(int) converts the integer argument to its String representation. String.valueOf(42) returns the String \"42\"."
+  },
+  {
+    "id": 8,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does Math.sqrt(144) return?",
+    "options": ["A) 12.0", "B) 12", "C) 144.0", "D) 11.0"],
+    "correct_answer": "A) 12.0",
+    "explanation": "Math.sqrt() returns a double. The square root of 144 is 12, returned as 12.0 (double type)."
+  },
+  {
+    "id": 9,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method converts a String to an integer in Java?",
+    "options": ["A) Integer.toInt()", "B) Integer.parseInt()", "C) Integer.convert()", "D) String.toInteger()"],
+    "correct_answer": "B) Integer.parseInt()",
+    "explanation": "Integer.parseInt(String) is the standard method to convert a String to a primitive int. For example, Integer.parseInt(\"42\") returns 42."
+  },
+  {
+    "id": 10,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of 'Hello'.toUpperCase() in Java?",
+    "options": ["A) hello", "B) HELLO", "C) Hello", "D) hELLO"],
+    "correct_answer": "B) HELLO",
+    "explanation": "The toUpperCase() method of String converts all characters to uppercase. 'Hello' becomes 'HELLO'."
+  },
+  {
+    "id": 11,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a wrapper class in java.lang?",
+    "options": ["A) Integer", "B) Double", "C) String", "D) Boolean"],
+    "correct_answer": "C) String",
+    "explanation": "String is not a wrapper class; it is a class that represents a sequence of characters. Wrapper classes wrap primitive types: Integer wraps int, Double wraps double, Boolean wraps boolean."
+  },
+  {
+    "id": 12,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does Math.floor(4.9) return?",
+    "options": ["A) 5.0", "B) 4.0", "C) 4.9", "D) 4"],
+    "correct_answer": "B) 4.0",
+    "explanation": "Math.floor() returns the largest double value that is less than or equal to the argument. Math.floor(4.9) returns 4.0."
+  },
+  {
+    "id": 13,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Integer.toBinaryString(8)?",
+    "options": ["A) \"1000\"", "B) \"1010\"", "C) \"0008\"", "D) \"8\""],
+    "correct_answer": "A) \"1000\"",
+    "explanation": "Integer.toBinaryString() converts an integer to its binary string representation. 8 in binary is 1000."
+  },
+  {
+    "id": 14,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of the Object class returns a string representation of an object?",
+    "options": ["A) print()", "B) display()", "C) toString()", "D) getString()"],
+    "correct_answer": "C) toString()",
+    "explanation": "The toString() method defined in java.lang.Object returns a string representation of the object. It can be overridden in subclasses for custom output."
+  },
+  {
+    "id": 15,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Math.ceil(3.2)?",
+    "options": ["A) 3.0", "B) 4.0", "C) 3.2", "D) 3"],
+    "correct_answer": "B) 4.0",
+    "explanation": "Math.ceil() returns the smallest double value that is greater than or equal to the argument. Math.ceil(3.2) returns 4.0."
+  },
+  {
+    "id": 16,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Java'.charAt(2) return?",
+    "options": ["A) 'J'", "B) 'a'", "C) 'v'", "D) 'A'"],
+    "correct_answer": "C) 'v'",
+    "explanation": "charAt(index) returns the character at the specified index. 'Java' has J(0), a(1), v(2), a(3). So charAt(2) returns 'v'."
+  },
+  {
+    "id": 17,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class provides the System.out.println() method?",
+    "options": ["A) java.lang.Math", "B) java.lang.System", "C) java.lang.Object", "D) java.lang.String"],
+    "correct_answer": "B) java.lang.System",
+    "explanation": "System is a class in java.lang. System.out is a PrintStream object, and println() is a method of PrintStream. The System class provides standard input, output, and error streams."
+  },
+  {
+    "id": 18,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of Integer.parseInt(\"FF\", 16)?",
+    "options": ["A) 255", "B) 256", "C) 15", "D) 16"],
+    "correct_answer": "A) 255",
+    "explanation": "Integer.parseInt(String, radix) parses the string in the given base. \"FF\" in hexadecimal (base 16) = 15*16 + 15 = 255."
+  },
+  {
+    "id": 19,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the String method trim() do?",
+    "options": ["A) Removes all spaces", "B) Removes leading and trailing whitespace", "C) Converts to lowercase", "D) Removes middle spaces"],
+    "correct_answer": "B) Removes leading and trailing whitespace",
+    "explanation": "The trim() method removes leading and trailing whitespace from a String. It does not remove spaces within the string."
+  },
+  {
+    "id": 20,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Math.pow(2, 10)?",
+    "options": ["A) 1024.0", "B) 20.0", "C) 512.0", "D) 1024"],
+    "correct_answer": "A) 1024.0",
+    "explanation": "Math.pow(base, exponent) returns base raised to the power of exponent as a double. 2^10 = 1024, returned as 1024.0."
+  },
+  {
+    "id": 21,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method checks if two strings have the same content in Java?",
+    "options": ["A) ==", "B) equals()", "C) compareTo()", "D) same()"],
+    "correct_answer": "B) equals()",
+    "explanation": "The equals() method compares the content of two strings. The == operator compares object references, not content. equals() is the correct way to compare string values."
+  },
+  {
+    "id": 22,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Integer.MIN_VALUE?",
+    "options": ["A) -2147483647", "B) -2147483648", "C) -2147483649", "D) 0"],
+    "correct_answer": "B) -2147483648",
+    "explanation": "Integer.MIN_VALUE is -2^31 = -2147483648. This is the minimum value an int can hold in Java."
+  },
+  {
+    "id": 23,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Hello World'.substring(6) return?",
+    "options": ["A) \"Hello\"", "B) \"World\"", "C) \" World\"", "D) \"Hello W\""],
+    "correct_answer": "B) \"World\"",
+    "explanation": "substring(beginIndex) returns the substring from beginIndex to the end. Index 6 in 'Hello World' is 'W', so it returns 'World'."
+  },
+  {
+    "id": 24,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method in java.lang.Math returns a random number between 0.0 and 1.0?",
+    "options": ["A) Math.rand()", "B) Math.random()", "C) Math.randomize()", "D) Math.getRandom()"],
+    "correct_answer": "B) Math.random()",
+    "explanation": "Math.random() returns a double value greater than or equal to 0.0 and less than 1.0. It is a static method of the Math class."
+  },
+  {
+    "id": 25,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Boolean.parseBoolean(\"true\")?",
+    "options": ["A) 1", "B) true", "C) \"true\"", "D) TRUE"],
+    "correct_answer": "B) true",
+    "explanation": "Boolean.parseBoolean(String) returns true if the string argument is not null and equals \"true\" (case-insensitive). It returns the primitive boolean value true."
+  },
+  {
+    "id": 26,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'JAVA'.toLowerCase() return?",
+    "options": ["A) \"JAVA\"", "B) \"java\"", "C) \"Java\"", "D) \"jAVA\""],
+    "correct_answer": "B) \"java\"",
+    "explanation": "The toLowerCase() method converts all characters in the string to lowercase. 'JAVA' becomes 'java'."
+  },
+  {
+    "id": 27,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a final class in java.lang?",
+    "options": ["A) Object", "B) Number", "C) String", "D) Thread"],
+    "correct_answer": "C) String",
+    "explanation": "String is declared as a final class in java.lang, meaning it cannot be subclassed. This ensures immutability and security of String objects."
+  },
+  {
+    "id": 28,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Math.min(5, 3)?",
+    "options": ["A) 5", "B) 3", "C) 8", "D) 2"],
+    "correct_answer": "B) 3",
+    "explanation": "Math.min() returns the smaller of two values. Between 5 and 3, the minimum is 3."
+  },
+  {
+    "id": 29,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Hello'.indexOf('l') return?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "correct_answer": "B) 2",
+    "explanation": "indexOf() returns the index of the first occurrence of the character. In 'Hello': H(0), e(1), l(2), l(3), o(4). The first 'l' is at index 2."
+  },
+  {
+    "id": 30,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Integer.toHexString(255)?",
+    "options": ["A) \"FF\"", "B) \"ff\"", "C) \"255\"", "D) \"0xFF\""],
+    "correct_answer": "B) \"ff\"",
+    "explanation": "Integer.toHexString() converts an integer to its hexadecimal string representation in lowercase. 255 in hex is ff (lowercase)."
+  },
+  {
+    "id": 31,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which interface does the String class implement?",
+    "options": ["A) Serializable only", "B) Comparable only", "C) Serializable, Comparable, CharSequence", "D) Cloneable"],
+    "correct_answer": "C) Serializable, Comparable, CharSequence",
+    "explanation": "The String class implements Serializable, Comparable<String>, and CharSequence interfaces. This allows strings to be serialized, compared, and used as character sequences."
+  },
+  {
+    "id": 32,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of 'Hello'.replace('l', 'r')?",
+    "options": ["A) \"Herro\"", "B) \"Herlo\"", "C) \"Hello\"", "D) \"Helo\""],
+    "correct_answer": "A) \"Herro\"",
+    "explanation": "replace(oldChar, newChar) replaces all occurrences of oldChar with newChar. Both 'l' characters in 'Hello' are replaced with 'r', giving 'Herro'."
+  },
+  {
+    "id": 33,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does Double.parseDouble(\"3.14\") return?",
+    "options": ["A) 3 (int)", "B) 3.14 (double)", "C) \"3.14\" (String)", "D) 3.1 (float)"],
+    "correct_answer": "B) 3.14 (double)",
+    "explanation": "Double.parseDouble(String) converts a String to a primitive double. \"3.14\" is parsed and returned as the double value 3.14."
+  },
+  {
+    "id": 34,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of Math.PI in Java?",
+    "options": ["A) 3.14", "B) 3.14159", "C) 3.141592653589793", "D) 3.1416"],
+    "correct_answer": "C) 3.141592653589793",
+    "explanation": "Math.PI is a static final double constant in java.lang.Math with the value 3.141592653589793, representing the mathematical constant π."
+  },
+  {
+    "id": 35,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Java Programming'.contains(\"Java\") return?",
+    "options": ["A) false", "B) true", "C) 0", "D) 1"],
+    "correct_answer": "B) true",
+    "explanation": "The contains() method returns true if the string contains the specified sequence of characters. 'Java Programming' does contain 'Java', so it returns true."
+  },
+  {
+    "id": 36,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of the String class splits a string into an array?",
+    "options": ["A) divide()", "B) split()", "C) separate()", "D) tokenize()"],
+    "correct_answer": "B) split()",
+    "explanation": "The split(String regex) method splits the string around matches of the given regular expression and returns a String array."
+  },
+  {
+    "id": 37,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Math.abs(-3.7)?",
+    "options": ["A) -3.7", "B) 3.7", "C) 4.0", "D) 3.0"],
+    "correct_answer": "B) 3.7",
+    "explanation": "Math.abs() returns the absolute value. Math.abs(-3.7) returns 3.7 as a double value."
+  },
+  {
+    "id": 38,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Hello'.startsWith(\"He\") return?",
+    "options": ["A) false", "B) true", "C) 0", "D) Compilation error"],
+    "correct_answer": "B) true",
+    "explanation": "startsWith(String prefix) returns true if the string starts with the specified prefix. 'Hello' starts with 'He', so it returns true."
+  },
+  {
+    "id": 39,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of Integer.valueOf(\"100\")?",
+    "options": ["A) 100 (int)", "B) Integer object with value 100", "C) \"100\" (String)", "D) 100.0 (double)"],
+    "correct_answer": "B) Integer object with value 100",
+    "explanation": "Integer.valueOf(String) returns an Integer object (not primitive int) holding the value represented by the string argument. It returns a boxed Integer."
+  },
+  {
+    "id": 40,
+    "topic": "Java.lang Class",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Hello World'.endsWith(\"World\") return?",
+    "options": ["A) false", "B) true", "C) -1", "D) 1"],
+    "correct_answer": "B) true",
+    "explanation": "endsWith(String suffix) returns true if the string ends with the specified suffix. 'Hello World' ends with 'World', so it returns true."
+  },
+  {
+    "id": 41,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nString s = \"Hello\";\nSystem.out.println(s.hashCode());",
+    "options": ["A) A memory address", "B) 69609650", "C) 0", "D) Compilation error"],
+    "correct_answer": "B) 69609650",
+    "explanation": "String.hashCode() computes hash using s[0]*31^(n-1) + s[1]*31^(n-2) + ... For 'Hello': H(72)*31^4 + e(101)*31^3 + l(108)*31^2 + l(108)*31 + o(111) = 69609650."
+  },
+  {
+    "id": 42,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nSystem.out.println(Math.round(4.5));\nSystem.out.println(Math.round(-4.5));",
+    "options": ["A) 5 and -5", "B) 5 and -4", "C) 4 and -4", "D) 4 and -5"],
+    "correct_answer": "B) 5 and -4",
+    "explanation": "Math.round() adds 0.5 and floors. Math.round(4.5) = floor(5.0) = 5. Math.round(-4.5) = floor(-4.0) = -4. Negative half-values round toward positive infinity."
+  },
+  {
+    "id": 43,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What happens when you call Integer.parseInt(\"123abc\")?",
+    "options": ["A) Returns 123", "B) Returns 0", "C) Throws NumberFormatException", "D) Returns NaN"],
+    "correct_answer": "C) Throws NumberFormatException",
+    "explanation": "Integer.parseInt() throws NumberFormatException if the string does not contain a parsable integer. \"123abc\" contains non-numeric characters, causing the exception."
+  },
+  {
+    "id": 44,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nString s1 = new String(\"Java\");\nString s2 = new String(\"Java\");\nSystem.out.println(s1 == s2);\nSystem.out.println(s1.equals(s2));",
+    "options": ["A) true, true", "B) false, false", "C) false, true", "D) true, false"],
+    "correct_answer": "C) false, true",
+    "explanation": "new String() creates new objects on the heap. s1 == s2 compares references (different objects = false). s1.equals(s2) compares content ('Java' == 'Java' = true)."
+  },
+  {
+    "id": 45,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of Math.log(Math.E)?",
+    "options": ["A) 0.0", "B) 1.0", "C) 2.718", "D) Math.E"],
+    "correct_answer": "B) 1.0",
+    "explanation": "Math.log() computes the natural logarithm (base e). log_e(e) = 1. Math.E is Euler's number (≈2.718), so Math.log(Math.E) = 1.0."
+  },
+  {
+    "id": 46,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nSystem.out.println(Integer.bitCount(15));",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 8"],
+    "correct_answer": "C) 4",
+    "explanation": "Integer.bitCount() returns the number of 1-bits in the binary representation. 15 in binary is 1111, which has 4 set bits."
+  },
+  {
+    "id": 47,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nString s = \"Hello World\";\nSystem.out.println(s.substring(0, 5));",
+    "options": ["A) \"Hello\"", "B) \"Hello \"", "C) \"World\"", "D) \"ello\""],
+    "correct_answer": "A) \"Hello\"",
+    "explanation": "substring(beginIndex, endIndex) returns characters from beginIndex (inclusive) to endIndex (exclusive). substring(0,5) returns characters at indices 0,1,2,3,4 = 'Hello'."
+  },
+  {
+    "id": 48,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nSystem.out.println(Character.isDigit('5'));\nSystem.out.println(Character.isLetter('5'));",
+    "options": ["A) true, true", "B) false, false", "C) true, false", "D) false, true"],
+    "correct_answer": "C) true, false",
+    "explanation": "Character.isDigit('5') returns true because '5' is a digit. Character.isLetter('5') returns false because '5' is not a letter."
+  },
+  {
+    "id": 49,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nStringBuilder sb = new StringBuilder(\"Hello\");\nsb.reverse();\nSystem.out.println(sb);",
+    "options": ["A) \"Hello\"", "B) \"olleH\"", "C) \"hELLO\"", "D) Compilation error"],
+    "correct_answer": "B) \"olleH\"",
+    "explanation": "StringBuilder.reverse() reverses the character sequence in place. 'Hello' reversed is 'olleH'. StringBuilder is in java.lang package."
+  },
+  {
+    "id": 50,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of Long.MAX_VALUE + 1?",
+    "options": ["A) Long.MIN_VALUE", "B) Long.MAX_VALUE", "C) 0", "D) ArithmeticException"],
+    "correct_answer": "A) Long.MIN_VALUE",
+    "explanation": "Java uses two's complement arithmetic. When Long.MAX_VALUE (2^63-1) overflows by adding 1, it wraps around to Long.MIN_VALUE (-2^63). No exception is thrown."
+  },
+  {
+    "id": 51,
+    "topic": "Java.lang Class",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nSystem.out.println(Math.floorDiv(7, 2));\nSystem.out.println(7 / 2);",

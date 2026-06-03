@@ -1,0 +1,569 @@
+[
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₂(64)?",
+    "options": ["4", "5", "6", "8"],
+    "correct_answer": "6",
+    "explanation": "log₂(64) = log₂(2⁶) = 6."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₁₀(1000)?",
+    "options": ["2", "3", "4", "10"],
+    "correct_answer": "3",
+    "explanation": "log₁₀(1000) = log₁₀(10³) = 3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₅(125)?",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "3",
+    "explanation": "log₅(125) = log₅(5³) = 3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₃(81)?",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "4",
+    "explanation": "log₃(81) = log₃(3⁴) = 4."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₁₀(1)?",
+    "options": ["0", "1", "-1", "10"],
+    "correct_answer": "0",
+    "explanation": "log of 1 to any base is always 0, since any number raised to power 0 is 1."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₇(7)?",
+    "options": ["0", "1", "7", "49"],
+    "correct_answer": "1",
+    "explanation": "logₐ(a) = 1 for any base a. So log₇(7) = 1."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If log₁₀(x) = 2, what is x?",
+    "options": ["10", "20", "100", "1000"],
+    "correct_answer": "100",
+    "explanation": "log₁₀(x) = 2 means x = 10² = 100."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₂(32)?",
+    "options": ["4", "5", "6", "8"],
+    "correct_answer": "5",
+    "explanation": "log₂(32) = log₂(2⁵) = 5."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₄(16)?",
+    "options": ["2", "3", "4", "8"],
+    "correct_answer": "2",
+    "explanation": "log₄(16) = log₄(4²) = 2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₁₀(0.1)?",
+    "options": ["-2", "-1", "0", "1"],
+    "correct_answer": "-1",
+    "explanation": "log₁₀(0.1) = log₁₀(10⁻¹) = -1."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₂(1/8)?",
+    "options": ["-4", "-3", "-2", "3"],
+    "correct_answer": "-3",
+    "explanation": "log₂(1/8) = log₂(2⁻³) = -3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₁₀(10000)?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "explanation": "log₁₀(10000) = log₁₀(10⁴) = 4."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₃(1/9)?",
+    "options": ["-3", "-2", "2", "3"],
+    "correct_answer": "-2",
+    "explanation": "log₃(1/9) = log₃(3⁻²) = -2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₅(1)?",
+    "options": ["-1", "0", "1", "5"],
+    "correct_answer": "0",
+    "explanation": "log of 1 to any base is 0."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₂(128)?",
+    "options": ["5", "6", "7", "8"],
+    "correct_answer": "7",
+    "explanation": "log₂(128) = log₂(2⁷) = 7."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₁₀(100) + log₁₀(10)?",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "3",
+    "explanation": "log₁₀(100) = 2, log₁₀(10) = 1. Sum = 3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If log₂(x) = 4, what is x?",
+    "options": ["8", "12", "16", "32"],
+    "correct_answer": "16",
+    "explanation": "log₂(x) = 4 means x = 2⁴ = 16."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₆(36)?",
+    "options": ["2", "3", "4", "6"],
+    "correct_answer": "2",
+    "explanation": "log₆(36) = log₆(6²) = 2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₁₀(0.01)?",
+    "options": ["-3", "-2", "-1", "2"],
+    "correct_answer": "-2",
+    "explanation": "log₁₀(0.01) = log₁₀(10⁻²) = -2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₄(64)?",
+    "options": ["2", "3", "4", "6"],
+    "correct_answer": "3",
+    "explanation": "log₄(64) = log₄(4³) = 3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₉(81)?",
+    "options": ["2", "3", "4", "9"],
+    "correct_answer": "2",
+    "explanation": "log₉(81) = log₉(9²) = 2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₂(256)?",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "8",
+    "explanation": "log₂(256) = log₂(2⁸) = 8."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₁₀(10)?",
+    "options": ["0", "1", "10", "100"],
+    "correct_answer": "1",
+    "explanation": "logₐ(a) = 1 for any base a. So log₁₀(10) = 1."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₃(243)?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "5",
+    "explanation": "log₃(243) = log₃(3⁵) = 5."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₁₀(10⁵)?",
+    "options": ["4", "5", "6", "50"],
+    "correct_answer": "5",
+    "explanation": "log₁₀(10⁵) = 5 by definition of logarithm."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₂(16) × log₂(4)?",
+    "options": ["4", "6", "8", "16"],
+    "correct_answer": "8",
+    "explanation": "log₂(16) = 4, log₂(4) = 2. Product = 4 × 2 = 8."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₁₀(1000) - log₁₀(10)?",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "explanation": "log₁₀(1000) = 3, log₁₀(10) = 1. Difference = 3 - 1 = 2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₈(512)?",
+    "options": ["2", "3", "4", "8"],
+    "correct_answer": "3",
+    "explanation": "log₈(512) = log₈(8³) = 3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₁₀(√10)?",
+    "options": ["0.25", "0.5", "1", "2"],
+    "correct_answer": "0.5",
+    "explanation": "log₁₀(√10) = log₁₀(10^(1/2)) = 1/2 = 0.5."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₂(√8)?",
+    "options": ["1", "1.5", "2", "3"],
+    "correct_answer": "1.5",
+    "explanation": "log₂(√8) = log₂(8^(1/2)) = (1/2)log₂(8) = (1/2)(3) = 1.5."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₅(625)?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "explanation": "log₅(625) = log₅(5⁴) = 4."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₁₀(10³)?",
+    "options": ["1", "2", "3", "30"],
+    "correct_answer": "3",
+    "explanation": "log₁₀(10³) = 3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₄(256)?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "explanation": "log₄(256) = log₄(4⁴) = 4."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₁₀(10) + log₁₀(100) + log₁₀(1000)?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "6",
+    "explanation": "1 + 2 + 3 = 6."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₂(2⁷)?",
+    "options": ["5", "6", "7", "14"],
+    "correct_answer": "7",
+    "explanation": "log₂(2⁷) = 7 by definition."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₁₀(10⁻³)?",
+    "options": ["-4", "-3", "-2", "3"],
+    "correct_answer": "-3",
+    "explanation": "log₁₀(10⁻³) = -3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₃(27)?",
+    "options": ["2", "3", "4", "9"],
+    "correct_answer": "3",
+    "explanation": "log₃(27) = log₃(3³) = 3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₁₀(1/100)?",
+    "options": ["-3", "-2", "-1", "2"],
+    "correct_answer": "-2",
+    "explanation": "log₁₀(1/100) = log₁₀(10⁻²) = -2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of log₁₆(4)?",
+    "options": ["0.25", "0.5", "2", "4"],
+    "correct_answer": "0.5",
+    "explanation": "log₁₆(4) = log₁₆(16^(1/2)) = 1/2 = 0.5."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of log₂(4) + log₂(8)?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "5",
+    "explanation": "log₂(4) = 2, log₂(8) = 3. Sum = 5."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of log₁₀(10²) + log₁₀(10³)?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "5",
+    "explanation": "2 + 3 = 5."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If log₁₀(2) = 0.3010, what is the value of log₁₀(8)?",
+    "options": ["0.6020", "0.9030", "1.2040", "2.4080"],
+    "correct_answer": "0.9030",
+    "explanation": "log₁₀(8) = log₁₀(2³) = 3 × 0.3010 = 0.9030."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If log₁₀(2) = 0.3010 and log₁₀(3) = 0.4771, what is log₁₀(6)?",
+    "options": ["0.7781", "0.8781", "0.6781", "0.9781"],
+    "correct_answer": "0.7781",
+    "explanation": "log₁₀(6) = log₁₀(2×3) = log₁₀(2) + log₁₀(3) = 0.3010 + 0.4771 = 0.7781."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If log₁₀(2) = 0.3010, what is the value of log₁₀(50)?",
+    "options": ["1.5990", "1.6990", "1.7990", "1.8990"],
+    "correct_answer": "1.6990",
+    "explanation": "log₁₀(50) = log₁₀(100/2) = log₁₀(100) - log₁₀(2) = 2 - 0.3010 = 1.6990."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of log₂(3) × log₃(4)?",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "explanation": "Using chain rule: log₂(3) × log₃(4) = log₂(4) = 2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If log(x) + log(y) = log(x+y), then which of the following is true?",
+    "options": ["x + y = 1", "xy = x + y", "x - y = 1", "x/y = x + y"],
+    "correct_answer": "xy = x + y",
+    "explanation": "log(x) + log(y) = log(xy). So log(xy) = log(x+y) means xy = x+y."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of log₃(5) × log₅(9)?",
+    "options": ["1", "2", "3", "5"],
+    "correct_answer": "2",
+    "explanation": "log₃(5) × log₅(9) = log₃(9) = log₃(3²) = 2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If log₁₀(2) = 0.3010, what is the number of digits in 2²⁰?",
+    "options": ["5", "6", "7", "8"],
+    "correct_answer": "7",
+    "explanation": "log₁₀(2²⁰) = 20 × 0.3010 = 6.020. Number of digits = ⌊6.020⌋ + 1 = 7."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If log₁₀(3) = 0.4771, what is the value of log₁₀(27)?",
+    "options": ["1.2313", "1.3313", "1.4313", "1.5313"],
+    "correct_answer": "1.4313",
+    "explanation": "log₁₀(27) = log₁₀(3³) = 3 × 0.4771 = 1.4313."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of log₄(8)?",
+    "options": ["1", "1.5", "2", "3"],
+    "correct_answer": "1.5",
+    "explanation": "log₄(8) = log₄(2³) = 3 × log₄(2) = 3 × (1/2) = 3/2 = 1.5."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If log₁₀(x) = 1.5, what is x?",
+    "options": ["15", "31.62", "150", "316.2"],
+    "correct_answer": "31.62",
+    "explanation": "x = 10^1.5 = 10^(3/2) = √1000 ≈ 31.62."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of log₂(3) + log₂(5) - log₂(15)?",
+    "options": ["-1", "0", "1", "2"],
+    "correct_answer": "0",
+    "explanation": "log₂(3) + log₂(5) - log₂(15) = log₂(3×5/15) = log₂(1) = 0."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If log₁₀(2) = 0.3010 and log₁₀(3) = 0.4771, what is log₁₀(12)?",
+    "options": ["0.9791", "1.0791", "1.1791", "1.2791"],
+    "correct_answer": "1.0791",
+    "explanation": "log₁₀(12) = log₁₀(4×3) = 2log₁₀(2) + log₁₀(3) = 0.6020 + 0.4771 = 1.0791."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If log₁₀(x) = -2, what is x?",
+    "options": ["0.001", "0.01", "0.1", "0.02"],
+    "correct_answer": "0.01",
+    "explanation": "x = 10⁻² = 0.01."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of log₂(48) - log₂(3)?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "explanation": "log₂(48/3) = log₂(16) = log₂(2⁴) = 4."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If log₁₀(2) = 0.3010, what is the value of log₁₀(5)?",
+    "options": ["0.5990", "0.6990", "0.7990", "0.8990"],
+    "correct_answer": "0.6990",
+    "explanation": "log₁₀(5) = log₁₀(10/2) = 1 - log₁₀(2) = 1 - 0.3010 = 0.6990."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of log₅(2) × log₂(25)?",
+    "options": ["1", "2", "5", "10"],
+    "correct_answer": "2",
+    "explanation": "log₅(2) × log₂(25) = log₅(25) = log₅(5²) = 2."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If log₁₀(2) = 0.3010, what is the number of digits in 2¹⁰?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "explanation": "log₁₀(2¹⁰) = 10 × 0.3010 = 3.010. Number of digits = ⌊3.010⌋ + 1 = 4."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of log₁₀(2) + log₁₀(5)?",
+    "options": ["0", "0.5", "1", "2"],
+    "correct_answer": "1",
+    "explanation": "log₁₀(2) + log₁₀(5) = log₁₀(2×5) = log₁₀(10) = 1."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If log₁₀(3) = 0.4771, what is the value of log₁₀(√3)?",
+    "options": ["0.1385", "0.2385", "0.3385", "0.4385"],
+    "correct_answer": "0.2385",
+    "explanation": "log₁₀(√3) = (1/2) × log₁₀(3) = 0.4771/2 = 0.23855 ≈ 0.2385."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of log₂(72) - log₂(9)?",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "3",
+    "explanation": "log₂(72/9) = log₂(8) = log₂(2³) = 3."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If log₁₀(x) = 3 and log₁₀(y) = 2, what is log₁₀(x/y)?",
+    "options": ["0.5", "1", "1.5", "2"],
+    "correct_answer": "1",
+    "explanation": "log₁₀(x/y) = log₁₀(x) - log₁₀(y) = 3 - 2 = 1."
+  },
+  {
+    "topic": "Logarithm",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of log₃(2) × log₂(27)?",
+    "options": ["1", "2", "3", "9"],
+    "correct_answer": "3",
+    "explanation": "log₃(2) × log₂(27) = log₃(27) = log₃(3³) = 3."
+  }
+]

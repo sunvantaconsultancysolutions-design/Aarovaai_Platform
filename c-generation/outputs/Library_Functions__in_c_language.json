@@ -1,0 +1,488 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file must be included to use the printf() and scanf() functions in C?",
+    "options": ["A) stdlib.h", "B) stdio.h", "C) string.h", "D) math.h"],
+    "correct_answer": "B) stdio.h",
+    "explanation": "printf() and scanf() are standard input/output functions declared in the stdio.h header file. Including this header is mandatory to use these functions."
+  },
+  {
+    "id": 2,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the strlen() function return?",
+    "options": ["A) The size of the string including null character", "B) The number of characters in the string excluding null character", "C) The memory address of the string", "D) The number of words in the string"],
+    "correct_answer": "B) The number of characters in the string excluding null character",
+    "explanation": "strlen() counts characters in a string until it encounters the null terminator '\\0', and returns that count without including the null character itself."
+  },
+  {
+    "id": 3,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to copy one string to another in C?",
+    "options": ["A) strcat()", "B) strcmp()", "C) strcpy()", "D) strdup()"],
+    "correct_answer": "C) strcpy()",
+    "explanation": "strcpy(dest, src) copies the string from source to destination including the null terminator. It is declared in string.h."
+  },
+  {
+    "id": 4,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the return type of the malloc() function?",
+    "options": ["A) int*", "B) char*", "C) void*", "D) float*"],
+    "correct_answer": "C) void*",
+    "explanation": "malloc() returns a void pointer (void*) which can be cast to any pointer type. It is declared in stdlib.h and allocates memory dynamically."
+  },
+  {
+    "id": 5,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to find the absolute value of an integer in C?",
+    "options": ["A) fabs()", "B) abs()", "C) absolute()", "D) mod()"],
+    "correct_answer": "B) abs()",
+    "explanation": "abs() returns the absolute value of an integer and is declared in stdlib.h. fabs() is used for floating-point numbers and is declared in math.h."
+  },
+  {
+    "id": 6,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the strcat() function do?",
+    "options": ["A) Compares two strings", "B) Copies one string to another", "C) Appends one string to the end of another", "D) Searches for a substring"],
+    "correct_answer": "C) Appends one string to the end of another",
+    "explanation": "strcat(dest, src) appends the source string to the end of the destination string. The destination must have enough space to hold the combined string."
+  },
+  {
+    "id": 7,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file contains the declaration of sqrt() function?",
+    "options": ["A) stdio.h", "B) stdlib.h", "C) math.h", "D) ctype.h"],
+    "correct_answer": "C) math.h",
+    "explanation": "sqrt() is a mathematical function that computes the square root of a number. It is declared in math.h along with other math functions like pow(), sin(), cos()."
+  },
+  {
+    "id": 8,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of strlen(\"Hello\") in C?",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 0"],
+    "correct_answer": "B) 5",
+    "explanation": "The string \"Hello\" has 5 characters: H, e, l, l, o. strlen() returns 5, not counting the null terminator '\\0'."
+  },
+  {
+    "id": 9,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to convert a string to an integer in C?",
+    "options": ["A) itoa()", "B) atoi()", "C) strtoi()", "D) toint()"],
+    "correct_answer": "B) atoi()",
+    "explanation": "atoi() (ASCII to Integer) converts a string to an integer. It is declared in stdlib.h. For example, atoi(\"123\") returns 123."
+  },
+  {
+    "id": 10,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the free() function do in C?",
+    "options": ["A) Allocates memory", "B) Reallocates memory", "C) Deallocates previously allocated memory", "D) Initializes memory to zero"],
+    "correct_answer": "C) Deallocates previously allocated memory",
+    "explanation": "free() releases memory that was previously allocated by malloc(), calloc(), or realloc(). It is declared in stdlib.h and prevents memory leaks."
+  },
+  {
+    "id": 11,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function compares two strings lexicographically in C?",
+    "options": ["A) strcpy()", "B) strcat()", "C") strcmp()", "D) strstr()"],
+    "correct_answer": "C) strcmp()",
+    "explanation": "strcmp(s1, s2) compares two strings. It returns 0 if equal, negative if s1 < s2, and positive if s1 > s2. It is declared in string.h."
+  },
+  {
+    "id": 12,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the toupper() function in C?",
+    "options": ["A) Converts a string to uppercase", "B) Converts a single character to uppercase", "C) Checks if a character is uppercase", "D) Converts integer to uppercase string"],
+    "correct_answer": "B) Converts a single character to uppercase",
+    "explanation": "toupper() takes a single character and returns its uppercase equivalent. It is declared in ctype.h. For example, toupper('a') returns 'A'."
+  },
+  {
+    "id": 13,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to generate a random number in C?",
+    "options": ["A) random()", "B) rand()", "C) rnd()", "D) generate()"],
+    "correct_answer": "B) rand()",
+    "explanation": "rand() generates a pseudo-random integer between 0 and RAND_MAX. It is declared in stdlib.h. srand() is used to seed the random number generator."
+  },
+  {
+    "id": 14,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does calloc() do differently from malloc()?",
+    "options": ["A) calloc() allocates more memory", "B) calloc() initializes allocated memory to zero", "C) calloc() is faster than malloc()", "D) calloc() allocates memory on stack"],
+    "correct_answer": "B) calloc() initializes allocated memory to zero",
+    "explanation": "calloc(n, size) allocates memory for n elements of given size and initializes all bytes to zero. malloc() allocates memory without initialization."
+  },
+  {
+    "id": 15,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file contains isdigit() and isalpha() functions?",
+    "options": ["A) stdio.h", "B) string.h", "C) ctype.h", "D) stdlib.h"],
+    "correct_answer": "C) ctype.h",
+    "explanation": "Character classification functions like isdigit(), isalpha(), isspace(), isupper(), islower() are all declared in ctype.h."
+  },
+  {
+    "id": 16,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the return value of strcmp(\"abc\", \"abc\")?",
+    "options": ["A) 1", "B) -1", "C) 0", "D) Any positive number"],
+    "correct_answer": "C) 0",
+    "explanation": "strcmp() returns 0 when both strings are identical. Since \"abc\" equals \"abc\", the function returns 0."
+  },
+  {
+    "id": 17,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to find the power of a number in C?",
+    "options": ["A) power()", "B) exp()", "C) pow()", "D) sqr()"],
+    "correct_answer": "C) pow()",
+    "explanation": "pow(base, exponent) computes base raised to the power of exponent. It is declared in math.h. For example, pow(2, 3) returns 8.0."
+  },
+  {
+    "id": 18,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the exit() function do in C?",
+    "options": ["A) Exits the current function", "B) Exits the current loop", "C) Terminates the entire program", "D) Exits the current block"],
+    "correct_answer": "C) Terminates the entire program",
+    "explanation": "exit() terminates the program immediately and returns a status code to the operating system. exit(0) indicates success, exit(1) indicates failure. Declared in stdlib.h."
+  },
+  {
+    "id": 19,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function searches for the first occurrence of a character in a string?",
+    "options": ["A) strstr()", "B) strchr()", "C) strfind()", "D) strsearch()"],
+    "correct_answer": "B) strchr()",
+    "explanation": "strchr(str, ch) searches for the first occurrence of character ch in string str and returns a pointer to it, or NULL if not found. Declared in string.h."
+  },
+  {
+    "id": 20,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the fopen() function in C?",
+    "options": ["A) To close a file", "B) To open a file", "C) To read from a file", "D) To write to a file"],
+    "correct_answer": "B) To open a file",
+    "explanation": "fopen(filename, mode) opens a file and returns a FILE pointer. It is declared in stdio.h. Modes include \"r\" (read), \"w\" (write), \"a\" (append), etc."
+  },
+  {
+    "id": 21,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function converts a double to its ceiling value in C?",
+    "options": ["A) floor()", "B) round()", "C) ceil()", "D) trunc()"],
+    "correct_answer": "C) ceil()",
+    "explanation": "ceil(x) returns the smallest integer value greater than or equal to x. For example, ceil(4.2) returns 5.0. It is declared in math.h."
+  },
+  {
+    "id": 22,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the tolower() function do in C?",
+    "options": ["A) Converts a string to lowercase", "B) Converts a single character to lowercase", "C) Checks if a character is lowercase", "D) Returns ASCII value of lowercase character"],
+    "correct_answer": "B) Converts a single character to lowercase",
+    "explanation": "tolower() takes a single character and returns its lowercase equivalent. It is declared in ctype.h. For example, tolower('A') returns 'a'."
+  },
+  {
+    "id": 23,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to read a character from standard input in C?",
+    "options": ["A) getchar()", "B) readchar()", "C) inputchar()", "D) scanchar()"],
+    "correct_answer": "A) getchar()",
+    "explanation": "getchar() reads a single character from standard input (stdin) and returns it as an integer. It is declared in stdio.h."
+  },
+  {
+    "id": 24,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the memset() function in C?",
+    "options": ["A) Copies memory from one location to another", "B) Fills a block of memory with a specified value", "C) Compares two memory blocks", "D) Allocates memory dynamically"],
+    "correct_answer": "B) Fills a block of memory with a specified value",
+    "explanation": "memset(ptr, value, size) fills the first 'size' bytes of memory pointed to by ptr with the specified value. It is declared in string.h."
+  },
+  {
+    "id": 25,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to close a file in C?",
+    "options": ["A) fileclose()", "B) fclose()", "C) closefile()", "D) endfile()"],
+    "correct_answer": "B) fclose()",
+    "explanation": "fclose(fp) closes the file associated with the FILE pointer fp and flushes any buffered data. It returns 0 on success and EOF on failure. Declared in stdio.h."
+  },
+
+  {
+    "id": 26,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the floor() function return for floor(4.9)?",
+    "options": ["A) 5.0", "B) 4.0", "C) 4.9", "D) 5.9"],
+    "correct_answer": "B) 4.0",
+    "explanation": "floor(x) returns the largest integer value less than or equal to x. For floor(4.9), the largest integer ≤ 4.9 is 4, so it returns 4.0."
+  },
+  {
+    "id": 27,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to write a character to standard output in C?",
+    "options": ["A) writechar()", "B) putchar()", "C) outchar()", "D) printchar()"],
+    "correct_answer": "B) putchar()",
+    "explanation": "putchar(ch) writes a single character to standard output (stdout). It is declared in stdio.h and is equivalent to printf(\"%c\", ch)."
+  },
+  {
+    "id": 28,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of realloc() in C?",
+    "options": ["A) Allocates new memory", "B) Frees memory", "C) Resizes previously allocated memory", "D) Copies memory blocks"],
+    "correct_answer": "C) Resizes previously allocated memory",
+    "explanation": "realloc(ptr, new_size) changes the size of previously allocated memory block. It may move the block to a new location if needed. Declared in stdlib.h."
+  },
+  {
+    "id": 29,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function searches for a substring within a string in C?",
+    "options": ["A) strchr()", "B) strrchr()", "C) strstr()", "D) strsub()"],
+    "correct_answer": "C) strstr()",
+    "explanation": "strstr(haystack, needle) searches for the first occurrence of substring 'needle' in string 'haystack'. Returns a pointer to the match or NULL. Declared in string.h."
+  },
+  {
+    "id": 30,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does isdigit('5') return in C?",
+    "options": ["A) 0", "B) 5", "C) A non-zero value (true)", "D) -1"],
+    "correct_answer": "C) A non-zero value (true)",
+    "explanation": "isdigit() returns a non-zero value if the character is a decimal digit (0-9). Since '5' is a digit, it returns a non-zero (true) value. Declared in ctype.h."
+  },
+  {
+    "id": 31,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function reads a line from a file in C?",
+    "options": ["A) fread()", "B) fgets()", "C) fscan()", "D) readline()"],
+    "correct_answer": "B) fgets()",
+    "explanation": "fgets(str, n, stream) reads at most n-1 characters from the stream and stores them in str. It stops at newline or EOF. Declared in stdio.h."
+  },
+  {
+    "id": 32,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the return value of atoi(\"456\")?",
+    "options": ["A) \"456\"", "B) 456.0", "C) 456", "D) '4'"],
+    "correct_answer": "C) 456",
+    "explanation": "atoi() converts the string \"456\" to the integer 456. It stops conversion at the first non-numeric character. Declared in stdlib.h."
+  },
+  {
+    "id": 33,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function copies n bytes from one memory location to another?",
+    "options": ["A) memset()", "B) memcpy()", "C) memmove()", "D) memcmp()"],
+    "correct_answer": "B) memcpy()",
+    "explanation": "memcpy(dest, src, n) copies n bytes from src to dest. The memory regions must not overlap. For overlapping regions, memmove() should be used. Declared in string.h."
+  },
+  {
+    "id": 34,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the isalpha() function check?",
+    "options": ["A) If a character is alphanumeric", "B) If a character is alphabetic (a-z or A-Z)", "C) If a character is uppercase", "D) If a character is a digit"],
+    "correct_answer": "B) If a character is alphabetic (a-z or A-Z)",
+    "explanation": "isalpha(c) returns non-zero if c is an alphabetic character (a-z or A-Z), and 0 otherwise. It is declared in ctype.h."
+  },
+  {
+    "id": 35,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function converts a string to a double in C?",
+    "options": ["A) atoi()", "B) atof()", "C) atod()", "D) strtod()"],
+    "correct_answer": "B) atof()",
+    "explanation": "atof() (ASCII to Float) converts a string to a double-precision floating-point number. For example, atof(\"3.14\") returns 3.14. Declared in stdlib.h."
+  },
+  {
+    "id": 36,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the fprintf() function in C?",
+    "options": ["A) Reads formatted data from a file", "B) Writes formatted data to a file", "C) Prints to standard output", "D) Formats a string in memory"],
+    "correct_answer": "B) Writes formatted data to a file",
+    "explanation": "fprintf(fp, format, ...) writes formatted output to the file pointed to by fp. It works like printf() but writes to a file instead of stdout. Declared in stdio.h."
+  },
+  {
+    "id": 37,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function returns the logarithm base e (natural log) of a number?",
+    "options": ["A) log10()", "B) log2()", "C) log()", "D) ln()"],
+    "correct_answer": "C) log()",
+    "explanation": "log(x) computes the natural logarithm (base e) of x. log10(x) computes base-10 logarithm. Both are declared in math.h."
+  },
+  {
+    "id": 38,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the strrev() function do in C?",
+    "options": ["A) Reverses a string in place", "B) Returns a reversed copy of the string", "C) Checks if a string is a palindrome", "D) Removes characters from a string"],
+    "correct_answer": "A) Reverses a string in place",
+    "explanation": "strrev(str) reverses the string str in place. It is a non-standard function available in some compilers like Turbo C/MSVC. Declared in string.h."
+  },
+  {
+    "id": 39,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to print formatted output to a string (character array) in C?",
+    "options": ["A) fprintf()", "B) printf()", "C) sprintf()", "D) snprintf()"],
+    "correct_answer": "C) sprintf()",
+    "explanation": "sprintf(str, format, ...) writes formatted output to the character array str instead of stdout. It is declared in stdio.h."
+  },
+  {
+    "id": 40,
+    "topic": "Library Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the return value of fclose() on successful file closure?",
+    "options": ["A) 1", "B) -1", "C) 0", "D) EOF"],
+    "correct_answer": "C) 0",
+    "explanation": "fclose() returns 0 on successful closure of the file. It returns EOF (typically -1) if an error occurs during closure. Declared in stdio.h."
+  },
+
+  {
+    "id": 41,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\n#include<string.h>\nint main() {\n    char s[] = \"Programming\";\n    printf(\"%d\", strlen(s));\n    return 0;\n}",
+    "options": ["A) 10", "B) 11", "C) 12", "D) 9"],
+    "correct_answer": "B) 11",
+    "explanation": "\"Programming\" has 11 characters: P-r-o-g-r-a-m-m-i-n-g. strlen() returns 11, not counting the null terminator."
+  },
+  {
+    "id": 42,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output?\n#include<stdio.h>\n#include<stdlib.h>\nint main() {\n    printf(\"%d\", abs(-75));\n    return 0;\n}",
+    "options": ["A) -75", "B) 75", "C) 0", "D) Undefined"],
+    "correct_answer": "B) 75",
+    "explanation": "abs() returns the absolute value of an integer. abs(-75) returns 75. The function is declared in stdlib.h."
+  },
+  {
+    "id": 43,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does strncpy(dest, src, n) do when src is shorter than n characters?",
+    "options": ["A) Copies only the available characters without padding", "B) Pads the remaining bytes of dest with null characters", "C) Returns an error", "D) Copies n characters from a random memory location"],
+    "correct_answer": "B) Pads the remaining bytes of dest with null characters",
+    "explanation": "strncpy() copies exactly n characters. If src is shorter than n, the remaining bytes in dest are filled with null characters ('\\0') to make up n bytes."
+  },
+  {
+    "id": 44,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\n#include<stdio.h>\n#include<math.h>\nint main() {\n    printf(\"%.0f\", pow(3, 4));\n    return 0;\n}",
+    "options": ["A) 12", "B) 64", "C) 81", "D) 27"],
+    "correct_answer": "C) 81",
+    "explanation": "pow(3, 4) computes 3^4 = 3×3×3×3 = 81. The %.0f format specifier prints it without decimal places."
+  },
+  {
+    "id": 45,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly allocates memory for an array of 10 integers using malloc()?",
+    "options": ["A) int *p = malloc(10);", "B) int *p = malloc(10 * sizeof(int));", "C) int *p = malloc(sizeof(10));", "D) int *p = malloc(int, 10);"],
+    "correct_answer": "B) int *p = malloc(10 * sizeof(int));",
+    "explanation": "malloc() takes the total number of bytes as argument. To allocate 10 integers, we need 10 * sizeof(int) bytes. sizeof(int) is typically 4 bytes, so 40 bytes are allocated."
+  },
+  {
+    "id": 46,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between fgets() and gets() in C?",
+    "options": ["A) fgets() can read from files, gets() only reads from stdin", "B) fgets() limits input size preventing buffer overflow, gets() does not", "C) gets() is safer than fgets()", "D) Both A and B are correct"],
+    "correct_answer": "D) Both A and B are correct",
+    "explanation": "fgets() can read from any stream (file or stdin) and takes a size parameter to prevent buffer overflow. gets() only reads from stdin and has no size limit, making it unsafe (deprecated in C11)."
+  },
+  {
+    "id": 47,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\n#include<string.h>\nint main() {\n    char s1[20] = \"Hello\";\n    char s2[] = \" World\";\n    strcat(s1, s2);\n    printf(\"%s\", s1);\n    return 0;\n}",
+    "options": ["A) Hello", "B) World", "C) Hello World", "D) HelloWorld"],
+    "correct_answer": "C) Hello World",
+    "explanation": "strcat(s1, s2) appends s2 to s1. s1 becomes \"Hello World\" (note the space in \" World\"). The result is printed as \"Hello World\"."
+  },
+  {
+    "id": 48,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does strtok() do in C?",
+    "options": ["A) Converts a string to a token", "B) Splits a string into tokens based on delimiters", "C) Counts tokens in a string", "D) Searches for a token in a string"],
+    "correct_answer": "B) Splits a string into tokens based on delimiters",
+    "explanation": "strtok(str, delim) splits string str into tokens separated by characters in delim. Subsequent calls with NULL as first argument continue tokenizing the same string."
+  },
+  {
+    "id": 49,
+    "topic": "Library Functions in c language",
+    "difficulty": "medium

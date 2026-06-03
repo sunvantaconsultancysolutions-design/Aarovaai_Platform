@@ -1,0 +1,767 @@
+[
+  {
+    "id": 1,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: HAPPY",
+    "options": [
+      "A) Joyful",
+      "B) Sad",
+      "C) Excited",
+      "D) Cheerful"
+    ],
+    "correct_answer": "B) Sad",
+    "explanation": "HAPPY means feeling pleasure or contentment. Its antonym is SAD, which means feeling sorrow or unhappiness. Joyful and Cheerful are synonyms of Happy."
+  },
+  {
+    "id": 2,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: BRIGHT",
+    "options": [
+      "A) Shiny",
+      "B) Luminous",
+      "C) Dim",
+      "D) Radiant"
+    ],
+    "correct_answer": "C) Dim",
+    "explanation": "BRIGHT means emitting or reflecting a lot of light. Its antonym is DIM, which means not bright or giving little light. Shiny, Luminous, and Radiant are synonyms."
+  },
+  {
+    "id": 3,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: FAST",
+    "options": [
+      "A) Quick",
+      "B) Swift",
+      "C) Slow",
+      "D) Rapid"
+    ],
+    "correct_answer": "C) Slow",
+    "explanation": "FAST means moving at high speed. Its antonym is SLOW, meaning moving at a low speed. Quick, Swift, and Rapid are all synonyms of Fast."
+  },
+  {
+    "id": 4,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: ANCIENT",
+    "options": [
+      "A) Old",
+      "B) Modern",
+      "C) Antique",
+      "D) Aged"
+    ],
+    "correct_answer": "B) Modern",
+    "explanation": "ANCIENT means belonging to the very distant past. Its antonym is MODERN, meaning relating to the present or recent times. Old, Antique, and Aged are synonyms."
+  },
+  {
+    "id": 5,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: BRAVE",
+    "options": [
+      "A) Bold",
+      "B) Courageous",
+      "C) Cowardly",
+      "D) Daring"
+    ],
+    "correct_answer": "C) Cowardly",
+    "explanation": "BRAVE means ready to face danger without fear. Its antonym is COWARDLY, meaning lacking courage. Bold, Courageous, and Daring are synonyms of Brave."
+  },
+  {
+    "id": 6,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: GENEROUS",
+    "options": [
+      "A) Kind",
+      "B) Liberal",
+      "C) Stingy",
+      "D) Benevolent"
+    ],
+    "correct_answer": "C) Stingy",
+    "explanation": "GENEROUS means willing to give more than expected. Its antonym is STINGY, meaning unwilling to give or spend. Kind, Liberal, and Benevolent are synonyms."
+  },
+  {
+    "id": 7,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: EXPAND",
+    "options": [
+      "A) Grow",
+      "B) Enlarge",
+      "C) Contract",
+      "D) Spread"
+    ],
+    "correct_answer": "C) Contract",
+    "explanation": "EXPAND means to become or make larger. Its antonym is CONTRACT, meaning to become smaller or shorter. Grow, Enlarge, and Spread are synonyms of Expand."
+  },
+  {
+    "id": 8,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: VICTORY",
+    "options": [
+      "A) Win",
+      "B) Triumph",
+      "C) Defeat",
+      "D) Success"
+    ],
+    "correct_answer": "C) Defeat",
+    "explanation": "VICTORY means an act of defeating an opponent. Its antonym is DEFEAT, meaning a loss in a contest. Win, Triumph, and Success are synonyms of Victory."
+  },
+  {
+    "id": 9,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: ACCEPT",
+    "options": [
+      "A) Receive",
+      "B) Reject",
+      "C) Welcome",
+      "D) Embrace"
+    ],
+    "correct_answer": "B) Reject",
+    "explanation": "ACCEPT means to agree to receive something. Its antonym is REJECT, meaning to refuse to accept. Receive, Welcome, and Embrace are synonyms of Accept."
+  },
+  {
+    "id": 10,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: POLITE",
+    "options": [
+      "A) Courteous",
+      "B) Rude",
+      "C) Mannerly",
+      "D) Civil"
+    ],
+    "correct_answer": "B) Rude",
+    "explanation": "POLITE means having good manners and being respectful. Its antonym is RUDE, meaning offensively impolite. Courteous, Mannerly, and Civil are synonyms."
+  },
+  {
+    "id": 11,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: TRANSPARENT",
+    "options": [
+      "A) Clear",
+      "B) Opaque",
+      "C) Lucid",
+      "D) Glassy"
+    ],
+    "correct_answer": "B) Opaque",
+    "explanation": "TRANSPARENT means allowing light to pass through so objects can be seen clearly. Its antonym is OPAQUE, meaning not able to be seen through. Clear and Lucid are synonyms."
+  },
+  {
+    "id": 12,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: CONSTRUCT",
+    "options": [
+      "A) Build",
+      "B) Erect",
+      "C) Demolish",
+      "D) Create"
+    ],
+    "correct_answer": "C) Demolish",
+    "explanation": "CONSTRUCT means to build or make something. Its antonym is DEMOLISH, meaning to pull down or destroy. Build, Erect, and Create are synonyms of Construct."
+  },
+  {
+    "id": 13,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: INNOCENT",
+    "options": [
+      "A) Pure",
+      "B) Naive",
+      "C) Guilty",
+      "D) Harmless"
+    ],
+    "correct_answer": "C) Guilty",
+    "explanation": "INNOCENT means not guilty of a crime or offense. Its antonym is GUILTY, meaning responsible for a wrongdoing. Pure, Naive, and Harmless are synonyms."
+  },
+  {
+    "id": 14,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: ABUNDANT",
+    "options": [
+      "A) Plentiful",
+      "B) Scarce",
+      "C) Ample",
+      "D) Copious"
+    ],
+    "correct_answer": "B) Scarce",
+    "explanation": "ABUNDANT means existing in large quantities. Its antonym is SCARCE, meaning insufficient for the demand. Plentiful, Ample, and Copious are synonyms."
+  },
+  {
+    "id": 15,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: LOVE",
+    "options": [
+      "A) Adore",
+      "B) Cherish",
+      "C) Hate",
+      "D) Admire"
+    ],
+    "correct_answer": "C) Hate",
+    "explanation": "LOVE means an intense feeling of deep affection. Its antonym is HATE, meaning an intense dislike. Adore, Cherish, and Admire are synonyms of Love."
+  },
+  {
+    "id": 16,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: RIGID",
+    "options": [
+      "A) Stiff",
+      "B) Firm",
+      "C) Flexible",
+      "D) Inflexible"
+    ],
+    "correct_answer": "C) Flexible",
+    "explanation": "RIGID means unable to bend or be forced out of shape. Its antonym is FLEXIBLE, meaning capable of bending easily. Stiff, Firm, and Inflexible are synonyms."
+  },
+  {
+    "id": 17,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: ASCEND",
+    "options": [
+      "A) Rise",
+      "B) Climb",
+      "C) Descend",
+      "D) Mount"
+    ],
+    "correct_answer": "C) Descend",
+    "explanation": "ASCEND means to go up or climb. Its antonym is DESCEND, meaning to go down. Rise, Climb, and Mount are synonyms of Ascend."
+  },
+  {
+    "id": 18,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: TEMPORARY",
+    "options": [
+      "A) Brief",
+      "B) Permanent",
+      "C) Fleeting",
+      "D) Transient"
+    ],
+    "correct_answer": "B) Permanent",
+    "explanation": "TEMPORARY means lasting for only a limited period. Its antonym is PERMANENT, meaning lasting indefinitely. Brief, Fleeting, and Transient are synonyms."
+  },
+  {
+    "id": 19,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: NOISY",
+    "options": [
+      "A) Loud",
+      "B) Boisterous",
+      "C) Quiet",
+      "D) Clamorous"
+    ],
+    "correct_answer": "C) Quiet",
+    "explanation": "NOISY means making a lot of noise. Its antonym is QUIET, meaning making little or no noise. Loud, Boisterous, and Clamorous are synonyms of Noisy."
+  },
+  {
+    "id": 20,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: FRESH",
+    "options": [
+      "A) New",
+      "B) Stale",
+      "C) Crisp",
+      "D) Recent"
+    ],
+    "correct_answer": "B) Stale",
+    "explanation": "FRESH means not previously known or used; new. Its antonym is STALE, meaning no longer fresh. New, Crisp, and Recent are synonyms of Fresh."
+  },
+  {
+    "id": 21,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: UNITE",
+    "options": [
+      "A) Join",
+      "B) Merge",
+      "C) Divide",
+      "D) Combine"
+    ],
+    "correct_answer": "C) Divide",
+    "explanation": "UNITE means to come or bring together for a common purpose. Its antonym is DIVIDE, meaning to separate into parts. Join, Merge, and Combine are synonyms."
+  },
+  {
+    "id": 22,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: SHALLOW",
+    "options": [
+      "A) Superficial",
+      "B) Deep",
+      "C) Surface",
+      "D) Trivial"
+    ],
+    "correct_answer": "B) Deep",
+    "explanation": "SHALLOW means of little depth. Its antonym is DEEP, meaning extending far down from the top. Superficial, Surface, and Trivial are synonyms of Shallow."
+  },
+  {
+    "id": 23,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: PRAISE",
+    "options": [
+      "A) Applaud",
+      "B) Commend",
+      "C) Criticize",
+      "D) Laud"
+    ],
+    "correct_answer": "C) Criticize",
+    "explanation": "PRAISE means to express warm approval or admiration. Its antonym is CRITICIZE, meaning to indicate faults. Applaud, Commend, and Laud are synonyms."
+  },
+  {
+    "id": 24,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: NARROW",
+    "options": [
+      "A) Thin",
+      "B) Slim",
+      "C) Wide",
+      "D) Slender"
+    ],
+    "correct_answer": "C) Wide",
+    "explanation": "NARROW means of small width. Its antonym is WIDE, meaning of great extent from side to side. Thin, Slim, and Slender are synonyms of Narrow."
+  },
+  {
+    "id": 25,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: GENUINE",
+    "options": [
+      "A) Authentic",
+      "B) Real",
+      "C) Fake",
+      "D) True"
+    ],
+    "correct_answer": "C) Fake",
+    "explanation": "GENUINE means truly what something is said to be; authentic. Its antonym is FAKE, meaning not genuine. Authentic, Real, and True are synonyms of Genuine."
+  },
+  {
+    "id": 26,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: HUMBLE",
+    "options": [
+      "A) Modest",
+      "B) Meek",
+      "C) Arrogant",
+      "D) Unassuming"
+    ],
+    "correct_answer": "C) Arrogant",
+    "explanation": "HUMBLE means having a modest view of one's own importance. Its antonym is ARROGANT, meaning having an exaggerated sense of self-importance. Modest and Meek are synonyms."
+  },
+  {
+    "id": 27,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: EXPENSIVE",
+    "options": [
+      "A) Costly",
+      "B) Pricey",
+      "C) Cheap",
+      "D) Luxurious"
+    ],
+    "correct_answer": "C) Cheap",
+    "explanation": "EXPENSIVE means costing a lot of money. Its antonym is CHEAP, meaning low in price. Costly, Pricey, and Luxurious are synonyms of Expensive."
+  },
+  {
+    "id": 28,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: REMEMBER",
+    "options": [
+      "A) Recall",
+      "B) Recollect",
+      "C) Forget",
+      "D) Retain"
+    ],
+    "correct_answer": "C) Forget",
+    "explanation": "REMEMBER means to have in or be able to bring to one's mind. Its antonym is FORGET, meaning to fail to remember. Recall, Recollect, and Retain are synonyms."
+  },
+  {
+    "id": 29,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: ROUGH",
+    "options": [
+      "A) Coarse",
+      "B) Smooth",
+      "C) Jagged",
+      "D) Uneven"
+    ],
+    "correct_answer": "B) Smooth",
+    "explanation": "ROUGH means having an uneven or irregular surface. Its antonym is SMOOTH, meaning having an even and regular surface. Coarse, Jagged, and Uneven are synonyms."
+  },
+  {
+    "id": 30,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: ENCOURAGE",
+    "options": [
+      "A) Motivate",
+      "B) Inspire",
+      "C) Discourage",
+      "D) Support"
+    ],
+    "correct_answer": "C) Discourage",
+    "explanation": "ENCOURAGE means to give support or confidence to someone. Its antonym is DISCOURAGE, meaning to cause someone to lose confidence. Motivate, Inspire, and Support are synonyms."
+  },
+  {
+    "id": 31,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: COMPLEX",
+    "options": [
+      "A) Complicated",
+      "B) Intricate",
+      "C) Simple",
+      "D) Elaborate"
+    ],
+    "correct_answer": "C) Simple",
+    "explanation": "COMPLEX means consisting of many different and connected parts. Its antonym is SIMPLE, meaning easily understood. Complicated, Intricate, and Elaborate are synonyms."
+  },
+  {
+    "id": 32,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: ATTACK",
+    "options": [
+      "A) Assault",
+      "B) Defend",
+      "C) Charge",
+      "D) Invade"
+    ],
+    "correct_answer": "B) Defend",
+    "explanation": "ATTACK means to take aggressive action against. Its antonym is DEFEND, meaning to resist an attack. Assault, Charge, and Invade are synonyms of Attack."
+  },
+  {
+    "id": 33,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: INCLUDE",
+    "options": [
+      "A) Incorporate",
+      "B) Contain",
+      "C) Exclude",
+      "D) Encompass"
+    ],
+    "correct_answer": "C) Exclude",
+    "explanation": "INCLUDE means to comprise or contain as part of a whole. Its antonym is EXCLUDE, meaning to deny access or leave out. Incorporate, Contain, and Encompass are synonyms."
+  },
+  {
+    "id": 34,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: LENIENT",
+    "options": [
+      "A) Mild",
+      "B) Tolerant",
+      "C) Strict",
+      "D) Easy-going"
+    ],
+    "correct_answer": "C) Strict",
+    "explanation": "LENIENT means more merciful or tolerant than expected. Its antonym is STRICT, meaning demanding that rules are obeyed. Mild, Tolerant, and Easy-going are synonyms."
+  },
+  {
+    "id": 35,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: OPTIMISTIC",
+    "options": [
+      "A) Hopeful",
+      "B) Positive",
+      "C) Pessimistic",
+      "D) Confident"
+    ],
+    "correct_answer": "C) Pessimistic",
+    "explanation": "OPTIMISTIC means hopeful and confident about the future. Its antonym is PESSIMISTIC, meaning tending to see the worst aspect. Hopeful, Positive, and Confident are synonyms."
+  },
+  {
+    "id": 36,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: INCREASE",
+    "options": [
+      "A) Grow",
+      "B) Amplify",
+      "C) Decrease",
+      "D) Boost"
+    ],
+    "correct_answer": "C) Decrease",
+    "explanation": "INCREASE means to become or make greater in size or amount. Its antonym is DECREASE, meaning to become smaller or fewer. Grow, Amplify, and Boost are synonyms."
+  },
+  {
+    "id": 37,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: EXPORT",
+    "options": [
+      "A) Ship",
+      "B) Send",
+      "C) Import",
+      "D) Dispatch"
+    ],
+    "correct_answer": "C) Import",
+    "explanation": "EXPORT means to send goods to another country for sale. Its antonym is IMPORT, meaning to bring goods into a country from abroad. Ship, Send, and Dispatch are synonyms."
+  },
+  {
+    "id": 38,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: URBAN",
+    "options": [
+      "A) City",
+      "B) Metropolitan",
+      "C) Rural",
+      "D) Civic"
+    ],
+    "correct_answer": "C) Rural",
+    "explanation": "URBAN means relating to a town or city. Its antonym is RURAL, meaning relating to the countryside. City, Metropolitan, and Civic are synonyms of Urban."
+  },
+  {
+    "id": 39,
+    "topic": "Antonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of the word: TAME",
+    "options": [
+      "A) Docile",
+      "B) Gentle",
+      "C) Wild",
+      "D) Domesticated"
+    ],
+    "correct_answer": "C) Wild",
+    "explanation": "TAME means domesticated or not dangerous. Its antonym is WILD, meaning living in a natural state, not domesticated. Docile, Gentle, and Domesticated are synonyms."
+  },
+  {
+    "id": 40,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: VERBOSE",
+    "options": [
+      "A) Wordy",
+      "B) Talkative",
+      "C) Concise",
+      "D) Loquacious"
+    ],
+    "correct_answer": "C) Concise",
+    "explanation": "VERBOSE means using more words than needed. Its antonym is CONCISE, meaning giving a lot of information clearly in few words. Wordy, Talkative, and Loquacious are synonyms."
+  },
+  {
+    "id": 41,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: FRUGAL",
+    "options": [
+      "A) Thrifty",
+      "B) Economical",
+      "C) Extravagant",
+      "D) Sparing"
+    ],
+    "correct_answer": "C) Extravagant",
+    "explanation": "FRUGAL means sparing or economical with money. Its antonym is EXTRAVAGANT, meaning lacking restraint in spending. Thrifty, Economical, and Sparing are synonyms."
+  },
+  {
+    "id": 42,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: BENEVOLENT",
+    "options": [
+      "A) Charitable",
+      "B) Malevolent",
+      "C) Generous",
+      "D) Kind"
+    ],
+    "correct_answer": "B) Malevolent",
+    "explanation": "BENEVOLENT means well-meaning and kindly. Its antonym is MALEVOLENT, meaning having or showing a wish to do evil. Charitable, Generous, and Kind are synonyms."
+  },
+  {
+    "id": 43,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: DILIGENT",
+    "options": [
+      "A) Hardworking",
+      "B) Industrious",
+      "C) Lazy",
+      "D) Assiduous"
+    ],
+    "correct_answer": "C) Lazy",
+    "explanation": "DILIGENT means having or showing care and conscientiousness in work. Its antonym is LAZY, meaning unwilling to work. Hardworking, Industrious, and Assiduous are synonyms."
+  },
+  {
+    "id": 44,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: OBSCURE",
+    "options": [
+      "A) Vague",
+      "B) Unclear",
+      "C) Prominent",
+      "D) Hidden"
+    ],
+    "correct_answer": "C) Prominent",
+    "explanation": "OBSCURE means not discovered or known about; uncertain. Its antonym is PROMINENT, meaning important or famous. Vague, Unclear, and Hidden are synonyms of Obscure."
+  },
+  {
+    "id": 45,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: CANDID",
+    "options": [
+      "A) Frank",
+      "B) Honest",
+      "C) Evasive",
+      "D) Outspoken"
+    ],
+    "correct_answer": "C) Evasive",
+    "explanation": "CANDID means truthful and straightforward. Its antonym is EVASIVE, meaning tending to avoid commitment or directness. Frank, Honest, and Outspoken are synonyms."
+  },
+  {
+    "id": 46,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: PLACID",
+    "options": [
+      "A) Calm",
+      "B) Serene",
+      "C) Turbulent",
+      "D) Tranquil"
+    ],
+    "correct_answer": "C) Turbulent",
+    "explanation": "PLACID means not easily upset or excited; calm. Its antonym is TURBULENT, meaning characterized by conflict or disorder. Calm, Serene, and Tranquil are synonyms."
+  },
+  {
+    "id": 47,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: PRUDENT",
+    "options": [
+      "A) Wise",
+      "B) Sensible",
+      "C) Reckless",
+      "D) Cautious"
+    ],
+    "correct_answer": "C) Reckless",
+    "explanation": "PRUDENT means acting with care and thought for the future. Its antonym is RECKLESS, meaning without thinking of the consequences. Wise, Sensible, and Cautious are synonyms."
+  },
+  {
+    "id": 48,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: AFFLUENT",
+    "options": [
+      "A) Wealthy",
+      "B) Prosperous",
+      "C) Impoverished",
+      "D) Rich"
+    ],
+    "correct_answer": "C) Impoverished",
+    "explanation": "AFFLUENT means having a great deal of money; wealthy. Its antonym is IMPOVERISHED, meaning made poor. Wealthy, Prosperous, and Rich are synonyms of Affluent."
+  },
+  {
+    "id": 49,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: METICULOUS",
+    "options": [
+      "A) Careful",
+      "B) Precise",
+      "C) Careless",
+      "D) Thorough"
+    ],
+    "correct_answer": "C) Careless",
+    "explanation": "METICULOUS means showing great attention to detail. Its antonym is CARELESS, meaning not giving sufficient attention. Careful, Precise, and Thorough are synonyms."
+  },
+  {
+    "id": 50,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: LETHARGIC",
+    "options": [
+      "A) Sluggish",
+      "B) Torpid",
+      "C) Energetic",
+      "D) Listless"
+    ],
+    "correct_answer": "C) Energetic",
+    "explanation": "LETHARGIC means affected by lethargy; sluggish and apathetic. Its antonym is ENERGETIC, meaning showing or involving great activity. Sluggish, Torpid, and Listless are synonyms."
+  },
+  {
+    "id": 51,
+    "topic": "Antonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of the word: TURBID",
+    "options": [
+      "A) Muddy",
+      "B) Murky",
+      "C) Clear",
+      "D) Cloudy"
+    ],
+    "correct_answer": "C) Clear",
+    "explanation": "TURBID means cloudy, opaque, or thick with suspended matter. Its antonym is CLEAR, meaning transparent and free from cloudiness. Muddy, Murky, and Cloudy are synonyms."
+  }
+]

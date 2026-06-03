@@ -1,0 +1,489 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following Java code?\nint a = 10;\nint b = 3;\nSystem.out.println(a % b);",
+    "options": ["A) 3", "B) 1", "C) 0", "D) 2"],
+    "correct_answer": "B) 1",
+    "explanation": "The % operator returns the remainder of division. 10 divided by 3 is 3 with remainder 1. So 10 % 3 = 1."
+  },
+  {
+    "id": 2,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator is used to assign a value to a variable in Java?",
+    "options": ["A) ==", "B) :=", "C) =", "D) =>"],
+    "correct_answer": "C) =",
+    "explanation": "In Java, the single equals sign '=' is the assignment operator used to assign a value to a variable. '==' is the equality comparison operator."
+  },
+  {
+    "id": 3,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of the expression: 5 + 3 * 2 in Java?",
+    "options": ["A) 16", "B) 11", "C) 10", "D) 13"],
+    "correct_answer": "B) 11",
+    "explanation": "Java follows standard operator precedence. Multiplication is performed before addition: 3 * 2 = 6, then 5 + 6 = 11."
+  },
+  {
+    "id": 4,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the '++' operator do when used as a prefix (e.g., ++x)?",
+    "options": ["A) Returns x then increments", "B) Increments x then returns the new value", "C) Decrements x by 1", "D) Multiplies x by 2"],
+    "correct_answer": "B) Increments x then returns the new value",
+    "explanation": "The prefix increment operator (++x) first increments the variable by 1 and then returns the updated value. Post-fix (x++) returns first, then increments."
+  },
+  {
+    "id": 5,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 5;\nSystem.out.println(x++);",
+    "options": ["A) 6", "B) 5", "C) 4", "D) Compilation error"],
+    "correct_answer": "B) 5",
+    "explanation": "x++ is the post-increment operator. It returns the current value of x (5) first, then increments x to 6. So the output is 5."
+  },
+  {
+    "id": 6,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid compound assignment operator in Java?",
+    "options": ["A) =+", "B) +=", "C) +==", "D) =>"],
+    "correct_answer": "B) +=",
+    "explanation": "'+=' is a valid compound assignment operator in Java. It adds the right operand to the left operand and assigns the result to the left operand."
+  },
+  {
+    "id": 7,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 10;\na += 5;\nSystem.out.println(a);",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 50"],
+    "correct_answer": "C) 15",
+    "explanation": "The '+=' operator adds 5 to the current value of a (10) and assigns the result back to a. So a becomes 10 + 5 = 15."
+  },
+  {
+    "id": 8,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of the expression: true && false in Java?",
+    "options": ["A) true", "B) false", "C) 1", "D) 0"],
+    "correct_answer": "B) false",
+    "explanation": "The '&&' is the logical AND operator. It returns true only if both operands are true. Since one operand is false, the result is false."
+  },
+  {
+    "id": 9,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint b = 8;\nb -= 3;\nSystem.out.println(b);",
+    "options": ["A) 11", "B) 3", "C) 8", "D) 5"],
+    "correct_answer": "D) 5",
+    "explanation": "The '-=' operator subtracts 3 from b (8) and assigns the result back to b. So b = 8 - 3 = 5."
+  },
+  {
+    "id": 10,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator is used to compare two values for equality in Java?",
+    "options": ["A) =", "B) !=", "C) ==", "D) >="],
+    "correct_answer": "C) ==",
+    "explanation": "The '==' operator is the equality comparison operator in Java. It returns true if both operands have the same value."
+  },
+  {
+    "id": 11,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 4;\nx *= 3;\nSystem.out.println(x);",
+    "options": ["A) 7", "B) 12", "C) 4", "D) 3"],
+    "correct_answer": "B) 12",
+    "explanation": "The '*=' operator multiplies x by 3 and assigns the result to x. So x = 4 * 3 = 12."
+  },
+  {
+    "id": 12,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the '!' operator do in Java?",
+    "options": ["A) Bitwise NOT", "B) Logical NOT (negation)", "C) Inequality check", "D) Factorial"],
+    "correct_answer": "B) Logical NOT (negation)",
+    "explanation": "The '!' operator is the logical NOT operator in Java. It reverses the boolean value: !true = false and !false = true."
+  },
+  {
+    "id": 13,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 20;\na /= 4;\nSystem.out.println(a);",
+    "options": ["A) 80", "B) 16", "C) 5", "D) 4"],
+    "correct_answer": "C) 5",
+    "explanation": "The '/=' operator divides a by 4 and assigns the result to a. So a = 20 / 4 = 5."
+  },
+  {
+    "id": 14,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of: 15 / 4 in Java (integer division)?",
+    "options": ["A) 3.75", "B) 4", "C) 3", "D) 3.0"],
+    "correct_answer": "C) 3",
+    "explanation": "In Java, dividing two integers performs integer division (truncates the decimal). 15 / 4 = 3 (remainder 3 is discarded)."
+  },
+  {
+    "id": 15,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nboolean result = (5 > 3);\nSystem.out.println(result);",
+    "options": ["A) 1", "B) 0", "C) true", "D) false"],
+    "correct_answer": "C) true",
+    "explanation": "The expression 5 > 3 evaluates to true since 5 is greater than 3. The boolean variable result stores true and prints 'true'."
+  },
+  {
+    "id": 16,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following operators has the highest precedence in Java?",
+    "options": ["A) +", "B) *", "C) ()", "D) ="],
+    "correct_answer": "C) ()",
+    "explanation": "Parentheses '()' have the highest precedence in Java. They override the default operator precedence and force evaluation of the enclosed expression first."
+  },
+  {
+    "id": 17,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint n = 7;\nSystem.out.println(--n);",
+    "options": ["A) 7", "B) 8", "C) 6", "D) 5"],
+    "correct_answer": "C) 6",
+    "explanation": "The prefix decrement operator (--n) first decrements n from 7 to 6, then returns the new value 6. So the output is 6."
+  },
+  {
+    "id": 18,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of: true || false in Java?",
+    "options": ["A) false", "B) true", "C) 1", "D) null"],
+    "correct_answer": "B) true",
+    "explanation": "The '||' is the logical OR operator. It returns true if at least one operand is true. Since the first operand is true, the result is true."
+  },
+  {
+    "id": 19,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 9;\na %= 4;\nSystem.out.println(a);",
+    "options": ["A) 2", "B) 1", "C) 4", "D) 0"],
+    "correct_answer": "B) 1",
+    "explanation": "The '%=' operator computes a % 4 and assigns the result to a. 9 % 4 = 1 (since 9 = 4*2 + 1). So a = 1."
+  },
+  {
+    "id": 20,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the '!=' operator check in Java?",
+    "options": ["A) If two values are equal", "B) If two values are not equal", "C) Logical NOT", "D) Bitwise XOR"],
+    "correct_answer": "B) If two values are not equal",
+    "explanation": "The '!=' operator is the 'not equal to' comparison operator. It returns true if the two operands have different values."
+  },
+  {
+    "id": 21,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 3;\nint y = x++;\nSystem.out.println(y);",
+    "options": ["A) 4", "B) 3", "C) 2", "D) 5"],
+    "correct_answer": "B) 3",
+    "explanation": "x++ is post-increment. The current value of x (3) is assigned to y first, then x is incremented to 4. So y = 3."
+  },
+  {
+    "id": 22,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the ternary operator syntax in Java?",
+    "options": ["A) condition ? value1 : value2", "B) condition : value1 ? value2", "C) if(condition) value1 else value2", "D) condition ?? value1 : value2"],
+    "correct_answer": "A) condition ? value1 : value2",
+    "explanation": "The ternary operator in Java has the syntax: condition ? value_if_true : value_if_false. It is a shorthand for an if-else statement."
+  },
+  {
+    "id": 23,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 5;\nint b = (a > 3) ? 10 : 20;\nSystem.out.println(b);",
+    "options": ["A) 20", "B) 5", "C) 10", "D) 3"],
+    "correct_answer": "C) 10",
+    "explanation": "The condition a > 3 is 5 > 3 which is true. So the ternary operator returns 10 (the value_if_true). b = 10."
+  },
+  {
+    "id": 24,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 6;\nint b = 2;\nSystem.out.println(a / b);",
+    "options": ["A) 4", "B) 2", "C) 3", "D) 12"],
+    "correct_answer": "C) 3",
+    "explanation": "The '/' operator performs division. 6 / 2 = 3. Since both operands are integers, the result is an integer."
+  },
+  {
+    "id": 25,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 10;\nSystem.out.println(x > 5 && x < 20);",
+    "options": ["A) false", "B) 1", "C) true", "D) Compilation error"],
+    "correct_answer": "C) true",
+    "explanation": "x > 5 is true (10 > 5) and x < 20 is true (10 < 20). true && true = true. So the output is true."
+  },
+  {
+    "id": 26,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 2;\nint b = 3;\nSystem.out.println(a + b * 2);",
+    "options": ["A) 10", "B) 7", "C) 8", "D) 12"],
+    "correct_answer": "C) 8",
+    "explanation": "Operator precedence: multiplication first. b * 2 = 3 * 2 = 6. Then a + 6 = 2 + 6 = 8."
+  },
+  {
+    "id": 27,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 5;\nint y = ++x;\nSystem.out.println(y);",
+    "options": ["A) 5", "B) 7", "C) 4", "D) 6"],
+    "correct_answer": "D) 6",
+    "explanation": "++x is prefix increment. x is incremented from 5 to 6 first, then the new value 6 is assigned to y. So y = 6."
+  },
+  {
+    "id": 28,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator is used for bitwise AND in Java?",
+    "options": ["A) &&", "B) &", "C) |", "D) ^"],
+    "correct_answer": "B) &",
+    "explanation": "The '&' operator is the bitwise AND operator in Java. '&&' is the logical AND operator. They operate differently: '&' works on bits, '&&' works on booleans with short-circuit evaluation."
+  },
+  {
+    "id": 29,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 15;\nint b = 4;\nSystem.out.println(a - b);",
+    "options": ["A) 19", "B) 60", "C) 11", "D) 3"],
+    "correct_answer": "C) 11",
+    "explanation": "The '-' operator performs subtraction. 15 - 4 = 11."
+  },
+  {
+    "id": 30,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of the expression: (10 == 10) in Java?",
+    "options": ["A) 1", "B) 0", "C) false", "D) true"],
+    "correct_answer": "D) true",
+    "explanation": "The '==' operator compares two values. Since both operands are 10, they are equal, so the expression evaluates to true."
+  },
+  {
+    "id": 31,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 100;\nx >>= 2;\nSystem.out.println(x);",
+    "options": ["A) 50", "B) 400", "C) 25", "D) 98"],
+    "correct_answer": "C) 25",
+    "explanation": "The '>>=' is the right shift assignment operator. 100 in binary is 1100100. Shifting right by 2 gives 11001 = 25."
+  },
+  {
+    "id": 32,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a relational operator in Java?",
+    "options": ["A) >", "B) <=", "C) !=", "D) &&"],
+    "correct_answer": "D) &&",
+    "explanation": "'&&' is a logical operator (logical AND), not a relational operator. Relational operators include >, <, >=, <=, ==, and !=."
+  },
+  {
+    "id": 33,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 7;\nSystem.out.println(a-- );",
+    "options": ["A) 6", "B) 8", "C) 7", "D) 5"],
+    "correct_answer": "C) 7",
+    "explanation": "a-- is post-decrement. The current value of a (7) is returned first, then a is decremented to 6. So the output is 7."
+  },
+  {
+    "id": 34,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 4;\nint y = 6;\nSystem.out.println(x * y + 2);",
+    "options": ["A) 48", "B) 26", "C) 24", "D) 28"],
+    "correct_answer": "B) 26",
+    "explanation": "Multiplication has higher precedence than addition. x * y = 4 * 6 = 24. Then 24 + 2 = 26."
+  },
+  {
+    "id": 35,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the '|' operator do in Java?",
+    "options": ["A) Logical OR", "B) Bitwise OR", "C) Logical AND", "D) Bitwise XOR"],
+    "correct_answer": "B) Bitwise OR",
+    "explanation": "The '|' operator is the bitwise OR operator in Java. It performs OR operation on each corresponding bit of two integer operands."
+  },
+  {
+    "id": 36,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 3;\nint b = 4;\nSystem.out.println(a < b);",
+    "options": ["A) 1", "B) true", "C) false", "D) 0"],
+    "correct_answer": "B) true",
+    "explanation": "The '<' operator checks if a is less than b. Since 3 < 4 is true, the expression evaluates to true."
+  },
+  {
+    "id": 37,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 8;\nx <<= 1;\nSystem.out.println(x);",
+    "options": ["A) 4", "B) 16", "C) 9", "D) 7"],
+    "correct_answer": "B) 16",
+    "explanation": "The '<<=' is the left shift assignment operator. 8 in binary is 1000. Shifting left by 1 gives 10000 = 16."
+  },
+  {
+    "id": 38,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 5;\nint b = 5;\nSystem.out.println(a >= b);",
+    "options": ["A) false", "B) 1", "C) true", "D) 0"],
+    "correct_answer": "C) true",
+    "explanation": "The '>=' operator checks if a is greater than or equal to b. Since 5 >= 5 is true (they are equal), the result is true."
+  },
+  {
+    "id": 39,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 12;\nSystem.out.println(x % 5);",
+    "options": ["A) 2", "B) 5", "C) 1", "D) 3"],
+    "correct_answer": "A) 2",
+    "explanation": "The '%' operator returns the remainder. 12 divided by 5 is 2 with remainder 2. So 12 % 5 = 2."
+  },
+  {
+    "id": 40,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 10;\nint b = 3;\nSystem.out.println(a + b + \" result\");",
+    "options": ["A) 10 + 3 result", "B) 13 result", "C) 103 result", "D) Compilation error"],
+    "correct_answer": "B) 13 result",
+    "explanation": "a + b is evaluated first as integer addition (10 + 3 = 13), then 13 is concatenated with \" result\" to give \"13 result\"."
+  },
+  {
+    "id": 41,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 5;\nint b = 10;\nSystem.out.println(\"Sum: \" + a + b);",
+    "options": ["A) Sum: 15", "B) Sum: 510", "C) Sum: 5 10", "D) Compilation error"],
+    "correct_answer": "B) Sum: 510",
+    "explanation": "String concatenation is left-to-right. \"Sum: \" + a = \"Sum: 5\", then \"Sum: 5\" + b = \"Sum: 510\". To get 15, use \"Sum: \" + (a + b)."
+  },
+  {
+    "id": 42,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 5;\nint y = x++ + ++x;\nSystem.out.println(y);",
+    "options": ["A) 11", "B) 12", "C) 10", "D) 13"],
+    "correct_answer": "B) 12",
+    "explanation": "x++ returns 5 (then x becomes 6). ++x increments x to 7 and returns 7. So y = 5 + 7 = 12."
+  },
+  {
+    "id": 43,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the result of: 6 & 3 in Java?",
+    "options": ["A) 7", "B) 5", "C) 2", "D) 3"],
+    "correct_answer": "C) 2",
+    "explanation": "Bitwise AND: 6 = 110, 3 = 011. AND operation: 110 & 011 = 010 = 2."
+  },
+  {
+    "id": 44,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the result of: 5 | 3 in Java?",
+    "options": ["A) 7", "B) 6", "C) 5", "D) 8"],
+    "correct_answer": "A) 7",
+    "explanation": "Bitwise OR: 5 = 101, 3 = 011. OR operation: 101 | 011 = 111 = 7."
+  },
+  {
+    "id": 45,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the result of: 7 ^ 3 in Java?",
+    "options": ["A) 4", "B) 7", "C) 3", "D) 5"],
+    "correct_answer": "A) 4",
+    "explanation": "Bitwise XOR: 7 = 111, 3 = 011. XOR operation: 111 ^ 011 = 100 = 4."
+  },
+  {
+    "id": 46,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 10;\nint b = 20;\nint c = a > b ? a : b;\nSystem.out.println(c);",
+    "options": ["A) 10", "B) 20", "C) 0", "D) true"],
+    "correct_answer": "B) 20",
+    "explanation": "The condition a > b is 10 > 20 which is false. So the ternary operator returns b (20). c = 20."
+  },
+  {
+    "id": 47,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 10;\nSystem.out.println(x >> 1);",
+    "options": ["A) 20", "B) 5", "C) 9", "D) 4"],
+    "correct_answer": "B) 5",
+    "explanation": "The '>>' is the right shift operator. 10 in binary is 1010. Shifting right by 1 gives 0101 = 5. Right shift by 1 is equivalent to dividing by 2."
+  },
+  {
+    "id": 48,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 5;\nint b = 3;\nSystem.out.println(a++ + b--);",
+    "options": ["A) 8", "B) 9", "C) 7", "D) 6"],
+    "correct_answer": "A) 8",
+    "explanation": "a++ returns 5 (then a becomes 6). b-- returns 3 (then b becomes 2). So the expression is 5 + 3 = 8."
+  },
+  {
+    "id": 49,
+    "topic": "Operators and Assignments in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 15;\nSystem.out.println(~x);",
+    "options": ["

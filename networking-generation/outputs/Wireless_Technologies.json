@@ -1,0 +1,500 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does WiFi stand for?",
+    "options": ["A) Wireless Fidelity", "B) Wired Fidelity", "C) Wireless Frequency", "D) Wide Fidelity"],
+    "correct_answer": "A) Wireless Fidelity",
+    "explanation": "WiFi stands for Wireless Fidelity. It is a family of wireless network protocols based on the IEEE 802.11 standards."
+  },
+  {
+    "id": 2,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which frequency band does Bluetooth operate on?",
+    "options": ["A) 900 MHz", "B) 2.4 GHz", "C) 5 GHz", "D) 60 GHz"],
+    "correct_answer": "B) 2.4 GHz",
+    "explanation": "Bluetooth operates in the 2.4 GHz ISM (Industrial, Scientific, and Medical) frequency band, specifically between 2.400 and 2.485 GHz."
+  },
+  {
+    "id": 3,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum range of a standard Bluetooth Class 2 device?",
+    "options": ["A) 1 meter", "B) 10 meters", "C) 100 meters", "D) 1000 meters"],
+    "correct_answer": "B) 10 meters",
+    "explanation": "Bluetooth Class 2 devices have a maximum range of approximately 10 meters (33 feet). Class 1 goes up to 100m and Class 3 only 1m."
+  },
+  {
+    "id": 4,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which IEEE standard defines WiFi?",
+    "options": ["A) IEEE 802.3", "B) IEEE 802.11", "C) IEEE 802.15", "D) IEEE 802.16"],
+    "correct_answer": "B) IEEE 802.11",
+    "explanation": "IEEE 802.11 is the set of standards that define WiFi. IEEE 802.3 is Ethernet, 802.15 is Bluetooth/ZigBee, and 802.16 is WiMAX."
+  },
+  {
+    "id": 5,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does NFC stand for in wireless communication?",
+    "options": ["A) Near Field Communication", "B) Network Frequency Control", "C) New Fiber Connection", "D) Narrow Frequency Channel"],
+    "correct_answer": "A) Near Field Communication",
+    "explanation": "NFC stands for Near Field Communication. It enables short-range wireless communication between devices within about 4 cm."
+  },
+  {
+    "id": 6,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which generation of mobile network introduced 4G LTE?",
+    "options": ["A) Second generation", "B) Third generation", "C) Fourth generation", "D) Fifth generation"],
+    "correct_answer": "C) Fourth generation",
+    "explanation": "4G LTE (Long Term Evolution) is the fourth generation of mobile network technology, offering significantly faster data speeds than 3G."
+  },
+  {
+    "id": 7,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of SSID in wireless networking?",
+    "options": ["A) Service Set Identifier", "B) Secure Signal ID", "C) System Set Interface Device", "D) Signal Strength Indicator Device"],
+    "correct_answer": "A) Service Set Identifier",
+    "explanation": "SSID stands for Service Set Identifier. It is the name assigned to a wireless network that devices use to identify and connect to it."
+  },
+  {
+    "id": 8,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which wireless technology is used for contactless payment systems?",
+    "options": ["A) WiFi", "B) Bluetooth", "C) NFC", "D) ZigBee"],
+    "correct_answer": "C) NFC",
+    "explanation": "NFC (Near Field Communication) is used for contactless payments. It operates at 13.56 MHz and works within a range of about 4 cm."
+  },
+  {
+    "id": 9,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does GPRS stand for?",
+    "options": ["A) General Packet Radio Service", "B) Global Positioning Radio System", "C) General Purpose Radio Signal", "D) Global Packet Relay Service"],
+    "correct_answer": "A) General Packet Radio Service",
+    "explanation": "GPRS stands for General Packet Radio Service. It is a packet-oriented mobile data standard on the 2G and 3G cellular communication network."
+  },
+  {
+    "id": 10,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which wireless standard is commonly used for IoT devices due to its low power consumption?",
+    "options": ["A) WiFi 6", "B) ZigBee", "C) 4G LTE", "D) WiMAX"],
+    "correct_answer": "B) ZigBee",
+    "explanation": "ZigBee (IEEE 802.15.4) is widely used in IoT due to its low power consumption, low data rate, and mesh networking capability."
+  },
+  {
+    "id": 11,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum theoretical speed of WiFi 5 (802.11ac)?",
+    "options": ["A) 54 Mbps", "B) 300 Mbps", "C) 3.5 Gbps", "D) 9.6 Gbps"],
+    "correct_answer": "C) 3.5 Gbps",
+    "explanation": "WiFi 5 (802.11ac) has a maximum theoretical speed of approximately 3.5 Gbps. WiFi 6 (802.11ax) reaches up to 9.6 Gbps."
+  },
+  {
+    "id": 12,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does LTE stand for in mobile communications?",
+    "options": ["A) Long Term Evolution", "B) Low Transfer Efficiency", "C) Large Transmission Encoding", "D) Local Terminal Exchange"],
+    "correct_answer": "A) Long Term Evolution",
+    "explanation": "LTE stands for Long Term Evolution. It is a standard for wireless broadband communication for mobile devices and data terminals."
+  },
+  {
+    "id": 13,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which technology uses radio waves to automatically identify and track tags attached to objects?",
+    "options": ["A) NFC", "B) RFID", "C) Bluetooth", "D) ZigBee"],
+    "correct_answer": "B) RFID",
+    "explanation": "RFID (Radio Frequency Identification) uses radio waves to identify and track tags. It is used in inventory management, access control, and more."
+  },
+  {
+    "id": 14,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the operating frequency of WiFi 6 (802.11ax)?",
+    "options": ["A) Only 2.4 GHz", "B) Only 5 GHz", "C) Both 2.4 GHz and 5 GHz", "D) 60 GHz only"],
+    "correct_answer": "C) Both 2.4 GHz and 5 GHz",
+    "explanation": "WiFi 6 (802.11ax) operates on both 2.4 GHz and 5 GHz bands, offering improved performance and efficiency over previous standards."
+  },
+  {
+    "id": 15,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does WPA2 stand for in WiFi security?",
+    "options": ["A) Wireless Protected Access 2", "B) WiFi Protected Access 2", "C) Wide Protocol Authentication 2", "D) Wireless Protocol Algorithm 2"],
+    "correct_answer": "B) WiFi Protected Access 2",
+    "explanation": "WPA2 stands for WiFi Protected Access 2. It is a security protocol used to protect wireless networks, using AES encryption."
+  },
+  {
+    "id": 16,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which generation of mobile network first introduced mobile internet browsing?",
+    "options": ["A) 1G", "B) 2G", "C) 3G", "D) 4G"],
+    "correct_answer": "B) 2G",
+    "explanation": "2G (Second Generation) introduced digital voice and basic data services including SMS and limited internet browsing via WAP."
+  },
+  {
+    "id": 17,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary purpose of a wireless access point (WAP)?",
+    "options": ["A) To block wireless signals", "B) To connect wireless devices to a wired network", "C) To encrypt all network traffic", "D) To assign IP addresses"],
+    "correct_answer": "B) To connect wireless devices to a wired network",
+    "explanation": "A Wireless Access Point (WAP) allows wireless devices to connect to a wired network using WiFi or related standards."
+  },
+  {
+    "id": 18,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does MIMO stand for in wireless communications?",
+    "options": ["A) Multiple Input Multiple Output", "B) Minimum Input Maximum Output", "C) Multi Interface Mobile Operation", "D) Modulated Input Modulated Output"],
+    "correct_answer": "A) Multiple Input Multiple Output",
+    "explanation": "MIMO stands for Multiple Input Multiple Output. It uses multiple antennas at both transmitter and receiver to improve communication performance."
+  },
+  {
+    "id": 19,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which wireless technology is used in garage door openers and remote controls?",
+    "options": ["A) WiFi", "B) Infrared (IR)", "C) Bluetooth", "D) 5G"],
+    "correct_answer": "B) Infrared (IR)",
+    "explanation": "Infrared (IR) technology is commonly used in TV remote controls and garage door openers. It requires line-of-sight and works at short range."
+  },
+  {
+    "id": 20,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of GSM in mobile communications?",
+    "options": ["A) Global System for Mobile Communications", "B) General Signal Modulation", "C) Global Standard Messaging", "D) General System for Mobility"],
+    "correct_answer": "A) Global System for Mobile Communications",
+    "explanation": "GSM stands for Global System for Mobile Communications. It is the standard for 2G cellular networks and is used worldwide."
+  },
+  {
+    "id": 21,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which wireless technology has the shortest communication range?",
+    "options": ["A) WiFi", "B) Bluetooth", "C) NFC", "D) ZigBee"],
+    "correct_answer": "C) NFC",
+    "explanation": "NFC has the shortest range of approximately 4 cm. WiFi covers up to 100m, Bluetooth up to 100m (Class 1), and ZigBee up to 100m."
+  },
+  {
+    "id": 22,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'G' in 5G stand for?",
+    "options": ["A) Gigabit", "B) Generation", "C) Global", "D) Gateway"],
+    "correct_answer": "B) Generation",
+    "explanation": "The 'G' in 5G stands for Generation. 5G is the fifth generation of mobile network technology, succeeding 4G LTE."
+  },
+  {
+    "id": 23,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used by Bluetooth for audio streaming?",
+    "options": ["A) A2DP", "B) HTTP", "C) FTP", "D) SMTP"],
+    "correct_answer": "A) A2DP",
+    "explanation": "A2DP (Advanced Audio Distribution Profile) is the Bluetooth protocol used for streaming stereo audio from one device to another."
+  },
+  {
+    "id": 24,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the name of the security vulnerability in WEP encryption?",
+    "options": ["A) It uses weak RC4 cipher implementation", "B) It uses no encryption at all", "C) It only works on 5 GHz", "D) It requires physical access"],
+    "correct_answer": "A) It uses weak RC4 cipher implementation",
+    "explanation": "WEP (Wired Equivalent Privacy) is vulnerable because it uses a weak implementation of the RC4 cipher with short, reusable initialization vectors."
+  },
+  {
+    "id": 25,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which wireless technology is defined by the IEEE 802.16 standard?",
+    "options": ["A) WiFi", "B) Bluetooth", "C) WiMAX", "D) ZigBee"],
+    "correct_answer": "C) WiMAX",
+    "explanation": "WiMAX (Worldwide Interoperability for Microwave Access) is defined by IEEE 802.16. It provides wireless broadband access over long distances."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum data transfer rate of Bluetooth 5.0?",
+    "options": ["A) 1 Mbps", "B) 2 Mbps", "C) 3 Mbps", "D) 10 Mbps"],
+    "correct_answer": "B) 2 Mbps",
+    "explanation": "Bluetooth 5.0 supports a maximum data transfer rate of 2 Mbps, which is double the 1 Mbps rate of Bluetooth 4.2."
+  },
+  {
+    "id": 27,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does CDMA stand for in wireless communications?",
+    "options": ["A) Code Division Multiple Access", "B) Channel Division Mobile Access", "C) Carrier Data Modulation Access", "D) Central Data Management Architecture"],
+    "correct_answer": "A) Code Division Multiple Access",
+    "explanation": "CDMA stands for Code Division Multiple Access. It is a channel access method used by various radio communication technologies."
+  },
+  {
+    "id": 28,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which band does 802.11a WiFi operate on?",
+    "options": ["A) 2.4 GHz", "B) 5 GHz", "C) 900 MHz", "D) 60 GHz"],
+    "correct_answer": "B) 5 GHz",
+    "explanation": "IEEE 802.11a operates on the 5 GHz band and supports speeds up to 54 Mbps. It has less interference than 2.4 GHz but shorter range."
+  },
+  {
+    "id": 29,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a wireless repeater?",
+    "options": ["A) To block unauthorized access", "B) To extend the range of a wireless network", "C) To increase encryption strength", "D) To reduce network speed"],
+    "correct_answer": "B) To extend the range of a wireless network",
+    "explanation": "A wireless repeater receives the existing WiFi signal and rebroadcasts it to extend the coverage area of the network."
+  },
+  {
+    "id": 30,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which technology allows a smartphone to act as a wireless hotspot?",
+    "options": ["A) Tethering", "B) Bridging", "C) Tunneling", "D) Routing"],
+    "correct_answer": "A) Tethering",
+    "explanation": "Tethering allows a smartphone to share its mobile data connection with other devices via WiFi hotspot, Bluetooth, or USB."
+  },
+  {
+    "id": 31,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does OFDM stand for in wireless communications?",
+    "options": ["A) Orthogonal Frequency Division Multiplexing", "B) Optical Fiber Data Modulation", "C) Open Frequency Data Management", "D) Orthogonal Frame Data Multiplexing"],
+    "correct_answer": "A) Orthogonal Frequency Division Multiplexing",
+    "explanation": "OFDM stands for Orthogonal Frequency Division Multiplexing. It is a method of encoding digital data on multiple carrier frequencies used in WiFi and 4G/5G."
+  },
+  {
+    "id": 32,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which wireless technology is primarily used for satellite communication?",
+    "options": ["A) WiFi", "B) Microwave", "C) Bluetooth", "D) ZigBee"],
+    "correct_answer": "B) Microwave",
+    "explanation": "Microwave technology is used for satellite communications. Satellites use microwave frequencies (1-300 GHz) for long-distance communication."
+  },
+  {
+    "id": 33,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the name of the process where a mobile device moves from one cell tower to another?",
+    "options": ["A) Roaming", "B) Handoff/Handover", "C) Switching", "D) Bridging"],
+    "correct_answer": "B) Handoff/Handover",
+    "explanation": "Handoff (or Handover) is the process of transferring an ongoing call or data session from one cell tower to another as a device moves."
+  },
+  {
+    "id": 34,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'hotspot' refer to in wireless networking?",
+    "options": ["A) A location with high electromagnetic radiation", "B) A physical location offering wireless internet access", "C) A device that blocks wireless signals", "D) A type of wireless encryption"],
+    "correct_answer": "B) A physical location offering wireless internet access",
+    "explanation": "A hotspot is a physical location where people can access the internet using WiFi via a wireless local area network (WLAN)."
+  },
+  {
+    "id": 35,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which modulation technique is used in GSM networks?",
+    "options": ["A) GMSK", "B) QPSK", "C) QAM", "D) OFDM"],
+    "correct_answer": "A) GMSK",
+    "explanation": "GSM uses GMSK (Gaussian Minimum Shift Keying) modulation. It is a type of continuous-phase frequency-shift keying with a Gaussian filter."
+  },
+  {
+    "id": 36,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the typical indoor range of a standard WiFi router?",
+    "options": ["A) 10-20 meters", "B) 30-50 meters", "C) 100-200 meters", "D) 500-1000 meters"],
+    "correct_answer": "B) 30-50 meters",
+    "explanation": "A standard WiFi router typically covers 30-50 meters indoors. Walls and obstacles reduce the effective range significantly."
+  },
+  {
+    "id": 37,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the acronym 'AP' stand for in wireless networking?",
+    "options": ["A) Access Point", "B) Authentication Protocol", "C) Antenna Power", "D) Application Port"],
+    "correct_answer": "A) Access Point",
+    "explanation": "AP stands for Access Point. It is a networking hardware device that allows wireless devices to connect to a wired network."
+  },
+  {
+    "id": 38,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which wireless technology uses the 60 GHz frequency band for very high-speed short-range communication?",
+    "options": ["A) WiFi 5", "B) WiGig (802.11ad)", "C) Bluetooth 5.0", "D) ZigBee"],
+    "correct_answer": "B) WiGig (802.11ad)",
+    "explanation": "WiGig (IEEE 802.11ad) operates at 60 GHz and can achieve speeds up to 7 Gbps but has very limited range due to high frequency."
+  },
+  {
+    "id": 39,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary advantage of 5 GHz WiFi over 2.4 GHz WiFi?",
+    "options": ["A) Longer range", "B) Less interference and higher speeds", "C) Better wall penetration", "D) Lower power consumption"],
+    "correct_answer": "B) Less interference and higher speeds",
+    "explanation": "5 GHz WiFi offers less interference (fewer devices use it) and higher speeds, but has shorter range and poorer wall penetration than 2.4 GHz."
+  },
+  {
+    "id": 40,
+    "topic": "Wireless Technologies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does VoLTE stand for?",
+    "options": ["A) Voice over Long Term Evolution", "B) Video over Local Terminal Exchange", "C) Voice over Local Telephone Exchange", "D) Virtual over LTE"],
+    "correct_answer": "A) Voice over Long Term Evolution",
+    "explanation": "VoLTE stands for Voice over Long Term Evolution. It allows voice calls to be made over 4G LTE networks with HD voice quality."
+  },
+  {
+    "id": 41,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A WiFi signal travels at the speed of light (3 × 10⁸ m/s). If a router is 30 meters away, approximately how long does it take for a signal to travel from the router to the device?",
+    "options": ["A) 1 × 10⁻⁷ seconds", "B) 1 × 10⁻⁸ seconds", "C) 1 × 10⁻⁶ seconds", "D) 1 × 10⁻⁹ seconds"],
+    "correct_answer": "A) 1 × 10⁻⁷ seconds",
+    "explanation": "Time = Distance/Speed = 30 / (3 × 10⁸) = 10 × 10⁻⁸ = 1 × 10⁻⁷ seconds. This is 100 nanoseconds."
+  },
+  {
+    "id": 42,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which multiple access technique is used in 3G WCDMA networks?",
+    "options": ["A) TDMA", "B) FDMA", "C) CDMA", "D) OFDMA"],
+    "correct_answer": "C) CDMA",
+    "explanation": "3G WCDMA (Wideband Code Division Multiple Access) uses CDMA technology. Each user is assigned a unique code to share the same frequency band."
+  },
+  {
+    "id": 43,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "If a 4G LTE network has a bandwidth of 20 MHz and uses 64-QAM modulation with a spectral efficiency of 5.4 bits/s/Hz, what is the approximate peak data rate?",
+    "options": ["A) 54 Mbps", "B) 108 Mbps", "C) 150 Mbps", "D) 300 Mbps"],
+    "correct_answer": "B) 108 Mbps",
+    "explanation": "Peak data rate = Bandwidth × Spectral efficiency = 20 MHz × 5.4 bits/s/Hz = 108 Mbps. This is the theoretical single-antenna downlink rate."
+  },
+  {
+    "id": 44,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the key difference between infrastructure mode and ad-hoc mode in WiFi?",
+    "options": ["A) Infrastructure uses an access point; ad-hoc connects devices directly", "B) Infrastructure is faster; ad-hoc is slower", "C) Infrastructure uses 5 GHz; ad-hoc uses 2.4 GHz", "D) Infrastructure is encrypted; ad-hoc is not"],
+    "correct_answer": "A) Infrastructure uses an access point; ad-hoc connects devices directly",
+    "explanation": "In infrastructure mode, devices connect through an access point. In ad-hoc (peer-to-peer) mode, devices communicate directly without an AP."
+  },
+  {
+    "id": 45,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which channel width provides the highest throughput in 802.11ac WiFi?",
+    "options": ["A) 20 MHz", "B) 40 MHz", "C) 80 MHz", "D) 160 MHz"],
+    "correct_answer": "D) 160 MHz",
+    "explanation": "Wider channels allow more data to be transmitted simultaneously. 160 MHz channels in 802.11ac provide the highest throughput but require more spectrum."
+  },
+  {
+    "id": 46,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A Bluetooth piconet can have a maximum of how many active slave devices connected to one master?",
+    "options": ["A) 3", "B) 5", "C) 7", "D) 10"],
+    "correct_answer": "C) 7",
+    "explanation": "A Bluetooth piconet consists of one master device and up to 7 active slave devices. Additional devices can be in parked state (up to 255)."
+  },
+  {
+    "id": 47,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the frequency hopping rate of Bluetooth?",
+    "options": ["A) 100 hops/second", "B) 1600 hops/second", "C) 800 hops/second", "D) 3200 hops/second"],
+    "correct_answer": "B) 1600 hops/second",
+    "explanation": "Bluetooth uses frequency hopping spread spectrum (FHSS) and hops between 79 channels at a rate of 1600 hops per second to reduce interference."
+  },
+  {
+    "id": 48,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which technology does 5G use to serve multiple users simultaneously using the same time-frequency resources?",
+    "options": ["A) TDMA", "B) FDMA", "C) Massive MIMO", "D) CDMA"],
+    "correct_answer": "C) Massive MIMO",
+    "explanation": "5G uses Massive MIMO (Multiple Input Multiple Output) with hundreds of antennas to serve multiple users simultaneously, improving spectral efficiency."
+  },
+  {
+    "id": 49,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the latency target of 5G networks?",
+    "options": ["A) 100 ms", "B) 50 ms", "C) 10 ms", "D) 1 ms"],
+    "correct_answer": "D) 1 ms",
+    "explanation": "5G targets an ultra-low latency of 1 millisecond (ms), compared to 4G LTE's typical 30-50 ms latency, enabling real-time applications."
+  },
+  {
+    "id": 50,
+    "topic": "Wireless Technologies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In wireless communication, what does 'dBm' measure?",
+    "options": ["A) Signal frequency in megahertz", "B) Power level relative to 1 milliwatt", "C)

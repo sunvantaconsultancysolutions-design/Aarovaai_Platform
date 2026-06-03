@@ -1,0 +1,453 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a transaction in a multiuser database environment?",
+    "options": ["A) A single SQL query", "B) A logical unit of work that must be completed entirely or not at all", "C) A backup operation", "D) A user login session"],
+    "correct_answer": "B) A logical unit of work that must be completed entirely or not at all",
+    "explanation": "A transaction is a logical unit of work consisting of one or more SQL statements that must be executed atomically — either all succeed or all are rolled back."
+  },
+  {
+    "id": 2,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which property of a transaction ensures that once committed, the changes are permanent even after a system failure?",
+    "options": ["A) Atomicity", "B) Consistency", "C) Isolation", "D) Durability"],
+    "correct_answer": "D) Durability",
+    "explanation": "Durability (the 'D' in ACID) guarantees that committed transactions survive system failures by persisting changes to non-volatile storage."
+  },
+  {
+    "id": 3,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the acronym ACID stand for in database transactions?",
+    "options": ["A) Atomicity, Consistency, Isolation, Durability", "B) Accuracy, Consistency, Integrity, Durability", "C) Atomicity, Concurrency, Isolation, Data", "D) Accuracy, Concurrency, Integrity, Data"],
+    "correct_answer": "A) Atomicity, Consistency, Isolation, Durability",
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability — the four key properties that guarantee reliable database transactions."
+  },
+  {
+    "id": 4,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to permanently save changes made during a transaction?",
+    "options": ["A) SAVE", "B) ROLLBACK", "C) COMMIT", "D) END"],
+    "correct_answer": "C) COMMIT",
+    "explanation": "The COMMIT statement permanently saves all changes made during the current transaction to the database."
+  },
+  {
+    "id": 5,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to undo changes made during a transaction?",
+    "options": ["A) UNDO", "B) ROLLBACK", "C) REVERT", "D) CANCEL"],
+    "correct_answer": "B) ROLLBACK",
+    "explanation": "ROLLBACK undoes all changes made during the current transaction, restoring the database to its state before the transaction began."
+  },
+  {
+    "id": 6,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a deadlock in a multiuser database?",
+    "options": ["A) A situation where a database crashes", "B) A situation where two or more transactions wait indefinitely for each other to release locks", "C) A situation where a query takes too long", "D) A situation where a user is locked out of the system"],
+    "correct_answer": "B) A situation where two or more transactions wait indefinitely for each other to release locks",
+    "explanation": "A deadlock occurs when two or more transactions each hold a lock that the other needs, causing all involved transactions to wait forever."
+  },
+  {
+    "id": 7,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of lock allows multiple transactions to read a resource simultaneously but prevents writing?",
+    "options": ["A) Exclusive lock", "B) Shared lock", "C) Update lock", "D) Intent lock"],
+    "correct_answer": "B) Shared lock",
+    "explanation": "A shared (read) lock allows multiple transactions to read the same resource concurrently but blocks any write operations until all shared locks are released."
+  },
+  {
+    "id": 8,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is concurrency control in a database system?",
+    "options": ["A) Managing multiple databases simultaneously", "B) Coordinating simultaneous access to shared data by multiple transactions", "C) Controlling the number of users in a system", "D) Managing database backups"],
+    "correct_answer": "B) Coordinating simultaneous access to shared data by multiple transactions",
+    "explanation": "Concurrency control ensures that simultaneous transactions execute correctly without interfering with each other, maintaining data integrity."
+  },
+  {
+    "id": 9,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which isolation level allows a transaction to read data that has been modified but not yet committed by another transaction?",
+    "options": ["A) Serializable", "B) Repeatable Read", "C) Read Committed", "D) Read Uncommitted"],
+    "correct_answer": "D) Read Uncommitted",
+    "explanation": "Read Uncommitted is the lowest isolation level, allowing transactions to read uncommitted (dirty) data from other transactions."
+  },
+  {
+    "id": 10,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'dirty read' in database transactions?",
+    "options": ["A) Reading corrupted data", "B) Reading data that has been modified by an uncommitted transaction", "C) Reading data from a backup", "D) Reading data without proper authorization"],
+    "correct_answer": "B) Reading data that has been modified by an uncommitted transaction",
+    "explanation": "A dirty read occurs when a transaction reads data written by another transaction that has not yet committed, risking reading data that may be rolled back."
+  },
+  {
+    "id": 11,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the highest level of transaction isolation?",
+    "options": ["A) Read Uncommitted", "B) Read Committed", "C) Repeatable Read", "D) Serializable"],
+    "correct_answer": "D) Serializable",
+    "explanation": "Serializable is the highest isolation level, ensuring transactions execute as if they were run serially (one after another), preventing all concurrency anomalies."
+  },
+  {
+    "id": 12,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a concurrency problem in multiuser databases?",
+    "options": ["A) Dirty read", "B) Phantom read", "C) Lost update", "D) Index fragmentation"],
+    "correct_answer": "D) Index fragmentation",
+    "explanation": "Index fragmentation is a performance issue, not a concurrency problem. Dirty read, phantom read, and lost update are classic concurrency anomalies."
+  },
+  {
+    "id": 13,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'phantom read' in database transactions?",
+    "options": ["A) Reading deleted records", "B) A transaction re-executing a query and finding new rows inserted by another committed transaction", "C) Reading encrypted data", "D) Reading data from a ghost table"],
+    "correct_answer": "B) A transaction re-executing a query and finding new rows inserted by another committed transaction",
+    "explanation": "A phantom read occurs when a transaction executes the same query twice and gets different sets of rows because another transaction inserted or deleted rows in between."
+  },
+  {
+    "id": 14,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which locking mechanism prevents all other transactions from accessing a resource?",
+    "options": ["A) Shared lock", "B) Exclusive lock", "C) Schema lock", "D) Bulk update lock"],
+    "correct_answer": "B) Exclusive lock",
+    "explanation": "An exclusive (write) lock prevents any other transaction from reading or writing the locked resource until the lock is released."
+  },
+  {
+    "id": 15,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'lost update' mean in a multiuser database?",
+    "options": ["A) A record that was accidentally deleted", "B) When two transactions read and update the same data, and one update overwrites the other", "C) A transaction that was not committed", "D) A backup that failed"],
+    "correct_answer": "B) When two transactions read and update the same data, and one update overwrites the other",
+    "explanation": "A lost update occurs when two transactions read the same value, both modify it, and the second write overwrites the first, causing the first update to be lost."
+  },
+  {
+    "id": 16,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a savepoint in a database transaction?",
+    "options": ["A) A backup of the entire database", "B) A marker within a transaction to which you can partially roll back", "C) A point where the database is saved to disk", "D) A checkpoint for database recovery"],
+    "correct_answer": "B) A marker within a transaction to which you can partially roll back",
+    "explanation": "A SAVEPOINT allows partial rollback within a transaction — you can roll back to the savepoint without undoing the entire transaction."
+  },
+  {
+    "id": 17,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'non-repeatable read'?",
+    "options": ["A) A transaction reads the same row twice and gets different values because another transaction modified it", "B) A transaction cannot read a row", "C) A transaction reads a row that doesn't exist", "D) A transaction reads a row multiple times with the same result"],
+    "correct_answer": "A) A transaction reads the same row twice and gets different values because another transaction modified it",
+    "explanation": "A non-repeatable read occurs when a transaction reads the same row twice and gets different data because another committed transaction updated that row in between."
+  },
+  {
+    "id": 18,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database terminology, what is a 'schedule'?",
+    "options": ["A) A timetable for database backups", "B) A sequence of operations from multiple transactions executed in an interleaved manner", "C) A list of users and their access times", "D) A plan for database maintenance"],
+    "correct_answer": "B) A sequence of operations from multiple transactions executed in an interleaved manner",
+    "explanation": "A schedule is an ordering of operations from multiple concurrent transactions, defining how their reads and writes are interleaved during execution."
+  },
+  {
+    "id": 19,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'serial schedule' in database concurrency?",
+    "options": ["A) A schedule where transactions are executed one after another without interleaving", "B) A schedule where all transactions run simultaneously", "C) A schedule optimized for performance", "D) A schedule that uses serial ports for communication"],
+    "correct_answer": "A) A schedule where transactions are executed one after another without interleaving",
+    "explanation": "In a serial schedule, transactions execute completely one at a time with no interleaving, guaranteeing correctness but potentially reducing throughput."
+  },
+  {
+    "id": 20,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a database lock?",
+    "options": ["A) To encrypt data", "B) To prevent unauthorized users from accessing the database", "C) To control concurrent access to data and maintain consistency", "D) To compress database files"],
+    "correct_answer": "C) To control concurrent access to data and maintain consistency",
+    "explanation": "Database locks are mechanisms used to control concurrent access to data, ensuring that transactions do not interfere with each other and data remains consistent."
+  },
+  {
+    "id": 21,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ACID property ensures that a transaction brings the database from one valid state to another?",
+    "options": ["A) Atomicity", "B) Consistency", "C) Isolation", "D) Durability"],
+    "correct_answer": "B) Consistency",
+    "explanation": "Consistency ensures that a transaction transforms the database from one valid state to another, maintaining all predefined rules, constraints, and integrity conditions."
+  },
+  {
+    "id": 22,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the Isolation property of ACID guarantee?",
+    "options": ["A) Transactions are saved permanently", "B) Concurrent transactions appear to execute serially, without interfering with each other", "C) All operations in a transaction succeed or fail together", "D) Data is backed up regularly"],
+    "correct_answer": "B) Concurrent transactions appear to execute serially, without interfering with each other",
+    "explanation": "Isolation ensures that the intermediate state of a transaction is not visible to other transactions, making concurrent transactions appear to execute one at a time."
+  },
+  {
+    "id": 23,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is optimistic concurrency control?",
+    "options": ["A) Assuming conflicts will occur and locking resources preemptively", "B) Assuming conflicts are rare and checking for conflicts only at commit time", "C) Optimizing query performance", "D) Using the most recent version of data always"],
+    "correct_answer": "B) Assuming conflicts are rare and checking for conflicts only at commit time",
+    "explanation": "Optimistic concurrency control assumes conflicts are rare, allows transactions to proceed without locking, and validates for conflicts only when committing."
+  },
+  {
+    "id": 24,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is pessimistic concurrency control?",
+    "options": ["A) Assuming conflicts are rare and not using locks", "B) Assuming conflicts will occur and locking resources before accessing them", "C) Pessimistically estimating query execution time", "D) Avoiding transactions altogether"],
+    "correct_answer": "B) Assuming conflicts will occur and locking resources before accessing them",
+    "explanation": "Pessimistic concurrency control assumes conflicts are likely and acquires locks on resources before accessing them, preventing other transactions from accessing the same data."
+  },
+  {
+    "id": 25,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a method to resolve deadlocks in a database?",
+    "options": ["A) Increasing memory", "B) Transaction timeout and rollback of one of the deadlocked transactions", "C) Restarting the database server", "D) Deleting all locks"],
+    "correct_answer": "B) Transaction timeout and rollback of one of the deadlocked transactions",
+    "explanation": "Deadlocks are resolved by detecting the deadlock cycle and rolling back one of the involved transactions (the victim), allowing the others to proceed."
+  },
+
+  {
+    "id": 26,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'lock granularity' in database systems?",
+    "options": ["A) The strength of the encryption used for locks", "B) The size or level of the resource being locked (row, page, table)", "C) The number of locks a transaction can hold", "D) The time duration of a lock"],
+    "correct_answer": "B) The size or level of the resource being locked (row, page, table)",
+    "explanation": "Lock granularity refers to the size of the data item being locked — finer granularity (row-level) allows more concurrency but uses more resources than coarser granularity (table-level)."
+  },
+  {
+    "id": 27,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a multiuser database, what is 'starvation'?",
+    "options": ["A) A database running out of disk space", "B) A transaction waiting indefinitely because other transactions keep getting priority", "C) A server running out of memory", "D) A query that never returns results"],
+    "correct_answer": "B) A transaction waiting indefinitely because other transactions keep getting priority",
+    "explanation": "Starvation (livelock) occurs when a transaction waits indefinitely because other transactions are continuously given priority, preventing it from ever executing."
+  },
+  {
+    "id": 28,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a transaction log in a database?",
+    "options": ["A) To log user login attempts", "B) To record all changes made to the database for recovery purposes", "C) To store query execution plans", "D) To track database performance metrics"],
+    "correct_answer": "B) To record all changes made to the database for recovery purposes",
+    "explanation": "A transaction log records all database modifications, enabling recovery after failures by replaying committed transactions or undoing uncommitted ones."
+  },
+  {
+    "id": 29,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes a 'two-phase locking (2PL)' protocol?",
+    "options": ["A) Locks are acquired in two separate database sessions", "B) A transaction acquires all locks in a growing phase and releases them in a shrinking phase", "C) Two transactions share the same lock", "D) Locks are applied to two tables simultaneously"],
+    "correct_answer": "B) A transaction acquires all locks in a growing phase and releases them in a shrinking phase",
+    "explanation": "2PL protocol has two phases: growing phase (acquiring locks, no releases) and shrinking phase (releasing locks, no new acquisitions), ensuring serializability."
+  },
+  {
+    "id": 30,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'checkpoint' in database recovery?",
+    "options": ["A) A point where the database is tested for errors", "B) A point where all modified data in memory is written to disk and logged", "C) A backup of the entire database", "D) A point where all transactions are committed"],
+    "correct_answer": "B) A point where all modified data in memory is written to disk and logged",
+    "explanation": "A checkpoint is a synchronization point where the DBMS writes all dirty pages from the buffer to disk, reducing recovery time after a failure."
+  },
+  {
+    "id": 31,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'serializability' mean in the context of concurrent transactions?",
+    "options": ["A) Transactions are executed one by one", "B) The result of concurrent transactions is equivalent to some serial execution of those transactions", "C) All transactions use the same serial port", "D) Transactions are serialized into a file"],
+    "correct_answer": "B) The result of concurrent transactions is equivalent to some serial execution of those transactions",
+    "explanation": "Serializability ensures that the outcome of executing transactions concurrently is the same as if they had been executed in some serial order, guaranteeing correctness."
+  },
+  {
+    "id": 32,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL statement is used to set the transaction isolation level?",
+    "options": ["A) SET TRANSACTION ISOLATION LEVEL", "B) ALTER TRANSACTION LEVEL", "C) CHANGE ISOLATION TO", "D) MODIFY TRANSACTION ISOLATION"],
+    "correct_answer": "A) SET TRANSACTION ISOLATION LEVEL",
+    "explanation": "The SQL command 'SET TRANSACTION ISOLATION LEVEL' followed by the level name (e.g., READ COMMITTED) sets the isolation level for the current transaction."
+  },
+  {
+    "id": 33,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default transaction isolation level in most relational databases like SQL Server and MySQL InnoDB?",
+    "options": ["A) Read Uncommitted", "B) Read Committed", "C) Repeatable Read", "D) Serializable"],
+    "correct_answer": "B) Read Committed",
+    "explanation": "Most databases default to Read Committed isolation level (SQL Server, PostgreSQL, Oracle), though MySQL InnoDB defaults to Repeatable Read."
+  },
+  {
+    "id": 34,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'lock wait timeout' in a database system?",
+    "options": ["A) The maximum time a database can be offline", "B) The maximum time a transaction will wait to acquire a lock before giving up", "C) The time it takes to create a lock", "D) The duration a lock is held"],
+    "correct_answer": "B) The maximum time a transaction will wait to acquire a lock before giving up",
+    "explanation": "Lock wait timeout is the maximum duration a transaction will wait to acquire a lock; if exceeded, the transaction is rolled back with a timeout error."
+  },
+  {
+    "id": 35,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about row-level locking compared to table-level locking?",
+    "options": ["A) Row-level locking allows less concurrency", "B) Row-level locking allows more concurrency but uses more resources", "C) Table-level locking is always better", "D) Row-level locking is faster for all operations"],
+    "correct_answer": "B) Row-level locking allows more concurrency but uses more resources",
+    "explanation": "Row-level locking allows multiple transactions to access different rows simultaneously (higher concurrency) but requires more memory and overhead to manage individual row locks."
+  },
+  {
+    "id": 36,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'lock escalation' in a database system?",
+    "options": ["A) Upgrading a shared lock to an exclusive lock", "B) Converting many fine-grained locks into fewer coarse-grained locks to save resources", "C) Increasing the priority of a lock", "D) Transferring a lock from one transaction to another"],
+    "correct_answer": "B) Converting many fine-grained locks into fewer coarse-grained locks to save resources",
+    "explanation": "Lock escalation is the process of converting many row or page locks into a single table lock to reduce memory overhead when a transaction holds too many fine-grained locks."
+  },
+  {
+    "id": 37,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a multiuser database, what is 'throughput'?",
+    "options": ["A) The amount of data stored in the database", "B) The number of transactions completed per unit of time", "C) The speed of a single query", "D) The number of users connected simultaneously"],
+    "correct_answer": "B) The number of transactions completed per unit of time",
+    "explanation": "Throughput measures database performance as the number of transactions successfully completed per unit of time, indicating the system's processing capacity."
+  },
+  {
+    "id": 38,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a 'database administrator (DBA)' in a multiuser environment?",
+    "options": ["A) Writing application code", "B) Managing database access, security, performance, and maintenance", "C) Designing user interfaces", "D) Managing network infrastructure"],
+    "correct_answer": "B) Managing database access, security, performance, and maintenance",
+    "explanation": "A DBA is responsible for managing database security, user access, performance tuning, backup/recovery, and ensuring data integrity in a multiuser environment."
+  },
+  {
+    "id": 39,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'data integrity' in a multiuser database?",
+    "options": ["A) The speed of data retrieval", "B) The accuracy, consistency, and reliability of data stored in the database", "C) The amount of data stored", "D) The security of data from hackers"],
+    "correct_answer": "B) The accuracy, consistency, and reliability of data stored in the database",
+    "explanation": "Data integrity refers to maintaining and assuring the accuracy and consistency of data over its entire lifecycle in a multiuser database environment."
+  },
+  {
+    "id": 40,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands begins a new transaction explicitly?",
+    "options": ["A) START TRANSACTION or BEGIN TRANSACTION", "B) OPEN TRANSACTION", "C) INIT TRANSACTION", "D) CREATE TRANSACTION"],
+    "correct_answer": "A) START TRANSACTION or BEGIN TRANSACTION",
+    "explanation": "In SQL, a transaction is explicitly started using 'START TRANSACTION' (MySQL) or 'BEGIN TRANSACTION' (SQL Server/PostgreSQL), marking the beginning of a transaction block."
+  },
+
+  {
+    "id": 41,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider two transactions T1 and T2. T1 reads item X (value=50), T2 reads item X (value=50), T1 writes X=60, T2 writes X=70. What concurrency problem has occurred?",
+    "options": ["A) Dirty read", "B) Phantom read", "C) Lost update", "D) Non-repeatable read"],
+    "correct_answer": "C) Lost update",
+    "explanation": "Both T1 and T2 read X=50, then T1 updates to 60 and T2 updates to 70. T2's write overwrites T1's update, causing T1's update (60) to be lost — a classic lost update problem."
+  },
+  {
+    "id": 42,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In Two-Phase Locking (2PL), if Transaction T1 holds a shared lock on item A and Transaction T2 requests an exclusive lock on item A, what happens?",
+    "options": ["A) T2 gets the exclusive lock immediately", "B) T2 must wait until T1 releases its shared lock", "C) T1's lock is automatically upgraded", "D) Both transactions are rolled back"],
+    "correct_answer": "B) T2 must wait until T1 releases its shared lock",
+    "explanation": "An exclusive lock is incompatible with a shared lock. T2 must wait until T1 releases its shared lock on A before T2 can acquire the exclusive lock."
+  },
+  {
+    "id": 43,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following schedules is conflict-serializable? T1: R(A), W(A); T2: R(A), W(A) — Schedule S: R1(A), R2(A), W1(A), W2(A)",
+    "options": ["A) Equivalent to T1→T2", "B) Equivalent to T2→T1", "C) Not conflict-serializable", "D) Equivalent to both T1→T2 and T2→T1"],
+    "correct_answer": "C) Not conflict-serializable",
+    "explanation": "In schedule S, R1(A)→W2(A) creates T1→T2 dependency, and R2(A)→W1(A) creates T2→T1 dependency, forming a cycle in the precedence graph — hence not conflict-serializable."
+  },
+  {
+    "id": 44,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between Strict 2PL and Basic 2PL?",
+    "options": ["A) Strict 2PL holds all locks until transaction commits/aborts; Basic 2PL can release locks after the shrinking phase begins", "B) Strict 2PL uses only exclusive locks", "C) Basic 2PL prevents deadlocks; Strict 2PL does not", "D) There is no difference"],
+    "correct_answer": "A) Strict 2PL holds all locks until transaction commits/aborts; Basic 2PL can release locks after the shrinking phase begins",
+    "explanation": "Strict 2PL holds all exclusive locks until commit/abort, preventing cascading rollbacks. Basic 2PL allows lock release in the shrinking phase, which can cause cascading aborts."
+  },
+  {
+    "id": 45,
+    "topic": "Managing Multiuser Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In timestamp-based concurrency control, if Transaction T1 has timestamp TS(T1)=100 and Transaction T2 has timestamp TS(T2)=200, and T2 tries to read an item last written by T1, what happens?",
+    "options": ["A) T2 is rolled back", "B) T1 is rolled back", "C) T2 reads the item successfully since TS(T2) > W-timestamp", "D) Both transactions are aborted"],
+    "correct_answer": "C) T2 reads the item successfully since TS(T2) > W-timestamp",
+    "explanation": "In timestamp ordering, T2 can read an item if TS(T2) ≥ W-timestamp of the item.

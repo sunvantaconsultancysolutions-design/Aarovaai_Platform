@@ -1,0 +1,449 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All students who study hard pass the exam. Ravi studies hard. Conclusion: Ravi will pass the exam. Is the argument valid?",
+    "options": ["A) Yes, the argument is valid", "B) No, the argument is invalid", "C) The argument is partially valid", "D) Cannot be determined"],
+    "correct_answer": "A) Yes, the argument is valid",
+    "explanation": "The argument follows a valid deductive structure (modus ponens): All A are B; Ravi is A; therefore Ravi is B. The conclusion logically follows from the premises."
+  },
+  {
+    "id": 2,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Smoking causes lung cancer. John has lung cancer. Conclusion: John smokes. Is this argument valid?",
+    "options": ["A) Yes, valid", "B) No, invalid — affirming the consequent", "C) Valid only if John is a heavy smoker", "D) Valid because cancer is always caused by smoking"],
+    "correct_answer": "B) No, invalid — affirming the consequent",
+    "explanation": "Just because smoking causes cancer doesn't mean cancer is only caused by smoking. John's cancer could have other causes. This is the fallacy of affirming the consequent."
+  },
+  {
+    "id": 3,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'We should ban all fast food because it is unhealthy.' Which of the following best weakens this argument?",
+    "options": ["A) Fast food is popular among teenagers", "B) Many healthy foods can also be consumed in unhealthy quantities", "C) Banning fast food infringes on personal freedom and may not reduce unhealthy eating", "D) Fast food restaurants employ thousands of people"],
+    "correct_answer": "C) Banning fast food infringes on personal freedom and may not reduce unhealthy eating",
+    "explanation": "This directly challenges both the method (ban) and its effectiveness, weakening the core argument. The other options are tangential and don't directly undermine the conclusion."
+  },
+  {
+    "id": 4,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a 'hasty generalization' fallacy?",
+    "options": ["A) All swans are white because every swan I have seen is white", "B) The sun rises every day, so it will rise tomorrow", "C) If it rains, the ground gets wet", "D) All bachelors are unmarried men"],
+    "correct_answer": "A) All swans are white because every swan I have seen is white",
+    "explanation": "Hasty generalization draws a broad conclusion from a small or unrepresentative sample. Concluding all swans are white based on limited observation is a classic example."
+  },
+  {
+    "id": 5,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No birds are mammals. All bats are mammals. Conclusion: No bats are birds. Is this conclusion valid?",
+    "options": ["A) Yes, valid", "B) No, invalid", "C) Partially valid", "D) Cannot be determined"],
+    "correct_answer": "A) Yes, valid",
+    "explanation": "If no birds are mammals, and all bats are mammals, then bats cannot be birds. The conclusion follows logically from the two premises using syllogistic reasoning."
+  },
+  {
+    "id": 6,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'Exercise is good for health. Therefore, everyone should exercise for 8 hours a day.' What is the flaw in this argument?",
+    "options": ["A) Exercise is not actually good for health", "B) The conclusion is an extreme extrapolation not supported by the premise", "C) The argument uses circular reasoning", "D) There is no flaw in this argument"],
+    "correct_answer": "B) The conclusion is an extreme extrapolation not supported by the premise",
+    "explanation": "The premise only states exercise is good for health, not that more is always better. Jumping to 8 hours daily is an unsupported extreme conclusion — a form of false extension."
+  },
+  {
+    "id": 7,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of argument moves from specific observations to a general conclusion?",
+    "options": ["A) Deductive argument", "B) Inductive argument", "C) Analogical argument", "D) Circular argument"],
+    "correct_answer": "B) Inductive argument",
+    "explanation": "Inductive reasoning moves from specific cases to a general conclusion. Deductive reasoning moves from general premises to a specific conclusion."
+  },
+  {
+    "id": 8,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: If it is raining, the match will be cancelled. The match was cancelled. Conclusion: It was raining. Is this valid?",
+    "options": ["A) Yes, valid deductive argument", "B) No, this is the fallacy of affirming the consequent", "C) Yes, because matches are only cancelled due to rain", "D) No, because the match could not have been cancelled"],
+    "correct_answer": "B) No, this is the fallacy of affirming the consequent",
+    "explanation": "The match could be cancelled for reasons other than rain (e.g., player injury). Concluding it rained just because the match was cancelled is logically invalid."
+  },
+  {
+    "id": 9,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best strengthens the argument: 'Regular reading improves vocabulary'?",
+    "options": ["A) Some people who read regularly have poor vocabulary", "B) A study of 10,000 students showed those who read daily scored 40% higher on vocabulary tests", "C) Reading is a hobby enjoyed by many people", "D) Vocabulary can also be improved by watching TV"],
+    "correct_answer": "B) A study of 10,000 students showed those who read daily scored 40% higher on vocabulary tests",
+    "explanation": "This provides direct empirical evidence supporting the claim with a large sample size, making it the strongest support for the argument."
+  },
+  {
+    "id": 10,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the type of fallacy: 'You should take my advice on diet because I am your elder.'",
+    "options": ["A) Ad hominem", "B) Appeal to authority (false authority)", "C) Straw man", "D) False dilemma"],
+    "correct_answer": "B) Appeal to authority (false authority)",
+    "explanation": "Being an elder does not make someone a dietary expert. This is an appeal to false authority — using irrelevant authority to support a claim."
+  },
+  {
+    "id": 11,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All managers are leaders. Some employees are managers. Conclusion: Some employees are leaders. Is this valid?",
+    "options": ["A) Yes, valid", "B) No, invalid", "C) Cannot be determined", "D) Partially valid"],
+    "correct_answer": "A) Yes, valid",
+    "explanation": "Since all managers are leaders and some employees are managers, those employees who are managers must also be leaders. The conclusion follows logically."
+  },
+  {
+    "id": 12,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of circular reasoning?",
+    "options": ["A) The Bible is true because God wrote it, and we know God wrote it because the Bible says so", "B) All humans are mortal; Socrates is human; therefore Socrates is mortal", "C) It rained yesterday, so it might rain today", "D) Since crime is increasing, we need more police"],
+    "correct_answer": "A) The Bible is true because God wrote it, and we know God wrote it because the Bible says so",
+    "explanation": "Circular reasoning (begging the question) uses the conclusion as a premise. Here, the truth of the Bible is used to prove itself — a classic circular argument."
+  },
+  {
+    "id": 13,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'Either you support this policy or you are against progress.' What fallacy does this represent?",
+    "options": ["A) Ad hominem", "B) False dilemma", "C) Slippery slope", "D) Hasty generalization"],
+    "correct_answer": "B) False dilemma",
+    "explanation": "A false dilemma presents only two options when more exist. One can oppose a specific policy while still supporting progress through other means."
+  },
+  {
+    "id": 14,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main assumption in the argument: 'Since sales increased after the new ad campaign, the ad campaign caused the increase'?",
+    "options": ["A) Sales always increase over time", "B) No other factors contributed to the sales increase", "C) The ad campaign was expensive", "D) Sales increases are always permanent"],
+    "correct_answer": "B) No other factors contributed to the sales increase",
+    "explanation": "The argument assumes a causal relationship based on correlation. The hidden assumption is that no other variables (seasonal trends, competitor issues) caused the increase."
+  },
+  {
+    "id": 15,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some cats are black. All black things absorb heat. Conclusion: Some cats absorb heat. Is this valid?",
+    "options": ["A) Yes, valid", "B) No, invalid", "C) Cannot be determined", "D) Only valid if all cats are black"],
+    "correct_answer": "A) Yes, valid",
+    "explanation": "Some cats are black → those black cats absorb heat (since all black things absorb heat). Therefore, some cats (the black ones) absorb heat. Logically valid."
+  },
+  {
+    "id": 16,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following weakens the argument: 'City A has more hospitals than City B, so City A has better healthcare'?",
+    "options": ["A) City A has a larger population than City B", "B) City B's hospitals are better equipped and have lower patient mortality rates", "C) City A was founded earlier than City B", "D) Both cities have the same number of doctors"],
+    "correct_answer": "B) City B's hospitals are better equipped and have lower patient mortality rates",
+    "explanation": "Quality of healthcare depends on outcomes and equipment, not just quantity of hospitals. This directly challenges the premise that more hospitals equals better healthcare."
+  },
+  {
+    "id": 17,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the fallacy: 'My grandfather smoked all his life and lived to 95, so smoking is not harmful.'",
+    "options": ["A) False dilemma", "B) Hasty generalization / Anecdotal evidence", "C) Slippery slope", "D) Ad hominem"],
+    "correct_answer": "B) Hasty generalization / Anecdotal evidence",
+    "explanation": "Using one person's experience to draw a general conclusion ignores statistical evidence. This is anecdotal evidence used to make a hasty generalization."
+  },
+  {
+    "id": 18,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a valid deductive argument, if the premises are true, the conclusion must be:",
+    "options": ["A) Probably true", "B) Necessarily true", "C) Sometimes true", "D) Independently verifiable"],
+    "correct_answer": "B) Necessarily true",
+    "explanation": "In a valid deductive argument, true premises guarantee a true conclusion. This is what distinguishes deductive validity from inductive strength."
+  },
+  {
+    "id": 19,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'We should not listen to Dr. Sharma's views on climate change because he was once convicted of tax fraud.' This is an example of:",
+    "options": ["A) Appeal to authority", "B) Ad hominem", "C) Straw man", "D) Red herring"],
+    "correct_answer": "B) Ad hominem",
+    "explanation": "Ad hominem attacks the person making the argument rather than the argument itself. Dr. Sharma's tax fraud is irrelevant to the validity of his climate change views."
+  },
+  {
+    "id": 20,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All fruits contain vitamins. Mango is a fruit. Conclusion: Mango contains vitamins. This argument is:",
+    "options": ["A) Valid and sound", "B) Invalid but sound", "C) Valid but unsound", "D) Neither valid nor sound"],
+    "correct_answer": "A) Valid and sound",
+    "explanation": "The argument is valid (conclusion follows from premises) and sound (premises are true). Mango is indeed a fruit and fruits do contain vitamins."
+  },
+  {
+    "id": 21,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a 'slippery slope' argument?",
+    "options": ["A) If we allow students to redo one test, soon they'll demand to redo all tests, then exams, and eventually degrees will be meaningless", "B) Students who study more get better grades", "C) All students should wear uniforms", "D) Some students prefer online learning"],
+    "correct_answer": "A) If we allow students to redo one test, soon they'll demand to redo all tests, then exams, and eventually degrees will be meaningless",
+    "explanation": "A slippery slope fallacy assumes that one small step will inevitably lead to extreme consequences without justification for each step in the chain."
+  },
+  {
+    "id": 22,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The conclusion of an argument is best described as:",
+    "options": ["A) The evidence provided to support a claim", "B) The statement that the argument is trying to establish or prove", "C) The background information given in the argument", "D) The assumption underlying the argument"],
+    "correct_answer": "B) The statement that the argument is trying to establish or prove",
+    "explanation": "The conclusion is what the arguer wants you to believe or accept. Premises are the reasons given to support the conclusion."
+  },
+  {
+    "id": 23,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'Product X must be good because it is the most expensive.' What assumption does this argument make?",
+    "options": ["A) Expensive products are always of high quality", "B) Product X is affordable", "C) Price is determined by demand", "D) All products are equally good"],
+    "correct_answer": "A) Expensive products are always of high quality",
+    "explanation": "The argument assumes a direct correlation between price and quality, which is not always true. This is the hidden assumption that makes the argument work."
+  },
+  {
+    "id": 24,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No reptiles are warm-blooded. All snakes are reptiles. Conclusion: No snakes are warm-blooded. Is this valid?",
+    "options": ["A) Yes, valid", "B) No, invalid", "C) Cannot be determined", "D) Only partially valid"],
+    "correct_answer": "A) Yes, valid",
+    "explanation": "This is a valid syllogism: No reptiles are warm-blooded + All snakes are reptiles = No snakes are warm-blooded. The conclusion necessarily follows."
+  },
+  {
+    "id": 25,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'straw man' fallacy?",
+    "options": ["A) Attacking a distorted or exaggerated version of someone's argument", "B) Using emotional appeals instead of logic", "C) Drawing conclusions from insufficient evidence", "D) Using an authority figure to support a claim"],
+    "correct_answer": "A) Attacking a distorted or exaggerated version of someone's argument",
+    "explanation": "A straw man fallacy misrepresents an opponent's argument to make it easier to attack, rather than addressing the actual argument made."
+  },
+  {
+    "id": 26,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'We should invest in renewable energy because fossil fuels will eventually run out.' Which of the following, if true, most strengthens this argument?",
+    "options": ["A) Renewable energy is currently more expensive than fossil fuels", "B) Fossil fuel reserves are projected to be depleted within 50 years", "C) Many countries still rely heavily on coal", "D) Renewable energy technology is still developing"],
+    "correct_answer": "B) Fossil fuel reserves are projected to be depleted within 50 years",
+    "explanation": "This directly supports the premise that fossil fuels will run out, making the argument for renewable energy investment more urgent and credible."
+  },
+  {
+    "id": 27,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some doctors are researchers. All researchers publish papers. Conclusion: Some doctors publish papers. Is this valid?",
+    "options": ["A) Yes, valid", "B) No, invalid", "C) Cannot be determined", "D) Valid only if all doctors are researchers"],
+    "correct_answer": "A) Yes, valid",
+    "explanation": "The doctors who are also researchers must publish papers (since all researchers do). Therefore, some doctors (those who are researchers) publish papers."
+  },
+  {
+    "id": 28,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a component of a logical argument?",
+    "options": ["A) Premises", "B) Conclusion", "C) Inference", "D) Emotion"],
+    "correct_answer": "D) Emotion",
+    "explanation": "A logical argument consists of premises (evidence/reasons), inference (logical connection), and conclusion. Emotion is not a logical component, though it may be used rhetorically."
+  },
+  {
+    "id": 29,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'This medicine must work because my neighbor used it and recovered.' This is an example of:",
+    "options": ["A) Valid inductive reasoning", "B) Anecdotal evidence used as proof", "C) Sound deductive reasoning", "D) Appeal to authority"],
+    "correct_answer": "B) Anecdotal evidence used as proof",
+    "explanation": "One person's recovery could be due to many factors. Using a single anecdote as proof of a medicine's effectiveness is logically weak and unreliable."
+  },
+  {
+    "id": 30,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: If a student scores above 90%, they get a scholarship. Priya scored 95%. Conclusion: Priya gets a scholarship. This is:",
+    "options": ["A) Valid deductive argument", "B) Invalid deductive argument", "C) Valid inductive argument", "D) Circular argument"],
+    "correct_answer": "A) Valid deductive argument",
+    "explanation": "This is modus ponens: If P then Q; P is true; therefore Q is true. Priya meets the condition (>90%), so she gets the scholarship. Logically valid."
+  },
+  {
+    "id": 31,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following weakens the argument: 'Students who attend private schools perform better academically than those in public schools'?",
+    "options": ["A) Private schools have better infrastructure", "B) Private school students come from wealthier families with more educational resources at home", "C) Public schools have more students per class", "D) Private schools charge higher fees"],
+    "correct_answer": "B) Private school students come from wealthier families with more educational resources at home",
+    "explanation": "This introduces a confounding variable — socioeconomic status — suggesting the school type may not be the actual cause of better performance."
+  },
+  {
+    "id": 32,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the conclusion in this argument: 'Since regular exercise reduces stress and improves mood, and since mental health is important, everyone should exercise regularly.'",
+    "options": ["A) Regular exercise reduces stress", "B) Mental health is important", "C) Everyone should exercise regularly", "D) Exercise improves mood"],
+    "correct_answer": "C) Everyone should exercise regularly",
+    "explanation": "The conclusion is the main claim the argument is trying to establish. The other statements are premises (reasons) supporting this conclusion."
+  },
+  {
+    "id": 33,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'This restaurant must have good food because it is always crowded.' What assumption is being made?",
+    "options": ["A) Crowded restaurants always have the best chefs", "B) People choose restaurants primarily based on food quality", "C) The restaurant has been open for many years", "D) Crowded places are always expensive"],
+    "correct_answer": "B) People choose restaurants primarily based on food quality",
+    "explanation": "The argument assumes that crowd size reflects food quality. But people might visit for location, price, or ambiance. This is the key hidden assumption."
+  },
+  {
+    "id": 34,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All politicians make promises. Some promise-makers are liars. Conclusion: Some politicians are liars. Is this valid?",
+    "options": ["A) Yes, valid", "B) No, invalid — the middle term is not distributed properly", "C) Valid only if most politicians lie", "D) Cannot be determined"],
+    "correct_answer": "B) No, invalid — the middle term is not distributed properly",
+    "explanation": "The 'promise-makers' who are liars may not be politicians. The syllogism is invalid because it doesn't establish that the lying promise-makers are the same as the politician promise-makers."
+  },
+  {
+    "id": 35,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of 'appeal to emotion' fallacy?",
+    "options": ["A) You should donate to this charity because children are suffering and crying", "B) Studies show that this charity uses 90% of funds for direct aid", "C) This charity has been operating for 20 years", "D) The charity is endorsed by the government"],
+    "correct_answer": "A) You should donate to this charity because children are suffering and crying",
+    "explanation": "Appeal to emotion manipulates feelings rather than providing logical reasons. Using images of suffering children to compel donation bypasses rational evaluation."
+  },
+  {
+    "id": 36,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An argument is 'sound' if it is:",
+    "options": ["A) Valid and has true premises", "B) Valid regardless of whether premises are true", "C) Persuasive and emotionally compelling", "D) Supported by expert opinion"],
+    "correct_answer": "A) Valid and has true premises",
+    "explanation": "Soundness requires both validity (correct logical form) and true premises. A valid argument with false premises is not sound."
+  },
+  {
+    "id": 37,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'We've always done it this way, so we should continue.' This is an example of:",
+    "options": ["A) Appeal to tradition", "B) Appeal to authority", "C) Slippery slope", "D) False dilemma"],
+    "correct_answer": "A) Appeal to tradition",
+    "explanation": "Appeal to tradition argues that something is correct or good simply because it has been done traditionally, without evaluating whether it is actually the best approach."
+  },
+  {
+    "id": 38,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No fish can survive on land. Sharks are fish. Conclusion: Sharks cannot survive on land. Is this argument valid?",
+    "options": ["A) Yes, valid", "B) No, invalid", "C) Cannot be determined", "D) Valid only for some sharks"],
+    "correct_answer": "A) Yes, valid",
+    "explanation": "This is a valid categorical syllogism: No fish survive on land + Sharks are fish = Sharks cannot survive on land. The conclusion necessarily follows."
+  },
+  {
+    "id": 39,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following most strengthens the argument: 'Helmet laws reduce motorcycle fatalities'?",
+    "options": ["A) Motorcycles are a popular mode of transport", "B) States that enacted helmet laws saw a 30% reduction in motorcycle fatality rates", "C) Helmets are available in many colors and styles", "D) Some motorcyclists find helmets uncomfortable"],
+    "correct_answer": "B) States that enacted helmet laws saw a 30% reduction in motorcycle fatality rates",
+    "explanation": "This provides direct statistical evidence linking helmet laws to reduced fatalities, strongly supporting the argument's conclusion."
+  },
+  {
+    "id": 40,
+    "topic": "Analyzing Arguments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Argument: 'Everyone is buying this stock, so it must be a good investment.' This fallacy is called:",
+    "options": ["A) Ad hominem", "B) Bandwagon fallacy (appeal to popularity)", "C) False dilemma", "D) Straw man"],
+    "correct_answer": "B) Bandwagon fallacy (appeal to popularity)",
+    "explanation": "The bandwagon fallacy assumes something is good or true because many people believe or do it. Popularity does not determine investment quality."
+  },
+  {
+    "id": 41,
+    "topic": "Analyzing Arguments",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Argument: 'The government should increase taxes on sugary drinks to reduce obesity. Countries that have implemented such taxes have seen a decline in sugary drink consumption.' Which of the following, if true, most weakens this argument?",
+    "options": ["A) Obesity has multiple causes beyond sugary drink consumption", "B) The tax revenue could be used for public health programs", "C) People in those countries switched to equally unhealthy alternatives not covered by the tax", "D) Sugary drinks are more popular among younger populations"],
+    "correct_answer": "C) People in those countries switched to equally unhealthy alternatives not covered by the tax",
+    "explanation": "If people merely substitute one unhealthy product for another, the tax fails to achieve its goal of reducing obesity, directly undermining the argument's conclusion."
+  },
+  {
+    "id": 42,
+    "topic": "Analyzing Arguments",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: All efficient workers complete tasks on time. Some employees are efficient workers. Some employees are punctual. Conclusion: Some punctual employees complete tasks on time. Is this valid?",
+    "options": ["A) Yes, definitely valid", "B) No, the conclusion cannot be drawn from these premises alone", "C) Valid only if all punctual employees are efficient", "D) Valid because efficiency implies punctuality"],
+    "correct_answer": "B) No, the conclusion cannot be drawn from these premises alone",
+    "explanation": "The premises don't establish a link between 'punctual employees' and 'efficient workers.' The punctual employees mentioned may be a completely different group from the efficient workers."
+  },
+  {
+    "id": 43,
+    "topic": "Analyzing Arguments",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Argument: 'Crime rates in City X dropped by 20% after installing CCTV cameras. Therefore, CCTV cameras reduce crime.' What is the primary logical flaw?",
+    "options": ["A) The sample size is too small", "B) Correlation is being mistaken for causation", "C) The argument uses circular reasoning", "D) The argument is an appeal to authority"],
+    "correct_answer": "B) Correlation is being mistaken for causation",
+    "explanation": "The crime drop may be due to other factors (increased policing, economic improvement). Assuming CCTV caused the drop without ruling out other causes is a correlation-causation error."
+  },
+  {
+    "id": 44,
+    "topic": "Analyzing Arguments",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following, if true, most strengthens the argument: 'Increasing the minimum wage will reduce poverty'?",
+    "options": ["A) Minimum wage workers spend most of their income locally, boosting the economy", "B) Some businesses may reduce staff when minimum wage increases", "C) Poverty is caused by many factors beyond wages", "D) The current minimum wage was set 10 years ago"],
+    "correct_answer": "A) Minimum wage workers spend most of their income locally, boosting the economy",
+    "explanation": "This supports the argument by showing a mechanism through which higher wages reduce poverty — increased spending power leads to economic growth that benefits low-income communities."
+  },
+  {
+    "id": 45,
+    "topic": "Analyzing Arguments",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Argument: 'Since violent video games are popular among teenagers, and youth violence has increased, violent video games must cause youth violence.' Identify the flaw.",
+    "options": ["A) The argument

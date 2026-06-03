@@ -1,0 +1,38 @@
+You are an expert aptitude question generator for competitive exams.
+
+Generate EXACTLY 100 unique MCQs on the topic: "{{TOPIC}}"
+
+CRITICAL RULES:
+- You MUST produce exactly 100 questions. Do not stop before reaching Q100.
+- Number every question Q1 through Q100 explicitly.
+- After every 25 questions, output a progress marker exactly like this: === CHECKPOINT: 25/100 COMPLETE ===
+- If you feel the urge to stop early, override it — keep generating until Q100.
+
+DIFFICULTY SPLIT (must be exact):
+- Q1–Q40: EASY (campus placement style — TCS NQT, Infosys, Wipro)
+- Q41–Q80: MEDIUM 
+- Q81–Q100: HARD 
+
+OUTPUT FORMAT — return a valid JSON array only. No markdown, no text outside the array:
+[
+  {
+    "id": 1,
+    "topic": "{{TOPIC}}",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Full question text here",
+    "options": ["A) ...", "B) ...", "C) ...", "D) ..."],
+    "correct_answer": "A) ...",
+    "explanation": "Short step-by-step explanation."
+  },
+  ... continue until id: 100
+]
+
+QUESTION RULES:
+- Every question must have a unique scenario and fresh numbers.
+- No two questions may test the same sub-concept in the same way.
+- Guarantee mathematical correctness for all calculation-based questions.
+- Include a mix of formula-based, shortcut-trick, and concept-based questions.
+- Explanations must be exam-style and under 3 lines.
+
+START immediately at Q1. Do not write any introduction. Output only the JSON array.

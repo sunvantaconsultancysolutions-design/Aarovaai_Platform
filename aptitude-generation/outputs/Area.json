@@ -1,0 +1,470 @@
+[
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the area of a rectangle with length 12 cm and breadth 8 cm.",
+    "options": ["96 cm²", "40 cm²", "80 cm²", "48 cm²"],
+    "correct_answer": "96 cm²",
+    "explanation": "Area of rectangle = length × breadth = 12 × 8 = 96 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The area of a square with side 9 cm is:",
+    "options": ["36 cm²", "81 cm²", "72 cm²", "18 cm²"],
+    "correct_answer": "81 cm²",
+    "explanation": "Area of square = side² = 9² = 81 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Find the area of a triangle with base 10 cm and height 6 cm.",
+    "options": ["60 cm²", "30 cm²", "20 cm²", "15 cm²"],
+    "correct_answer": "30 cm²",
+    "explanation": "Area of triangle = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the area of a circle with radius 7 cm? (Use π = 22/7)",
+    "options": ["154 cm²", "44 cm²", "49 cm²", "22 cm²"],
+    "correct_answer": "154 cm²",
+    "explanation": "Area = π × r² = (22/7) × 7² = (22/7) × 49 = 154 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The perimeter of a square is 40 cm. Find its area.",
+    "options": ["100 cm²", "160 cm²", "80 cm²", "200 cm²"],
+    "correct_answer": "100 cm²",
+    "explanation": "Side = 40/4 = 10 cm. Area = 10² = 100 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Find the area of a parallelogram with base 15 cm and height 8 cm.",
+    "options": ["120 cm²", "60 cm²", "23 cm²", "90 cm²"],
+    "correct_answer": "120 cm²",
+    "explanation": "Area of parallelogram = base × height = 15 × 8 = 120 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rectangle has area 72 cm² and length 9 cm. Find its breadth.",
+    "options": ["8 cm", "6 cm", "7 cm", "9 cm"],
+    "correct_answer": "8 cm",
+    "explanation": "Breadth = Area / Length = 72 / 9 = 8 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The area of a rhombus with diagonals 10 cm and 8 cm is:",
+    "options": ["40 cm²", "80 cm²", "20 cm²", "18 cm²"],
+    "correct_answer": "40 cm²",
+    "explanation": "Area of rhombus = (1/2) × d1 × d2 = (1/2) × 10 × 8 = 40 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Find the area of a trapezium with parallel sides 6 cm and 10 cm, and height 4 cm.",
+    "options": ["32 cm²", "16 cm²", "24 cm²", "40 cm²"],
+    "correct_answer": "32 cm²",
+    "explanation": "Area = (1/2) × (sum of parallel sides) × height = (1/2) × (6+10) × 4 = (1/2) × 16 × 4 = 32 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If the side of a square is doubled, by what factor does its area increase?",
+    "options": ["2", "4", "8", "3"],
+    "correct_answer": "4",
+    "explanation": "New area = (2s)² = 4s². So area increases by a factor of 4."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Find the area of an equilateral triangle with side 6 cm. (√3 ≈ 1.732)",
+    "options": ["15.59 cm²", "18 cm²", "9√3 cm²", "12 cm²"],
+    "correct_answer": "9√3 cm²",
+    "explanation": "Area = (√3/4) × side² = (√3/4) × 36 = 9√3 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A room is 5 m long and 4 m wide. Find the cost of carpeting it at ₹50 per m².",
+    "options": ["₹1000", "₹900", "₹800", "₹1200"],
+    "correct_answer": "₹1000",
+    "explanation": "Area = 5 × 4 = 20 m². Cost = 20 × 50 = ₹1000."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The diameter of a circle is 14 cm. Find its area. (π = 22/7)",
+    "options": ["154 cm²", "44 cm²", "616 cm²", "308 cm²"],
+    "correct_answer": "154 cm²",
+    "explanation": "Radius = 14/2 = 7 cm. Area = (22/7) × 7² = 154 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Find the area of a right-angled triangle with legs 5 cm and 12 cm.",
+    "options": ["30 cm²", "60 cm²", "65 cm²", "25 cm²"],
+    "correct_answer": "30 cm²",
+    "explanation": "Area = (1/2) × base × height = (1/2) × 5 × 12 = 30 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A square field has a perimeter of 64 m. What is its area?",
+    "options": ["256 m²", "128 m²", "64 m²", "512 m²"],
+    "correct_answer": "256 m²",
+    "explanation": "Side = 64/4 = 16 m. Area = 16² = 256 m²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the area of a semicircle with radius 14 cm? (π = 22/7)",
+    "options": ["308 cm²", "154 cm²", "616 cm²", "44 cm²"],
+    "correct_answer": "308 cm²",
+    "explanation": "Area of semicircle = (1/2) × π × r² = (1/2) × (22/7) × 196 = 308 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The length and breadth of a rectangle are in ratio 3:2. If the perimeter is 50 cm, find the area.",
+    "options": ["150 cm²", "100 cm²", "200 cm²", "75 cm²"],
+    "correct_answer": "150 cm²",
+    "explanation": "Let length = 3x, breadth = 2x. Perimeter = 2(3x+2x) = 10x = 50, so x = 5. Area = 15 × 10 = 150 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Find the area of a triangle with sides 3 cm, 4 cm, and 5 cm.",
+    "options": ["6 cm²", "12 cm²", "10 cm²", "8 cm²"],
+    "correct_answer": "6 cm²",
+    "explanation": "3-4-5 is a right triangle. Area = (1/2) × 3 × 4 = 6 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rectangular garden is 20 m long and 15 m wide. Find its area.",
+    "options": ["300 m²", "350 m²", "250 m²", "400 m²"],
+    "correct_answer": "300 m²",
+    "explanation": "Area = length × breadth = 20 × 15 = 300 m²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The area of a square is 144 cm². Find its side.",
+    "options": ["12 cm", "14 cm", "16 cm", "10 cm"],
+    "correct_answer": "12 cm",
+    "explanation": "Side = √144 = 12 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A path of width 2 m runs around the outside of a rectangular garden 30 m long and 20 m wide. Find the area of the path.",
+    "options": ["216 m²", "200 m²", "240 m²", "180 m²"],
+    "correct_answer": "216 m²",
+    "explanation": "Outer dimensions: (30+4) × (20+4) = 34 × 24 = 816 m². Inner area = 30 × 20 = 600 m². Path area = 816 - 600 = 216 m²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The area of a circle is 616 cm². Find its circumference. (π = 22/7)",
+    "options": ["88 cm", "44 cm", "154 cm", "77 cm"],
+    "correct_answer": "88 cm",
+    "explanation": "πr² = 616 → r² = 616 × 7/22 = 196 → r = 14 cm. Circumference = 2πr = 2 × (22/7) × 14 = 88 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Find the area of a triangle using Heron's formula with sides 13 cm, 14 cm, and 15 cm.",
+    "options": ["84 cm²", "90 cm²", "78 cm²", "96 cm²"],
+    "correct_answer": "84 cm²",
+    "explanation": "s = (13+14+15)/2 = 21. Area = √(21×8×7×6) = √7056 = 84 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If the radius of a circle is increased by 20%, by what percentage does its area increase?",
+    "options": ["44%", "40%", "20%", "36%"],
+    "correct_answer": "44%",
+    "explanation": "New area = π(1.2r)² = 1.44πr². Increase = 44%."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A rectangular plot is 60 m × 40 m. A path of 2 m width runs inside along the boundary. Find the area of the path.",
+    "options": ["384 m²", "400 m²", "360 m²", "392 m²"],
+    "correct_answer": "384 m²",
+    "explanation": "Inner dimensions = (60-4) × (40-4) = 56 × 36 = 2016 m². Outer area = 60 × 40 = 2400 m². Path = 2400 - 2016 = 384 m²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "The diagonal of a square is 10√2 cm. Find its area.",
+    "options": ["100 cm²", "200 cm²", "50 cm²", "150 cm²"],
+    "correct_answer": "100 cm²",
+    "explanation": "Area of square = (diagonal²)/2 = (10√2)²/2 = 200/2 = 100 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A triangle has base 18 cm and area 108 cm². Find its height.",
+    "options": ["12 cm", "6 cm", "9 cm", "15 cm"],
+    "correct_answer": "12 cm",
+    "explanation": "Area = (1/2) × base × height → 108 = (1/2) × 18 × h → h = 12 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The ratio of areas of two squares is 9:16. Find the ratio of their perimeters.",
+    "options": ["3:4", "9:16", "81:256", "4:3"],
+    "correct_answer": "3:4",
+    "explanation": "Ratio of sides = √9:√16 = 3:4. Ratio of perimeters = 3:4."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Find the area of a sector with radius 21 cm and angle 60°. (π = 22/7)",
+    "options": ["231 cm²", "462 cm²", "154 cm²", "308 cm²"],
+    "correct_answer": "231 cm²",
+    "explanation": "Area of sector = (θ/360) × πr² = (60/360) × (22/7) × 441 = (1/6) × 1386 = 231 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A room 10 m × 8 m is to be tiled with tiles of size 50 cm × 40 cm. How many tiles are needed?",
+    "options": ["400", "500", "600", "450"],
+    "correct_answer": "400",
+    "explanation": "Room area = 10 × 8 = 80 m² = 800000 cm². Tile area = 50 × 40 = 2000 cm². Tiles = 800000/2000 = 400."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The area of a trapezium is 180 cm². Its parallel sides are 12 cm and 24 cm. Find its height.",
+    "options": ["10 cm", "12 cm", "15 cm", "8 cm"],
+    "correct_answer": "10 cm",
+    "explanation": "Area = (1/2)(a+b)h → 180 = (1/2)(12+24)h → 180 = 18h → h = 10 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Two circles have radii 5 cm and 12 cm. Find the radius of a circle whose area equals the sum of their areas.",
+    "options": ["13 cm", "17 cm", "15 cm", "10 cm"],
+    "correct_answer": "13 cm",
+    "explanation": "Sum of areas = π(25 + 144) = 169π. New radius = √169 = 13 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The length of a rectangle is 3 times its breadth. If the area is 192 cm², find the length.",
+    "options": ["24 cm", "18 cm", "12 cm", "30 cm"],
+    "correct_answer": "24 cm",
+    "explanation": "Let breadth = b, length = 3b. Area = 3b² = 192 → b² = 64 → b = 8. Length = 3 × 8 = 24 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Find the area of a quadrilateral with diagonal 20 cm and perpendiculars from opposite vertices of 8 cm and 6 cm.",
+    "options": ["140 cm²", "280 cm²", "160 cm²", "120 cm²"],
+    "correct_answer": "140 cm²",
+    "explanation": "Area = (1/2) × diagonal × (sum of perpendiculars) = (1/2) × 20 × (8+6) = (1/2) × 20 × 14 = 140 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A circular ring has outer radius 10 cm and inner radius 6 cm. Find its area. (π = 3.14)",
+    "options": ["200.96 cm²", "314 cm²", "113.04 cm²", "251.2 cm²"],
+    "correct_answer": "200.96 cm²",
+    "explanation": "Area = π(R² - r²) = 3.14 × (100 - 36) = 3.14 × 64 = 200.96 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If the area of an equilateral triangle is 36√3 cm², find its side.",
+    "options": ["12 cm", "6 cm", "8 cm", "10 cm"],
+    "correct_answer": "12 cm",
+    "explanation": "(√3/4)a² = 36√3 → a² = 144 → a = 12 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A field is in the shape of a right triangle with hypotenuse 25 m and one side 7 m. Find its area.",
+    "options": ["84 m²", "87.5 m²", "168 m²", "42 m²"],
+    "correct_answer": "84 m²",
+    "explanation": "Other side = √(25²-7²) = √(625-49) = √576 = 24 m. Area = (1/2) × 7 × 24 = 84 m²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "The perimeter of a rectangle is 80 cm and its length is 25 cm. Find its area.",
+    "options": ["375 cm²", "400 cm²", "350 cm²", "300 cm²"],
+    "correct_answer": "375 cm²",
+    "explanation": "2(l+b) = 80 → l+b = 40 → b = 40-25 = 15 cm. Area = 25 × 15 = 375 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The cost of painting a wall at ₹5 per m² is ₹1500. If the height of the wall is 10 m, find its length.",
+    "options": ["30 m", "25 m", "20 m", "15 m"],
+    "correct_answer": "30 m",
+    "explanation": "Area = 1500/5 = 300 m². Length = 300/10 = 30 m."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A rhombus has one diagonal 24 cm and area 120 cm². Find the other diagonal.",
+    "options": ["10 cm", "12 cm", "8 cm", "15 cm"],
+    "correct_answer": "10 cm",
+    "explanation": "Area = (1/2) × d1 × d2 → 120 = (1/2) × 24 × d2 → d2 = 10 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Find the area of a regular hexagon with side 6 cm. (√3 ≈ 1.732)",
+    "options": ["93.53 cm²", "54√3 cm²", "36√3 cm²", "72√3 cm²"],
+    "correct_answer": "54√3 cm²",
+    "explanation": "Area of regular hexagon = (3√3/2) × a² = (3√3/2) × 36 = 54√3 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A square and a rectangle have equal areas. The rectangle is 16 cm × 4 cm. Find the perimeter of the square.",
+    "options": ["32 cm", "16 cm", "64 cm", "40 cm"],
+    "correct_answer": "32 cm",
+    "explanation": "Area of rectangle = 64 cm². Side of square = √64 = 8 cm. Perimeter = 4 × 8 = 32 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The area of a circle is equal to the area of a square with side 11 cm. Find the radius of the circle. (π = 22/7)",
+    "options": ["6.2 cm", "7 cm", "5.5 cm", "6.5 cm"],
+    "correct_answer": "6.2 cm",
+    "explanation": "πr² = 121 → r² = 121 × 7/22 = 38.5 → r ≈ 6.2 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A triangle has vertices at (0,0), (4,0), and (0,3). Find its area.",
+    "options": ["6 sq units", "12 sq units", "7 sq units", "5 sq units"],
+    "correct_answer": "6 sq units",
+    "explanation": "Area = (1/2) × base × height = (1/2) × 4 × 3 = 6 sq units."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The length of a rectangle is increased by 25% and breadth is decreased by 20%. What is the percentage change in area?",
+    "options": ["0%", "5% increase", "5% decrease", "10% increase"],
+    "correct_answer": "0%",
+    "explanation": "New area = 1.25l × 0.8b = 1.0lb. No change in area."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Find the area of a parallelogram with sides 10 cm and 6 cm and included angle 30°.",
+    "options": ["30 cm²", "60 cm²", "52 cm²", "45 cm²"],
+    "correct_answer": "30 cm²",
+    "explanation": "Area = a × b × sin(θ) = 10 × 6 × sin(30°) = 60 × 0.5 = 30 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A wire is bent into a circle of radius 7 cm. If the same wire is bent into a square, find the area of the square. (π = 22/7)",
+    "options": ["121 cm²", "144 cm²", "169 cm²", "196 cm²"],
+    "correct_answer": "121 cm²",
+    "explanation": "Length of wire = 2πr = 2 × (22/7) × 7 = 44 cm. Side of square = 44/4 = 11 cm. Area = 11² = 121 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The area of a triangle is 48 cm². If its base is 12 cm, find the height.",
+    "options": ["8 cm", "4 cm", "6 cm", "10 cm"],
+    "correct_answer": "8 cm",
+    "explanation": "Area = (1/2) × b × h → 48 = (1/2) × 12 × h → h = 8 cm."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A rectangular field 90 m × 60 m has a path 3 m wide running inside it. Find the area of the path.",
+    "options": ["864 m²", "900 m²", "756 m²", "800 m²"],
+    "correct_answer": "864 m²",
+    "explanation": "Inner area = (90-6)(60-6) = 84 × 54 = 4536 m². Outer area = 90 × 60 = 5400 m². Path = 5400 - 4536 = 864 m²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "hard",
+    "exam_type": "campus",
+    "question": "A square is inscribed in a circle of radius 10 cm. Find the area of the region between the circle and the square. (π = 3.14)",
+    "options": ["114 cm²", "100 cm²", "128 cm²", "86 cm²"],
+    "correct_answer": "114 cm²",
+    "explanation": "Diagonal of square = 2r = 20 cm. Side = 20/√2 = 10√2. Area of square = (10√2)² = 200 cm². Area of circle = 3.14 × 100 = 314 cm². Difference = 314 - 200 = 114 cm²."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "hard",
+    "exam_type": "govt",
+    "question": "The area of a triangle with vertices (2,3), (5,7), and (8,3) is:",
+    "options": ["12 sq units", "6 sq units", "18 sq units", "9 sq units"],
+    "correct_answer": "12 sq units",
+    "explanation": "Area = (1/2)|x1(y2-y3) + x2(y3-y1) + x3(y1-y2)| = (1/2)|2(7-3)+5(3-3)+8(3-7)| = (1/2)|8+0-32| = (1/2)(24) = 12 sq units."
+  },
+  {
+    "topic": "Area",
+    "difficulty": "hard",
+    "exam_type": "mixed",
+    "question": "A circular park of radius 20 m has a path of 4 m wide inside it. Find the area of the path. (π = 3.14)",
+    "options": ["452.16 m²", "400 m²", "502.4 m²", "376 m²"],
+    "correct_answer": "452.16 m²",
+    "explanation": "Outer area = π × 20² = 1256 m². Inner area = π × 16² = 803.84 m². Path area = 1256 - 803.84 = 452.16 m²."
+  }
+]

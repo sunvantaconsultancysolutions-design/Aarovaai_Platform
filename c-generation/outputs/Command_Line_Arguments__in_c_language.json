@@ -1,0 +1,501 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct signature of the main() function to accept command line arguments in C?",
+    "options": ["A) int main(int argc, char *argv[])", "B) int main(char *argv[], int argc)", "C) void main(int argc, char argv)", "D) int main(int argv, char argc[])"],
+    "correct_answer": "A) int main(int argc, char *argv[])",
+    "explanation": "The standard signature is int main(int argc, char *argv[]) where argc holds the argument count and argv holds the argument values as strings."
+  },
+  {
+    "id": 2,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'argc' stand for in command line arguments?",
+    "options": ["A) Argument character", "B) Argument count", "C) Argument code", "D) Argument class"],
+    "correct_answer": "B) Argument count",
+    "explanation": "argc stands for 'argument count' and holds the total number of command line arguments passed including the program name."
+  },
+  {
+    "id": 3,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'argv' stand for in command line arguments?",
+    "options": ["A) Argument value", "B) Argument variable", "C) Argument vector", "D) Argument void"],
+    "correct_answer": "C) Argument vector",
+    "explanation": "argv stands for 'argument vector' and is an array of character pointers pointing to each command line argument string."
+  },
+  {
+    "id": 4,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a program is run as './program hello world', what is the value of argc?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "correct_answer": "C) 3",
+    "explanation": "argc counts all arguments including the program name. './program', 'hello', and 'world' make 3 arguments, so argc = 3."
+  },
+  {
+    "id": 5,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is argv[0] when a program is executed as './myprogram'?",
+    "options": ["A) NULL", "B) The first user argument", "C) The program name './myprogram'", "D) An empty string"],
+    "correct_answer": "C) The program name './myprogram'",
+    "explanation": "argv[0] always holds the name of the program itself as it was invoked from the command line."
+  },
+  {
+    "id": 6,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of argv[argc] in a C program?",
+    "options": ["A) The last argument", "B) NULL", "C) 0", "D) Undefined"],
+    "correct_answer": "B) NULL",
+    "explanation": "By C standard, argv[argc] is always NULL, acting as a sentinel value to mark the end of the argument list."
+  },
+  {
+    "id": 7,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file is required to use atoi() for converting command line arguments to integers?",
+    "options": ["A) stdio.h", "B) string.h", "C) stdlib.h", "D) math.h"],
+    "correct_answer": "C) stdlib.h",
+    "explanation": "atoi() (ASCII to integer) is declared in stdlib.h and is commonly used to convert string command line arguments to integers."
+  },
+  {
+    "id": 8,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What data type is argv in the main function?",
+    "options": ["A) int array", "B) Array of character pointers", "C) Double pointer to int", "D) Pointer to integer array"],
+    "correct_answer": "B) Array of character pointers",
+    "explanation": "argv is declared as char *argv[] which is an array of pointers to characters (strings), each pointing to one command line argument."
+  },
+  {
+    "id": 9,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a program is run with no arguments as './test', what is the minimum value of argc?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) -1"],
+    "correct_answer": "B) 1",
+    "explanation": "Even with no user-supplied arguments, argc is at least 1 because argv[0] always contains the program name."
+  },
+  {
+    "id": 10,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an equivalent declaration of char *argv[]?",
+    "options": ["A) char argv[]", "B) char **argv", "C) char argv", "D) int *argv[]"],
+    "correct_answer": "B) char **argv",
+    "explanation": "char *argv[] and char **argv are equivalent in function parameters. Both represent a pointer to a pointer to char."
+  },
+  {
+    "id": 11,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if you access argv[argc] in a standard C program?",
+    "options": ["A) Segmentation fault", "B) Returns NULL safely", "C) Returns garbage value", "D) Compilation error"],
+    "correct_answer": "B) Returns NULL safely",
+    "explanation": "The C standard guarantees argv[argc] == NULL, so accessing it is safe and returns NULL without causing undefined behavior."
+  },
+  {
+    "id": 12,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Command line arguments in C are passed as which data type by default?",
+    "options": ["A) int", "B) float", "C) strings (char arrays)", "D) double"],
+    "correct_answer": "C) strings (char arrays)",
+    "explanation": "All command line arguments are received as strings (char arrays) regardless of whether they represent numbers or other types."
+  },
+  {
+    "id": 13,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function converts a command line string argument to a floating point number?",
+    "options": ["A) atoi()", "B) atof()", "C) atol()", "D) itoa()"],
+    "correct_answer": "B) atof()",
+    "explanation": "atof() (ASCII to float) converts a string to a double value and is declared in stdlib.h, used for floating point command line arguments."
+  },
+  {
+    "id": 14,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If program is run as './calc 10 20 30', what is argv[2]?",
+    "options": ["A) \"10\"", "B) \"20\"", "C) \"30\"", "D) \"./calc\""],
+    "correct_answer": "B) \"20\"",
+    "explanation": "argv[0]='./calc', argv[1]='10', argv[2]='20', argv[3]='30'. So argv[2] is the string \"20\"."
+  },
+  {
+    "id": 15,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of printf(\"%d\", argc) when program is run as './prog a b c d'?",
+    "options": ["A) 4", "B) 5", "C) 3", "D) 6"],
+    "correct_answer": "B) 5",
+    "explanation": "Arguments are: './prog', 'a', 'b', 'c', 'd' — total 5 arguments, so argc = 5."
+  },
+  {
+    "id": 16,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid way to declare main() with command line arguments?",
+    "options": ["A) int main(int argc, char *argv[])", "B) int main(int argc, char **argv)", "C) int main(int count, char *args[])", "D) int main(int argc, int argv[])"],
+    "correct_answer": "D) int main(int argc, int argv[])",
+    "explanation": "argv must be an array of char pointers (char *argv[] or char **argv), not int. Using int argv[] is invalid for command line arguments."
+  },
+  {
+    "id": 17,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does atoi(\"42\") return?",
+    "options": ["A) '4'", "B) 42", "C) \"42\"", "D) 4.2"],
+    "correct_answer": "B) 42",
+    "explanation": "atoi() converts the string \"42\" to the integer value 42. It parses the string and returns the corresponding integer."
+  },
+  {
+    "id": 18,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In which order are command line arguments stored in argv?",
+    "options": ["A) Reverse order of input", "B) Alphabetical order", "C) Same order as typed on command line", "D) Random order"],
+    "correct_answer": "C) Same order as typed on command line",
+    "explanation": "argv stores arguments in the exact order they appear on the command line, with argv[0] being the program name."
+  },
+  {
+    "id": 19,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of command line arguments in C?",
+    "options": ["A) To define global variables", "B) To pass input to a program at runtime without user prompts", "C) To declare functions", "D) To include header files"],
+    "correct_answer": "B) To pass input to a program at runtime without user prompts",
+    "explanation": "Command line arguments allow users to pass data directly to a program when launching it, enabling flexible runtime configuration."
+  },
+  {
+    "id": 20,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will printf(\"%s\", argv[0]) print when program is run as './hello'?",
+    "options": ["A) hello", "B) ./hello", "C) NULL", "D) 0"],
+    "correct_answer": "B) ./hello",
+    "explanation": "argv[0] stores the program name exactly as typed on the command line, including the path prefix like './'."
+  },
+  {
+    "id": 21,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function converts a command line string argument to a long integer?",
+    "options": ["A) atoi()", "B) atof()", "C) atol()", "D) strtol()"],
+    "correct_answer": "C) atol()",
+    "explanation": "atol() (ASCII to long) converts a string to a long integer value and is declared in stdlib.h."
+  },
+  {
+    "id": 22,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If argc is 1, what does it mean?",
+    "options": ["A) No arguments were passed", "B) One user argument was passed", "C) Only the program name was provided", "D) The program failed to start"],
+    "correct_answer": "C) Only the program name was provided",
+    "explanation": "argc=1 means only argv[0] (the program name) exists. No additional user arguments were passed on the command line."
+  },
+  {
+    "id": 23,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to print all command line arguments using a loop?",
+    "options": ["A) for(int i=0; i<argc; i++) printf(\"%s\", argv[i]);", "B) for(int i=1; i<=argc; i++) printf(\"%d\", argv[i]);", "C) while(argv) printf(\"%s\", argv);", "D) printf(\"%s\", argc);"],
+    "correct_answer": "A) for(int i=0; i<argc; i++) printf(\"%s\", argv[i]);",
+    "explanation": "Iterating from i=0 to i<argc and printing argv[i] as string (%s) correctly prints all command line arguments including program name."
+  },
+  {
+    "id": 24,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Are command line arguments case-sensitive in C?",
+    "options": ["A) No, C converts them to lowercase", "B) Yes, they are passed exactly as typed", "C) No, C converts them to uppercase", "D) Depends on the compiler"],
+    "correct_answer": "B) Yes, they are passed exactly as typed",
+    "explanation": "Command line arguments are passed as-is to the program. C does not modify their case; 'Hello' and 'hello' are different arguments."
+  },
+  {
+    "id": 25,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the index of the first user-supplied argument in argv?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) -1"],
+    "correct_answer": "B) 1",
+    "explanation": "argv[0] is always the program name, so the first user-supplied argument starts at argv[1]."
+  },
+  {
+    "id": 26,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you run './program' with no extra arguments and try to access argv[1]?",
+    "options": ["A) Returns empty string", "B) Returns NULL", "C) Causes compilation error", "D) Returns 0"],
+    "correct_answer": "B) Returns NULL",
+    "explanation": "When no extra arguments are passed, argv[1] equals argv[argc] which is NULL by the C standard."
+  },
+  {
+    "id": 27,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly checks if at least one argument was passed by the user?",
+    "options": ["A) if(argc == 0)", "B) if(argc > 1)", "C) if(argv == NULL)", "D) if(argc < 1)"],
+    "correct_answer": "B) if(argc > 1)",
+    "explanation": "Since argc is always at least 1 (program name), checking argc > 1 verifies that at least one user argument was provided."
+  },
+  {
+    "id": 28,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What format specifier is used to print a command line argument as a string?",
+    "options": ["A) %d", "B) %c", "C) %s", "D) %f"],
+    "correct_answer": "C) %s",
+    "explanation": "Command line arguments are strings (char arrays), so %s is the correct format specifier to print them using printf."
+  },
+  {
+    "id": 29,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If program is run as './sum 5 10', what does atoi(argv[1]) + atoi(argv[2]) return?",
+    "options": ["A) \"510\"", "B) 15", "C) 5", "D) 10"],
+    "correct_answer": "B) 15",
+    "explanation": "atoi(argv[1]) converts \"5\" to 5, atoi(argv[2]) converts \"10\" to 10. Their sum is 15."
+  },
+  {
+    "id": 30,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a C program be written without using command line arguments?",
+    "options": ["A) No, argc and argv are mandatory", "B) Yes, using int main(void) or int main()", "C) No, the compiler requires them", "D) Yes, but only in C99"],
+    "correct_answer": "B) Yes, using int main(void) or int main()",
+    "explanation": "Command line arguments are optional. A program can use int main(void) or int main() when no command line arguments are needed."
+  },
+  {
+    "id": 31,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the type of each element in argv?",
+    "options": ["A) int", "B) char", "C) char* (pointer to char)", "D) char[][]"],
+    "correct_answer": "C) char* (pointer to char)",
+    "explanation": "Each element argv[i] is of type char*, a pointer to a null-terminated character string representing one command line argument."
+  },
+  {
+    "id": 32,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following when run as './prog 7'?\nint main(int argc, char *argv[]) { printf(\"%d\", argc); }",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 7"],
+    "correct_answer": "C) 2",
+    "explanation": "argc = 2 because there are two arguments: './prog' (argv[0]) and '7' (argv[1]). The value 7 is not printed; argc is printed."
+  },
+  {
+    "id": 33,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly reads the second command line argument as an integer?",
+    "options": ["A) int n = argv[2];", "B) int n = atoi(argv[2]);", "C) int n = argv[1];", "D) int n = argc[2];"],
+    "correct_answer": "B) int n = atoi(argv[2]);",
+    "explanation": "argv[2] is a string; atoi() converts it to an integer. Direct assignment of char* to int is invalid in C."
+  },
+  {
+    "id": 34,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output when program is run as './test abc' and code is: printf(\"%c\", argv[1][0]);",
+    "options": ["A) a", "B) abc", "C) A", "D) 97"],
+    "correct_answer": "A) a",
+    "explanation": "argv[1] is the string \"abc\". argv[1][0] accesses the first character 'a'. %c prints it as a character."
+  },
+  {
+    "id": 35,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum number of command line arguments that can be passed to a C program?",
+    "options": ["A) 10", "B) 100", "C) 255", "D) No fixed limit (system dependent)"],
+    "correct_answer": "D) No fixed limit (system dependent)",
+    "explanation": "The C standard does not specify a maximum number of command line arguments. The limit is system/OS dependent."
+  },
+  {
+    "id": 36,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following code print when run as './prog hello'?\nprintf(\"%d\", strlen(argv[1]));",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "correct_answer": "B) 5",
+    "explanation": "argv[1] is \"hello\" which has 5 characters. strlen(\"hello\") returns 5."
+  },
+  {
+    "id": 37,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which library function can compare a command line argument with a string?",
+    "options": ["A) strcmp()", "B) strcpy()", "C) strcat()", "D) sprintf()"],
+    "correct_answer": "A) strcmp()",
+    "explanation": "strcmp() compares two strings and returns 0 if equal. It's commonly used to compare command line arguments with expected values."
+  },
+  {
+    "id": 38,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output when run as './prog 3 4' with code: printf(\"%d\", atoi(argv[1]) * atoi(argv[2]));",
+    "options": ["A) 34", "B) 7", "C) 12", "D) 1"],
+    "correct_answer": "C) 12",
+    "explanation": "atoi(argv[1])=3, atoi(argv[2])=4. Product = 3*4 = 12."
+  },
+  {
+    "id": 39,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is argv[1][1] when program is run as './prog cat'?",
+    "options": ["A) 'c'", "B) 'a'", "C) 't'", "D) NULL"],
+    "correct_answer": "B) 'a'",
+    "explanation": "argv[1] is \"cat\". argv[1][0]='c', argv[1][1]='a', argv[1][2]='t'. So argv[1][1] is 'a'."
+  },
+  {
+    "id": 40,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to check if exactly 2 user arguments were passed?",
+    "options": ["A) if(argc == 2)", "B) if(argc == 3)", "C) if(argc == 1)", "D) if(argv == 2)"],
+    "correct_answer": "B) if(argc == 3)",
+    "explanation": "argc includes the program name. So 2 user arguments means argc = 3 (program name + arg1 + arg2)."
+  },
+
+  {
+    "id": 41,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following program when run as './prog 5 3'?\nint main(int argc, char *argv[]) {\n  int a = atoi(argv[1]), b = atoi(argv[2]);\n  printf(\"%d\", a > b ? a - b : b - a);\n}",
+    "options": ["A) 2", "B) -2", "C) 8", "D) 15"],
+    "correct_answer": "A) 2",
+    "explanation": "a=5, b=3. Since 5>3, result = a-b = 5-3 = 2. The ternary operator selects a-b."
+  },
+  {
+    "id": 42,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output when run as './prog hello world'?\nfor(int i=1; i<argc; i++) printf(\"%c\", argv[i][0]);",
+    "options": ["A) hello world", "B) hw", "C) helloworld", "D) h w"],
+    "correct_answer": "B) hw",
+    "explanation": "argv[1][0]='h' (first char of 'hello'), argv[2][0]='w' (first char of 'world'). Prints 'hw'."
+  },
+  {
+    "id": 43,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does strtol(argv[1], NULL, 16) do when argv[1] is \"FF\"?",
+    "options": ["A) Returns 255", "B) Returns 16", "C) Returns 0", "D) Returns 'F'"],
+    "correct_answer": "A) Returns 255",
+    "explanation": "strtol with base 16 converts hexadecimal string \"FF\" to decimal. FF in hex = 15*16 + 15 = 255."
+  },
+  {
+    "id": 44,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output when run as './prog 2 3 4'?\nint s=0; for(int i=1;i<argc;i++) s+=atoi(argv[i]); printf(\"%d\",s);",
+    "options": ["A) 234", "B) 9", "C) 24", "D) 7"],
+    "correct_answer": "B) 9",
+    "explanation": "Sums atoi(argv[1])+atoi(argv[2])+atoi(argv[3]) = 2+3+4 = 9."
+  },
+  {
+    "id": 45,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output when run as './prog abc'?\nprintf(\"%d\", atoi(argv[1]));",
+    "options": ["A) Compilation error", "B) Garbage value", "C) 0", "D) -1"],
+    "correct_answer": "C) 0",
+    "explanation": "atoi() returns 0 when the string cannot be converted to a valid integer. \"abc\" has no leading digits, so atoi returns 0."
+  },
+  {
+    "id": 46,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output when run as './prog 10abc'?\nprintf(\"%d\", atoi(argv[1]));",
+    "options": ["A) 0", "B) 10", "C) Error", "D) 10abc"],
+    "correct_answer": "B) 10",
+    "explanation": "atoi() parses leading digits and stops at the first non-digit character. \"10abc\" yields 10."
+  },
+  {
+    "id": 47,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which function provides better error handling than atoi() for converting command line arguments?",
+    "options": ["A) atof()", "B) strtol()", "C) scanf()", "D) sscanf()"],
+    "correct_answer": "B) strtol()",
+    "explanation": "strtol() provides error detection via errno and an endptr parameter, unlike atoi() which silently returns 0 on failure."
+  },
+  {
+    "id": 48,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output when run as './prog 5' with the following code?\nprintf(\"%d\", argc == 2 ? atoi(argv[1]) * atoi(argv[1]) : -1);",
+    "options": ["A) -1", "B) 5", "C) 25", "D) 10"],
+    "correct_answer": "C) 25",
+    "explanation": "argc=2 (program + '5'), so condition is true. atoi(argv[1])=5, 5*5=25."
+  },
+  {
+    "id": 49,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output when run as './prog A B C'?\nfor(int i=argc-1; i>=1; i--) printf(\"%s \", argv[i]);",
+    "options": ["A) A B C", "B) C B A", "C) ./prog C B A", "D) C B A ./prog"],
+    "correct_answer": "B) C B A",
+    "explanation": "Loop runs from i=3 to i=1: argv[3]='C', argv[2]='B', argv[1]='A'. Prints 'C B A '."
+  },
+  {
+    "id": 50,
+    "topic": "Command Line Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output when run as './prog hello' with code:\nprintf(\"%d\", strcmp(argv[1], \"hello\"));",
+    "options": ["A) 1", "B) -1", "C) 0", "D) 5"],
+    

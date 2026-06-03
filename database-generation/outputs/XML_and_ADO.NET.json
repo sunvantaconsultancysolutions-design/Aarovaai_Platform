@@ -1,0 +1,511 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does XML stand for?",
+    "options": ["A) Extensible Markup Language", "B) Extended Markup Language", "C) Extensible Management Language", "D) Extra Markup Language"],
+    "correct_answer": "A) Extensible Markup Language",
+    "explanation": "XML stands for Extensible Markup Language. It is a markup language designed to store and transport data in a human-readable format."
+  },
+  {
+    "id": 2,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ADO.NET stand for?",
+    "options": ["A) Active Data Objects .NET", "B) Advanced Data Operations .NET", "C) Automated Data Objects .NET", "D) Active Database Operations .NET"],
+    "correct_answer": "A) Active Data Objects .NET",
+    "explanation": "ADO.NET stands for Active Data Objects .NET. It is a set of classes in the .NET Framework used for data access."
+  },
+  {
+    "id": 3,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the root class of all ADO.NET data providers?",
+    "options": ["A) SqlConnection", "B) DbConnection", "C) OleDbConnection", "D) DataSet"],
+    "correct_answer": "B) DbConnection",
+    "explanation": "DbConnection is the abstract base class for all ADO.NET connection classes. SqlConnection and OleDbConnection inherit from it."
+  },
+  {
+    "id": 4,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which XML declaration is correct?",
+    "options": ["A) <?xml version='1.0' encoding='UTF-8'?>", "B) <xml version='1.0'>", "C) <!xml version='1.0'>", "D) <? xml version=1.0 ?>"],
+    "correct_answer": "A) <?xml version='1.0' encoding='UTF-8'?>",
+    "explanation": "An XML declaration starts with <?xml and includes version and optionally encoding attributes. The correct syntax is <?xml version='1.0' encoding='UTF-8'?>."
+  },
+  {
+    "id": 5,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET object is used to store data in a disconnected manner?",
+    "options": ["A) SqlCommand", "B) SqlDataReader", "C) DataSet", "D) SqlConnection"],
+    "correct_answer": "C) DataSet",
+    "explanation": "DataSet is an in-memory representation of data that works in a disconnected manner. It can hold multiple tables and relationships."
+  },
+  {
+    "id": 6,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In XML, tags are case-sensitive. Which of the following is TRUE?",
+    "options": ["A) <Name> and <name> are the same tag", "B) <Name> and <name> are different tags", "C) XML tags are not case-sensitive", "D) Only opening tags are case-sensitive"],
+    "correct_answer": "B) <Name> and <name> are different tags",
+    "explanation": "XML is case-sensitive, so <Name> and <name> are treated as completely different elements. This is a fundamental rule of XML."
+  },
+  {
+    "id": 7,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET class is used to execute SQL queries against a SQL Server database?",
+    "options": ["A) SqlDataAdapter", "B) SqlCommand", "C) SqlDataReader", "D) SqlConnection"],
+    "correct_answer": "B) SqlCommand",
+    "explanation": "SqlCommand is used to execute SQL queries or stored procedures against a SQL Server database. It works with SqlConnection."
+  },
+  {
+    "id": 8,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the file extension for XML files?",
+    "options": ["A) .xm", "B) .xml", "C) .xtml", "D) .xmf"],
+    "correct_answer": "B) .xml",
+    "explanation": "XML files use the .xml file extension. This is the standard extension recognized by XML parsers and browsers."
+  },
+  {
+    "id": 9,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of SqlDataAdapter is used to fill a DataSet?",
+    "options": ["A) Fill()", "B) Load()", "C) Populate()", "D) Execute()"],
+    "correct_answer": "A) Fill()",
+    "explanation": "The Fill() method of SqlDataAdapter executes the SelectCommand and fills the DataSet or DataTable with the results."
+  },
+  {
+    "id": 10,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In XML, what is used to define attributes of an element?",
+    "options": ["A) Child elements only", "B) Name-value pairs inside the opening tag", "C) Comments", "D) Processing instructions"],
+    "correct_answer": "B) Name-value pairs inside the opening tag",
+    "explanation": "XML attributes are defined as name-value pairs inside the opening tag, e.g., <book id='1'>. Attribute values must be quoted."
+  },
+  {
+    "id": 11,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET object provides a forward-only, read-only stream of data from a database?",
+    "options": ["A) DataSet", "B) DataTable", "C) SqlDataReader", "D) SqlDataAdapter"],
+    "correct_answer": "C) SqlDataReader",
+    "explanation": "SqlDataReader provides a fast, forward-only, read-only stream of data from a SQL Server database. It is the most efficient way to read data."
+  },
+  {
+    "id": 12,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a well-formed XML document?",
+    "options": ["A) An XML document that follows DTD rules", "B) An XML document that has a root element and properly nested tags", "C) An XML document with no attributes", "D) An XML document with a stylesheet"],
+    "correct_answer": "B) An XML document that has a root element and properly nested tags",
+    "explanation": "A well-formed XML document must have a single root element, properly nested tags, and all tags must be closed. It follows basic XML syntax rules."
+  },
+  {
+    "id": 13,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which namespace contains ADO.NET classes for SQL Server?",
+    "options": ["A) System.Data.OleDb", "B) System.Data.SqlClient", "C) System.Data.Odbc", "D) System.Xml"],
+    "correct_answer": "B) System.Data.SqlClient",
+    "explanation": "System.Data.SqlClient namespace contains classes like SqlConnection, SqlCommand, and SqlDataReader for SQL Server data access."
+  },
+  {
+    "id": 14,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In XML, how are comments written?",
+    "options": ["A) // This is a comment", "B) /* This is a comment */", "C) <!-- This is a comment -->", "D) # This is a comment"],
+    "correct_answer": "C) <!-- This is a comment -->",
+    "explanation": "XML comments are written using <!-- and --> delimiters. They are ignored by XML parsers and used for documentation."
+  },
+  {
+    "id": 15,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET class is used to manage database connections?",
+    "options": ["A) SqlCommand", "B) SqlDataAdapter", "C) SqlConnection", "D) DataSet"],
+    "correct_answer": "C) SqlConnection",
+    "explanation": "SqlConnection is used to establish and manage a connection to a SQL Server database. It must be opened before executing commands."
+  },
+  {
+    "id": 16,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DTD stand for in XML?",
+    "options": ["A) Document Type Definition", "B) Data Type Declaration", "C) Document Transfer Definition", "D) Data Transfer Document"],
+    "correct_answer": "A) Document Type Definition",
+    "explanation": "DTD stands for Document Type Definition. It defines the structure and legal elements of an XML document."
+  },
+  {
+    "id": 17,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to open a database connection in ADO.NET?",
+    "options": ["A) Connect()", "B) Start()", "C) Open()", "D) Begin()"],
+    "correct_answer": "C) Open()",
+    "explanation": "The Open() method of SqlConnection is used to open a database connection. It must be called before executing any commands."
+  },
+  {
+    "id": 18,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In XML, what is the purpose of CDATA section?",
+    "options": ["A) To define character data that should not be parsed by the XML parser", "B) To define metadata", "C) To add comments", "D) To define namespaces"],
+    "correct_answer": "A) To define character data that should not be parsed by the XML parser",
+    "explanation": "CDATA (Character Data) sections allow text with special characters like < and & to be included without being parsed. Syntax: <![CDATA[...]]>."
+  },
+  {
+    "id": 19,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET object acts as a bridge between a DataSet and a data source?",
+    "options": ["A) SqlCommand", "B) SqlDataAdapter", "C) SqlConnection", "D) SqlTransaction"],
+    "correct_answer": "B) SqlDataAdapter",
+    "explanation": "SqlDataAdapter acts as a bridge between a DataSet and a SQL Server database. It uses Fill() to populate and Update() to persist changes."
+  },
+  {
+    "id": 20,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to write an empty XML element?",
+    "options": ["A) <element></element> or <element/>", "B) <element>", "C) </element>", "D) <element//>"],
+    "correct_answer": "A) <element></element> or <element/>",
+    "explanation": "An empty XML element can be written as <element></element> or using the self-closing shorthand <element/>. Both are valid."
+  },
+  {
+    "id": 21,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of SqlCommand is used to execute a query that returns a single value?",
+    "options": ["A) ExecuteReader()", "B) ExecuteNonQuery()", "C) ExecuteScalar()", "D) ExecuteXmlReader()"],
+    "correct_answer": "C) ExecuteScalar()",
+    "explanation": "ExecuteScalar() executes a query and returns the first column of the first row. It is used for aggregate queries like COUNT or SUM."
+  },
+  {
+    "id": 22,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does XSD stand for in XML?",
+    "options": ["A) XML Schema Definition", "B) Extensible Schema Document", "C) XML Standard Definition", "D) Extensible Style Document"],
+    "correct_answer": "A) XML Schema Definition",
+    "explanation": "XSD stands for XML Schema Definition. It is a more powerful alternative to DTD for defining the structure and data types of XML documents."
+  },
+  {
+    "id": 23,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of SqlCommand is used to execute INSERT, UPDATE, or DELETE statements?",
+    "options": ["A) ExecuteReader()", "B) ExecuteNonQuery()", "C) ExecuteScalar()", "D) ExecuteQuery()"],
+    "correct_answer": "B) ExecuteNonQuery()",
+    "explanation": "ExecuteNonQuery() is used for DML statements (INSERT, UPDATE, DELETE) that do not return rows. It returns the number of rows affected."
+  },
+  {
+    "id": 24,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In XML, which character is used to escape the less-than symbol (<)?",
+    "options": ["A) &lt;", "B) &gt;", "C) &amp;", "D) &less;"],
+    "correct_answer": "A) &lt;",
+    "explanation": "In XML, &lt; is the entity reference for the less-than symbol (<). Using < directly in text content would confuse the parser."
+  },
+  {
+    "id": 25,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET class represents a single table of in-memory data?",
+    "options": ["A) DataSet", "B) DataTable", "C) DataRow", "D) DataColumn"],
+    "correct_answer": "B) DataTable",
+    "explanation": "DataTable represents a single table of in-memory data. A DataSet can contain multiple DataTable objects along with their relationships."
+  },
+  {
+    "id": 26,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is XSLT used for in XML?",
+    "options": ["A) Transforming XML documents into other formats", "B) Validating XML documents", "C) Encrypting XML data", "D) Compressing XML files"],
+    "correct_answer": "A) Transforming XML documents into other formats",
+    "explanation": "XSLT (Extensible Stylesheet Language Transformations) is used to transform XML documents into HTML, plain text, or other XML formats."
+  },
+  {
+    "id": 27,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which property of SqlConnection is used to specify the database server and credentials?",
+    "options": ["A) ServerString", "B) ConnectionString", "C) DatabaseString", "D) ConnectString"],
+    "correct_answer": "B) ConnectionString",
+    "explanation": "The ConnectionString property of SqlConnection specifies the server name, database name, authentication details, and other connection parameters."
+  },
+  {
+    "id": 28,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In XML, what is a namespace used for?",
+    "options": ["A) To avoid element name conflicts", "B) To define data types", "C) To add styling", "D) To compress data"],
+    "correct_answer": "A) To avoid element name conflicts",
+    "explanation": "XML namespaces are used to avoid element name conflicts when combining XML documents from different sources. They use URI identifiers."
+  },
+  {
+    "id": 29,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET class is used to represent a row of data in a DataTable?",
+    "options": ["A) DataColumn", "B) DataRow", "C) DataSet", "D) DataView"],
+    "correct_answer": "B) DataRow",
+    "explanation": "DataRow represents a single row of data in a DataTable. It provides access to individual column values through indexers."
+  },
+  {
+    "id": 30,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of XPath in XML?",
+    "options": ["A) To navigate and query XML documents", "B) To transform XML documents", "C) To validate XML documents", "D) To encrypt XML data"],
+    "correct_answer": "A) To navigate and query XML documents",
+    "explanation": "XPath (XML Path Language) is used to navigate through elements and attributes in an XML document and select nodes."
+  },
+  {
+    "id": 31,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to close a SqlDataReader after reading data?",
+    "options": ["A) Dispose()", "B) Close()", "C) End()", "D) Terminate()"],
+    "correct_answer": "B) Close()",
+    "explanation": "The Close() method is used to close a SqlDataReader. It is important to close it to release the connection for other operations."
+  },
+  {
+    "id": 32,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In XML, which of the following is a valid attribute value?",
+    "options": ["A) id=1", "B) id='1'", "C) id=<1>", "D) id=(1)"],
+    "correct_answer": "B) id='1'",
+    "explanation": "XML attribute values must always be enclosed in quotes (single or double). id='1' or id=\"1\" are valid, but id=1 is not."
+  },
+  {
+    "id": 33,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET class is used to define a column in a DataTable?",
+    "options": ["A) DataRow", "B) DataSet", "C) DataColumn", "D) DataField"],
+    "correct_answer": "C) DataColumn",
+    "explanation": "DataColumn represents the schema of a column in a DataTable. It defines the column name, data type, and constraints."
+  },
+  {
+    "id": 34,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the WriteXml() method of DataSet do?",
+    "options": ["A) Reads XML data into the DataSet", "B) Writes the DataSet contents as XML", "C) Validates XML schema", "D) Transforms XML data"],
+    "correct_answer": "B) Writes the DataSet contents as XML",
+    "explanation": "The WriteXml() method of DataSet serializes the DataSet contents to an XML file or stream. It can optionally include schema information."
+  },
+  {
+    "id": 35,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which XML parser model loads the entire XML document into memory?",
+    "options": ["A) SAX", "B) DOM", "C) StAX", "D) Pull Parser"],
+    "correct_answer": "B) DOM",
+    "explanation": "DOM (Document Object Model) loads the entire XML document into memory as a tree structure. SAX is event-based and does not load the whole document."
+  },
+  {
+    "id": 36,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO.NET object is used to represent a relationship between two DataTable objects?",
+    "options": ["A) DataConstraint", "B) DataRelation", "C) DataLink", "D) DataJoin"],
+    "correct_answer": "B) DataRelation",
+    "explanation": "DataRelation represents a parent-child relationship between two DataTable objects in a DataSet, similar to a foreign key relationship."
+  },
+  {
+    "id": 37,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In XML, what is the entity reference for the ampersand (&) character?",
+    "options": ["A) &amp;", "B) &and;", "C) &apos;", "D) &char;"],
+    "correct_answer": "A) &amp;",
+    "explanation": "In XML, &amp; is the entity reference for the ampersand character (&). Using & directly in XML content is invalid."
+  },
+  {
+    "id": 38,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of DataSet is used to read XML data into the DataSet?",
+    "options": ["A) LoadXml()", "B) ReadXml()", "C) ImportXml()", "D) ParseXml()"],
+    "correct_answer": "B) ReadXml()",
+    "explanation": "The ReadXml() method of DataSet reads XML schema and data from a file or stream into the DataSet."
+  },
+  {
+    "id": 39,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default port number for SQL Server?",
+    "options": ["A) 3306", "B) 5432", "C) 1433", "D) 8080"],
+    "correct_answer": "C) 1433",
+    "explanation": "SQL Server uses port 1433 by default. MySQL uses 3306 and PostgreSQL uses 5432. This is often specified in ADO.NET connection strings."
+  },
+  {
+    "id": 40,
+    "topic": "XML and ADO.NET",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which XML technology is used to query XML data similar to SQL?",
+    "options": ["A) XSLT", "B) XPath", "C) XQuery", "D) XSD"],
+    "correct_answer": "C) XQuery",
+    "explanation": "XQuery is a query language designed to query XML data. It is to XML what SQL is to relational databases, allowing complex queries on XML documents."
+  },
+  {
+    "id": 41,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In ADO.NET, what is the difference between connected and disconnected architecture?",
+    "options": ["A) Connected uses DataSet; Disconnected uses SqlDataReader", "B) Connected maintains an open connection; Disconnected uses DataSet and works offline", "C) Connected is faster; Disconnected is slower", "D) Connected uses XML; Disconnected uses SQL"],
+    "correct_answer": "B) Connected maintains an open connection; Disconnected uses DataSet and works offline",
+    "explanation": "Connected architecture (SqlDataReader) keeps the connection open while reading. Disconnected architecture (DataSet) fetches data, closes the connection, and works offline."
+  },
+  {
+    "id": 42,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes the XmlDocument class in .NET?",
+    "options": ["A) It provides forward-only XML reading", "B) It implements the W3C DOM and allows full XML tree manipulation", "C) It is used only for writing XML", "D) It validates XML against XSD"],
+    "correct_answer": "B) It implements the W3C DOM and allows full XML tree manipulation",
+    "explanation": "XmlDocument implements the W3C DOM specification, loading the entire XML into memory as a tree. It allows reading, writing, and modifying XML nodes."
+  },
+  {
+    "id": 43,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of the CommandType property of SqlCommand?",
+    "options": ["A) Specifies the database type", "B) Specifies whether the command is a SQL text, stored procedure, or table name", "C) Specifies the return type of the command", "D) Specifies the connection type"],
+    "correct_answer": "B) Specifies whether the command is a SQL text, stored procedure, or table name",
+    "explanation": "CommandType can be Text (default), StoredProcedure, or TableDirect. It tells ADO.NET how to interpret the CommandText property."
+  },
+  {
+    "id": 44,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In XML, what is the difference between a well-formed and a valid XML document?",
+    "options": ["A) Well-formed follows syntax rules; Valid also conforms to a DTD or XSD schema", "B) Well-formed has a schema; Valid has no schema", "C) They are the same thing", "D) Valid follows syntax rules; Well-formed conforms to schema"],
+    "correct_answer": "A) Well-formed follows syntax rules; Valid also conforms to a DTD or XSD schema",
+    "explanation": "A well-formed XML follows basic syntax rules (proper nesting, closing tags). A valid XML is well-formed AND conforms to a DTD or XSD schema."
+  },
+  {
+    "id": 45,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which ADO.NET class is used to handle database transactions?",
+    "options": ["A) SqlCommand", "B) SqlTransaction", "C) SqlDataAdapter", "D) SqlParameter"],
+    "correct_answer": "B) SqlTransaction",
+    "explanation": "SqlTransaction is used to manage database transactions in ADO.NET. It supports Commit() and Rollback() methods for ACID compliance."
+  },
+  {
+    "id": 46,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the XmlReader class in .NET primarily used for?",
+    "options": ["A) Writing XML documents", "B) Fast, forward-only, non-cached reading of XML", "C) Transforming XML with XSLT", "D) Validating XML against XSD"],
+    "correct_answer": "B) Fast, forward-only, non-cached reading of XML",
+    "explanation": "XmlReader provides fast, forward-only, non-cached reading of XML data. It is memory-efficient for large XML files as it doesn't load the entire document."
+  },
+  {
+    "id": 47,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In ADO.NET, what does the Update() method of SqlDataAdapter do?",
+    "options": ["A) Updates the DataSet from the database", "B) Sends changes from DataSet back to the database", "C) Refreshes the connection", "D) Updates the SQL query"],
+    "correct_answer": "B) Sends changes from DataSet back to the database",
+    "explanation": "The Update() method of SqlDataAdapter examines the RowState of each DataRow and executes INSERT, UPDATE, or DELETE commands accordingly."
+  },
+  {
+    "id": 48,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of SqlParameter in ADO.NET?",
+    "options": ["A) To define connection parameters", "B) To pass parameters to SQL queries and prevent SQL injection", "C) To define table parameters", "D) To configure the DataAdapter"],
+    "correct_answer": "B) To pass parameters to SQL queries and prevent SQL injection",
+    "explanation": "SqlParameter is used to pass parameters to parameterized queries or stored procedures. It prevents SQL injection by treating input as data, not code."
+  },
+  {
+    "id": 49,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In XML, what is the purpose of the xmlns attribute?",
+    "options": ["A) To define XML version", "B) To declare an XML namespace", "C) To link a stylesheet", "D) To define encoding"],
+    "correct_answer": "B) To declare an XML namespace",
+    "explanation": "xmlns (XML namespace) attribute is used to declare a namespace for an element and its children. It prevents naming conflicts in XML documents."
+  },
+  {
+    "id": 50,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which class in .NET is used to apply XSLT transformations?",
+    "options": ["A) XmlDocument", "B) XslCompiledTransform", "C) XmlReader", "D) XPathNavigator"],
+    "correct_answer": "B) XslCompiledTransform",
+    "explanation": "XslCompiledTransform is the .NET class used to apply XSLT stylesheets to XML documents. It compiles the XSLT for better performance."
+  },
+  {
+    "id": 51,
+    "topic": "XML and ADO.NET",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the RowState property of a DataRow used for?",
+    "options": ["A) To get the row number", "B) To track whether a row has been added, modified, deleted, or unchanged", "C) To get the column count", "D) To check if the row is null"],
+    "correct_answer": "B) To track whether a row has been added, modified, deleted, or unchanged",
+    "explanation":

@@ -1,0 +1,767 @@
+[
+  {
+    "id": 1,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The teacher was very ______ with her students because they had worked hard all semester.\n\nOptions refer to the blank in the sentence above.",
+    "options": [
+      "A) pleased",
+      "B) displease",
+      "C) angrily",
+      "D) sadness"
+    ],
+    "correct_answer": "A) pleased",
+    "explanation": "'Pleased' is the correct adjective meaning satisfied or happy. The context ('worked hard') implies a positive reaction. Other options are grammatically or contextually incorrect."
+  },
+  {
+    "id": 2,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: She ______ to the market every morning to buy fresh vegetables.\n\nChoose the correct verb form.",
+    "options": [
+      "A) go",
+      "B) goes",
+      "C) gone",
+      "D) going"
+    ],
+    "correct_answer": "B) goes",
+    "explanation": "'She' is a third-person singular subject, so the verb must be 'goes' in simple present tense. 'Go' is used for I/you/we/they."
+  },
+  {
+    "id": 3,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The children were playing ______ the park when it started to rain.\n\nChoose the correct preposition.",
+    "options": [
+      "A) on",
+      "B) in",
+      "C) at",
+      "D) by"
+    ],
+    "correct_answer": "B) in",
+    "explanation": "We use 'in' with enclosed or defined spaces like parks, rooms, and cities. 'In the park' is the standard prepositional phrase."
+  },
+  {
+    "id": 4,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: He has been working at this company ______ five years.\n\nChoose the correct preposition.",
+    "options": [
+      "A) since",
+      "B) for",
+      "C) from",
+      "D) during"
+    ],
+    "correct_answer": "B) for",
+    "explanation": "'For' is used with a duration of time (five years). 'Since' is used with a specific point in time (since 2019)."
+  },
+  {
+    "id": 5,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The movie was so ______ that everyone in the theater fell asleep.\n\nChoose the correct adjective.",
+    "options": [
+      "A) exciting",
+      "B) boring",
+      "C) thrilling",
+      "D) amusing"
+    ],
+    "correct_answer": "B) boring",
+    "explanation": "The context 'everyone fell asleep' indicates the movie was uninteresting. 'Boring' correctly describes something dull or unengaging."
+  },
+  {
+    "id": 6,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: Neither the manager nor the employees ______ aware of the new policy.\n\nChoose the correct verb form.",
+    "options": [
+      "A) was",
+      "B) were",
+      "C) is",
+      "D) are"
+    ],
+    "correct_answer": "B) were",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it ('employees' — plural). So 'were' is correct."
+  },
+  {
+    "id": 7,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The scientist made a remarkable ______ that changed the field of medicine forever.\n\nChoose the correct noun.",
+    "options": [
+      "A) discover",
+      "B) discovery",
+      "C) discovered",
+      "D) discovering"
+    ],
+    "correct_answer": "B) discovery",
+    "explanation": "'Discovery' is the noun form needed after the article 'a' and adjective 'remarkable'. Other options are verb forms."
+  },
+  {
+    "id": 8,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The old man walked ______ across the road, taking care at every step.\n\nChoose the correct adverb.",
+    "options": [
+      "A) quickly",
+      "B) carelessly",
+      "C) slowly",
+      "D) recklessly"
+    ],
+    "correct_answer": "C) slowly",
+    "explanation": "The phrase 'taking care at every step' implies caution and slow movement. 'Slowly' is consistent with the context."
+  },
+  {
+    "id": 9,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: You should ______ your homework before watching television.\n\nChoose the correct verb.",
+    "options": [
+      "A) finishing",
+      "B) finish",
+      "C) finished",
+      "D) finishes"
+    ],
+    "correct_answer": "B) finish",
+    "explanation": "After modal verbs like 'should', the base form of the verb is used. Hence 'finish' is correct."
+  },
+  {
+    "id": 10,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The team celebrated ______ victory with great enthusiasm.\n\nChoose the correct possessive pronoun.",
+    "options": [
+      "A) its",
+      "B) their",
+      "C) our",
+      "D) his"
+    ],
+    "correct_answer": "B) their",
+    "explanation": "'Team' is referred to as a group of people, so 'their' is the appropriate possessive pronoun in this context."
+  },
+  {
+    "id": 11,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: She is not only intelligent ______ also very hardworking.\n\nChoose the correct conjunction.",
+    "options": [
+      "A) and",
+      "B) but",
+      "C) or",
+      "D) yet"
+    ],
+    "correct_answer": "B) but",
+    "explanation": "'Not only...but also' is a standard correlative conjunction pair used to add emphasis. 'But' completes the pair correctly."
+  },
+  {
+    "id": 12,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The weather was ______ cold that we decided to stay indoors.\n\nChoose the correct word.",
+    "options": [
+      "A) very",
+      "B) so",
+      "C) too",
+      "D) such"
+    ],
+    "correct_answer": "B) so",
+    "explanation": "'So...that' is the correct structure to show cause and effect. 'Such...that' is used before nouns, not adjectives alone."
+  },
+  {
+    "id": 13,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The book ______ on the shelf belongs to my sister.\n\nChoose the correct verb form.",
+    "options": [
+      "A) laying",
+      "B) lying",
+      "C) lain",
+      "D) laid"
+    ],
+    "correct_answer": "B) lying",
+    "explanation": "'Lying' (from 'lie') means to be in a resting position. 'Laying' requires an object. The book is resting on the shelf, so 'lying' is correct."
+  },
+  {
+    "id": 14,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: He apologized ______ being late to the meeting.\n\nChoose the correct preposition.",
+    "options": [
+      "A) for",
+      "B) of",
+      "C) to",
+      "D) with"
+    ],
+    "correct_answer": "A) for",
+    "explanation": "'Apologize for' is the correct prepositional phrase. One apologizes 'for' a mistake or action."
+  },
+  {
+    "id": 15,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The principal announced that the school ______ be closed tomorrow due to heavy rain.\n\nChoose the correct modal verb.",
+    "options": [
+      "A) can",
+      "B) would",
+      "C) shall",
+      "D) must"
+    ],
+    "correct_answer": "B) would",
+    "explanation": "In reported speech, 'will' changes to 'would'. The announcement is indirect speech, so 'would' is appropriate."
+  },
+  {
+    "id": 16,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The ______ of the accident was investigated by the police.\n\nChoose the correct noun.",
+    "options": [
+      "A) cause",
+      "B) because",
+      "C) causal",
+      "D) causing"
+    ],
+    "correct_answer": "A) cause",
+    "explanation": "'Cause' is the noun meaning the reason or origin of something. 'Because' is a conjunction, not a noun."
+  },
+  {
+    "id": 17,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: I have never ______ such a beautiful sunset before.\n\nChoose the correct verb form.",
+    "options": [
+      "A) see",
+      "B) saw",
+      "C) seen",
+      "D) seeing"
+    ],
+    "correct_answer": "C) seen",
+    "explanation": "With 'have never', the past participle form is required. 'Seen' is the past participle of 'see'."
+  },
+  {
+    "id": 18,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The manager asked the employees to submit their reports ______ Friday.\n\nChoose the correct preposition.",
+    "options": [
+      "A) until",
+      "B) by",
+      "C) on",
+      "D) before"
+    ],
+    "correct_answer": "B) by",
+    "explanation": "'By Friday' means no later than Friday. 'Until' implies a continuous action up to a point, which doesn't fit here."
+  },
+  {
+    "id": 19,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The students were ______ to learn that their exam had been postponed.\n\nChoose the correct adjective.",
+    "options": [
+      "A) disappoint",
+      "B) disappointed",
+      "C) disappointing",
+      "D) disappointment"
+    ],
+    "correct_answer": "B) disappointed",
+    "explanation": "'Disappointed' describes the feeling of the students (subject). 'Disappointing' would describe the thing causing the feeling."
+  },
+  {
+    "id": 20,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: She speaks English ______ than her brother.\n\nChoose the correct comparative form.",
+    "options": [
+      "A) more fluent",
+      "B) most fluently",
+      "C) more fluently",
+      "D) fluenter"
+    ],
+    "correct_answer": "C) more fluently",
+    "explanation": "'Fluently' is an adverb, and its comparative form is 'more fluently'. Adverbs ending in '-ly' use 'more' for comparison."
+  },
+  {
+    "id": 21,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The company decided to ______ its operations to three new cities.\n\nChoose the correct verb.",
+    "options": [
+      "A) expand",
+      "B) expend",
+      "C) expense",
+      "D) expansion"
+    ],
+    "correct_answer": "A) expand",
+    "explanation": "'Expand' means to increase in size or scope. 'Expend' means to use up resources. Context requires 'expand'."
+  },
+  {
+    "id": 22,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: ______ he was tired, he continued to work until midnight.\n\nChoose the correct conjunction.",
+    "options": [
+      "A) Because",
+      "B) Although",
+      "C) Since",
+      "D) So"
+    ],
+    "correct_answer": "B) Although",
+    "explanation": "'Although' introduces a contrast — being tired vs. continuing to work. It shows concession, which fits the sentence."
+  },
+  {
+    "id": 23,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The new employee was eager to ______ a good impression on her first day.\n\nChoose the correct verb.",
+    "options": [
+      "A) do",
+      "B) make",
+      "C) give",
+      "D) take"
+    ],
+    "correct_answer": "B) make",
+    "explanation": "'Make an impression' is the correct collocation. We 'make' an impression, not 'do' or 'give' one."
+  },
+  {
+    "id": 24,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The train arrives ______ platform number 4 at 9 AM.\n\nChoose the correct preposition.",
+    "options": [
+      "A) in",
+      "B) on",
+      "C) at",
+      "D) by"
+    ],
+    "correct_answer": "C) at",
+    "explanation": "'At' is used with specific locations like platforms, stations, and stops. 'Arrives at platform 4' is the correct usage."
+  },
+  {
+    "id": 25,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The doctor advised him to take ______ rest after the surgery.\n\nChoose the correct adjective.",
+    "options": [
+      "A) complete",
+      "B) completely",
+      "C) completion",
+      "D) completing"
+    ],
+    "correct_answer": "A) complete",
+    "explanation": "'Complete' is the adjective that modifies the noun 'rest'. 'Completely' is an adverb and cannot directly modify a noun."
+  },
+  {
+    "id": 26,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The government has taken several steps to ______ pollution in the city.\n\nChoose the correct verb.",
+    "options": [
+      "A) increase",
+      "B) reduce",
+      "C) produce",
+      "D) ignore"
+    ],
+    "correct_answer": "B) reduce",
+    "explanation": "Governments typically take steps to 'reduce' pollution, not increase or produce it. Context demands a positive action word."
+  },
+  {
+    "id": 27,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: He was ______ of the fact that his wallet had been stolen.\n\nChoose the correct adjective.",
+    "options": [
+      "A) unaware",
+      "B) aware",
+      "C) careful",
+      "D) conscious"
+    ],
+    "correct_answer": "A) unaware",
+    "explanation": "If he didn't know his wallet was stolen, he was 'unaware'. 'Aware' would mean he knew, which contradicts the implied surprise."
+  },
+  {
+    "id": 28,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The results of the experiment were ______ to the scientists.\n\nChoose the correct adjective.",
+    "options": [
+      "A) surprise",
+      "B) surprising",
+      "C) surprised",
+      "D) surprisingly"
+    ],
+    "correct_answer": "B) surprising",
+    "explanation": "'Surprising' describes the results (the thing causing the feeling). 'Surprised' would describe the scientists (the ones feeling it)."
+  },
+  {
+    "id": 29,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The athlete trained hard every day ______ win the championship.\n\nChoose the correct infinitive phrase.",
+    "options": [
+      "A) so as to",
+      "B) in order",
+      "C) for to",
+      "D) so that to"
+    ],
+    "correct_answer": "A) so as to",
+    "explanation": "'So as to' is a correct infinitive phrase expressing purpose. 'In order to' is also correct but not listed. 'For to' is grammatically wrong."
+  },
+  {
+    "id": 30,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The library ______ at 8 AM and closes at 9 PM on weekdays.\n\nChoose the correct verb form.",
+    "options": [
+      "A) open",
+      "B) opens",
+      "C) opened",
+      "D) opening"
+    ],
+    "correct_answer": "B) opens",
+    "explanation": "The sentence describes a routine/fact (simple present tense). 'The library' is third-person singular, so 'opens' is correct."
+  },
+  {
+    "id": 31,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The cake smells ______; I can't wait to eat it.\n\nChoose the correct adjective.",
+    "options": [
+      "A) deliciously",
+      "B) delicious",
+      "C) delight",
+      "D) delighted"
+    ],
+    "correct_answer": "B) delicious",
+    "explanation": "After linking verbs like 'smells', an adjective (not adverb) is used. 'Delicious' correctly describes the cake."
+  },
+  {
+    "id": 32,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: We must ______ our natural resources for future generations.\n\nChoose the correct verb.",
+    "options": [
+      "A) waste",
+      "B) conserve",
+      "C) destroy",
+      "D) exhaust"
+    ],
+    "correct_answer": "B) conserve",
+    "explanation": "'Conserve' means to protect and preserve resources. The phrase 'for future generations' implies preservation, not destruction."
+  },
+  {
+    "id": 33,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The patient was ______ from the hospital after a week of treatment.\n\nChoose the correct verb.",
+    "options": [
+      "A) dismissed",
+      "B) discharged",
+      "C) released",
+      "D) expelled"
+    ],
+    "correct_answer": "B) discharged",
+    "explanation": "'Discharged' is the standard medical term for a patient being released from hospital care. 'Released' is informal; 'dismissed' and 'expelled' are inappropriate."
+  },
+  {
+    "id": 34,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The ______ of the speech was to motivate the young graduates.\n\nChoose the correct noun.",
+    "options": [
+      "A) purpose",
+      "B) propose",
+      "C) purposely",
+      "D) purposeful"
+    ],
+    "correct_answer": "A) purpose",
+    "explanation": "'Purpose' is the noun meaning aim or intention. The sentence requires a noun after the article 'The'."
+  },
+  {
+    "id": 35,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: She has a ______ for painting and spends hours in her studio.\n\nChoose the correct noun.",
+    "options": [
+      "A) passion",
+      "B) passionate",
+      "C) passionately",
+      "D) passioned"
+    ],
+    "correct_answer": "A) passion",
+    "explanation": "'Passion' is the noun needed after the article 'a'. 'Passionate' is an adjective and cannot follow 'a' directly before 'for'."
+  },
+  {
+    "id": 36,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The two countries signed a peace ______ after years of conflict.\n\nChoose the correct noun.",
+    "options": [
+      "A) treaty",
+      "B) treat",
+      "C) treatment",
+      "D) treachery"
+    ],
+    "correct_answer": "A) treaty",
+    "explanation": "A 'treaty' is a formal agreement between countries. 'Treat' and 'treatment' have different meanings; 'treachery' means betrayal."
+  },
+  {
+    "id": 37,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The child was ______ by the colorful butterflies in the garden.\n\nChoose the correct adjective.",
+    "options": [
+      "A) fascinate",
+      "B) fascinated",
+      "C) fascinating",
+      "D) fascination"
+    ],
+    "correct_answer": "B) fascinated",
+    "explanation": "'Fascinated' describes the child's feeling (subject experiencing the emotion). 'Fascinating' would describe the butterflies."
+  },
+  {
+    "id": 38,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The professor gave a ______ lecture on quantum physics.\n\nChoose the correct adjective.",
+    "options": [
+      "A) bored",
+      "B) bore",
+      "C) boring",
+      "D) boredom"
+    ],
+    "correct_answer": "C) boring",
+    "explanation": "'Boring' is the adjective that describes the lecture (the thing causing boredom). 'Bored' describes the person feeling bored."
+  },
+  {
+    "id": 39,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The new smartphone model is ______ than the previous one.\n\nChoose the correct comparative adjective.",
+    "options": [
+      "A) more light",
+      "B) lighter",
+      "C) lightest",
+      "D) most light"
+    ],
+    "correct_answer": "B) lighter",
+    "explanation": "'Light' is a one-syllable adjective, so its comparative form is 'lighter' (add -er), not 'more light'."
+  },
+  {
+    "id": 40,
+    "topic": "Cloze Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fill in the blank: The volunteers worked ______ to clean up the beach after the storm.\n\nChoose the correct adverb.",
+    "options": [
+      "A) tirelessly",
+      "B) tireless",
+      "C) tire",
+      "D) tired"
+    ],
+    "correct_answer": "A) tirelessly",
+    "explanation": "'Tirelessly' is the adverb form that modifies the verb 'worked'. Adverbs modify verbs, and 'tirelessly' means without getting tired."
+  },
+  {
+    "id": 41,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Read the passage and fill in the blank:\nIn recent years, the government has made significant ______ in the field of digital infrastructure, connecting millions of rural households to high-speed internet.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) setbacks",
+      "B) strides",
+      "C) retreats",
+      "D) failures"
+    ],
+    "correct_answer": "B) strides",
+    "explanation": "'Strides' means significant progress or advances. The context of connecting millions of households implies positive achievement, making 'strides' the best fit."
+  },
+  {
+    "id": 42,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe committee was ______ to reach a consensus because members held vastly different opinions on the matter.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) eager",
+      "B) reluctant",
+      "C) unable",
+      "D) quick"
+    ],
+    "correct_answer": "C) unable",
+    "explanation": "'Unable' correctly conveys that the committee could not reach consensus due to differing opinions. 'Reluctant' implies unwillingness, not inability."
+  },
+  {
+    "id": 43,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe new policy aims to ______ the gap between urban and rural healthcare facilities.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) widen",
+      "B) bridge",
+      "C) create",
+      "D) ignore"
+    ],
+    "correct_answer": "B) bridge",
+    "explanation": "'Bridge the gap' is a standard idiom meaning to reduce the difference between two things. The policy aims to reduce disparity, not widen it."
+  },
+  {
+    "id": 44,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nDespite the economic slowdown, the company managed to ______ its market share by introducing innovative products.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) lose",
+      "B) retain",
+      "C) abandon",
+      "D) surrender"
+    ],
+    "correct_answer": "B) retain",
+    "explanation": "'Retain' means to keep or maintain. Despite adversity, the company kept its market share. 'Lose' and 'abandon' are opposite in meaning."
+  },
+  {
+    "id": 45,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe judge's verdict was ______ by the higher court after new evidence came to light.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) upheld",
+      "B) overturned",
+      "C) confirmed",
+      "D) praised"
+    ],
+    "correct_answer": "B) overturned",
+    "explanation": "'Overturned' means reversed or annulled. New evidence typically leads to a reversal of a previous verdict, making 'overturned' contextually correct."
+  },
+  {
+    "id": 46,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe minister's speech was ______ with references to historical achievements of the nation.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) devoid",
+      "B) replete",
+      "C) empty",
+      "D) lacking"
+    ],
+    "correct_answer": "B) replete",
+    "explanation": "'Replete' means filled or well-supplied with something. The speech was full of historical references. 'Devoid' means completely lacking."
+  },
+  {
+    "id": 47,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe ______ of the ancient manuscript revealed secrets about a lost civilization.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) destruction",
+      "B) deciphering",
+      "C) burning",
+      "D) hiding"
+    ],
+    "correct_answer": "B) deciphering",
+    "explanation": "'Deciphering' means decoding or interpreting something difficult to understand. It is the logical action that would reveal secrets from a manuscript."
+  },
+  {
+    "id": 48,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe farmers were ______ about the new irrigation scheme as it promised to double their crop yield.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) pessimistic",
+      "B) indifferent",
+      "C) optimistic",
+      "D) skeptical"
+    ],
+    "correct_answer": "C) optimistic",
+    "explanation": "The promise of doubling crop yield is a positive development, so farmers would be 'optimistic' (hopeful). 'Skeptical' implies doubt."
+  },
+  {
+    "id": 49,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe ______ of the new tax reform was felt across all sectors of the economy.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) impact",
+      "B) impacted",
+      "C) impacting",
+      "D) impactful"
+    ],
+    "correct_answer": "A) impact",
+    "explanation": "'Impact' is the noun needed after the article 'The'. The sentence describes the effect of the tax reform on the economy."
+  },
+  {
+    "id": 50,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe scientist's theory was initially met with ______, but later experiments proved it correct.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) acclaim",
+      "B) skepticism",
+      "C) celebration",
+      "D) acceptance"
+    ],
+    "correct_answer": "B) skepticism",
+    "explanation": "'Skepticism' means doubt or disbelief. The contrast with 'later experiments proved it correct' implies initial doubt, making 'skepticism' correct."
+  },
+  {
+    "id": 51,
+    "topic": "Cloze Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Fill in the blank:\nThe government's initiative to plant trees was ______ by environmental groups across the country.\n\nChoose the most appropriate word.",
+    "options": [
+      "A) condemned",
+      "B) applauded",
+      "C) criticized",
+      "D) ignored"
+    ],
+    "correct_answer": "B) applauded",
+    "explanation": "Environmental groups would support tree-planting initiatives. 'Applauded' means praised or appreciated, which fits the positive context."
+  }
+]

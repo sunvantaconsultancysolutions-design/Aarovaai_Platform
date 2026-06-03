@@ -1,0 +1,559 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does SQL stand for?",
+    "options": ["A) Structured Query Language", "B) Simple Query Language", "C) Standard Query Logic", "D) Structured Question Language"],
+    "correct_answer": "A) Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language. It is used to communicate with and manipulate relational databases."
+  },
+  {
+    "id": 2,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to retrieve data from a database?",
+    "options": ["A) GET", "B) SELECT", "C) FETCH", "D) RETRIEVE"],
+    "correct_answer": "B) SELECT",
+    "explanation": "The SELECT statement is used to query and retrieve data from one or more tables in a database."
+  },
+  {
+    "id": 3,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to filter records based on a condition?",
+    "options": ["A) HAVING", "B) ORDER BY", "C) WHERE", "D) GROUP BY"],
+    "correct_answer": "C) WHERE",
+    "explanation": "The WHERE clause filters records that meet a specified condition. HAVING is used with GROUP BY for aggregate conditions."
+  },
+  {
+    "id": 4,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to insert new records into a table?",
+    "options": ["A) ADD", "B) INSERT INTO", "C) PUT", "D) APPEND"],
+    "correct_answer": "B) INSERT INTO",
+    "explanation": "INSERT INTO is the SQL command used to add new rows/records into a database table."
+  },
+  {
+    "id": 5,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to modify existing records in a table?",
+    "options": ["A) MODIFY", "B) CHANGE", "C) UPDATE", "D) ALTER"],
+    "correct_answer": "C) UPDATE",
+    "explanation": "The UPDATE statement is used to modify existing records in a table. ALTER is used to modify table structure."
+  },
+  {
+    "id": 6,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command removes records from a table?",
+    "options": ["A) REMOVE", "B) DROP", "C) TRUNCATE", "D) DELETE"],
+    "correct_answer": "D) DELETE",
+    "explanation": "DELETE removes specific rows from a table based on a condition. DROP removes the entire table structure."
+  },
+  {
+    "id": 7,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command creates a new table in a database?",
+    "options": ["A) MAKE TABLE", "B) CREATE TABLE", "C) NEW TABLE", "D) BUILD TABLE"],
+    "correct_answer": "B) CREATE TABLE",
+    "explanation": "CREATE TABLE is the DDL command used to define and create a new table in a relational database."
+  },
+  {
+    "id": 8,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct SQL syntax to select all columns from a table named 'Employees'?",
+    "options": ["A) SELECT Employees.*", "B) SELECT ALL FROM Employees", "C) SELECT * FROM Employees", "D) GET * FROM Employees"],
+    "correct_answer": "C) SELECT * FROM Employees",
+    "explanation": "SELECT * FROM TableName retrieves all columns from the specified table. The asterisk (*) is a wildcard for all columns."
+  },
+  {
+    "id": 9,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to sort the result set in ascending or descending order?",
+    "options": ["A) SORT BY", "B) ORDER BY", "C) ARRANGE BY", "D) GROUP BY"],
+    "correct_answer": "B) ORDER BY",
+    "explanation": "ORDER BY sorts the result set. By default it sorts in ascending order; use DESC for descending order."
+  },
+  {
+    "id": 10,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword eliminates duplicate values in the result set?",
+    "options": ["A) UNIQUE", "B) DISTINCT", "C) DIFFERENT", "D) EXCLUSIVE"],
+    "correct_answer": "B) DISTINCT",
+    "explanation": "SELECT DISTINCT returns only unique values, removing duplicate rows from the query result."
+  },
+  {
+    "id": 11,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DDL (Data Definition Language) command?",
+    "options": ["A) SELECT", "B) INSERT", "C) CREATE", "D) UPDATE"],
+    "correct_answer": "C) CREATE",
+    "explanation": "DDL commands define database structure: CREATE, ALTER, DROP, TRUNCATE. DML commands manipulate data: SELECT, INSERT, UPDATE, DELETE."
+  },
+  {
+    "id": 12,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DML (Data Manipulation Language) command?",
+    "options": ["A) CREATE", "B) DROP", "C) ALTER", "D) INSERT"],
+    "correct_answer": "D) INSERT",
+    "explanation": "DML commands manipulate data within tables: INSERT, UPDATE, DELETE, SELECT. DDL commands define structure."
+  },
+  {
+    "id": 13,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the COUNT() function return in SQL?",
+    "options": ["A) Sum of values", "B) Number of rows", "C) Average of values", "D) Maximum value"],
+    "correct_answer": "B) Number of rows",
+    "explanation": "COUNT() is an aggregate function that returns the number of rows matching the specified criteria."
+  },
+  {
+    "id": 14,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the largest value in a column?",
+    "options": ["A) LARGEST()", "B) TOP()", "C) MAX()", "D) GREATEST()"],
+    "correct_answer": "C) MAX()",
+    "explanation": "MAX() is an aggregate function that returns the maximum (largest) value in a specified column."
+  },
+  {
+    "id": 15,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function calculates the average value of a numeric column?",
+    "options": ["A) MEAN()", "B) AVG()", "C) AVERAGE()", "D) MID()"],
+    "correct_answer": "B) AVG()",
+    "explanation": "AVG() is an aggregate function that computes the arithmetic mean of all non-NULL values in a column."
+  },
+  {
+    "id": 16,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used with aggregate functions to group rows sharing a common value?",
+    "options": ["A) ORDER BY", "B) WHERE", "C) GROUP BY", "D) HAVING"],
+    "correct_answer": "C) GROUP BY",
+    "explanation": "GROUP BY groups rows with the same values in specified columns, typically used with aggregate functions like COUNT, SUM, AVG."
+  },
+  {
+    "id": 17,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to remove an entire table from the database?",
+    "options": ["A) DELETE TABLE", "B) REMOVE TABLE", "C) DROP TABLE", "D) ERASE TABLE"],
+    "correct_answer": "C) DROP TABLE",
+    "explanation": "DROP TABLE permanently removes the table structure and all its data from the database."
+  },
+  {
+    "id": 18,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the PRIMARY KEY constraint in SQL?",
+    "options": ["A) Allows duplicate values", "B) Uniquely identifies each row", "C) Links two tables", "D) Prevents NULL values only"],
+    "correct_answer": "B) Uniquely identifies each row",
+    "explanation": "PRIMARY KEY uniquely identifies each record in a table. It must contain UNIQUE values and cannot contain NULL values."
+  },
+  {
+    "id": 19,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL constraint ensures that a column cannot have NULL values?",
+    "options": ["A) UNIQUE", "B) PRIMARY KEY", "C) NOT NULL", "D) CHECK"],
+    "correct_answer": "C) NOT NULL",
+    "explanation": "NOT NULL constraint enforces that a column must always contain a value and cannot be left empty (NULL)."
+  },
+  {
+    "id": 20,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL operator is used to search for a pattern in a column?",
+    "options": ["A) MATCH", "B) LIKE", "C) SIMILAR", "D) CONTAINS"],
+    "correct_answer": "B) LIKE",
+    "explanation": "The LIKE operator is used in a WHERE clause to search for a specified pattern using wildcards % (any characters) and _ (single character)."
+  },
+  {
+    "id": 21,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the wildcard '%' represent in SQL LIKE operator?",
+    "options": ["A) Exactly one character", "B) Zero or more characters", "C) Only alphabets", "D) Only digits"],
+    "correct_answer": "B) Zero or more characters",
+    "explanation": "The % wildcard in LIKE matches zero or more characters. For example, 'A%' matches any string starting with 'A'."
+  },
+  {
+    "id": 22,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the total sum of a numeric column?",
+    "options": ["A) TOTAL()", "B) ADD()", "C) SUM()", "D) PLUS()"],
+    "correct_answer": "C) SUM()",
+    "explanation": "SUM() is an aggregate function that returns the total sum of all non-NULL values in a specified numeric column."
+  },
+  {
+    "id": 23,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to combine the result sets of two SELECT statements, removing duplicates?",
+    "options": ["A) JOIN", "B) MERGE", "C) UNION", "D) COMBINE"],
+    "correct_answer": "C) UNION",
+    "explanation": "UNION combines results of two SELECT statements and removes duplicate rows. UNION ALL keeps duplicates."
+  },
+  {
+    "id": 24,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to change the structure of an existing table?",
+    "options": ["A) MODIFY", "B) CHANGE", "C) UPDATE", "D) ALTER TABLE"],
+    "correct_answer": "D) ALTER TABLE",
+    "explanation": "ALTER TABLE is a DDL command used to add, delete, or modify columns in an existing table."
+  },
+  {
+    "id": 25,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct SQL syntax to add a new column 'Age' of type INT to a table 'Students'?",
+    "options": ["A) ALTER TABLE Students ADD Age INT", "B) UPDATE TABLE Students ADD COLUMN Age INT", "C) MODIFY TABLE Students ADD Age INT", "D) INSERT COLUMN Age INT INTO Students"],
+    "correct_answer": "A) ALTER TABLE Students ADD Age INT",
+    "explanation": "ALTER TABLE with ADD clause adds a new column. Syntax: ALTER TABLE tablename ADD columnname datatype."
+  },
+  {
+    "id": 26,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause filters groups after the GROUP BY clause?",
+    "options": ["A) WHERE", "B) FILTER", "C) HAVING", "D) CONDITION"],
+    "correct_answer": "C) HAVING",
+    "explanation": "HAVING filters groups created by GROUP BY. WHERE filters individual rows before grouping; HAVING filters after grouping."
+  },
+  {
+    "id": 27,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL data type is used to store variable-length character strings?",
+    "options": ["A) CHAR", "B) VARCHAR", "C) TEXT", "D) STRING"],
+    "correct_answer": "B) VARCHAR",
+    "explanation": "VARCHAR stores variable-length strings up to a specified maximum. CHAR stores fixed-length strings, padding with spaces if needed."
+  },
+  {
+    "id": 28,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does NULL represent in SQL?",
+    "options": ["A) Zero value", "B) Empty string", "C) Missing or unknown value", "D) False value"],
+    "correct_answer": "C) Missing or unknown value",
+    "explanation": "NULL in SQL represents a missing, unknown, or inapplicable value. It is not the same as zero or an empty string."
+  },
+  {
+    "id": 29,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator is used to check for NULL values in SQL?",
+    "options": ["A) = NULL", "B) IS NULL", "C) == NULL", "D) EQUALS NULL"],
+    "correct_answer": "B) IS NULL",
+    "explanation": "IS NULL is used to check if a value is NULL. You cannot use = NULL because NULL is not equal to anything, including itself."
+  },
+  {
+    "id": 30,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command removes all rows from a table but keeps the table structure?",
+    "options": ["A) DELETE", "B) DROP", "C) TRUNCATE", "D) REMOVE"],
+    "correct_answer": "C) TRUNCATE",
+    "explanation": "TRUNCATE removes all rows from a table quickly without logging individual row deletions, but preserves the table structure."
+  },
+  {
+    "id": 31,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to give a table or column a temporary alias?",
+    "options": ["A) RENAME", "B) AS", "C) ALIAS", "D) NAME"],
+    "correct_answer": "B) AS",
+    "explanation": "The AS keyword assigns an alias (temporary name) to a table or column in a query for readability."
+  },
+  {
+    "id": 32,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL constraint ensures all values in a column are unique?",
+    "options": ["A) NOT NULL", "B) PRIMARY KEY", "C) UNIQUE", "D) DISTINCT"],
+    "correct_answer": "C) UNIQUE",
+    "explanation": "UNIQUE constraint ensures all values in a column are different. Unlike PRIMARY KEY, UNIQUE allows one NULL value."
+  },
+  {
+    "id": 33,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default sort order of ORDER BY in SQL?",
+    "options": ["A) Descending", "B) Ascending", "C) Random", "D) Alphabetical only"],
+    "correct_answer": "B) Ascending",
+    "explanation": "ORDER BY sorts in ascending (ASC) order by default. Use DESC keyword explicitly for descending order."
+  },
+  {
+    "id": 34,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL operator selects values within a given range?",
+    "options": ["A) IN", "B) BETWEEN", "C) RANGE", "D) WITHIN"],
+    "correct_answer": "B) BETWEEN",
+    "explanation": "BETWEEN selects values within a range (inclusive). Example: WHERE age BETWEEN 20 AND 30 includes both 20 and 30."
+  },
+  {
+    "id": 35,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL operator allows you to specify multiple values in a WHERE clause?",
+    "options": ["A) ANY", "B) BETWEEN", "C) IN", "D) LIKE"],
+    "correct_answer": "C) IN",
+    "explanation": "IN operator allows specifying multiple values in a WHERE clause. It is shorthand for multiple OR conditions."
+  },
+  {
+    "id": 36,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the smallest value in a column?",
+    "options": ["A) SMALL()", "B) LEAST()", "C) MIN()", "D) BOTTOM()"],
+    "correct_answer": "C) MIN()",
+    "explanation": "MIN() is an aggregate function that returns the minimum (smallest) value in a specified column."
+  },
+  {
+    "id": 37,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of JOIN returns all rows from both tables, with NULLs where there is no match?",
+    "options": ["A) INNER JOIN", "B) LEFT JOIN", "C) RIGHT JOIN", "D) FULL OUTER JOIN"],
+    "correct_answer": "D) FULL OUTER JOIN",
+    "explanation": "FULL OUTER JOIN returns all rows from both tables. Where there is no match, NULL values are returned for missing side."
+  },
+  {
+    "id": 38,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL JOIN returns only the rows that have matching values in both tables?",
+    "options": ["A) LEFT JOIN", "B) RIGHT JOIN", "C) INNER JOIN", "D) FULL JOIN"],
+    "correct_answer": "C) INNER JOIN",
+    "explanation": "INNER JOIN returns only the rows where there is a match in both tables based on the join condition."
+  },
+  {
+    "id": 39,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL constraint links a column in one table to the primary key of another table?",
+    "options": ["A) UNIQUE KEY", "B) FOREIGN KEY", "C) REFERENCE KEY", "D) LINK KEY"],
+    "correct_answer": "B) FOREIGN KEY",
+    "explanation": "FOREIGN KEY creates a referential link between two tables, pointing to the PRIMARY KEY of another table."
+  },
+  {
+    "id": 40,
+    "topic": "Introduction to SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to create a virtual table based on a SELECT query?",
+    "options": ["A) CREATE TABLE", "B) CREATE VIEW", "C) CREATE INDEX", "D) CREATE PROCEDURE"],
+    "correct_answer": "B) CREATE VIEW",
+    "explanation": "CREATE VIEW creates a virtual table (view) based on a SELECT statement. It does not store data physically."
+  },
+  {
+    "id": 41,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a table 'Orders' with columns OrderID, CustomerID, Amount. What will the following query return? SELECT CustomerID, COUNT(*) FROM Orders GROUP BY CustomerID HAVING COUNT(*) > 2;",
+    "options": ["A) All customers with their order counts", "B) Customers who have placed more than 2 orders", "C) Customers with exactly 2 orders", "D) All orders grouped by customer"],
+    "correct_answer": "B) Customers who have placed more than 2 orders",
+    "explanation": "GROUP BY groups orders by CustomerID, COUNT(*) counts orders per customer, HAVING COUNT(*) > 2 filters only those with more than 2 orders."
+  },
+  {
+    "id": 42,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between DELETE and TRUNCATE in SQL?",
+    "options": ["A) No difference", "B) DELETE is DDL, TRUNCATE is DML", "C) DELETE can use WHERE clause, TRUNCATE cannot", "D) TRUNCATE logs each row deletion"],
+    "correct_answer": "C) DELETE can use WHERE clause, TRUNCATE cannot",
+    "explanation": "DELETE is DML and can filter rows with WHERE. TRUNCATE is DDL, removes all rows at once, cannot use WHERE, and is faster."
+  },
+  {
+    "id": 43,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following queries correctly finds the second highest salary from an 'Employees' table?",
+    "options": ["A) SELECT MAX(Salary) FROM Employees WHERE Salary < MAX(Salary)", "B) SELECT MAX(Salary) FROM Employees WHERE Salary NOT IN (SELECT MAX(Salary) FROM Employees)", "C) SELECT SECOND(Salary) FROM Employees", "D) SELECT TOP 2 Salary FROM Employees ORDER BY Salary"],
+    "correct_answer": "B) SELECT MAX(Salary) FROM Employees WHERE Salary NOT IN (SELECT MAX(Salary) FROM Employees)",
+    "explanation": "This subquery first finds the maximum salary, then finds the maximum salary excluding the highest, giving the second highest."
+  },
+  {
+    "id": 44,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output of: SELECT 5 + NULL in SQL?",
+    "options": ["A) 5", "B) NULL", "C) 0", "D) Error"],
+    "correct_answer": "B) NULL",
+    "explanation": "Any arithmetic operation with NULL results in NULL. NULL represents an unknown value, so 5 + unknown = unknown (NULL)."
+  },
+  {
+    "id": 45,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In SQL, what is a subquery?",
+    "options": ["A) A query that joins two tables", "B) A query nested inside another query", "C) A query that uses aggregate functions", "D) A stored procedure"],
+    "correct_answer": "B) A query nested inside another query",
+    "explanation": "A subquery (inner query) is a SELECT statement embedded within another SQL statement. It executes first and passes results to the outer query."
+  },
+  {
+    "id": 46,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which SQL function is used to replace NULL values with a specified value?",
+    "options": ["A) ISNULL()", "B) NULLIF()", "C) COALESCE()", "D) REPLACE()"],
+    "correct_answer": "C) COALESCE()",
+    "explanation": "COALESCE() returns the first non-NULL value in a list. ISNULL() is SQL Server specific. COALESCE is ANSI standard."
+  },
+  {
+    "id": 47,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the correct order of SQL clauses in a SELECT statement?",
+    "options": ["A) SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY", "B) SELECT, WHERE, FROM, GROUP BY, ORDER BY, HAVING", "C) FROM, SELECT, WHERE, GROUP BY, HAVING, ORDER BY", "D) SELECT, FROM, HAVING, WHERE, GROUP BY, ORDER BY"],
+    "correct_answer": "A) SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY",
+    "explanation": "Standard SQL clause order: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY. This is the syntax order."
+  },
+  {
+    "id": 48,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the logical execution order of SQL clauses?",
+    "options": ["A) SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY", "B) FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY", "C) FROM, SELECT, WHERE, GROUP BY, HAVING, ORDER BY", "D) WHERE, FROM, GROUP BY, SELECT, HAVING, ORDER BY"],
+    "correct_answer": "B) FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY",
+    "explanation": "SQL logical execution: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY. This differs from the written syntax order."
+  },
+  {
+    "id": 49,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which type of JOIN returns all rows from the left table and matching rows from the right table?",
+    "options": ["A) INNER JOIN", "B) RIGHT JOIN", "C) LEFT JOIN", "D) CROSS JOIN"],
+    "correct_answer": "C) LEFT JOIN",
+    "explanation": "LEFT JOIN (LEFT OUTER JOIN) returns all rows from the left table and matched rows from the right. Unmatched right rows show NULL."
+  },
+  {
+    "id": 50,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a CROSS JOIN in SQL?",
+    "options": ["A) Joins tables on a common column", "B) Returns Cartesian product of two tables", "C) Returns only non-matching rows", "D) Joins a table with itself"],
+    "correct_answer": "B) Returns Cartesian product of two tables",
+    "explanation": "CROSS JOIN returns the Cartesian product — every row from the first table combined with every row from the second table."
+  },
+  {
+    "id": 51,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If Table A has 4 rows and Table B has 5 rows, how many rows will a CROSS JOIN produce?",
+    "options": ["A) 9", "B) 4", "C) 5", "D) 20"],
+    "correct_answer": "D) 20",
+    "explanation": "CROSS JOIN produces Cartesian product: 4 × 5 = 20 rows. Every row from A is combined with every row from B."
+  },
+  {
+    "id": 52,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a SELF JOIN in SQL?",
+    "options": ["A) A join between two different tables", "B) A join of a table with itself", "C) A join that returns all rows", "D) A join using subquery"],
+    "correct_answer": "B) A join of a table with itself",
+    "explanation": "A SELF JOIN joins a table to itself using aliases. It is useful for hierarchical data like employee-manager relationships."
+  },
+  {
+    "id": 53,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which SQL statement is used to create an index on a table?",
+    "options": ["A) MAKE INDEX idx ON table(col)", "B) CREATE INDEX idx ON table(col)", "C) ADD INDEX idx ON table(col)", "D) BUILD INDEX idx ON table(col)"],
+    "correct_answer": "B) CREATE INDEX idx ON table(col)",
+    "explanation": "CREATE INDEX creates an index to speed up data retrieval. Syntax: CREATE INDEX index_name ON table_name(column_name)."
+  },
+  {
+    "id": 54,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of an index in SQL?",
+    "options": ["A) To enforce data integrity", "B) To speed up data retrieval", "C) To store backup data", "D) To link two tables"],
+    "correct_answer": "B) To speed up data retrieval",
+    "explanation": "Indexes improve query performance by allowing the database engine to find rows faster without scanning the entire table."
+  },
+  {
+    "id": 55,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does the UNION ALL operator do differently from UNION?",
+    "options": ["A) Removes duplicates", "B) Keeps duplicate rows", "C) Joins tables", "D) Sorts the result"],
+    "correct_answer": "B) Keeps duplicate rows",
+    "explanation": "UNION removes duplicate rows from combined results. UNION ALL includes all rows including duplicates, making it faster."
+  },
+  {
+    "id": 56,
+    "topic": "Introduction to SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which SQL function converts a string to uppercase?",
+    "options": ["A) UPPER()", "B)

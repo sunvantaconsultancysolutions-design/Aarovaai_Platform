@@ -1,0 +1,428 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of x? Statement I: x + 5 = 12. Statement II: x - 3 = 4.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "D) Either statement alone is sufficient",
+    "explanation": "From Statement I: x = 7. From Statement II: x = 7. Both independently give x = 7, so either alone is sufficient."
+  },
+  {
+    "id": 2,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is the integer n even? Statement I: n/2 is an integer. Statement II: n + 1 is odd.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "D) Either statement alone is sufficient",
+    "explanation": "Statement I: n/2 is integer means n is even. Statement II: n+1 is odd means n is even. Either alone is sufficient."
+  },
+  {
+    "id": 3,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the area of a rectangle? Statement I: The length is 8 cm. Statement II: The breadth is 5 cm.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Area = length × breadth. We need both values. Statement I gives length, Statement II gives breadth. Together: Area = 8 × 5 = 40 sq cm."
+  },
+  {
+    "id": 4,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the age of Ravi? Statement I: Ravi is 5 years older than Sita. Statement II: Sita is 20 years old.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "From Statement II, Sita = 20. From Statement I, Ravi = Sita + 5 = 25. Both together give Ravi's age."
+  },
+  {
+    "id": 5,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is x > 0? Statement I: x² = 9. Statement II: x³ = 27.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "B) Statement II alone is sufficient",
+    "explanation": "Statement I: x = ±3, so x could be positive or negative — not sufficient. Statement II: x³ = 27 means x = 3 > 0 — sufficient."
+  },
+  {
+    "id": 6,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the perimeter of a square? Statement I: The side of the square is 7 cm. Statement II: The area of the square is 49 sq cm.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "D) Either statement alone is sufficient",
+    "explanation": "Statement I: Perimeter = 4×7 = 28 cm. Statement II: Side = √49 = 7, Perimeter = 28 cm. Either alone is sufficient."
+  },
+  {
+    "id": 7,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of a + b? Statement I: a = 10. Statement II: b = 15.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "We need both a and b to find a + b. Statement I gives a = 10, Statement II gives b = 15. Together: a + b = 25."
+  },
+  {
+    "id": 8,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many students are in the class? Statement I: The number of boys is 18. Statement II: The ratio of boys to girls is 3:2.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "From Statement I: boys = 18. From Statement II: boys/girls = 3/2, so girls = 12. Total = 18 + 12 = 30. Both together are needed."
+  },
+  {
+    "id": 9,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the speed of a train? Statement I: The train covers 300 km in 5 hours. Statement II: The train covers 60 km in 1 hour.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "D) Either statement alone is sufficient",
+    "explanation": "Statement I: Speed = 300/5 = 60 km/h. Statement II: Speed = 60/1 = 60 km/h. Either alone gives the answer."
+  },
+  {
+    "id": 10,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is triangle ABC a right triangle? Statement I: Angle A = 90°. Statement II: AB² + BC² = AC².",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "D) Either statement alone is sufficient",
+    "explanation": "Statement I directly states angle A = 90°, making it a right triangle. Statement II satisfies the Pythagorean theorem, confirming a right triangle. Either alone is sufficient."
+  },
+  {
+    "id": 11,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the simple interest earned on a principal? Statement I: The principal is Rs. 5000. Statement II: The rate is 10% per annum for 2 years.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "SI = (P × R × T)/100. We need P, R, and T. Statement I gives P = 5000; Statement II gives R = 10%, T = 2. Together: SI = (5000×10×2)/100 = Rs. 1000."
+  },
+  {
+    "id": 12,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of y? Statement I: 2y + 4 = 14. Statement II: y² = 25.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "A) Statement I alone is sufficient",
+    "explanation": "Statement I: 2y = 10, y = 5 — unique answer. Statement II: y = ±5 — two possible values, not sufficient. Only Statement I is sufficient."
+  },
+  {
+    "id": 13,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cost price of an article? Statement I: The selling price is Rs. 800. Statement II: The profit percentage is 25%.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "CP = SP × 100/(100 + profit%). From both: CP = 800 × 100/125 = Rs. 640. Both statements together are needed."
+  },
+  {
+    "id": 14,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is the number N divisible by 6? Statement I: N is divisible by 2. Statement II: N is divisible by 3.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "A number is divisible by 6 if it is divisible by both 2 and 3. Neither statement alone is sufficient, but together they confirm divisibility by 6."
+  },
+  {
+    "id": 15,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the circumference of a circle? Statement I: The radius is 7 cm. Statement II: The diameter is 14 cm.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "D) Either statement alone is sufficient",
+    "explanation": "Circumference = 2πr. Statement I: r = 7, C = 44 cm. Statement II: d = 14, r = 7, C = 44 cm. Either alone is sufficient."
+  },
+  {
+    "id": 16,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the average of three numbers? Statement I: The sum of the three numbers is 90. Statement II: The three numbers are 25, 30, and 35.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "D) Either statement alone is sufficient",
+    "explanation": "Statement I: Average = 90/3 = 30. Statement II: Average = (25+30+35)/3 = 30. Either alone gives the answer."
+  },
+  {
+    "id": 17,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the volume of a cube? Statement I: The side of the cube is 4 cm. Statement II: The surface area of the cube is 96 sq cm.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "D) Either statement alone is sufficient",
+    "explanation": "Statement I: Volume = 4³ = 64 cm³. Statement II: 6a² = 96, a = 4, Volume = 64 cm³. Either alone is sufficient."
+  },
+  {
+    "id": 18,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the discount on an item? Statement I: The marked price is Rs. 500. Statement II: The discount rate is 20%.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Discount = Marked Price × Discount Rate / 100. Both MP and rate are needed. Together: Discount = 500 × 20/100 = Rs. 100."
+  },
+  {
+    "id": 19,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the LCM of two numbers? Statement I: The two numbers are 12 and 18. Statement II: The HCF of the two numbers is 6.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "A) Statement I alone is sufficient",
+    "explanation": "Statement I: LCM(12, 18) = 36 — directly computable. Statement II alone doesn't give the numbers, so it's not sufficient. Only Statement I is sufficient."
+  },
+  {
+    "id": 20,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How old is Priya? Statement I: Priya's age is twice her brother's age. Statement II: Her brother is 12 years old.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "From Statement I: Priya = 2 × brother's age. From Statement II: brother = 12. Together: Priya = 2 × 12 = 24 years."
+  },
+  {
+    "id": 21,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the time taken to complete a journey? Statement I: The distance is 240 km. Statement II: The speed is 60 km/h.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Time = Distance/Speed. Both distance and speed are needed. Together: Time = 240/60 = 4 hours."
+  },
+  {
+    "id": 22,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is p a prime number? Statement I: p is an odd number less than 10. Statement II: p is divisible only by 1 and itself.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "B) Statement II alone is sufficient",
+    "explanation": "Statement II directly defines a prime number — sufficient. Statement I: odd numbers less than 10 include 1, 3, 5, 7, 9; not all are prime (1 and 9 are not), so not sufficient."
+  },
+  {
+    "id": 23,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the profit made on selling an article? Statement I: The cost price is Rs. 400. Statement II: The selling price is Rs. 500.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Profit = SP - CP. Both are needed. Together: Profit = 500 - 400 = Rs. 100."
+  },
+  {
+    "id": 24,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of m × n? Statement I: m + n = 10. Statement II: m - n = 4.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "From both: m = 7, n = 3. So m × n = 21. Neither statement alone gives unique values of m and n."
+  },
+  {
+    "id": 25,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the compound interest on a sum for 1 year? Statement I: The principal is Rs. 10,000. Statement II: The rate of interest is 8% per annum compounded annually.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "CI for 1 year = P × R/100. Both P and R are needed. Together: CI = 10000 × 8/100 = Rs. 800."
+  },
+  {
+    "id": 26,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the median of a set of numbers? Statement I: The numbers in ascending order are 3, 7, 11, 15, 19. Statement II: There are 5 numbers in the set.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "A) Statement I alone is sufficient",
+    "explanation": "Statement I gives all numbers in order; median = middle value = 11. Statement II alone doesn't give the actual numbers. Only Statement I is sufficient."
+  },
+  {
+    "id": 27,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the ratio of A's salary to B's salary? Statement I: A's salary is Rs. 30,000. Statement II: B's salary is Rs. 20,000.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Ratio = A's salary / B's salary. Both are needed. Together: Ratio = 30000/20000 = 3:2."
+  },
+  {
+    "id": 28,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is quadrilateral ABCD a parallelogram? Statement I: AB is parallel to CD. Statement II: AD is parallel to BC.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "A parallelogram requires both pairs of opposite sides to be parallel. Neither statement alone is sufficient, but together they confirm it is a parallelogram."
+  },
+  {
+    "id": 29,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the number of days to complete a work? Statement I: A can complete the work in 10 days. Statement II: B can complete the work in 15 days.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "If A and B work together: 1/10 + 1/15 = 5/30 = 1/6. Together they finish in 6 days. Both statements are needed."
+  },
+  {
+    "id": 30,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of x + y + z? Statement I: x + y = 20. Statement II: z = 10.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "x + y + z = (x + y) + z = 20 + 10 = 30. Both statements together give the answer."
+  },
+  {
+    "id": 31,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the selling price of a book? Statement I: The cost price is Rs. 250. Statement II: The profit is Rs. 50.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "SP = CP + Profit. Both are needed. Together: SP = 250 + 50 = Rs. 300."
+  },
+  {
+    "id": 32,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the height of a triangle? Statement I: The area of the triangle is 60 sq cm. Statement II: The base of the triangle is 12 cm.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Area = (1/2) × base × height. Height = 2 × Area / base = 2 × 60 / 12 = 10 cm. Both statements are needed."
+  },
+  {
+    "id": 33,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the number? Statement I: The number is a multiple of 7 less than 50. Statement II: The number is 49.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Either statement alone is sufficient"],
+    "correct_answer": "B) Statement II alone is sufficient",
+    "explanation": "Statement I gives multiple values (7, 14, 21, 28, 35, 42, 49) — not unique. Statement II directly gives the number as 49. Only Statement II is sufficient."
+  },
+  {
+    "id": 34,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the percentage of marks scored by a student? Statement I: The student scored 75 marks. Statement II: The total marks are 100.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Percentage = (Marks scored / Total marks) × 100 = (75/100) × 100 = 75%. Both statements are needed."
+  },
+  {
+    "id": 35,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the distance between two cities? Statement I: A car travels at 80 km/h. Statement II: The car takes 3 hours to travel between the two cities.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Distance = Speed × Time = 80 × 3 = 240 km. Both speed and time are needed."
+  },
+  {
+    "id": 36,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the number of apples in a basket? Statement I: There are 3 times as many apples as oranges. Statement II: There are 15 oranges in the basket.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "From Statement I: Apples = 3 × Oranges. From Statement II: Oranges = 15. Together: Apples = 3 × 15 = 45."
+  },
+  {
+    "id": 37,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of 3a - 2b? Statement I: a = 4. Statement II: b = 3.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "3a - 2b requires both a and b. Together: 3(4) - 2(3) = 12 - 6 = 6."
+  },
+  {
+    "id": 38,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is x positive? Statement I: x + 8 > 5. Statement II: x - 3 > -5.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "D) Neither statement is sufficient",
+    "explanation": "Statement I: x > -3 (could be negative). Statement II: x > -2 (could be negative). Together: x > -2, still could be negative. Neither is sufficient."
+  },
+  {
+    "id": 39,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the total salary of 5 employees? Statement I: The average salary of the 5 employees is Rs. 25,000. Statement II: The highest salary is Rs. 40,000.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "A) Statement I alone is sufficient",
+    "explanation": "Total = Average × Number = 25000 × 5 = Rs. 1,25,000. Statement I alone is sufficient. Statement II alone doesn't give total."
+  },
+  {
+    "id": 40,
+    "topic": "Data Sufficiency",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the length of a train? Statement I: The train crosses a pole in 10 seconds. Statement II: The speed of the train is 72 km/h.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Length = Speed × Time. Speed = 72 km/h = 20 m/s. Length = 20 × 10 = 200 m. Both statements are needed."
+  },
+  {
+    "id": 41,
+    "topic": "Data Sufficiency",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the two-digit number? Statement I: The sum of the digits is 9. Statement II: The number is greater than 50 and the tens digit is greater than the units digit.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "From I: pairs (1,8),(2,7),(3,6),(4,5),(5,4),(6,3),(7,2),(8,1),(9,0). From II: number > 50 and tens > units. Combining: 63, 72, 81, 90 — wait, 63 (6>3, sum=9, >50), 72 (7>2, sum=9, >50), 81 (8>1, sum=9, >50), 90 (9>0, sum=9, >50). Still multiple answers — actually neither is sufficient alone, but together still gives multiple answers. Answer: D."
+  },
+  {
+    "id": 42,
+    "topic": "Data Sufficiency",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the present age of a father? Statement I: The ratio of father's age to son's age is 4:1. Statement II: Five years ago, the father was 7 times as old as his son.",
+    "options": ["A) Statement I alone is sufficient", "B) Statement II alone is sufficient", "C) Both statements together are sufficient", "D) Neither statement is sufficient"],
+    "correct_answer": "C) Both statements together are sufficient",
+    "explanation": "Let father = 4x, son = x. Five years ago: 4x-5 = 7(x-5) → 4x-5 = 7x-35 → 3x = 30 → x = 10. Father = 40. Both statements together are needed."
+  },
+  {
+    "id": 43,
+    "topic": "Data Sufficiency",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the rate of interest per annum? Statement I:

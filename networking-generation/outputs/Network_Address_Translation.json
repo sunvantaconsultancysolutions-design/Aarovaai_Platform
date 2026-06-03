@@ -1,0 +1,471 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does NAT stand for in networking?",
+    "options": ["A) Network Address Translation", "B) Network Access Technology", "C) Node Address Transfer", "D) Network Allocation Table"],
+    "correct_answer": "A) Network Address Translation",
+    "explanation": "NAT stands for Network Address Translation. It is a method of remapping one IP address space into another by modifying network address information in IP packet headers."
+  },
+  {
+    "id": 2,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which RFC defines Network Address Translation?",
+    "options": ["A) RFC 1918", "B) RFC 3022", "C) RFC 2460", "D) RFC 791"],
+    "correct_answer": "B) RFC 3022",
+    "explanation": "RFC 3022 defines traditional IP Network Address Translator (NAT). RFC 1918 defines private IP address ranges used commonly with NAT."
+  },
+  {
+    "id": 3,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary purpose of NAT?",
+    "options": ["A) To encrypt network traffic", "B) To conserve public IP addresses", "C) To increase network speed", "D) To assign MAC addresses"],
+    "correct_answer": "B) To conserve public IP addresses",
+    "explanation": "NAT allows multiple devices on a private network to share a single public IP address, thereby conserving the limited pool of public IPv4 addresses."
+  },
+  {
+    "id": 4,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which device typically performs NAT in a home network?",
+    "options": ["A) Switch", "B) Hub", "C) Router", "D) Repeater"],
+    "correct_answer": "C) Router",
+    "explanation": "A router typically performs NAT in a home or small office network, translating private IP addresses to the public IP address assigned by the ISP."
+  },
+  {
+    "id": 5,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a private IP address range used with NAT?",
+    "options": ["A) 172.32.0.0/12", "B) 192.168.0.0/16", "C) 11.0.0.0/8", "D) 200.168.0.0/16"],
+    "correct_answer": "B) 192.168.0.0/16",
+    "explanation": "192.168.0.0/16 is one of the three private IP address ranges defined in RFC 1918. The others are 10.0.0.0/8 and 172.16.0.0/12."
+  },
+  {
+    "id": 6,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of NAT maps one private IP address to one public IP address?",
+    "options": ["A) Dynamic NAT", "B) PAT", "C) Static NAT", "D) Overload NAT"],
+    "correct_answer": "C) Static NAT",
+    "explanation": "Static NAT creates a permanent one-to-one mapping between a private IP address and a public IP address. It is used when a device needs a consistent public IP."
+  },
+  {
+    "id": 7,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "PAT is also known as which of the following?",
+    "options": ["A) Static NAT", "B) NAT Overload", "C) Dynamic NAT", "D) Reverse NAT"],
+    "correct_answer": "B) NAT Overload",
+    "explanation": "PAT (Port Address Translation) is also called NAT Overload. It allows multiple private IP addresses to be mapped to a single public IP using different port numbers."
+  },
+  {
+    "id": 8,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In NAT terminology, what is the 'inside local' address?",
+    "options": ["A) Public IP of the internal host", "B) Private IP of the internal host", "C) Public IP of the external host", "D) Private IP of the external host"],
+    "correct_answer": "B) Private IP of the internal host",
+    "explanation": "Inside local is the private IP address assigned to an internal host. It is the address as seen from inside the network before translation."
+  },
+  {
+    "id": 9,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the OSI model does NAT primarily operate at?",
+    "options": ["A) Layer 2 (Data Link)", "B) Layer 3 (Network)", "C) Layer 4 (Transport)", "D) Layer 7 (Application)"],
+    "correct_answer": "B) Layer 3 (Network)",
+    "explanation": "NAT primarily operates at Layer 3 (Network layer) by modifying IP addresses in packet headers. PAT also uses Layer 4 port numbers for translation."
+  },
+  {
+    "id": 10,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many private IP address ranges are defined in RFC 1918?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "correct_answer": "B) 3",
+    "explanation": "RFC 1918 defines three private IP address ranges: 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. These are not routable on the public internet."
+  },
+  {
+    "id": 11,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the NAT translation table store?",
+    "options": ["A) MAC to IP mappings", "B) Domain name to IP mappings", "C) Private IP to public IP mappings", "D) IP to subnet mask mappings"],
+    "correct_answer": "C) Private IP to public IP mappings",
+    "explanation": "The NAT translation table stores mappings between private (inside local) IP addresses and public (inside global) IP addresses, along with port numbers in PAT."
+  },
+  {
+    "id": 12,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a benefit of NAT?",
+    "options": ["A) Conserves public IP addresses", "B) Provides a level of security", "C) Increases network bandwidth", "D) Hides internal network structure"],
+    "correct_answer": "C) Increases network bandwidth",
+    "explanation": "NAT conserves public IPs, hides internal topology, and provides basic security. However, it does not increase network bandwidth — it can actually add slight processing overhead."
+  },
+  {
+    "id": 13,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In PAT, what is used to differentiate multiple connections sharing one public IP?",
+    "options": ["A) MAC addresses", "B) Port numbers", "C) Subnet masks", "D) TTL values"],
+    "correct_answer": "B) Port numbers",
+    "explanation": "PAT uses unique port numbers to differentiate multiple private IP connections sharing a single public IP address, allowing thousands of simultaneous connections."
+  },
+  {
+    "id": 14,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the 'inside global' address in NAT?",
+    "options": ["A) Private IP of internal host", "B) Public IP representing the internal host", "C) Private IP of external host", "D) Public IP of external host"],
+    "correct_answer": "B) Public IP representing the internal host",
+    "explanation": "Inside global is the public IP address that represents the internal host to the outside world. It is the translated address seen by external hosts."
+  },
+  {
+    "id": 15,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which private IP range is the largest in terms of number of addresses?",
+    "options": ["A) 192.168.0.0/16", "B) 172.16.0.0/12", "C) 10.0.0.0/8", "D) All are equal"],
+    "correct_answer": "C) 10.0.0.0/8",
+    "explanation": "10.0.0.0/8 provides 2^24 = 16,777,216 addresses. 172.16.0.0/12 provides ~1 million, and 192.168.0.0/16 provides 65,536 addresses."
+  },
+  {
+    "id": 16,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Dynamic NAT uses a pool of public IP addresses. If the pool has 5 addresses and 6 hosts try to connect simultaneously, what happens to the 6th host?",
+    "options": ["A) It gets a random public IP", "B) It shares an IP with another host", "C) Its connection is dropped", "D) It uses a private IP directly"],
+    "correct_answer": "C) Its connection is dropped",
+    "explanation": "In Dynamic NAT, if all public IPs in the pool are in use, additional hosts cannot get a translation and their connections are dropped until an IP becomes available."
+  },
+  {
+    "id": 17,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to verify NAT translations on a Cisco router?",
+    "options": ["A) show ip route", "B) show ip nat translations", "C) show nat table", "D) display nat entries"],
+    "correct_answer": "B) show ip nat translations",
+    "explanation": "The 'show ip nat translations' command on a Cisco router displays the current NAT translation table entries including inside local, inside global, outside local, and outside global addresses."
+  },
+  {
+    "id": 18,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'outside local' in NAT terminology?",
+    "options": ["A) Public IP of external host as seen from inside", "B) Private IP of internal host", "C) Public IP of internal host", "D) Private IP of external host"],
+    "correct_answer": "A) Public IP of external host as seen from inside",
+    "explanation": "Outside local is the IP address of an external host as seen from the inside network. In most cases, it is the same as the outside global address."
+  },
+  {
+    "id": 19,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "NAT was introduced primarily as a solution to which problem?",
+    "options": ["A) IPv6 adoption", "B) IPv4 address exhaustion", "C) Network congestion", "D) DNS resolution failures"],
+    "correct_answer": "B) IPv4 address exhaustion",
+    "explanation": "NAT was introduced as a short-term solution to IPv4 address exhaustion. IPv4 supports only ~4.3 billion addresses, which proved insufficient for global internet growth."
+  },
+  {
+    "id": 20,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of NAT is most commonly used in home routers?",
+    "options": ["A) Static NAT", "B) Dynamic NAT", "C) PAT (NAT Overload)", "D) Twice NAT"],
+    "correct_answer": "C) PAT (NAT Overload)",
+    "explanation": "Home routers use PAT (Port Address Translation), which maps all internal devices to a single public IP using different port numbers, making it the most efficient use of one public IP."
+  },
+  {
+    "id": 21,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Does IPv6 require NAT?",
+    "options": ["A) Yes, always", "B) No, because IPv6 has enough addresses", "C) Yes, for security", "D) Only for enterprise networks"],
+    "correct_answer": "B) No, because IPv6 has enough addresses",
+    "explanation": "IPv6 provides 2^128 addresses (~340 undecillion), which is sufficient to assign unique public addresses to every device, eliminating the need for NAT."
+  },
+  {
+    "id": 22,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum number of port numbers available for PAT?",
+    "options": ["A) 256", "B) 1024", "C) 65535", "D) 32768"],
+    "correct_answer": "C) 65535",
+    "explanation": "Port numbers range from 0 to 65535 (16-bit field). PAT can theoretically support up to 65,535 simultaneous connections per public IP address."
+  },
+  {
+    "id": 23,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following protocols can cause issues with NAT due to embedding IP addresses in the payload?",
+    "options": ["A) HTTP", "B) FTP", "C) SMTP", "D) DNS"],
+    "correct_answer": "B) FTP",
+    "explanation": "FTP embeds IP addresses in its payload (PORT command), which NAT cannot translate without Application Layer Gateway (ALG) support, causing connection issues."
+  },
+  {
+    "id": 24,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a NAT pool?",
+    "options": ["A) A group of private IP addresses", "B) A range of public IP addresses available for dynamic NAT", "C) A collection of MAC addresses", "D) A set of subnet masks"],
+    "correct_answer": "B) A range of public IP addresses available for dynamic NAT",
+    "explanation": "A NAT pool is a range of public IP addresses configured on a router for dynamic NAT. Private IPs are dynamically mapped to available addresses from this pool."
+  },
+  {
+    "id": 25,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a company has 200 internal hosts but only 10 public IP addresses, which NAT type is most suitable?",
+    "options": ["A) Static NAT", "B) Dynamic NAT", "C) PAT", "D) Reverse NAT"],
+    "correct_answer": "C) PAT",
+    "explanation": "PAT allows all 200 internal hosts to share fewer public IPs (or even one) using port numbers. Dynamic NAT with 10 IPs would only support 10 simultaneous connections."
+  },
+  
+  === CHECKPOINT: 25/100 COMPLETE ===
+  
+  {
+    "id": 26,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct private IP range for Class B private addresses?",
+    "options": ["A) 10.0.0.0 – 10.255.255.255", "B) 172.16.0.0 – 172.31.255.255", "C) 192.168.0.0 – 192.168.255.255", "D) 169.254.0.0 – 169.254.255.255"],
+    "correct_answer": "B) 172.16.0.0 – 172.31.255.255",
+    "explanation": "The Class B private address range is 172.16.0.0 to 172.31.255.255 (/12). 10.0.0.0/8 is Class A private, and 192.168.0.0/16 is Class C private."
+  },
+  {
+    "id": 27,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "NAT hides the internal network structure from external networks. This feature is called:",
+    "options": ["A) Encryption", "B) Topology hiding", "C) Firewall filtering", "D) VPN tunneling"],
+    "correct_answer": "B) Topology hiding",
+    "explanation": "NAT provides topology hiding by masking internal private IP addresses behind one or more public IPs, preventing external hosts from seeing the internal network structure."
+  },
+  {
+    "id": 28,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens to the source IP address when a packet leaves a NAT-enabled router going to the internet?",
+    "options": ["A) It remains unchanged", "B) It is replaced with the public IP", "C) It is encrypted", "D) It is removed"],
+    "correct_answer": "B) It is replaced with the public IP",
+    "explanation": "When a packet from an internal host passes through a NAT router, the source private IP is replaced with the router's public IP address before forwarding to the internet."
+  },
+  {
+    "id": 29,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a disadvantage of NAT?",
+    "options": ["A) Reduces available IP addresses", "B) Breaks end-to-end connectivity", "C) Increases security vulnerabilities", "D) Requires more public IPs"],
+    "correct_answer": "B) Breaks end-to-end connectivity",
+    "explanation": "NAT breaks the end-to-end principle of the internet because external hosts cannot directly initiate connections to internal hosts without port forwarding configuration."
+  },
+  {
+    "id": 30,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Port forwarding is a feature associated with which NAT concept?",
+    "options": ["A) Dynamic NAT", "B) Static NAT with port mapping", "C) NAT pool", "D) NAT timeout"],
+    "correct_answer": "B) Static NAT with port mapping",
+    "explanation": "Port forwarding is a form of static NAT that maps a specific public IP and port to a private IP and port, allowing external hosts to reach internal servers."
+  },
+  {
+    "id": 31,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A home router has public IP 203.0.113.5. Host A (192.168.1.10) sends a packet to the internet. What is the source IP in the outgoing packet?",
+    "options": ["A) 192.168.1.10", "B) 203.0.113.5", "C) 0.0.0.0", "D) 255.255.255.255"],
+    "correct_answer": "B) 203.0.113.5",
+    "explanation": "The NAT router replaces the private source IP (192.168.1.10) with its public IP (203.0.113.5) before sending the packet to the internet."
+  },
+  {
+    "id": 32,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'Twice NAT' or 'Double NAT'?",
+    "options": ["A) NAT applied twice on the same packet", "B) Two routers each performing NAT", "C) NAT that translates both source and destination addresses", "D) NAT with two public IP addresses"],
+    "correct_answer": "C) NAT that translates both source and destination addresses",
+    "explanation": "Twice NAT (or Double NAT) translates both the source and destination IP addresses in a packet simultaneously, used when both networks use overlapping address spaces."
+  },
+  {
+    "id": 33,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used by NAT to handle ICMP (ping) traffic since ICMP has no port numbers?",
+    "options": ["A) ICMP Query ID", "B) TCP sequence numbers", "C) UDP checksums", "D) ARP tables"],
+    "correct_answer": "A) ICMP Query ID",
+    "explanation": "For ICMP traffic, NAT uses the ICMP Query ID (identifier field) instead of port numbers to track and translate ICMP echo request/reply pairs."
+  },
+  {
+    "id": 34,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default NAT translation timeout for TCP sessions on most routers?",
+    "options": ["A) 30 seconds", "B) 5 minutes", "C) 24 hours", "D) 86400 seconds"],
+    "correct_answer": "C) 24 hours",
+    "explanation": "The default TCP NAT translation timeout is typically 24 hours (86400 seconds) on Cisco routers, though UDP translations typically timeout after 5 minutes."
+  },
+  {
+    "id": 35,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'NAT traversal'?",
+    "options": ["A) Routing packets through NAT devices", "B) Techniques to allow P2P connections through NAT", "C) Bypassing NAT using VPN", "D) Configuring NAT on multiple routers"],
+    "correct_answer": "B) Techniques to allow P2P connections through NAT",
+    "explanation": "NAT traversal refers to techniques (like STUN, TURN, ICE) that allow peer-to-peer connections to be established even when one or both peers are behind NAT devices."
+  },
+  {
+    "id": 36,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In Cisco IOS, which command designates an interface as the 'inside' NAT interface?",
+    "options": ["A) ip nat outside", "B) ip nat inside", "C) nat inside enable", "D) interface nat inside"],
+    "correct_answer": "B) ip nat inside",
+    "explanation": "The 'ip nat inside' command is applied to the interface connected to the internal (private) network. 'ip nat outside' is applied to the interface connected to the internet."
+  },
+  {
+    "id": 37,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many hosts can be supported by the 192.168.1.0/24 private network?",
+    "options": ["A) 254", "B) 256", "C) 255", "D) 253"],
+    "correct_answer": "A) 254",
+    "explanation": "A /24 network has 2^8 = 256 addresses. Subtracting the network address (192.168.1.0) and broadcast address (192.168.1.255) leaves 254 usable host addresses."
+  },
+  {
+    "id": 38,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of an Application Layer Gateway (ALG) in NAT?",
+    "options": ["A) To speed up NAT processing", "B) To handle protocols that embed IP addresses in payloads", "C) To encrypt NAT translations", "D) To assign public IP addresses"],
+    "correct_answer": "B) To handle protocols that embed IP addresses in payloads",
+    "explanation": "ALG inspects and modifies application-layer data (like FTP, SIP) that contains IP addresses or port numbers in the payload, ensuring proper NAT translation."
+  },
+  {
+    "id": 39,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about static NAT?",
+    "options": ["A) It dynamically assigns public IPs", "B) It requires one public IP per internal host", "C) It uses port numbers for translation", "D) It is the most efficient use of public IPs"],
+    "correct_answer": "B) It requires one public IP per internal host",
+    "explanation": "Static NAT creates a permanent one-to-one mapping, requiring one public IP for each internal host. This is less efficient than PAT but necessary for servers needing consistent public IPs."
+  },
+  {
+    "id": 40,
+    "topic": "Network Address Translation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A company uses PAT with one public IP. If the public IP is 198.51.100.1 and host 10.0.0.5 uses source port 3000, what uniquely identifies this connection in the NAT table?",
+    "options": ["A) 198.51.100.1 only", "B) 10.0.0.5 only", "C) 198.51.100.1:3000", "D) 10.0.0.5:3000"],
+    "correct_answer": "C) 198.51.100.1:3000",
+    "explanation": "In PAT, the combination of public IP and port number (198.51.100.1:3000) uniquely identifies each connection in the NAT translation table on the outside."
+  },
+  {
+    "id": 41,
+    "topic": "Network Address Translation",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A NAT router has a pool of 8 public IP addresses. Each public IP can support up to 65,535 PAT connections. What is the maximum number of simultaneous internal connections supported?",
+    "options": ["A) 65,535", "B) 524,280", "C) 8", "D) 131,070"],
+    "correct_answer": "B) 524,280",
+    "explanation": "With 8 public IPs each supporting 65,535 connections: 8 × 65,535 = 524,280 simultaneous connections. This demonstrates PAT's scalability."
+  },
+  {
+    "id": 42,
+    "topic": "Network Address Translation",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which of the following statements about NAT and IPSec is correct?",
+    "options": ["A) NAT is fully compatible with IPSec in all modes", "B) NAT breaks IPSec AH mode because AH authenticates the IP header", "C) NAT enhances IPSec security", "D) IPSec ESP mode is incompatible with NAT"],
+    "correct_answer": "B) NAT breaks IPSec AH mode because AH authenticates the IP header",
+    "explanation": "IPSec AH (Authentication Header) authenticates the entire IP header including source/destination IPs. When NAT changes the IP address, the AH authentication fails."
+  },
+  {
+    "id": 43,
+    "topic": "Network Address Translation",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In a NAT translation table, an entry shows: Inside Local: 10.1.1.5:1500, Inside Global: 200.1.1.1:2500. What does port 2500 represent?",
+    "options": ["A) The destination port on the internet server", "B) The translated source port assigned by the NAT router", "C) The router's management port", "D) The subnet mask in decimal"],
+    "correct_answer": "B) The translated source port assigned by the NAT router",
+    "explanation": "In PAT, the NAT router may change the source port (1500) to a new port (2500) to avoid conflicts when multiple internal hosts use the same source port."
+  },
+  {
+    "id": 44,
+    "topic": "Network Address Translation",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the difference between Dynamic NAT and PAT?",
+    "options": ["A) Dynamic NAT uses port numbers; PAT does not", "B) Dynamic NAT maps one private IP to one public IP; PAT maps many private IPs to one public IP using ports", "C) PAT is slower than Dynamic NAT", "D) Dynamic NAT is used only for UDP; PAT for TCP"],
+    "correct_answer": "B) Dynamic NAT maps one private IP to one public IP; PAT maps many private IPs to one public IP using ports",
+    "explanation": "Dynamic NAT assigns one public IP per active connection from a pool. PAT (NAT Overload) maps multiple private IPs to a single public IP using unique port numbers."
+  },
+  {
+    "id": 45,
+    "topic": "Network Address Translation",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A network has 500 internal hosts using 192.168.0.0/23. How many usable host addresses are available in this subnet?",
+    "options": ["A) 510", "B) 512", "C) 508", "D) 254"],
+    "correct_answer": "A) 510",
+    "explanation": "A /23 subnet has 2^9 = 512 addresses. Subtracting network (192.168.0.0) and broadcast (192.168.1.255) addresses gives 512 - 2 = 510 usable host addresses."
+  },
+  {
+    "id": 46,
+    "topic": "Network Address Translation",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which IETF standard describes NAT-PT (NAT Protocol Translation) for IPv4-IPv6 translation?",
+    "options": ["A) RFC 2766", "B) RFC 3022", "C) RFC 1918", "D) RFC 4787"],
+    "correct_answer": "A) RFC 2766",
+    "explanation": "RFC 2766 describes NAT-PT (Network Address Translation - Protocol Translation), which provides translation between IPv4 and IPv6 networks. It was later deprecated by RFC 4966."
+  },
+  {
+    "id": 47,
+    "topic": "Network Address Translation",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question":

@@ -1,0 +1,524 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of the expression 5 + 3 * 2 in C?",
+    "options": ["A) 16", "B) 11", "C) 10", "D) 13"],
+    "correct_answer": "B) 11",
+    "explanation": "Operator precedence: * has higher precedence than +. So 3*2=6, then 5+6=11."
+  },
+  {
+    "id": 2,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of: int x = 10; printf(\"%d\", x++);",
+    "options": ["A) 11", "B) 10", "C) 9", "D) Undefined"],
+    "correct_answer": "B) 10",
+    "explanation": "Post-increment (x++) returns the current value of x (10) first, then increments it to 11."
+  },
+  {
+    "id": 3,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of: int x = 10; printf(\"%d\", ++x);",
+    "options": ["A) 10", "B) 9", "C) 11", "D) 12"],
+    "correct_answer": "C) 11",
+    "explanation": "Pre-increment (++x) increments x to 11 first, then returns the incremented value 11."
+  },
+  {
+    "id": 4,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 17 % 5 in C?",
+    "options": ["A) 3", "B) 2", "C) 4", "D) 1"],
+    "correct_answer": "B) 2",
+    "explanation": "17 % 5 gives the remainder when 17 is divided by 5. 17 = 5*3 + 2, so remainder is 2."
+  },
+  {
+    "id": 5,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of the expression (10 > 5) in C?",
+    "options": ["A) 0", "B) 10", "C) 5", "D) 1"],
+    "correct_answer": "D) 1",
+    "explanation": "Relational expressions return 1 (true) or 0 (false). Since 10 > 5 is true, the result is 1."
+  },
+  {
+    "id": 6,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 3; printf(\"%d\", a & b);",
+    "options": ["A) 7", "B) 1", "C) 5", "D) 3"],
+    "correct_answer": "B) 1",
+    "explanation": "Bitwise AND: 5 = 101, 3 = 011. 101 & 011 = 001 = 1."
+  },
+  {
+    "id": 7,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 3; printf(\"%d\", a | b);",
+    "options": ["A) 7", "B) 1", "C) 5", "D) 3"],
+    "correct_answer": "A) 7",
+    "explanation": "Bitwise OR: 5 = 101, 3 = 011. 101 | 011 = 111 = 7."
+  },
+  {
+    "id": 8,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of expression: int x = 4; x += 3; printf(\"%d\", x);",
+    "options": ["A) 3", "B) 4", "C) 7", "D) 12"],
+    "correct_answer": "C) 7",
+    "explanation": "x += 3 is equivalent to x = x + 3 = 4 + 3 = 7."
+  },
+  {
+    "id": 9,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the expression (a ? b : c) represent in C?",
+    "options": ["A) Bitwise expression", "B) Ternary/conditional expression", "C) Logical expression", "D) Arithmetic expression"],
+    "correct_answer": "B) Ternary/conditional expression",
+    "explanation": "The ?: operator is the ternary (conditional) operator. If a is true, it returns b, else c."
+  },
+  {
+    "id": 10,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 10 / 3);",
+    "options": ["A) 3.33", "B) 3", "C) 4", "D) 0"],
+    "correct_answer": "B) 3",
+    "explanation": "Integer division in C truncates the decimal part. 10/3 = 3 (remainder discarded)."
+  },
+  {
+    "id": 11,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of the expression: int a = 6; a *= 2; printf(\"%d\", a);",
+    "options": ["A) 6", "B) 8", "C) 12", "D) 3"],
+    "correct_answer": "C) 12",
+    "explanation": "a *= 2 is equivalent to a = a * 2 = 6 * 2 = 12."
+  },
+  {
+    "id": 12,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 5; printf(\"%d\", x--);",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 0"],
+    "correct_answer": "B) 5",
+    "explanation": "Post-decrement (x--) returns the current value (5) first, then decrements x to 4."
+  },
+  {
+    "id": 13,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 5; printf(\"%d\", --x);",
+    "options": ["A) 5", "B) 6", "C) 4", "D) 3"],
+    "correct_answer": "C) 4",
+    "explanation": "Pre-decrement (--x) decrements x to 4 first, then returns the decremented value 4."
+  },
+  {
+    "id": 14,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of: int a = 10, b = 4; printf(\"%d\", a % b);",
+    "options": ["A) 2", "B) 4", "C) 0", "D) 1"],
+    "correct_answer": "A) 2",
+    "explanation": "10 % 4: 10 = 4*2 + 2, so the remainder is 2."
+  },
+  {
+    "id": 15,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", !0);",
+    "options": ["A) 0", "B) -1", "C) 1", "D) Undefined"],
+    "correct_answer": "C) 1",
+    "explanation": "Logical NOT of 0 (false) is 1 (true). !0 = 1."
+  },
+  {
+    "id": 16,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", !5);",
+    "options": ["A) 5", "B) 0", "C) 1", "D) -5"],
+    "correct_answer": "B) 0",
+    "explanation": "Logical NOT of any non-zero value is 0 (false). !5 = 0."
+  },
+  {
+    "id": 17,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of: int a = 8; a >>= 1; printf(\"%d\", a);",
+    "options": ["A) 16", "B) 4", "C) 8", "D) 2"],
+    "correct_answer": "B) 4",
+    "explanation": "Right shift by 1 divides by 2. 8 >> 1 = 4. a >>= 1 means a = a >> 1 = 4."
+  },
+  {
+    "id": 18,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of: int a = 3; a <<= 2; printf(\"%d\", a);",
+    "options": ["A) 6", "B) 9", "C) 12", "D) 1"],
+    "correct_answer": "C) 12",
+    "explanation": "Left shift by 2 multiplies by 4. 3 << 2 = 3 * 4 = 12."
+  },
+  {
+    "id": 19,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 10; printf(\"%d\", a < b);",
+    "options": ["A) 5", "B) 10", "C) 0", "D) 1"],
+    "correct_answer": "D) 1",
+    "explanation": "5 < 10 is true, so the relational expression evaluates to 1."
+  },
+  {
+    "id": 20,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 5; printf(\"%d\", a == b);",
+    "options": ["A) 0", "B) 5", "C) 1", "D) 10"],
+    "correct_answer": "C) 1",
+    "explanation": "== is the equality operator. 5 == 5 is true, so it returns 1."
+  },
+  {
+    "id": 21,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 3; printf(\"%d\", a && b);",
+    "options": ["A) 15", "B) 0", "C) 1", "D) 8"],
+    "correct_answer": "C) 1",
+    "explanation": "Logical AND: both a(5) and b(3) are non-zero (true), so result is 1."
+  },
+  {
+    "id": 22,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 0, b = 5; printf(\"%d\", a || b);",
+    "options": ["A) 0", "B) 5", "C) 1", "D) -1"],
+    "correct_answer": "C) 1",
+    "explanation": "Logical OR: a is 0 (false) but b is 5 (true), so result is 1."
+  },
+  {
+    "id": 23,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 3; printf(\"%d\", a ^ b);",
+    "options": ["A) 7", "B) 6", "C) 1", "D) 15"],
+    "correct_answer": "B) 6",
+    "explanation": "Bitwise XOR: 5 = 101, 3 = 011. 101 ^ 011 = 110 = 6."
+  },
+  {
+    "id": 24,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5; printf(\"%d\", ~a);",
+    "options": ["A) -5", "B) -6", "C) 4", "D) 6"],
+    "correct_answer": "B) -6",
+    "explanation": "Bitwise NOT (~a) = -(a+1) for signed integers. ~5 = -(5+1) = -6."
+  },
+  {
+    "id": 25,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of: int x = 10; int y = x > 5 ? 1 : 0; printf(\"%d\", y);",
+    "options": ["A) 0", "B) 5", "C) 10", "D) 1"],
+    "correct_answer": "D) 1",
+    "explanation": "x > 5 is true (10 > 5), so the ternary operator returns 1, which is assigned to y."
+  },
+  {
+    "id": 26,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 20; a -= 8; printf(\"%d\", a);",
+    "options": ["A) 28", "B) 12", "C) 8", "D) 20"],
+    "correct_answer": "B) 12",
+    "explanation": "a -= 8 is equivalent to a = a - 8 = 20 - 8 = 12."
+  },
+  {
+    "id": 27,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 15; a /= 3; printf(\"%d\", a);",
+    "options": ["A) 45", "B) 12", "C) 5", "D) 3"],
+    "correct_answer": "C) 5",
+    "explanation": "a /= 3 is equivalent to a = a / 3 = 15 / 3 = 5."
+  },
+  {
+    "id": 28,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 10; a %= 3; printf(\"%d\", a);",
+    "options": ["A) 3", "B) 0", "C) 1", "D) 2"],
+    "correct_answer": "C) 1",
+    "explanation": "a %= 3 means a = a % 3 = 10 % 3 = 1 (remainder of 10/3)."
+  },
+  {
+    "id": 29,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 2 + 3 * 4 - 1);",
+    "options": ["A) 19", "B) 13", "C) 11", "D) 20"],
+    "correct_answer": "B) 13",
+    "explanation": "Precedence: * first: 3*4=12. Then left to right: 2+12=14, 14-1=13."
+  },
+  {
+    "id": 30,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", (2 + 3) * 4);",
+    "options": ["A) 14", "B) 20", "C) 24", "D) 10"],
+    "correct_answer": "B) 20",
+    "explanation": "Parentheses have highest precedence. (2+3)=5, then 5*4=20."
+  },
+  {
+    "id": 31,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 0, b = 0; printf(\"%d\", a || b);",
+    "options": ["A) 1", "B) 0", "C) -1", "D) Undefined"],
+    "correct_answer": "B) 0",
+    "explanation": "Logical OR: both a and b are 0 (false), so result is 0 (false)."
+  },
+  {
+    "id": 32,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 1, b = 0; printf(\"%d\", a && b);",
+    "options": ["A) 1", "B) 0", "C) -1", "D) Undefined"],
+    "correct_answer": "B) 0",
+    "explanation": "Logical AND: a is true but b is 0 (false), so result is 0."
+  },
+  {
+    "id": 33,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 10; printf(\"%d\", a != b);",
+    "options": ["A) 0", "B) 5", "C) 1", "D) 10"],
+    "correct_answer": "C) 1",
+    "explanation": "!= is the not-equal operator. 5 != 10 is true, so it returns 1."
+  },
+  {
+    "id": 34,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 4; printf(\"%d\", a << 1);",
+    "options": ["A) 2", "B) 4", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "Left shift by 1 multiplies by 2. 4 << 1 = 4 * 2 = 8."
+  },
+  {
+    "id": 35,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 16; printf(\"%d\", a >> 2);",
+    "options": ["A) 64", "B) 8", "C) 4", "D) 2"],
+    "correct_answer": "C) 4",
+    "explanation": "Right shift by 2 divides by 4. 16 >> 2 = 16 / 4 = 4."
+  },
+  {
+    "id": 36,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 5; int y = x; x = 10; printf(\"%d\", y);",
+    "options": ["A) 10", "B) 5", "C) 0", "D) 15"],
+    "correct_answer": "B) 5",
+    "explanation": "y is assigned the value of x (5) at the time of assignment. Changing x later doesn't affect y."
+  },
+  {
+    "id": 37,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 100 / 10 / 2);",
+    "options": ["A) 50", "B) 5", "C) 20", "D) 2"],
+    "correct_answer": "B) 5",
+    "explanation": "Division is left-associative. 100/10=10, then 10/2=5."
+  },
+  {
+    "id": 38,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 7; printf(\"%d\", a >= 7);",
+    "options": ["A) 0", "B) 7", "C) 1", "D) -1"],
+    "correct_answer": "C) 1",
+    "explanation": ">= is greater-than-or-equal. 7 >= 7 is true, so result is 1."
+  },
+  {
+    "id": 39,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 3; printf(\"%d\", a <= 2);",
+    "options": ["A) 1", "B) 3", "C) 0", "D) 2"],
+    "correct_answer": "C) 0",
+    "explanation": "<= is less-than-or-equal. 3 <= 2 is false, so result is 0."
+  },
+  {
+    "id": 40,
+    "topic": "Expressions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 2; printf(\"%d\", a + b * a - b);",
+    "options": ["A) 13", "B) 33", "C) 15", "D) 23"],
+    "correct_answer": "A) 13",
+    "explanation": "Precedence: b*a = 2*5 = 10. Then left to right: 5+10=15, 15-2=13."
+  },
+  {
+    "id": 41,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 3; printf(\"%d\", a++ + ++b);",
+    "options": ["A) 9", "B) 10", "C) 8", "D) 11"],
+    "correct_answer": "A) 9",
+    "explanation": "a++ returns 5 (post-increment), ++b increments b to 4 and returns 4. So 5 + 4 = 9."
+  },
+  {
+    "id": 42,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 5; printf(\"%d %d\", x++, x);",
+    "options": ["A) 5 5", "B) 5 6", "C) 6 6", "D) Undefined behavior"],
+    "correct_answer": "D) Undefined behavior",
+    "explanation": "Modifying and reading x between sequence points in the same expression is undefined behavior in C."
+  },
+  {
+    "id": 43,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 2, b = 3, c = 4; printf(\"%d\", a * b + c * a);",
+    "options": ["A) 14", "B) 20", "C) 16", "D) 10"],
+    "correct_answer": "A) 14",
+    "explanation": "Precedence: a*b = 2*3 = 6, c*a = 4*2 = 8. Then 6 + 8 = 14."
+  },
+  {
+    "id": 44,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 10; printf(\"%d\", a == 10 ? a * 2 : a / 2);",
+    "options": ["A) 5", "B) 10", "C) 20", "D) 0"],
+    "correct_answer": "C) 20",
+    "explanation": "a == 10 is true, so the ternary returns a*2 = 10*2 = 20."
+  },
+  {
+    "id": 45,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 10; int c = a > b ? a : b; printf(\"%d\", c);",
+    "options": ["A) 5", "B) 0", "C) 10", "D) 15"],
+    "correct_answer": "C) 10",
+    "explanation": "a > b is false (5 > 10), so ternary returns b = 10."
+  },
+  {
+    "id": 46,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 6, b = 4; printf(\"%d\", a & b);",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 0"],
+    "correct_answer": "B) 4",
+    "explanation": "Bitwise AND: 6 = 110, 4 = 100. 110 & 100 = 100 = 4."
+  },
+  {
+    "id": 47,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 6, b = 4; printf(\"%d\", a ^ b);",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 10"],
+    "correct_answer": "A) 2",
+    "explanation": "Bitwise XOR: 6 = 110, 4 = 100. 110 ^ 100 = 010 = 2."
+  },
+  {
+    "id": 48,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int i = 3; printf(\"%d\", i * i++ );",
+    "options": ["A) 9", "B) 12", "C) Undefined behavior", "D) 6"],
+    "correct_answer": "C) Undefined behavior",
+    "explanation": "Using i and modifying it (i++) in the same expression without a sequence point is undefined behavior."
+  },
+  {
+    "id": 49,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 1; printf(\"%d\", a << 3);",
+    "options": ["A) 3", "B) 4", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "Left shift by 3 multiplies by 2^3 = 8. 1 << 3 = 1 * 8 = 8."
+  },
+  {
+    "id": 50,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 32; printf(\"%d\", a >> 3);",
+    "options": ["A) 8", "B) 4", "C) 16", "D) 2"],
+    "correct_answer": "B) 4",
+    "explanation": "Right shift by 3 divides by 2^3 = 8. 32 >> 3 = 32 / 8 = 4."
+  },
+  {
+    "id": 51,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5; int b = a++ + a++; printf(\"%d\", b);",
+    "options": ["A) 10", "B) 11", "C) Undefined behavior", "D) 12"],
+    "correct_answer": "C) Undefined behavior",
+    "explanation": "Modifying a twice between sequence points (a++ + a++) is undefined behavior in C."
+  },
+  {
+    "id": 52,
+    "topic": "Expressions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 10, b = 20; printf(\"%d\", (a > b) ? a : (b > 15) ? b : 0);",
+    "options": ["A) 10", "B) 0", "C) 20", "D) 15"],
+    "correct_answer": "C) 20",
+    "explanation": "a > b is false. Then b > 15 (20 > 15) is true, so returns b = 20."
+  },
+  {
+    "

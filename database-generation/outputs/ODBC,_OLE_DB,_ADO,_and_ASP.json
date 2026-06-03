@@ -1,0 +1,451 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ODBC stand for?",
+    "options": ["A) Open Database Connectivity", "B) Object Database Connectivity", "C) Open Data Bridge Connector", "D) Operational Database Connectivity"],
+    "correct_answer": "A) Open Database Connectivity",
+    "explanation": "ODBC stands for Open Database Connectivity. It is a standard API for accessing database management systems, allowing applications to connect to various databases using a common interface."
+  },
+  {
+    "id": 2,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does OLE DB stand for?",
+    "options": ["A) Object Linking and Embedding Database", "B) Open Linking and Embedding Database", "C) Object Level Embedded Database", "D) Open Level Embedded Database"],
+    "correct_answer": "A) Object Linking and Embedding Database",
+    "explanation": "OLE DB stands for Object Linking and Embedding Database. It is a Microsoft API designed to access different types of data stores, not just relational databases."
+  },
+  {
+    "id": 3,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ADO stand for in the context of database connectivity?",
+    "options": ["A) ActiveX Data Objects", "B) Active Database Objects", "C) Advanced Data Operations", "D) Automated Data Objects"],
+    "correct_answer": "A) ActiveX Data Objects",
+    "explanation": "ADO stands for ActiveX Data Objects. It is a Microsoft technology that provides a high-level interface for accessing data from various sources using OLE DB providers."
+  },
+  {
+    "id": 4,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ASP stand for in web development?",
+    "options": ["A) Active Server Pages", "B) Advanced Server Processing", "C) Automated Server Pages", "D) Active Script Processing"],
+    "correct_answer": "A) Active Server Pages",
+    "explanation": "ASP stands for Active Server Pages. It is a Microsoft server-side scripting technology used to create dynamic web pages and web applications."
+  },
+  {
+    "id": 5,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the primary purpose of ODBC?",
+    "options": ["A) To provide a standard interface for accessing different databases", "B) To create web pages dynamically", "C) To manage object-oriented databases only", "D) To encrypt database connections"],
+    "correct_answer": "A) To provide a standard interface for accessing different databases",
+    "explanation": "ODBC provides a standard API that allows applications to access different database management systems using the same code, regardless of the underlying database."
+  },
+  {
+    "id": 6,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which component in ODBC architecture acts as a translator between the application and the database driver?",
+    "options": ["A) Driver Manager", "B) Data Source Name", "C) Connection Pool", "D) Query Processor"],
+    "correct_answer": "A) Driver Manager",
+    "explanation": "The ODBC Driver Manager acts as a translator/intermediary between the application and the specific database driver. It loads the appropriate driver based on the DSN configuration."
+  },
+  {
+    "id": 7,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a DSN in the context of ODBC?",
+    "options": ["A) Data Source Name", "B) Database Server Node", "C) Data Storage Network", "D) Dynamic Source Naming"],
+    "correct_answer": "A) Data Source Name",
+    "explanation": "DSN stands for Data Source Name. It is a configuration that stores information about how to connect to a specific database, including the driver, server, and database name."
+  },
+  {
+    "id": 8,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of DSN in ODBC?",
+    "options": ["A) Network DSN", "B) User DSN", "C) System DSN", "D) File DSN"],
+    "correct_answer": "A) Network DSN",
+    "explanation": "ODBC supports three types of DSNs: User DSN (available to a specific user), System DSN (available to all users on a machine), and File DSN (stored in a file). Network DSN is not a standard ODBC DSN type."
+  },
+  {
+    "id": 9,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "ADO is built on top of which technology?",
+    "options": ["A) OLE DB", "B) ODBC", "C) JDBC", "D) XML"],
+    "correct_answer": "A) OLE DB",
+    "explanation": "ADO (ActiveX Data Objects) is built on top of OLE DB. It provides a higher-level, easier-to-use interface to OLE DB providers for accessing various data sources."
+  },
+  {
+    "id": 10,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which scripting language is most commonly used with ASP (Classic ASP)?",
+    "options": ["A) VBScript", "B) Python", "C) Ruby", "D) Perl"],
+    "correct_answer": "A) VBScript",
+    "explanation": "VBScript (Visual Basic Scripting Edition) is the most commonly used scripting language with Classic ASP. JavaScript can also be used, but VBScript is the default."
+  },
+  {
+    "id": 11,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which object in ADO is used to establish a connection to a data source?",
+    "options": ["A) Connection object", "B) Recordset object", "C) Command object", "D) Field object"],
+    "correct_answer": "A) Connection object",
+    "explanation": "The ADO Connection object is used to establish and manage a connection to a data source. It provides methods like Open() and Close() to manage the connection lifecycle."
+  },
+  {
+    "id": 12,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO object is used to execute SQL queries and retrieve results?",
+    "options": ["A) Recordset object", "B) Connection object", "C) Error object", "D) Property object"],
+    "correct_answer": "A) Recordset object",
+    "explanation": "The ADO Recordset object is used to hold and manipulate data returned from a database query. It represents a set of records from a table or query result."
+  },
+  {
+    "id": 13,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ASP, which built-in object is used to send output to the browser?",
+    "options": ["A) Response object", "B) Request object", "C) Server object", "D) Session object"],
+    "correct_answer": "A) Response object",
+    "explanation": "The ASP Response object is used to send output (HTML, text, cookies) from the server to the client browser. The Response.Write() method is commonly used for this purpose."
+  },
+  {
+    "id": 14,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ASP, which built-in object is used to retrieve data sent from a web form?",
+    "options": ["A) Request object", "B) Response object", "C) Application object", "D) Server object"],
+    "correct_answer": "A) Request object",
+    "explanation": "The ASP Request object is used to retrieve data sent from the client to the server, including form data (Request.Form), query strings (Request.QueryString), and cookies."
+  },
+  {
+    "id": 15,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What file extension is used for Classic ASP files?",
+    "options": ["A) .asp", "B) .aspx", "C) .asx", "D) .aps"],
+    "correct_answer": "A) .asp",
+    "explanation": "Classic ASP files use the .asp file extension. ASP.NET files use .aspx. The .asp extension tells the web server (IIS) to process the file as an Active Server Page."
+  },
+  {
+    "id": 16,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a key advantage of OLE DB over ODBC?",
+    "options": ["A) OLE DB can access non-relational data sources", "B) OLE DB is faster for relational databases only", "C) OLE DB requires no drivers", "D) OLE DB is platform-independent"],
+    "correct_answer": "A) OLE DB can access non-relational data sources",
+    "explanation": "OLE DB can access a wider variety of data sources including non-relational data (email, file systems, spreadsheets), whereas ODBC was primarily designed for relational databases."
+  },
+  {
+    "id": 17,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO object is used to execute stored procedures and parameterized queries?",
+    "options": ["A) Command object", "B) Recordset object", "C) Connection object", "D) Parameter object"],
+    "correct_answer": "A) Command object",
+    "explanation": "The ADO Command object is used to execute SQL statements, stored procedures, and parameterized queries against a data source. It works in conjunction with the Connection object."
+  },
+  {
+    "id": 18,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ASP, which object is used to maintain state information across multiple pages for a single user?",
+    "options": ["A) Session object", "B) Application object", "C) Server object", "D) Response object"],
+    "correct_answer": "A) Session object",
+    "explanation": "The ASP Session object is used to store and retrieve information for a specific user across multiple page requests. Each user gets a unique session with a unique SessionID."
+  },
+  {
+    "id": 19,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which web server is primarily used to run Classic ASP applications?",
+    "options": ["A) Internet Information Services (IIS)", "B) Apache HTTP Server", "C) Nginx", "D) Tomcat"],
+    "correct_answer": "A) Internet Information Services (IIS)",
+    "explanation": "Classic ASP runs on Microsoft's Internet Information Services (IIS) web server. IIS processes the ASP scripts on the server side before sending HTML to the client."
+  },
+  {
+    "id": 20,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to open a Recordset in ADO using VBScript?",
+    "options": ["A) rs.Open \"SELECT * FROM table\", conn", "B) rs.Execute \"SELECT * FROM table\"", "C) rs.Query \"SELECT * FROM table\", conn", "D) rs.Fetch \"SELECT * FROM table\", conn"],
+    "correct_answer": "A) rs.Open \"SELECT * FROM table\", conn",
+    "explanation": "In ADO, the Recordset object's Open method is used to execute a query. The syntax is rs.Open source, activeconnection, where source is the SQL query and activeconnection is the Connection object."
+  },
+  {
+    "id": 21,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which property of the ADO Recordset object is used to check if there are no more records?",
+    "options": ["A) EOF", "B) BOF", "C) NoMore", "D) Empty"],
+    "correct_answer": "A) EOF",
+    "explanation": "The EOF (End of File) property of the ADO Recordset returns True when the current position is after the last record. It is commonly used in loops to iterate through all records."
+  },
+  {
+    "id": 22,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ODBC, what is the role of a 'driver'?",
+    "options": ["A) It translates ODBC calls into database-specific calls", "B) It manages user authentication", "C) It stores database schemas", "D) It encrypts data transmissions"],
+    "correct_answer": "A) It translates ODBC calls into database-specific calls",
+    "explanation": "An ODBC driver translates generic ODBC API calls into database-specific calls that the target DBMS can understand. Each database (SQL Server, Oracle, MySQL) has its own ODBC driver."
+  },
+  {
+    "id": 23,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ASP built-in object is used to share information across all users of an application?",
+    "options": ["A) Application object", "B) Session object", "C) Server object", "D) Request object"],
+    "correct_answer": "A) Application object",
+    "explanation": "The ASP Application object is used to store and share information that is accessible to all users of a web application. Unlike Session, it is shared across all sessions."
+  },
+  {
+    "id": 24,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the ADO Recordset method MoveNext() do?",
+    "options": ["A) Moves the cursor to the next record", "B) Moves the cursor to the previous record", "C) Moves the cursor to the first record", "D) Moves the cursor to the last record"],
+    "correct_answer": "A) Moves the cursor to the next record",
+    "explanation": "The MoveNext() method of the ADO Recordset object advances the current record pointer to the next record in the result set. It is commonly used in loops to iterate through records."
+  },
+  {
+    "id": 25,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes the relationship between ADO and OLE DB?",
+    "options": ["A) ADO is a high-level wrapper around OLE DB", "B) OLE DB is a high-level wrapper around ADO", "C) ADO and OLE DB are completely independent technologies", "D) ADO replaces OLE DB entirely"],
+    "correct_answer": "A) ADO is a high-level wrapper around OLE DB",
+    "explanation": "ADO provides a simplified, high-level programming interface that sits on top of OLE DB. OLE DB is the lower-level COM-based API, while ADO makes it easier to use from scripting languages."
+  },
+  {
+    "id": 26,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ODBC conformance level supports the most complete set of SQL grammar?",
+    "options": ["A) Level 2", "B) Level 1", "C) Level 0", "D) Core Level"],
+    "correct_answer": "A) Level 2",
+    "explanation": "ODBC defines three conformance levels: Core, Level 1, and Level 2. Level 2 is the highest and supports the most complete set of ODBC API functions and SQL grammar."
+  },
+  {
+    "id": 27,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ASP, what delimiter is used to embed server-side script code within HTML?",
+    "options": ["A) <% and %>", "B) <? and ?>", "C) {{ and }}", "D) <# and #>"],
+    "correct_answer": "A) <% and %>",
+    "explanation": "In Classic ASP, server-side script code is embedded within HTML using the <% and %> delimiters. Code between these tags is executed on the server before the page is sent to the browser."
+  },
+  {
+    "id": 28,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of the ADO Connection object is used to execute a SQL statement that does not return records?",
+    "options": ["A) Execute method", "B) Open method", "C) Run method", "D) Query method"],
+    "correct_answer": "A) Execute method",
+    "explanation": "The Execute method of the ADO Connection object is used to run SQL statements like INSERT, UPDATE, DELETE that do not return a Recordset. It can also return a Recordset for SELECT queries."
+  },
+  {
+    "id": 29,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default cursor type in an ADO Recordset?",
+    "options": ["A) Forward-only cursor", "B) Static cursor", "C) Dynamic cursor", "D) Keyset cursor"],
+    "correct_answer": "A) Forward-only cursor",
+    "explanation": "The default cursor type in ADO Recordset is the forward-only cursor (adOpenForwardOnly). It allows movement only in the forward direction and is the most efficient cursor type."
+  },
+  {
+    "id": 30,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which OLE DB component is responsible for providing data to consumers?",
+    "options": ["A) Data Provider", "B) Data Consumer", "C) Service Component", "D) Data Broker"],
+    "correct_answer": "A) Data Provider",
+    "explanation": "In OLE DB architecture, a Data Provider exposes data through OLE DB interfaces. Examples include SQLOLEDB for SQL Server and MSDAORA for Oracle. Consumers use providers to access data."
+  },
+  {
+    "id": 31,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ASP object method is used to redirect the user to another page?",
+    "options": ["A) Response.Redirect()", "B) Request.Redirect()", "C) Server.Transfer()", "D) Session.Redirect()"],
+    "correct_answer": "A) Response.Redirect()",
+    "explanation": "Response.Redirect() is used in ASP to redirect the browser to a different URL. It sends an HTTP 302 response to the client, causing the browser to navigate to the new URL."
+  },
+  {
+    "id": 32,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the ADO Errors collection?",
+    "options": ["A) To store errors generated by the data provider", "B) To log application errors to a file", "C) To handle JavaScript errors", "D) To store SQL syntax errors only"],
+    "correct_answer": "A) To store errors generated by the data provider",
+    "explanation": "The ADO Errors collection (part of the Connection object) stores Error objects generated by the data provider during a single operation. Multiple errors can occur from a single ADO call."
+  },
+  {
+    "id": 33,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which property is used to set the connection string in an ADO Connection object?",
+    "options": ["A) ConnectionString", "B) ConnectString", "C) DataSource", "D) DBConnection"],
+    "correct_answer": "A) ConnectionString",
+    "explanation": "The ConnectionString property of the ADO Connection object specifies the information needed to connect to a data source, including provider, server name, database name, and credentials."
+  },
+  {
+    "id": 34,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ODBC, what function is used to allocate an environment handle?",
+    "options": ["A) SQLAllocHandle", "B) SQLConnect", "C) SQLAllocEnv", "D) SQLInit"],
+    "correct_answer": "A) SQLAllocHandle",
+    "explanation": "SQLAllocHandle is the ODBC function used to allocate handles including environment (SQL_HANDLE_ENV), connection (SQL_HANDLE_DBC), and statement (SQL_HANDLE_STMT) handles."
+  },
+  {
+    "id": 35,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid ADO connection string for connecting to Microsoft Access?",
+    "options": ["A) Provider=Microsoft.Jet.OLEDB.4.0;Data Source=mydb.mdb", "B) Driver=Access;Database=mydb.mdb", "C) Provider=MSSQL;Data Source=mydb.mdb", "D) Connection=Access;File=mydb.mdb"],
+    "correct_answer": "A) Provider=Microsoft.Jet.OLEDB.4.0;Data Source=mydb.mdb",
+    "explanation": "For Microsoft Access databases, the OLE DB connection string uses the Jet provider: Provider=Microsoft.Jet.OLEDB.4.0;Data Source=path_to_file.mdb."
+  },
+  {
+    "id": 36,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the BOF property of an ADO Recordset indicate?",
+    "options": ["A) The current position is before the first record", "B) The current position is after the last record", "C) The recordset is empty", "D) The recordset has been closed"],
+    "correct_answer": "A) The current position is before the first record",
+    "explanation": "BOF (Beginning of File) returns True when the current record position is before the first record in the Recordset. Both BOF and EOF being True indicates an empty Recordset."
+  },
+  {
+    "id": 37,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ASP built-in object provides utility functions like CreateObject and MapPath?",
+    "options": ["A) Server object", "B) Application object", "C) Session object", "D) Response object"],
+    "correct_answer": "A) Server object",
+    "explanation": "The ASP Server object provides utility methods including CreateObject() to instantiate COM objects, MapPath() to convert virtual paths to physical paths, and HTMLEncode() for encoding."
+  },
+  {
+    "id": 38,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to create an ADO Connection object in VBScript?",
+    "options": ["A) Set conn = Server.CreateObject(\"ADODB.Connection\")", "B) Set conn = New ADODB.Connection", "C) conn = CreateObject(\"ADO.Connection\")", "D) Set conn = ADODB.CreateConnection()"],
+    "correct_answer": "A) Set conn = Server.CreateObject(\"ADODB.Connection\")",
+    "explanation": "In ASP/VBScript, ADO objects are created using Server.CreateObject() with the ProgID. For the Connection object, the ProgID is \"ADODB.Connection\"."
+  },
+  {
+    "id": 39,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the ODBC Data Source Administrator tool?",
+    "options": ["A) To configure and manage DSN entries on a system", "B) To write SQL queries for databases", "C) To monitor database performance", "D) To backup database files"],
+    "correct_answer": "A) To configure and manage DSN entries on a system",
+    "explanation": "The ODBC Data Source Administrator (odbcad32.exe) is a Windows tool used to create, configure, and manage DSN (Data Source Name) entries that applications use to connect to databases."
+  },
+  {
+    "id": 40,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which ADO lock type allows multiple users to read records but prevents editing?",
+    "options": ["A) adLockReadOnly", "B) adLockOptimistic", "C) adLockPessimistic", "D) adLockBatchOptimistic"],
+    "correct_answer": "A) adLockReadOnly",
+    "explanation": "adLockReadOnly (value=1) is the default ADO lock type that makes the Recordset read-only. Records can be viewed but not modified, making it the most efficient option for read operations."
+  },
+  {
+    "id": 41,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In ADO, what is the difference between adOpenStatic and adOpenDynamic cursor types?",
+    "options": ["A) Static cursor shows a fixed snapshot; Dynamic cursor reflects real-time changes by other users", "B) Static cursor is faster; Dynamic cursor is slower but more secure", "C) Static cursor supports updates; Dynamic cursor is read-only", "D) Static cursor is server-side; Dynamic cursor is client-side"],
+    "correct_answer": "A) Static cursor shows a fixed snapshot; Dynamic cursor reflects real-time changes by other users",
+    "explanation": "adOpenStatic creates a static copy of the data that doesn't reflect changes by other users. adOpenDynamic shows all additions, changes, and deletions made by other users in real-time."
+  },
+  {
+    "id": 42,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of connection pooling in ODBC?",
+    "options": ["A) To reuse existing database connections instead of creating new ones each time", "B) To distribute queries across multiple databases", "C) To cache query results for faster retrieval", "D) To encrypt multiple connections simultaneously"],
+    "correct_answer": "A) To reuse existing database connections instead of creating new ones each time",
+    "explanation": "Connection pooling allows ODBC to maintain a pool of open connections that can be reused by multiple requests, reducing the overhead of creating and destroying connections repeatedly."
+  },
+  {
+    "id": 43,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which OLE DB interface must every rowset object implement?",
+    "options": ["A) IRowset", "B) IDataSource", "C) ICommand", "D) ISession"],
+    "correct_answer": "A) IRowset",
+    "explanation": "IRowset is the mandatory base interface that every OLE DB rowset object must implement. It provides basic methods for fetching rows and releasing row handles."
+  },
+  {
+    "id": 44,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In ADO, what does the CursorLocation property set to adUseClient mean?",
+    "options": ["A) The cursor is managed on the client side using the Microsoft Cursor Engine", "B) The cursor is managed on the database server", "C) The cursor uses client authentication", "D) The cursor is stored in client memory only"],
+    "correct_answer": "A) The cursor is managed on the client side using the Microsoft Cursor Engine",
+    "explanation": "Setting CursorLocation to adUseClient means the cursor is managed by the Microsoft Client Cursor Engine on the client machine, enabling features like disconnected recordsets and batch updates."
+  },
+  {
+    "id": 45,
+    "topic": "ODBC, OLE DB, ADO, and ASP",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a disconnected Recordset in ADO?",
+    "options": ["A) A Recordset that has been detached from its data source but retains its data", "B) A Recordset that failed to connect to the database", "C) A Recordset with no records", "D) A Recordset that cannot be updated"],
+    "correct_answer": "A) A Recordset that has been detached from its data source but retains its data",
+    "explanation": "A disconnected Recordset is created by setting

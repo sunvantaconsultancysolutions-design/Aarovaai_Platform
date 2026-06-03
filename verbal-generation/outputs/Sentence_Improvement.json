@@ -1,0 +1,797 @@
+[
+  {
+    "id": 1,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She is working here since 2010. Choose the best improvement for the underlined part: 'is working'.",
+    "options": [
+      "A) has been working",
+      "B) was working",
+      "C) had been working",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) has been working",
+    "explanation": "With 'since', we use the Present Perfect Continuous tense. 'Has been working' is correct as the action started in the past and continues to the present."
+  },
+  {
+    "id": 2,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He did not had any money to buy food. Choose the best improvement for the underlined part: 'did not had'.",
+    "options": [
+      "A) did not have",
+      "B) had not have",
+      "C) does not had",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) did not have",
+    "explanation": "After auxiliary verb 'did', the main verb must be in base form. 'Did not have' is grammatically correct."
+  },
+  {
+    "id": 3,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The news are very shocking. Choose the best improvement for the underlined part: 'are'.",
+    "options": [
+      "A) is",
+      "B) were",
+      "C) have been",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) is",
+    "explanation": "'News' is an uncountable noun and always takes a singular verb. 'The news is' is the correct form."
+  },
+  {
+    "id": 4,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is too weak that he cannot walk. Choose the best improvement for the underlined part: 'too weak that he cannot'.",
+    "options": [
+      "A) so weak that he cannot",
+      "B) too weak to",
+      "C) very weak that he cannot",
+      "D) No improvement"
+    ],
+    "correct_answer": "B) too weak to",
+    "explanation": "'Too...to' is the correct structure. 'Too weak to walk' means he is unable to walk due to weakness."
+  },
+  {
+    "id": 5,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Neither the manager nor the employees was present. Choose the best improvement for the underlined part: 'was'.",
+    "options": [
+      "A) were",
+      "B) are",
+      "C) have been",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) were",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 6,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "I have seen him yesterday. Choose the best improvement for the underlined part: 'have seen'.",
+    "options": [
+      "A) saw",
+      "B) had seen",
+      "C) see",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) saw",
+    "explanation": "With a specific past time marker like 'yesterday', Simple Past tense is used. 'I saw him yesterday' is correct."
+  },
+  {
+    "id": 7,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She speaks English very good. Choose the best improvement for the underlined part: 'good'.",
+    "options": [
+      "A) well",
+      "B) better",
+      "C) goodly",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) well",
+    "explanation": "'Well' is an adverb and modifies the verb 'speaks'. 'Good' is an adjective and cannot modify a verb."
+  },
+  {
+    "id": 8,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is one of the best player in the team. Choose the best improvement for the underlined part: 'player'.",
+    "options": [
+      "A) players",
+      "B) playing",
+      "C) plays",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) players",
+    "explanation": "'One of the' is always followed by a plural noun. 'One of the best players' is grammatically correct."
+  },
+  {
+    "id": 9,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The teacher along with the students are going on a trip. Choose the best improvement for the underlined part: 'are'.",
+    "options": [
+      "A) is",
+      "B) were",
+      "C) have been",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) is",
+    "explanation": "When 'along with' connects two subjects, the verb agrees with the first subject 'teacher' which is singular, so 'is' is correct."
+  },
+  {
+    "id": 10,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He returned back home after the trip. Choose the best improvement for the underlined part: 'returned back'.",
+    "options": [
+      "A) returned",
+      "B) went back",
+      "C) came back",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) returned",
+    "explanation": "'Returned' already implies going back, so 'back' is redundant. 'He returned home' is the correct sentence."
+  },
+  {
+    "id": 11,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Each of the boys have submitted their homework. Choose the best improvement for the underlined part: 'have'.",
+    "options": [
+      "A) has",
+      "B) had",
+      "C) having",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) has",
+    "explanation": "'Each' is always singular and takes a singular verb. 'Each of the boys has' is grammatically correct."
+  },
+  {
+    "id": 12,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She is more smarter than her sister. Choose the best improvement for the underlined part: 'more smarter'.",
+    "options": [
+      "A) smarter",
+      "B) most smart",
+      "C) more smart",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) smarter",
+    "explanation": "Double comparatives are incorrect. 'Smarter' alone is the correct comparative form of 'smart'."
+  },
+  {
+    "id": 13,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He has been living in Delhi since five years. Choose the best improvement for the underlined part: 'since'.",
+    "options": [
+      "A) for",
+      "B) from",
+      "C) during",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) for",
+    "explanation": "'Since' is used with a point in time, while 'for' is used with a duration. 'Five years' is a duration, so 'for' is correct."
+  },
+  {
+    "id": 14,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The police has arrested the thief. Choose the best improvement for the underlined part: 'has'.",
+    "options": [
+      "A) have",
+      "B) had",
+      "C) having",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) have",
+    "explanation": "'Police' is a collective noun treated as plural in British English. 'The police have' is the correct form."
+  },
+  {
+    "id": 15,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "I prefer tea than coffee. Choose the best improvement for the underlined part: 'than'.",
+    "options": [
+      "A) to",
+      "B) over",
+      "C) from",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) to",
+    "explanation": "'Prefer' is always followed by 'to', not 'than'. 'I prefer tea to coffee' is the correct structure."
+  },
+  {
+    "id": 16,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He was very tired but he could not slept. Choose the best improvement for the underlined part: 'slept'.",
+    "options": [
+      "A) sleep",
+      "B) sleeping",
+      "C) sleeps",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) sleep",
+    "explanation": "After modal verb 'could', the base form of the verb is used. 'Could not sleep' is grammatically correct."
+  },
+  {
+    "id": 17,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The furniture are very expensive. Choose the best improvement for the underlined part: 'are'.",
+    "options": [
+      "A) is",
+      "B) were",
+      "C) have been",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) is",
+    "explanation": "'Furniture' is an uncountable noun and always takes a singular verb. 'The furniture is' is correct."
+  },
+  {
+    "id": 18,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She told me that she will come tomorrow. Choose the best improvement for the underlined part: 'will'.",
+    "options": [
+      "A) would",
+      "B) shall",
+      "C) should",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) would",
+    "explanation": "In reported speech, when the reporting verb is in past tense ('told'), 'will' changes to 'would'."
+  },
+  {
+    "id": 19,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is elder than his brother. Choose the best improvement for the underlined part: 'elder'.",
+    "options": [
+      "A) older",
+      "B) eldest",
+      "C) old",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) older",
+    "explanation": "'Elder' is used without 'than'. When 'than' is used, 'older' is the correct comparative form."
+  },
+  {
+    "id": 20,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The boy which won the prize is my friend. Choose the best improvement for the underlined part: 'which'.",
+    "options": [
+      "A) who",
+      "B) whom",
+      "C) whose",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) who",
+    "explanation": "'Who' is used for persons as the subject of a relative clause. 'Which' is used for things, not people."
+  },
+  {
+    "id": 21,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She has a lot of informations about the topic. Choose the best improvement for the underlined part: 'informations'.",
+    "options": [
+      "A) information",
+      "B) informing",
+      "C) informed",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) information",
+    "explanation": "'Information' is an uncountable noun and has no plural form. 'A lot of information' is correct."
+  },
+  {
+    "id": 22,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is working in this company from last year. Choose the best improvement for the underlined part: 'from'.",
+    "options": [
+      "A) since",
+      "B) for",
+      "C) during",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) since",
+    "explanation": "'Since' is used with a specific point in time like 'last year'. 'From' is not used in this context with present perfect."
+  },
+  {
+    "id": 23,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is a honest man. Choose the best improvement for the underlined part: 'a'.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) some",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) an",
+    "explanation": "'Honest' begins with a vowel sound /ɒ/, so the article 'an' must be used before it."
+  },
+  {
+    "id": 24,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She insisted to go alone. Choose the best improvement for the underlined part: 'to go'.",
+    "options": [
+      "A) on going",
+      "B) for going",
+      "C) in going",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) on going",
+    "explanation": "'Insist' is followed by the preposition 'on' and a gerund. 'Insisted on going' is the correct structure."
+  },
+  {
+    "id": 25,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He plays cricket good. Choose the best improvement for the underlined part: 'good'.",
+    "options": [
+      "A) well",
+      "B) better",
+      "C) best",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) well",
+    "explanation": "'Well' is an adverb used to modify the verb 'plays'. 'Good' is an adjective and cannot modify a verb."
+  },
+  {
+    "id": 26,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The committee have decided to postpone the meeting. Choose the best improvement for the underlined part: 'have'.",
+    "options": [
+      "A) has",
+      "B) had",
+      "C) having",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) has",
+    "explanation": "When a collective noun like 'committee' acts as a single unit, it takes a singular verb. 'The committee has' is correct."
+  },
+  {
+    "id": 27,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is used to work late at night. Choose the best improvement for the underlined part: 'work'.",
+    "options": [
+      "A) working",
+      "B) worked",
+      "C) works",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) working",
+    "explanation": "'Be used to' is followed by a gerund (verb+ing). 'Is used to working' is the correct structure."
+  },
+  {
+    "id": 28,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She is looking forward to meet you. Choose the best improvement for the underlined part: 'meet'.",
+    "options": [
+      "A) meeting",
+      "B) met",
+      "C) meets",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) meeting",
+    "explanation": "'Look forward to' is a phrasal verb followed by a gerund. 'Looking forward to meeting' is correct."
+  },
+  {
+    "id": 29,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He denied to have stolen the money. Choose the best improvement for the underlined part: 'to have stolen'.",
+    "options": [
+      "A) having stolen",
+      "B) to steal",
+      "C) stealing",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) having stolen",
+    "explanation": "'Deny' is followed by a gerund, not an infinitive. 'Denied having stolen' is the correct form."
+  },
+  {
+    "id": 30,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The scissors is on the table. Choose the best improvement for the underlined part: 'is'.",
+    "options": [
+      "A) are",
+      "B) was",
+      "C) has been",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) are",
+    "explanation": "'Scissors' is a plural noun (always used in plural form) and takes a plural verb. 'The scissors are' is correct."
+  },
+  {
+    "id": 31,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He could not cope up with the pressure. Choose the best improvement for the underlined part: 'cope up with'.",
+    "options": [
+      "A) cope with",
+      "B) cope up",
+      "C) cope in",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) cope with",
+    "explanation": "The correct phrasal verb is 'cope with', not 'cope up with'. 'Up' is redundant here."
+  },
+  {
+    "id": 32,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "I am knowing him for a long time. Choose the best improvement for the underlined part: 'am knowing'.",
+    "options": [
+      "A) have known",
+      "B) know",
+      "C) knew",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) have known",
+    "explanation": "Stative verbs like 'know' are not used in continuous tense. With 'for a long time', Present Perfect 'have known' is correct."
+  },
+  {
+    "id": 33,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She is married with a doctor. Choose the best improvement for the underlined part: 'with'.",
+    "options": [
+      "A) to",
+      "B) by",
+      "C) for",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) to",
+    "explanation": "'Married' is always followed by the preposition 'to'. 'She is married to a doctor' is correct."
+  },
+  {
+    "id": 34,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He was very much tired after the race. Choose the best improvement for the underlined part: 'very much'.",
+    "options": [
+      "A) very",
+      "B) too much",
+      "C) so much",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) very",
+    "explanation": "'Very much' is used before verbs, not adjectives. 'Very tired' is the correct form with an adjective."
+  },
+  {
+    "id": 35,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is the most tallest boy in the class. Choose the best improvement for the underlined part: 'most tallest'.",
+    "options": [
+      "A) tallest",
+      "B) most tall",
+      "C) taller",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) tallest",
+    "explanation": "Double superlatives are incorrect. 'Tallest' alone is the correct superlative form of 'tall'."
+  },
+  {
+    "id": 36,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She suggested me to take rest. Choose the best improvement for the underlined part: 'suggested me to take'.",
+    "options": [
+      "A) suggested that I should take",
+      "B) suggested me taking",
+      "C) suggested to me to take",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) suggested that I should take",
+    "explanation": "'Suggest' cannot be followed by an object + infinitive. The correct structure is 'suggest + that clause'."
+  },
+  {
+    "id": 37,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is suffering from fever since Monday. Choose the best improvement for the underlined part: 'is suffering'.",
+    "options": [
+      "A) has been suffering",
+      "B) was suffering",
+      "C) had been suffering",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) has been suffering",
+    "explanation": "With 'since', Present Perfect Continuous is used for an ongoing action. 'Has been suffering since Monday' is correct."
+  },
+  {
+    "id": 38,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is good in mathematics. Choose the best improvement for the underlined part: 'in'.",
+    "options": [
+      "A) at",
+      "B) for",
+      "C) with",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) at",
+    "explanation": "'Good at' is the correct collocation when referring to a skill or subject. 'Good at mathematics' is correct."
+  },
+  {
+    "id": 39,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The thief ran fastly when he saw the police. Choose the best improvement for the underlined part: 'fastly'.",
+    "options": [
+      "A) fast",
+      "B) faster",
+      "C) fastest",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) fast",
+    "explanation": "'Fast' is both an adjective and an adverb. 'Fastly' is not a standard English word."
+  },
+  {
+    "id": 40,
+    "topic": "Sentence Improvement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He has completed his work, isn't it? Choose the best improvement for the underlined part: 'isn't it'.",
+    "options": [
+      "A) hasn't he",
+      "B) didn't he",
+      "C) doesn't he",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) hasn't he",
+    "explanation": "The question tag for 'He has completed' should be 'hasn't he'. The auxiliary 'has' is negated in the tag."
+  },
+  {
+    "id": 41,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "No sooner did he arrive than the meeting was started. Choose the best improvement for the underlined part: 'was started'.",
+    "options": [
+      "A) started",
+      "B) had started",
+      "C) starts",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) started",
+    "explanation": "In 'No sooner...than' constructions, the second clause uses Simple Past. 'The meeting started' is correct."
+  },
+  {
+    "id": 42,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Hardly had he entered the room when the lights went off. Choose the best improvement for the underlined part: 'when'.",
+    "options": [
+      "A) than",
+      "B) then",
+      "C) before",
+      "D) No improvement"
+    ],
+    "correct_answer": "D) No improvement",
+    "explanation": "'Hardly...when' is the correct idiomatic structure. The sentence is grammatically correct as it stands."
+  },
+  {
+    "id": 43,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The report must be submitted by Monday, otherwise you will be penalised. Choose the best improvement for the underlined part: 'otherwise'.",
+    "options": [
+      "A) or else",
+      "B) else",
+      "C) or",
+      "D) No improvement"
+    ],
+    "correct_answer": "D) No improvement",
+    "explanation": "'Otherwise' is correctly used here as a conjunction meaning 'or else'. The sentence is grammatically correct."
+  },
+  {
+    "id": 44,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She would have passed if she had studied harder. Choose the best improvement for the underlined part: 'would have passed'.",
+    "options": [
+      "A) No improvement",
+      "B) would pass",
+      "C) will have passed",
+      "D) had passed"
+    ],
+    "correct_answer": "A) No improvement",
+    "explanation": "This is a third conditional sentence. 'Would have passed...had studied' is the correct structure for past unreal conditions."
+  },
+  {
+    "id": 45,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "He is too proud to admit his mistakes. Choose the best improvement for the underlined part: 'too proud to admit'.",
+    "options": [
+      "A) No improvement",
+      "B) so proud that he cannot admit",
+      "C) very proud to admit",
+      "D) too proud that he cannot admit"
+    ],
+    "correct_answer": "A) No improvement",
+    "explanation": "'Too...to' is a correct structure meaning 'so...that...cannot'. The sentence is grammatically correct."
+  },
+  {
+    "id": 46,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The accused was found guilty and was sentenced for life imprisonment. Choose the best improvement for the underlined part: 'for'.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) by",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) to",
+    "explanation": "'Sentenced to' is the correct collocation. One is sentenced 'to' a punishment, not 'for' it."
+  },
+  {
+    "id": 47,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "He not only lost his job but also his house. Choose the best improvement for the underlined part: 'not only lost his job but also his house'.",
+    "options": [
+      "A) lost not only his job but also his house",
+      "B) not only lost his job but his house also",
+      "C) lost not only his job but his house also",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) lost not only his job but also his house",
+    "explanation": "In 'not only...but also' constructions, the correlative conjunctions must connect parallel grammatical elements."
+  },
+  {
+    "id": 48,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Despite of his illness, he attended the meeting. Choose the best improvement for the underlined part: 'Despite of'.",
+    "options": [
+      "A) Despite",
+      "B) In spite",
+      "C) Although",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) Despite",
+    "explanation": "'Despite' is never followed by 'of'. The correct usage is 'Despite his illness' or 'In spite of his illness'."
+  },
+  {
+    "id": 49,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The minister, together with his aides, were present at the function. Choose the best improvement for the underlined part: 'were'.",
+    "options": [
+      "A) was",
+      "B) are",
+      "C) have been",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) was",
+    "explanation": "When 'together with' connects subjects, the verb agrees with the first subject 'minister' (singular), so 'was' is correct."
+  },
+  {
+    "id": 50,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "He is used to get up early in the morning. Choose the best improvement for the underlined part: 'get up'.",
+    "options": [
+      "A) getting up",
+      "B) got up",
+      "C) gets up",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) getting up",
+    "explanation": "'Be used to' is followed by a gerund (verb+ing). 'Is used to getting up' is the correct structure."
+  },
+  {
+    "id": 51,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Had I known about the problem, I would have helped you. Choose the best improvement for the underlined part: 'Had I known'.",
+    "options": [
+      "A) No improvement",
+      "B) If I had known",
+      "C) If I knew",
+      "D) If I would have known"
+    ],
+    "correct_answer": "A) No improvement",
+    "explanation": "'Had I known' is an inverted conditional structure equivalent to 'If I had known'. Both are correct; the original is fine."
+  },
+  {
+    "id": 52,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "She is more intelligent than any student in the class. Choose the best improvement for the underlined part: 'any student'.",
+    "options": [
+      "A) any other student",
+      "B) all students",
+      "C) every student",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) any other student",
+    "explanation": "When comparing a person with others in the same group, 'any other' must be used to avoid a logical contradiction."
+  },
+  {
+    "id": 53,
+    "topic": "Sentence Improvement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The number of accidents have increased this year. Choose the best improvement for the underlined part: 'have'.",
+    "options": [
+      "A) has",
+      "B) had",
+      "C) having",
+      "D) No improvement"
+    ],
+    "correct_answer": "A) has",
+    "explanation": "'The number of' takes a singular verb. 'The number of accidents has increased' is correct. (Contrast: 'A number of' takes plural.)"
+  }
+]

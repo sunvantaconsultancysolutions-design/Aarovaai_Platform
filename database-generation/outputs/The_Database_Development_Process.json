@@ -1,0 +1,501 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which phase of the database development process involves gathering and analyzing user requirements?",
+    "options": ["A) Physical Design", "B) Requirements Analysis", "C) Implementation", "D) Normalization"],
+    "correct_answer": "B) Requirements Analysis",
+    "explanation": "Requirements Analysis is the phase where developers gather and analyze what users need from the database system before any design begins."
+  },
+  {
+    "id": 2,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary output of the conceptual design phase in database development?",
+    "options": ["A) SQL Scripts", "B) Entity-Relationship Diagram", "C) Normalized Tables", "D) Index Structures"],
+    "correct_answer": "B) Entity-Relationship Diagram",
+    "explanation": "The conceptual design phase produces an ER diagram that represents entities, attributes, and relationships at a high level without implementation details."
+  },
+  {
+    "id": 3,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct order of phases in the database development lifecycle?",
+    "options": ["A) Design → Requirements → Implementation → Testing", "B) Requirements → Design → Implementation → Testing", "C) Implementation → Design → Requirements → Testing", "D) Testing → Requirements → Design → Implementation"],
+    "correct_answer": "B) Requirements → Design → Implementation → Testing",
+    "explanation": "The standard SDLC for databases follows: Requirements Analysis → Design → Implementation → Testing → Maintenance."
+  },
+  {
+    "id": 4,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database development, what does DBMS stand for?",
+    "options": ["A) Data Base Management System", "B) Data Base Monitoring System", "C) Data Backup Management System", "D) Dynamic Base Management System"],
+    "correct_answer": "A) Data Base Management System",
+    "explanation": "DBMS stands for Database Management System, which is software used to create, manage, and interact with databases."
+  },
+  {
+    "id": 5,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which design phase converts an ER diagram into relational tables?",
+    "options": ["A) Conceptual Design", "B) Physical Design", "C) Logical Design", "D) Requirements Analysis"],
+    "correct_answer": "C) Logical Design",
+    "explanation": "Logical Design converts the ER diagram into relational schema (tables, columns, keys) without considering physical storage details."
+  },
+  {
+    "id": 6,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a primary key in a relational database?",
+    "options": ["A) A key that references another table", "B) A key that uniquely identifies each record in a table", "C) A key used for encryption", "D) A key that allows duplicate values"],
+    "correct_answer": "B) A key that uniquely identifies each record in a table",
+    "explanation": "A primary key uniquely identifies each row in a table and cannot contain NULL values or duplicates."
+  },
+  {
+    "id": 7,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates partial dependencies?",
+    "options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "B) Second Normal Form (2NF)",
+    "explanation": "2NF eliminates partial dependencies by ensuring every non-key attribute is fully functionally dependent on the entire primary key."
+  },
+  {
+    "id": 8,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a foreign key used for in database design?",
+    "options": ["A) To encrypt data", "B) To establish a link between two tables", "C) To speed up queries", "D) To store binary data"],
+    "correct_answer": "B) To establish a link between two tables",
+    "explanation": "A foreign key in one table references the primary key of another table, establishing referential integrity between the two tables."
+  },
+  {
+    "id": 9,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a phase in the database development process?",
+    "options": ["A) Requirements Analysis", "B) Conceptual Design", "C) Marketing Analysis", "D) Physical Design"],
+    "correct_answer": "C) Marketing Analysis",
+    "explanation": "Marketing Analysis is not part of the database development process. The phases include Requirements Analysis, Conceptual Design, Logical Design, Physical Design, and Implementation."
+  },
+  {
+    "id": 10,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does an entity represent in an ER diagram?",
+    "options": ["A) A relationship between tables", "B) A real-world object or concept", "C) A column in a table", "D) A stored procedure"],
+    "correct_answer": "B) A real-world object or concept",
+    "explanation": "An entity in an ER diagram represents a real-world object or concept (e.g., Student, Employee) that has attributes and can be stored in a database."
+  },
+  {
+    "id": 11,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which symbol is used to represent an entity in an ER diagram?",
+    "options": ["A) Circle", "B) Diamond", "C) Rectangle", "D) Triangle"],
+    "correct_answer": "C) Rectangle",
+    "explanation": "In ER diagrams, entities are represented by rectangles, attributes by ellipses/circles, and relationships by diamonds."
+  },
+  {
+    "id": 12,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is data redundancy in a database?",
+    "options": ["A) Storing data in encrypted format", "B) Storing the same data in multiple places unnecessarily", "C) Backing up data regularly", "D) Indexing data for fast retrieval"],
+    "correct_answer": "B) Storing the same data in multiple places unnecessarily",
+    "explanation": "Data redundancy occurs when the same piece of data is stored in multiple locations, leading to inconsistency and wasted storage space."
+  },
+  {
+    "id": 13,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of normalization in database design?",
+    "options": ["A) To increase data redundancy", "B) To reduce data redundancy and improve data integrity", "C) To speed up physical storage", "D) To create backup copies of data"],
+    "correct_answer": "B) To reduce data redundancy and improve data integrity",
+    "explanation": "Normalization organizes database tables to reduce redundancy and dependency, improving data integrity and consistency."
+  },
+  {
+    "id": 14,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a schema in database development?",
+    "options": ["A) A backup of the database", "B) The logical structure or blueprint of the database", "C) A query language command", "D) A type of index"],
+    "correct_answer": "B) The logical structure or blueprint of the database",
+    "explanation": "A schema defines the logical structure of the database including tables, columns, data types, and relationships."
+  },
+  {
+    "id": 15,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the physical design phase, which of the following is determined?",
+    "options": ["A) User requirements", "B) Entity relationships", "C) Storage structures and access methods", "D) Business rules"],
+    "correct_answer": "C) Storage structures and access methods",
+    "explanation": "Physical design determines how data will be physically stored, including file organization, indexing strategies, and storage allocation."
+  },
+  {
+    "id": 16,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a data dictionary in database development?",
+    "options": ["A) A glossary of SQL commands", "B) A repository of metadata about the database structure", "C) A list of all users", "D) A backup storage location"],
+    "correct_answer": "B) A repository of metadata about the database structure",
+    "explanation": "A data dictionary stores metadata (data about data) including table names, column names, data types, constraints, and relationships."
+  },
+  {
+    "id": 17,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which relationship type exists when one record in Table A can relate to many records in Table B, and one record in Table B can relate to many records in Table A?",
+    "options": ["A) One-to-One", "B) One-to-Many", "C) Many-to-Many", "D) Self-referencing"],
+    "correct_answer": "C) Many-to-Many",
+    "explanation": "A Many-to-Many relationship means multiple records in one table relate to multiple records in another table, typically resolved using a junction table."
+  },
+  {
+    "id": 18,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DDL stand for in database development?",
+    "options": ["A) Data Definition Language", "B) Data Display Language", "C) Dynamic Data Language", "D) Data Deletion Language"],
+    "correct_answer": "A) Data Definition Language",
+    "explanation": "DDL (Data Definition Language) includes SQL commands like CREATE, ALTER, and DROP used to define and modify database structures."
+  },
+  {
+    "id": 19,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to create a new table in a database?",
+    "options": ["A) INSERT TABLE", "B) MAKE TABLE", "C) CREATE TABLE", "D) BUILD TABLE"],
+    "correct_answer": "C) CREATE TABLE",
+    "explanation": "CREATE TABLE is the DDL command used to create a new table in a relational database with specified columns and data types."
+  },
+  {
+    "id": 20,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is referential integrity in database design?",
+    "options": ["A) Ensuring all data is encrypted", "B) Ensuring foreign key values match primary key values in the referenced table", "C) Ensuring all tables have indexes", "D) Ensuring data is backed up regularly"],
+    "correct_answer": "B) Ensuring foreign key values match primary key values in the referenced table",
+    "explanation": "Referential integrity ensures that a foreign key value in one table always corresponds to an existing primary key value in the referenced table."
+  },
+  {
+    "id": 21,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a conceptual data model?",
+    "options": ["A) Relational Model", "B) Entity-Relationship Model", "C) Hierarchical Model", "D) Network Model"],
+    "correct_answer": "B) Entity-Relationship Model",
+    "explanation": "The Entity-Relationship (ER) Model is a conceptual data model used to represent the high-level structure of a database independent of any DBMS."
+  },
+  {
+    "id": 22,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a tuple in a relational database?",
+    "options": ["A) A column in a table", "B) A row or record in a table", "C) A database constraint", "D) A type of index"],
+    "correct_answer": "B) A row or record in a table",
+    "explanation": "In relational database terminology, a tuple refers to a single row or record in a relation (table)."
+  },
+  {
+    "id": 23,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of a good database design?",
+    "options": ["A) High data redundancy", "B) Minimal data integrity", "C) Data independence", "D) Complex user interfaces"],
+    "correct_answer": "C) Data independence",
+    "explanation": "Data independence means changes to the physical storage do not affect the logical schema, and changes to the logical schema do not affect applications."
+  },
+  {
+    "id": 24,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a Database Administrator (DBA) in the database development process?",
+    "options": ["A) Writing application code only", "B) Managing, maintaining, and securing the database", "C) Designing user interfaces", "D) Performing market research"],
+    "correct_answer": "B) Managing, maintaining, and securing the database",
+    "explanation": "A DBA is responsible for database design, implementation, maintenance, performance tuning, backup, recovery, and security."
+  },
+  {
+    "id": 25,
+    "topic": "The Database Development Process",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a relational database?",
+    "options": ["A) Data stored in a hierarchical tree structure", "B) Data organized in tables with rows and columns", "C) Data stored as key-value pairs only", "D) Data stored in flat files"],
+    "correct_answer": "B) Data organized in tables with rows and columns",
+    "explanation": "A relational database organizes data into tables (relations) consisting of rows (tuples) and columns (attributes), linked by keys."
+  },
+  {
+    "id": 26,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In the database development process, which technique is used to identify functional dependencies between attributes?",
+    "options": ["A) Entity clustering", "B) Attribute analysis", "C) Functional dependency analysis", "D) Index profiling"],
+    "correct_answer": "C) Functional dependency analysis",
+    "explanation": "Functional dependency analysis identifies how one attribute determines another (X → Y), which is the foundation for normalization."
+  },
+  {
+    "id": 27,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A table has attributes {StudentID, CourseID, StudentName, CourseName, Grade}. StudentID → StudentName and CourseID → CourseName. What normal form violation exists?",
+    "options": ["A) 1NF violation", "B) 2NF violation", "C) 3NF violation", "D) BCNF violation"],
+    "correct_answer": "B) 2NF violation",
+    "explanation": "The composite key is (StudentID, CourseID). StudentName depends only on StudentID and CourseName only on CourseID — these are partial dependencies, violating 2NF."
+  },
+  {
+    "id": 28,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following anomalies occurs when deleting a record causes unintended loss of other data?",
+    "options": ["A) Insertion anomaly", "B) Update anomaly", "C) Deletion anomaly", "D) Retrieval anomaly"],
+    "correct_answer": "C) Deletion anomaly",
+    "explanation": "A deletion anomaly occurs when removing a record unintentionally deletes other important data that was stored in the same row."
+  },
+  {
+    "id": 29,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In ER modeling, what is a weak entity?",
+    "options": ["A) An entity with no attributes", "B) An entity that cannot be uniquely identified without a related strong entity", "C) An entity with only one attribute", "D) An entity that has no relationships"],
+    "correct_answer": "B) An entity that cannot be uniquely identified without a related strong entity",
+    "explanation": "A weak entity depends on a strong (owner) entity for its identification and uses a partial key combined with the owner's primary key."
+  },
+  {
+    "id": 30,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between logical and physical data independence?",
+    "options": ["A) Logical independence relates to hardware; physical to software", "B) Logical independence allows schema changes without affecting applications; physical allows storage changes without affecting schema", "C) They are the same concept", "D) Physical independence relates to user views; logical to storage"],
+    "correct_answer": "B) Logical independence allows schema changes without affecting applications; physical allows storage changes without affecting schema",
+    "explanation": "Logical data independence shields applications from logical schema changes; physical data independence shields the logical schema from physical storage changes."
+  },
+  {
+    "id": 31,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about the BCNF (Boyce-Codd Normal Form)?",
+    "options": ["A) It is weaker than 3NF", "B) Every determinant must be a candidate key", "C) It allows transitive dependencies", "D) It only applies to tables with single-column primary keys"],
+    "correct_answer": "B) Every determinant must be a candidate key",
+    "explanation": "BCNF requires that for every functional dependency X → Y, X must be a superkey (candidate key), making it stricter than 3NF."
+  },
+  {
+    "id": 32,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "During requirements analysis, which document formally captures the functional and non-functional requirements of a database system?",
+    "options": ["A) ER Diagram", "B) System Requirements Specification (SRS)", "C) Data Flow Diagram", "D) Physical Schema"],
+    "correct_answer": "B) System Requirements Specification (SRS)",
+    "explanation": "The SRS document formally captures all functional and non-functional requirements gathered during the requirements analysis phase."
+  },
+  {
+    "id": 33,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a surrogate key in database design?",
+    "options": ["A) A natural key derived from business data", "B) A system-generated artificial key with no business meaning", "C) A composite key made of multiple columns", "D) A foreign key referencing another table"],
+    "correct_answer": "B) A system-generated artificial key with no business meaning",
+    "explanation": "A surrogate key is an artificially generated identifier (e.g., auto-increment integer) used as a primary key when no suitable natural key exists."
+  },
+  {
+    "id": 34,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In database development, what is the purpose of a junction (bridge) table?",
+    "options": ["A) To store audit logs", "B) To resolve many-to-many relationships", "C) To store temporary data", "D) To index large tables"],
+    "correct_answer": "B) To resolve many-to-many relationships",
+    "explanation": "A junction table resolves many-to-many relationships by containing foreign keys from both related tables, converting it into two one-to-many relationships."
+  },
+  {
+    "id": 35,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is a non-functional requirement in database development?",
+    "options": ["A) The system must store customer orders", "B) The system must respond to queries within 2 seconds", "C) The system must generate monthly reports", "D) The system must allow user login"],
+    "correct_answer": "B) The system must respond to queries within 2 seconds",
+    "explanation": "Non-functional requirements specify system qualities like performance, security, and scalability. Response time is a performance (non-functional) requirement."
+  },
+  {
+    "id": 36,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is denormalization in database design?",
+    "options": ["A) Converting a database to 3NF", "B) Intentionally introducing redundancy to improve query performance", "C) Removing all foreign keys", "D) Splitting tables into smaller ones"],
+    "correct_answer": "B) Intentionally introducing redundancy to improve query performance",
+    "explanation": "Denormalization deliberately adds redundancy to a normalized database to reduce complex joins and improve read performance, trading storage for speed."
+  },
+  {
+    "id": 37,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In the three-schema architecture, which schema describes how data is physically stored?",
+    "options": ["A) External Schema", "B) Conceptual Schema", "C) Internal Schema", "D) Logical Schema"],
+    "correct_answer": "C) Internal Schema",
+    "explanation": "The three-schema architecture has: External (user views), Conceptual (logical structure), and Internal (physical storage) schemas."
+  },
+  {
+    "id": 38,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes a transitive dependency?",
+    "options": ["A) A → B and B → A", "B) A → B and B → C, implying A → C", "C) A → B where A is a partial key", "D) A → B where B is a primary key"],
+    "correct_answer": "B) A → B and B → C, implying A → C",
+    "explanation": "A transitive dependency occurs when a non-key attribute determines another non-key attribute (A → B → C), violating 3NF."
+  },
+  {
+    "id": 39,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of an index in a database?",
+    "options": ["A) To enforce referential integrity", "B) To speed up data retrieval operations", "C) To normalize data", "D) To encrypt sensitive columns"],
+    "correct_answer": "B) To speed up data retrieval operations",
+    "explanation": "An index is a data structure that improves the speed of data retrieval operations on a table at the cost of additional storage and slower writes."
+  },
+  {
+    "id": 40,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a view in a relational database?",
+    "options": ["A) A physical copy of a table", "B) A virtual table based on a SELECT query", "C) A stored procedure", "D) A type of index"],
+    "correct_answer": "B) A virtual table based on a SELECT query",
+    "explanation": "A view is a virtual table defined by a stored SQL query. It does not store data physically but presents data from one or more tables."
+  },
+  {
+    "id": 41,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A relation R(A, B, C, D) has functional dependencies: A → B, B → C, A → D. What is the minimal key (candidate key)?",
+    "options": ["A) {A, B}", "B) {A}", "C) {A, C}", "D) {B, D}"],
+    "correct_answer": "B) {A}",
+    "explanation": "From A, we can derive B (A→B), C (B→C via transitivity), and D (A→D). So A alone determines all attributes, making {A} the candidate key."
+  },
+  {
+    "id": 42,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "During logical design, a many-to-many relationship between STUDENT and COURSE is resolved. How many tables result?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 1"],
+    "correct_answer": "B) 3",
+    "explanation": "A many-to-many relationship requires a junction table. So: STUDENT table + COURSE table + ENROLLMENT (junction) table = 3 tables total."
+  },
+  {
+    "id": 43,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of an insertion anomaly?",
+    "options": ["A) Updating one record changes data in another unrelated record", "B) Unable to add a new course unless at least one student is enrolled", "C) Deleting a student removes course information", "D) Two records have the same primary key"],
+    "correct_answer": "B) Unable to add a new course unless at least one student is enrolled",
+    "explanation": "An insertion anomaly occurs when you cannot insert data about one entity without having data about another entity in the same table."
+  },
+  {
+    "id": 44,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the closure of attribute set {A} given FDs: A → B, B → C, C → D in relation R(A,B,C,D)?",
+    "options": ["A) {A, B}", "B) {A, B, C}", "C) {A, B, C, D}", "D) {A}"],
+    "correct_answer": "C) {A, B, C, D}",
+    "explanation": "Starting with {A}: A→B gives {A,B}; B→C gives {A,B,C}; C→D gives {A,B,C,D}. The closure of A is {A,B,C,D}."
+  },
+  {
+    "id": 45,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In database development, what is the purpose of a data flow diagram (DFD)?",
+    "options": ["A) To show physical storage structures", "B) To represent how data flows through a system", "C) To define primary and foreign keys", "D) To show the ER model"],
+    "correct_answer": "B) To represent how data flows through a system",
+    "explanation": "A DFD shows how data moves through a system, including processes, data stores, external entities, and data flows between them."
+  },
+  {
+    "id": 46,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about the Fourth Normal Form (4NF)?",
+    "options": ["A) It eliminates partial dependencies", "B) It eliminates multi-valued dependencies", "C) It eliminates transitive dependencies", "D) It eliminates join dependencies"],
+    "correct_answer": "B) It eliminates multi-valued dependencies",
+    "explanation": "4NF eliminates multi-valued dependencies, which occur when one attribute independently determines multiple values of two other attributes."
+  },
+  {
+    "id": 47,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between a candidate key and a primary key?",
+    "options": ["A) They are identical concepts", "B) A candidate key is any minimal superkey; a primary key is the chosen candidate key", "C) A primary key can have NULL values; a candidate key cannot", "D) A candidate key references another table"],
+    "correct_answer": "B) A candidate key is any minimal superkey; a primary key is the chosen candidate key",
+    "explanation": "Multiple candidate keys may exist in a table; the database designer selects one as the primary key. Primary keys cannot be NULL."
+  },
+  {
+    "id": 48,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In the context of database development, what is a prototype?",
+    "options": ["A) The final production database", "B) A preliminary working model used to validate requirements", "C) A backup copy of the database", "D) A type of stored procedure"],
+    "correct_answer": "B) A preliminary working model used to validate requirements",
+    "explanation": "A prototype is an early working model of the database system built to validate requirements and gather user feedback before full development."
+  },
+  {
+    "id": 49,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes the concept of cardinality in ER modeling?",
+    "options": ["A) The number of attributes in an entity", "B) The number of instances of one entity that can relate to instances of another entity", "C) The number of tables in a database", "D) The size of a data type"],
+    "correct_answer": "B) The number of instances of one entity that can relate to instances of another entity",
+    "explanation": "Cardinality defines the numerical relationship between entity instances, such as one-to-one, one-to-many, or many-to-many."
+  },
+  {
+    "id": 50,
+    "topic": "The Database Development Process",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a composite attribute in ER modeling?",
+    "options": ["A) An attribute that can have multiple values", "B) An attribute that can be divided into smaller sub-attributes", "C) An attribute derived from other attributes", "D) An attribute that uniquely identifies an entity"],
+    "correct_answer": "B) An attribute that can be divided into smaller sub-attributes",
+    "explanation": "A composite attribute can be broken down into smaller parts

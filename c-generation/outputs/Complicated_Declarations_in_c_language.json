@@ -1,0 +1,463 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the declaration 'int *p;' mean in C?",
+    "options": ["A) p is a pointer to an integer", "B) p is an integer", "C) p is an array of integers", "D) p is a reference to an integer"],
+    "correct_answer": "A) p is a pointer to an integer",
+    "explanation": "'int *p;' declares p as a pointer that holds the address of an integer variable. The * operator indicates it is a pointer type."
+  },
+  {
+    "id": 2,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int arr[10];' declare in C?",
+    "options": ["A) A pointer to 10 integers", "B) An array of 10 integers", "C) A function returning 10 integers", "D) A structure with 10 integer fields"],
+    "correct_answer": "B) An array of 10 integers",
+    "explanation": "'int arr[10];' declares arr as an array of 10 elements, each of type int. The size 10 is specified inside square brackets."
+  },
+  {
+    "id": 3,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int *arr[5];' declare?",
+    "options": ["A) A pointer to an array of 5 integers", "B) An array of 5 pointers to integers", "C) A function returning a pointer", "D) A 2D array of integers"],
+    "correct_answer": "B) An array of 5 pointers to integers",
+    "explanation": "In 'int *arr[5];', [] has higher precedence than *, so arr is first an array of 5 elements, each being a pointer to int."
+  },
+  {
+    "id": 4,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int (*ptr)[5];' declare?",
+    "options": ["A) An array of 5 integer pointers", "B) A pointer to an array of 5 integers", "C) A function pointer", "D) A pointer to a pointer"],
+    "correct_answer": "B) A pointer to an array of 5 integers",
+    "explanation": "Parentheses force ptr to be a pointer first. So 'int (*ptr)[5];' means ptr is a pointer to an array of 5 integers."
+  },
+  {
+    "id": 5,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'const int *p;' mean?",
+    "options": ["A) p is a constant pointer to int", "B) p is a pointer to a constant integer", "C) Both p and the value are constant", "D) p is a constant integer"],
+    "correct_answer": "B) p is a pointer to a constant integer",
+    "explanation": "In 'const int *p;', the const applies to the integer being pointed to, not to the pointer itself. So the value cannot be changed via p."
+  },
+  {
+    "id": 6,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int * const p;' mean?",
+    "options": ["A) p is a pointer to a constant integer", "B) p is a constant pointer to an integer", "C) Both p and the value are constant", "D) p is a constant integer"],
+    "correct_answer": "B) p is a constant pointer to an integer",
+    "explanation": "In 'int * const p;', const is placed after *, making the pointer itself constant. The pointer cannot be reassigned, but the value it points to can change."
+  },
+  {
+    "id": 7,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'void *p;' declare?",
+    "options": ["A) A pointer to void (generic pointer)", "B) A null pointer", "C) A pointer to a function", "D) An uninitialized pointer"],
+    "correct_answer": "A) A pointer to void (generic pointer)",
+    "explanation": "'void *p;' declares a generic pointer that can point to any data type. It must be cast before dereferencing."
+  },
+  {
+    "id": 8,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int **p;' declare?",
+    "options": ["A) A pointer to an integer", "B) A pointer to a pointer to an integer", "C) A 2D array of integers", "D) A double integer"],
+    "correct_answer": "B) A pointer to a pointer to an integer",
+    "explanation": "'int **p;' declares p as a pointer to a pointer to int. It is used for dynamic 2D arrays or to pass pointer by reference."
+  },
+  {
+    "id": 9,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int func(int, int);' declare?",
+    "options": ["A) A function pointer", "B) A function that takes two ints and returns an int", "C) A function that returns two integers", "D) A macro definition"],
+    "correct_answer": "B) A function that takes two ints and returns an int",
+    "explanation": "'int func(int, int);' is a function prototype declaring func as a function accepting two int parameters and returning an int."
+  },
+  {
+    "id": 10,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int (*fp)(int, int);' declare?",
+    "options": ["A) A function returning a pointer", "B) A pointer to a function taking two ints and returning int", "C) An array of function pointers", "D) A function taking a pointer argument"],
+    "correct_answer": "B) A pointer to a function taking two ints and returning int",
+    "explanation": "Parentheses around *fp make fp a pointer. The rest '(int, int)' and return type 'int' describe the function signature it points to."
+  },
+  {
+    "id": 11,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which rule is used to read complex C declarations?",
+    "options": ["A) Left-to-right rule", "B) Clockwise/spiral rule", "C) Right-to-left rule", "D) Top-down rule"],
+    "correct_answer": "B) Clockwise/spiral rule",
+    "explanation": "The clockwise/spiral rule (also called right-left rule) is used to parse complex C declarations by starting at the identifier and spiraling outward."
+  },
+  {
+    "id": 12,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'char *str;' declare?",
+    "options": ["A) A character variable", "B) A pointer to a character (or string)", "C) An array of characters", "D) A constant string"],
+    "correct_answer": "B) A pointer to a character (or string)",
+    "explanation": "'char *str;' declares str as a pointer to char, commonly used to point to a string (character array) in C."
+  },
+  {
+    "id": 13,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int a[3][4];' declare?",
+    "options": ["A) A 1D array of 12 integers", "B) A 2D array with 3 rows and 4 columns", "C) A pointer to an array", "D) A 4x3 matrix pointer"],
+    "correct_answer": "B) A 2D array with 3 rows and 4 columns",
+    "explanation": "'int a[3][4];' declares a 2D array with 3 rows and 4 columns, totaling 12 integer elements."
+  },
+  {
+    "id": 14,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the meaning of 'extern int x;'?",
+    "options": ["A) Declares x as a global integer defined elsewhere", "B) Defines x as an external integer", "C) Creates a new integer x", "D) Makes x a static variable"],
+    "correct_answer": "A) Declares x as a global integer defined elsewhere",
+    "explanation": "'extern int x;' is a declaration (not definition) telling the compiler that x is defined in another file or translation unit."
+  },
+  {
+    "id": 15,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'static int count;' mean inside a function?",
+    "options": ["A) count is reset every function call", "B) count retains its value between function calls", "C) count is accessible globally", "D) count is a constant"],
+    "correct_answer": "B) count retains its value between function calls",
+    "explanation": "A static local variable retains its value across multiple function calls. It is initialized only once and persists for the program's lifetime."
+  },
+  {
+    "id": 16,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'typedef int INTEGER;' do?",
+    "options": ["A) Creates a new data type INTEGER as alias for int", "B) Declares an integer named INTEGER", "C) Defines a macro INTEGER", "D) Creates a structure named INTEGER"],
+    "correct_answer": "A) Creates a new data type INTEGER as alias for int",
+    "explanation": "typedef creates an alias. After 'typedef int INTEGER;', you can use INTEGER wherever you would use int."
+  },
+  {
+    "id": 17,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int (*arr)[10];' mean?",
+    "options": ["A) arr is an array of 10 integer pointers", "B) arr is a pointer to an array of 10 integers", "C) arr is a function pointer", "D) arr is a 2D array"],
+    "correct_answer": "B) arr is a pointer to an array of 10 integers",
+    "explanation": "Parentheses make arr a pointer first. It points to an entire array of 10 integers, not just a single integer."
+  },
+  {
+    "id": 18,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'char arr[5][10];' declare?",
+    "options": ["A) An array of 5 pointers to strings", "B) A 2D character array with 5 rows and 10 columns", "C) A pointer to 50 characters", "D) 5 separate character arrays"],
+    "correct_answer": "B) A 2D character array with 5 rows and 10 columns",
+    "explanation": "'char arr[5][10];' is a 2D array that can store 5 strings each of maximum 9 characters (plus null terminator)."
+  },
+  {
+    "id": 19,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'const int * const p;' mean?",
+    "options": ["A) p is a constant pointer to a constant integer", "B) p is a pointer to a constant integer", "C) p is a constant pointer to an integer", "D) p is just a constant integer"],
+    "correct_answer": "A) p is a constant pointer to a constant integer",
+    "explanation": "Both the pointer and the value are constant. Neither p (the address) nor *p (the value) can be modified."
+  },
+  {
+    "id": 20,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int *p = NULL;' do?",
+    "options": ["A) Declares a pointer and initializes it to NULL", "B) Declares an integer with value NULL", "C) Creates a void pointer", "D) Declares a constant pointer"],
+    "correct_answer": "A) Declares a pointer and initializes it to NULL",
+    "explanation": "'int *p = NULL;' declares p as a pointer to int and initializes it to NULL (address 0), indicating it doesn't point to any valid memory."
+  },
+  {
+    "id": 21,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'unsigned int x;' declare?",
+    "options": ["A) An integer that can only hold positive values and zero", "B) A negative integer", "C) A floating point number", "D) A signed integer"],
+    "correct_answer": "A) An integer that can only hold positive values and zero",
+    "explanation": "'unsigned int x;' declares x as an unsigned integer, which can only represent non-negative values (0 to 2^32-1 on 32-bit systems)."
+  },
+  {
+    "id": 22,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int (*fp)();' declare?",
+    "options": ["A) A function returning a pointer to int", "B) A pointer to a function that returns int", "C) An array of function pointers", "D) A pointer to an integer function"],
+    "correct_answer": "B) A pointer to a function that returns int",
+    "explanation": "'int (*fp)();' declares fp as a pointer to a function that takes no arguments and returns an int."
+  },
+  {
+    "id": 23,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int a, *b, c[5];' declare?",
+    "options": ["A) Three integers", "B) An int, a pointer to int, and an array of 5 ints", "C) Three pointers", "D) An array and two pointers"],
+    "correct_answer": "B) An int, a pointer to int, and an array of 5 ints",
+    "explanation": "Multiple declarations in one line: a is int, b is pointer to int (*b), and c is array of 5 integers (c[5])."
+  },
+  {
+    "id": 24,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'volatile int x;' mean?",
+    "options": ["A) x can be changed by external factors and should not be optimized", "B) x is a constant", "C) x is stored in registers", "D) x is a global variable"],
+    "correct_answer": "A) x can be changed by external factors and should not be optimized",
+    "explanation": "'volatile int x;' tells the compiler not to optimize x, as its value may change unexpectedly (e.g., by hardware or another thread)."
+  },
+  {
+    "id": 25,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int *p[3];' declare?",
+    "options": ["A) A pointer to an array of 3 integers", "B) An array of 3 pointers to integers", "C) A 2D integer array", "D) A function pointer array"],
+    "correct_answer": "B) An array of 3 pointers to integers",
+    "explanation": "Since [] has higher precedence than *, p is first an array of 3 elements. Each element is a pointer to int."
+  },
+
+  {
+    "id": 26,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'long int x;' declare?",
+    "options": ["A) A long integer variable", "B) A float variable", "C) A double variable", "D) A short integer"],
+    "correct_answer": "A) A long integer variable",
+    "explanation": "'long int x;' declares x as a long integer, which typically has a larger range than a regular int (at least 32 bits)."
+  },
+  {
+    "id": 27,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int (*p)(int);' declare?",
+    "options": ["A) A function that returns a pointer", "B) A pointer to a function taking int and returning int", "C) An array of function pointers", "D) A pointer to an integer"],
+    "correct_answer": "B) A pointer to a function taking int and returning int",
+    "explanation": "'int (*p)(int);' declares p as a pointer to a function that accepts one int argument and returns an int."
+  },
+  {
+    "id": 28,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'char *p = \"hello\";' declare?",
+    "options": ["A) A character array initialized to hello", "B) A pointer to a string literal hello", "C) A constant character", "D) A mutable string"],
+    "correct_answer": "B) A pointer to a string literal hello",
+    "explanation": "'char *p = \"hello\";' makes p point to the string literal \"hello\" stored in read-only memory. Modifying it causes undefined behavior."
+  },
+  {
+    "id": 29,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int arr[] = {1,2,3};' declare?",
+    "options": ["A) A pointer to 3 integers", "B) An array of 3 integers with automatic size", "C) A dynamic array", "D) A constant array"],
+    "correct_answer": "B) An array of 3 integers with automatic size",
+    "explanation": "When an array is initialized with a list, the size can be omitted. The compiler automatically sets the size to 3 based on the initializer."
+  },
+  {
+    "id": 30,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'register int x;' suggest to the compiler?",
+    "options": ["A) Store x in a CPU register for faster access", "B) Store x in ROM", "C) Make x a global variable", "D) Make x volatile"],
+    "correct_answer": "A) Store x in a CPU register for faster access",
+    "explanation": "'register int x;' is a hint to the compiler to store x in a CPU register for faster access. The compiler may ignore this hint."
+  },
+  {
+    "id": 31,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int *const p = &x;' mean?",
+    "options": ["A) p is a pointer to a constant int", "B) p is a constant pointer to int (cannot be reassigned)", "C) Both p and *p are constant", "D) p is a null pointer"],
+    "correct_answer": "B) p is a constant pointer to int (cannot be reassigned)",
+    "explanation": "The const after * makes the pointer itself constant. p always points to x and cannot be redirected, but *p (the value) can be changed."
+  },
+  {
+    "id": 32,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'double *p;' declare?",
+    "options": ["A) A double variable", "B) A pointer to a double", "C) Two pointers", "D) A pointer to an integer"],
+    "correct_answer": "B) A pointer to a double",
+    "explanation": "'double *p;' declares p as a pointer that holds the address of a double-precision floating point variable."
+  },
+  {
+    "id": 33,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int (*p)[3][4];' declare?",
+    "options": ["A) A 3D array", "B) A pointer to a 2D array of 3 rows and 4 columns", "C) An array of pointers", "D) A function pointer"],
+    "correct_answer": "B) A pointer to a 2D array of 3 rows and 4 columns",
+    "explanation": "Parentheses make p a pointer first. It points to a 2D array with dimensions [3][4], i.e., 12 integers total."
+  },
+  {
+    "id": 34,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'typedef char* STRING;' allow?",
+    "options": ["A) STRING can be used as an alias for char*", "B) STRING is a new character type", "C) STRING is a macro", "D) STRING is a constant string"],
+    "correct_answer": "A) STRING can be used as an alias for char*",
+    "explanation": "After 'typedef char* STRING;', declaring 'STRING s;' is equivalent to 'char *s;'. It creates a type alias."
+  },
+  {
+    "id": 35,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int *p, q;' declare?",
+    "options": ["A) Two pointers to int", "B) p as pointer to int and q as int", "C) Two integers", "D) p as int and q as pointer"],
+    "correct_answer": "B) p as pointer to int and q as int",
+    "explanation": "The * binds to p only. So p is a pointer to int, while q is a plain integer. To make both pointers, write 'int *p, *q;'."
+  },
+  {
+    "id": 36,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int func(void);' declare?",
+    "options": ["A) A function taking no arguments and returning int", "B) A function taking void pointer and returning int", "C) A void function", "D) A function pointer"],
+    "correct_answer": "A) A function taking no arguments and returning int",
+    "explanation": "'int func(void);' explicitly declares that func takes no parameters and returns an int. Using void in parameter list is explicit about no arguments."
+  },
+  {
+    "id": 37,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'short int x;' declare?",
+    "options": ["A) A short integer (typically 16 bits)", "B) A long integer", "C) A float", "D) A character"],
+    "correct_answer": "A) A short integer (typically 16 bits)",
+    "explanation": "'short int x;' declares x as a short integer, typically 16 bits wide, with a range of -32768 to 32767."
+  },
+  {
+    "id": 38,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int *fp[5];' declare?",
+    "options": ["A) A pointer to an array of 5 ints", "B) An array of 5 pointers to int", "C) A function pointer array", "D) A 2D array"],
+    "correct_answer": "B) An array of 5 pointers to int",
+    "explanation": "[] has higher precedence than *, so fp is an array of 5 elements. Each element is a pointer to int."
+  },
+  {
+    "id": 39,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'void (*fp)(void);' declare?",
+    "options": ["A) A function returning void pointer", "B) A pointer to a function taking no args and returning void", "C) A void pointer", "D) A function taking void pointer"],
+    "correct_answer": "B) A pointer to a function taking no args and returning void",
+    "explanation": "'void (*fp)(void);' declares fp as a pointer to a function that takes no arguments and returns nothing (void)."
+  },
+  {
+    "id": 40,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int const *p;' mean?",
+    "options": ["A) p is a constant pointer", "B) p is a pointer to a constant integer", "C) Both p and *p are constant", "D) p is an integer constant"],
+    "correct_answer": "B) p is a pointer to a constant integer",
+    "explanation": "'int const *p;' is equivalent to 'const int *p;'. The const applies to the integer being pointed to, not the pointer itself."
+  },
+
+  {
+    "id": 41,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does 'int (*fp[5])(int, float);' declare?",
+    "options": ["A) A pointer to an array of functions", "B) An array of 5 pointers to functions taking int and float, returning int", "C) A function returning an array", "D) A 2D array of function pointers"],
+    "correct_answer": "B) An array of 5 pointers to functions taking int and float, returning int",
+    "explanation": "fp is first an array of 5 ([] binds first), each element is a pointer to a function (*), taking (int, float) and returning int."
+  },
+  {
+    "id": 42,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does 'int *(*fp)(int *);' declare?",
+    "options": ["A) A pointer to a function taking int* and returning int*", "B) A function returning a double pointer", "C) An array of function pointers", "D) A pointer to a pointer to int"],
+    "correct_answer": "A) A pointer to a function taking int* and returning int*",
+    "explanation": "fp is a pointer to a function. The function takes an int* argument and returns an int*. Both parameter and return type are pointers to int."
+  },
+  {
+    "id": 43,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does 'char (*(*fp)(int))[5];' declare?",
+    "options": ["A) fp is a pointer to a function returning a pointer to an array of 5 chars", "B) fp is an array of function pointers", "C) fp is a char pointer", "D) fp is a 2D char array pointer"],
+    "correct_answer": "A) fp is a pointer to a function returning a pointer to an array of 5 chars",
+    "explanation": "Reading inside-out: fp is a pointer (*fp), to a function taking int, returning a pointer to an array of 5 chars (char(*)[5])."
+  },
+  {
+    "id": 44,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between 'int *p[10]' and 'int (*p)[10]'?",
+    "options": ["A) No difference", "B) First is array of 10 int pointers; second is pointer to array of 10 ints", "C) First is pointer to array; second is array of pointers", "D) Both are 2D arrays"],
+    "correct_answer": "B) First is array of 10 int pointers; second is pointer to array of 10 ints",
+    "explanation": "In 'int *p[10]', [] binds first making p an array of 10 int pointers. In 'int (*p)[10]', () forces p to be a pointer to an array of 10 ints."
+  },
+  {
+    "id": 45,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does 'int (**pp)[5];' declare?",
+    "options": ["A) A pointer to a pointer to an array of 5 ints", "B) A 2D array of pointers", "C) An array of double pointers", "D) A pointer to a 2D array"],
+    "correct_answer": "A) A pointer to a pointer to an array of 5 ints",
+    "explanation": "'int (**pp)[5];' means pp is a pointer to a pointer that points to an array of 5 integers. It's a double pointer to an array."
+  },
+  {
+    "id": 46,
+    "topic": "Complicated Declarations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does 'void (*signal(int, void(*)(int)))(int);' represent?",
+    "options": ["A) A function pointer assignment", "B) signal is a function taking int and function pointer, returning a function pointer", "C) A void function declaration", "D) A macro definition"],
+    "correct_answer": "B) signal is a function taking int and function pointer, returning a function pointer",
+    "explanation": "This is the classic signal() declaration. signal takes an int and a pointer to void(int) function, and returns a pointer to a void(int) function."

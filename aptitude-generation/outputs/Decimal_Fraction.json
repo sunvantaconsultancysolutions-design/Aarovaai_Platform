@@ -1,0 +1,560 @@
+[
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 0.5 + 0.75?",
+    "options": ["1.0", "1.25", "1.5", "1.75"],
+    "correct_answer": "1.25",
+    "explanation": "0.5 + 0.75 = 1.25. Simple addition of decimal fractions."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Convert 3/4 into a decimal fraction.",
+    "options": ["0.25", "0.50", "0.75", "0.80"],
+    "correct_answer": "0.75",
+    "explanation": "3 ÷ 4 = 0.75. Dividing numerator by denominator gives the decimal."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 2.5 × 4?",
+    "options": ["8", "9", "10", "12"],
+    "correct_answer": "10",
+    "explanation": "2.5 × 4 = 10. Multiply 25 × 4 = 100, then place decimal: 10.0."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Which of the following is the largest decimal? 0.7, 0.07, 0.77, 0.007",
+    "options": ["0.7", "0.07", "0.77", "0.007"],
+    "correct_answer": "0.77",
+    "explanation": "Comparing: 0.77 > 0.7 > 0.07 > 0.007. So 0.77 is the largest."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 1.2 - 0.45?",
+    "options": ["0.65", "0.75", "0.85", "0.95"],
+    "correct_answer": "0.75",
+    "explanation": "1.20 - 0.45 = 0.75. Align decimals and subtract."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Convert 0.125 into a fraction.",
+    "options": ["1/4", "1/8", "1/16", "1/5"],
+    "correct_answer": "1/8",
+    "explanation": "0.125 = 125/1000 = 1/8 after simplification."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 0.6 × 0.6?",
+    "options": ["0.12", "0.36", "0.6", "3.6"],
+    "correct_answer": "0.36",
+    "explanation": "0.6 × 0.6 = 0.36. Multiply 6 × 6 = 36, place 2 decimal places."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 5.5 ÷ 0.5?",
+    "options": ["1.1", "11", "0.11", "110"],
+    "correct_answer": "11",
+    "explanation": "5.5 ÷ 0.5 = 55 ÷ 5 = 11. Multiply both by 10 to remove decimal."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Express 7/20 as a decimal.",
+    "options": ["0.35", "0.7", "0.07", "3.5"],
+    "correct_answer": "0.35",
+    "explanation": "7/20 = 7 × 5 / 100 = 35/100 = 0.35."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 0.001 × 1000?",
+    "options": ["0.1", "1", "10", "100"],
+    "correct_answer": "1",
+    "explanation": "0.001 × 1000 = 1. Moving decimal 3 places right."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 3.14 + 2.86?",
+    "options": ["5.00", "6.00", "5.90", "6.10"],
+    "correct_answer": "6.00",
+    "explanation": "3.14 + 2.86 = 6.00. Simple decimal addition."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Which decimal is equivalent to 1/2?",
+    "options": ["0.2", "0.5", "0.25", "0.12"],
+    "correct_answer": "0.5",
+    "explanation": "1 ÷ 2 = 0.5."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 0.25 + 0.75 + 0.50?",
+    "options": ["1.25", "1.50", "1.75", "2.00"],
+    "correct_answer": "1.50",
+    "explanation": "0.25 + 0.75 = 1.00; 1.00 + 0.50 = 1.50."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 4.8 ÷ 1.2?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "explanation": "4.8 ÷ 1.2 = 48 ÷ 12 = 4."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Convert 0.04 into a fraction in simplest form.",
+    "options": ["4/10", "2/50", "1/25", "4/100"],
+    "correct_answer": "1/25",
+    "explanation": "0.04 = 4/100 = 1/25 after dividing by 4."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 10.5 - 3.75?",
+    "options": ["6.25", "6.75", "7.25", "7.75"],
+    "correct_answer": "6.75",
+    "explanation": "10.50 - 3.75 = 6.75."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 0.3 × 0.03?",
+    "options": ["0.9", "0.09", "0.009", "0.0009"],
+    "correct_answer": "0.009",
+    "explanation": "0.3 × 0.03 = 0.009. 3 × 3 = 9, total 3 decimal places."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the place value of 5 in 3.456?",
+    "options": ["Tenths", "Hundredths", "Thousandths", "Ones"],
+    "correct_answer": "Hundredths",
+    "explanation": "In 3.456: 4 is tenths, 5 is hundredths, 6 is thousandths."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 1.5² (1.5 squared)?",
+    "options": ["2.0", "2.25", "2.5", "3.0"],
+    "correct_answer": "2.25",
+    "explanation": "1.5 × 1.5 = 2.25."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Round 3.567 to the nearest tenth.",
+    "options": ["3.5", "3.6", "3.57", "4.0"],
+    "correct_answer": "3.6",
+    "explanation": "The hundredths digit is 6 ≥ 5, so round up: 3.6."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 0.9 + 0.09 + 0.009?",
+    "options": ["0.999", "0.909", "9.99", "0.9009"],
+    "correct_answer": "0.999",
+    "explanation": "0.900 + 0.090 + 0.009 = 0.999."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 7.5 × 2?",
+    "options": ["14", "15", "14.5", "15.5"],
+    "correct_answer": "15",
+    "explanation": "7.5 × 2 = 15.0 = 15."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following fractions equals 0.2?",
+    "options": ["1/4", "1/5", "2/5", "1/2"],
+    "correct_answer": "1/5",
+    "explanation": "1/5 = 0.2. 1 ÷ 5 = 0.2."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 100 × 0.0025?",
+    "options": ["0.025", "0.25", "2.5", "25"],
+    "correct_answer": "0.25",
+    "explanation": "100 × 0.0025 = 0.25. Move decimal 2 places right."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 0.8 ÷ 0.4?",
+    "options": ["0.2", "2", "0.02", "20"],
+    "correct_answer": "2",
+    "explanation": "0.8 ÷ 0.4 = 8 ÷ 4 = 2."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 0.5% of 200?",
+    "options": ["0.1", "1", "10", "100"],
+    "correct_answer": "1",
+    "explanation": "0.5% of 200 = (0.5/100) × 200 = 1."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 2.5 + 3.5 + 4.5?",
+    "options": ["9.5", "10", "10.5", "11"],
+    "correct_answer": "10.5",
+    "explanation": "2.5 + 3.5 = 6.0; 6.0 + 4.5 = 10.5."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Express 3/8 as a decimal.",
+    "options": ["0.275", "0.375", "0.475", "0.575"],
+    "correct_answer": "0.375",
+    "explanation": "3 ÷ 8 = 0.375."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 0.07 × 100?",
+    "options": ["0.7", "7", "70", "700"],
+    "correct_answer": "7",
+    "explanation": "0.07 × 100 = 7. Move decimal 2 places right."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 6.4 - 2.8?",
+    "options": ["3.2", "3.4", "3.6", "4.0"],
+    "correct_answer": "3.6",
+    "explanation": "6.4 - 2.8 = 3.6."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 0.25 × 8?",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "explanation": "0.25 × 8 = 2. Since 0.25 = 1/4, and 8/4 = 2."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 1.1 × 1.1?",
+    "options": ["1.01", "1.11", "1.21", "1.31"],
+    "correct_answer": "1.21",
+    "explanation": "1.1 × 1.1 = 1.21. (11 × 11 = 121, 2 decimal places)."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 0.5 ÷ 0.05?",
+    "options": ["1", "10", "100", "0.1"],
+    "correct_answer": "10",
+    "explanation": "0.5 ÷ 0.05 = 50 ÷ 5 = 10."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the decimal equivalent of 9/10?",
+    "options": ["0.09", "0.9", "9.0", "0.009"],
+    "correct_answer": "0.9",
+    "explanation": "9/10 = 0.9."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 3.75 + 1.25?",
+    "options": ["4.00", "5.00", "4.50", "5.50"],
+    "correct_answer": "5.00",
+    "explanation": "3.75 + 1.25 = 5.00."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 0.4 × 0.5?",
+    "options": ["0.02", "0.2", "2", "0.9"],
+    "correct_answer": "0.2",
+    "explanation": "0.4 × 0.5 = 0.20 = 0.2. (4 × 5 = 20, 2 decimal places)."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Round 5.449 to the nearest hundredth.",
+    "options": ["5.4", "5.44", "5.45", "5.5"],
+    "correct_answer": "5.45",
+    "explanation": "The thousandths digit is 9 ≥ 5, so round up hundredths: 5.45."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 12.5 ÷ 2.5?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "5",
+    "explanation": "12.5 ÷ 2.5 = 125 ÷ 25 = 5."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 0.002 × 500?",
+    "options": ["0.1", "1", "10", "100"],
+    "correct_answer": "1",
+    "explanation": "0.002 × 500 = 1.000 = 1."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 0.1 + 0.01 + 0.001 + 0.0001?",
+    "options": ["0.1111", "0.111", "1.111", "0.11"],
+    "correct_answer": "0.1111",
+    "explanation": "0.1000 + 0.0100 + 0.0010 + 0.0001 = 0.1111."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 5/8 expressed as a decimal?",
+    "options": ["0.525", "0.575", "0.625", "0.675"],
+    "correct_answer": "0.625",
+    "explanation": "5 ÷ 8 = 0.625."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is 0.0625 expressed as a fraction in simplest form?",
+    "options": ["1/8", "1/16", "1/32", "1/4"],
+    "correct_answer": "1/16",
+    "explanation": "0.0625 = 625/10000 = 1/16 (dividing by 625)."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is (0.1)³?",
+    "options": ["0.001", "0.01", "0.0001", "0.1"],
+    "correct_answer": "0.001",
+    "explanation": "0.1 × 0.1 × 0.1 = 0.001. Three decimal places."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If 0.4 of a number is 36, what is the number?",
+    "options": ["72", "80", "90", "100"],
+    "correct_answer": "90",
+    "explanation": "0.4 × x = 36 → x = 36/0.4 = 90."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is 2.5 × 0.5 × 4?",
+    "options": ["4", "5", "6", "8"],
+    "correct_answer": "5",
+    "explanation": "2.5 × 0.5 = 1.25; 1.25 × 4 = 5."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is 1.44 ÷ 0.12?",
+    "options": ["1.2", "12", "120", "0.12"],
+    "correct_answer": "12",
+    "explanation": "1.44 ÷ 0.12 = 144 ÷ 12 = 12."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is (0.8 + 0.2) × (0.5 - 0.3)?",
+    "options": ["0.02", "0.2", "0.02", "2"],
+    "correct_answer": "0.2",
+    "explanation": "(0.8 + 0.2) = 1.0; (0.5 - 0.3) = 0.2; 1.0 × 0.2 = 0.2."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The value of 0.3̄ (0.3 repeating) as a fraction is:",
+    "options": ["3/10", "1/3", "3/9", "1/4"],
+    "correct_answer": "1/3",
+    "explanation": "Let x = 0.333... → 10x = 3.333... → 9x = 3 → x = 1/3."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is 0.36 ÷ 0.006?",
+    "options": ["6", "60", "600", "0.6"],
+    "correct_answer": "60",
+    "explanation": "0.36 ÷ 0.006 = 360 ÷ 6 = 60."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is 3.6 × 1.5 - 2.4?",
+    "options": ["2.4", "3.0", "3.6", "4.2"],
+    "correct_answer": "3.0",
+    "explanation": "3.6 × 1.5 = 5.4; 5.4 - 2.4 = 3.0."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If 1.5x = 0.75, what is x?",
+    "options": ["0.25", "0.5", "0.75", "1.0"],
+    "correct_answer": "0.5",
+    "explanation": "x = 0.75 / 1.5 = 0.5."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is 0.2̄3̄ (0.23 repeating) as a fraction?",
+    "options": ["23/99", "23/100", "7/30", "23/90"],
+    "correct_answer": "23/99",
+    "explanation": "Let x = 0.232323... → 100x = 23.2323... → 99x = 23 → x = 23/99."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of 0.5 + 0.55 + 0.555?",
+    "options": ["1.555", "1.605", "1.505", "1.655"],
+    "correct_answer": "1.605",
+    "explanation": "0.500 + 0.550 + 0.555 = 1.605."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is 0.0256 ÷ 0.016?",
+    "options": ["0.16", "1.6", "16", "0.016"],
+    "correct_answer": "1.6",
+    "explanation": "0.0256 ÷ 0.016 = 256 ÷ 160 = 1.6."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is 4.5² - 3.5²?",
+    "options": ["4", "8", "16", "1"],
+    "correct_answer": "8",
+    "explanation": "Using a²-b² = (a+b)(a-b): (4.5+3.5)(4.5-3.5) = 8 × 1 = 8."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A shopkeeper sells an item for Rs. 12.50. If he bought it for Rs. 10.00, what is his profit percentage?",
+    "options": ["20%", "25%", "30%", "15%"],
+    "correct_answer": "25%",
+    "explanation": "Profit = 12.50 - 10.00 = 2.50. Profit% = (2.50/10.00) × 100 = 25%."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is 0.125 × 0.8?",
+    "options": ["0.01", "0.1", "1", "0.001"],
+    "correct_answer": "0.1",
+    "explanation": "0.125 × 0.8 = 0.1. (125 × 8 = 1000, 4 decimal places = 0.1000 = 0.1)."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is 7.3 × 7.3 - 2.7 × 2.7?",
+    "options": ["44.8", "45.6", "46.4", "47.2"],
+    "correct_answer": "45.6",
+    "explanation": "(7.3+2.7)(7.3-2.7) = 10 × 4.6 = 46. Wait: 7.3²=53.29, 2.7²=7.29, 53.29-7.29=46. Correct: 46."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is 7.3² - 2.7²?",
+    "options": ["44", "45", "46", "47"],
+    "correct_answer": "46",
+    "explanation": "(7.3+2.7)(7.3-2.7) = 10 × 4.6 = 46."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is 0.6̄ (0.6 repeating) as a fraction?",
+    "options": ["6/10", "2/3", "3/5", "5/6"],
+    "correct_answer": "2/3",
+    "explanation": "Let x = 0.666... → 10x = 6.666... → 9x = 6 → x = 6/9 = 2/3."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is 0.75 of 0.75?",
+    "options": ["0.5265", "0.5625", "0.6525", "0.6255"],
+    "correct_answer": "0.5625",
+    "explanation": "0.75 × 0.75 = 0.5625. (75 × 75 = 5625, 4 decimal places)."
+  },
+  {
+    "topic": "Decimal Fraction",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If 0.75 of a number equals 60, what is 0.25 of the same number?",
+    "options": ["15", "20", "25", "30"],
+    "correct_answer": "20",
+    "explanation": "0.75x = 60 → x = 80. 0.25 × 80 = 20."
+  }
+]

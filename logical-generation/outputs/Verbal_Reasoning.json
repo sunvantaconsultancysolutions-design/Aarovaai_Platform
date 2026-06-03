@@ -1,0 +1,555 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the word that is most similar in meaning to 'BENEVOLENT'.",
+    "options": ["A) Cruel", "B) Kind", "C) Selfish", "D) Arrogant"],
+    "correct_answer": "B) Kind",
+    "explanation": "Benevolent means well-meaning and kindly. 'Kind' is the closest synonym. Cruel and Selfish are antonyms."
+  },
+  {
+    "id": 2,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the word that is most OPPOSITE in meaning to 'VERBOSE'.",
+    "options": ["A) Talkative", "B) Wordy", "C) Concise", "D) Elaborate"],
+    "correct_answer": "C) Concise",
+    "explanation": "Verbose means using more words than needed. Its antonym is 'Concise', meaning brief and to the point."
+  },
+  {
+    "id": 3,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correctly spelled word.",
+    "options": ["A) Accomodate", "B) Accommodate", "C) Acommodate", "D) Acomodate"],
+    "correct_answer": "B) Accommodate",
+    "explanation": "The correct spelling is 'Accommodate' with double 'c' and double 'm'."
+  },
+  {
+    "id": 4,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Apple, Mango, Carrot, Banana",
+    "options": ["A) Apple", "B) Mango", "C) Carrot", "D) Banana"],
+    "correct_answer": "C) Carrot",
+    "explanation": "Apple, Mango, and Banana are fruits. Carrot is a vegetable, making it the odd one out."
+  },
+  {
+    "id": 5,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Complete the analogy: Book : Library :: Painting : ?",
+    "options": ["A) Artist", "B) Museum", "C) Canvas", "D) Brush"],
+    "correct_answer": "B) Museum",
+    "explanation": "Books are kept in a Library; Paintings are kept in a Museum. The relationship is object to its storage place."
+  },
+  {
+    "id": 6,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the word that best fills the blank: The teacher was ______ with her students' performance.",
+    "options": ["A) Disappointed", "B) Pleased", "C) Angry", "D) Confused"],
+    "correct_answer": "B) Pleased",
+    "explanation": "The sentence implies a positive outcome. 'Pleased' fits the context of satisfaction with performance."
+  },
+  {
+    "id": 7,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the synonym of 'DILIGENT'.",
+    "options": ["A) Lazy", "B) Hardworking", "C) Careless", "D) Slow"],
+    "correct_answer": "B) Hardworking",
+    "explanation": "Diligent means showing care and effort in work. 'Hardworking' is the closest synonym."
+  },
+  {
+    "id": 8,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence is grammatically correct?",
+    "options": ["A) She don't like coffee.", "B) She doesn't likes coffee.", "C) She doesn't like coffee.", "D) She not like coffee."],
+    "correct_answer": "C) She doesn't like coffee.",
+    "explanation": "With third-person singular subjects, 'doesn't' is used followed by the base form of the verb."
+  },
+  {
+    "id": 9,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Complete the analogy: Doctor : Hospital :: Teacher : ?",
+    "options": ["A) Book", "B) School", "C) Student", "D) Pen"],
+    "correct_answer": "B) School",
+    "explanation": "A Doctor works in a Hospital; a Teacher works in a School. The relationship is profession to workplace."
+  },
+  {
+    "id": 10,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Rose, Lily, Tulip, Oak",
+    "options": ["A) Rose", "B) Lily", "C) Tulip", "D) Oak"],
+    "correct_answer": "D) Oak",
+    "explanation": "Rose, Lily, and Tulip are flowers. Oak is a tree, making it the odd one out."
+  },
+  {
+    "id": 11,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of 'ANCIENT'.",
+    "options": ["A) Old", "B) Modern", "C) Historic", "D) Aged"],
+    "correct_answer": "B) Modern",
+    "explanation": "Ancient means very old. Its antonym is 'Modern', meaning contemporary or new."
+  },
+  {
+    "id": 12,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in logical order: 1. Infant 2. Adult 3. Child 4. Teenager",
+    "options": ["A) 1, 3, 4, 2", "B) 1, 2, 3, 4", "C) 3, 1, 4, 2", "D) 2, 4, 3, 1"],
+    "correct_answer": "A) 1, 3, 4, 2",
+    "explanation": "The logical order of human growth stages is: Infant → Child → Teenager → Adult."
+  },
+  {
+    "id": 13,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correctly spelled word.",
+    "options": ["A) Recieve", "B) Receive", "C) Receve", "D) Receeve"],
+    "correct_answer": "B) Receive",
+    "explanation": "The correct spelling follows the rule 'i before e except after c': Receive."
+  },
+  {
+    "id": 14,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the synonym of 'ABUNDANT'.",
+    "options": ["A) Scarce", "B) Rare", "C) Plentiful", "D) Limited"],
+    "correct_answer": "C) Plentiful",
+    "explanation": "Abundant means existing in large quantities. 'Plentiful' is the closest synonym."
+  },
+  {
+    "id": 15,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Complete the analogy: Pen : Write :: Knife : ?",
+    "options": ["A) Sharp", "B) Cut", "C) Cook", "D) Metal"],
+    "correct_answer": "B) Cut",
+    "explanation": "A Pen is used to Write; a Knife is used to Cut. The relationship is tool to its function."
+  },
+  {
+    "id": 16,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Lion, Tiger, Elephant, Eagle",
+    "options": ["A) Lion", "B) Tiger", "C) Elephant", "D) Eagle"],
+    "correct_answer": "D) Eagle",
+    "explanation": "Lion, Tiger, and Elephant are land mammals. Eagle is a bird, making it the odd one out."
+  },
+  {
+    "id": 17,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the word that best fills the blank: He speaks English very ______.",
+    "options": ["A) Fluent", "B) Fluently", "C) Fluence", "D) Fluents"],
+    "correct_answer": "B) Fluently",
+    "explanation": "An adverb is needed to modify the verb 'speaks'. 'Fluently' is the correct adverb form."
+  },
+  {
+    "id": 18,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the antonym of 'TRANSPARENT'.",
+    "options": ["A) Clear", "B) Obvious", "C) Opaque", "D) Visible"],
+    "correct_answer": "C) Opaque",
+    "explanation": "Transparent means allowing light to pass through. Its antonym is 'Opaque', meaning not transparent."
+  },
+  {
+    "id": 19,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Complete the analogy: Fish : Swim :: Bird : ?",
+    "options": ["A) Nest", "B) Fly", "C) Sing", "D) Feather"],
+    "correct_answer": "B) Fly",
+    "explanation": "Fish Swim; Birds Fly. The relationship is animal to its primary mode of movement."
+  },
+  {
+    "id": 20,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a correct proverb?",
+    "options": ["A) All that glitters is not gold.", "B) All that glitters are not gold.", "C) All that glitter is not gold.", "D) All that glitters was not gold."],
+    "correct_answer": "A) All that glitters is not gold.",
+    "explanation": "'All that glitters is not gold' is the correct proverb. 'All that glitters' takes singular verb 'is'."
+  },
+  {
+    "id": 21,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: January, March, June, August",
+    "options": ["A) January", "B) March", "C) June", "D) August"],
+    "correct_answer": "C) June",
+    "explanation": "January, March, and August have 31 days. June has 30 days, making it the odd one out."
+  },
+  {
+    "id": 22,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of 'COURAGEOUS'.",
+    "options": ["A) Timid", "B) Fearful", "C) Brave", "D) Weak"],
+    "correct_answer": "C) Brave",
+    "explanation": "Courageous means not deterred by danger. 'Brave' is the closest synonym."
+  },
+  {
+    "id": 23,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in logical order: 1. Seed 2. Fruit 3. Plant 4. Flower",
+    "options": ["A) 1, 3, 4, 2", "B) 2, 1, 3, 4", "C) 3, 1, 4, 2", "D) 1, 4, 3, 2"],
+    "correct_answer": "A) 1, 3, 4, 2",
+    "explanation": "The logical growth cycle is: Seed → Plant → Flower → Fruit."
+  },
+  {
+    "id": 24,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the correctly spelled word.",
+    "options": ["A) Grammer", "B) Gramer", "C) Grammar", "D) Grammarr"],
+    "correct_answer": "C) Grammar",
+    "explanation": "The correct spelling is 'Grammar' with double 'm' and ending in 'ar'."
+  },
+  {
+    "id": 25,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of 'GENEROUS'.",
+    "options": ["A) Charitable", "B) Liberal", "C) Stingy", "D) Giving"],
+    "correct_answer": "C) Stingy",
+    "explanation": "Generous means willing to give freely. Its antonym is 'Stingy', meaning unwilling to give."
+  },
+  {
+    "id": 26,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Complete the analogy: Sun : Day :: Moon : ?",
+    "options": ["A) Star", "B) Night", "C) Sky", "D) Light"],
+    "correct_answer": "B) Night",
+    "explanation": "The Sun is associated with Day; the Moon is associated with Night."
+  },
+  {
+    "id": 27,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Cricket, Football, Chess, Hockey",
+    "options": ["A) Cricket", "B) Football", "C) Chess", "D) Hockey"],
+    "correct_answer": "C) Chess",
+    "explanation": "Cricket, Football, and Hockey are outdoor sports. Chess is an indoor board game."
+  },
+  {
+    "id": 28,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the word that best fills the blank: She is ______ honest girl.",
+    "options": ["A) a", "B) an", "C) the", "D) no article needed"],
+    "correct_answer": "B) an",
+    "explanation": "'An' is used before words beginning with a vowel sound. 'Honest' starts with a silent 'h', so the vowel sound 'o' requires 'an'."
+  },
+  {
+    "id": 29,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the synonym of 'TRANQUIL'.",
+    "options": ["A) Noisy", "B) Peaceful", "C) Chaotic", "D) Turbulent"],
+    "correct_answer": "B) Peaceful",
+    "explanation": "Tranquil means free from disturbance. 'Peaceful' is the closest synonym."
+  },
+  {
+    "id": 30,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Complete the analogy: Cow : Calf :: Horse : ?",
+    "options": ["A) Pony", "B) Foal", "C) Colt", "D) Filly"],
+    "correct_answer": "B) Foal",
+    "explanation": "A baby Cow is called a Calf; a baby Horse is called a Foal."
+  },
+  {
+    "id": 31,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Hammer, Screwdriver, Wrench, Microscope",
+    "options": ["A) Hammer", "B) Screwdriver", "C) Wrench", "D) Microscope"],
+    "correct_answer": "D) Microscope",
+    "explanation": "Hammer, Screwdriver, and Wrench are tools used in construction/repair. Microscope is a scientific instrument."
+  },
+  {
+    "id": 32,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of 'EXPAND'.",
+    "options": ["A) Grow", "B) Enlarge", "C) Contract", "D) Spread"],
+    "correct_answer": "C) Contract",
+    "explanation": "Expand means to increase in size. Its antonym is 'Contract', meaning to decrease in size."
+  },
+  {
+    "id": 33,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence uses the correct form of the verb? 'Neither the students nor the teacher ______ present.'",
+    "options": ["A) were", "B) was", "C) are", "D) have been"],
+    "correct_answer": "B) was",
+    "explanation": "With 'Neither...nor', the verb agrees with the subject closest to it. 'Teacher' is singular, so 'was' is correct."
+  },
+  {
+    "id": 34,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Complete the analogy: Carpenter : Wood :: Blacksmith : ?",
+    "options": ["A) Fire", "B) Iron", "C) Coal", "D) Hammer"],
+    "correct_answer": "B) Iron",
+    "explanation": "A Carpenter works with Wood; a Blacksmith works with Iron. The relationship is craftsman to material."
+  },
+  {
+    "id": 35,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the synonym of 'OBSOLETE'.",
+    "options": ["A) Modern", "B) Current", "C) Outdated", "D) Useful"],
+    "correct_answer": "C) Outdated",
+    "explanation": "Obsolete means no longer in use. 'Outdated' is the closest synonym."
+  },
+  {
+    "id": 36,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the odd one out: Violin, Guitar, Flute, Tabla",
+    "options": ["A) Violin", "B) Guitar", "C) Flute", "D) Tabla"],
+    "correct_answer": "C) Flute",
+    "explanation": "Violin, Guitar, and Tabla are string/percussion instruments. Flute is a wind instrument."
+  },
+  {
+    "id": 37,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correctly spelled word.",
+    "options": ["A) Occurance", "B) Occurence", "C) Occurrence", "D) Occurrance"],
+    "correct_answer": "C) Occurrence",
+    "explanation": "The correct spelling is 'Occurrence' with double 'c' and double 'r'."
+  },
+  {
+    "id": 38,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Complete the analogy: Poet : Poem :: Sculptor : ?",
+    "options": ["A) Paint", "B) Statue", "C) Canvas", "D) Chisel"],
+    "correct_answer": "B) Statue",
+    "explanation": "A Poet creates a Poem; a Sculptor creates a Statue. The relationship is creator to creation."
+  },
+  {
+    "id": 39,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the antonym of 'FRUGAL'.",
+    "options": ["A) Thrifty", "B) Economical", "C) Extravagant", "D) Careful"],
+    "correct_answer": "C) Extravagant",
+    "explanation": "Frugal means careful with money. Its antonym is 'Extravagant', meaning spending excessively."
+  },
+  {
+    "id": 40,
+    "topic": "Verbal Reasoning",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in logical order: 1. Sentence 2. Letter 3. Word 4. Paragraph",
+    "options": ["A) 2, 3, 1, 4", "B) 3, 2, 1, 4", "C) 2, 1, 3, 4", "D) 1, 2, 3, 4"],
+    "correct_answer": "A) 2, 3, 1, 4",
+    "explanation": "The logical order of language units is: Letter → Word → Sentence → Paragraph."
+  },
+  {
+    "id": 41,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Read the statement and choose the correct inference: 'All politicians are liars. Ram is a politician.' What can be concluded?",
+    "options": ["A) Ram is honest.", "B) Ram is a liar.", "C) Ram may or may not be a liar.", "D) Politicians are not liars."],
+    "correct_answer": "B) Ram is a liar.",
+    "explanation": "This is a syllogism. All politicians are liars + Ram is a politician → Ram is a liar. This is a valid deductive conclusion."
+  },
+  {
+    "id": 42,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the word that best fills the blank: The scientist's discovery was so ______ that it changed the entire field of medicine.",
+    "options": ["A) trivial", "B) mundane", "C) revolutionary", "D) ordinary"],
+    "correct_answer": "C) revolutionary",
+    "explanation": "The sentence implies a major impact on medicine. 'Revolutionary' means causing a complete change, which fits best."
+  },
+  {
+    "id": 43,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Identify the figure of speech in: 'The wind whispered through the trees.'",
+    "options": ["A) Simile", "B) Metaphor", "C) Personification", "D) Hyperbole"],
+    "correct_answer": "C) Personification",
+    "explanation": "Personification attributes human qualities to non-human things. 'Wind whispered' gives the wind a human action."
+  },
+  {
+    "id": 44,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: 'Some cats are dogs. All dogs are animals.' Conclusion I: Some cats are animals. Conclusion II: All animals are cats.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "From 'Some cats are dogs' and 'All dogs are animals', we get 'Some cats are animals'. Conclusion II is too broad and doesn't follow."
+  },
+  {
+    "id": 45,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the correct meaning of the idiom: 'To burn the midnight oil'",
+    "options": ["A) To waste resources", "B) To work late into the night", "C) To cause destruction", "D) To be very angry"],
+    "correct_answer": "B) To work late into the night",
+    "explanation": "'Burn the midnight oil' means to work or study late at night, referring to the old practice of using oil lamps."
+  },
+  {
+    "id": 46,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the correctly punctuated sentence.",
+    "options": ["A) Its a beautiful day, isnt it?", "B) It's a beautiful day, isn't it?", "C) Its a beautiful day isn't it?", "D) It's a beautiful day isnt it?"],
+    "correct_answer": "B) It's a beautiful day, isn't it?",
+    "explanation": "'It's' = It is (apostrophe for contraction). 'Isn't' = is not. A comma separates the main clause from the tag question."
+  },
+  {
+    "id": 47,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: 'All roses are flowers. Some flowers fade quickly.' Which conclusion follows?",
+    "options": ["A) All roses fade quickly.", "B) Some roses fade quickly.", "C) No roses fade quickly.", "D) None of the above conclusions is definite."],
+    "correct_answer": "D) None of the above conclusions is definite.",
+    "explanation": "We cannot determine which flowers fade quickly. The 'some flowers' may or may not include roses, so no definite conclusion about roses can be drawn."
+  },
+  {
+    "id": 48,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the correct meaning of the idiom: 'A blessing in disguise'",
+    "options": ["A) A hidden curse", "B) Something good that seemed bad at first", "C) A religious ceremony", "D) A deceptive person"],
+    "correct_answer": "B) Something good that seemed bad at first",
+    "explanation": "'A blessing in disguise' refers to something that appears negative initially but turns out to be beneficial."
+  },
+  {
+    "id": 49,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Identify the passive voice of: 'The manager signed the documents.'",
+    "options": ["A) The documents were signed by the manager.", "B) The documents are signed by the manager.", "C) The documents had been signed by the manager.", "D) The manager had signed the documents."],
+    "correct_answer": "A) The documents were signed by the manager.",
+    "explanation": "Active: Subject + V2 + Object → Passive: Object + was/were + V3 + by + Subject. Past tense uses 'were signed'."
+  },
+  {
+    "id": 50,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the word that is most similar in meaning to 'AMELIORATE'.",
+    "options": ["A) Worsen", "B) Improve", "C) Maintain", "D) Destroy"],
+    "correct_answer": "B) Improve",
+    "explanation": "Ameliorate means to make something bad better. 'Improve' is the closest synonym."
+  },
+  {
+    "id": 51,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: 'No men are perfect. Ravi is a man.' Conclusion: Ravi is not perfect.",
+    "options": ["A) Conclusion follows", "B) Conclusion does not follow", "C) Conclusion is partially correct", "D) Cannot be determined"],
+    "correct_answer": "A) Conclusion follows",
+    "explanation": "No men are perfect + Ravi is a man → Ravi is not perfect. This is a valid syllogistic conclusion."
+  },
+  {
+    "id": 52,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the correct meaning of the phrase: 'To add fuel to the fire'",
+    "options": ["A) To help extinguish a problem", "B) To make a bad situation worse", "C) To start a new conflict", "D) To provide energy"],
+    "correct_answer": "B) To make a bad situation worse",
+    "explanation": "'Add fuel to the fire' means to worsen an already bad situation, just as adding fuel makes fire burn more intensely."
+  },
+  {
+    "id": 53,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Select the word that does NOT belong to the group: Anxiety, Serenity, Tranquility, Calmness",
+    "options": ["A) Anxiety", "B) Serenity", "C) Tranquility", "D) Calmness"],
+    "correct_answer": "A) Anxiety",
+    "explanation": "Serenity, Tranquility, and Calmness all mean a state of peace. Anxiety means worry/nervousness, making it the odd one out."
+  },
+  {
+    "id": 54,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Identify the error in the sentence: 'He is one of the student who has passed the exam.'",
+    "options": ["A) He is one", "B) of the student", "C) who has passed", "D) the exam"],
+    "correct_answer": "B) of the student",
+    "explanation": "'One of the' is followed by a plural noun. It should be 'one of the students' (plural)."
+  },
+  {
+    "id": 55,
+    "topic": "Verbal Reasoning",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the antonym of 'LOQUACIOUS'.",
+    "options": ["A) Talkative", "B) Garrulous", "C) Taciturn", "D) Verbose"],
+    "correct_answer": "C) Taciturn",
+    "explanation": "Loquacious means very talkative. Its antonym is 'Taciturn', meaning reserved and saying little."
+  },
+  {
+    "id": 56,
+    "topic": "Verbal

@@ -1,0 +1,677 @@
+[
+  {
+    "id": 1,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'She writes a letter.'",
+    "options": [
+      "A) A letter is written by her.",
+      "B) A letter was written by her.",
+      "C) A letter has been written by her.",
+      "D) A letter is being written by her."
+    ],
+    "correct_answer": "A) A letter is written by her.",
+    "explanation": "Active: She writes a letter. Subject 'She' becomes 'her', object 'a letter' becomes subject. Simple present active → 'is/am/are + past participle' in passive. So: 'A letter is written by her.'"
+  },
+  {
+    "id": 2,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'Ram is eating an apple.'",
+    "options": [
+      "A) An apple is eaten by Ram.",
+      "B) An apple is being eaten by Ram.",
+      "C) An apple was being eaten by Ram.",
+      "D) An apple has been eaten by Ram."
+    ],
+    "correct_answer": "B) An apple is being eaten by Ram.",
+    "explanation": "Active: Present continuous → 'is/am/are + being + past participle' in passive. 'Ram' becomes 'by Ram'. So: 'An apple is being eaten by Ram.'"
+  },
+  {
+    "id": 3,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'They played football.'",
+    "options": [
+      "A) Football is played by them.",
+      "B) Football was played by them.",
+      "C) Football has been played by them.",
+      "D) Football was being played by them."
+    ],
+    "correct_answer": "B) Football was played by them.",
+    "explanation": "Active: Simple past → 'was/were + past participle' in passive. 'They' becomes 'them'. So: 'Football was played by them.'"
+  },
+  {
+    "id": 4,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The teacher has taught the lesson.'",
+    "options": [
+      "A) The lesson was taught by the teacher.",
+      "B) The lesson is taught by the teacher.",
+      "C) The lesson has been taught by the teacher.",
+      "D) The lesson had been taught by the teacher."
+    ],
+    "correct_answer": "C) The lesson has been taught by the teacher.",
+    "explanation": "Active: Present perfect → 'has/have + been + past participle' in passive. So: 'The lesson has been taught by the teacher.'"
+  },
+  {
+    "id": 5,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'He will finish the work tomorrow.'",
+    "options": [
+      "A) The work will be finished by him tomorrow.",
+      "B) The work would be finished by him tomorrow.",
+      "C) The work is finished by him tomorrow.",
+      "D) The work shall be finished by him tomorrow."
+    ],
+    "correct_answer": "A) The work will be finished by him tomorrow.",
+    "explanation": "Active: Simple future → 'will/shall + be + past participle' in passive. 'He' becomes 'him'. So: 'The work will be finished by him tomorrow.'"
+  },
+  {
+    "id": 6,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'Open the door.'",
+    "options": [
+      "A) The door is opened.",
+      "B) Let the door be opened.",
+      "C) The door should be opened.",
+      "D) The door was opened."
+    ],
+    "correct_answer": "B) Let the door be opened.",
+    "explanation": "Imperative sentences in passive use 'Let + object + be + past participle'. So: 'Let the door be opened.'"
+  },
+  {
+    "id": 7,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'Someone has stolen my wallet.'",
+    "options": [
+      "A) My wallet has been stolen.",
+      "B) My wallet was stolen by someone.",
+      "C) My wallet is stolen by someone.",
+      "D) My wallet had been stolen."
+    ],
+    "correct_answer": "A) My wallet has been stolen.",
+    "explanation": "When the agent is 'someone/anyone/nobody', it is omitted in passive. Present perfect passive: 'has/have + been + past participle'. So: 'My wallet has been stolen.'"
+  },
+  {
+    "id": 8,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The mechanic was repairing the car.'",
+    "options": [
+      "A) The car was repaired by the mechanic.",
+      "B) The car is being repaired by the mechanic.",
+      "C) The car was being repaired by the mechanic.",
+      "D) The car had been repaired by the mechanic."
+    ],
+    "correct_answer": "C) The car was being repaired by the mechanic.",
+    "explanation": "Active: Past continuous → 'was/were + being + past participle' in passive. So: 'The car was being repaired by the mechanic.'"
+  },
+  {
+    "id": 9,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'She had completed the project.'",
+    "options": [
+      "A) The project has been completed by her.",
+      "B) The project was completed by her.",
+      "C) The project had been completed by her.",
+      "D) The project is completed by her."
+    ],
+    "correct_answer": "C) The project had been completed by her.",
+    "explanation": "Active: Past perfect → 'had + been + past participle' in passive. 'She' becomes 'her'. So: 'The project had been completed by her.'"
+  },
+  {
+    "id": 10,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the voice of: 'The cake was baked by my mother.'",
+    "options": [
+      "A) Active Voice",
+      "B) Passive Voice",
+      "C) Both Active and Passive",
+      "D) Neither Active nor Passive"
+    ],
+    "correct_answer": "B) Passive Voice",
+    "explanation": "The sentence uses 'was baked by' which is the passive construction (was + past participle + by). The subject 'cake' receives the action, confirming it is Passive Voice."
+  },
+  {
+    "id": 11,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'Do not waste time.'",
+    "options": [
+      "A) Time should not be wasted.",
+      "B) Let time not be wasted.",
+      "C) Time is not to be wasted.",
+      "D) Time must not be wasted."
+    ],
+    "correct_answer": "B) Let time not be wasted.",
+    "explanation": "Negative imperative in passive: 'Let + object + not + be + past participle'. So: 'Let time not be wasted.'"
+  },
+  {
+    "id": 12,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'I know him.'",
+    "options": [
+      "A) He is known to me.",
+      "B) He is known by me.",
+      "C) He was known to me.",
+      "D) He has been known by me."
+    ],
+    "correct_answer": "A) He is known to me.",
+    "explanation": "With verbs like 'know', 'surprise', 'please', we use 'to' instead of 'by' in passive. 'I' becomes 'me'. So: 'He is known to me.'"
+  },
+  {
+    "id": 13,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The students are learning grammar.'",
+    "options": [
+      "A) Grammar is learned by the students.",
+      "B) Grammar is being learned by the students.",
+      "C) Grammar was being learned by the students.",
+      "D) Grammar has been learned by the students."
+    ],
+    "correct_answer": "B) Grammar is being learned by the students.",
+    "explanation": "Active: Present continuous → 'is/am/are + being + past participle' in passive. So: 'Grammar is being learned by the students.'"
+  },
+  {
+    "id": 14,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'He will have completed the task by Monday.'",
+    "options": [
+      "A) The task will be completed by him by Monday.",
+      "B) The task will have been completed by him by Monday.",
+      "C) The task would have been completed by him by Monday.",
+      "D) The task has been completed by him by Monday."
+    ],
+    "correct_answer": "B) The task will have been completed by him by Monday.",
+    "explanation": "Active: Future perfect → 'will/shall + have + been + past participle' in passive. So: 'The task will have been completed by him by Monday.'"
+  },
+  {
+    "id": 15,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'Please help me.'",
+    "options": [
+      "A) You are requested to help me.",
+      "B) Let me be helped.",
+      "C) I should be helped.",
+      "D) Help should be given to me."
+    ],
+    "correct_answer": "A) You are requested to help me.",
+    "explanation": "Polite imperatives with 'please' use 'You are requested to + verb' in passive form. So: 'You are requested to help me.'"
+  },
+  {
+    "id": 16,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The dog bit the child.'",
+    "options": [
+      "A) The child is bitten by the dog.",
+      "B) The child was bitten by the dog.",
+      "C) The child has been bitten by the dog.",
+      "D) The child was being bitten by the dog."
+    ],
+    "correct_answer": "B) The child was bitten by the dog.",
+    "explanation": "Active: Simple past → 'was/were + past participle' in passive. 'The dog' becomes 'by the dog'. So: 'The child was bitten by the dog.'"
+  },
+  {
+    "id": 17,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'We use milk to make butter.'",
+    "options": [
+      "A) Milk is used to make butter.",
+      "B) Milk is used by us to make butter.",
+      "C) Butter is made by milk.",
+      "D) Both A and B are correct."
+    ],
+    "correct_answer": "D) Both A and B are correct.",
+    "explanation": "In passive, 'We use milk...' → 'Milk is used by us to make butter.' When agent is general ('we/they/people'), 'by us' can be omitted, making 'Milk is used to make butter' also acceptable."
+  },
+  {
+    "id": 18,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'She loves her cat.'",
+    "options": [
+      "A) Her cat is loved by her.",
+      "B) Her cat was loved by her.",
+      "C) Her cat has been loved by her.",
+      "D) Her cat is being loved by her."
+    ],
+    "correct_answer": "A) Her cat is loved by her.",
+    "explanation": "Active: Simple present → 'is/am/are + past participle + by' in passive. 'She' becomes 'her'. So: 'Her cat is loved by her.'"
+  },
+  {
+    "id": 19,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The manager called the employee.'",
+    "options": [
+      "A) The employee is called by the manager.",
+      "B) The employee was called by the manager.",
+      "C) The employee has been called by the manager.",
+      "D) The employee had been called by the manager."
+    ],
+    "correct_answer": "B) The employee was called by the manager.",
+    "explanation": "Active: Simple past → 'was/were + past participle' in passive. So: 'The employee was called by the manager.'"
+  },
+  {
+    "id": 20,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'They have built a new bridge.'",
+    "options": [
+      "A) A new bridge was built by them.",
+      "B) A new bridge is built by them.",
+      "C) A new bridge has been built by them.",
+      "D) A new bridge had been built by them."
+    ],
+    "correct_answer": "C) A new bridge has been built by them.",
+    "explanation": "Active: Present perfect → 'has/have + been + past participle' in passive. 'They' becomes 'them'. So: 'A new bridge has been built by them.'"
+  },
+  {
+    "id": 21,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The police arrested the thief.'",
+    "options": [
+      "A) The thief is arrested by the police.",
+      "B) The thief was arrested by the police.",
+      "C) The thief has been arrested by the police.",
+      "D) The thief was being arrested by the police."
+    ],
+    "correct_answer": "B) The thief was arrested by the police.",
+    "explanation": "Active: Simple past → 'was/were + past participle + by' in passive. So: 'The thief was arrested by the police.'"
+  },
+  {
+    "id": 22,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'Nobody can do this work.'",
+    "options": [
+      "A) This work cannot be done by anybody.",
+      "B) This work can be done by nobody.",
+      "C) This work is not done by anybody.",
+      "D) This work could not be done."
+    ],
+    "correct_answer": "A) This work cannot be done by anybody.",
+    "explanation": "Modal passive: 'can + be + past participle'. 'Nobody' becomes 'anybody' in negative passive. So: 'This work cannot be done by anybody.'"
+  },
+  {
+    "id": 23,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The chef is cooking the meal.'",
+    "options": [
+      "A) The meal is cooked by the chef.",
+      "B) The meal was cooked by the chef.",
+      "C) The meal is being cooked by the chef.",
+      "D) The meal has been cooked by the chef."
+    ],
+    "correct_answer": "C) The meal is being cooked by the chef.",
+    "explanation": "Active: Present continuous → 'is/am/are + being + past participle' in passive. So: 'The meal is being cooked by the chef.'"
+  },
+  {
+    "id": 24,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'He should respect his elders.'",
+    "options": [
+      "A) His elders should be respected by him.",
+      "B) His elders are respected by him.",
+      "C) His elders must be respected by him.",
+      "D) His elders would be respected by him."
+    ],
+    "correct_answer": "A) His elders should be respected by him.",
+    "explanation": "Modal passive: 'should + be + past participle'. The modal 'should' remains unchanged. So: 'His elders should be respected by him.'"
+  },
+  {
+    "id": 25,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The workers were building the road.'",
+    "options": [
+      "A) The road was built by the workers.",
+      "B) The road is being built by the workers.",
+      "C) The road was being built by the workers.",
+      "D) The road had been built by the workers."
+    ],
+    "correct_answer": "C) The road was being built by the workers.",
+    "explanation": "Active: Past continuous → 'was/were + being + past participle' in passive. So: 'The road was being built by the workers.'"
+  },
+  {
+    "id": 26,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'My friend gave me a gift.'",
+    "options": [
+      "A) A gift was given to me by my friend.",
+      "B) I was given a gift by my friend.",
+      "C) Both A and B are correct.",
+      "D) A gift is given to me by my friend."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "With ditransitive verbs (two objects), both the direct and indirect object can become the subject in passive. Both 'A gift was given to me by my friend' and 'I was given a gift by my friend' are correct."
+  },
+  {
+    "id": 27,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The boy broke the window.'",
+    "options": [
+      "A) The window is broken by the boy.",
+      "B) The window was broken by the boy.",
+      "C) The window has been broken by the boy.",
+      "D) The window was being broken by the boy."
+    ],
+    "correct_answer": "B) The window was broken by the boy.",
+    "explanation": "Active: Simple past → 'was/were + past participle' in passive. So: 'The window was broken by the boy.'"
+  },
+  {
+    "id": 28,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'She can speak three languages.'",
+    "options": [
+      "A) Three languages can be spoken by her.",
+      "B) Three languages are spoken by her.",
+      "C) Three languages could be spoken by her.",
+      "D) Three languages are being spoken by her."
+    ],
+    "correct_answer": "A) Three languages can be spoken by her.",
+    "explanation": "Modal passive: 'can + be + past participle'. 'She' becomes 'her'. So: 'Three languages can be spoken by her.'"
+  },
+  {
+    "id": 29,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The principal announced the results.'",
+    "options": [
+      "A) The results are announced by the principal.",
+      "B) The results were announced by the principal.",
+      "C) The results have been announced by the principal.",
+      "D) The results were being announced by the principal."
+    ],
+    "correct_answer": "B) The results were announced by the principal.",
+    "explanation": "Active: Simple past → 'was/were + past participle' in passive. So: 'The results were announced by the principal.'"
+  },
+  {
+    "id": 30,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'They must complete the assignment.'",
+    "options": [
+      "A) The assignment must be completed by them.",
+      "B) The assignment should be completed by them.",
+      "C) The assignment has to be completed by them.",
+      "D) The assignment would be completed by them."
+    ],
+    "correct_answer": "A) The assignment must be completed by them.",
+    "explanation": "Modal passive: 'must + be + past participle'. The modal 'must' stays unchanged. So: 'The assignment must be completed by them.'"
+  },
+  {
+    "id": 31,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The farmer grows vegetables.'",
+    "options": [
+      "A) Vegetables are grown by the farmer.",
+      "B) Vegetables were grown by the farmer.",
+      "C) Vegetables have been grown by the farmer.",
+      "D) Vegetables are being grown by the farmer."
+    ],
+    "correct_answer": "A) Vegetables are grown by the farmer.",
+    "explanation": "Active: Simple present → 'is/am/are + past participle' in passive. So: 'Vegetables are grown by the farmer.'"
+  },
+  {
+    "id": 32,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The doctor examined the patient.'",
+    "options": [
+      "A) The patient is examined by the doctor.",
+      "B) The patient was examined by the doctor.",
+      "C) The patient has been examined by the doctor.",
+      "D) The patient had been examined by the doctor."
+    ],
+    "correct_answer": "B) The patient was examined by the doctor.",
+    "explanation": "Active: Simple past → 'was/were + past participle' in passive. So: 'The patient was examined by the doctor.'"
+  },
+  {
+    "id": 33,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'He had written a poem.'",
+    "options": [
+      "A) A poem was written by him.",
+      "B) A poem has been written by him.",
+      "C) A poem had been written by him.",
+      "D) A poem is written by him."
+    ],
+    "correct_answer": "C) A poem had been written by him.",
+    "explanation": "Active: Past perfect → 'had + been + past participle' in passive. 'He' becomes 'him'. So: 'A poem had been written by him.'"
+  },
+  {
+    "id": 34,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'Shut the windows.'",
+    "options": [
+      "A) The windows are shut.",
+      "B) Let the windows be shut.",
+      "C) The windows should be shut.",
+      "D) The windows must be shut."
+    ],
+    "correct_answer": "B) Let the windows be shut.",
+    "explanation": "Imperative sentences in passive: 'Let + object + be + past participle'. So: 'Let the windows be shut.'"
+  },
+  {
+    "id": 35,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The company will launch a new product.'",
+    "options": [
+      "A) A new product is launched by the company.",
+      "B) A new product will be launched by the company.",
+      "C) A new product would be launched by the company.",
+      "D) A new product shall be launched by the company."
+    ],
+    "correct_answer": "B) A new product will be launched by the company.",
+    "explanation": "Active: Simple future → 'will + be + past participle' in passive. So: 'A new product will be launched by the company.'"
+  },
+  {
+    "id": 36,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The children were playing cricket.'",
+    "options": [
+      "A) Cricket was played by the children.",
+      "B) Cricket is being played by the children.",
+      "C) Cricket was being played by the children.",
+      "D) Cricket had been played by the children."
+    ],
+    "correct_answer": "C) Cricket was being played by the children.",
+    "explanation": "Active: Past continuous → 'was/were + being + past participle' in passive. So: 'Cricket was being played by the children.'"
+  },
+  {
+    "id": 37,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'He surprised me.'",
+    "options": [
+      "A) I was surprised by him.",
+      "B) I am surprised by him.",
+      "C) I was surprised to him.",
+      "D) I am surprised to him."
+    ],
+    "correct_answer": "A) I was surprised by him.",
+    "explanation": "Active: Simple past → 'was/were + past participle + by' in passive. 'He' becomes 'him', 'me' becomes 'I'. So: 'I was surprised by him.'"
+  },
+  {
+    "id": 38,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The artist painted a beautiful picture.'",
+    "options": [
+      "A) A beautiful picture is painted by the artist.",
+      "B) A beautiful picture was painted by the artist.",
+      "C) A beautiful picture has been painted by the artist.",
+      "D) A beautiful picture was being painted by the artist."
+    ],
+    "correct_answer": "B) A beautiful picture was painted by the artist.",
+    "explanation": "Active: Simple past → 'was/were + past participle' in passive. So: 'A beautiful picture was painted by the artist.'"
+  },
+  {
+    "id": 39,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'We have received your application.'",
+    "options": [
+      "A) Your application was received by us.",
+      "B) Your application is received by us.",
+      "C) Your application has been received by us.",
+      "D) Your application had been received by us."
+    ],
+    "correct_answer": "C) Your application has been received by us.",
+    "explanation": "Active: Present perfect → 'has/have + been + past participle' in passive. 'We' becomes 'us'. So: 'Your application has been received by us.'"
+  },
+  {
+    "id": 40,
+    "topic": "Change of Voice",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Change the voice: 'The nurse is attending to the patient.'",
+    "options": [
+      "A) The patient is attended to by the nurse.",
+      "B) The patient is being attended to by the nurse.",
+      "C) The patient was attended to by the nurse.",
+      "D) The patient has been attended to by the nurse."
+    ],
+    "correct_answer": "B) The patient is being attended to by the nurse.",
+    "explanation": "Active: Present continuous → 'is/am/are + being + past participle' in passive. Phrasal verb 'attend to' keeps 'to'. So: 'The patient is being attended to by the nurse.'"
+  },
+  {
+    "id": 41,
+    "topic": "Change of Voice",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Change the voice: 'It is time to do the work.'",
+    "options": [
+      "A) It is time for the work to be done.",
+      "B) It is time the work was done.",
+      "C) The work is to be done in time.",
+      "D) The work should be done in time."
+    ],
+    "correct_answer": "A) It is time for the work to be done.",
+    "explanation": "Infinitive passive: 'to do' → 'to be done'. The structure 'It is time + infinitive' becomes 'It is time + for + object + to be + past participle'. So: 'It is time for the work to be done.'"
+  },
+  {
+    "id": 42,
+    "topic": "Change of Voice",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Change the voice: 'People say that he is honest.'",
+    "options": [
+      "A) He is said to be honest.",
+      "B) It is said that he is honest.",
+      "C) Both A and B are correct.",
+      "D) He was said to be honest."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Reporting verb 'say' in passive can take two forms: 'It is said that + clause' OR 'Subject + is said + to infinitive'. Both are grammatically correct passive forms."
+  },
+  {
+    "id": 43,
+    "topic": "Change of Voice",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Change the voice: 'The teacher told the students to be quiet.'",
+    "options": [
+      "A) The students were told to be quiet by the teacher.",
+      "B) The students are told to be quiet by the teacher.",
+      "C) The students were being told to be quiet by the teacher.",
+      "D) The students had been told to be quiet by the teacher."
+    ],
+    "correct_answer": "A) The students were told to be quiet by the teacher.",
+    "explanation": "Active: Simple past with infinitive object → passive keeps the infinitive. 'told + object + to infinitive' → 'object + were told + to infinitive + by agent'. So: 'The students were told to be quiet by the teacher.'"
+  },
+  {
+    "id": 44,
+    "topic": "Change of Voice",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Change the voice: 'Who wrote this novel?'",
+    "options": [
+      "A) By whom was this novel written?",
+      "B) By who was this novel written?",
+      "C) This novel was written by whom?",
+      "D) Who was this novel written by?"
+    ],
+    "correct_answer": "A) By whom was this novel written?",
+    "explanation": "Interrogative passive: 'Who' (subject) becomes 'By whom' (prepositional phrase). The auxiliary 'was' comes before the subject 'this novel'. So: 'By whom was this novel written?'"
+  },
+  {
+    "id": 45,
+    "topic": "Change of Voice",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Change the voice: 'What did he say?'",
+    "options": [
+      "A) What was said by him?",
+      "B) What has been said by him?",
+      "C) What is said by him?",
+      "D) What had been said by him?"
+    ],
+    "correct_answer": "A) What was said by him?",
+    "explanation": "Interrogative passive: 'What' is the object, so it stays at the front. 'did say' (simple past) → 'was said'. 'he' → 'him'. So: 'What was said by him?'"
+  }
+]

@@ -1,0 +1,577 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'book'?",
+    "options": ["A) Hardcover", "B) Pages", "C) Bookmark", "D) Illustration"],
+    "correct_answer": "B) Pages",
+    "explanation": "A book must have pages to contain content. A hardcover, bookmark, or illustration are optional features that not every book has."
+  },
+  {
+    "id": 2,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'chair'?",
+    "options": ["A) Cushion", "B) Armrest", "C) Seat", "D) Wheels"],
+    "correct_answer": "C) Seat",
+    "explanation": "A chair must have a seat for someone to sit on. Cushions, armrests, and wheels are optional additions."
+  },
+  {
+    "id": 3,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'school'?",
+    "options": ["A) Playground", "B) Cafeteria", "C) Students", "D) Swimming Pool"],
+    "correct_answer": "C) Students",
+    "explanation": "A school cannot exist without students. A playground, cafeteria, and swimming pool are optional facilities."
+  },
+  {
+    "id": 4,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'newspaper'?",
+    "options": ["A) Photographs", "B) Crossword", "C) News", "D) Comics"],
+    "correct_answer": "C) News",
+    "explanation": "A newspaper must contain news. Photographs, crosswords, and comics are supplementary content not always present."
+  },
+  {
+    "id": 5,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'bicycle'?",
+    "options": ["A) Bell", "B) Basket", "C) Wheels", "D) Headlight"],
+    "correct_answer": "C) Wheels",
+    "explanation": "A bicycle must have wheels to function. A bell, basket, and headlight are optional accessories."
+  },
+  {
+    "id": 6,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'hospital'?",
+    "options": ["A) Cafeteria", "B) Patients", "C) Parking Lot", "D) Gift Shop"],
+    "correct_answer": "B) Patients",
+    "explanation": "A hospital is defined by the presence of patients receiving medical care. Cafeteria, parking lot, and gift shop are optional."
+  },
+  {
+    "id": 7,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'clock'?",
+    "options": ["A) Alarm", "B) Battery", "C) Hands", "D) Chime"],
+    "correct_answer": "C) Hands",
+    "explanation": "A traditional clock must have hands to indicate time. An alarm, battery, and chime are not present in all clocks."
+  },
+  {
+    "id": 8,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'garden'?",
+    "options": ["A) Fountain", "B) Fence", "C) Plants", "D) Bench"],
+    "correct_answer": "C) Plants",
+    "explanation": "A garden must have plants to be called a garden. Fountains, fences, and benches are optional additions."
+  },
+  {
+    "id": 9,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'dictionary'?",
+    "options": ["A) Illustrations", "B) Words", "C) Index", "D) Appendix"],
+    "correct_answer": "B) Words",
+    "explanation": "A dictionary must contain words and their definitions. Illustrations, index, and appendix are not always present."
+  },
+  {
+    "id": 10,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'map'?",
+    "options": ["A) Compass Rose", "B) Scale", "C) Legend", "D) Geographic Representation"],
+    "correct_answer": "D) Geographic Representation",
+    "explanation": "A map must represent geographic information. A compass rose, scale, and legend are helpful but not always included."
+  },
+  {
+    "id": 11,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'song'?",
+    "options": ["A) Instruments", "B) Melody", "C) Lyrics", "D) Chorus"],
+    "correct_answer": "B) Melody",
+    "explanation": "A song must have a melody (tune). Instruments, lyrics, and a chorus are not present in all songs (e.g., humming)."
+  },
+  {
+    "id": 12,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'triangle'?",
+    "options": ["A) Equal Sides", "B) Right Angle", "C) Three Sides", "D) Obtuse Angle"],
+    "correct_answer": "C) Three Sides",
+    "explanation": "A triangle by definition must have three sides. Equal sides and specific angles are properties of particular types of triangles."
+  },
+  {
+    "id": 13,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'library'?",
+    "options": ["A) Computers", "B) Books", "C) Reading Lamps", "D) Librarian's Desk"],
+    "correct_answer": "B) Books",
+    "explanation": "A library must contain books (or reading materials). Computers, reading lamps, and a librarian's desk are optional."
+  },
+  {
+    "id": 14,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'wedding'?",
+    "options": ["A) Cake", "B) Flowers", "C) Vows", "D) Band"],
+    "correct_answer": "C) Vows",
+    "explanation": "A wedding ceremony must include vows (commitment). Cake, flowers, and a band are traditional but not essential elements."
+  },
+  {
+    "id": 15,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'painting'?",
+    "options": ["A) Frame", "B) Canvas", "C) Color", "D) Signature"],
+    "correct_answer": "C) Color",
+    "explanation": "A painting must use color (or at minimum, pigment/ink). A frame, canvas (could be paper), and signature are not always present."
+  },
+  {
+    "id": 16,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'river'?",
+    "options": ["A) Bridge", "B) Boat", "C) Water", "D) Fish"],
+    "correct_answer": "C) Water",
+    "explanation": "A river must have flowing water. Bridges, boats, and fish are not essential components of a river."
+  },
+  {
+    "id": 17,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'computer'?",
+    "options": ["A) Printer", "B) Processor", "C) Mouse", "D) Speaker"],
+    "correct_answer": "B) Processor",
+    "explanation": "A computer must have a processor to function. A printer, mouse, and speaker are peripheral devices, not essential."
+  },
+  {
+    "id": 18,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'recipe'?",
+    "options": ["A) Photographs", "B) Serving Suggestions", "C) Ingredients", "D) Nutritional Information"],
+    "correct_answer": "C) Ingredients",
+    "explanation": "A recipe must list ingredients. Photographs, serving suggestions, and nutritional information are optional additions."
+  },
+  {
+    "id": 19,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'forest'?",
+    "options": ["A) Animals", "B) Rivers", "C) Trees", "D) Trails"],
+    "correct_answer": "C) Trees",
+    "explanation": "A forest is defined by a dense collection of trees. Animals, rivers, and trails may or may not be present."
+  },
+  {
+    "id": 20,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'telephone'?",
+    "options": ["A) Answering Machine", "B) Caller ID", "C) Communication Capability", "D) Speed Dial"],
+    "correct_answer": "C) Communication Capability",
+    "explanation": "A telephone must enable communication. Answering machines, caller ID, and speed dial are optional features."
+  },
+  {
+    "id": 21,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'election'?",
+    "options": ["A) Campaign Posters", "B) Voting", "C) Debates", "D) Rallies"],
+    "correct_answer": "B) Voting",
+    "explanation": "An election must involve voting to select candidates. Campaign posters, debates, and rallies are optional activities."
+  },
+  {
+    "id": 22,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'concert'?",
+    "options": ["A) Backstage Pass", "B) Merchandise", "C) Performance", "D) Lighting Effects"],
+    "correct_answer": "C) Performance",
+    "explanation": "A concert must have a live performance. Backstage passes, merchandise, and lighting effects are optional."
+  },
+  {
+    "id": 23,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'contract'?",
+    "options": ["A) Notary Seal", "B) Agreement", "C) Witness", "D) Stamp Paper"],
+    "correct_answer": "B) Agreement",
+    "explanation": "A contract must involve an agreement between parties. A notary seal, witness, and stamp paper are not always required."
+  },
+  {
+    "id": 24,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'journey'?",
+    "options": ["A) Luggage", "B) Destination", "C) Passport", "D) Hotel Booking"],
+    "correct_answer": "B) Destination",
+    "explanation": "A journey must have a destination (even if the journey itself is the goal). Luggage, passport, and hotel booking are not always needed."
+  },
+  {
+    "id": 25,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'game'?",
+    "options": ["A) Trophy", "B) Referee", "C) Rules", "D) Uniform"],
+    "correct_answer": "C) Rules",
+    "explanation": "Every game must have rules to define how it is played. A trophy, referee, and uniform are not present in all games."
+  },
+  === CHECKPOINT: 25/100 COMPLETE ===
+  {
+    "id": 26,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'prison'?",
+    "options": ["A) Warden", "B) Inmates", "C) Cafeteria", "D) Exercise Yard"],
+    "correct_answer": "B) Inmates",
+    "explanation": "A prison must house inmates (prisoners). A warden, cafeteria, and exercise yard are not definitionally essential."
+  },
+  {
+    "id": 27,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'photograph'?",
+    "options": ["A) Frame", "B) Caption", "C) Image", "D) Album"],
+    "correct_answer": "C) Image",
+    "explanation": "A photograph must contain an image. A frame, caption, and album are optional additions."
+  },
+  {
+    "id": 28,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'army'?",
+    "options": ["A) Tanks", "B) Soldiers", "C) Airplanes", "D) Submarines"],
+    "correct_answer": "B) Soldiers",
+    "explanation": "An army must consist of soldiers. Tanks, airplanes, and submarines are equipment that may or may not be present."
+  },
+  {
+    "id": 29,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'language'?",
+    "options": ["A) Written Script", "B) Grammar", "C) Words", "D) Dialect"],
+    "correct_answer": "C) Words",
+    "explanation": "A language must have words (or symbols) to convey meaning. Written script, formal grammar, and dialects are not present in all languages."
+  },
+  {
+    "id": 30,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'museum'?",
+    "options": ["A) Gift Shop", "B) Exhibits", "C) Cafeteria", "D) Audio Guide"],
+    "correct_answer": "B) Exhibits",
+    "explanation": "A museum must have exhibits (artifacts or displays). A gift shop, cafeteria, and audio guide are optional amenities."
+  },
+  {
+    "id": 31,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'ocean'?",
+    "options": ["A) Coral Reefs", "B) Ships", "C) Salt Water", "D) Islands"],
+    "correct_answer": "C) Salt Water",
+    "explanation": "An ocean is defined by its large body of salt water. Coral reefs, ships, and islands are not always present."
+  },
+  {
+    "id": 32,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'debate'?",
+    "options": ["A) Moderator", "B) Audience", "C) Opposing Viewpoints", "D) Microphone"],
+    "correct_answer": "C) Opposing Viewpoints",
+    "explanation": "A debate must involve opposing viewpoints being argued. A moderator, audience, and microphone are not always required."
+  },
+  {
+    "id": 33,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'bank'?",
+    "options": ["A) ATM", "B) Locker", "C) Money", "D) Drive-Through"],
+    "correct_answer": "C) Money",
+    "explanation": "A bank must deal with money (financial transactions). ATMs, lockers, and drive-throughs are optional services."
+  },
+  {
+    "id": 34,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'letter'?",
+    "options": ["A) Envelope", "B) Stamp", "C) Message", "D) Return Address"],
+    "correct_answer": "C) Message",
+    "explanation": "A letter must contain a message. An envelope, stamp, and return address are needed for mailing but not for the letter itself."
+  },
+  {
+    "id": 35,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'volcano'?",
+    "options": ["A) Lava Flow", "B) Crater", "C) Ash Cloud", "D) Magma"],
+    "correct_answer": "D) Magma",
+    "explanation": "A volcano must have magma (molten rock) beneath it. A lava flow and ash cloud occur during eruption; a crater may not always be visible."
+  },
+  {
+    "id": 36,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'restaurant'?",
+    "options": ["A) Valet Parking", "B) Food", "C) Live Music", "D) Dress Code"],
+    "correct_answer": "B) Food",
+    "explanation": "A restaurant must serve food. Valet parking, live music, and dress codes are optional features."
+  },
+  {
+    "id": 37,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'democracy'?",
+    "options": ["A) Two-Party System", "B) Free Press", "C) Voting Rights", "D) Presidential System"],
+    "correct_answer": "C) Voting Rights",
+    "explanation": "Democracy must include voting rights for citizens. A two-party system, free press, and presidential system are not universal requirements."
+  },
+  {
+    "id": 38,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'ladder'?",
+    "options": ["A) Metal Material", "B) Rungs", "C) Safety Feet", "D) Paint"],
+    "correct_answer": "B) Rungs",
+    "explanation": "A ladder must have rungs (steps) to climb. Metal material, safety feet, and paint are not essential to all ladders."
+  },
+  {
+    "id": 39,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'prison sentence'?",
+    "options": ["A) Parole", "B) Community Service", "C) Confinement", "D) Rehabilitation Program"],
+    "correct_answer": "C) Confinement",
+    "explanation": "A prison sentence must involve confinement. Parole, community service, and rehabilitation programs are not always part of every sentence."
+  },
+  {
+    "id": 40,
+    "topic": "Essential Part",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an essential part of a 'diploma'?",
+    "options": ["A) Gold Seal", "B) Graduation Ceremony", "C) Academic Achievement", "D) Tassel"],
+    "correct_answer": "C) Academic Achievement",
+    "explanation": "A diploma certifies academic achievement. A gold seal, graduation ceremony, and tassel are traditional but not definitionally essential."
+  },
+  {
+    "id": 41,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'commerce'?",
+    "options": ["A) Advertising", "B) Exchange of Goods", "C) Credit Facilities", "D) Transportation"],
+    "correct_answer": "B) Exchange of Goods",
+    "explanation": "Commerce fundamentally involves the exchange of goods or services. Advertising, credit, and transportation support commerce but are not its core definition."
+  },
+  {
+    "id": 42,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'justice'?",
+    "options": ["A) Punishment", "B) Lawyers", "C) Fairness", "D) Imprisonment"],
+    "correct_answer": "C) Fairness",
+    "explanation": "Justice is fundamentally about fairness and impartiality. Punishment, lawyers, and imprisonment are tools of the justice system but not its essence."
+  },
+  {
+    "id": 43,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'inflation'?",
+    "options": ["A) Unemployment", "B) Rise in Price Level", "C) Government Deficit", "D) Trade Imbalance"],
+    "correct_answer": "B) Rise in Price Level",
+    "explanation": "Inflation is defined as a sustained rise in the general price level. Unemployment, government deficit, and trade imbalance may accompany but don't define inflation."
+  },
+  {
+    "id": 44,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'photosynthesis'?",
+    "options": ["A) Oxygen Release", "B) Sunlight", "C) Soil Nutrients", "D) Wind"],
+    "correct_answer": "B) Sunlight",
+    "explanation": "Photosynthesis requires sunlight as the energy source. While oxygen is released as a byproduct, sunlight is the essential input without which the process cannot occur."
+  },
+  {
+    "id": 45,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'migration'?",
+    "options": ["A) Permanent Settlement", "B) Movement from One Place to Another", "C) Visa", "D) Employment"],
+    "correct_answer": "B) Movement from One Place to Another",
+    "explanation": "Migration essentially involves movement from one place to another. Permanent settlement, visa, and employment are not always part of migration."
+  },
+  {
+    "id": 46,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'budget'?",
+    "options": ["A) Surplus", "B) Income and Expenditure Estimate", "C) Tax Collection", "D) Foreign Aid"],
+    "correct_answer": "B) Income and Expenditure Estimate",
+    "explanation": "A budget must contain estimates of income and expenditure. A surplus, tax collection details, and foreign aid are not always present in every budget."
+  },
+  {
+    "id": 47,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'constitution'?",
+    "options": ["A) Bill of Rights", "B) Fundamental Laws", "C) Federal Structure", "D) Judicial Review"],
+    "correct_answer": "B) Fundamental Laws",
+    "explanation": "A constitution must contain fundamental laws governing a state. A bill of rights, federal structure, and judicial review are not present in all constitutions."
+  },
+  {
+    "id": 48,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'census'?",
+    "options": ["A) Economic Survey", "B) Population Count", "C) Literacy Rate", "D) Religious Data"],
+    "correct_answer": "B) Population Count",
+    "explanation": "A census is fundamentally a count of the population. Economic surveys, literacy rates, and religious data may be included but are not the defining feature."
+  },
+  {
+    "id": 49,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'treaty'?",
+    "options": ["A) Military Alliance", "B) Agreement Between Nations", "C) Trade Terms", "D) UN Approval"],
+    "correct_answer": "B) Agreement Between Nations",
+    "explanation": "A treaty must be a formal agreement between nations. Military alliances, trade terms, and UN approval are not always part of every treaty."
+  },
+  {
+    "id": 50,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'epidemic'?",
+    "options": ["A) Death Toll", "B) Widespread Disease", "C) Government Lockdown", "D) Vaccine Shortage"],
+    "correct_answer": "B) Widespread Disease",
+    "explanation": "An epidemic is defined by the widespread occurrence of a disease. Death toll, government lockdown, and vaccine shortage may accompany but don't define it."
+  },
+  {
+    "id": 51,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'parliament'?",
+    "options": ["A) Upper House", "B) Prime Minister", "C) Elected Representatives", "D) Opposition Party"],
+    "correct_answer": "C) Elected Representatives",
+    "explanation": "A parliament must consist of elected representatives. An upper house, prime minister, and opposition party are not present in all parliamentary systems."
+  },
+  {
+    "id": 52,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'drought'?",
+    "options": ["A) Famine", "B) Prolonged Lack of Rainfall", "C) Crop Failure", "D) Water Rationing"],
+    "correct_answer": "B) Prolonged Lack of Rainfall",
+    "explanation": "A drought is defined by a prolonged lack of rainfall. Famine, crop failure, and water rationing are consequences that may or may not follow."
+  },
+  {
+    "id": 53,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'monopoly'?",
+    "options": ["A) High Prices", "B) Single Seller Control", "C) Government Regulation", "D) Patent Rights"],
+    "correct_answer": "B) Single Seller Control",
+    "explanation": "A monopoly is defined by a single seller controlling the market. High prices, government regulation, and patents may accompany but don't define monopoly."
+  },
+  {
+    "id": 54,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'revolution'?",
+    "options": ["A) Violence", "B) Foreign Intervention", "C) Fundamental Change", "D) New Constitution"],
+    "correct_answer": "C) Fundamental Change",
+    "explanation": "A revolution must bring about fundamental change in a system. Violence, foreign intervention, and a new constitution are not always present."
+  },
+  {
+    "id": 55,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'subsidy'?",
+    "options": ["A) Tax Reduction", "B) Financial Assistance", "C) Import Duty Waiver", "D) Loan Guarantee"],
+    "correct_answer": "B) Financial Assistance",
+    "explanation": "A subsidy is essentially financial assistance provided to support an activity. Tax reduction, import duty waiver, and loan guarantees are specific forms but not the definition."
+  },
+  {
+    "id": 56,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'arbitration'?",
+    "options": ["A) Court Proceedings", "B) Neutral Third Party", "C) Legal Representation", "D) Public Hearing"],
+    "correct_answer": "B) Neutral Third Party",
+    "explanation": "Arbitration must involve a neutral third party to resolve disputes. Court proceedings, legal representation, and public hearings are not always required."
+  },
+  {
+    "id": 57,
+    "topic": "Essential Part",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is an essential part of 'embargo'?",
+    "options": ["A) Military Action", "B) Trade Restriction", "C) Diplomatic Expulsion", "D) Sanctions Committee"],
+    "correct_answer": "B) Trade Restriction",
+    "explanation": "An embargo is fundamentally a trade restriction imposed on a country. Military action, diplomatic expulsion, and sanctions committees are not always involved."
+  },
+  {
+    "id": 58,
+    "topic": "Essential Part",
+    "difficulty

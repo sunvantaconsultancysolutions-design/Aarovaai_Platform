@@ -1,0 +1,461 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best defines 'Profit'?",
+    "options": ["A) The amount by which selling price exceeds cost price", "B) The amount by which cost price exceeds selling price", "C) The total revenue earned by a business", "D) The fixed expenses of a business"],
+    "correct_answer": "A) The amount by which selling price exceeds cost price",
+    "explanation": "Profit = Selling Price - Cost Price. When SP > CP, the difference is called profit. This is the fundamental definition used in all aptitude problems."
+  },
+  {
+    "id": 2,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'the interest calculated only on the principal amount'?",
+    "options": ["A) Compound Interest", "B) Simple Interest", "C) Effective Interest", "D) Nominal Interest"],
+    "correct_answer": "B) Simple Interest",
+    "explanation": "Simple Interest is calculated only on the original principal. Formula: SI = (P × R × T) / 100. Compound interest, in contrast, is calculated on principal plus accumulated interest."
+  },
+  {
+    "id": 3,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Average' in mathematics?",
+    "options": ["A) The middle value in a sorted list", "B) The most frequently occurring value", "C) The sum of all values divided by the number of values", "D) The difference between the highest and lowest values"],
+    "correct_answer": "C) The sum of all values divided by the number of values",
+    "explanation": "Average (Arithmetic Mean) = Sum of all observations / Number of observations. The middle value is the median, and the most frequent value is the mode."
+  },
+  {
+    "id": 4,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly defines 'Loss'?",
+    "options": ["A) Selling Price > Cost Price", "B) Cost Price > Selling Price", "C) Selling Price = Cost Price", "D) Marked Price > Selling Price"],
+    "correct_answer": "B) Cost Price > Selling Price",
+    "explanation": "Loss occurs when the cost price is greater than the selling price. Loss = CP - SP. When SP > CP, it is profit; when SP = CP, there is neither profit nor loss."
+  },
+  {
+    "id": 5,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Principal' mean in the context of simple interest?",
+    "options": ["A) The total amount repaid at the end", "B) The interest earned over time", "C) The original sum of money borrowed or invested", "D) The rate at which interest is charged"],
+    "correct_answer": "C) The original sum of money borrowed or invested",
+    "explanation": "Principal (P) is the initial amount of money that is borrowed or invested before any interest is added. Amount = Principal + Interest."
+  },
+  {
+    "id": 6,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'the ratio of a part to the whole expressed as a fraction of 100'?",
+    "options": ["A) Ratio", "B) Proportion", "C) Percentage", "D) Fraction"],
+    "correct_answer": "C) Percentage",
+    "explanation": "Percentage means 'per hundred'. It expresses a number as a fraction of 100. For example, 25% = 25/100 = 0.25. It is used to compare quantities on a common scale."
+  },
+  {
+    "id": 7,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Speed'?",
+    "options": ["A) Distance multiplied by time", "B) Distance divided by time", "C) Time divided by distance", "D) Distance added to time"],
+    "correct_answer": "B) Distance divided by time",
+    "explanation": "Speed = Distance / Time. This is the fundamental formula for speed, time, and distance problems. Units are typically km/hr or m/s."
+  },
+  {
+    "id": 8,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best defines 'Discount'?",
+    "options": ["A) The amount added to the cost price", "B) The reduction given on the marked price", "C) The profit earned on selling", "D) The tax charged on goods"],
+    "correct_answer": "B) The reduction given on the marked price",
+    "explanation": "Discount = Marked Price - Selling Price. It is the reduction offered on the listed/marked price to attract buyers. Discount % = (Discount / Marked Price) × 100."
+  },
+  {
+    "id": 9,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Ratio' mean in mathematics?",
+    "options": ["A) The sum of two quantities", "B) The difference between two quantities", "C) The comparison of two quantities by division", "D) The product of two quantities"],
+    "correct_answer": "C) The comparison of two quantities by division",
+    "explanation": "A ratio compares two quantities by division. Ratio of a to b is written as a:b or a/b. It shows how many times one quantity contains another."
+  },
+  {
+    "id": 10,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'the time required for an investment to double at a given rate of simple interest'?",
+    "options": ["A) Maturity Period", "B) Doubling Time", "C) Lock-in Period", "D) Tenure"],
+    "correct_answer": "B) Doubling Time",
+    "explanation": "Doubling Time at simple interest = 100/R years, where R is the rate of interest. For example, at 10% SI, money doubles in 10 years. This is a standard aptitude concept."
+  },
+  {
+    "id": 11,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Median' in statistics?",
+    "options": ["A) The sum of all values divided by count", "B) The most frequently occurring value", "C) The middle value when data is arranged in order", "D) The difference between maximum and minimum values"],
+    "correct_answer": "C) The middle value when data is arranged in order",
+    "explanation": "Median is the middle value of a dataset arranged in ascending or descending order. For even number of values, it is the average of the two middle values."
+  },
+  {
+    "id": 12,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following defines 'Mode' in statistics?",
+    "options": ["A) The average of all values", "B) The middle value in sorted data", "C) The value that appears most frequently", "D) The range of the dataset"],
+    "correct_answer": "C) The value that appears most frequently",
+    "explanation": "Mode is the value that occurs most often in a dataset. A dataset can have one mode (unimodal), two modes (bimodal), or more. It is the only measure of central tendency for categorical data."
+  },
+  {
+    "id": 13,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Compound Interest' mean?",
+    "options": ["A) Interest calculated only on the principal", "B) Interest calculated on principal and previously earned interest", "C) Interest paid at the beginning of the period", "D) Fixed interest regardless of time"],
+    "correct_answer": "B) Interest calculated on principal and previously earned interest",
+    "explanation": "Compound Interest is calculated on the principal plus the accumulated interest from previous periods. Formula: CI = P(1 + R/100)^T - P. This leads to exponential growth."
+  },
+  {
+    "id": 14,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'the price at which a product is listed for sale before any discount'?",
+    "options": ["A) Cost Price", "B) Selling Price", "C) Marked Price", "D) Wholesale Price"],
+    "correct_answer": "C) Marked Price",
+    "explanation": "Marked Price (MP) or List Price is the price tagged on the product before any discount is applied. Selling Price = Marked Price - Discount."
+  },
+  {
+    "id": 15,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Work' in time and work problems?",
+    "options": ["A) The time taken to complete a task", "B) The rate at which a person completes a task", "C) The total task to be completed, usually taken as 1 unit", "D) The number of workers involved"],
+    "correct_answer": "C) The total task to be completed, usually taken as 1 unit",
+    "explanation": "In time and work problems, the total work is considered as 1 unit. If a person completes work in n days, their daily work rate = 1/n. This is the standard approach."
+  },
+  {
+    "id": 16,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best defines 'Proportion'?",
+    "options": ["A) The sum of two ratios", "B) The equality of two ratios", "C) The difference of two ratios", "D) The product of two ratios"],
+    "correct_answer": "B) The equality of two ratios",
+    "explanation": "Proportion states that two ratios are equal. If a:b = c:d, then a, b, c, d are in proportion. The cross-multiplication rule gives ad = bc."
+  },
+  {
+    "id": 17,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Upstream' mean in boat and stream problems?",
+    "options": ["A) Moving in the direction of the stream", "B) Moving against the direction of the stream", "C) Moving perpendicular to the stream", "D) Moving at the speed of the stream"],
+    "correct_answer": "B) Moving against the direction of the stream",
+    "explanation": "Upstream means the boat moves against the current. Upstream speed = Boat speed - Stream speed. Downstream means moving with the current, so Downstream speed = Boat speed + Stream speed."
+  },
+  {
+    "id": 18,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'the price at which a shopkeeper purchases goods'?",
+    "options": ["A) Selling Price", "B) Marked Price", "C) Cost Price", "D) Retail Price"],
+    "correct_answer": "C) Cost Price",
+    "explanation": "Cost Price (CP) is the price at which goods are purchased by the seller. Profit or loss is calculated based on the difference between selling price and cost price."
+  },
+  {
+    "id": 19,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Range' in statistics?",
+    "options": ["A) The average of all values", "B) The middle value in a dataset", "C) The difference between the maximum and minimum values", "D) The most common value in a dataset"],
+    "correct_answer": "C) The difference between the maximum and minimum values",
+    "explanation": "Range = Maximum value - Minimum value. It measures the spread of data. A larger range indicates more variability in the dataset."
+  },
+  {
+    "id": 20,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following defines 'Downstream' in river/stream problems?",
+    "options": ["A) Moving against the flow of water", "B) Moving in the direction of the water flow", "C) Moving at zero speed", "D) Moving perpendicular to water flow"],
+    "correct_answer": "B) Moving in the direction of the water flow",
+    "explanation": "Downstream means the boat moves in the same direction as the current. Downstream speed = Boat speed + Stream speed. This is faster than upstream movement."
+  },
+  {
+    "id": 21,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Perimeter' mean in geometry?",
+    "options": ["A) The area enclosed within a shape", "B) The total length of the boundary of a shape", "C) The diagonal length of a shape", "D) The height of a geometric figure"],
+    "correct_answer": "B) The total length of the boundary of a shape",
+    "explanation": "Perimeter is the total distance around the boundary of a 2D shape. For a rectangle, Perimeter = 2(l + b). Area measures the space inside the shape."
+  },
+  {
+    "id": 22,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'the space occupied by a 3D object'?",
+    "options": ["A) Area", "B) Perimeter", "C) Surface Area", "D) Volume"],
+    "correct_answer": "D) Volume",
+    "explanation": "Volume is the amount of 3D space occupied by an object. It is measured in cubic units (cm³, m³). Area is 2D space, while surface area is the total area of all faces of a 3D object."
+  },
+  {
+    "id": 23,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Prime Number'?",
+    "options": ["A) A number divisible by all numbers", "B) A number greater than 1 with no divisors other than 1 and itself", "C) A number that is even", "D) A number divisible by 2 and 3"],
+    "correct_answer": "B) A number greater than 1 with no divisors other than 1 and itself",
+    "explanation": "A prime number has exactly two factors: 1 and itself. Examples: 2, 3, 5, 7, 11. Note: 1 is not a prime number. 2 is the only even prime number."
+  },
+  {
+    "id": 24,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best defines 'LCM' (Least Common Multiple)?",
+    "options": ["A) The largest number that divides both numbers", "B) The smallest number that is divisible by both numbers", "C) The product of two numbers", "D) The sum of two numbers"],
+    "correct_answer": "B) The smallest number that is divisible by both numbers",
+    "explanation": "LCM of two numbers is the smallest positive integer that is divisible by both. For example, LCM(4, 6) = 12. LCM × HCF = Product of the two numbers."
+  },
+  {
+    "id": 25,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'HCF' (Highest Common Factor) mean?",
+    "options": ["A) The smallest number divisible by both numbers", "B) The largest number that divides both numbers exactly", "C) The sum of all factors of a number", "D) The product of all prime factors"],
+    "correct_answer": "B) The largest number that divides both numbers exactly",
+    "explanation": "HCF (also called GCD) is the greatest number that divides two or more numbers without leaving a remainder. For example, HCF(12, 18) = 6. HCF × LCM = Product of two numbers."
+  },
+  
+  === CHECKPOINT: 25/100 COMPLETE ===
+  
+  {
+    "id": 26,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'the amount of money paid for the use of borrowed money over a period of time'?",
+    "options": ["A) Principal", "B) Interest", "C) Amount", "D) Rate"],
+    "correct_answer": "B) Interest",
+    "explanation": "Interest is the cost of borrowing money or the return on invested money. It is calculated based on principal, rate, and time. Total Amount = Principal + Interest."
+  },
+  {
+    "id": 27,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Relative Speed' when two objects move in opposite directions?",
+    "options": ["A) Difference of their speeds", "B) Sum of their speeds", "C) Product of their speeds", "D) Average of their speeds"],
+    "correct_answer": "B) Sum of their speeds",
+    "explanation": "When two objects move in opposite directions, their relative speed = sum of individual speeds. When moving in the same direction, relative speed = difference of speeds."
+  },
+  {
+    "id": 28,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following defines 'Odd Number'?",
+    "options": ["A) A number divisible by 2", "B) A number not divisible by 2", "C) A number divisible by 3", "D) A number that is prime"],
+    "correct_answer": "B) A number not divisible by 2",
+    "explanation": "Odd numbers are integers that cannot be divided evenly by 2. They leave a remainder of 1 when divided by 2. Examples: 1, 3, 5, 7, 9, 11..."
+  },
+  {
+    "id": 29,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Profit Percentage' mean?",
+    "options": ["A) (Profit / Selling Price) × 100", "B) (Profit / Cost Price) × 100", "C) (Profit / Marked Price) × 100", "D) (Selling Price / Cost Price) × 100"],
+    "correct_answer": "B) (Profit / Cost Price) × 100",
+    "explanation": "Profit % = (Profit / Cost Price) × 100. It is always calculated on the cost price unless stated otherwise. This is the standard formula used in all aptitude exams."
+  },
+  {
+    "id": 30,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'a number that has more than two factors'?",
+    "options": ["A) Prime Number", "B) Co-prime Number", "C) Composite Number", "D) Perfect Number"],
+    "correct_answer": "C) Composite Number",
+    "explanation": "A composite number has more than two factors (i.e., it is divisible by numbers other than 1 and itself). Examples: 4, 6, 8, 9, 10. Note: 1 is neither prime nor composite."
+  },
+  {
+    "id": 31,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Area' in geometry?",
+    "options": ["A) The boundary length of a 2D shape", "B) The space enclosed within a 2D shape", "C) The height of a 3D shape", "D) The diagonal of a rectangle"],
+    "correct_answer": "B) The space enclosed within a 2D shape",
+    "explanation": "Area is the measure of the 2D space enclosed within a flat shape. It is measured in square units (cm², m²). For a rectangle, Area = length × breadth."
+  },
+  {
+    "id": 32,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best defines 'Selling Price'?",
+    "options": ["A) The price at which goods are purchased", "B) The price listed on the product tag", "C) The price at which goods are sold to the customer", "D) The price after adding all taxes"],
+    "correct_answer": "C) The price at which goods are sold to the customer",
+    "explanation": "Selling Price (SP) is the actual price at which a product is sold. SP = CP + Profit (if profit) or SP = CP - Loss (if loss). It differs from marked price when discount is given."
+  },
+  {
+    "id": 33,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Efficiency' mean in time and work problems?",
+    "options": ["A) The total work done", "B) The time taken to complete work", "C) The amount of work done per unit time", "D) The number of workers"],
+    "correct_answer": "C) The amount of work done per unit time",
+    "explanation": "Efficiency = Work done / Time taken. A person with higher efficiency completes more work in the same time. If A completes work in 5 days, A's efficiency = 1/5 per day."
+  },
+  {
+    "id": 34,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'two numbers whose HCF is 1'?",
+    "options": ["A) Twin Primes", "B) Co-prime Numbers", "C) Composite Numbers", "D) Perfect Numbers"],
+    "correct_answer": "B) Co-prime Numbers",
+    "explanation": "Co-prime (or relatively prime) numbers are two numbers whose HCF is 1. They share no common factor other than 1. Example: 8 and 15 are co-prime (HCF = 1)."
+  },
+  {
+    "id": 35,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Diagonal' in a rectangle?",
+    "options": ["A) The length of the longer side", "B) The line segment connecting two opposite corners", "C) The perimeter divided by 4", "D) The height of the rectangle"],
+    "correct_answer": "B) The line segment connecting two opposite corners",
+    "explanation": "A diagonal of a rectangle connects two non-adjacent (opposite) vertices. For a rectangle with length l and breadth b, Diagonal = √(l² + b²) by Pythagoras theorem."
+  },
+  {
+    "id": 36,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following defines 'Natural Numbers'?",
+    "options": ["A) All integers including negative numbers", "B) Counting numbers starting from 1", "C) Numbers including zero and positive integers", "D) Numbers that include fractions"],
+    "correct_answer": "B) Counting numbers starting from 1",
+    "explanation": "Natural numbers are positive integers used for counting: 1, 2, 3, 4, 5... They do not include 0, negative numbers, or fractions. Whole numbers include 0 along with natural numbers."
+  },
+  {
+    "id": 37,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Whole Numbers' mean?",
+    "options": ["A) Natural numbers plus zero", "B) Natural numbers minus zero", "C) All integers including negatives", "D) Only even numbers"],
+    "correct_answer": "A) Natural numbers plus zero",
+    "explanation": "Whole numbers = {0, 1, 2, 3, 4, ...}. They include zero and all positive integers. The only difference from natural numbers is the inclusion of 0."
+  },
+  {
+    "id": 38,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term is defined as 'the fixed cost that does not change with the level of production'?",
+    "options": ["A) Variable Cost", "B) Marginal Cost", "C) Fixed Cost", "D) Opportunity Cost"],
+    "correct_answer": "C) Fixed Cost",
+    "explanation": "Fixed Cost remains constant regardless of the level of output. Examples: rent, salaries, insurance. Variable costs change with production levels. Total Cost = Fixed Cost + Variable Cost."
+  },
+  {
+    "id": 39,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the definition of 'Circumference' of a circle?",
+    "options": ["A) The area enclosed by the circle", "B) The radius of the circle multiplied by 2", "C) The total boundary length (perimeter) of the circle", "D) The diameter squared"],
+    "correct_answer": "C) The total boundary length (perimeter) of the circle",
+    "explanation": "Circumference is the perimeter of a circle. Formula: C = 2πr = πd, where r is radius and d is diameter. It is the distance around the circle."
+  },
+  {
+    "id": 40,
+    "topic": "Matching Definitions",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best defines 'Diameter' of a circle?",
+    "options": ["A) The distance from center to the boundary", "B) The longest chord passing through the center", "C) Half the circumference", "D) The area divided by π"],
+    "correct_answer": "B) The longest chord passing through the center",
+    "explanation": "Diameter is the longest chord of a circle that passes through its center. Diameter = 2 × Radius. It divides the circle into two equal semicircles."
+  },
+  {
+    "id": 41,
+    "topic": "Matching Definitions",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which term is defined as 'the ratio of the number of favorable outcomes to the total number of possible outcomes'?",
+    "options": ["A) Odds", "B) Probability", "C) Frequency", "D) Permutation"],
+    "correct_answer": "B) Probability",
+    "explanation": "Probability = Favorable outcomes / Total outcomes. It ranges from 0 (impossible) to 1 (certain). For example, probability of getting heads = 1/2."
+  },
+  {
+    "id": 42,
+    "topic": "Matching Definitions",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the definition of 'Arithmetic Progression (AP)'?",
+    "options": ["A) A sequence where each term is multiplied by a constant", "B) A sequence where each term differs from the previous by a constant", "C) A sequence of prime numbers", "D) A sequence where terms decrease exponentially"],
+    "correct_answer": "B) A sequence where each term differs from the previous by a constant",
+    "explanation": "In an AP, the difference between consecutive terms (common difference 'd') is constant. General term: aₙ = a + (n-1)d. Example: 2, 5, 8, 11 (d = 3)."
+  },
+  {
+    "id": 43,
+    "topic": "Matching Definitions",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following defines 'Geometric Progression (GP)'?",
+    "options": ["A) A sequence with constant difference between terms", "B) A sequence where each term is obtained by multiplying the previous term by a constant ratio", "C) A sequence of perfect squares", "D) A sequence with alternating positive and negative terms"],
+    "correct_answer": "B) A sequence where each term is obtained by multiplying the previous term by a constant ratio",
+    "explanation": "In a GP, each term is multiplied by a constant ratio 'r'. General term: aₙ = a × r^(n-1). Example: 2, 6, 18, 54 (r = 3). Sum of n terms = a(rⁿ - 1)/(r - 1)."
+  },
+  {
+    "id": 44,
+    "topic": "Matching Definitions",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Permutation' mean in combinatorics?",
+    "options": ["A) Selection of items without regard to order", "B) Arrangement of items where order matters", "C) The probability of an event", "D) The number of subsets of a set"],
+    "correct_answer": "B) Arrangement of items where order matters",
+    "explanation": "Permutation is an ordered arrangement of objects. ⁿPᵣ = n!/(n-r)!. For example, arranging 3 books from 5 = ⁵P₃ = 60. Order matters in permutation."
+  },
+  {
+    "id": 45,
+    "topic": "Matching Definitions",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which term is defined as 'selection of items without regard to the order of arrangement'?",
+    "options": ["A) Permutation", "B) Combination", "C) Factorial", "D) Sequence"],
+    "correct_answer": "B) Combination",
+    "explanation": "Combination is the selection of items where order does not matter. ⁿCᵣ = n!/[r!(n-r)!]. For example, choosing 3 students from 5 = ⁵C₃ = 10. ⁿCᵣ = ⁿPᵣ/r!."
+  },
+  {
+    "id": 46,
+    "topic": "Matching Definitions",
+    "difficulty": "medium",
+    "exam_type": "government",
+    

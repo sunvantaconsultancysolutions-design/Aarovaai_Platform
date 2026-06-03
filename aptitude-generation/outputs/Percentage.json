@@ -1,0 +1,587 @@
+[
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 25% of 480?",
+    "options": ["100", "110", "120", "130"],
+    "correct_answer": "120",
+    "explanation": "25% of 480 = (25/100) × 480 = 120."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What percentage is 45 of 180?",
+    "options": ["20%", "25%", "30%", "35%"],
+    "correct_answer": "25%",
+    "explanation": "(45/180) × 100 = 25%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a number is increased by 20%, it becomes 360. What is the original number?",
+    "options": ["280", "290", "300", "310"],
+    "correct_answer": "300",
+    "explanation": "Let original = x. x × 1.20 = 360 → x = 360/1.20 = 300."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 15% of 200?",
+    "options": ["25", "30", "35", "40"],
+    "correct_answer": "30",
+    "explanation": "15% of 200 = (15/100) × 200 = 30."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A student scored 72 marks out of 90. What is the percentage of marks obtained?",
+    "options": ["78%", "80%", "82%", "84%"],
+    "correct_answer": "80%",
+    "explanation": "(72/90) × 100 = 80%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If 30% of a number is 90, what is the number?",
+    "options": ["270", "280", "290", "300"],
+    "correct_answer": "300",
+    "explanation": "30% of x = 90 → x = 90 × (100/30) = 300."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 5% of 1000?",
+    "options": ["40", "45", "50", "55"],
+    "correct_answer": "50",
+    "explanation": "5% of 1000 = (5/100) × 1000 = 50."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A price of Rs. 500 is increased by 10%. What is the new price?",
+    "options": ["540", "545", "550", "555"],
+    "correct_answer": "550",
+    "explanation": "New price = 500 + 10% of 500 = 500 + 50 = 550."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 40% of 250?",
+    "options": ["90", "95", "100", "105"],
+    "correct_answer": "100",
+    "explanation": "40% of 250 = (40/100) × 250 = 100."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If a number is decreased by 15%, it becomes 170. What is the original number?",
+    "options": ["190", "195", "200", "205"],
+    "correct_answer": "200",
+    "explanation": "x × 0.85 = 170 → x = 170/0.85 = 200."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What percentage of 75 is 15?",
+    "options": ["15%", "18%", "20%", "25%"],
+    "correct_answer": "20%",
+    "explanation": "(15/75) × 100 = 20%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A shopkeeper gives a discount of 20% on an item priced at Rs. 600. What is the selling price?",
+    "options": ["460", "470", "480", "490"],
+    "correct_answer": "480",
+    "explanation": "Discount = 20% of 600 = 120. Selling price = 600 - 120 = 480."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 60% of 150?",
+    "options": ["80", "85", "90", "95"],
+    "correct_answer": "90",
+    "explanation": "60% of 150 = (60/100) × 150 = 90."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "In an election, a candidate got 55% of the total votes. If total votes are 8000, how many votes did the candidate get?",
+    "options": ["4200", "4300", "4400", "4500"],
+    "correct_answer": "4400",
+    "explanation": "55% of 8000 = (55/100) × 8000 = 4400."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 75% of 400?",
+    "options": ["280", "290", "300", "310"],
+    "correct_answer": "300",
+    "explanation": "75% of 400 = (75/100) × 400 = 300."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If 45% of a number is 135, what is the number?",
+    "options": ["280", "290", "300", "310"],
+    "correct_answer": "300",
+    "explanation": "45% of x = 135 → x = 135 × (100/45) = 300."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A man spends 70% of his income. If his income is Rs. 12000, how much does he save?",
+    "options": ["3200", "3400", "3600", "3800"],
+    "correct_answer": "3600",
+    "explanation": "Savings = 30% of 12000 = (30/100) × 12000 = 3600."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 12.5% of 800?",
+    "options": ["90", "95", "100", "105"],
+    "correct_answer": "100",
+    "explanation": "12.5% of 800 = (12.5/100) × 800 = 100."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What percentage is 36 of 144?",
+    "options": ["20%", "22%", "25%", "28%"],
+    "correct_answer": "25%",
+    "explanation": "(36/144) × 100 = 25%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A number is increased by 50% and then decreased by 50%. What is the net change?",
+    "options": ["No change", "25% decrease", "25% increase", "50% decrease"],
+    "correct_answer": "25% decrease",
+    "explanation": "Let number = 100. After 50% increase = 150. After 50% decrease = 75. Net change = 25% decrease."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 35% of 700?",
+    "options": ["225", "235", "245", "255"],
+    "correct_answer": "245",
+    "explanation": "35% of 700 = (35/100) × 700 = 245."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If a number is 20% more than another number, and the smaller number is 50, what is the larger number?",
+    "options": ["58", "60", "62", "64"],
+    "correct_answer": "60",
+    "explanation": "Larger number = 50 × 1.20 = 60."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 80% of 95?",
+    "options": ["72", "74", "76", "78"],
+    "correct_answer": "76",
+    "explanation": "80% of 95 = (80/100) × 95 = 76."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A class has 40 students. 60% are boys. How many girls are there?",
+    "options": ["14", "16", "18", "20"],
+    "correct_answer": "16",
+    "explanation": "Boys = 60% of 40 = 24. Girls = 40 - 24 = 16."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 2% of 5000?",
+    "options": ["80", "90", "100", "110"],
+    "correct_answer": "100",
+    "explanation": "2% of 5000 = (2/100) × 5000 = 100."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If the price of an article is reduced from Rs. 250 to Rs. 200, what is the percentage decrease?",
+    "options": ["15%", "18%", "20%", "25%"],
+    "correct_answer": "20%",
+    "explanation": "Decrease = 50. % decrease = (50/250) × 100 = 20%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 110% of 300?",
+    "options": ["320", "325", "330", "335"],
+    "correct_answer": "330",
+    "explanation": "110% of 300 = (110/100) × 300 = 330."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If 20% of a number equals 50, what is 40% of that number?",
+    "options": ["90", "95", "100", "105"],
+    "correct_answer": "100",
+    "explanation": "20% of x = 50 → x = 250. 40% of 250 = 100."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A fruit seller has 200 apples. He sells 30% of them. How many apples are left?",
+    "options": ["130", "135", "140", "145"],
+    "correct_answer": "140",
+    "explanation": "Sold = 30% of 200 = 60. Remaining = 200 - 60 = 140."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 1% of 75000?",
+    "options": ["650", "700", "750", "800"],
+    "correct_answer": "750",
+    "explanation": "1% of 75000 = (1/100) × 75000 = 750."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What percentage of 500 is 125?",
+    "options": ["20%", "22%", "25%", "28%"],
+    "correct_answer": "25%",
+    "explanation": "(125/500) × 100 = 25%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A salary of Rs. 8000 is increased by 25%. What is the new salary?",
+    "options": ["9500", "9800", "10000", "10200"],
+    "correct_answer": "10000",
+    "explanation": "New salary = 8000 + 25% of 8000 = 8000 + 2000 = 10000."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 33.33% of 900?",
+    "options": ["280", "290", "300", "310"],
+    "correct_answer": "300",
+    "explanation": "33.33% ≈ 1/3. (1/3) × 900 = 300."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If 60% of students passed an exam and 80 students failed, how many students appeared?",
+    "options": ["180", "190", "200", "210"],
+    "correct_answer": "200",
+    "explanation": "40% failed = 80 students. Total = 80 × (100/40) = 200."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 50% of 50% of 400?",
+    "options": ["90", "95", "100", "105"],
+    "correct_answer": "100",
+    "explanation": "50% of 400 = 200. 50% of 200 = 100."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A number when increased by 10% gives 550. What is the original number?",
+    "options": ["480", "490", "500", "510"],
+    "correct_answer": "500",
+    "explanation": "x × 1.10 = 550 → x = 550/1.10 = 500."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 8% of 1250?",
+    "options": ["90", "95", "100", "105"],
+    "correct_answer": "100",
+    "explanation": "8% of 1250 = (8/100) × 1250 = 100."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "In a bag, 40% of marbles are red. If there are 60 red marbles, how many total marbles are there?",
+    "options": ["130", "140", "150", "160"],
+    "correct_answer": "150",
+    "explanation": "40% of x = 60 → x = 60 × (100/40) = 150."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 90% of 90?",
+    "options": ["79.1", "80.1", "81", "82"],
+    "correct_answer": "81",
+    "explanation": "90% of 90 = (90/100) × 90 = 81."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If a number is 10% less than 200, what is the number?",
+    "options": ["170", "175", "180", "185"],
+    "correct_answer": "180",
+    "explanation": "10% of 200 = 20. Number = 200 - 20 = 180."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A student scored 85% in an exam. If the maximum marks are 600, how many marks did the student score?",
+    "options": ["490", "500", "510", "520"],
+    "correct_answer": "510",
+    "explanation": "85% of 600 = (85/100) × 600 = 510."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The population of a town increases by 10% every year. If the current population is 12100, what was the population 2 years ago?",
+    "options": ["9000", "9500", "10000", "10500"],
+    "correct_answer": "10000",
+    "explanation": "Population 2 years ago = 12100 / (1.10)² = 12100 / 1.21 = 10000."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A shopkeeper marks an article 40% above cost price and gives a 20% discount. What is the profit percentage?",
+    "options": ["10%", "12%", "14%", "16%"],
+    "correct_answer": "12%",
+    "explanation": "Let CP = 100. MP = 140. SP = 140 × 0.80 = 112. Profit% = 12%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If A's salary is 25% more than B's salary, by what percentage is B's salary less than A's salary?",
+    "options": ["18%", "20%", "22%", "25%"],
+    "correct_answer": "20%",
+    "explanation": "Let B = 100, A = 125. B is less than A by (25/125) × 100 = 20%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In an examination, 35% of students failed. If 520 students passed, how many students appeared?",
+    "options": ["780", "790", "800", "810"],
+    "correct_answer": "800",
+    "explanation": "65% passed = 520. Total = 520 × (100/65) = 800."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "The price of petrol increases by 20%. By what percentage should consumption be reduced to keep expenditure the same?",
+    "options": ["15.67%", "16.33%", "16.67%", "17%"],
+    "correct_answer": "16.67%",
+    "explanation": "Reduction = [20/(100+20)] × 100 = (20/120) × 100 = 16.67%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Two numbers are respectively 20% and 50% more than a third number. What percentage is the first of the second?",
+    "options": ["70%", "75%", "80%", "85%"],
+    "correct_answer": "80%",
+    "explanation": "Let third = 100. First = 120, Second = 150. (120/150) × 100 = 80%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A man's income is increased by 20% and his expenditure is increased by 15%. If his savings were Rs. 2000, what are his new savings? (Income = Rs. 10000, Expenditure = Rs. 8000)",
+    "options": ["2600", "2700", "2800", "2900"],
+    "correct_answer": "2800",
+    "explanation": "New income = 12000. New expenditure = 9200. New savings = 12000 - 9200 = 2800."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If the length of a rectangle is increased by 20% and breadth is decreased by 10%, what is the net change in area?",
+    "options": ["6% decrease", "8% increase", "8% decrease", "6% increase"],
+    "correct_answer": "8% increase",
+    "explanation": "Net change = (20 - 10 - 20×10/100)% = (10 - 2)% = 8% increase."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A number is first increased by 10% and then decreased by 10%. What is the net percentage change?",
+    "options": ["0%", "1% decrease", "1% increase", "2% decrease"],
+    "correct_answer": "1% decrease",
+    "explanation": "Net change = -( 10 × 10)/100 = -1%. So 1% decrease."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In a mixture of 60 litres, the ratio of milk to water is 2:1. How much water must be added to make the ratio 1:2?",
+    "options": ["55", "60", "65", "70"],
+    "correct_answer": "60",
+    "explanation": "Milk = 40L, Water = 20L. For ratio 1:2, 40 = x/2 → x = 80. Water to add = 80 - 20 = 60."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A person spends 30% on food, 20% on rent, 15% on education, and saves the rest. If savings are Rs. 7000, what is the income?",
+    "options": ["18000", "19000", "20000", "21000"],
+    "correct_answer": "20000",
+    "explanation": "Savings = 100 - 30 - 20 - 15 = 35%. 35% of x = 7000 → x = 20000."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If 15% of x = 20% of y, then x:y is:",
+    "options": ["3:4", "4:3", "2:3", "3:2"],
+    "correct_answer": "4:3",
+    "explanation": "15x = 20y → x/y = 20/15 = 4/3. So x:y = 4:3."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The value of a machine depreciates at 10% per annum. If its present value is Rs. 81000, what was its value 2 years ago?",
+    "options": ["95000", "98000", "100000", "102000"],
+    "correct_answer": "100000",
+    "explanation": "Value 2 years ago = 81000 / (0.9)² = 81000 / 0.81 = 100000."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "In an election between two candidates, one got 55% of votes and won by 1200 votes. What was the total number of votes?",
+    "options": ["10000", "11000", "12000", "13000"],
+    "correct_answer": "12000",
+    "explanation": "Difference = 55% - 45% = 10% = 1200. Total = 1200 × 10 = 12000."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A trader mixes 20% impure substance in pure goods and sells at cost price. What is his profit percentage?",
+    "options": ["20%", "22%", "25%", "28%"],
+    "correct_answer": "25%",
+    "explanation": "For every 80g pure, he adds 20g impure. Profit = 20/80 × 100 = 25%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A's income is 40% more than B's. B's income is what percent less than A's?",
+    "options": ["25.57%", "27.57%", "28.57%", "29.57%"],
+    "correct_answer": "28.57%",
+    "explanation": "Let B = 100, A = 140. B is less than A by (40/140) × 100 = 28.57%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "If the price of sugar increases by 25%, by how much percent should a family reduce its consumption to maintain the same expenditure?",
+    "options": ["18%", "20%", "22%", "25%"],
+    "correct_answer": "20%",
+    "explanation": "Reduction = [25/(100+25)] × 100 = (25/125) × 100 = 20%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a school, 40% of students are girls. If there are 360 boys, how many students are there in total?",
+    "options": ["580", "590", "600", "610"],
+    "correct_answer": "600",
+    "explanation": "Boys = 60% of total. 60% of x = 360 → x = 600."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A number is 20% more than another. If the sum of the two numbers is 132, find the larger number.",
+    "options": ["68", "70", "72", "74"],
+    "correct_answer": "72",
+    "explanation": "Let smaller = x, larger = 1.2x. x + 1.2x = 132 → 2.2x = 132 → x = 60. Larger = 72."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A shopkeeper gives successive discounts of 10% and 20%. What is the effective discount?",
+    "options": ["26%", "27%", "28%", "30%"],
+    "correct_answer": "28%",
+    "explanation": "Effective discount = 10 + 20 - (10×20)/100 = 30 - 2 = 28%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If 120% of x = 90% of y, then x is what percent of y?",
+    "options": ["65%", "70%", "75%", "80%"],
+    "correct_answer": "75%",
+    "explanation": "120x = 90y → x/y = 90/120 = 3/4 = 75%."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The salary of a worker is first increased by 10% and then decreased by 5%. What is the net percentage change?",
+    "options": ["4%", "4.5%", "5%", "5.5%"],
+    "correct_answer": "4.5%",
+    "explanation": "Net change = 10 - 5 - (10×5)/100 = 5 - 0.5 = 4.5% increase."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A man earns Rs. 15000 per month. He spends 60% on household expenses, 20% on children's education, and saves the rest. What is his annual savings?",
+    "options": ["28000", "30000", "32000", "36000"],
+    "correct_answer": "36000",
+    "explanation": "Savings = 20% of 15000 = 3000 per month. Annual = 3000 × 12 = 36000."
+  },
+  {
+    "topic": "Percentage",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a test, a student answered 80% of questions correctly. He answered 40 questions correctly. How many questions were there?",
+    "options": ["45", "48", "50", "52"],
+    "correct_answer": "50",
+    "explanation": "80% of x = 40 → x = 40 × (100/80) = 50."
+  }
+]

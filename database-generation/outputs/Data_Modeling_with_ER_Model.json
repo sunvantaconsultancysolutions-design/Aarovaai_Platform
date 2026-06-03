@@ -1,0 +1,461 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ER stand for in ER Model?",
+    "options": ["A) Entity Relationship", "B) Entity Record", "C) Element Relationship", "D) Entity Representation"],
+    "correct_answer": "A) Entity Relationship",
+    "explanation": "ER stands for Entity-Relationship. The ER Model was introduced by Peter Chen in 1976 to represent data conceptually using entities and their relationships."
+  },
+  {
+    "id": 2,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which shape is used to represent an Entity in an ER diagram?",
+    "options": ["A) Circle", "B) Diamond", "C) Rectangle", "D) Ellipse"],
+    "correct_answer": "C) Rectangle",
+    "explanation": "In ER diagrams, entities are represented by rectangles, attributes by ellipses, relationships by diamonds, and keys by underlined ellipses."
+  },
+  {
+    "id": 3,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which shape is used to represent a Relationship in an ER diagram?",
+    "options": ["A) Rectangle", "B) Diamond", "C) Ellipse", "D) Triangle"],
+    "correct_answer": "B) Diamond",
+    "explanation": "Relationships between entities are represented by diamond shapes in ER diagrams. The diamond is connected to the participating entities by lines."
+  },
+  {
+    "id": 4,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which shape is used to represent an Attribute in an ER diagram?",
+    "options": ["A) Rectangle", "B) Diamond", "C) Ellipse", "D) Square"],
+    "correct_answer": "C) Ellipse",
+    "explanation": "Attributes are represented by ellipses (ovals) in ER diagrams. They are connected to their respective entity or relationship by a straight line."
+  },
+  {
+    "id": 5,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an entity in the context of the ER Model?",
+    "options": ["A) A relationship between two tables", "B) A real-world object or concept that can be distinctly identified", "C) A column in a database table", "D) A constraint on a database"],
+    "correct_answer": "B) A real-world object or concept that can be distinctly identified",
+    "explanation": "An entity is any real-world object or concept that has a distinct existence and can be identified. Examples include Student, Employee, and Product."
+  },
+  {
+    "id": 6,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a primary key in the ER Model?",
+    "options": ["A) An attribute that can have NULL values", "B) An attribute that uniquely identifies each entity instance", "C) A relationship between two entities", "D) A derived attribute"],
+    "correct_answer": "B) An attribute that uniquely identifies each entity instance",
+    "explanation": "A primary key is an attribute (or set of attributes) that uniquely identifies each instance of an entity. It is represented by underlining the attribute name in an ER diagram."
+  },
+  {
+    "id": 7,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, how is a key attribute represented?",
+    "options": ["A) Double ellipse", "B) Dashed ellipse", "C) Ellipse with underlined text", "D) Bold rectangle"],
+    "correct_answer": "C) Ellipse with underlined text",
+    "explanation": "A key attribute is represented by an ellipse with the attribute name underlined. This distinguishes it from regular attributes in the ER diagram."
+  },
+  {
+    "id": 8,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of attribute can be derived from other attributes?",
+    "options": ["A) Simple attribute", "B) Composite attribute", "C) Derived attribute", "D) Multi-valued attribute"],
+    "correct_answer": "C) Derived attribute",
+    "explanation": "A derived attribute is one whose value can be computed from other attributes. For example, Age can be derived from Date_of_Birth. It is shown as a dashed ellipse in ER diagrams."
+  },
+  {
+    "id": 9,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How is a derived attribute represented in an ER diagram?",
+    "options": ["A) Double ellipse", "B) Dashed ellipse", "C) Bold ellipse", "D) Rectangle"],
+    "correct_answer": "B) Dashed ellipse",
+    "explanation": "Derived attributes are shown using a dashed (dotted) ellipse in ER diagrams, distinguishing them from stored attributes which use solid ellipses."
+  },
+  {
+    "id": 10,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a multi-valued attribute?",
+    "options": ["A) An attribute with a single value", "B) An attribute that can hold multiple values for a single entity", "C) An attribute derived from other attributes", "D) An attribute that identifies an entity uniquely"],
+    "correct_answer": "B) An attribute that can hold multiple values for a single entity",
+    "explanation": "A multi-valued attribute can have more than one value for a single entity instance. For example, a person can have multiple phone numbers. It is represented by a double ellipse."
+  },
+  {
+    "id": 11,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How is a multi-valued attribute represented in an ER diagram?",
+    "options": ["A) Dashed ellipse", "B) Double ellipse", "C) Bold rectangle", "D) Single ellipse with asterisk"],
+    "correct_answer": "B) Double ellipse",
+    "explanation": "Multi-valued attributes are represented by a double ellipse (two concentric ovals) in ER diagrams to indicate that they can hold multiple values."
+  },
+  {
+    "id": 12,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a composite attribute?",
+    "options": ["A) An attribute that cannot be divided further", "B) An attribute that can be divided into smaller sub-attributes", "C) An attribute with multiple values", "D) An attribute derived from other attributes"],
+    "correct_answer": "B) An attribute that can be divided into smaller sub-attributes",
+    "explanation": "A composite attribute is one that can be broken down into smaller sub-attributes. For example, Full_Name can be divided into First_Name and Last_Name."
+  },
+  {
+    "id": 13,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a weak entity in the ER Model?",
+    "options": ["A) An entity with no attributes", "B) An entity that cannot be uniquely identified by its own attributes alone", "C) An entity with only one attribute", "D) An entity with no relationships"],
+    "correct_answer": "B) An entity that cannot be uniquely identified by its own attributes alone",
+    "explanation": "A weak entity depends on a strong (owner) entity for its identification. It does not have a primary key of its own and is represented by a double rectangle in ER diagrams."
+  },
+  {
+    "id": 14,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How is a weak entity represented in an ER diagram?",
+    "options": ["A) Single rectangle", "B) Double rectangle", "C) Dashed rectangle", "D) Diamond"],
+    "correct_answer": "B) Double rectangle",
+    "explanation": "Weak entities are represented by double rectangles in ER diagrams. The identifying relationship connecting a weak entity to its owner is shown as a double diamond."
+  },
+  {
+    "id": 15,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cardinality of a relationship?",
+    "options": ["A) The number of attributes in an entity", "B) The number of entity instances that can participate in a relationship", "C) The number of tables in a database", "D) The number of keys in an entity"],
+    "correct_answer": "B) The number of entity instances that can participate in a relationship",
+    "explanation": "Cardinality defines the number of instances of one entity that can be associated with instances of another entity through a relationship. Common types are 1:1, 1:N, and M:N."
+  },
+  {
+    "id": 16,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a one-to-many (1:N) relationship, which of the following is true?",
+    "options": ["A) One instance of entity A relates to one instance of entity B", "B) One instance of entity A relates to many instances of entity B", "C) Many instances of entity A relate to many instances of entity B", "D) No instances of entity A relate to entity B"],
+    "correct_answer": "B) One instance of entity A relates to many instances of entity B",
+    "explanation": "In a 1:N relationship, one entity instance on the '1' side can be associated with multiple entity instances on the 'N' side. Example: One Department has many Employees."
+  },
+  {
+    "id": 17,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a Many-to-Many (M:N) relationship?",
+    "options": ["A) A person has one passport", "B) A department has many employees", "C) A student enrolls in many courses and a course has many students", "D) A manager manages one department"],
+    "correct_answer": "C) A student enrolls in many courses and a course has many students",
+    "explanation": "In an M:N relationship, multiple instances of one entity relate to multiple instances of another. Student-Course enrollment is a classic M:N example."
+  },
+  {
+    "id": 18,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a One-to-One (1:1) relationship?",
+    "options": ["A) A student enrolls in many courses", "B) A person has one unique passport", "C) A department has many employees", "D) An author writes many books"],
+    "correct_answer": "B) A person has one unique passport",
+    "explanation": "In a 1:1 relationship, each instance of entity A is associated with exactly one instance of entity B and vice versa. Person-Passport is a classic 1:1 example."
+  },
+  {
+    "id": 19,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is participation constraint in the ER Model?",
+    "options": ["A) The number of attributes in a relationship", "B) Whether all or only some entity instances must participate in a relationship", "C) The type of key used in an entity", "D) The number of relationships an entity can have"],
+    "correct_answer": "B) Whether all or only some entity instances must participate in a relationship",
+    "explanation": "Participation constraint specifies whether all instances of an entity must participate in a relationship (total participation) or only some (partial participation)."
+  },
+  {
+    "id": 20,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How is total participation represented in an ER diagram?",
+    "options": ["A) Single line", "B) Double line", "C) Dashed line", "D) Arrow"],
+    "correct_answer": "B) Double line",
+    "explanation": "Total participation (also called mandatory participation) is represented by a double line connecting the entity to the relationship. Partial participation uses a single line."
+  },
+  {
+    "id": 21,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an entity set in the ER Model?",
+    "options": ["A) A single entity instance", "B) A collection of similar entities sharing the same attributes", "C) A set of relationships", "D) A set of keys"],
+    "correct_answer": "B) A collection of similar entities sharing the same attributes",
+    "explanation": "An entity set is a collection of entities of the same type that share the same properties or attributes. For example, all students in a university form the STUDENT entity set."
+  },
+  {
+    "id": 22,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a relationship set in the ER Model?",
+    "options": ["A) A set of attributes", "B) A collection of similar relationship instances", "C) A set of primary keys", "D) A set of weak entities"],
+    "correct_answer": "B) A collection of similar relationship instances",
+    "explanation": "A relationship set is a collection of relationships of the same type. For example, all ENROLLS_IN relationships between students and courses form a relationship set."
+  },
+  {
+    "id": 23,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'simple attribute'?",
+    "options": ["A) An attribute that can be divided into sub-attributes", "B) An attribute that cannot be divided further into meaningful sub-parts", "C) An attribute with multiple values", "D) An attribute derived from other attributes"],
+    "correct_answer": "B) An attribute that cannot be divided further into meaningful sub-parts",
+    "explanation": "A simple (atomic) attribute is one that cannot be subdivided into smaller components. For example, Age and Employee_ID are simple attributes."
+  },
+  {
+    "id": 24,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the degree of a relationship in the ER Model?",
+    "options": ["A) The number of attributes in a relationship", "B) The number of entity sets participating in a relationship", "C) The number of instances in an entity set", "D) The number of keys in a relationship"],
+    "correct_answer": "B) The number of entity sets participating in a relationship",
+    "explanation": "The degree of a relationship refers to the number of entity sets that participate in it. A binary relationship has degree 2, ternary has degree 3, and unary has degree 1."
+  },
+  {
+    "id": 25,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a unary (recursive) relationship?",
+    "options": ["A) A relationship between two different entity sets", "B) A relationship where an entity set is related to itself", "C) A relationship between three entity sets", "D) A relationship with no attributes"],
+    "correct_answer": "B) A relationship where an entity set is related to itself",
+    "explanation": "A unary or recursive relationship involves a single entity set related to itself. Example: An Employee 'manages' another Employee. It has degree 1."
+  },
+  {
+    "id": 26,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a ternary relationship?",
+    "options": ["A) A relationship involving one entity set", "B) A relationship involving two entity sets", "C) A relationship involving three entity sets", "D) A relationship involving four entity sets"],
+    "correct_answer": "C) A relationship involving three entity sets",
+    "explanation": "A ternary relationship involves exactly three entity sets. For example, a SUPPLY relationship among Supplier, Part, and Project is a ternary relationship."
+  },
+
+  {
+    "id": 27,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, what does a double diamond represent?",
+    "options": ["A) A strong relationship", "B) An identifying relationship for a weak entity", "C) A multi-valued attribute", "D) A derived relationship"],
+    "correct_answer": "B) An identifying relationship for a weak entity",
+    "explanation": "A double diamond represents the identifying relationship that connects a weak entity to its owner (strong) entity. It helps identify instances of the weak entity."
+  },
+  {
+    "id": 28,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a discriminator (partial key) in the context of weak entities?",
+    "options": ["A) The primary key of the owner entity", "B) An attribute that partially identifies a weak entity within its owner's context", "C) A foreign key in a strong entity", "D) A derived attribute of a weak entity"],
+    "correct_answer": "B) An attribute that partially identifies a weak entity within its owner's context",
+    "explanation": "A discriminator or partial key is an attribute of a weak entity that distinguishes it among all weak entities related to the same owner entity. It is shown with a dashed underline."
+  },
+  {
+    "id": 29,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid cardinality ratio in the ER Model?",
+    "options": ["A) 1:1", "B) 1:N", "C) M:N", "D) N:N:N"],
+    "correct_answer": "D) N:N:N",
+    "explanation": "The standard cardinality ratios in binary relationships are 1:1, 1:N, and M:N. N:N:N is not a standard notation for binary relationships, though ternary relationships can have complex cardinalities."
+  },
+  {
+    "id": 30,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Who introduced the Entity-Relationship Model?",
+    "options": ["A) Edgar Codd", "B) Peter Chen", "C) E.F. Codd", "D) James Martin"],
+    "correct_answer": "B) Peter Chen",
+    "explanation": "The Entity-Relationship Model was introduced by Peter Pin-Shan Chen in 1976 in his paper 'The Entity-Relationship Model—Toward a Unified View of Data.'"
+  },
+  {
+    "id": 31,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the ER Model?",
+    "options": ["A) To implement a physical database", "B) To provide a conceptual representation of data and their relationships", "C) To optimize SQL queries", "D) To define transaction management"],
+    "correct_answer": "B) To provide a conceptual representation of data and their relationships",
+    "explanation": "The ER Model is used for conceptual database design. It provides a high-level description of the database structure before physical implementation."
+  },
+  {
+    "id": 32,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, what does a line with an arrow represent in the context of cardinality?",
+    "options": ["A) Many side of a relationship", "B) One side of a relationship", "C) Total participation", "D) Partial participation"],
+    "correct_answer": "B) One side of a relationship",
+    "explanation": "In some ER notations, an arrow on a line indicates the 'one' side of a relationship, while a line without an arrow indicates the 'many' side."
+  },
+  {
+    "id": 33,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a stored attribute?",
+    "options": ["A) Age calculated from Date_of_Birth", "B) Employee_ID stored directly in the database", "C) Total_Salary derived from Basic + Allowances", "D) Years_of_Experience calculated from joining date"],
+    "correct_answer": "B) Employee_ID stored directly in the database",
+    "explanation": "A stored attribute is one whose value is directly stored in the database. Employee_ID is stored directly, while Age, Total_Salary, and Years_of_Experience are derived attributes."
+  },
+  {
+    "id": 34,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the Enhanced ER (EER) Model?",
+    "options": ["A) A simplified version of the ER Model", "B) An extension of the ER Model with additional concepts like generalization and specialization", "C) A physical data model", "D) A model used only for object-oriented databases"],
+    "correct_answer": "B) An extension of the ER Model with additional concepts like generalization and specialization",
+    "explanation": "The Enhanced ER (EER) Model extends the basic ER Model by adding concepts such as specialization, generalization, aggregation, and inheritance to handle more complex data requirements."
+  },
+  {
+    "id": 35,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the ER Model, what is 'specialization'?",
+    "options": ["A) Combining multiple entity sets into a single entity set", "B) Defining subclasses of an entity set based on distinguishing characteristics", "C) Creating a new relationship between entities", "D) Removing redundant attributes"],
+    "correct_answer": "B) Defining subclasses of an entity set based on distinguishing characteristics",
+    "explanation": "Specialization is a top-down approach where a higher-level entity is divided into lower-level subclasses. Example: EMPLOYEE can be specialized into MANAGER and TECHNICIAN."
+  },
+  {
+    "id": 36,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the ER Model, what is 'generalization'?",
+    "options": ["A) Dividing an entity into subclasses", "B) Combining multiple entity sets into a higher-level entity set", "C) Adding more attributes to an entity", "D) Removing a relationship between entities"],
+    "correct_answer": "B) Combining multiple entity sets into a higher-level entity set",
+    "explanation": "Generalization is a bottom-up approach where multiple lower-level entity sets are combined into a single higher-level entity set. It is the reverse of specialization."
+  },
+  {
+    "id": 37,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'aggregation' mean in the context of the ER Model?",
+    "options": ["A) Combining attributes of two entities", "B) Treating a relationship set as a higher-level entity set", "C) Removing weak entities", "D) Adding constraints to relationships"],
+    "correct_answer": "B) Treating a relationship set as a higher-level entity set",
+    "explanation": "Aggregation allows a relationship set to be treated as an entity set, enabling relationships between relationships. It is used when a relationship needs to participate in another relationship."
+  },
+  {
+    "id": 38,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly maps an M:N relationship to relational tables?",
+    "options": ["A) Create one table for both entities combined", "B) Create a separate junction/bridge table with foreign keys from both entities", "C) Add a foreign key to one of the entity tables", "D) No additional table is needed"],
+    "correct_answer": "B) Create a separate junction/bridge table with foreign keys from both entities",
+    "explanation": "An M:N relationship requires a separate junction (bridge) table that contains foreign keys referencing both participating entity tables. This table may also contain relationship attributes."
+  },
+  {
+    "id": 39,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "When converting a 1:1 relationship to a relational schema, which approach is most common?",
+    "options": ["A) Create a separate table for the relationship", "B) Merge both entities into one table or add a foreign key to one table", "C) Add foreign keys to both tables", "D) Create three separate tables"],
+    "correct_answer": "B) Merge both entities into one table or add a foreign key to one table",
+    "explanation": "For a 1:1 relationship, you can either merge both entities into one table or add a foreign key to one of the entity tables. The choice depends on participation constraints."
+  },
+  {
+    "id": 40,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a foreign key in mapping ER relationships to relational tables?",
+    "options": ["A) It uniquely identifies each row in a table", "B) It establishes a link between two tables by referencing the primary key of another table", "C) It stores multi-valued attributes", "D) It represents derived attributes"],
+    "correct_answer": "B) It establishes a link between two tables by referencing the primary key of another table",
+    "explanation": "A foreign key in a relational table references the primary key of another table, thereby implementing the relationships defined in the ER diagram."
+  },
+
+  {
+    "id": 41,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In an ER diagram, an Employee entity has attributes: EmpID, Name (composed of FirstName and LastName), Phone (multi-valued), and Age (derived from DOB). How many ellipses are needed to represent all attributes of Employee?",
+    "options": ["A) 4", "B) 6", "C) 7", "D) 5"],
+    "correct_answer": "C) 7",
+    "explanation": "Ellipses needed: Name(1) + FirstName(1) + LastName(1) + Phone(1) + Age(1) + DOB(1) + EmpID(1) = 7 ellipses. Name is composite so it has sub-ellipses, Phone is double ellipse, Age is dashed ellipse."
+  },
+  {
+    "id": 42,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a university database. A STUDENT can enroll in many COURSES, and each COURSE can have many STUDENTS. The ENROLLMENT relationship has an attribute 'Grade'. When converting to relational schema, how many tables are needed minimum?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 1"],
+    "correct_answer": "B) 3",
+    "explanation": "Three tables are needed: STUDENT, COURSE, and ENROLLMENT (junction table). The ENROLLMENT table contains StudentID (FK), CourseID (FK), and Grade as its attributes."
+  },
+  {
+    "id": 43,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In an ER diagram, a DEPARTMENT entity has total participation in the 'manages' relationship with EMPLOYEE. What does this imply?",
+    "options": ["A) Every employee must manage a department", "B) Every department must have a manager (employee)", "C) Some departments may not have a manager", "D) Employees can manage multiple departments"],
+    "correct_answer": "B) Every department must have a manager (employee)",
+    "explanation": "Total participation of DEPARTMENT in 'manages' means every department instance must participate in the relationship, i.e., every department must have at least one manager."
+  },
+  {
+    "id": 44,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following statements about weak entities is CORRECT?",
+    "options": ["A) A weak entity has its own primary key", "B) A weak entity's primary key is formed by combining its partial key with the primary key of its owner entity", "C) A weak entity cannot have any attributes", "D) A weak entity can exist without its owner entity"],
+    "correct_answer": "B) A weak entity's primary key is formed by combining its partial key with the primary key of its owner entity",
+    "explanation": "A weak entity uses a combination of its discriminator (partial key) and the primary key of its owner entity to form a composite primary key in the relational schema."
+  },
+  {
+    "id": 45,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "An EMPLOYEE entity has a composite attribute 'Address' with sub-attributes: Street, City, State, and ZIP. How should this be represented in a relational table?",
+    "options": ["A) Store Address as a single column", "B) Create a separate table for Address", "C) Flatten the composite attribute into individual columns: Street, City, State, ZIP", "D) Store Address as a multi-valued attribute"],
+    "correct_answer": "C) Flatten the composite attribute into individual columns: Street, City, State, ZIP",
+    "explanation": "When mapping composite attributes to relational tables, each sub-attribute becomes a separate column. The composite attribute itself is not stored; only its leaf-level components are."
+  },
+  {
+    "id": 46,
+    "topic": "Data Modeling with ER Model",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "How should a multi-valued attribute be handled when converting an ER diagram to a relational schema?",
+    "options": ["A) Store it as a comma-separated string in one column", "B) Create a new

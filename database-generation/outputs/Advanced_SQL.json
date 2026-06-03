@@ -1,0 +1,504 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to filter records after grouping?",
+    "options": ["A) WHERE", "B) HAVING", "C) GROUP BY", "D) ORDER BY"],
+    "correct_answer": "B) HAVING",
+    "explanation": "HAVING is used to filter groups created by GROUP BY, whereas WHERE filters individual rows before grouping."
+  },
+  {
+    "id": 2,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the DISTINCT keyword do in a SELECT statement?",
+    "options": ["A) Sorts the result set", "B) Removes duplicate rows from the result", "C) Filters NULL values", "D) Joins two tables"],
+    "correct_answer": "B) Removes duplicate rows from the result",
+    "explanation": "SELECT DISTINCT eliminates duplicate rows from the query result, returning only unique values."
+  },
+  {
+    "id": 3,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which aggregate function returns the total number of rows in a table?",
+    "options": ["A) SUM()", "B) TOTAL()", "C) COUNT(*)", "D) MAX()"],
+    "correct_answer": "C) COUNT(*)",
+    "explanation": "COUNT(*) counts all rows including those with NULL values, making it the correct function to count total rows."
+  },
+  {
+    "id": 4,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JOIN returns all rows from the left table and matching rows from the right table?",
+    "options": ["A) INNER JOIN", "B) RIGHT JOIN", "C) LEFT JOIN", "D) FULL JOIN"],
+    "correct_answer": "C) LEFT JOIN",
+    "explanation": "LEFT JOIN (or LEFT OUTER JOIN) returns all rows from the left table and matched rows from the right; unmatched right rows appear as NULL."
+  },
+  {
+    "id": 5,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to create a view named 'EmpView' from the Employees table?",
+    "options": ["A) CREATE VIEW EmpView AS SELECT * FROM Employees", "B) MAKE VIEW EmpView FROM Employees", "C) VIEW EmpView = SELECT * FROM Employees", "D) CREATE EmpView VIEW FROM Employees"],
+    "correct_answer": "A) CREATE VIEW EmpView AS SELECT * FROM Employees",
+    "explanation": "The correct syntax is CREATE VIEW view_name AS SELECT statement. Option A follows this syntax exactly."
+  },
+  {
+    "id": 6,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to remove all rows from a table without deleting the table structure?",
+    "options": ["A) DELETE", "B) DROP", "C) TRUNCATE", "D) REMOVE"],
+    "correct_answer": "C) TRUNCATE",
+    "explanation": "TRUNCATE removes all rows quickly without logging individual row deletions, but keeps the table structure intact. DROP removes the entire table."
+  },
+  {
+    "id": 7,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT an aggregate function in SQL?",
+    "options": ["A) AVG()", "B) COUNT()", "C) UPPER()", "D) SUM()"],
+    "correct_answer": "C) UPPER()",
+    "explanation": "UPPER() is a string function that converts text to uppercase. AVG, COUNT, and SUM are aggregate functions that operate on sets of rows."
+  },
+  {
+    "id": 8,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the LIKE operator '%a%' match?",
+    "options": ["A) Strings starting with 'a'", "B) Strings ending with 'a'", "C) Strings containing 'a' anywhere", "D) Strings of exactly one character 'a'"],
+    "correct_answer": "C) Strings containing 'a' anywhere",
+    "explanation": "The % wildcard matches zero or more characters. '%a%' means any string with 'a' anywhere in it."
+  },
+  {
+    "id": 9,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which constraint ensures that a column cannot have NULL values?",
+    "options": ["A) UNIQUE", "B) PRIMARY KEY", "C) NOT NULL", "D) CHECK"],
+    "correct_answer": "C) NOT NULL",
+    "explanation": "NOT NULL constraint explicitly prevents NULL values in a column. PRIMARY KEY also implies NOT NULL but serves a different purpose."
+  },
+  {
+    "id": 10,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of SELECT 5 + NULL in SQL?",
+    "options": ["A) 5", "B) NULL", "C) 0", "D) Error"],
+    "correct_answer": "B) NULL",
+    "explanation": "Any arithmetic operation involving NULL returns NULL in SQL, because NULL represents an unknown value."
+  },
+  {
+    "id": 11,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the current date and time?",
+    "options": ["A) GETDATE()", "B) NOW()", "C) Both A and B depending on the DBMS", "D) CURRENTTIME()"],
+    "correct_answer": "C) Both A and B depending on the DBMS",
+    "explanation": "GETDATE() is used in SQL Server while NOW() is used in MySQL. Both return the current date and time."
+  },
+  {
+    "id": 12,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which clause is used to sort the result set in descending order?",
+    "options": ["A) ORDER BY column ASC", "B) ORDER BY column DESC", "C) SORT BY column DESC", "D) GROUP BY column DESC"],
+    "correct_answer": "B) ORDER BY column DESC",
+    "explanation": "ORDER BY with DESC keyword sorts results in descending order. ASC is the default (ascending) order."
+  },
+  {
+    "id": 13,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does a FOREIGN KEY constraint enforce?",
+    "options": ["A) Uniqueness of values in a column", "B) Referential integrity between two tables", "C) Non-null values in a column", "D) Default values for a column"],
+    "correct_answer": "B) Referential integrity between two tables",
+    "explanation": "A FOREIGN KEY ensures that the value in one table's column matches a value in the referenced table's PRIMARY KEY, maintaining referential integrity."
+  },
+  {
+    "id": 14,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL statement is used to add a new column 'Age' of type INT to an existing table 'Students'?",
+    "options": ["A) ALTER TABLE Students ADD Age INT", "B) UPDATE TABLE Students ADD Age INT", "C) MODIFY TABLE Students ADD Age INT", "D) INSERT INTO Students ADD Age INT"],
+    "correct_answer": "A) ALTER TABLE Students ADD Age INT",
+    "explanation": "ALTER TABLE with ADD clause is used to add new columns to an existing table."
+  },
+  {
+    "id": 15,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the COALESCE() function in SQL?",
+    "options": ["A) Concatenates strings", "B) Returns the first non-NULL value from a list", "C) Converts data types", "D) Rounds a number"],
+    "correct_answer": "B) Returns the first non-NULL value from a list",
+    "explanation": "COALESCE(val1, val2, ...) returns the first non-NULL value in the list, useful for handling NULL values."
+  },
+  {
+    "id": 16,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly uses the IN operator?",
+    "options": ["A) SELECT * FROM Emp WHERE dept IN ('HR', 'IT')", "B) SELECT * FROM Emp WHERE dept = IN ('HR', 'IT')", "C) SELECT * FROM Emp WHERE dept CONTAINS ('HR', 'IT')", "D) SELECT * FROM Emp WHERE dept LIKE ('HR', 'IT')"],
+    "correct_answer": "A) SELECT * FROM Emp WHERE dept IN ('HR', 'IT')",
+    "explanation": "The IN operator checks if a value matches any value in a list. Syntax is column IN (value1, value2, ...)."
+  },
+  {
+    "id": 17,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the BETWEEN operator do in SQL?",
+    "options": ["A) Checks if a value is within a range (inclusive)", "B) Checks if a value is within a range (exclusive)", "C) Compares two columns", "D) Finds NULL values"],
+    "correct_answer": "A) Checks if a value is within a range (inclusive)",
+    "explanation": "BETWEEN is inclusive on both ends. WHERE salary BETWEEN 3000 AND 5000 includes rows where salary = 3000 or salary = 5000."
+  },
+  {
+    "id": 18,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to combine the result sets of two SELECT statements, removing duplicates?",
+    "options": ["A) UNION ALL", "B) UNION", "C) INTERSECT", "D) MERGE"],
+    "correct_answer": "B) UNION",
+    "explanation": "UNION combines result sets and removes duplicates. UNION ALL keeps all rows including duplicates."
+  },
+  {
+    "id": 19,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a subquery in SQL?",
+    "options": ["A) A query that updates multiple tables", "B) A query nested inside another query", "C) A query that creates a new table", "D) A query that deletes records"],
+    "correct_answer": "B) A query nested inside another query",
+    "explanation": "A subquery (inner query) is a SELECT statement embedded within another SQL statement, used to provide data to the outer query."
+  },
+  {
+    "id": 20,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function returns the length of a string in SQL?",
+    "options": ["A) SIZE()", "B) LEN() or LENGTH()", "C) COUNT()", "D) MEASURE()"],
+    "correct_answer": "B) LEN() or LENGTH()",
+    "explanation": "LEN() is used in SQL Server and LENGTH() in MySQL/Oracle to return the number of characters in a string."
+  },
+  {
+    "id": 21,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the IS NULL condition check in SQL?",
+    "options": ["A) If a column value equals zero", "B) If a column value is an empty string", "C) If a column value is NULL (unknown)", "D) If a column does not exist"],
+    "correct_answer": "C) If a column value is NULL (unknown)",
+    "explanation": "IS NULL checks for NULL values. You cannot use = NULL; you must use IS NULL because NULL is not equal to anything."
+  },
+  {
+    "id": 22,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to grant privileges to a user?",
+    "options": ["A) ALLOW", "B) PERMIT", "C) GRANT", "D) ASSIGN"],
+    "correct_answer": "C) GRANT",
+    "explanation": "GRANT is a DCL (Data Control Language) command used to give specific privileges to database users."
+  },
+  {
+    "id": 23,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default sort order when using ORDER BY in SQL?",
+    "options": ["A) Descending", "B) Ascending", "C) Random", "D) Alphabetical only"],
+    "correct_answer": "B) Ascending",
+    "explanation": "ORDER BY defaults to ASC (ascending) order. You must explicitly specify DESC for descending order."
+  },
+  {
+    "id": 24,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL statements correctly uses an alias?",
+    "options": ["A) SELECT salary AS 'Monthly Pay' FROM Emp", "B) SELECT salary ALIAS 'Monthly Pay' FROM Emp", "C) SELECT salary NAME 'Monthly Pay' FROM Emp", "D) SELECT salary RENAME 'Monthly Pay' FROM Emp"],
+    "correct_answer": "A) SELECT salary AS 'Monthly Pay' FROM Emp",
+    "explanation": "The AS keyword is used to assign an alias to a column or table in SQL. Aliases improve readability of query results."
+  },
+  {
+    "id": 25,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the INNER JOIN return?",
+    "options": ["A) All rows from both tables", "B) Only matching rows from both tables", "C) All rows from the left table", "D) All rows from the right table"],
+    "correct_answer": "B) Only matching rows from both tables",
+    "explanation": "INNER JOIN returns only the rows where there is a match in both tables based on the join condition."
+  },
+  {
+    "id": 26,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function converts a string to uppercase?",
+    "options": ["A) UPPER()", "B) CAPS()", "C) UCASE() only", "D) TOUPPER()"],
+    "correct_answer": "A) UPPER()",
+    "explanation": "UPPER() converts all characters in a string to uppercase. UCASE() is also valid in some DBMS like MySQL."
+  },
+  {
+    "id": 27,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the GROUP BY clause?",
+    "options": ["A) To sort rows in a result set", "B) To group rows with the same values for aggregate functions", "C) To filter rows based on a condition", "D) To join multiple tables"],
+    "correct_answer": "B) To group rows with the same values for aggregate functions",
+    "explanation": "GROUP BY groups rows sharing the same values in specified columns, allowing aggregate functions like SUM, COUNT, AVG to be applied per group."
+  },
+  {
+    "id": 28,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DDL command?",
+    "options": ["A) INSERT", "B) UPDATE", "C) CREATE", "D) SELECT"],
+    "correct_answer": "C) CREATE",
+    "explanation": "DDL (Data Definition Language) commands include CREATE, ALTER, DROP, and TRUNCATE. INSERT and UPDATE are DML; SELECT is DQL."
+  },
+  {
+    "id": 29,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the ROUND(15.678, 2) function return?",
+    "options": ["A) 15.67", "B) 15.68", "C) 16.00", "D) 15.70"],
+    "correct_answer": "B) 15.68",
+    "explanation": "ROUND(15.678, 2) rounds to 2 decimal places. The third decimal is 8 (≥5), so the second decimal rounds up from 7 to 8, giving 15.68."
+  },
+  {
+    "id": 30,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause limits the number of rows returned by a query in MySQL?",
+    "options": ["A) TOP", "B) ROWNUM", "C) LIMIT", "D) FETCH"],
+    "correct_answer": "C) LIMIT",
+    "explanation": "MySQL uses LIMIT n to restrict the number of rows returned. SQL Server uses TOP n, and Oracle uses ROWNUM or FETCH FIRST."
+  },
+  {
+    "id": 31,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of COUNT(column_name) when the column has NULL values?",
+    "options": ["A) Counts all rows including NULLs", "B) Returns NULL", "C) Counts only non-NULL values", "D) Returns an error"],
+    "correct_answer": "C) Counts only non-NULL values",
+    "explanation": "COUNT(column_name) ignores NULL values and counts only non-NULL entries. Use COUNT(*) to count all rows including NULLs."
+  },
+  {
+    "id": 32,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL statement is used to modify existing data in a table?",
+    "options": ["A) MODIFY", "B) ALTER", "C) UPDATE", "D) CHANGE"],
+    "correct_answer": "C) UPDATE",
+    "explanation": "UPDATE is the DML command used to modify existing records in a table. ALTER is DDL and modifies table structure."
+  },
+  {
+    "id": 33,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the CONCAT() function do in SQL?",
+    "options": ["A) Counts characters in a string", "B) Joins two or more strings together", "C) Compares two strings", "D) Converts string to number"],
+    "correct_answer": "B) Joins two or more strings together",
+    "explanation": "CONCAT(str1, str2, ...) joins multiple strings into one. For example, CONCAT('Hello', ' ', 'World') returns 'Hello World'."
+  },
+  {
+    "id": 34,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly deletes all employees in department 10?",
+    "options": ["A) DELETE FROM Employees WHERE dept_id = 10", "B) REMOVE FROM Employees WHERE dept_id = 10", "C) DROP FROM Employees WHERE dept_id = 10", "D) ERASE FROM Employees WHERE dept_id = 10"],
+    "correct_answer": "A) DELETE FROM Employees WHERE dept_id = 10",
+    "explanation": "DELETE FROM table WHERE condition is the correct DML syntax to remove specific rows from a table."
+  },
+  {
+    "id": 35,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a PRIMARY KEY?",
+    "options": ["A) A key that can have duplicate values", "B) A key that uniquely identifies each row and cannot be NULL", "C) A key that references another table", "D) A key that allows multiple NULL values"],
+    "correct_answer": "B) A key that uniquely identifies each row and cannot be NULL",
+    "explanation": "PRIMARY KEY uniquely identifies each record in a table. It combines UNIQUE and NOT NULL constraints."
+  },
+  {
+    "id": 36,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the smallest value in a column?",
+    "options": ["A) LEAST()", "B) SMALL()", "C) MIN()", "D) BOTTOM()"],
+    "correct_answer": "C) MIN()",
+    "explanation": "MIN() is an aggregate function that returns the minimum (smallest) value in a specified column."
+  },
+  {
+    "id": 37,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ROLLBACK do in SQL?",
+    "options": ["A) Saves all changes permanently", "B) Undoes all changes made in the current transaction", "C) Deletes all records in a table", "D) Creates a new transaction"],
+    "correct_answer": "B) Undoes all changes made in the current transaction",
+    "explanation": "ROLLBACK is a TCL command that reverts all changes made during the current transaction back to the last COMMIT or savepoint."
+  },
+  {
+    "id": 38,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL operator is used to check if a subquery returns any rows?",
+    "options": ["A) IN", "B) EXISTS", "C) ANY", "D) SOME"],
+    "correct_answer": "B) EXISTS",
+    "explanation": "EXISTS returns TRUE if the subquery returns at least one row. It is often more efficient than IN for large datasets."
+  },
+  {
+    "id": 39,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct order of SQL clauses in a SELECT statement?",
+    "options": ["A) SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY", "B) SELECT, WHERE, FROM, GROUP BY, HAVING, ORDER BY", "C) FROM, SELECT, WHERE, GROUP BY, HAVING, ORDER BY", "D) SELECT, FROM, HAVING, WHERE, GROUP BY, ORDER BY"],
+    "correct_answer": "A) SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY",
+    "explanation": "The standard SQL clause order is: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY. This must be followed for valid syntax."
+  },
+  {
+    "id": 40,
+    "topic": "Advanced SQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command permanently saves all changes made during a transaction?",
+    "options": ["A) SAVE", "B) COMMIT", "C) PERSIST", "D) FINALIZE"],
+    "correct_answer": "B) COMMIT",
+    "explanation": "COMMIT is a TCL command that permanently saves all changes made during the current transaction to the database."
+  },
+  {
+    "id": 41,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a table Employees(emp_id, name, salary, dept_id). Which query finds departments where the average salary exceeds 50000?",
+    "options": ["A) SELECT dept_id FROM Employees WHERE AVG(salary) > 50000", "B) SELECT dept_id FROM Employees GROUP BY dept_id HAVING AVG(salary) > 50000", "C) SELECT dept_id FROM Employees GROUP BY dept_id WHERE AVG(salary) > 50000", "D) SELECT dept_id, AVG(salary) FROM Employees HAVING AVG(salary) > 50000"],
+    "correct_answer": "B) SELECT dept_id FROM Employees GROUP BY dept_id HAVING AVG(salary) > 50000",
+    "explanation": "Aggregate conditions must use HAVING, not WHERE. GROUP BY is required before HAVING. Option B is syntactically and logically correct."
+  },
+  {
+    "id": 42,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between UNION and UNION ALL?",
+    "options": ["A) UNION ALL removes duplicates; UNION keeps them", "B) UNION removes duplicates; UNION ALL keeps all rows including duplicates", "C) They are identical in behavior", "D) UNION works on different tables; UNION ALL works on the same table"],
+    "correct_answer": "B) UNION removes duplicates; UNION ALL keeps all rows including duplicates",
+    "explanation": "UNION performs a DISTINCT operation on the combined result, while UNION ALL is faster as it skips duplicate removal."
+  },
+  {
+    "id": 43,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a correlated subquery?",
+    "options": ["A) A subquery that runs once and passes results to the outer query", "B) A subquery that references a column from the outer query and executes once per outer row", "C) A subquery inside a JOIN clause", "D) A subquery that uses aggregate functions"],
+    "correct_answer": "B) A subquery that references a column from the outer query and executes once per outer row",
+    "explanation": "A correlated subquery depends on the outer query for its values, re-executing for each row of the outer query, unlike a non-correlated subquery."
+  },
+  {
+    "id": 44,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Given table Orders(order_id, customer_id, amount). Find the second highest order amount.",
+    "options": ["A) SELECT MAX(amount) FROM Orders WHERE amount < (SELECT MAX(amount) FROM Orders)", "B) SELECT SECOND(amount) FROM Orders", "C) SELECT amount FROM Orders ORDER BY amount DESC LIMIT 1,1", "D) Both A and C are correct"],
+    "correct_answer": "D) Both A and C are correct",
+    "explanation": "Option A uses a subquery to find max below the overall max. Option C uses LIMIT with offset to skip the first row. Both correctly return the second highest."
+  },
+  {
+    "id": 45,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a window function in SQL?",
+    "options": ["A) A function that operates on a subset of rows defined by a window/partition without collapsing them", "B) A function that creates a new table window", "C) A function that filters rows using a sliding window", "D) A function used only with GROUP BY"],
+    "correct_answer": "A) A function that operates on a subset of rows defined by a window/partition without collapsing them",
+    "explanation": "Window functions like ROW_NUMBER(), RANK(), LAG() perform calculations across a set of rows related to the current row without reducing the result set."
+  },
+  {
+    "id": 46,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does ROW_NUMBER() OVER (PARTITION BY dept_id ORDER BY salary DESC) compute?",
+    "options": ["A) Ranks employees globally by salary", "B) Assigns a sequential number to each employee within their department ordered by salary descending", "C) Counts employees per department", "D) Returns the maximum salary per department"],
+    "correct_answer": "B) Assigns a sequential number to each employee within their department ordered by salary descending",
+    "explanation": "PARTITION BY dept_id creates separate windows per department, and ORDER BY salary DESC ranks within each partition. ROW_NUMBER assigns 1,2,3... without ties."
+  },
+  {
+    "id": 47,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between RANK() and DENSE_RANK()?",
+    "options": ["A) RANK() skips numbers after ties; DENSE_RANK() does not skip", "B) DENSE_RANK() skips numbers after ties; RANK() does not", "C) They are identical", "D) RANK() works only with numbers; DENSE_RANK() works with strings"],
+    "correct_answer": "A) RANK() skips numbers after ties; DENSE_RANK() does not skip",
+    "explanation": "If two rows tie at rank 2, RANK() gives both rank 2 and skips rank 3 (next is 4). DENSE_RANK() gives both rank 2 and the next rank is 3."
+  },
+  {
+    "id": 48,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used in a window function to define the partition?",
+    "options": ["A) GROUP BY", "B) PARTITION BY", "C) DIVIDE BY", "D) SEGMENT BY"],
+    "correct_answer": "B) PARTITION BY",
+    "explanation": "PARTITION BY within the OVER() clause divides the result set into partitions for window functions, similar to GROUP BY but without collapsing rows."
+  },
+  {
+    "id": 49,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does the LAG() function do in SQL?",
+    "options": ["A) Returns the next row's value in the result set", "B) Returns a value from a previous row in the result set", "C) Returns the last row's value in the table", "D) Calculates the lag time between transactions"],
+    "correct_answer": "B) Returns a value from a previous row in the result set",
+    "explanation": "LAG(column, offset) returns the value from 'offset' rows before the current row within the window partition. LEAD() does the opposite."
+  },
+  {
+    "id": 50,
+    "topic": "Advanced SQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a CTE (Common Table Expression)?",
+    "options": ["A) A permanent table stored in the database", "B) A temporary named result set defined with WITH clause, used within a single query", "C) A type of index for faster queries", "D) A stored procedure that returns a table"],
+    "correct_answer": "B) A temporary named result set defined with WITH clause, used within a single query",
+    "explanation": "CTEs use the WITH keyword to define a named temporary result set. They improve readability and can be referenced multiple times in the same query."
+  },
+  {
+    "id": 51

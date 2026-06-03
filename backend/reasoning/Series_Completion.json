@@ -1,0 +1,531 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term in the series: 2, 4, 6, 8, 10, ?",
+    "options": ["A) 11", "B) 12", "C) 13", "D) 14"],
+    "correct_answer": "B) 12",
+    "explanation": "Each term increases by 2. So 10 + 2 = 12."
+  },
+  {
+    "id": 2,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term in the series: 3, 6, 12, 24, 48, ?",
+    "options": ["A) 72", "B) 84", "C) 96", "D) 108"],
+    "correct_answer": "C) 96",
+    "explanation": "Each term is multiplied by 2. So 48 × 2 = 96."
+  },
+  {
+    "id": 3,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 1, 4, 9, 16, 25, ?",
+    "options": ["A) 30", "B) 35", "C) 36", "D) 49"],
+    "correct_answer": "C) 36",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5², so next is 6² = 36."
+  },
+  {
+    "id": 4,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 5, 10, 15, 20, 25, ?",
+    "options": ["A) 28", "B) 30", "C) 32", "D) 35"],
+    "correct_answer": "B) 30",
+    "explanation": "Multiples of 5: 5×1, 5×2, ..., 5×5, so next is 5×6 = 30."
+  },
+  {
+    "id": 5,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 2, 3, 5, 8, 13, ?",
+    "options": ["A) 18", "B) 19", "C) 20", "D) 21"],
+    "correct_answer": "D) 21",
+    "explanation": "Each term is the sum of the two preceding terms (Fibonacci-like): 8 + 13 = 21."
+  },
+  {
+    "id": 6,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 100, 90, 80, 70, 60, ?",
+    "options": ["A) 40", "B) 45", "C) 50", "D) 55"],
+    "correct_answer": "C) 50",
+    "explanation": "Each term decreases by 10. So 60 - 10 = 50."
+  },
+  {
+    "id": 7,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 1, 8, 27, 64, 125, ?",
+    "options": ["A) 196", "B) 210", "C) 216", "D) 225"],
+    "correct_answer": "C) 216",
+    "explanation": "These are perfect cubes: 1³, 2³, 3³, 4³, 5³, so next is 6³ = 216."
+  },
+  {
+    "id": 8,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 7, 14, 21, 28, 35, ?",
+    "options": ["A) 40", "B) 42", "C) 44", "D) 49"],
+    "correct_answer": "B) 42",
+    "explanation": "Multiples of 7: 7×1, 7×2, ..., 7×5, so next is 7×6 = 42."
+  },
+  {
+    "id": 9,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 2, 6, 18, 54, ?",
+    "options": ["A) 108", "B) 144", "C) 162", "D) 180"],
+    "correct_answer": "C) 162",
+    "explanation": "Each term is multiplied by 3. So 54 × 3 = 162."
+  },
+  {
+    "id": 10,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 1, 2, 4, 7, 11, ?",
+    "options": ["A) 14", "B) 15", "C) 16", "D) 17"],
+    "correct_answer": "C) 16",
+    "explanation": "Differences are 1, 2, 3, 4, so next difference is 5: 11 + 5 = 16."
+  },
+  {
+    "id": 11,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 3, 9, 27, 81, ?",
+    "options": ["A) 162", "B) 243", "C) 270", "D) 324"],
+    "correct_answer": "B) 243",
+    "explanation": "Each term is multiplied by 3 (powers of 3): 3⁵ = 243."
+  },
+  {
+    "id": 12,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 10, 20, 30, 40, 50, ?",
+    "options": ["A) 55", "B) 60", "C) 65", "D) 70"],
+    "correct_answer": "B) 60",
+    "explanation": "Multiples of 10: 10×1, 10×2, ..., so next is 10×6 = 60."
+  },
+  {
+    "id": 13,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 0, 1, 1, 2, 3, 5, 8, ?",
+    "options": ["A) 11", "B) 12", "C) 13", "D) 14"],
+    "correct_answer": "C) 13",
+    "explanation": "Fibonacci series: each term = sum of previous two. 5 + 8 = 13."
+  },
+  {
+    "id": 14,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 4, 8, 16, 32, 64, ?",
+    "options": ["A) 96", "B) 112", "C) 128", "D) 256"],
+    "correct_answer": "C) 128",
+    "explanation": "Each term doubles (×2): 64 × 2 = 128."
+  },
+  {
+    "id": 15,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 50, 45, 40, 35, 30, ?",
+    "options": ["A) 20", "B) 22", "C) 25", "D) 28"],
+    "correct_answer": "C) 25",
+    "explanation": "Each term decreases by 5. So 30 - 5 = 25."
+  },
+  {
+    "id": 16,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 1, 3, 7, 15, 31, ?",
+    "options": ["A) 47", "B) 55", "C) 63", "D) 65"],
+    "correct_answer": "C) 63",
+    "explanation": "Each term = previous × 2 + 1: 31 × 2 + 1 = 63."
+  },
+  {
+    "id": 17,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 2, 5, 10, 17, 26, ?",
+    "options": ["A) 35", "B) 36", "C) 37", "D) 38"],
+    "correct_answer": "C) 37",
+    "explanation": "Pattern: n² + 1 → 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37."
+  },
+  {
+    "id": 18,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 11, 22, 33, 44, 55, ?",
+    "options": ["A) 60", "B) 64", "C) 66", "D) 77"],
+    "correct_answer": "C) 66",
+    "explanation": "Multiples of 11: 11×1, 11×2, ..., so next is 11×6 = 66."
+  },
+  {
+    "id": 19,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 1, 4, 9, 16, ?, 36",
+    "options": ["A) 20", "B) 25", "C) 28", "D) 30"],
+    "correct_answer": "B) 25",
+    "explanation": "Perfect squares: 1², 2², 3², 4², 5², 6². Missing term is 5² = 25."
+  },
+  {
+    "id": 20,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 6, 12, 18, 24, 30, ?",
+    "options": ["A) 34", "B) 36", "C) 38", "D) 42"],
+    "correct_answer": "B) 36",
+    "explanation": "Multiples of 6: 6×1, 6×2, ..., so next is 6×6 = 36."
+  },
+  {
+    "id": 21,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 5, 11, 17, 23, 29, ?",
+    "options": ["A) 33", "B) 35", "C) 37", "D) 41"],
+    "correct_answer": "B) 35",
+    "explanation": "Arithmetic progression with common difference 6: 29 + 6 = 35."
+  },
+  {
+    "id": 22,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 1, 2, 6, 24, 120, ?",
+    "options": ["A) 240", "B) 480", "C) 720", "D) 840"],
+    "correct_answer": "C) 720",
+    "explanation": "Factorial series: 1!, 2!, 3!, 4!, 5!, so next is 6! = 720."
+  },
+  {
+    "id": 23,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 2, 4, 8, 14, 22, ?",
+    "options": ["A) 30", "B) 32", "C) 34", "D) 36"],
+    "correct_answer": "B) 32",
+    "explanation": "Differences: 2, 4, 6, 8, so next difference is 10: 22 + 10 = 32."
+  },
+  {
+    "id": 24,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 81, 27, 9, 3, ?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "correct_answer": "B) 1",
+    "explanation": "Each term is divided by 3: 3 ÷ 3 = 1."
+  },
+  {
+    "id": 25,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 13, 26, 39, 52, 65, ?",
+    "options": ["A) 72", "B) 75", "C) 78", "D) 80"],
+    "correct_answer": "C) 78",
+    "explanation": "Multiples of 13: 13×1, 13×2, ..., so next is 13×6 = 78."
+  },
+  {
+    "id": 26,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 3, 5, 9, 15, 23, ?",
+    "options": ["A) 30", "B) 31", "C) 33", "D) 35"],
+    "correct_answer": "C) 33",
+    "explanation": "Differences: 2, 4, 6, 8, so next difference is 10: 23 + 10 = 33."
+  },
+  {
+    "id": 27,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 1, 5, 14, 30, 55, ?",
+    "options": ["A) 80", "B) 85", "C) 90", "D) 91"],
+    "correct_answer": "D) 91",
+    "explanation": "Sum of squares: 1², 1²+2², 1²+2²+3², ... Next: 1+4+9+16+25+36 = 91."
+  },
+  {
+    "id": 28,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 200, 100, 50, 25, ?",
+    "options": ["A) 10", "B) 12.5", "C) 15", "D) 20"],
+    "correct_answer": "B) 12.5",
+    "explanation": "Each term is halved (÷2): 25 ÷ 2 = 12.5."
+  },
+  {
+    "id": 29,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 4, 7, 12, 19, 28, ?",
+    "options": ["A) 37", "B) 38", "C) 39", "D) 40"],
+    "correct_answer": "C) 39",
+    "explanation": "Differences: 3, 5, 7, 9, so next difference is 11: 28 + 11 = 39."
+  },
+  {
+    "id": 30,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 2, 3, 5, 7, 11, 13, ?",
+    "options": ["A) 15", "B) 16", "C) 17", "D) 19"],
+    "correct_answer": "C) 17",
+    "explanation": "Series of prime numbers: 2, 3, 5, 7, 11, 13, next prime is 17."
+  },
+  {
+    "id": 31,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 1, 3, 6, 10, 15, ?",
+    "options": ["A) 18", "B) 20", "C) 21", "D) 24"],
+    "correct_answer": "C) 21",
+    "explanation": "Triangular numbers: differences are 2, 3, 4, 5, so next difference is 6: 15 + 6 = 21."
+  },
+  {
+    "id": 32,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 8, 16, 24, 32, 40, ?",
+    "options": ["A) 44", "B) 46", "C) 48", "D) 56"],
+    "correct_answer": "C) 48",
+    "explanation": "Multiples of 8: 8×1, 8×2, ..., so next is 8×6 = 48."
+  },
+  {
+    "id": 33,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 1, 2, 4, 8, 16, 32, ?",
+    "options": ["A) 48", "B) 56", "C) 64", "D) 72"],
+    "correct_answer": "C) 64",
+    "explanation": "Powers of 2: 2⁰, 2¹, 2², ..., 2⁵, so next is 2⁶ = 64."
+  },
+  {
+    "id": 34,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 9, 18, 27, 36, 45, ?",
+    "options": ["A) 50", "B) 52", "C) 54", "D) 63"],
+    "correct_answer": "C) 54",
+    "explanation": "Multiples of 9: 9×1, 9×2, ..., so next is 9×6 = 54."
+  },
+  {
+    "id": 35,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 6, 11, 16, 21, 26, ?",
+    "options": ["A) 29", "B) 30", "C) 31", "D) 33"],
+    "correct_answer": "C) 31",
+    "explanation": "Arithmetic progression with common difference 5: 26 + 5 = 31."
+  },
+  {
+    "id": 36,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 1000, 500, 250, 125, ?",
+    "options": ["A) 50", "B) 60", "C) 62.5", "D) 75"],
+    "correct_answer": "C) 62.5",
+    "explanation": "Each term is divided by 2: 125 ÷ 2 = 62.5."
+  },
+  {
+    "id": 37,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 2, 9, 28, 65, ?",
+    "options": ["A) 100", "B) 120", "C": "C) 126", "D) 130"],
+    "correct_answer": "C) 126",
+    "explanation": "Pattern: n³ + 1 → 1³+1=2, 2³+1=9, 3³+1=28, 4³+1=65, 5³+1=126."
+  },
+  {
+    "id": 38,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 15, 30, 45, 60, 75, ?",
+    "options": ["A) 80", "B) 85", "C) 90", "D) 95"],
+    "correct_answer": "C) 90",
+    "explanation": "Multiples of 15: 15×1, 15×2, ..., so next is 15×6 = 90."
+  },
+  {
+    "id": 39,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the missing term: 3, 6, 11, 18, 27, ?",
+    "options": ["A) 36", "B) 37", "C) 38", "D) 39"],
+    "correct_answer": "C) 38",
+    "explanation": "Differences: 3, 5, 7, 9, so next difference is 11: 27 + 11 = 38."
+  },
+  {
+    "id": 40,
+    "topic": "Series Completion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the next term: 1, 4, 13, 40, 121, ?",
+    "options": ["A) 243", "B) 300", "C) 364", "D) 400"],
+    "correct_answer": "C) 364",
+    "explanation": "Each term = previous × 3 + 1: 121 × 3 + 1 = 364."
+  },
+  {
+    "id": 41,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing term: 6, 13, 25, 51, 101, ?",
+    "options": ["A) 201", "B) 202", "C) 203", "D) 205"],
+    "correct_answer": "C) 203",
+    "explanation": "Each term = previous × 2 + 1: 101 × 2 + 1 = 203."
+  },
+  {
+    "id": 42,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the next term: 2, 5, 11, 23, 47, ?",
+    "options": ["A) 90", "B) 94", "C) 95", "D) 96"],
+    "correct_answer": "C) 95",
+    "explanation": "Each term = previous × 2 + 1: 47 × 2 + 1 = 95."
+  },
+  {
+    "id": 43,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing term: 3, 7, 15, 31, 63, ?",
+    "options": ["A) 121", "B) 125", "C) 127", "D) 130"],
+    "correct_answer": "C) 127",
+    "explanation": "Each term = previous × 2 + 1: 63 × 2 + 1 = 127."
+  },
+  {
+    "id": 44,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the next term: 4, 9, 20, 43, 90, ?",
+    "options": ["A) 181", "B) 183", "C) 185", "D) 187"],
+    "correct_answer": "B) 183",
+    "explanation": "Each term = previous × 2 + 2, then × 2 + 2... Pattern: ×2+1, ×2+2, ×2+3, ×2+4, ×2+3: 90×2+3=183."
+  },
+  {
+    "id": 45,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing term: 1, 6, 15, 28, 45, ?",
+    "options": ["A) 60", "B) 64", "C) 66", "D) 70"],
+    "correct_answer": "C) 66",
+    "explanation": "Differences: 5, 9, 13, 17 (AP with d=4), so next difference is 21: 45 + 21 = 66."
+  },
+  {
+    "id": 46,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the next term: 7, 26, 63, 124, 215, ?",
+    "options": ["A) 300", "B) 320", "C) 342", "D) 350"],
+    "correct_answer": "C) 342",
+    "explanation": "Pattern: n³ - 1 → 2³-1=7, 3³-1=26, 4³-1=63, 5³-1=124, 6³-1=215, 7³-1=342."
+  },
+  {
+    "id": 47,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing term: 2, 3, 10, 15, 26, 35, ?",
+    "options": ["A) 48", "B) 50", "C) 52", "D) 58"],
+    "correct_answer": "B) 50",
+    "explanation": "Two alternating series: 2,10,26,50 (n²+1) and 3,15,35 (n²+n-1). Next in first series: 7²+1=50."
+  },
+  {
+    "id": 48,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the next term: 5, 6, 14, 45, 184, ?",
+    "options": ["A) 900", "B) 920", "C) 925", "D) 930"],
+    "correct_answer": "C) 925",
+    "explanation": "Pattern: ×1+1, ×2+2, ×3+3, ×4+4, ×5+5: 184×5+5=925."
+  },
+  {
+    "id": 49,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing term: 8, 15, 24, 35, 48, ?",
+    "options": ["A) 60", "B) 62", "C) 63", "D) 65"],
+    "correct_answer": "C) 63",
+    "explanation": "Pattern: n²+2n → 2²+4=8, 3²+6=15, 4²+8=24, 5²+10=35, 6²+12=48, 7²+14=63."
+  },
+  {
+    "id": 50,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the next term: 3, 12, 27, 48, 75, ?",
+    "options": ["A) 96", "B) 100", "C) 108", "D) 112"],
+    "correct_answer": "C) 108",
+    "explanation": "Pattern: 3n² → 3×1=3, 3×4=12, 3×9=27, 3×16=48, 3×25=75, 3×36=108."
+  },
+  {
+    "id": 51,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing term: 11, 13, 17, 19, 23, 29, 31, ?",
+    "options": ["A) 33", "B) 35", "C) 37", "D) 41"],
+    "correct_answer": "C) 37",
+    "explanation": "Series of twin primes: (11,13), (17,19), (23,29), (31,37). Next is 37."
+  },
+  {
+    "id": 52,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the next term: 1, 2, 3, 5, 8, 13, 21, 34, ?",
+    "options": ["A) 47", "B) 55", "C) 57", "D) 60"],
+    "correct_answer": "B) 55",
+    "explanation": "Fibonacci series: each term = sum of previous two. 21 + 34 = 55."
+  },
+  {
+    "id": 53,
+    "topic": "Series Completion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the missing term: 4, 6, 12, 14, 28, 30, ?",
+    "options": ["A) 56", "B) 58", "C) 60", "D) 62"],
+    "correct_answer": "C) 60",
+    "explanation": "Pattern: +2, ×2, +2, ×2, +2, ×2: 30 

@@ -1,0 +1,495 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to start the Oracle database instance?",
+    "options": ["A) STARTUP", "B) START DATABASE", "C) OPEN DATABASE", "D) INITIATE"],
+    "correct_answer": "A) STARTUP",
+    "explanation": "The STARTUP command is used in SQL*Plus to start an Oracle database instance. It can be used with options like NOMOUNT, MOUNT, or OPEN."
+  },
+  {
+    "id": 2,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the acronym 'SGA' stand for in Oracle?",
+    "options": ["A) System Global Area", "B) Structured Global Array", "C) Server Global Access", "D) System Generated Allocation"],
+    "correct_answer": "A) System Global Area",
+    "explanation": "SGA stands for System Global Area, which is a shared memory region that contains data and control information for one Oracle database instance."
+  },
+  {
+    "id": 3,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which file contains the initialization parameters for an Oracle database?",
+    "options": ["A) SPFILE or PFILE", "B) CONTROL FILE", "C) REDO LOG FILE", "D) DATA FILE"],
+    "correct_answer": "A) SPFILE or PFILE",
+    "explanation": "Oracle uses SPFILE (Server Parameter File) or PFILE (Parameter File/init.ora) to store initialization parameters that configure the database instance at startup."
+  },
+  {
+    "id": 4,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Oracle background process writes dirty buffers from the buffer cache to data files?",
+    "options": ["A) DBWR", "B) LGWR", "C) SMON", "D) PMON"],
+    "correct_answer": "A) DBWR",
+    "explanation": "DBWR (Database Writer) is the background process responsible for writing modified (dirty) data blocks from the buffer cache to the data files on disk."
+  },
+  {
+    "id": 5,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the LGWR background process in Oracle?",
+    "options": ["A) Writes redo log entries from the log buffer to redo log files", "B) Writes data from buffer cache to data files", "C) Monitors and cleans up failed processes", "D) Performs instance recovery at startup"],
+    "correct_answer": "A) Writes redo log entries from the log buffer to redo log files",
+    "explanation": "LGWR (Log Writer) writes redo log entries from the redo log buffer in SGA to the online redo log files, ensuring transaction durability."
+  },
+  {
+    "id": 6,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to shut down an Oracle database immediately, rolling back all active transactions?",
+    "options": ["A) SHUTDOWN ABORT", "B) SHUTDOWN IMMEDIATE", "C) SHUTDOWN TRANSACTIONAL", "D) SHUTDOWN NORMAL"],
+    "correct_answer": "B) SHUTDOWN IMMEDIATE",
+    "explanation": "SHUTDOWN IMMEDIATE disconnects all users, rolls back active transactions, and closes the database cleanly without waiting for users to disconnect."
+  },
+  {
+    "id": 7,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a tablespace in Oracle?",
+    "options": ["A) A logical storage unit that groups related data files", "B) A physical file on disk", "C) A memory area in SGA", "D) A background process"],
+    "correct_answer": "A) A logical storage unit that groups related data files",
+    "explanation": "A tablespace is a logical storage unit in Oracle that groups one or more data files. It is the highest level of the logical storage hierarchy."
+  },
+  {
+    "id": 8,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which default tablespace is created when an Oracle database is installed?",
+    "options": ["A) SYSTEM", "B) DEFAULT", "C) MAIN", "D) PRIMARY"],
+    "correct_answer": "A) SYSTEM",
+    "explanation": "The SYSTEM tablespace is automatically created during Oracle database installation and contains the data dictionary and other critical system objects."
+  },
+  {
+    "id": 9,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DDL stand for in Oracle SQL?",
+    "options": ["A) Data Definition Language", "B) Data Deletion Language", "C) Database Design Language", "D) Dynamic Data Language"],
+    "correct_answer": "A) Data Definition Language",
+    "explanation": "DDL stands for Data Definition Language, which includes commands like CREATE, ALTER, DROP, and TRUNCATE used to define and modify database structures."
+  },
+  {
+    "id": 10,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Oracle view displays information about all tables accessible to the current user?",
+    "options": ["A) ALL_TABLES", "B) USER_TABLES", "C) DBA_TABLES", "D) SYS_TABLES"],
+    "correct_answer": "A) ALL_TABLES",
+    "explanation": "ALL_TABLES shows all tables accessible to the current user. USER_TABLES shows only tables owned by the user, and DBA_TABLES shows all tables in the database (requires DBA privilege)."
+  },
+  {
+    "id": 11,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the DUAL table in Oracle?",
+    "options": ["A) A dummy table used to select pseudo-columns or expressions", "B) A table that stores duplicate records", "C) A backup table for system data", "D) A table with two columns"],
+    "correct_answer": "A) A dummy table used to select pseudo-columns or expressions",
+    "explanation": "DUAL is a special one-row, one-column table in Oracle used to evaluate expressions, functions, or pseudo-columns like SYSDATE and ROWNUM without referencing an actual table."
+  },
+  {
+    "id": 12,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Oracle function returns the current date and time?",
+    "options": ["A) SYSDATE", "B) GETDATE()", "C) NOW()", "D) CURRENT()"],
+    "correct_answer": "A) SYSDATE",
+    "explanation": "SYSDATE is an Oracle function that returns the current date and time from the operating system. It is used as: SELECT SYSDATE FROM DUAL;"
+  },
+  {
+    "id": 13,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a sequence in Oracle?",
+    "options": ["A) A database object that generates unique numeric values", "B) A sorted list of records", "C) An ordered set of transactions", "D) A type of index"],
+    "correct_answer": "A) A database object that generates unique numeric values",
+    "explanation": "A sequence is an Oracle database object that automatically generates unique sequential numbers, commonly used for primary key generation."
+  },
+  {
+    "id": 14,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to retrieve the next value from an Oracle sequence?",
+    "options": ["A) NEXTVAL", "B) NEXT_VALUE", "C) INCREMENT", "D) GENERATE"],
+    "correct_answer": "A) NEXTVAL",
+    "explanation": "NEXTVAL is used to retrieve the next value from a sequence. Example: SELECT sequence_name.NEXTVAL FROM DUAL;"
+  },
+  {
+    "id": 15,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a synonym in Oracle?",
+    "options": ["A) An alias for a database object", "B) A duplicate table", "C) A type of constraint", "D) A stored procedure"],
+    "correct_answer": "A) An alias for a database object",
+    "explanation": "A synonym is an alternative name (alias) for a database object such as a table, view, sequence, or procedure, simplifying access and providing location transparency."
+  },
+  {
+    "id": 16,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Oracle constraint ensures that a column cannot contain NULL values?",
+    "options": ["A) NOT NULL", "B) UNIQUE", "C) CHECK", "D) DEFAULT"],
+    "correct_answer": "A) NOT NULL",
+    "explanation": "The NOT NULL constraint ensures that a column must always contain a value and cannot be left empty (NULL)."
+  },
+  {
+    "id": 17,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the ROLLBACK command do in Oracle?",
+    "options": ["A) Undoes all changes made in the current transaction", "B) Saves all changes permanently", "C) Deletes all records from a table", "D) Restores a dropped table"],
+    "correct_answer": "A) Undoes all changes made in the current transaction",
+    "explanation": "ROLLBACK undoes all DML changes made since the last COMMIT or SAVEPOINT, restoring the database to its previous consistent state."
+  },
+  {
+    "id": 18,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Oracle data type is used to store variable-length character strings up to 4000 bytes?",
+    "options": ["A) VARCHAR2", "B) CHAR", "C) NCHAR", "D) LONG"],
+    "correct_answer": "A) VARCHAR2",
+    "explanation": "VARCHAR2 stores variable-length character strings up to 4000 bytes in Oracle. It is the most commonly used character data type in Oracle databases."
+  },
+  {
+    "id": 19,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the COMMIT statement in Oracle?",
+    "options": ["A) Permanently saves all changes made in the current transaction", "B) Cancels the current transaction", "C) Creates a savepoint", "D) Locks a table"],
+    "correct_answer": "A) Permanently saves all changes made in the current transaction",
+    "explanation": "COMMIT permanently saves all DML changes (INSERT, UPDATE, DELETE) made during the current transaction to the database, making them visible to other users."
+  },
+  {
+    "id": 20,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Oracle background process performs instance recovery at database startup?",
+    "options": ["A) SMON", "B) PMON", "C) DBWR", "D) LGWR"],
+    "correct_answer": "A) SMON",
+    "explanation": "SMON (System Monitor) performs instance recovery at startup by applying redo logs and rolling back uncommitted transactions. It also coalesces free space in tablespaces."
+  },
+  {
+    "id": 21,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the function of the PMON background process in Oracle?",
+    "options": ["A) Cleans up after failed user processes", "B) Writes data to disk", "C) Archives redo log files", "D) Manages checkpoints"],
+    "correct_answer": "A) Cleans up after failed user processes",
+    "explanation": "PMON (Process Monitor) monitors user processes and cleans up resources (locks, memory) when a user process fails abnormally."
+  },
+  {
+    "id": 22,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to create a new table in Oracle?",
+    "options": ["A) CREATE TABLE", "B) MAKE TABLE", "C) NEW TABLE", "D) BUILD TABLE"],
+    "correct_answer": "A) CREATE TABLE",
+    "explanation": "CREATE TABLE is the DDL command used to create a new table in Oracle. Example: CREATE TABLE employees (id NUMBER, name VARCHAR2(50));"
+  },
+  {
+    "id": 23,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an index in Oracle?",
+    "options": ["A) A database object that improves query performance", "B) A list of all tables in the database", "C) A type of constraint", "D) A memory structure"],
+    "correct_answer": "A) A database object that improves query performance",
+    "explanation": "An index is a schema object that provides faster access to table rows. Oracle uses B-tree indexes by default to speed up data retrieval operations."
+  },
+  {
+    "id": 24,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Oracle data type stores large amounts of character data (up to 4 GB)?",
+    "options": ["A) CLOB", "B) BLOB", "C) VARCHAR2", "D) LONG"],
+    "correct_answer": "A) CLOB",
+    "explanation": "CLOB (Character Large Object) stores large character data up to 4 GB. BLOB stores binary large objects, while VARCHAR2 is limited to 4000 bytes."
+  },
+  {
+    "id": 25,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the NVL function do in Oracle?",
+    "options": ["A) Replaces NULL with a specified value", "B) Converts a number to a string", "C) Returns the length of a string", "D) Rounds a number to specified decimals"],
+    "correct_answer": "A) Replaces NULL with a specified value",
+    "explanation": "NVL(expr1, expr2) returns expr2 if expr1 is NULL, otherwise returns expr1. It is used to handle NULL values in queries."
+  },
+  {
+    "id": 26,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In Oracle, which type of join returns all rows from both tables, with NULLs for non-matching rows on either side?",
+    "options": ["A) FULL OUTER JOIN", "B) INNER JOIN", "C) LEFT OUTER JOIN", "D) CROSS JOIN"],
+    "correct_answer": "A) FULL OUTER JOIN",
+    "explanation": "FULL OUTER JOIN returns all rows from both tables. Where there is no match, NULL values are returned for the columns of the table that lacks a matching row."
+  },
+  {
+    "id": 27,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between TRUNCATE and DELETE in Oracle?",
+    "options": ["A) TRUNCATE is DDL and cannot be rolled back; DELETE is DML and can be rolled back", "B) TRUNCATE can be rolled back; DELETE cannot", "C) Both are DDL commands", "D) DELETE removes table structure; TRUNCATE removes only data"],
+    "correct_answer": "A) TRUNCATE is DDL and cannot be rolled back; DELETE is DML and can be rolled back",
+    "explanation": "TRUNCATE is a DDL command that removes all rows quickly without logging individual row deletions and cannot be rolled back. DELETE is DML, logs each row, and can be rolled back."
+  },
+  {
+    "id": 28,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle clause is used to filter groups after a GROUP BY operation?",
+    "options": ["A) HAVING", "B) WHERE", "C) FILTER", "D) GROUP FILTER"],
+    "correct_answer": "A) HAVING",
+    "explanation": "HAVING filters groups created by GROUP BY, similar to how WHERE filters rows. WHERE cannot reference aggregate functions, but HAVING can."
+  },
+  {
+    "id": 29,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a view in Oracle?",
+    "options": ["A) A virtual table based on a SELECT query", "B) A physical copy of a table", "C) A type of index", "D) A stored procedure that returns data"],
+    "correct_answer": "A) A virtual table based on a SELECT query",
+    "explanation": "A view is a stored query that appears as a virtual table. It does not store data physically but provides a way to simplify complex queries and control data access."
+  },
+  {
+    "id": 30,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle function converts a string to uppercase?",
+    "options": ["A) UPPER()", "B) UCASE()", "C) TOUPPER()", "D) CAPS()"],
+    "correct_answer": "A) UPPER()",
+    "explanation": "UPPER() converts all characters in a string to uppercase. Example: SELECT UPPER('oracle') FROM DUAL; returns 'ORACLE'."
+  },
+  {
+    "id": 31,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of the ROWNUM pseudo-column in Oracle?",
+    "options": ["A) Assigns a sequential number to each row returned by a query", "B) Returns the physical row address", "C) Counts total rows in a table", "D) Identifies duplicate rows"],
+    "correct_answer": "A) Assigns a sequential number to each row returned by a query",
+    "explanation": "ROWNUM assigns a sequential integer to each row as it is retrieved. It is commonly used to limit the number of rows returned (e.g., WHERE ROWNUM <= 10)."
+  },
+  {
+    "id": 32,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle privilege allows a user to connect to the database?",
+    "options": ["A) CREATE SESSION", "B) CONNECT", "C) LOGIN", "D) ACCESS DATABASE"],
+    "correct_answer": "A) CREATE SESSION",
+    "explanation": "CREATE SESSION is the system privilege that allows a user to connect to the Oracle database. Without this privilege, a user cannot log in."
+  },
+  {
+    "id": 33,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the Oracle DECODE function used for?",
+    "options": ["A) Provides IF-THEN-ELSE logic in SQL", "B) Decrypts encrypted data", "C) Converts data types", "D) Decodes binary data to text"],
+    "correct_answer": "A) Provides IF-THEN-ELSE logic in SQL",
+    "explanation": "DECODE(expr, search, result [, search, result]... [, default]) provides conditional logic similar to IF-THEN-ELSE. It compares expr to each search value and returns the corresponding result."
+  },
+  {
+    "id": 34,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle join syntax uses the (+) operator?",
+    "options": ["A) Oracle proprietary outer join syntax", "B) Inner join syntax", "C) Cross join syntax", "D) Natural join syntax"],
+    "correct_answer": "A) Oracle proprietary outer join syntax",
+    "explanation": "The (+) operator is Oracle's proprietary syntax for outer joins. For example, WHERE a.id = b.id(+) is equivalent to a LEFT OUTER JOIN on b."
+  },
+  {
+    "id": 35,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of the SAVEPOINT command in Oracle?",
+    "options": ["A) Creates a marker within a transaction to allow partial rollback", "B) Saves the entire database state", "C) Commits a portion of a transaction", "D) Creates a backup of a table"],
+    "correct_answer": "A) Creates a marker within a transaction to allow partial rollback",
+    "explanation": "SAVEPOINT creates a named point within a transaction. You can use ROLLBACK TO savepoint_name to undo changes only back to that savepoint, not the entire transaction."
+  },
+  {
+    "id": 36,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle function returns the number of characters in a string?",
+    "options": ["A) LENGTH()", "B) SIZE()", "C) COUNT()", "D) LEN()"],
+    "correct_answer": "A) LENGTH()",
+    "explanation": "LENGTH() returns the number of characters in a string. Example: SELECT LENGTH('Oracle') FROM DUAL; returns 6."
+  },
+  {
+    "id": 37,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the Oracle SUBSTR function used for?",
+    "options": ["A) Extracts a substring from a string", "B) Subtracts one string from another", "C) Searches for a pattern in a string", "D) Substitutes NULL values"],
+    "correct_answer": "A) Extracts a substring from a string",
+    "explanation": "SUBSTR(string, start_position, length) extracts a portion of a string. Example: SUBSTR('Oracle', 1, 3) returns 'Ora'."
+  },
+  {
+    "id": 38,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle data dictionary view shows all constraints defined on tables owned by the current user?",
+    "options": ["A) USER_CONSTRAINTS", "B) ALL_CONSTRAINTS", "C) DBA_CONSTRAINTS", "D) SYS_CONSTRAINTS"],
+    "correct_answer": "A) USER_CONSTRAINTS",
+    "explanation": "USER_CONSTRAINTS shows all constraints on tables owned by the current user. ALL_CONSTRAINTS includes accessible tables, and DBA_CONSTRAINTS shows all constraints in the database."
+  },
+  {
+    "id": 39,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of the TO_CHAR function in Oracle?",
+    "options": ["A) Converts a number or date to a character string", "B) Converts a character to ASCII value", "C) Checks if a value is a character", "D) Converts a string to a number"],
+    "correct_answer": "A) Converts a number or date to a character string",
+    "explanation": "TO_CHAR converts numbers or dates to formatted character strings. Example: TO_CHAR(SYSDATE, 'DD-MON-YYYY') converts the current date to a formatted string."
+  },
+  {
+    "id": 40,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle command grants a privilege to a user?",
+    "options": ["A) GRANT", "B) ALLOW", "C) PERMIT", "D) ASSIGN"],
+    "correct_answer": "A) GRANT",
+    "explanation": "GRANT is used to give privileges to users or roles. Example: GRANT SELECT ON employees TO john; gives john the ability to query the employees table."
+  },
+  {
+    "id": 41,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In Oracle, what is the difference between a UNIQUE constraint and a PRIMARY KEY constraint?",
+    "options": ["A) PRIMARY KEY does not allow NULLs; UNIQUE allows one NULL per column", "B) UNIQUE does not allow NULLs; PRIMARY KEY allows NULLs", "C) Both allow NULLs", "D) PRIMARY KEY allows duplicate values; UNIQUE does not"],
+    "correct_answer": "A) PRIMARY KEY does not allow NULLs; UNIQUE allows one NULL per column",
+    "explanation": "A PRIMARY KEY combines NOT NULL and UNIQUE constraints. A UNIQUE constraint allows one NULL value per column (since NULL is not equal to NULL in Oracle)."
+  },
+  {
+    "id": 42,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a materialized view in Oracle?",
+    "options": ["A) A view that physically stores the result of a query", "B) A view that is always up-to-date", "C) A view with no underlying query", "D) A view stored in memory only"],
+    "correct_answer": "A) A view that physically stores the result of a query",
+    "explanation": "A materialized view stores the query result physically on disk, unlike regular views. It can be refreshed periodically and is used for performance optimization and data warehousing."
+  },
+  {
+    "id": 43,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle function is used to concatenate two strings?",
+    "options": ["A) CONCAT() or || operator", "B) MERGE()", "C) JOIN()", "D) APPEND()"],
+    "correct_answer": "A) CONCAT() or || operator",
+    "explanation": "Oracle supports string concatenation using CONCAT(str1, str2) or the || operator. Example: 'Hello' || ' World' returns 'Hello World'."
+  },
+  {
+    "id": 44,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of the FLASHBACK TABLE command in Oracle?",
+    "options": ["A) Restores a table to a previous point in time", "B) Creates a backup of a table", "C) Shows the history of DML operations", "D) Recovers a dropped index"],
+    "correct_answer": "A) Restores a table to a previous point in time",
+    "explanation": "FLASHBACK TABLE restores a table to a previous state using undo data. Example: FLASHBACK TABLE employees TO TIMESTAMP (SYSTIMESTAMP - INTERVAL '1' HOUR);"
+  },
+  {
+    "id": 45,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle feature allows recovery of accidentally dropped tables?",
+    "options": ["A) Recycle Bin (FLASHBACK DROP)", "B) Undo Tablespace", "C) Archive Log Mode", "D) Data Guard"],
+    "correct_answer": "A) Recycle Bin (FLASHBACK DROP)",
+    "explanation": "Oracle's Recycle Bin stores dropped tables. You can recover them using FLASHBACK TABLE table_name TO BEFORE DROP. The PURGE command permanently removes objects from the Recycle Bin."
+  },
+  {
+    "id": 46,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the Oracle MERGE statement used for?",
+    "options": ["A) Performs INSERT, UPDATE, or DELETE in a single statement based on conditions", "B) Merges two tables into one", "C) Combines two SELECT results", "D) Joins two tables permanently"],
+    "correct_answer": "A) Performs INSERT, UPDATE, or DELETE in a single statement based on conditions",
+    "explanation": "MERGE (also called UPSERT) combines INSERT and UPDATE operations. It inserts a row if it doesn't exist or updates it if it does, based on a matching condition."
+  },
+  {
+    "id": 47,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle analytic function assigns a rank to each row within a partition, with gaps for ties?",
+    "options": ["A) RANK()", "B) DENSE_RANK()", "C) ROW_NUMBER()", "D) NTILE()"],
+    "correct_answer": "A) RANK()",
+    "explanation": "RANK() assigns ranks with gaps for ties. If two rows tie for rank 2, the next rank is 4. DENSE_RANK() assigns consecutive ranks without gaps."
+  },
+  {
+    "id": 48,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of the CONNECT BY clause in Oracle?",
+    "options": ["A) Performs hierarchical queries on tree-structured data", "B) Connects to a remote database", "C) Joins two tables", "D) Creates a database link"],
+    "correct_answer": "A) Performs hierarchical queries on tree-structured data",
+    "explanation": "CONNECT BY is used with START WITH to traverse hierarchical data (like org charts). It defines the parent-child relationship between rows in the same table."
+  },
+  {
+    "id": 49,
+    "topic": "Managing Databases with Oracle",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which Oracle function rounds a number to a specified number of decimal places?",
+    "options": ["A) ROUND()", "B) TRUNC()", "C) CEIL()", "D) FLOOR()"],
+    "correct_answer": "A) ROUND()",
+    "explanation": "ROUND(number, decimal_places) rounds a number. Example: ROUND(3.567, 2) returns 3.57. TRUNC truncates without rounding, CEIL rounds up, FLOOR rounds down."
+  },
+  {
+    "id": 50,
+    "topic": "Managing Databases with Oracle",

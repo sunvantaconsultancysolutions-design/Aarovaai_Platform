@@ -1,0 +1,424 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All cats are dogs. All dogs are animals.\nConclusions: I. All cats are animals. II. All animals are cats.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "All cats are dogs + All dogs are animals → All cats are animals (valid). All animals are cats cannot be concluded as the chain doesn't reverse. Only I follows."
+  },
+  {
+    "id": 2,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All roses are flowers. Some flowers are red.\nConclusions: I. Some roses are red. II. All flowers are roses.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "All roses are flowers + Some flowers are red → we cannot conclude some roses are red (the red flowers may not be roses). All flowers are roses is also invalid. Neither follows."
+  },
+  {
+    "id": 3,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No pen is a pencil. All pencils are erasers.\nConclusions: I. No pen is an eraser. II. Some erasers are not pens.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "No pen is a pencil + All pencils are erasers → Some erasers (those that are pencils) are not pens. Conclusion I is not definite since pens could still be erasers through another route. Only II follows."
+  },
+  {
+    "id": 4,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All birds can fly. Penguins are birds.\nConclusions: I. Penguins can fly. II. Some birds are penguins.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All birds can fly + Penguins are birds → Penguins can fly (I). Since penguins are birds, some birds are penguins (II). Both conclusions follow."
+  },
+  {
+    "id": 5,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some tables are chairs. All chairs are wooden.\nConclusions: I. Some tables are wooden. II. All wooden things are chairs.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some tables are chairs + All chairs are wooden → Some tables are wooden (I follows). All wooden things are chairs cannot be concluded. Only I follows."
+  },
+  {
+    "id": 6,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All mangoes are fruits. All fruits are sweet.\nConclusions: I. All mangoes are sweet. II. Some sweet things are mangoes.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All mangoes are fruits + All fruits are sweet → All mangoes are sweet (I). Since all mangoes are sweet, some sweet things are mangoes (II). Both follow."
+  },
+  {
+    "id": 7,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No book is a magazine. Some magazines are newspapers.\nConclusions: I. No book is a newspaper. II. Some newspapers are not books.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "No book is a magazine + Some magazines are newspapers → Some newspapers (those that are magazines) are not books. Conclusion I is too strong; newspapers could still be books. Only II follows."
+  },
+  {
+    "id": 8,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All students are intelligent. Ram is a student.\nConclusions: I. Ram is intelligent. II. All intelligent people are students.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "All students are intelligent + Ram is a student → Ram is intelligent (I). The converse 'All intelligent people are students' cannot be concluded. Only I follows."
+  },
+  {
+    "id": 9,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some cars are buses. Some buses are trucks.\nConclusions: I. Some cars are trucks. II. Some trucks are buses.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Some cars are buses + Some buses are trucks → Some trucks are buses (II, by conversion). Some cars are trucks cannot be concluded from two particular statements. Only II follows."
+  },
+  {
+    "id": 10,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All doctors are educated. All educated people are wise.\nConclusions: I. All doctors are wise. II. Some wise people are doctors.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All doctors are educated + All educated are wise → All doctors are wise (I). Since all doctors are wise, some wise people are doctors (II). Both follow."
+  },
+  {
+    "id": 11,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No fish is a mammal. All whales are mammals.\nConclusions: I. No whale is a fish. II. Some mammals are not fish.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "No fish is a mammal → No mammal is a fish (conversion). All whales are mammals → No whale is a fish (I). Also, since all whales are mammals and no whale is a fish, some mammals are not fish (II). Both follow."
+  },
+  {
+    "id": 12,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some apples are oranges. All oranges are citrus.\nConclusions: I. Some apples are citrus. II. All citrus are apples.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some apples are oranges + All oranges are citrus → Some apples are citrus (I). All citrus are apples cannot be concluded. Only I follows."
+  },
+  {
+    "id": 13,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All teachers are graduates. Some graduates are engineers.\nConclusions: I. Some teachers are engineers. II. Some engineers are graduates.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Some graduates are engineers → Some engineers are graduates (II, by conversion). All teachers are graduates + Some graduates are engineers does not guarantee some teachers are engineers. Only II follows."
+  },
+  {
+    "id": 14,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No lion is a tiger. No tiger is a leopard.\nConclusions: I. No lion is a leopard. II. Some leopards are not tigers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "No tiger is a leopard → Some leopards are not tigers (II). No lion is a leopard cannot be concluded from two negative statements about different pairs. Only II follows."
+  },
+  {
+    "id": 15,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All planets are round. Earth is a planet.\nConclusions: I. Earth is round. II. All round things are planets.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "All planets are round + Earth is a planet → Earth is round (I). The converse 'All round things are planets' is not valid. Only I follows."
+  },
+  {
+    "id": 16,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some singers are dancers. All dancers are performers.\nConclusions: I. Some singers are performers. II. All performers are dancers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some singers are dancers + All dancers are performers → Some singers are performers (I). All performers are dancers is not valid. Only I follows."
+  },
+  {
+    "id": 17,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All chairs are furniture. No furniture is plastic.\nConclusions: I. No chair is plastic. II. Some plastic things are not furniture.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "All chairs are furniture + No furniture is plastic → No chair is plastic (I). We cannot conclude about plastic things from these statements alone. Only I follows."
+  },
+  {
+    "id": 18,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some houses are buildings. Some buildings are offices.\nConclusions: I. Some houses are offices. II. Some offices are buildings.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Some buildings are offices → Some offices are buildings (II, by conversion). Some houses are offices cannot be concluded from two particular statements. Only II follows."
+  },
+  {
+    "id": 19,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All rivers flow. The Nile is a river.\nConclusions: I. The Nile flows. II. All flowing things are rivers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "All rivers flow + The Nile is a river → The Nile flows (I). All flowing things are rivers is an invalid converse. Only I follows."
+  },
+  {
+    "id": 20,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No stone is gold. All gold is precious.\nConclusions: I. No stone is precious. II. Some precious things are not stones.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "No stone is gold + All gold is precious → Some precious things (gold) are not stones (II). No stone is precious is too strong; stones could be precious through other means. Only II follows."
+  },
+  {
+    "id": 21,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All computers are machines. All machines need electricity.\nConclusions: I. All computers need electricity. II. Some machines are computers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All computers are machines + All machines need electricity → All computers need electricity (I). Since all computers are machines, some machines are computers (II). Both follow."
+  },
+  {
+    "id": 22,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some boys are tall. All tall people are athletes.\nConclusions: I. Some boys are athletes. II. All athletes are tall.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some boys are tall + All tall people are athletes → Some boys are athletes (I). All athletes are tall is an invalid converse. Only I follows."
+  },
+  {
+    "id": 23,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No cow is a horse. All horses are animals.\nConclusions: I. No cow is an animal. II. Some animals are not cows.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "No cow is a horse + All horses are animals → Some animals (horses) are not cows (II). No cow is an animal is invalid since cows can be animals through other means. Only II follows."
+  },
+  {
+    "id": 24,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All keys open locks. This object opens a lock.\nConclusions: I. This object is a key. II. Some keys are objects.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "All keys open locks does not mean only keys open locks. So this object being a key is not certain (I invalid). Some keys are objects is too vague without more info (II invalid). Neither follows."
+  },
+  {
+    "id": 25,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All spoons are utensils. All utensils are made of metal.\nConclusions: I. All spoons are made of metal. II. Some metal things are spoons.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All spoons are utensils + All utensils are made of metal → All spoons are made of metal (I). Since all spoons are metal, some metal things are spoons (II). Both follow."
+  },
+  {
+    "id": 26,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some clouds are white. All white things are pure.\nConclusions: I. Some clouds are pure. II. All pure things are white.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some clouds are white + All white things are pure → Some clouds are pure (I). All pure things are white is an invalid converse. Only I follows."
+  },
+  {
+    "id": 27,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No glass is wood. All wood is natural.\nConclusions: I. No glass is natural. II. Some natural things are not glass.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "No glass is wood + All wood is natural → Some natural things (wood) are not glass (II). No glass is natural is too strong. Only II follows."
+  },
+  {
+    "id": 28,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All trains are vehicles. Some vehicles are fast.\nConclusions: I. Some trains are fast. II. Some fast things are vehicles.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Some vehicles are fast → Some fast things are vehicles (II, by conversion). All trains are vehicles + Some vehicles are fast does not guarantee some trains are fast. Only II follows."
+  },
+  {
+    "id": 29,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All pilots are brave. All brave people are respected.\nConclusions: I. All pilots are respected. II. Some respected people are pilots.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All pilots are brave + All brave are respected → All pilots are respected (I). Since all pilots are respected, some respected people are pilots (II). Both follow."
+  },
+  {
+    "id": 30,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some cups are plates. No plate is a bowl.\nConclusions: I. Some cups are not bowls. II. No cup is a bowl.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some cups are plates + No plate is a bowl → Some cups (those that are plates) are not bowls (I). No cup is a bowl is too strong since some cups may not be plates. Only I follows."
+  },
+  {
+    "id": 31,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All lawyers are honest. Some honest people are rich.\nConclusions: I. Some lawyers are rich. II. Some rich people are honest.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Some honest people are rich → Some rich people are honest (II, by conversion). All lawyers are honest + Some honest are rich does not guarantee some lawyers are rich. Only II follows."
+  },
+  {
+    "id": 32,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No snake is a frog. All frogs are amphibians.\nConclusions: I. No snake is an amphibian. II. Some amphibians are not snakes.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "No snake is a frog + All frogs are amphibians → Some amphibians (frogs) are not snakes (II). No snake is an amphibian is too strong. Only II follows."
+  },
+  {
+    "id": 33,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All shoes are footwear. All footwear protects feet.\nConclusions: I. All shoes protect feet. II. Some footwear are shoes.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All shoes are footwear + All footwear protects feet → All shoes protect feet (I). Since all shoes are footwear, some footwear are shoes (II). Both follow."
+  },
+  {
+    "id": 34,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some artists are musicians. Some musicians are composers.\nConclusions: I. Some artists are composers. II. Some composers are musicians.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Some musicians are composers → Some composers are musicians (II, by conversion). Some artists are composers cannot be concluded from two particular statements. Only II follows."
+  },
+  {
+    "id": 35,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All diamonds are gems. All gems are valuable.\nConclusions: I. All diamonds are valuable. II. Some valuable things are diamonds.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All diamonds are gems + All gems are valuable → All diamonds are valuable (I). Since all diamonds are valuable, some valuable things are diamonds (II). Both follow."
+  },
+  {
+    "id": 36,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: No bat is a ball. Some balls are round.\nConclusions: I. No bat is round. II. Some round things are not bats.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "No bat is a ball + Some balls are round → Some round things (balls) are not bats (II). No bat is round is too strong. Only II follows."
+  },
+  {
+    "id": 37,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All nurses are caring. Priya is a nurse.\nConclusions: I. Priya is caring. II. All caring people are nurses.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "All nurses are caring + Priya is a nurse → Priya is caring (I). All caring people are nurses is an invalid converse. Only I follows."
+  },
+  {
+    "id": 38,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some mountains are tall. All tall things are visible from far.\nConclusions: I. Some mountains are visible from far. II. All mountains are visible from far.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some mountains are tall + All tall things are visible from far → Some mountains are visible from far (I). All mountains are visible from far is too strong. Only I follows."
+  },
+  {
+    "id": 39,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: All kings are powerful. No powerful person is weak.\nConclusions: I. No king is weak. II. Some powerful people are kings.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All kings are powerful + No powerful person is weak → No king is weak (I). Since all kings are powerful, some powerful people are kings (II). Both follow."
+  },
+  {
+    "id": 40,
+    "topic": "Syllogism",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statements: Some phones are smart. All smart devices are expensive.\nConclusions: I. Some phones are expensive. II. All expensive things are smart devices.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some phones are smart + All smart devices are expensive → Some phones are expensive (I). All expensive things are smart devices is an invalid converse. Only I follows."
+  },
+  {
+    "id": 41,
+    "topic": "Syllogism",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statements: All A are B. All B are C. No C is D.\nConclusions: I. No A is D. II. No B is D. III. Some C are A.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I and II follow", "B) Only II and III follow", "C) All I, II and III follow", "D) Only I follows"],
+    "correct_answer": "C) All I, II and III follow",
+    "explanation": "All A→B→C and No C is D → No A is D (I) and No B is D (II). All A are B→C, so some C are A (III). All three follow."
+  },
+  {
+    "id": 42,
+    "topic": "Syllogism",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statements: Some P are Q. All Q are R. Some R are S.\nConclusions: I. Some P are R. II. Some S are Q. III. Some R are P.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I and III follow", "B) Only I follows", "C) Only II and III follow", "D) None follows"],
+    "correct_answer": "A) Only I and III follow",
+    "explanation": "Some P are Q + All Q are R → Some P are R (I) and Some R are P (III, by conversion). Some R are S does not allow us to conclude Some S are Q. Only I and III follow."
+  },
+  {
+    "

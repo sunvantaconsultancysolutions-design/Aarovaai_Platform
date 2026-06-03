@@ -1,0 +1,491 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to view the current configuration stored in RAM on a Cisco router?",
+    "options": ["A) show startup-config", "B) show running-config", "C) show version", "D) show flash"],
+    "correct_answer": "B) show running-config",
+    "explanation": "The 'show running-config' command displays the active configuration currently loaded in RAM. 'show startup-config' shows the configuration saved in NVRAM."
+  },
+  {
+    "id": 2,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Where is the startup configuration file stored on a Cisco router?",
+    "options": ["A) RAM", "B) ROM", "C) NVRAM", "D) Flash"],
+    "correct_answer": "C) NVRAM",
+    "explanation": "The startup configuration is stored in NVRAM (Non-Volatile RAM), which retains data even when the router is powered off."
+  },
+  {
+    "id": 3,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command saves the running configuration to NVRAM on a Cisco router?",
+    "options": ["A) copy running-config startup-config", "B) copy startup-config running-config", "C) write erase", "D) reload"],
+    "correct_answer": "A) copy running-config startup-config",
+    "explanation": "The command 'copy running-config startup-config' copies the active RAM configuration to NVRAM so it persists after a reboot."
+  },
+  {
+    "id": 4,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS mode allows you to use all show commands but not make configuration changes?",
+    "options": ["A) User EXEC mode", "B) Privileged EXEC mode", "C) Global Configuration mode", "D) Interface Configuration mode"],
+    "correct_answer": "B) Privileged EXEC mode",
+    "explanation": "Privileged EXEC mode (enabled by typing 'enable') provides access to all show commands and diagnostic tools without allowing direct configuration changes."
+  },
+  {
+    "id": 5,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default administrative distance of a static route in Cisco IOS?",
+    "options": ["A) 90", "B) 110", "C) 1", "D) 0"],
+    "correct_answer": "C) 1",
+    "explanation": "Static routes have an administrative distance of 1 by default, making them highly preferred over dynamic routing protocols."
+  },
+  {
+    "id": 6,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to enter Global Configuration mode from Privileged EXEC mode?",
+    "options": ["A) enable", "B) configure terminal", "C) interface", "D) router"],
+    "correct_answer": "B) configure terminal",
+    "explanation": "'configure terminal' (or 'conf t') is the command used to enter Global Configuration mode from Privileged EXEC mode."
+  },
+  {
+    "id": 7,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which memory type on a Cisco router stores the Cisco IOS image?",
+    "options": ["A) RAM", "B) NVRAM", "C) ROM", "D) Flash"],
+    "correct_answer": "D) Flash",
+    "explanation": "Flash memory stores the Cisco IOS software image. It is erasable and reprogrammable, allowing IOS upgrades."
+  },
+  {
+    "id": 8,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'show interfaces' command display on a Cisco router?",
+    "options": ["A) Routing table entries", "B) Statistics and status of all interfaces", "C) CDP neighbor information", "D) Flash memory contents"],
+    "correct_answer": "B) Statistics and status of all interfaces",
+    "explanation": "'show interfaces' displays detailed statistics including IP address, encapsulation, input/output errors, and line/protocol status for all interfaces."
+  },
+  {
+    "id": 9,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol does Cisco use to discover neighboring Cisco devices automatically?",
+    "options": ["A) LLDP", "B) CDP", "C) OSPF", "D) SNMP"],
+    "correct_answer": "B) CDP",
+    "explanation": "CDP (Cisco Discovery Protocol) is a proprietary Layer 2 protocol used to discover directly connected Cisco devices and gather information about them."
+  },
+  {
+    "id": 10,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What command displays the CDP neighbors of a Cisco device?",
+    "options": ["A) show cdp", "B) show cdp neighbors", "C) show neighbors", "D) show cdp table"],
+    "correct_answer": "B) show cdp neighbors",
+    "explanation": "'show cdp neighbors' displays a summary of directly connected Cisco devices including device ID, local interface, and platform."
+  },
+  {
+    "id": 11,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to set the hostname of a Cisco router?",
+    "options": ["A) set hostname RouterA", "B) hostname RouterA", "C) name RouterA", "D) router-name RouterA"],
+    "correct_answer": "B) hostname RouterA",
+    "explanation": "The 'hostname' command in Global Configuration mode sets the name of the router, which appears in the command prompt."
+  },
+  {
+    "id": 12,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'enable secret' command on a Cisco router?",
+    "options": ["A) Sets a plain-text password for user EXEC mode", "B) Sets an encrypted password for privileged EXEC mode", "C) Encrypts all passwords in the config", "D) Sets a TFTP server password"],
+    "correct_answer": "B) Sets an encrypted password for privileged EXEC mode",
+    "explanation": "'enable secret' sets an MD5-encrypted password required to enter Privileged EXEC mode, providing stronger security than 'enable password'."
+  },
+  {
+    "id": 13,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command displays the routing table on a Cisco router?",
+    "options": ["A) show ip route", "B) show route", "C) show ip table", "D) display routing-table"],
+    "correct_answer": "A) show ip route",
+    "explanation": "'show ip route' displays the IP routing table, showing all known routes including connected, static, and dynamically learned routes."
+  },
+  {
+    "id": 14,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'C' represent in the output of 'show ip route'?",
+    "options": ["A) OSPF route", "B) Connected route", "C) Static route", "D) RIP route"],
+    "correct_answer": "B) Connected route",
+    "explanation": "In the routing table, 'C' denotes a directly connected network — a network that is directly attached to one of the router's interfaces."
+  },
+  {
+    "id": 15,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to assign an IP address to a router interface?",
+    "options": ["A) ip address 192.168.1.1 255.255.255.0", "B) set ip 192.168.1.1/24", "C) interface ip 192.168.1.1", "D) assign ip 192.168.1.1 mask 255.255.255.0"],
+    "correct_answer": "A) ip address 192.168.1.1 255.255.255.0",
+    "explanation": "The 'ip address' command followed by the IP address and subnet mask is used in Interface Configuration mode to assign an IP address."
+  },
+  {
+    "id": 16,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What command brings up a router interface that is administratively shut down?",
+    "options": ["A) enable interface", "B) no shutdown", "C) interface up", "D) activate"],
+    "correct_answer": "B) no shutdown",
+    "explanation": "'no shutdown' is used in Interface Configuration mode to administratively enable an interface that has been shut down."
+  },
+  {
+    "id": 17,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to erase the startup configuration on a Cisco router?",
+    "options": ["A) erase startup-config", "B) delete nvram", "C) clear startup-config", "D) write erase"],
+    "correct_answer": "D) write erase",
+    "explanation": "'write erase' (or 'erase startup-config') deletes the startup configuration stored in NVRAM, effectively resetting the router to factory defaults on next boot."
+  },
+  {
+    "id": 18,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the administrative distance of OSPF?",
+    "options": ["A) 90", "B) 100", "C) 110", "D) 120"],
+    "correct_answer": "C) 110",
+    "explanation": "OSPF has an administrative distance of 110. Lower AD values are preferred; OSPF is less preferred than EIGRP (90) but more preferred than RIP (120)."
+  },
+  {
+    "id": 19,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command shows the version of Cisco IOS running on a router?",
+    "options": ["A) show flash", "B) show version", "C) show ios", "D) show system"],
+    "correct_answer": "B) show version",
+    "explanation": "'show version' displays the IOS version, router uptime, hardware configuration, and the location of the IOS image."
+  },
+  {
+    "id": 20,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default administrative distance of RIP?",
+    "options": ["A) 90", "B) 110", "C) 115", "D) 120"],
+    "correct_answer": "D) 120",
+    "explanation": "RIP (Routing Information Protocol) has an administrative distance of 120, making it less preferred than OSPF (110) and EIGRP (90)."
+  },
+  {
+    "id": 21,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS command is used to configure a banner message that appears when users log in?",
+    "options": ["A) banner login", "B) banner motd", "C) message login", "D) set banner"],
+    "correct_answer": "B) banner motd",
+    "explanation": "'banner motd' (Message of the Day) configures a message displayed to all users when they connect to the router."
+  },
+  {
+    "id": 22,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does TFTP stand for in the context of Cisco network management?",
+    "options": ["A) Trivial File Transfer Protocol", "B) Total File Transfer Protocol", "C) Transfer File Transmission Protocol", "D) Trusted File Transfer Protocol"],
+    "correct_answer": "A) Trivial File Transfer Protocol",
+    "explanation": "TFTP (Trivial File Transfer Protocol) is a simple protocol used to transfer files such as IOS images and configuration files to/from a Cisco router."
+  },
+  {
+    "id": 23,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to copy the IOS image from a TFTP server to flash memory?",
+    "options": ["A) copy tftp flash", "B) copy flash tftp", "C) load tftp flash", "D) transfer tftp to flash"],
+    "correct_answer": "A) copy tftp flash",
+    "explanation": "'copy tftp flash' copies an IOS image from a TFTP server to the router's flash memory, used for IOS upgrades."
+  },
+  {
+    "id": 24,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'service password-encryption' command?",
+    "options": ["A) Encrypts only the enable secret password", "B) Encrypts all passwords in the configuration file", "C) Enables SSH encryption", "D) Encrypts SNMP community strings only"],
+    "correct_answer": "B) Encrypts all passwords in the configuration file",
+    "explanation": "'service password-encryption' applies weak (Type 7) encryption to all plain-text passwords in the running configuration, preventing casual viewing."
+  },
+  {
+    "id": 25,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command displays the contents of flash memory on a Cisco router?",
+    "options": ["A) show flash", "B) show memory", "C) show nvram", "D) show rom"],
+    "correct_answer": "A) show flash",
+    "explanation": "'show flash' displays the contents of flash memory, including the IOS image filename, size, and available free space."
+  },
+  {
+    "id": 26,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'ping' command test in a Cisco network?",
+    "options": ["A) Routing table accuracy", "B) Layer 3 connectivity between two devices", "C) Interface speed", "D) CDP neighbor status"],
+    "correct_answer": "B) Layer 3 connectivity between two devices",
+    "explanation": "The 'ping' command sends ICMP Echo Request packets to test Layer 3 (network layer) connectivity between source and destination devices."
+  },
+  {
+    "id": 27,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to test the path packets take to a destination?",
+    "options": ["A) ping", "B) traceroute", "C) pathfind", "D) route-test"],
+    "correct_answer": "B) traceroute",
+    "explanation": "'traceroute' (or 'tracert' on Windows) sends packets with incrementing TTL values to identify each hop along the path to a destination."
+  },
+  {
+    "id": 28,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'no ip domain-lookup' command on a Cisco router?",
+    "options": ["A) Disables DNS resolution", "B) Enables DNS lookup", "C) Configures a DNS server", "D) Clears the DNS cache"],
+    "correct_answer": "A) Disables DNS resolution",
+    "explanation": "'no ip domain-lookup' prevents the router from attempting DNS resolution when a mistyped command is entered, avoiding long delays."
+  },
+  {
+    "id": 29,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which line configuration command sets a password for console access?",
+    "options": ["A) line console 0 → password cisco → login", "B) enable password cisco", "C) console password cisco", "D) set console-password cisco"],
+    "correct_answer": "A) line console 0 → password cisco → login",
+    "explanation": "To set a console password: enter 'line console 0', then 'password cisco', then 'login' to require the password for console access."
+  },
+  {
+    "id": 30,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'VTY' stand for in Cisco router configuration?",
+    "options": ["A) Virtual Terminal Lines", "B) Virtual Telnet Yes", "C) Variable Terminal Yield", "D) Virtual Transfer Yield"],
+    "correct_answer": "A) Virtual Terminal Lines",
+    "explanation": "VTY (Virtual Terminal) lines are used for remote access to a Cisco device via Telnet or SSH. Typically lines 0–4 are configured."
+  },
+  {
+    "id": 31,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command shows the ARP cache on a Cisco router?",
+    "options": ["A) show arp", "B) show mac-address-table", "C) show ip arp", "D) Both A and C"],
+    "correct_answer": "D) Both A and C",
+    "explanation": "Both 'show arp' and 'show ip arp' display the ARP cache, which maps IP addresses to MAC addresses on a Cisco router."
+  },
+  {
+    "id": 32,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the administrative distance of a directly connected route?",
+    "options": ["A) 0", "B) 1", "C) 5", "D) 10"],
+    "correct_answer": "A) 0",
+    "explanation": "Directly connected routes have an administrative distance of 0, meaning they are always preferred over any other route to the same destination."
+  },
+  {
+    "id": 33,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to configure a default gateway on a Cisco switch?",
+    "options": ["A) ip default-gateway 192.168.1.1", "B) ip route 0.0.0.0 0.0.0.0 192.168.1.1", "C) default-gateway 192.168.1.1", "D) gateway 192.168.1.1"],
+    "correct_answer": "A) ip default-gateway 192.168.1.1",
+    "explanation": "On a Cisco switch (which doesn't route), 'ip default-gateway' sets the gateway IP used for management traffic destined outside the local subnet."
+  },
+  {
+    "id": 34,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'reload' command do on a Cisco router?",
+    "options": ["A) Saves the configuration", "B) Restarts the router", "C) Loads a new IOS image", "D) Resets all interfaces"],
+    "correct_answer": "B) Restarts the router",
+    "explanation": "The 'reload' command reboots the Cisco router. If the running config hasn't been saved, changes will be lost after the reload."
+  },
+  {
+    "id": 35,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used for secure remote management of Cisco devices?",
+    "options": ["A) Telnet", "B) FTP", "C) SSH", "D) HTTP"],
+    "correct_answer": "C) SSH",
+    "explanation": "SSH (Secure Shell) encrypts all traffic between the client and the Cisco device, making it the preferred protocol over Telnet for secure remote management."
+  },
+  {
+    "id": 36,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What command is used to view CDP neighbor details including IP address and IOS version?",
+    "options": ["A) show cdp neighbors", "B) show cdp neighbors detail", "C) show cdp entry all", "D) show cdp info"],
+    "correct_answer": "B) show cdp neighbors detail",
+    "explanation": "'show cdp neighbors detail' provides extended information including IP addresses, IOS version, and capabilities of neighboring Cisco devices."
+  },
+  {
+    "id": 37,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command configures a description on a router interface?",
+    "options": ["A) description WAN_Link", "B) interface-description WAN_Link", "C) set description WAN_Link", "D) label WAN_Link"],
+    "correct_answer": "A) description WAN_Link",
+    "explanation": "The 'description' command in Interface Configuration mode adds a text label to an interface for documentation purposes."
+  },
+  {
+    "id": 38,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'S' represent in the output of 'show ip route'?",
+    "options": ["A) OSPF route", "B) Static route", "C) Summary route", "D) Spanning Tree route"],
+    "correct_answer": "B) Static route",
+    "explanation": "In the routing table output, 'S' denotes a statically configured route that was manually entered by an administrator."
+  },
+  {
+    "id": 39,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to configure a static route on a Cisco router to reach network 10.0.0.0/8 via next-hop 192.168.1.2?",
+    "options": ["A) ip route 10.0.0.0 255.0.0.0 192.168.1.2", "B) static route 10.0.0.0/8 192.168.1.2", "C) route add 10.0.0.0 255.0.0.0 192.168.1.2", "D) ip static 10.0.0.0 255.0.0.0 192.168.1.2"],
+    "correct_answer": "A) ip route 10.0.0.0 255.0.0.0 192.168.1.2",
+    "explanation": "The 'ip route' command followed by destination network, subnet mask, and next-hop IP address configures a static route in Global Configuration mode."
+  },
+  {
+    "id": 40,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'show processes cpu' command on a Cisco router?",
+    "options": ["A) Displays memory utilization", "B) Displays CPU utilization and running processes", "C) Shows interface error counts", "D) Displays routing protocol processes only"],
+    "correct_answer": "B) Displays CPU utilization and running processes",
+    "explanation": "'show processes cpu' displays the CPU utilization percentage and lists all active processes, helping identify performance bottlenecks."
+  },
+  {
+    "id": 41,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A network administrator needs to back up the router configuration to a TFTP server at 192.168.10.5. Which command accomplishes this?",
+    "options": ["A) copy running-config tftp://192.168.10.5", "B) copy running-config tftp", "C) backup config 192.168.10.5", "D) save running-config 192.168.10.5"],
+    "correct_answer": "B) copy running-config tftp",
+    "explanation": "'copy running-config tftp' initiates the backup process; the router then prompts for the TFTP server IP and destination filename interactively."
+  },
+  {
+    "id": 42,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which register value causes a Cisco router to bypass the startup configuration during boot?",
+    "options": ["A) 0x2102", "B) 0x2142", "C) 0x2100", "D) 0x2101"],
+    "correct_answer": "B) 0x2142",
+    "explanation": "Configuration register 0x2142 tells the router to ignore the startup configuration in NVRAM during boot, used for password recovery procedures."
+  },
+  {
+    "id": 43,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "During password recovery on a Cisco router, after booting with register 0x2142, what must be done to restore normal operation?",
+    "options": ["A) Set register to 0x2102 and reload", "B) Set register to 0x2100 and reload", "C) Delete flash and reload", "D) Set register to 0x2142 and save"],
+    "correct_answer": "A) Set register to 0x2102 and reload",
+    "explanation": "After password recovery, set the config register back to 0x2102 (normal boot) using 'config-register 0x2102', then save and reload."
+  },
+  {
+    "id": 44,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A router has the following routes: Static (AD=1) to 172.16.0.0/16, OSPF (AD=110) to 172.16.0.0/16, and RIP (AD=120) to 172.16.0.0/16. Which route will be installed in the routing table?",
+    "options": ["A) OSPF route", "B) RIP route", "C) Static route", "D) All three routes"],
+    "correct_answer": "C) Static route",
+    "explanation": "When multiple routes to the same destination exist, the route with the lowest administrative distance is preferred. Static (AD=1) beats OSPF (110) and RIP (120)."
+  },
+  {
+    "id": 45,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the default CDP holdtime on a Cisco device?",
+    "options": ["A) 30 seconds", "B) 60 seconds", "C) 180 seconds", "D) 90 seconds"],
+    "correct_answer": "C) 180 seconds",
+    "explanation": "The default CDP holdtime is 180 seconds. If a CDP advertisement is not received within this time, the neighbor entry is removed from the CDP table."
+  },
+  {
+    "id": 46,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the default CDP advertisement interval on a Cisco device?",
+    "options": ["A) 30 seconds", "B) 60 seconds", "C) 90 seconds", "D) 120 seconds"],
+    "correct_answer": "B) 60 seconds",
+    "explanation": "By default, Cisco devices send CDP advertisements every 60 seconds. This can be changed using 'cdp timer <seconds>' in Global Configuration mode."
+  },
+  {
+    "id": 47,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which command disables CDP on a specific interface of a Cisco router?",
+    "options": ["A) no cdp run", "B) no cdp enable", "C) cdp disable", "D) no cdp advertise"],
+    "correct_answer": "B) no cdp enable",
+    "explanation": "'no cdp enable' disables CDP on a specific interface. 'no cdp run' disables CDP globally on the entire device."
+  },
+  {
+    "id": 48,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A Cisco router shows 'Serial0/0 is up, line protocol is down'. What does this indicate?",
+    "options": ["A) Physical layer is working but data link layer has issues", "B) Both physical and data link layers are down", "C) Interface is administratively shut down", "D) IP address is not configured"],
+    "correct_answer": "A) Physical layer is working but data link layer has issues",
+    "explanation": "'up/down' means the physical connection (Layer 1) is detected but the data link layer (Layer 2) protocol is not functioning — often a clocking or encapsulation mismatch."
+  },
+  {
+    "id": 49,
+    "topic": "Managing a Cisco Internetwork",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What does 'administratively down' mean in the output of 'show interfaces'?",
+    "options": ["A) Physical cable is disconnected", "B) Interface has been disabled using the 'shutdown' command", "C) IP address conflict detected", "D) Duplex mismatch detected"],
+    "correct_answer": "B) Interface has been disabled using the 'shutdown' command",
+    "explanation": "'Administratively down' indicates the interface was manually disabled using the '

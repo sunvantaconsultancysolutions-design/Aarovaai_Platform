@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: He then went to the market.\nQ: Ram woke up early in the morning.\nR: After breakfast, he got dressed.\nS: He brushed his teeth and had breakfast.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) Q, R, S, P",
+      "C) P, Q, S, R",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Ram woke up (Q), then brushed teeth and had breakfast (S), got dressed (R), and finally went to the market (P). This follows a natural morning routine sequence."
+  },
+  {
+    "id": 2,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The fire brigade arrived and doused the flames.\nQ: A fire broke out in the building.\nR: People called the emergency services.\nS: Everyone evacuated the building safely.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) Q, R, P, S",
+      "C) R, Q, P, S",
+      "D) Q, P, R, S"
+    ],
+    "correct_answer": "B) Q, R, P, S",
+    "explanation": "Fire broke out (Q), people called emergency services (R), fire brigade arrived and doused flames (P), and everyone evacuated safely (S). This is the logical sequence of events."
+  },
+  {
+    "id": 3,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: She submitted the assignment to her teacher.\nQ: Priya received a homework assignment.\nR: She researched the topic online.\nS: She wrote the assignment neatly.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) P, Q, R, S"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Priya received the assignment (Q), researched the topic (R), wrote it neatly (S), and submitted it (P). This is the natural order of completing homework."
+  },
+  {
+    "id": 4,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The seeds sprouted after a week.\nQ: A farmer ploughed his field.\nR: He watered the field regularly.\nS: He sowed the seeds carefully.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) S, Q, R, P",
+      "C) Q, R, S, P",
+      "D) R, Q, S, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "The farmer ploughed the field (Q), sowed seeds (S), watered regularly (R), and seeds sprouted (P). This follows the natural farming sequence."
+  },
+  {
+    "id": 5,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: He paid the bill and left the restaurant.\nQ: Arun entered a restaurant.\nR: He ordered his favourite dish.\nS: The waiter brought the food.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) Q, R, S, P",
+      "C) R, Q, S, P",
+      "D) Q, P, R, S"
+    ],
+    "correct_answer": "B) Q, R, S, P",
+    "explanation": "Arun entered the restaurant (Q), ordered food (R), waiter brought food (S), and he paid and left (P). This is the logical dining sequence."
+  },
+  {
+    "id": 6,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The patient recovered fully after two weeks.\nQ: The doctor examined the patient.\nR: He prescribed medicines and rest.\nS: The patient visited the hospital with fever.\nOptions:",
+    "options": [
+      "A) S, Q, R, P",
+      "B) Q, S, R, P",
+      "C) S, R, Q, P",
+      "D) Q, R, S, P"
+    ],
+    "correct_answer": "A) S, Q, R, P",
+    "explanation": "Patient visited hospital with fever (S), doctor examined (Q), prescribed medicines (R), and patient recovered (P). This is the logical medical sequence."
+  },
+  {
+    "id": 7,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The book became a bestseller.\nQ: An author had an idea for a story.\nR: He sent the manuscript to a publisher.\nS: He wrote the book over six months.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) Q, R, S, P",
+      "C) S, Q, R, P",
+      "D) Q, P, S, R"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Author had an idea (Q), wrote the book (S), sent to publisher (R), and it became a bestseller (P). This is the natural book-writing sequence."
+  },
+  {
+    "id": 8,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: She won the gold medal.\nQ: Meena started training for the marathon.\nR: She participated in the national competition.\nS: She practised every day for a year.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) S, Q, R, P",
+      "C) Q, R, S, P",
+      "D) R, Q, S, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Meena started training (Q), practised daily for a year (S), participated in competition (R), and won gold (P). This is the logical sports achievement sequence."
+  },
+  {
+    "id": 9,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The cake was delicious and everyone enjoyed it.\nQ: She gathered all the ingredients.\nR: She baked the cake in the oven.\nS: She mixed the ingredients in a bowl.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) S, Q, R, P",
+      "C) Q, R, S, P",
+      "D) R, S, Q, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "She gathered ingredients (Q), mixed them (S), baked in oven (R), and the cake was enjoyed (P). This follows the natural baking process."
+  },
+  {
+    "id": 10,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The students passed the examination with flying colours.\nQ: The teacher announced the examination date.\nR: The students studied hard for weeks.\nS: The examination was conducted in the school hall.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Teacher announced exam date (Q), students studied hard (R), exam was conducted (S), and students passed (P). This is the logical examination sequence."
+  },
+  {
+    "id": 11,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The tree bore fruits in summer.\nQ: A gardener planted a sapling.\nR: He watered and fertilised it regularly.\nS: The sapling grew into a big tree.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Gardener planted sapling (Q), watered and fertilised it (R), it grew into a big tree (S), and bore fruits (P). This is the natural plant growth sequence."
+  },
+  {
+    "id": 12,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: He reached the office on time.\nQ: Ravi set his alarm for 6 AM.\nR: He got ready quickly.\nS: He woke up when the alarm rang.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) S, Q, R, P",
+      "C) Q, R, S, P",
+      "D) R, Q, S, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Ravi set alarm (Q), woke up when it rang (S), got ready quickly (R), and reached office on time (P). This is the logical morning routine."
+  },
+  {
+    "id": 13,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The match ended in a draw.\nQ: Two teams entered the football ground.\nR: The referee blew the final whistle.\nS: Both teams played aggressively for 90 minutes.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) S, Q, R, P",
+      "C) Q, R, S, P",
+      "D) R, Q, S, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Teams entered the ground (Q), played aggressively (S), referee blew whistle (R), and match ended in draw (P). This is the logical match sequence."
+  },
+  {
+    "id": 14,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The letter was delivered to the recipient.\nQ: Sita wrote a letter to her friend.\nR: She posted it at the post office.\nS: She put the letter in an envelope and sealed it.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) S, Q, R, P",
+      "C) Q, R, S, P",
+      "D) R, Q, S, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Sita wrote the letter (Q), put it in envelope (S), posted it (R), and it was delivered (P). This is the natural letter-sending sequence."
+  },
+  {
+    "id": 15,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The painting was displayed in an art gallery.\nQ: An artist bought canvas and paints.\nR: He spent three weeks painting a landscape.\nS: He framed the finished painting.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Artist bought materials (Q), painted the landscape (R), framed it (S), and it was displayed in gallery (P). This is the logical art creation sequence."
+  },
+  {
+    "id": 16,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The car stopped at the destination.\nQ: Mohan booked a cab online.\nR: The driver picked him up from home.\nS: They drove through the city.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, R, Q, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Mohan booked a cab (Q), driver picked him up (R), they drove through the city (S), and car stopped at destination (P). This is the logical cab ride sequence."
+  },
+  {
+    "id": 17,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The baby fell asleep peacefully.\nQ: The mother sang a lullaby.\nR: She tucked the baby into bed.\nS: The baby started feeling drowsy.\nOptions:",
+    "options": [
+      "A) R, Q, S, P",
+      "B) Q, R, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "B) Q, R, S, P",
+    "explanation": "Mother sang lullaby (Q), tucked baby into bed (R), baby felt drowsy (S), and fell asleep (P). This is the natural bedtime sequence."
+  },
+  {
+    "id": 18,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The company launched the product successfully.\nQ: The team identified a market gap.\nR: They developed a prototype.\nS: They tested the prototype and made improvements.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Team identified market gap (Q), developed prototype (R), tested and improved it (S), and launched product (P). This is the logical product development sequence."
+  },
+  {
+    "id": 19,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The tourists returned home with wonderful memories.\nQ: A group of tourists planned a trip to Goa.\nR: They visited beaches and historical monuments.\nS: They booked hotels and flight tickets.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) S, Q, R, P",
+      "C) Q, R, S, P",
+      "D) R, Q, S, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Tourists planned the trip (Q), booked hotels and tickets (S), visited places (R), and returned home (P). This is the logical travel sequence."
+  },
+  {
+    "id": 20,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The river flooded the nearby villages.\nQ: Dark clouds gathered in the sky.\nR: It rained heavily for three days.\nS: The river water level rose dangerously.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Dark clouds gathered (Q), it rained heavily (R), river level rose (S), and villages flooded (P). This is the logical natural disaster sequence."
+  },
+  {
+    "id": 21,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The child smiled happily.\nQ: The mother bought a toy for her child.\nR: She wrapped it in colourful paper.\nS: She gave it to the child as a birthday gift.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Mother bought toy (Q), wrapped it (R), gave it as gift (S), and child smiled (P). This is the natural gift-giving sequence."
+  },
+  {
+    "id": 22,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The bridge was inaugurated by the minister.\nQ: Engineers surveyed the river site.\nR: Construction began after approval.\nS: The bridge was completed in two years.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Engineers surveyed the site (Q), construction began (R), bridge was completed (S), and inaugurated (P). This is the logical construction sequence."
+  },
+  {
+    "id": 23,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The audience gave a standing ovation.\nQ: The singer rehearsed for weeks.\nR: She performed on stage.\nS: She was nervous before going on stage.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) S, Q, R, P",
+      "C) Q, R, S, P",
+      "D) R, Q, S, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Singer rehearsed (Q), felt nervous before stage (S), performed (R), and audience gave ovation (P). This is the logical performance sequence."
+  },
+  {
+    "id": 24,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The dog wagged its tail happily.\nQ: A boy found a stray dog on the street.\nR: He took it home and fed it.\nS: He gave it a bath and named it Bruno.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Boy found stray dog (Q), took it home and fed it (R), gave bath and named it (S), and dog wagged tail (P). This is the logical pet adoption sequence."
+  },
+  {
+    "id": 25,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The new school building was ready for use.\nQ: The government sanctioned funds for a new school.\nR: Architects designed the building plan.\nS: Construction workers built the school over a year.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Government sanctioned funds (Q), architects designed plan (R), workers built the school (S), and it was ready for use (P). This is the logical school construction sequence."
+  },
+  {
+    "id": 26,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The electricity was restored after two hours.\nQ: A storm caused a power outage in the city.\nR: Technicians identified the fault in the grid.\nS: Repair work was carried out immediately.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Storm caused outage (Q), technicians identified fault (R), repair work done (S), and electricity restored (P). This is the logical power restoration sequence."
+  },
+  {
+    "id": 27,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The newspaper was delivered to every household.\nQ: Reporters gathered news from various sources.\nR: Editors reviewed and finalised the content.\nS: The newspaper was printed overnight.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Reporters gathered news (Q), editors reviewed content (R), newspaper was printed (S), and delivered to households (P). This is the logical newspaper production sequence."
+  },
+  {
+    "id": 28,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The athlete broke the world record.\nQ: The athlete began training at age ten.\nR: He qualified for the Olympics after years of hard work.\nS: He competed in the final event.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Athlete began training (Q), qualified for Olympics (R), competed in final (S), and broke world record (P). This is the logical athletic achievement sequence."
+  },
+  {
+    "id": 29,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The movie received critical acclaim.\nQ: A director wrote a script for a film.\nR: Shooting was completed in six months.\nS: The film was edited and released.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Director wrote script (Q), shooting completed (R), film edited and released (S), and received acclaim (P). This is the logical film production sequence."
+  },
+  {
+    "id": 30,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The students celebrated their graduation.\nQ: Students enrolled in a four-year degree programme.\nR: They attended lectures and completed assignments.\nS: They appeared for final examinations.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Students enrolled (Q), attended lectures (R), appeared for exams (S), and celebrated graduation (P). This is the logical academic journey sequence."
+  },
+  {
+    "id": 31,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The volcano erupted violently.\nQ: Scientists detected unusual seismic activity.\nR: Residents were evacuated from the area.\nS: Lava and ash spread across the region.\nOptions:",
+    "options": [
+      "A) Q, R, P, S",
+      "B) Q, P, R, S",
+      "C) R, Q, P, S",
+      "D) Q, R, S, P"
+    ],
+    "correct_answer": "B) Q, P, R, S",
+    "explanation": "Scientists detected seismic activity (Q), volcano erupted (P), residents evacuated (R), and lava spread (S). This is the logical volcanic eruption sequence."
+  },
+  {
+    "id": 32,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The shop owner counted the day's earnings.\nQ: The shop opened at 9 AM.\nR: Customers visited throughout the day.\nS: The shop closed at 8 PM.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Shop opened (Q), customers visited (R), shop closed (S), and owner counted earnings (P). This is the logical business day sequence."
+  },
+  {
+    "id": 33,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The patient was discharged from the hospital.\nQ: The patient was admitted to the hospital.\nR: The doctor performed a surgery.\nS: The patient recovered after post-operative care.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Patient admitted (Q), doctor performed surgery (R), patient recovered (S), and was discharged (P). This is the logical hospital treatment sequence."
+  },
+  {
+    "id": 34,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The spacecraft landed on the moon.\nQ: Scientists planned the moon mission for years.\nR: The rocket was launched from the space centre.\nS: The spacecraft orbited the moon twice.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Scientists planned mission (Q), rocket launched (R), spacecraft orbited (S), and landed on moon (P). This is the logical space mission sequence."
+  },
+  {
+    "id": 35,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The new law was implemented across the country.\nQ: The parliament debated a new bill.\nR: The bill was passed by both houses.\nS: The President gave his assent to the bill.\nOptions:",
+    "options": [
+      "A) Q, R, S, P",
+      "B) R, Q, S, P",
+      "C) Q, S, R, P",
+      "D) S, Q, R, P"
+    ],
+    "correct_answer": "A) Q, R, S, P",
+    "explanation": "Parliament debated bill (Q), bill passed by both houses (R), President gave assent (S), and law implemented (P). This is the logical legislative process."
+  },
+  {
+    "id": 36,
+    "topic": "Ordering of Sentences",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences in the correct logical order:\nP: The ice cream melted in the sun.\nQ: A child bought an ice cream cone.\nR: He stepped outside into the hot sun.\nS: He licked the ice cream happily.\nOptions:",
+    "options": [
+      "A) Q, S, R, P",
+      "B) Q, R, S, P",
+      "C) S, Q, R, P",
+      "D) R, Q, S, P"
+    ],
+    "correct_answer": "A) Q, S, R, P",
+    "explanation": "Child bought ice cream (Q), licked it happily (S), stepped outside (R), and it melted (P). This is the logical sequence of events."
+  }
+]

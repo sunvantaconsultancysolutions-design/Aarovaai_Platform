@@ -1,0 +1,514 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DBMS stand for?",
+    "options": ["A) Database Management System", "B) Data Backup Management System", "C) Database Monitoring System", "D) Data Business Management System"],
+    "correct_answer": "A) Database Management System",
+    "explanation": "DBMS stands for Database Management System, which is software that manages and organizes data in a structured way. It provides an interface between users and the database."
+  },
+  {
+    "id": 2,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of database model?",
+    "options": ["A) Hierarchical Model", "B) Network Model", "C) Circular Model", "D) Relational Model"],
+    "correct_answer": "C) Circular Model",
+    "explanation": "The three classic database models are Hierarchical, Network, and Relational. There is no standard 'Circular Model' in database design."
+  },
+  {
+    "id": 3,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A table in a relational database is also known as a:",
+    "options": ["A) Schema", "B) Relation", "C) Index", "D) View"],
+    "correct_answer": "B) Relation",
+    "explanation": "In relational database terminology, a table is formally called a 'relation'. Each row is a tuple and each column is an attribute."
+  },
+  {
+    "id": 4,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which key uniquely identifies each record in a database table?",
+    "options": ["A) Foreign Key", "B) Composite Key", "C) Primary Key", "D) Candidate Key"],
+    "correct_answer": "C) Primary Key",
+    "explanation": "A Primary Key uniquely identifies each record in a table. It cannot contain NULL values and must be unique for every row."
+  },
+  {
+    "id": 5,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of SQL?",
+    "options": ["A) Structured Query Language", "B) Simple Query Language", "C) Standard Query Logic", "D) Sequential Query Language"],
+    "correct_answer": "A) Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language. It is the standard language used to communicate with relational databases."
+  },
+  {
+    "id": 6,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a popular Relational DBMS?",
+    "options": ["A) MongoDB", "B) Cassandra", "C) MySQL", "D) Redis"],
+    "correct_answer": "C) MySQL",
+    "explanation": "MySQL is a widely used Relational DBMS. MongoDB and Cassandra are NoSQL databases, while Redis is an in-memory key-value store."
+  },
+  {
+    "id": 7,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The concept of data independence means:",
+    "options": ["A) Data is stored independently on multiple servers", "B) Changes to data storage do not affect application programs", "C) Each user has an independent copy of the data", "D) Data is independent of the operating system"],
+    "correct_answer": "B) Changes to data storage do not affect application programs",
+    "explanation": "Data independence means that changes to the physical or logical structure of the database do not require changes to application programs. This is a key advantage of DBMS."
+  },
+  {
+    "id": 8,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of a database?",
+    "options": ["A) Data redundancy is encouraged", "B) Data is stored in isolated files", "C) Data is shared among multiple users", "D) Data cannot be queried"],
+    "correct_answer": "C) Data is shared among multiple users",
+    "explanation": "A key characteristic of a database is that data can be shared among multiple users and applications simultaneously, unlike traditional file systems."
+  },
+  {
+    "id": 9,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'schema' in database terminology?",
+    "options": ["A) A backup copy of the database", "B) The logical structure or blueprint of the database", "C) A type of SQL query", "D) A physical storage device"],
+    "correct_answer": "B) The logical structure or blueprint of the database",
+    "explanation": "A schema defines the logical structure of the database including tables, fields, relationships, and constraints. It is the blueprint of how data is organized."
+  },
+  {
+    "id": 10,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL command is used to retrieve data from a database?",
+    "options": ["A) INSERT", "B) UPDATE", "C) SELECT", "D) DELETE"],
+    "correct_answer": "C) SELECT",
+    "explanation": "The SELECT statement is used to retrieve data from one or more tables in a database. It is the most commonly used SQL command."
+  },
+  {
+    "id": 11,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A foreign key in a relational database:",
+    "options": ["A) Uniquely identifies a record in its own table", "B) References the primary key of another table", "C) Is always a numeric field", "D) Cannot contain duplicate values"],
+    "correct_answer": "B) References the primary key of another table",
+    "explanation": "A foreign key is a field in one table that refers to the primary key in another table, establishing a relationship between the two tables."
+  },
+  {
+    "id": 12,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'data redundancy'?",
+    "options": ["A) Storing the same data in multiple places", "B) Encrypting data for security", "C) Backing up data regularly", "D) Indexing data for fast retrieval"],
+    "correct_answer": "A) Storing the same data in multiple places",
+    "explanation": "Data redundancy refers to the unnecessary duplication of data across a database or file system. DBMS helps minimize redundancy through normalization."
+  },
+  {
+    "id": 13,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The three-schema architecture of a DBMS consists of:",
+    "options": ["A) External, Conceptual, and Internal schemas", "B) User, Admin, and System schemas", "C) Input, Process, and Output schemas", "D) Physical, Logical, and Virtual schemas"],
+    "correct_answer": "A) External, Conceptual, and Internal schemas",
+    "explanation": "The ANSI/SPARC three-schema architecture divides the database into External (user view), Conceptual (logical structure), and Internal (physical storage) levels."
+  },
+  {
+    "id": 14,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which role is responsible for managing and maintaining the database system?",
+    "options": ["A) End User", "B) Database Administrator (DBA)", "C) Application Programmer", "D) System Analyst"],
+    "correct_answer": "B) Database Administrator (DBA)",
+    "explanation": "A Database Administrator (DBA) is responsible for installing, configuring, upgrading, administering, monitoring, and maintaining databases in an organization."
+  },
+  {
+    "id": 15,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DDL stand for in database context?",
+    "options": ["A) Data Definition Language", "B) Data Display Language", "C) Dynamic Data Language", "D) Data Deletion Language"],
+    "correct_answer": "A) Data Definition Language",
+    "explanation": "DDL stands for Data Definition Language. It includes commands like CREATE, ALTER, and DROP that define and modify the structure of database objects."
+  },
+  {
+    "id": 16,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DDL command?",
+    "options": ["A) SELECT", "B) INSERT", "C) CREATE", "D) UPDATE"],
+    "correct_answer": "C) CREATE",
+    "explanation": "CREATE is a DDL command used to create database objects like tables, indexes, and views. SELECT, INSERT, and UPDATE are DML commands."
+  },
+  {
+    "id": 17,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'tuple' in a relational database?",
+    "options": ["A) A column in a table", "B) A row in a table", "C) A database constraint", "D) A type of index"],
+    "correct_answer": "B) A row in a table",
+    "explanation": "In relational database theory, a tuple refers to a single row in a table. Each tuple represents one record or instance of the entity."
+  },
+  {
+    "id": 18,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT an advantage of using a DBMS?",
+    "options": ["A) Reduced data redundancy", "B) Improved data security", "C) Higher hardware cost always", "D) Better data sharing"],
+    "correct_answer": "C) Higher hardware cost always",
+    "explanation": "DBMS advantages include reduced redundancy, improved security, and better sharing. While initial setup may be costly, it is not always a disadvantage and is not a characteristic advantage."
+  },
+  {
+    "id": 19,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a database, an 'attribute' refers to:",
+    "options": ["A) A row in a table", "B) A column or field in a table", "C) A relationship between tables", "D) A stored procedure"],
+    "correct_answer": "B) A column or field in a table",
+    "explanation": "An attribute in a relational database corresponds to a column or field in a table. It represents a property or characteristic of an entity."
+  },
+  {
+    "id": 20,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates partial dependencies?",
+    "options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "B) Second Normal Form (2NF)",
+    "explanation": "2NF eliminates partial dependencies, meaning every non-key attribute must be fully functionally dependent on the entire primary key, not just part of it."
+  },
+  {
+    "id": 21,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of an index in a database?",
+    "options": ["A) To enforce referential integrity", "B) To speed up data retrieval operations", "C) To store backup copies of data", "D) To define the schema of a table"],
+    "correct_answer": "B) To speed up data retrieval operations",
+    "explanation": "An index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional storage space."
+  },
+  {
+    "id": 22,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a NoSQL database?",
+    "options": ["A) Oracle", "B) PostgreSQL", "C) MongoDB", "D) Microsoft SQL Server"],
+    "correct_answer": "C) MongoDB",
+    "explanation": "MongoDB is a NoSQL document-oriented database. Oracle, PostgreSQL, and Microsoft SQL Server are all relational (SQL) databases."
+  },
+  {
+    "id": 23,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DML stand for?",
+    "options": ["A) Data Manipulation Language", "B) Data Management Logic", "C) Dynamic Modeling Language", "D) Data Merging Language"],
+    "correct_answer": "A) Data Manipulation Language",
+    "explanation": "DML stands for Data Manipulation Language. It includes commands like SELECT, INSERT, UPDATE, and DELETE used to manipulate data in the database."
+  },
+  {
+    "id": 24,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which constraint ensures that a column cannot have NULL values?",
+    "options": ["A) UNIQUE", "B) CHECK", "C) NOT NULL", "D) DEFAULT"],
+    "correct_answer": "C) NOT NULL",
+    "explanation": "The NOT NULL constraint ensures that a column must always contain a value and cannot be left empty (NULL). It is used to enforce mandatory fields."
+  },
+  {
+    "id": 25,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An Entity-Relationship (ER) diagram is used to:",
+    "options": ["A) Write SQL queries", "B) Visually represent the data model of a database", "C) Monitor database performance", "D) Backup database files"],
+    "correct_answer": "B) Visually represent the data model of a database",
+    "explanation": "An ER diagram is a visual representation of entities, their attributes, and the relationships between them. It is used in the design phase of a database."
+  },
+  {
+    "id": 26,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following represents a one-to-many relationship?",
+    "options": ["A) One student has one ID card", "B) One teacher teaches many students", "C) Many students enroll in many courses", "D) One employee has one salary"],
+    "correct_answer": "B) One teacher teaches many students",
+    "explanation": "A one-to-many relationship means one record in a table can be associated with multiple records in another table, like one teacher teaching many students."
+  },
+  {
+    "id": 27,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'referential integrity' in a database?",
+    "options": ["A) Ensuring data is encrypted", "B) Ensuring foreign key values match existing primary key values", "C) Ensuring all columns have unique values", "D) Ensuring data is backed up regularly"],
+    "correct_answer": "B) Ensuring foreign key values match existing primary key values",
+    "explanation": "Referential integrity ensures that a foreign key value in one table always refers to an existing primary key value in the referenced table, maintaining consistency."
+  },
+  {
+    "id": 28,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to filter records based on a condition?",
+    "options": ["A) ORDER BY", "B) GROUP BY", "C) WHERE", "D) HAVING"],
+    "correct_answer": "C) WHERE",
+    "explanation": "The WHERE clause is used to filter records that meet a specified condition. It is applied before grouping, unlike HAVING which filters after grouping."
+  },
+  {
+    "id": 29,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'view' in a database?",
+    "options": ["A) A physical copy of a table", "B) A virtual table based on a SQL query", "C) A type of index", "D) A stored procedure"],
+    "correct_answer": "B) A virtual table based on a SQL query",
+    "explanation": "A view is a virtual table created by a stored query. It does not store data itself but presents data from one or more tables in a specific format."
+  },
+  {
+    "id": 30,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct order of normalization forms?",
+    "options": ["A) 3NF → 2NF → 1NF", "B) 1NF → 2NF → 3NF", "C) 2NF → 1NF → 3NF", "D) 1NF → 3NF → 2NF"],
+    "correct_answer": "B) 1NF → 2NF → 3NF",
+    "explanation": "Normalization proceeds from 1NF (eliminate repeating groups) to 2NF (eliminate partial dependencies) to 3NF (eliminate transitive dependencies)."
+  },
+  {
+    "id": 31,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ACID stand for in database transactions?",
+    "options": ["A) Atomicity, Consistency, Isolation, Durability", "B) Accuracy, Consistency, Integrity, Durability", "C) Atomicity, Concurrency, Isolation, Data", "D) Accuracy, Concurrency, Integrity, Distribution"],
+    "correct_answer": "A) Atomicity, Consistency, Isolation, Durability",
+    "explanation": "ACID properties ensure reliable database transactions: Atomicity (all or nothing), Consistency (valid state), Isolation (independent transactions), Durability (permanent changes)."
+  },
+  {
+    "id": 32,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to add a new record to a table?",
+    "options": ["A) ADD", "B) INSERT INTO", "C) APPEND", "D) CREATE"],
+    "correct_answer": "B) INSERT INTO",
+    "explanation": "The INSERT INTO command is used to add new rows/records to a table in a database. It is a DML (Data Manipulation Language) command."
+  },
+  {
+    "id": 33,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database design, what is an 'entity'?",
+    "options": ["A) A column in a table", "B) A real-world object or concept that can be stored in a database", "C) A SQL query", "D) A database constraint"],
+    "correct_answer": "B) A real-world object or concept that can be stored in a database",
+    "explanation": "An entity is a real-world object or concept (like a person, place, or event) about which data is stored. In a relational database, entities are represented as tables."
+  },
+  {
+    "id": 34,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands removes all records from a table but keeps the table structure?",
+    "options": ["A) DROP TABLE", "B) DELETE FROM", "C) TRUNCATE TABLE", "D) REMOVE TABLE"],
+    "correct_answer": "C) TRUNCATE TABLE",
+    "explanation": "TRUNCATE TABLE removes all rows from a table quickly without logging individual row deletions, but keeps the table structure intact. DROP TABLE removes the entire table."
+  },
+  {
+    "id": 35,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": ["A) To sort records in ascending order", "B) To group rows with the same values for aggregate functions", "C) To filter records based on a condition", "D) To join two tables together"],
+    "correct_answer": "B) To group rows with the same values for aggregate functions",
+    "explanation": "GROUP BY groups rows that have the same values in specified columns, typically used with aggregate functions like COUNT, SUM, AVG, MAX, and MIN."
+  },
+  {
+    "id": 36,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid aggregate function in SQL?",
+    "options": ["A) TOTAL()", "B) AVERAGE()", "C) COUNT()", "D) MULTIPLY()"],
+    "correct_answer": "C) COUNT()",
+    "explanation": "COUNT() is a valid SQL aggregate function that returns the number of rows matching a condition. TOTAL(), AVERAGE(), and MULTIPLY() are not standard SQL functions."
+  },
+  {
+    "id": 37,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'transaction' in database terminology?",
+    "options": ["A) A type of SQL query", "B) A unit of work that is performed against a database", "C) A backup operation", "D) A type of index"],
+    "correct_answer": "B) A unit of work that is performed against a database",
+    "explanation": "A transaction is a logical unit of work consisting of one or more database operations that must be executed completely or not at all (atomicity)."
+  },
+  {
+    "id": 38,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to sort the result set in ascending order?",
+    "options": ["A) SORT BY ASC", "B) ORDER BY ASC", "C) ARRANGE BY", "D) RANK BY"],
+    "correct_answer": "B) ORDER BY ASC",
+    "explanation": "ORDER BY is used to sort the result set. ASC specifies ascending order (default), and DESC specifies descending order."
+  },
+  {
+    "id": 39,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'cardinality' refer to in a database relationship?",
+    "options": ["A) The number of columns in a table", "B) The number of rows in a table", "C) The number of entities participating in a relationship", "D) The size of the database"],
+    "correct_answer": "C) The number of entities participating in a relationship",
+    "explanation": "Cardinality defines the numerical relationship between entities, such as one-to-one, one-to-many, or many-to-many relationships between tables."
+  },
+  {
+    "id": 40,
+    "topic": "The Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to combine rows from two or more tables based on a related column?",
+    "options": ["A) UNION", "B) JOIN", "C) MERGE", "D) COMBINE"],
+    "correct_answer": "B) JOIN",
+    "explanation": "JOIN is used to combine rows from two or more tables based on a related column between them. Types include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN."
+  },
+  {
+    "id": 41,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In the three-tier architecture of a database system, which tier handles business logic?",
+    "options": ["A) Presentation Tier", "B) Application/Middle Tier", "C) Data Tier", "D) Network Tier"],
+    "correct_answer": "B) Application/Middle Tier",
+    "explanation": "In three-tier architecture: Presentation tier handles UI, Application/Middle tier handles business logic and processing, and Data tier manages the database."
+  },
+  {
+    "id": 42,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which type of data independence allows changes to the conceptual schema without affecting external schemas?",
+    "options": ["A) Physical Data Independence", "B) Logical Data Independence", "C) Schema Data Independence", "D) View Data Independence"],
+    "correct_answer": "B) Logical Data Independence",
+    "explanation": "Logical data independence allows changes to the conceptual (logical) schema without requiring changes to external schemas or application programs."
+  },
+  {
+    "id": 43,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a 'candidate key' in a relational database?",
+    "options": ["A) A key that references another table", "B) Any minimal set of attributes that can uniquely identify a tuple", "C) A key used only for indexing", "D) A key that allows NULL values"],
+    "correct_answer": "B) Any minimal set of attributes that can uniquely identify a tuple",
+    "explanation": "A candidate key is a minimal superkey — a set of attributes that can uniquely identify a tuple with no redundant attributes. One candidate key is chosen as the primary key."
+  },
+  {
+    "id": 44,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following anomalies occurs when deleting a record unintentionally removes other important data?",
+    "options": ["A) Insertion Anomaly", "B) Update Anomaly", "C) Deletion Anomaly", "D) Redundancy Anomaly"],
+    "correct_answer": "C) Deletion Anomaly",
+    "explanation": "A deletion anomaly occurs when deleting a record causes unintended loss of other data. Normalization helps eliminate such anomalies by organizing data properly."
+  },
+  {
+    "id": 45,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In SQL, what is the difference between HAVING and WHERE clauses?",
+    "options": ["A) WHERE filters before grouping; HAVING filters after grouping", "B) HAVING filters before grouping; WHERE filters after grouping", "C) Both filter at the same stage", "D) WHERE works only with aggregate functions"],
+    "correct_answer": "A) WHERE filters before grouping; HAVING filters after grouping",
+    "explanation": "WHERE filters individual rows before GROUP BY is applied. HAVING filters groups after GROUP BY. HAVING can use aggregate functions, WHERE cannot."
+  },
+  {
+    "id": 46,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a 'superkey' in relational database theory?",
+    "options": ["A) A key that is always numeric", "B) Any set of attributes that uniquely identifies a tuple (may have redundant attributes)", "C) A key shared between two tables", "D) The most important primary key"],
+    "correct_answer": "B) Any set of attributes that uniquely identifies a tuple (may have redundant attributes)",
+    "explanation": "A superkey is any set of attributes that can uniquely identify a tuple. It may contain extra attributes. A candidate key is a minimal superkey with no redundant attributes."
+  },
+  {
+    "id": 47,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which join returns all records from the left table and matching records from the right table?",
+    "options": ["A) INNER JOIN", "B) RIGHT JOIN", "C) LEFT JOIN", "D) FULL OUTER JOIN"],
+    "correct_answer": "C) LEFT JOIN",
+    "explanation": "LEFT JOIN returns all rows from the left table and the matched rows from the right table. If no match exists, NULL values are returned for right table columns."
+  },
+  {
+    "id": 48,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of normalization in database design?",
+    "options": ["A) To increase data redundancy for faster access", "B) To organize data to reduce redundancy and improve data integrity", "C) To encrypt sensitive data", "D) To create indexes for all tables"],
+    "correct_answer": "B) To organize data to reduce redundancy and improve data integrity",
+    "explanation": "Normalization is the process of organizing a database to reduce data redundancy and improve data integrity by dividing large tables into smaller related tables."
+  },
+  {
+    "id": 49,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a database transaction, what does 'ROLLBACK' do?",
+    "options": ["A) Saves all changes permanently", "B) Undoes all changes made in the current transaction", "C) Creates a backup of the database", "D) Deletes the transaction log"],
+    "correct_answer": "B) Undoes all changes made in the current transaction",
+    "explanation": "ROLLBACK undoes all changes made during the current transaction, restoring the database to its state before the transaction began. COMMIT saves changes permanently."
+  },
+  {
+    "id": 50,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'stored procedure'?",
+    "options": ["A) A saved SQL query that returns a view", "B) A precompiled set of SQL statements stored in the database", "C) A type of database index", "D) A backup procedure for the database"],
+    "correct_answer": "B) A precompiled set of SQL statements stored in the database",
+    "explanation": "A stored procedure is a precompiled collection of SQL statements stored in the database. It can accept parameters, perform operations, and return results."
+  },
+  {
+    "id": 51,
+    "topic": "The Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a 'trigger' in a database?",
+    "options": ["A) A type of primary key", "B) An automatic action executed in response to a database event", "C) A SQL query optimization technique", "D) A type of database backup"],
+    "correct_answer": "B) An automatic action executed in response to a database event",
+    "explanation": "A trigger is a stored procedure that automatically executes when a specified event (INSERT, UPDATE, DELETE) occurs on a table or view."
+  },
+  {
+    "

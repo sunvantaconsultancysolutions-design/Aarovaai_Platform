@@ -1,0 +1,465 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to declare a constant integer in C?",
+    "options": ["A) constant int x = 5;", "B) const int x = 5;", "C) int const x;", "D) #const int x = 5;"],
+    "correct_answer": "B) const int x = 5;",
+    "explanation": "The 'const' keyword is used before the data type to declare a constant variable. 'const int x = 5;' is the correct syntax."
+  },
+  {
+    "id": 2,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you try to modify a const variable in C?",
+    "options": ["A) The value changes successfully", "B) A compile-time error occurs", "C) A runtime error occurs", "D) The program crashes silently"],
+    "correct_answer": "B) A compile-time error occurs",
+    "explanation": "Modifying a const variable is not allowed and the compiler generates a compile-time error indicating assignment to read-only variable."
+  },
+  {
+    "id": 3,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following declarations is valid in C?",
+    "options": ["A) const int x;", "B) const int x = 10;", "C) Both A and B", "D) Neither A nor B"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "Both declarations are syntactically valid. However, 'const int x;' without initialization is allowed by the compiler but the value cannot be changed later."
+  },
+  {
+    "id": 4,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'const' keyword indicate in C?",
+    "options": ["A) The variable is stored in ROM", "B) The variable's value cannot be changed after initialization", "C) The variable is a global variable", "D) The variable is a static variable"],
+    "correct_answer": "B) The variable's value cannot be changed after initialization",
+    "explanation": "The 'const' keyword makes a variable read-only, meaning its value cannot be modified after it is initialized."
+  },
+  {
+    "id": 5,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 10;\n  printf(\"%d\", x);\n  return 0;\n}",
+    "options": ["A) 0", "B) 10", "C) Compile error", "D) Garbage value"],
+    "correct_answer": "B) 10",
+    "explanation": "The const variable x is initialized to 10 and only read (not modified), so the program compiles and prints 10."
+  },
+  {
+    "id": 6,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is equivalent to 'const int x = 5;'?",
+    "options": ["A) int const x = 5;", "B) static int x = 5;", "C) volatile int x = 5;", "D) register int x = 5;"],
+    "correct_answer": "A) int const x = 5;",
+    "explanation": "'int const x = 5;' and 'const int x = 5;' are equivalent. The const qualifier can appear before or after the type for non-pointer variables."
+  },
+  {
+    "id": 7,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a const variable be used as an array size in C (C89/C90)?",
+    "options": ["A) Yes, always", "B) No, it cannot", "C) Only if it is global", "D) Only if it is static"],
+    "correct_answer": "B) No, it cannot",
+    "explanation": "In C89/C90, array sizes must be compile-time constants (integer literals or macros). A 'const int' is not a compile-time constant in C, unlike C++."
+  },
+  {
+    "id": 8,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int a = 5;\n  const int b = 10;\n  printf(\"%d\", a + b);\n  return 0;\n}",
+    "options": ["A) 5", "B) 10", "C) 15", "D) Compile error"],
+    "correct_answer": "C) 15",
+    "explanation": "const variables can be read and used in expressions. a + b = 5 + 10 = 15, which is printed."
+  },
+  {
+    "id": 9,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to define a constant in C?",
+    "options": ["A) constant", "B) final", "C) const", "D) readonly"],
+    "correct_answer": "C) const",
+    "explanation": "In C, the 'const' keyword is used to define constants. 'constant', 'final', and 'readonly' are not valid C keywords."
+  },
+  {
+    "id": 10,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between #define and const in C?",
+    "options": ["A) #define is processed by preprocessor; const is processed by compiler", "B) const is processed by preprocessor; #define is processed by compiler", "C) Both are processed by the compiler", "D) Both are processed by the preprocessor"],
+    "correct_answer": "A) #define is processed by preprocessor; const is processed by compiler",
+    "explanation": "#define is a preprocessor directive that performs text substitution before compilation. const is a type-safe keyword processed by the compiler."
+  },
+  {
+    "id": 11,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if you try to compile the following code?\n#include<stdio.h>\nint main(){\n  const int x = 5;\n  x = 10;\n  return 0;\n}",
+    "options": ["A) x becomes 10", "B) x remains 5", "C) Compile-time error", "D) Runtime error"],
+    "correct_answer": "C) Compile-time error",
+    "explanation": "Assigning a new value to a const variable after initialization causes a compile-time error: 'assignment of read-only variable'."
+  },
+  {
+    "id": 12,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid constant pointer declaration in C?",
+    "options": ["A) const int *p;", "B) int * const p;", "C) int const *p;", "D) All of the above"],
+    "correct_answer": "D) All of the above",
+    "explanation": "All three are valid declarations. 'const int *p' and 'int const *p' are pointer to const int, while 'int * const p' is a const pointer to int."
+  },
+  {
+    "id": 13,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the scope of a const variable declared inside a function in C?",
+    "options": ["A) Global scope", "B) File scope", "C) Local to the function", "D) Program scope"],
+    "correct_answer": "C) Local to the function",
+    "explanation": "A const variable declared inside a function has local scope, just like any other local variable. It is accessible only within that function."
+  },
+  {
+    "id": 14,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const float pi = 3.14;\n  printf(\"%.2f\", pi);\n  return 0;\n}",
+    "options": ["A) 3.14", "B) 3.1", "C) Compile error", "D) 0.00"],
+    "correct_answer": "A) 3.14",
+    "explanation": "The const float pi is initialized to 3.14 and printed with 2 decimal places. The output is 3.14."
+  },
+  {
+    "id": 15,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a const variable be declared as global in C?",
+    "options": ["A) No", "B) Yes", "C) Only in C99", "D) Only with static keyword"],
+    "correct_answer": "B) Yes",
+    "explanation": "A const variable can be declared at global scope. It will be accessible throughout the file and its value cannot be modified."
+  },
+  {
+    "id": 16,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares a constant character in C?",
+    "options": ["A) char const c = 'A';", "B) const char c = 'A';", "C) Both A and B", "D) Neither A nor B"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "Both 'char const c = 'A'' and 'const char c = 'A'' are valid and equivalent declarations of a constant character."
+  },
+  {
+    "id": 17,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nconst int MAX = 100;\nint main(){\n  printf(\"%d\", MAX);\n  return 0;\n}",
+    "options": ["A) 0", "B) 100", "C) Compile error", "D) Undefined"],
+    "correct_answer": "B) 100",
+    "explanation": "MAX is a global const variable initialized to 100. It is read and printed, resulting in output 100."
+  },
+  {
+    "id": 18,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an advantage of using const over #define?",
+    "options": ["A) const has type checking", "B) #define has type checking", "C) const is faster than #define", "D) #define uses less memory"],
+    "correct_answer": "A) const has type checking",
+    "explanation": "Unlike #define which is a simple text substitution, const variables have a specific data type and are subject to type checking by the compiler."
+  },
+  {
+    "id": 19,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the storage class of a const variable by default in C?",
+    "options": ["A) static", "B) extern", "C) auto", "D) register"],
+    "correct_answer": "C) auto",
+    "explanation": "By default, local variables (including const) have auto storage class. They are created on the stack and destroyed when the function exits."
+  },
+  {
+    "id": 20,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'const int *p' mean in C?",
+    "options": ["A) p is a constant pointer to int", "B) p is a pointer to a constant int", "C) Both p and the value are constant", "D) Neither p nor the value is constant"],
+    "correct_answer": "B) p is a pointer to a constant int",
+    "explanation": "'const int *p' means p is a pointer to a constant integer. The value pointed to cannot be changed, but the pointer itself can point to another address."
+  },
+  {
+    "id": 21,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'int * const p' mean in C?",
+    "options": ["A) p is a pointer to a constant int", "B) p is a constant pointer to int", "C) Both p and the value are constant", "D) p is a volatile pointer"],
+    "correct_answer": "B) p is a constant pointer to int",
+    "explanation": "'int * const p' means p is a constant pointer to an integer. The pointer address cannot change, but the value at that address can be modified."
+  },
+  {
+    "id": 22,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about const variables in C?",
+    "options": ["A) They must always be initialized at declaration", "B) They can be initialized later", "C) They are always stored in read-only memory", "D) They cannot be passed to functions"],
+    "correct_answer": "B) They can be initialized later",
+    "explanation": "In C, a const variable can be declared without initialization (e.g., 'const int x;'), though it will have an indeterminate value and cannot be assigned later."
+  },
+  {
+    "id": 23,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 20;\n  int y = x * 2;\n  printf(\"%d\", y);\n  return 0;\n}",
+    "options": ["A) 20", "B) 40", "C) Compile error", "D) 0"],
+    "correct_answer": "B) 40",
+    "explanation": "const variable x = 20 is used in an expression. y = 20 * 2 = 40. The const value can be read and used in calculations."
+  },
+  {
+    "id": 24,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a const variable be passed as an argument to a function in C?",
+    "options": ["A) No, const variables cannot be passed", "B) Yes, they can be passed by value or by pointer", "C) Only by value, not by pointer", "D) Only by pointer, not by value"],
+    "correct_answer": "B) Yes, they can be passed by value or by pointer",
+    "explanation": "const variables can be passed to functions both by value and by pointer. When passed by pointer, the function parameter should also be const to maintain the constraint."
+  },
+  {
+    "id": 25,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int arr[] = {1, 2, 3};\n  printf(\"%d\", arr[1]);\n  return 0;\n}",
+    "options": ["A) 1", "B) 2", "C) 3", "D) Compile error"],
+    "correct_answer": "B) 2",
+    "explanation": "A const array can be declared and its elements can be read. arr[1] is the second element which is 2."
+  },
+  {
+    "id": 26,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if you try to modify an element of a const array in C?",
+    "options": ["A) The element changes", "B) Compile-time error", "C) Runtime error", "D) Undefined behavior"],
+    "correct_answer": "B) Compile-time error",
+    "explanation": "Modifying an element of a const array causes a compile-time error because the array elements are read-only."
+  },
+  {
+    "id": 27,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to declare a constant double in C?",
+    "options": ["A) double const PI = 3.14159;", "B) const double PI = 3.14159;", "C) Both A and B", "D) CONST double PI = 3.14159;"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "Both 'double const PI = 3.14159' and 'const double PI = 3.14159' are valid and equivalent declarations."
+  },
+  {
+    "id": 28,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 5;\n  printf(\"%d\", x++);\n  return 0;\n}",
+    "options": ["A) 5", "B) 6", "C) Compile error", "D) Runtime error"],
+    "correct_answer": "C) Compile error",
+    "explanation": "x++ attempts to modify the const variable x, which is not allowed. This results in a compile-time error."
+  },
+  {
+    "id": 29,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is it possible to have a const pointer to a const int in C?",
+    "options": ["A) No", "B) Yes, using 'const int * const p'", "C) Yes, using 'int const * const p'", "D) Both B and C"],
+    "correct_answer": "D) Both B and C",
+    "explanation": "Both 'const int * const p' and 'int const * const p' declare a constant pointer to a constant integer. Both are valid and equivalent."
+  },
+  {
+    "id": 30,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 10;\n  const int y = 20;\n  printf(\"%d\", x > y ? x : y);\n  return 0;\n}",
+    "options": ["A) 10", "B) 20", "C) Compile error", "D) 0"],
+    "correct_answer": "B) 20",
+    "explanation": "x = 10, y = 20. x > y is false (10 > 20 is false), so the ternary operator returns y = 20."
+  },
+  {
+    "id": 31,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid use of const in C?",
+    "options": ["A) const int x = 5;", "B) const int *p = &x;", "C) int * const p = &x;", "D) const int x; x = 5;"],
+    "correct_answer": "D) const int x; x = 5;",
+    "explanation": "Declaring a const variable and then assigning a value to it later is not valid. const variables cannot be assigned after declaration."
+  },
+  {
+    "id": 32,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of a const int variable in C on a 32-bit system?",
+    "options": ["A) 1 byte", "B) 2 bytes", "C) 4 bytes", "D) 8 bytes"],
+    "correct_answer": "C) 4 bytes",
+    "explanation": "A const int has the same size as a regular int. On a 32-bit system, int is typically 4 bytes. The const qualifier does not change the size."
+  },
+  {
+    "id": 33,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 7;\n  int *p = &x;\n  printf(\"%d\", *p);\n  return 0;\n}",
+    "options": ["A) 7", "B) Compile error", "C) Runtime error", "D) Garbage value"],
+    "correct_answer": "A) 7",
+    "explanation": "Assigning address of const int to non-const pointer gives a warning (not error in C). *p reads the value 7. Output is 7."
+  },
+  {
+    "id": 34,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about const in C is FALSE?",
+    "options": ["A) const variables have type safety", "B) const variables can be debugged easily", "C) const variables are always stored in ROM", "D) const variables cannot be modified"],
+    "correct_answer": "C) const variables are always stored in ROM",
+    "explanation": "const variables are not necessarily stored in ROM. They are typically stored in the data segment or stack. The const qualifier only prevents modification."
+  },
+  {
+    "id": 35,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 3;\n  const int y = 4;\n  printf(\"%d\", x * x + y * y);\n  return 0;\n}",
+    "options": ["A) 7", "B) 25", "C) 12", "D) Compile error"],
+    "correct_answer": "B) 25",
+    "explanation": "x*x + y*y = 3*3 + 4*4 = 9 + 16 = 25. const variables can be used in arithmetic expressions."
+  },
+  {
+    "id": 36,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a function return a const value in C?",
+    "options": ["A) No", "B) Yes", "C) Only for pointers", "D) Only for integers"],
+    "correct_answer": "B) Yes",
+    "explanation": "A function can return a const value. For example, 'const int getMax()' is valid in C, though for non-pointer return types, const has little practical effect."
+  },
+  {
+    "id": 37,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 100;\n  printf(\"%d\", sizeof(x));\n  return 0;\n}",
+    "options": ["A) 1", "B) 2", "C) 4", "D) 8"],
+    "correct_answer": "C) 4",
+    "explanation": "sizeof(x) returns the size of the variable x. Since x is a const int, its size is the same as int, which is 4 bytes on most systems."
+  },
+  {
+    "id": 38,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly passes a const variable to a function?",
+    "options": ["A) void func(int x) { } called with const int a=5; func(a);", "B) void func(const int x) { } called with const int a=5; func(a);", "C) Both A and B", "D) Neither A nor B"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "A const variable can be passed to a function expecting either int or const int. Both are valid ways to pass a const variable."
+  },
+  {
+    "id": 39,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 15;\n  printf(\"%d\", x % 4);\n  return 0;\n}",
+    "options": ["A) 3", "B) 4", "C) 0", "D) Compile error"],
+    "correct_answer": "A) 3",
+    "explanation": "15 % 4 = 3 (remainder when 15 is divided by 4). const variables can be used with all arithmetic operators."
+  },
+  {
+    "id": 40,
+    "topic": "Const in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const char ch = 'Z';\n  printf(\"%c\", ch);\n  return 0;\n}",
+    "options": ["A) Z", "B) z", "C) Compile error", "D) 90"],
+    "correct_answer": "A) Z",
+    "explanation": "const char ch is initialized to 'Z' and printed using %c format specifier. The output is Z."
+  },
+  {
+    "id": 41,
+    "topic": "Const in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  const int x = 5;\n  int *p = (int*)&x;\n  *p = 10;\n  printf(\"%d %d\", x, *p);\n  return 0;\n}",
+    "options": ["A) 5 10", "B) 10 10", "C) Undefined behavior", "D) Compile error"],
+    "correct_answer": "C) Undefined behavior",
+    "explanation": "Modifying a const variable through a cast pointer is undefined behavior in C. The output may vary by compiler and optimization level."
+  },
+  {
+    "id": 42,
+    "topic": "Const in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between 'const int *p' and 'int * const p'?",
+    "options": ["A) No difference", "B) In first, value is const; in second, pointer is const", "C) In first, pointer is const; in second, value is const", "D) Both make the pointer and value const"],
+    "correct_answer": "B) In first, value is const; in second, pointer is const",
+    "explanation": "'const int *p' means the integer value pointed to is constant (pointer can change). 'int * const p' means the pointer itself is constant (value can change)."
+  },
+  {
+    "id": 43,
+    "topic": "Const in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nvoid modify(const int *p){\n  printf(\"%d\", *p);\n}\nint main(){\n  int x = 42;\n  modify(&x);\n  return 0;\n}",
+    "options": ["A) 42", "B) 0", "C) Compile error", "D) Garbage value"],
+    "correct_answer": "A) 42",
+    "explanation": "The function takes a const int pointer, meaning it won't modify the value. It reads and prints *p = 42. This is valid and safe."
+  },
+  {
+    "id": 44,
+    "topic": "Const in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following operations is valid for 'const int *p'?",
+    "options": ["A) *p = 5;", "B) p = p + 1;", "C) p++;", "D) Both B and C"],
+    "correct_answer": "D) Both B and C",
+    "explanation": "For 'const int *p', the pointer p itself can be modified (p = p+1, p++), but the value it points to (*p) cannot be changed."
+  },
+  {
+    "id": 45,
+    "topic": "Const in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following operations is valid for 'int * const p'?",
+    "options": ["A) *p = 5;", "B) p = p + 1;", "C) p++;", "D) Both B and C"],
+    "correct_answer": "A) *p = 5;",
+    "explanation": "For 'int * const p', the pointer address is constant and cannot be changed (p++ or p=p+1 are invalid). However, the value at the address (*p = 5) can be modified."
+  },
+  {
+    "id": 46,
+    "topic": "Const in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  int x = 10;\n  const int *p = &x;\n  x = 20;\n  printf(\"%d\", *p);\n  return 0;\n}",
+    "options": ["A) 10", "B) 20", "C) Compile error", "D) Undefined behavior"],
+    "correct_answer": "B) 20",
+    "explanation": "p points to x. x is modified directly (not through p) to 20. Since p still points to x, *p reflects the updated value 20."
+  },
+  {
+    "id": 47,
+    "topic": "

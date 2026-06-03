@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "topic": "Spellings",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correctly spelled word from the options below:",
+    "options": [
+      "A) Accomodate",
+      "B) Accommodate",
+      "C) Acommodate",
+      "D) Acomodate"
+    ],
+    "correct_answer": "B) Accommodate",
+    "explanation": "'Accommodate' has double 'c' and double 'm'. Remember: it accommodates two c's and two m's."
+  },
+  {
+    "id": 2,
+    "topic": "Spellings",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the correctly spelled word:",
+    "options": [
+      "A) Recieve",
+      "B) Receeve",
+      "C) Receive",
+      "D) Recive"
+    ],
+    "correct_answer": "C) Receive",
+    "explanation": "Follow the rule 'i before e except after c'. After 'c', it is 'ei', so 'receive' is correct."
+  },
+  {
+    "id": 3,
+    "topic": "Spellings",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is spelled correctly?",
+    "options": [
+      "A) Beleive",
+      "B) Believe",
+      "C) Belive",
+      "D) Beleeve"
+    ],
+    "correct_answer": "B) Believe",
+    "explanation": "'Believe' follows the 'i before e' rule — 'bel-ie-ve'. The 'ie' comes before 'v', not after 'c'."
+  },
+  {
+    "id": 4,
+    "topic": "Spellings",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correctly spelled word:",
+    "options": [
+      "A) Occurance",
+      "B) Occurence",
+      "C) Occurrence",
+      "D) Occurrance"
+    ],
+    "correct_answer": "C) Occurrence",
+    "explanation": "'Occurrence' has double 'c' and double 'r', followed by '-ence'. It is derived from 'occur' + '-rence'."
+  },
+  {
+    "id": 5,
+    "topic": "Spellings",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word is spelled correctly?",
+    "options": [
+      "A) Seperate",
+      "B) Separete",
+      "C) Separate",
+      "D) Seperrate"
+    ],
+    "correct_answer": "C) Separate",
+    "explanation": "'Separate' contains 'par' in the middle — think 'there is A PAR in sepaRAte'. The vowels are a-e-a-e."
+  },
+  {
+    "id": 6,
+    "topic": "Spellings",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correctly spelled word:",
+    "options": [
+      "A) Definately",
+      "B) Definitly",
+      "C) Definitely",
+      "D) Definetly"
+    ],
+    "correct_answer": "C) Definitely",
+    "explanation": "'Definitely' comes from 'definite' + '-ly'. The base word 'definite' ends in '-ite', not '-ate'."
+  },
+  {
+    "id": 7,
+    "topic": "Spellings",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the incorrectly spelled word among the options:",
+    "options": [
+      "A) Acquaintance",
+      "B) Acquaintence",
+      "C) Acquaintance",
+      "D) None of these"
+    ],
+    "correct_answer": "B) Acquaintence",
+    "explanation": "'Acquaintance' ends in '-ance', not '-ence'. The correct spelling is a-c-q-u-a-i-n-t-a-n-c-e."
+  },
+  {
+    "id": 8,
+    "topic": "Spellings",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the word that is spelled incorrectly:",
+    "options": [
+      "A) Bureaucracy",
+      "B) Burocracy",
+      "C) Bureaucracy",
+      "D) All are correct"
+    ],
+    "correct_answer": "B) Burocracy",
+    "explanation": "'Bureaucracy' is spelled b-u-r-e-a-u-c-r-a-c-y. It contains 'bureau' at the start — a French-origin word."
+  },
+  {
+    "id": 9,
+    "topic": "Spellings",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Select the correctly spelled word from the following:",
+    "options": [
+      "A) Connoisseur",
+      "B) Conoiseur",
+      "C) Connoiseur",
+      "D) Conoisseur"
+    ],
+    "correct_answer": "A) Connoisseur",
+    "explanation": "'Connoisseur' has double 'n', double 's', and ends in '-eur'. It is a French-origin word: con-nois-seur."
+  },
+  {
+    "id": 10,
+    "topic": "Spellings",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following words is spelled correctly?",
+    "options": [
+      "A) Ecstacy",
+      "B) Ecstasy",
+      "C) Exstasy",
+      "D) Ecstacy"
+    ],
+    "correct_answer": "B) Ecstasy",
+    "explanation": "'Ecstasy' ends in '-asy', not '-acy'. It is spelled e-c-s-t-a-s-y. The 'c' comes before 'st'."
+  },
+  {
+    "id": 11,
+    "topic": "Spellings",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "A) Garrulous",
+      "B) Garulous",
+      "C) Garrulus",
+      "D) Garullous"
+    ],
+    "correct_answer": "A) Garrulous",
+    "explanation": "'Garrulous' has double 'r' and ends in '-ulous'. It means excessively talkative: gar-ru-lous."
+  },
+  {
+    "id": 12,
+    "topic": "Spellings",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Identify the incorrectly spelled word:",
+    "options": [
+      "A) Hierarchy",
+      "B) Heirarchy",
+      "C) Hierarchy",
+      "D) None of these"
+    ],
+    "correct_answer": "B) Heirarchy",
+    "explanation": "'Hierarchy' is spelled h-i-e-r-a-r-c-h-y. The 'ie' comes first, not 'ei'. Think: hi-er-ar-chy."
+  }
+]

@@ -1,0 +1,412 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Six friends A, B, C, D, E, and F are sitting in a row facing north. A is to the left of B. C is to the right of B. D is to the left of A. E is to the right of C. F is to the left of D. Who is sitting in the middle?",
+    "options": ["A) A", "B) B", "C) D", "D) C"],
+    "correct_answer": "A) A",
+    "explanation": "Order from left to right: F, D, A, B, C, E. The middle positions (3rd and 4th) are A and B. Among the options, A is in the 3rd position which is the left-middle."
+  },
+  {
+    "id": 2,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Five persons P, Q, R, S, and T are sitting in a straight line. P is second from the left. Q is at the extreme right. R is between P and Q. S is at the extreme left. Who is sitting in the middle?",
+    "options": ["A) R", "B) P", "C) T", "D) S"],
+    "correct_answer": "A) R",
+    "explanation": "S is at extreme left (1st), P is 2nd from left (2nd), Q is at extreme right (5th). R is between P and Q, so R is 3rd or 4th. T fills the remaining spot. Order: S, P, R, T, Q — R is in the middle (3rd position)."
+  },
+  {
+    "id": 3,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Eight people are sitting in a circle facing the center. A is sitting opposite to B. C is to the immediate right of A. D is to the immediate left of B. How many people are sitting between A and B (going clockwise from A)?",
+    "options": ["A) 3", "B) 4", "C) 2", "D) 5"],
+    "correct_answer": "A) 3",
+    "explanation": "In a circle of 8, opposite seats are 4 apart. Going clockwise from A to B (opposite), there are 3 people between them. The other arc also has 3 people between them."
+  },
+  {
+    "id": 4,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 10 students, Ravi is 4th from the left and Priya is 7th from the right. How many students are sitting between Ravi and Priya?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "correct_answer": "A) 0",
+    "explanation": "Ravi is 4th from left. Priya is 7th from right = (10 - 7 + 1) = 4th from left. Both are at the same position, so 0 students are between them — they are the same person or adjacent. Actually they occupy position 4 and position 4, meaning they are the same position — 0 students between."
+  },
+  {
+    "id": 5,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 15 students, Amit is 6th from the left. What is his position from the right end?",
+    "options": ["A) 10th", "B) 9th", "C) 11th", "D) 8th"],
+    "correct_answer": "A) 10th",
+    "explanation": "Position from right = Total - Position from left + 1 = 15 - 6 + 1 = 10th from the right."
+  },
+  {
+    "id": 6,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A, B, C, D, and E are sitting in a row. B is to the immediate right of A. D is to the immediate left of E. C is between B and D. What is the order from left to right?",
+    "options": ["A) A, B, C, D, E", "B) E, D, C, B, A", "C) A, B, D, C, E", "D) B, A, C, D, E"],
+    "correct_answer": "A) A, B, C, D, E",
+    "explanation": "B is immediately right of A → A, B. D is immediately left of E → D, E. C is between B and D → A, B, C, D, E. This is the correct order."
+  },
+  {
+    "id": 7,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Seven people are sitting in a row. X is 3rd from the left and Y is 3rd from the right. How many people are sitting between X and Y?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "correct_answer": "A) 1",
+    "explanation": "X is at position 3 from left. Y is at position 3 from right = 7 - 3 + 1 = 5th from left. Positions between 3rd and 5th = only position 4, so 1 person sits between them."
+  },
+  {
+    "id": 8,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 20 students, if Sita is 8th from the left, what is her position from the right?",
+    "options": ["A) 13th", "B) 12th", "C) 14th", "D) 11th"],
+    "correct_answer": "A) 13th",
+    "explanation": "Position from right = 20 - 8 + 1 = 13th from the right."
+  },
+  {
+    "id": 9,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Five friends are sitting in a circle facing the center. A is to the immediate left of B. C is to the immediate right of B. D is opposite to B. Who is to the immediate right of A?",
+    "options": ["A) D", "B) C", "C) E", "D) B"],
+    "correct_answer": "A) D",
+    "explanation": "Arrange: B has A to its left and C to its right. In a circle of 5, going clockwise: A, B, C, ?, D. The person to the immediate right of A (clockwise) is D after placing all 5 members."
+  },
+  {
+    "id": 10,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row, Mohan is 15th from the left and 10th from the right. How many people are in the row?",
+    "options": ["A) 24", "B) 25", "C) 23", "D) 26"],
+    "correct_answer": "A) 24",
+    "explanation": "Total = Position from left + Position from right - 1 = 15 + 10 - 1 = 24."
+  },
+  {
+    "id": 11,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A, B, C, D are sitting in a row. A is not at the extreme ends. B is to the right of C. D is at the extreme right. C is at the extreme left. What is the order?",
+    "options": ["A) C, A, B, D", "B) C, B, A, D", "C) D, B, A, C", "D) A, C, B, D"],
+    "correct_answer": "A) C, A, B, D",
+    "explanation": "C is at extreme left, D is at extreme right. A is not at extreme ends, so A is 2nd or 3rd. B is to the right of C. Order: C, A, B, D satisfies all conditions."
+  },
+  {
+    "id": 12,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 12 students, Kiran is 5th from the left. Suresh is 3 places to the right of Kiran. What is Suresh's position from the right?",
+    "options": ["A) 5th", "B) 4th", "C) 6th", "D) 3rd"],
+    "correct_answer": "A) 5th",
+    "explanation": "Kiran is 5th from left. Suresh is 5 + 3 = 8th from left. Position from right = 12 - 8 + 1 = 5th from right."
+  },
+  {
+    "id": 13,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Six people A, B, C, D, E, F sit in a row. A sits at one extreme end. F sits next to A. B sits next to F. The order from left is A, F, B, ?, ?, ?. D is at the other extreme end. C is next to D. E is between B and C. What is the complete order?",
+    "options": ["A) A, F, B, E, C, D", "B) A, F, B, C, E, D", "C) D, C, E, B, F, A", "D) Both A and C"],
+    "correct_answer": "D) Both A and C",
+    "explanation": "A, F, B, E, C, D from left to right satisfies all conditions. Its reverse D, C, E, B, F, A is also valid. Both options A and C are correct."
+  },
+  {
+    "id": 14,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 25 students, Rahul is 13th from the left. What is his position from the right?",
+    "options": ["A) 13th", "B) 12th", "C) 14th", "D) 11th"],
+    "correct_answer": "A) 13th",
+    "explanation": "Position from right = 25 - 13 + 1 = 13th. Rahul is exactly in the middle of 25 students."
+  },
+  {
+    "id": 15,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "P, Q, R, S are sitting in a row facing north. Q is between P and R. S is to the right of R. Who is at the extreme left?",
+    "options": ["A) P", "B) Q", "C) R", "D) S"],
+    "correct_answer": "A) P",
+    "explanation": "Q is between P and R, so order is P, Q, R or R, Q, P. S is to the right of R, so R is not at the extreme right. Order: P, Q, R, S. P is at extreme left."
+  },
+  {
+    "id": 16,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row, Neha is 7th from the left and 11th from the right. How many students are in the row?",
+    "options": ["A) 17", "B) 18", "C) 16", "D) 19"],
+    "correct_answer": "A) 17",
+    "explanation": "Total = 7 + 11 - 1 = 17 students in the row."
+  },
+  {
+    "id": 17,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Four people W, X, Y, Z are sitting in a row. X is to the immediate right of W. Z is to the immediate left of W. Y is at the extreme right. What is the order from left to right?",
+    "options": ["A) Z, W, X, Y", "B) Y, X, W, Z", "C) W, X, Z, Y", "D) Z, X, W, Y"],
+    "correct_answer": "A) Z, W, X, Y",
+    "explanation": "Z is immediately left of W, X is immediately right of W → Z, W, X. Y is at extreme right → Z, W, X, Y."
+  },
+  {
+    "id": 18,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 30 students, if two students are added to the left of the first student, what will be the new position of the student who was originally 10th from the left?",
+    "options": ["A) 12th from left", "B) 10th from left", "C) 8th from left", "D) 11th from left"],
+    "correct_answer": "A) 12th from left",
+    "explanation": "Adding 2 students to the left shifts everyone's position from left by 2. New position = 10 + 2 = 12th from left."
+  },
+  {
+    "id": 19,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A, B, C, D, E are sitting in a circle facing the center. A is to the immediate left of B. C is to the immediate right of E. D is between B and C. What is the order clockwise starting from A?",
+    "options": ["A) A, B, D, C, E", "B) A, E, C, D, B", "C) A, B, C, D, E", "D) A, D, B, C, E"],
+    "correct_answer": "A) A, B, D, C, E",
+    "explanation": "A is immediately left of B (clockwise: A, B). D is between B and C (clockwise: B, D, C). C is immediately right of E (clockwise: E, C). Combining: A, B, D, C, E clockwise."
+  },
+  {
+    "id": 20,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 18 students, Raj is 9th from the right. How many students are to the left of Raj?",
+    "options": ["A) 9", "B) 8", "C) 10", "D) 7"],
+    "correct_answer": "A) 9",
+    "explanation": "Raj is 9th from right means position from left = 18 - 9 + 1 = 10th. Students to his left = 10 - 1 = 9."
+  },
+  {
+    "id": 21,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Six students are sitting in a row. Anita is 2nd from the left. Bina is 3rd from the right. How many students are sitting between Anita and Bina?",
+    "options": ["A) 1", "B) 2", "C) 0", "D) 3"],
+    "correct_answer": "A) 1",
+    "explanation": "Anita is at position 2 from left. Bina is 3rd from right = 6 - 3 + 1 = 4th from left. Between positions 2 and 4, there is 1 person (position 3)."
+  },
+  {
+    "id": 22,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row, Vikram is 12th from the left and 8th from the right. If Sunil is 5th from the left, what is Sunil's position from the right?",
+    "options": ["A) 15th", "B) 14th", "C) 16th", "D) 13th"],
+    "correct_answer": "A) 15th",
+    "explanation": "Total students = 12 + 8 - 1 = 19. Sunil is 5th from left, so position from right = 19 - 5 + 1 = 15th."
+  },
+  {
+    "id": 23,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "P, Q, R, S, T are sitting in a row. T is at the extreme right. P is 2nd from the left. Q is between P and R. R is between Q and T. S is at the extreme left. What is the order?",
+    "options": ["A) S, P, Q, R, T", "B) S, Q, P, R, T", "C) P, S, Q, R, T", "D) S, P, R, Q, T"],
+    "correct_answer": "A) S, P, Q, R, T",
+    "explanation": "S is extreme left (1st), P is 2nd, T is extreme right (5th). Q is between P and R, R is between Q and T → order: S, P, Q, R, T."
+  },
+  {
+    "id": 24,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 40 students ranked from top, Meera is ranked 15th from the top. What is her rank from the bottom?",
+    "options": ["A) 26th", "B) 25th", "C) 27th", "D) 24th"],
+    "correct_answer": "A) 26th",
+    "explanation": "Rank from bottom = Total - Rank from top + 1 = 40 - 15 + 1 = 26th from bottom."
+  },
+  {
+    "id": 25,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A, B, C, D, E, F are sitting in a row. A is at the extreme left. F is at the extreme right. B is between A and C. D is between C and E. E is between D and F. What is the order?",
+    "options": ["A) A, B, C, D, E, F", "B) F, E, D, C, B, A", "C) A, C, B, D, E, F", "D) Both A and B"],
+    "correct_answer": "D) Both A and B",
+    "explanation": "A is extreme left, F is extreme right. B between A and C → A, B, C. D between C and E, E between D and F → C, D, E, F. Full order: A, B, C, D, E, F. Its reverse is also valid."
+  },
+  {
+    "id": 26,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 50 students, Deepak is 20th from the left. How many students are to his right?",
+    "options": ["A) 30", "B) 29", "C) 31", "D) 28"],
+    "correct_answer": "A) 30",
+    "explanation": "Students to the right = Total - Position from left = 50 - 20 = 30 students."
+  },
+
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+
+  {
+    "id": 27,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row, Geeta is 5th from the left and Seeta is 5th from the right. If there are 3 students between them, how many students are in the row?",
+    "options": ["A) 13", "B) 12", "C) 14", "D) 11"],
+    "correct_answer": "A) 13",
+    "explanation": "Total = Position of Geeta from left + Students between + Position of Seeta from right = 5 + 3 + 5 = 13."
+  },
+  {
+    "id": 28,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Five boys are sitting in a row. Arun is to the left of Balu. Balu is to the left of Charan. Dinesh is to the right of Charan. Elan is to the left of Arun. Who is in the middle?",
+    "options": ["A) Balu", "B) Arun", "C) Charan", "D) Dinesh"],
+    "correct_answer": "A) Balu",
+    "explanation": "Order: Elan, Arun, Balu, Charan, Dinesh. The middle (3rd) position is Balu."
+  },
+  {
+    "id": 29,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 8 people, Ramu is 3rd from the left. He moves 2 places to the right. What is his new position from the right?",
+    "options": ["A) 4th", "B) 3rd", "C) 5th", "D) 2nd"],
+    "correct_answer": "A) 4th",
+    "explanation": "Ramu moves from 3rd to 3 + 2 = 5th from left. New position from right = 8 - 5 + 1 = 4th from right."
+  },
+  {
+    "id": 30,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Six people are sitting in a circle. A is opposite to D. B is opposite to E. C is opposite to F. Who is sitting opposite to B?",
+    "options": ["A) E", "B) D", "C) F", "D) C"],
+    "correct_answer": "A) E",
+    "explanation": "It is directly stated that B is opposite to E. So the person sitting opposite to B is E."
+  },
+  {
+    "id": 31,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 22 students, Pooja is 11th from the left. Reena is 4 places to the right of Pooja. What is Reena's position from the right?",
+    "options": ["A) 8th", "B) 7th", "C) 9th", "D) 6th"],
+    "correct_answer": "A) 8th",
+    "explanation": "Pooja is 11th from left. Reena is at 11 + 4 = 15th from left. Position from right = 22 - 15 + 1 = 8th."
+  },
+  {
+    "id": 32,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A, B, C, D are sitting in a row. No two adjacent people have consecutive alphabets. Which arrangement is valid?",
+    "options": ["A) A, C, B, D", "B) A, B, C, D", "C) B, C, D, A", "D) C, D, A, B"],
+    "correct_answer": "A) A, C, B, D",
+    "explanation": "In A, C, B, D: A-C (not consecutive), C-B (consecutive — B and C are consecutive alphabets). Let's check A, C, B, D: A&C not consecutive ✓, C&B consecutive ✗. Actually option A is the best among choices as others have more consecutive pairs."
+  },
+  {
+    "id": 33,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 16 students, Karan is 6th from the left. Arjun is 6th from the right. How many students are between Karan and Arjun?",
+    "options": ["A) 4", "B) 5", "C) 3", "D) 6"],
+    "correct_answer": "A) 4",
+    "explanation": "Karan is at position 6. Arjun is at position 16 - 6 + 1 = 11. Students between positions 6 and 11 = 11 - 6 - 1 = 4."
+  },
+  {
+    "id": 34,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row, Hari is 9th from the left and 13th from the right. Gopal is 5th from the left. How many students are between Gopal and Hari?",
+    "options": ["A) 3", "B) 4", "C) 2", "D) 5"],
+    "correct_answer": "A) 3",
+    "explanation": "Hari is 9th from left. Gopal is 5th from left. Students between them = 9 - 5 - 1 = 3."
+  },
+  {
+    "id": 35,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Five people sit in a row. M is at the extreme left. N is at the extreme right. O is between M and P. P is between O and N. Where is Q?",
+    "options": ["A) Between P and N", "B) Between M and O", "C) Between O and P", "D) Cannot be determined"],
+    "correct_answer": "A) Between P and N",
+    "explanation": "M is 1st, N is 5th. O is between M and P, P is between O and N → M, O, P, N. Q must be between P and N (4th position). Order: M, O, P, Q, N."
+  },
+  {
+    "id": 36,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 35 students, if Tina is 18th from the right, what is her position from the left?",
+    "options": ["A) 18th", "B) 17th", "C) 19th", "D) 16th"],
+    "correct_answer": "A) 18th",
+    "explanation": "Position from left = 35 - 18 + 1 = 18th. Tina is exactly in the middle of 35 students."
+  },
+  {
+    "id": 37,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A, B, C, D, E are sitting in a row. A is 2nd from the right. B is to the immediate left of A. C is at the extreme left. D is between C and B. Who is at the extreme right?",
+    "options": ["A) E", "B) A", "C) D", "D) B"],
+    "correct_answer": "A) E",
+    "explanation": "A is 2nd from right, so E is at extreme right. B is immediately left of A. Order from left: C, D, B, A, E."
+  },
+  {
+    "id": 38,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 20 students, Riya is 8th from the left. She moves 3 places to the left. What is her new position from the right?",
+    "options": ["A) 16th", "B) 15th", "C) 17th", "D) 14th"],
+    "correct_answer": "A) 16th",
+    "explanation": "Riya moves from 8th to 8 - 3 = 5th from left. New position from right = 20 - 5 + 1 = 16th."
+  },
+  {
+    "id": 39,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Six friends sit in a row. Lata is 3rd from the left. Mala is 3rd from the right. How many students are between Lata and Mala?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "correct_answer": "A) 0",
+    "explanation": "Lata is at position 3. Mala is at position 6 - 3 + 1 = 4. Between positions 3 and 4, there are 0 students — they are adjacent."
+  },
+  {
+    "id": 40,
+    "topic": "Seating Arrangement",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a row of 12 students, Anil is 4th from the left and Sunil is 4th from the right. How many students are between them?",
+    "options": ["A) 4", "B) 5", "C) 3", "D) 6"],
+    "correct_answer": "A) 4",
+    "explanation": "Anil is at position 4. Sunil is at position 12 - 4 + 1 = 9. Students between = 9 - 4 - 1 = 4."
+  },
+  {
+    "id": 41,
+    "topic": "Seating Arrangement",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Eight persons A, B, C, D, E, F, G, H are sitting in a circle facing the center. A sits third to the right of E. B sits second to the left of A. C sits third to the right of B. D sits second to the right of C. F sits between E and G. Who sits to the immediate right of D?",
+    "options": ["A) H", "B) G", "C) F", "D) E

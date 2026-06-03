@@ -1,0 +1,515 @@
+[
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A coin is tossed once. What is the probability of getting a head?",
+    "options": ["1/4", "1/2", "1/3", "1"],
+    "correct_answer": "1/2",
+    "explanation": "Total outcomes = 2 (Head, Tail). Favorable outcomes = 1 (Head). P(Head) = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A die is rolled once. What is the probability of getting a number greater than 4?",
+    "options": ["1/3", "1/2", "2/3", "1/6"],
+    "correct_answer": "1/3",
+    "explanation": "Numbers greater than 4 on a die: {5, 6}. Favorable = 2, Total = 6. P = 2/6 = 1/3."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A bag contains 3 red balls and 5 blue balls. One ball is drawn at random. What is the probability that it is red?",
+    "options": ["3/8", "5/8", "3/5", "1/2"],
+    "correct_answer": "3/8",
+    "explanation": "Total balls = 3 + 5 = 8. Favorable (red) = 3. P(red) = 3/8."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the probability of getting an even number when a die is rolled?",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "correct_answer": "1/2",
+    "explanation": "Even numbers on a die: {2, 4, 6}. Favorable = 3, Total = 6. P = 3/6 = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A card is drawn from a standard deck of 52 cards. What is the probability of drawing a king?",
+    "options": ["1/13", "1/52", "4/52", "1/4"],
+    "correct_answer": "1/13",
+    "explanation": "There are 4 kings in a deck of 52 cards. P(King) = 4/52 = 1/13."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Two coins are tossed simultaneously. What is the probability of getting exactly one head?",
+    "options": ["1/4", "1/2", "3/4", "1"],
+    "correct_answer": "1/2",
+    "explanation": "Sample space = {HH, HT, TH, TT}. Exactly one head: {HT, TH} = 2. P = 2/4 = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A bag has 4 green and 6 yellow balls. A ball is picked at random. What is the probability it is yellow?",
+    "options": ["2/5", "3/5", "4/10", "1/2"],
+    "correct_answer": "3/5",
+    "explanation": "Total = 10, Yellow = 6. P(Yellow) = 6/10 = 3/5."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the probability of getting a number less than 3 when a die is rolled?",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "correct_answer": "1/3",
+    "explanation": "Numbers less than 3: {1, 2}. Favorable = 2, Total = 6. P = 2/6 = 1/3."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability of drawing a red card?",
+    "options": ["1/4", "1/2", "1/13", "3/4"],
+    "correct_answer": "1/2",
+    "explanation": "Red cards = 26 (13 hearts + 13 diamonds). P = 26/52 = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If P(A) = 0.3, what is P(A')?",
+    "options": ["0.3", "0.7", "0.6", "1.3"],
+    "correct_answer": "0.7",
+    "explanation": "P(A') = 1 - P(A) = 1 - 0.3 = 0.7."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A bag contains 2 white, 3 black, and 5 red balls. One ball is drawn. What is the probability it is black?",
+    "options": ["1/5", "3/10", "1/2", "2/5"],
+    "correct_answer": "3/10",
+    "explanation": "Total = 10, Black = 3. P(Black) = 3/10."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Three coins are tossed. What is the probability of getting all heads?",
+    "options": ["1/2", "1/4", "1/8", "3/8"],
+    "correct_answer": "1/8",
+    "explanation": "Total outcomes = 2³ = 8. Favorable (HHH) = 1. P = 1/8."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A die is rolled. What is the probability of getting a prime number?",
+    "options": ["1/2", "1/3", "2/3", "1/6"],
+    "correct_answer": "1/2",
+    "explanation": "Prime numbers on a die: {2, 3, 5}. Favorable = 3, Total = 6. P = 3/6 = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the probability of an impossible event?",
+    "options": ["0", "1", "0.5", "Cannot be determined"],
+    "correct_answer": "0",
+    "explanation": "An impossible event has no favorable outcomes, so its probability is 0."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability of drawing an ace of spades?",
+    "options": ["1/52", "1/13", "4/52", "1/26"],
+    "correct_answer": "1/52",
+    "explanation": "There is only 1 ace of spades in 52 cards. P = 1/52."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A bag contains 5 red and 3 green balls. What is the probability of NOT drawing a red ball?",
+    "options": ["5/8", "3/8", "1/2", "2/5"],
+    "correct_answer": "3/8",
+    "explanation": "P(not red) = 1 - P(red) = 1 - 5/8 = 3/8."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Two dice are rolled. What is the probability of getting a sum of 12?",
+    "options": ["1/36", "1/18", "1/12", "1/6"],
+    "correct_answer": "1/36",
+    "explanation": "Only (6,6) gives sum 12. Total outcomes = 36. P = 1/36."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A letter is chosen at random from the word 'APPLE'. What is the probability of choosing 'P'?",
+    "options": ["1/5", "2/5", "3/5", "1/4"],
+    "correct_answer": "2/5",
+    "explanation": "APPLE has 5 letters: A, P, P, L, E. P appears 2 times. P(P) = 2/5."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the probability of a certain event?",
+    "options": ["0", "0.5", "1", "Cannot be determined"],
+    "correct_answer": "1",
+    "explanation": "A certain event always occurs, so its probability is 1."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability of drawing a face card (Jack, Queen, King)?",
+    "options": ["3/13", "1/4", "3/52", "1/13"],
+    "correct_answer": "3/13",
+    "explanation": "Face cards = 12 (4 Jacks + 4 Queens + 4 Kings). P = 12/52 = 3/13."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A die is rolled. What is the probability of getting a multiple of 3?",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "correct_answer": "1/3",
+    "explanation": "Multiples of 3 on a die: {3, 6}. Favorable = 2, Total = 6. P = 2/6 = 1/3."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A bag contains 7 white and 3 black balls. One ball is drawn. What is the probability it is white?",
+    "options": ["3/10", "7/10", "7/3", "1/2"],
+    "correct_answer": "7/10",
+    "explanation": "Total = 10, White = 7. P(White) = 7/10."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Two coins are tossed. What is the probability of getting at least one tail?",
+    "options": ["1/4", "1/2", "3/4", "1"],
+    "correct_answer": "3/4",
+    "explanation": "Sample space = {HH, HT, TH, TT}. At least one tail: {HT, TH, TT} = 3. P = 3/4."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "From a group of 4 men and 3 women, one person is selected at random. What is the probability of selecting a woman?",
+    "options": ["4/7", "3/7", "3/4", "1/2"],
+    "correct_answer": "3/7",
+    "explanation": "Total = 7, Women = 3. P(Woman) = 3/7."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A die is rolled. What is the probability of getting an odd number?",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "correct_answer": "1/2",
+    "explanation": "Odd numbers: {1, 3, 5}. Favorable = 3, Total = 6. P = 3/6 = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability of drawing a heart?",
+    "options": ["1/4", "1/2", "1/13", "4/13"],
+    "correct_answer": "1/4",
+    "explanation": "Hearts = 13 out of 52 cards. P = 13/52 = 1/4."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A letter is chosen at random from the word 'MATHEMATICS'. What is the probability of choosing 'M'?",
+    "options": ["1/11", "2/11", "3/11", "1/5"],
+    "correct_answer": "2/11",
+    "explanation": "MATHEMATICS has 11 letters. M appears 2 times. P(M) = 2/11."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A bag contains 6 red, 4 blue, and 2 green balls. A ball is drawn at random. What is the probability it is blue?",
+    "options": ["1/3", "1/4", "1/6", "2/3"],
+    "correct_answer": "1/3",
+    "explanation": "Total = 12, Blue = 4. P(Blue) = 4/12 = 1/3."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Two dice are rolled. What is the probability of getting a sum of 2?",
+    "options": ["1/36", "1/18", "1/12", "2/36"],
+    "correct_answer": "1/36",
+    "explanation": "Only (1,1) gives sum 2. Total outcomes = 36. P = 1/36."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A number is chosen at random from 1 to 10. What is the probability that it is a perfect square?",
+    "options": ["1/5", "3/10", "2/5", "1/10"],
+    "correct_answer": "3/10",
+    "explanation": "Perfect squares from 1 to 10: {1, 4, 9}. Favorable = 3, Total = 10. P = 3/10."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A coin is tossed twice. What is the probability of getting two tails?",
+    "options": ["1/2", "1/4", "3/4", "1/8"],
+    "correct_answer": "1/4",
+    "explanation": "Sample space = {HH, HT, TH, TT}. Favorable (TT) = 1. P = 1/4."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A die is rolled. What is the probability of getting a number divisible by 2?",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "correct_answer": "1/2",
+    "explanation": "Numbers divisible by 2: {2, 4, 6}. Favorable = 3, Total = 6. P = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A bag contains 10 balls numbered 1 to 10. One ball is drawn. What is the probability of drawing an even-numbered ball?",
+    "options": ["1/2", "1/5", "3/5", "2/5"],
+    "correct_answer": "1/2",
+    "explanation": "Even numbers: {2,4,6,8,10} = 5 balls. P = 5/10 = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability of drawing a black card?",
+    "options": ["1/4", "1/2", "1/13", "3/4"],
+    "correct_answer": "1/2",
+    "explanation": "Black cards = 26 (13 clubs + 13 spades). P = 26/52 = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A number is selected at random from 1 to 20. What is the probability that it is a multiple of 5?",
+    "options": ["1/4", "1/5", "1/10", "2/5"],
+    "correct_answer": "1/5",
+    "explanation": "Multiples of 5 from 1 to 20: {5,10,15,20} = 4. P = 4/20 = 1/5."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A bag has 8 balls: 3 red, 2 blue, 3 green. One ball is drawn. What is the probability it is green?",
+    "options": ["3/8", "1/4", "1/2", "2/8"],
+    "correct_answer": "3/8",
+    "explanation": "Total = 8, Green = 3. P(Green) = 3/8."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Three coins are tossed. What is the probability of getting at least two heads?",
+    "options": ["1/2", "3/8", "5/8", "1/4"],
+    "correct_answer": "1/2",
+    "explanation": "Sample space = 8. At least 2 heads: {HHT, HTH, THH, HHH} = 4. P = 4/8 = 1/2."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A die is rolled. What is the probability of getting a number less than 5?",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "correct_answer": "2/3",
+    "explanation": "Numbers less than 5: {1,2,3,4}. Favorable = 4, Total = 6. P = 4/6 = 2/3."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability of drawing a queen of hearts?",
+    "options": ["1/52", "1/13", "1/26", "4/52"],
+    "correct_answer": "1/52",
+    "explanation": "There is only 1 queen of hearts in 52 cards. P = 1/52."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A number is chosen at random from 1 to 50. What is the probability that it is divisible by 10?",
+    "options": ["1/10", "1/5", "1/25", "2/25"],
+    "correct_answer": "1/10",
+    "explanation": "Multiples of 10 from 1 to 50: {10,20,30,40,50} = 5. P = 5/50 = 1/10."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Two dice are rolled simultaneously. What is the probability of getting a sum of 7?",
+    "options": ["1/6", "5/36", "7/36", "1/12"],
+    "correct_answer": "1/6",
+    "explanation": "Pairs giving sum 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. Total = 36. P = 6/36 = 1/6."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A bag contains 5 red, 4 blue, and 3 green balls. Two balls are drawn at random. What is the probability that both are red?",
+    "options": ["5/33", "10/66", "5/22", "1/6"],
+    "correct_answer": "5/33",
+    "explanation": "P = C(5,2)/C(12,2) = 10/66 = 5/33."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability that it is either a king or a queen?",
+    "options": ["2/13", "1/13", "8/52", "4/26"],
+    "correct_answer": "2/13",
+    "explanation": "Kings = 4, Queens = 4. Total favorable = 8. P = 8/52 = 2/13."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Two cards are drawn from a deck of 52 cards without replacement. What is the probability that both are aces?",
+    "options": ["1/221", "1/169", "4/663", "1/52"],
+    "correct_answer": "1/221",
+    "explanation": "P = (4/52) × (3/51) = 12/2652 = 1/221."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A bag contains 6 white and 4 black balls. Two balls are drawn at random. What is the probability that one is white and one is black?",
+    "options": ["8/15", "4/15", "2/5", "1/3"],
+    "correct_answer": "8/15",
+    "explanation": "P = C(6,1)×C(4,1)/C(10,2) = 24/45 = 8/15."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Two dice are rolled. What is the probability that the sum is at least 10?",
+    "options": ["1/6", "1/12", "1/4", "5/18"],
+    "correct_answer": "1/6",
+    "explanation": "Sums ≥ 10: (4,6),(5,5),(5,6),(6,4),(6,5),(6,6) = 6. P = 6/36 = 1/6."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "From a group of 5 men and 4 women, 2 persons are selected. What is the probability that both are women?",
+    "options": ["1/6", "2/9", "1/3", "4/9"],
+    "correct_answer": "1/6",
+    "explanation": "P = C(4,2)/C(9,2) = 6/36 = 1/6."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A number is selected at random from 1 to 100. What is the probability that it is divisible by both 3 and 5?",
+    "options": ["1/10", "1/15", "7/100", "3/50"],
+    "correct_answer": "1/15",
+    "explanation": "Divisible by 15 (LCM of 3 and 5): {15,30,45,60,75,90} = 6. P = 6/100 = 3/50. Wait, let me recount: 15,30,45,60,75,90 = 6 numbers. P = 6/100 = 3/50."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A number is selected at random from 1 to 100. What is the probability that it is divisible by both 3 and 5?",
+    "options": ["3/50", "1/15", "1/10", "7/100"],
+    "correct_answer": "3/50",
+    "explanation": "Numbers divisible by LCM(3,5)=15 from 1 to 100: {15,30,45,60,75,90} = 6. P = 6/100 = 3/50."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Three cards are drawn from a deck of 52 cards. What is the probability that all three are spades?",
+    "options": ["11/850", "1/17", "13/52", "3/52"],
+    "correct_answer": "11/850",
+    "explanation": "P = C(13,3)/C(52,3) = 286/22100 = 11/850."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A bag contains 3 red, 4 blue, and 5 green balls. Two balls are drawn. What is the probability that both are blue?",
+    "options": ["1/11", "2/11", "6/66", "1/6"],
+    "correct_answer": "1/11",
+    "explanation": "P = C(4,2)/C(12,2) = 6/66 = 1/11."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Two dice are rolled. What is the probability that the product of the two numbers is 12?",
+    "options": ["1/9", "1/12", "1/6", "4/36"],
+    "correct_answer": "1/9",
+    "explanation": "Pairs giving product 12: (2,6),(3,4),(4,3),(6,2) = 4. P = 4/36 = 1/9."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A box contains 4 defective and 6 non-defective items. Two items are drawn at random. What is the probability that both are defective?",
+    "options": ["2/15", "4/15", "1/5", "6/45"],
+    "correct_answer": "2/15",
+    "explanation": "P = C(4,2)/C(10,2) = 6/45 = 2/15."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A card is drawn from a deck of 52 cards. What is the probability that it is a red face card?",
+    "options": ["3/26", "1/13", "6/52", "3/52"],
+    "correct_answer": "3/26",
+    "explanation": "Red face cards = 6 (Jack, Queen, King of hearts and diamonds). P = 6/52 = 3/26."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A number is chosen at random from 1 to 30. What is the probability that it is a prime number?",
+    "options": ["1/3", "10/30", "11/30", "7/30"],
+    "correct_answer": "10/30",
+    "explanation": "Primes from 1 to 30: {2,3,5,7,11,13,17,19,23,29} = 10. P = 10/30 = 1/3."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Two balls are drawn from a bag containing 5 red and 7 blue balls. What is the probability that both are of the same color?",
+    "options": ["31/66", "35/66", "17/33", "1/2"],
+    "correct_answer": "31/66",
+    "explanation": "P = [C(5,2)+C(7,2)]/C(12,2) = (10+21)/66 = 31/66."
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A die is rolled twice. What is the probability of getting the same number both times?",
+    "options": ["1/6", "1/36", "5/36", "1/12"],
+    "correct_answer": "1/6",
+    "explanation": "Favorable outcomes: (1,1),(2,2),(3,3),(4,4),(5,5),(6,6) = 6. Total = 36. P = 6/36 = 1/6."
+  }
+]

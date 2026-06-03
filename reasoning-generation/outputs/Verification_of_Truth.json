@@ -1,0 +1,442 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A says 'I am 25 years old.' B says 'A is 3 years older than me.' C says 'B is 22 years old.' Which of the following is true?",
+    "options": ["A) A is 25, B is 22, C's statement is true", "B) A is 25, B is 22, C's statement is false", "C) A is 25, B is 28, C's statement is false", "D) A is 28, B is 25, C's statement is true"],
+    "correct_answer": "A) A is 25, B is 22, C's statement is true",
+    "explanation": "If A is 25, then B = 25 - 3 = 22. C says B is 22, which matches. So all statements are consistent and true."
+  },
+  {
+    "id": 2,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Ram says 'I have 40 marbles.' Shyam says 'Ram has twice as many marbles as I do.' If Shyam has 20 marbles, which statement is true?",
+    "options": ["A) Only Ram's statement is true", "B) Only Shyam's statement is true", "C) Both statements are true", "D) Neither statement is true"],
+    "correct_answer": "C) Both statements are true",
+    "explanation": "Ram has 40 marbles (true). Shyam has 20, and twice 20 = 40 = Ram's count. Both statements are verified as true."
+  },
+  {
+    "id": 3,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "P says 'The sum of 15 and 27 is 42.' Q says 'The product of 6 and 7 is 48.' Which statement is correct?",
+    "options": ["A) Only P is correct", "B) Only Q is correct", "C) Both are correct", "D) Neither is correct"],
+    "correct_answer": "A) Only P is correct",
+    "explanation": "15 + 27 = 42 (P is correct). 6 × 7 = 42, not 48 (Q is incorrect). So only P's statement is true."
+  },
+  {
+    "id": 4,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A train travels 300 km in 5 hours. Ravi says 'The speed is 60 km/h.' Priya says 'The speed is 55 km/h.' Who is correct?",
+    "options": ["A) Ravi", "B) Priya", "C) Both", "D) Neither"],
+    "correct_answer": "A) Ravi",
+    "explanation": "Speed = Distance/Time = 300/5 = 60 km/h. Ravi's statement is correct; Priya's is wrong."
+  },
+  {
+    "id": 5,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Anita says 'I scored 75% in an exam of 200 marks.' Bina says 'Anita scored 150 marks.' Is Bina's statement true?",
+    "options": ["A) Yes", "B) No", "C) Cannot be determined", "D) Partially true"],
+    "correct_answer": "A) Yes",
+    "explanation": "75% of 200 = (75/100) × 200 = 150. Bina's statement that Anita scored 150 marks is correct."
+  },
+  {
+    "id": 6,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "X says 'A square has 5 sides.' Y says 'A triangle has 3 sides.' Z says 'A pentagon has 4 sides.' Who is correct?",
+    "options": ["A) X only", "B) Y only", "C) Z only", "D) X and Z"],
+    "correct_answer": "B) Y only",
+    "explanation": "A square has 4 sides (X is wrong), a triangle has 3 sides (Y is correct), a pentagon has 5 sides (Z is wrong)."
+  },
+  {
+    "id": 7,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Mohan says 'The simple interest on Rs. 1000 at 10% per annum for 2 years is Rs. 200.' Is this statement true?",
+    "options": ["A) Yes", "B) No, it is Rs. 100", "C) No, it is Rs. 250", "D) No, it is Rs. 220"],
+    "correct_answer": "A) Yes",
+    "explanation": "SI = (P × R × T)/100 = (1000 × 10 × 2)/100 = Rs. 200. Mohan's statement is correct."
+  },
+  {
+    "id": 8,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Kavya says 'The average of 10, 20, 30, 40, and 50 is 30.' Deepa says 'The average is 25.' Who is correct?",
+    "options": ["A) Kavya", "B) Deepa", "C) Both", "D) Neither"],
+    "correct_answer": "A) Kavya",
+    "explanation": "Sum = 10+20+30+40+50 = 150. Average = 150/5 = 30. Kavya is correct; Deepa is wrong."
+  },
+  {
+    "id": 9,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Raj says 'If today is Monday, tomorrow is Wednesday.' Simran says 'If today is Monday, tomorrow is Tuesday.' Who is correct?",
+    "options": ["A) Raj", "B) Simran", "C) Both", "D) Neither"],
+    "correct_answer": "B) Simran",
+    "explanation": "The day after Monday is Tuesday, not Wednesday. Simran's statement is correct."
+  },
+  {
+    "id": 10,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A shopkeeper says 'I sold 50 items at Rs. 20 each, earning Rs. 1000.' Is this statement true?",
+    "options": ["A) Yes", "B) No, it should be Rs. 900", "C) No, it should be Rs. 1100", "D) No, it should be Rs. 800"],
+    "correct_answer": "A) Yes",
+    "explanation": "Total earnings = 50 × 20 = Rs. 1000. The shopkeeper's statement is mathematically correct."
+  },
+  {
+    "id": 11,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Neha says 'The LCM of 4 and 6 is 12.' Pooja says 'The LCM of 4 and 6 is 24.' Who is correct?",
+    "options": ["A) Neha", "B) Pooja", "C) Both", "D) Neither"],
+    "correct_answer": "A) Neha",
+    "explanation": "Multiples of 4: 4,8,12... Multiples of 6: 6,12... LCM = 12. Neha is correct."
+  },
+  {
+    "id": 12,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arjun says 'The HCF of 18 and 24 is 6.' Bharat says 'The HCF of 18 and 24 is 9.' Who is correct?",
+    "options": ["A) Arjun", "B) Bharat", "C) Both", "D) Neither"],
+    "correct_answer": "A) Arjun",
+    "explanation": "Factors of 18: 1,2,3,6,9,18. Factors of 24: 1,2,3,4,6,8,12,24. HCF = 6. Arjun is correct."
+  },
+  {
+    "id": 13,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Meera says 'A dozen equals 12 items.' Seema says 'A dozen equals 10 items.' Who is correct?",
+    "options": ["A) Meera", "B) Seema", "C) Both", "D) Neither"],
+    "correct_answer": "A) Meera",
+    "explanation": "By definition, a dozen = 12 items. Meera is correct; Seema is wrong."
+  },
+  {
+    "id": 14,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Ritu says 'The perimeter of a rectangle with length 8 cm and breadth 5 cm is 26 cm.' Is she correct?",
+    "options": ["A) Yes", "B) No, it is 40 cm", "C) No, it is 13 cm", "D) No, it is 24 cm"],
+    "correct_answer": "A) Yes",
+    "explanation": "Perimeter = 2(l + b) = 2(8 + 5) = 2 × 13 = 26 cm. Ritu's statement is correct."
+  },
+  {
+    "id": 15,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Suresh says '30% of 150 is 45.' Ramesh says '30% of 150 is 50.' Who is correct?",
+    "options": ["A) Suresh", "B) Ramesh", "C) Both", "D) Neither"],
+    "correct_answer": "A) Suresh",
+    "explanation": "30% of 150 = (30/100) × 150 = 45. Suresh is correct; Ramesh is wrong."
+  },
+  {
+    "id": 16,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Asha says 'The square root of 144 is 12.' Usha says 'The square root of 144 is 14.' Who is correct?",
+    "options": ["A) Asha", "B) Usha", "C) Both", "D) Neither"],
+    "correct_answer": "A) Asha",
+    "explanation": "√144 = 12 because 12 × 12 = 144. Asha is correct; Usha is wrong."
+  },
+  {
+    "id": 17,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Kiran says 'If a number is divisible by 4 and 3, it is divisible by 12.' Tarun says 'It is divisible by 7.' Who is correct?",
+    "options": ["A) Kiran", "B) Tarun", "C) Both", "D) Neither"],
+    "correct_answer": "A) Kiran",
+    "explanation": "LCM(4,3) = 12, so a number divisible by both 4 and 3 is divisible by 12. Kiran is correct."
+  },
+  {
+    "id": 18,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Vijay says 'The area of a circle with radius 7 cm is 154 sq cm (using π = 22/7).' Is he correct?",
+    "options": ["A) Yes", "B) No, it is 44 sq cm", "C) No, it is 176 sq cm", "D) No, it is 132 sq cm"],
+    "correct_answer": "A) Yes",
+    "explanation": "Area = πr² = (22/7) × 7 × 7 = 22 × 7 = 154 sq cm. Vijay is correct."
+  },
+  {
+    "id": 19,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Priya says 'The ratio 3:5 is equivalent to 9:15.' Nisha says 'The ratio 3:5 is equivalent to 6:12.' Who is correct?",
+    "options": ["A) Priya", "B) Nisha", "C) Both", "D) Neither"],
+    "correct_answer": "A) Priya",
+    "explanation": "3:5 = 9:15 (multiply both by 3). 6:12 = 1:2, not 3:5. Priya is correct."
+  },
+  {
+    "id": 20,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Anil says 'A leap year has 366 days.' Sunil says 'A leap year has 365 days.' Who is correct?",
+    "options": ["A) Anil", "B) Sunil", "C) Both", "D) Neither"],
+    "correct_answer": "A) Anil",
+    "explanation": "A leap year has 366 days (an extra day in February). Anil is correct; Sunil is wrong."
+  },
+  {
+    "id": 21,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rekha says 'The profit on buying at Rs. 80 and selling at Rs. 100 is 25%.' Is she correct?",
+    "options": ["A) Yes", "B) No, it is 20%", "C) No, it is 30%", "D) No, it is 15%"],
+    "correct_answer": "A) Yes",
+    "explanation": "Profit% = (Profit/CP) × 100 = (20/80) × 100 = 25%. Rekha's statement is correct."
+  },
+  {
+    "id": 22,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Ganesh says '2³ = 6.' Mahesh says '2³ = 8.' Who is correct?",
+    "options": ["A) Ganesh", "B) Mahesh", "C) Both", "D) Neither"],
+    "correct_answer": "B) Mahesh",
+    "explanation": "2³ = 2 × 2 × 2 = 8. Mahesh is correct; Ganesh confused exponentiation with multiplication."
+  },
+  {
+    "id": 23,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Lata says 'The median of 3, 7, 9, 11, 15 is 9.' Gita says 'The median is 11.' Who is correct?",
+    "options": ["A) Lata", "B) Gita", "C) Both", "D) Neither"],
+    "correct_answer": "A) Lata",
+    "explanation": "The data is already sorted: 3,7,9,11,15. The middle value (3rd of 5) is 9. Lata is correct."
+  },
+  {
+    "id": 24,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rohit says 'A right angle is 90 degrees.' Mohit says 'A right angle is 180 degrees.' Who is correct?",
+    "options": ["A) Rohit", "B) Mohit", "C) Both", "D) Neither"],
+    "correct_answer": "A) Rohit",
+    "explanation": "A right angle = 90°. A straight angle = 180°. Rohit is correct; Mohit described a straight angle."
+  },
+  {
+    "id": 25,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Tina says 'The compound interest on Rs. 1000 at 10% for 1 year compounded annually is Rs. 100.' Is she correct?",
+    "options": ["A) Yes", "B) No, it is Rs. 110", "C) No, it is Rs. 90", "D) No, it is Rs. 120"],
+    "correct_answer": "A) Yes",
+    "explanation": "CI for 1 year = SI = (1000 × 10 × 1)/100 = Rs. 100. For 1 year, CI and SI are equal. Tina is correct."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Amit says 'The speed of a car covering 240 km in 4 hours is 60 km/h.' Sumit says 'The speed is 80 km/h.' Who is correct?",
+    "options": ["A) Amit", "B) Sumit", "C) Both", "D) Neither"],
+    "correct_answer": "A) Amit",
+    "explanation": "Speed = 240/4 = 60 km/h. Amit is correct; Sumit is wrong."
+  },
+  {
+    "id": 27,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Puja says 'The mode of 2, 3, 3, 4, 5, 5, 5 is 5.' Suja says 'The mode is 3.' Who is correct?",
+    "options": ["A) Puja", "B) Suja", "C) Both", "D) Neither"],
+    "correct_answer": "A) Puja",
+    "explanation": "5 appears 3 times, 3 appears 2 times. The mode (most frequent) is 5. Puja is correct."
+  },
+  {
+    "id": 28,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rajan says 'The volume of a cube with side 3 cm is 27 cubic cm.' Is he correct?",
+    "options": ["A) Yes", "B) No, it is 9 cubic cm", "C) No, it is 18 cubic cm", "D) No, it is 81 cubic cm"],
+    "correct_answer": "A) Yes",
+    "explanation": "Volume of cube = side³ = 3³ = 27 cubic cm. Rajan's statement is correct."
+  },
+  {
+    "id": 29,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Nita says 'The discount on a Rs. 500 item at 20% is Rs. 100.' Rita says 'The discount is Rs. 80.' Who is correct?",
+    "options": ["A) Nita", "B) Rita", "C) Both", "D) Neither"],
+    "correct_answer": "A) Nita",
+    "explanation": "Discount = 20% of 500 = (20/100) × 500 = Rs. 100. Nita is correct."
+  },
+  {
+    "id": 30,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Karan says 'The sum of angles in a triangle is 180°.' Varun says 'The sum is 360°.' Who is correct?",
+    "options": ["A) Karan", "B) Varun", "C) Both", "D) Neither"],
+    "correct_answer": "A) Karan",
+    "explanation": "The sum of interior angles of a triangle is always 180°. Karan is correct; 360° is the sum for a quadrilateral."
+  },
+  {
+    "id": 31,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Sita says 'If A is taller than B, and B is taller than C, then A is taller than C.' Is this true?",
+    "options": ["A) Yes", "B) No", "C) Cannot be determined", "D) Only sometimes"],
+    "correct_answer": "A) Yes",
+    "explanation": "By transitivity: A > B and B > C implies A > C. Sita's statement is logically correct."
+  },
+  {
+    "id": 32,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Manu says 'The next prime number after 13 is 17.' Tanu says 'It is 15.' Who is correct?",
+    "options": ["A) Manu", "B) Tanu", "C) Both", "D) Neither"],
+    "correct_answer": "A) Manu",
+    "explanation": "14 = 2×7, 15 = 3×5 (not prime), 16 = 2⁴ (not prime), 17 is prime. Manu is correct."
+  },
+  {
+    "id": 33,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Deepak says 'A worker earns Rs. 450 per day. In 30 days, he earns Rs. 13,500.' Is this correct?",
+    "options": ["A) Yes", "B) No, it is Rs. 12,000", "C) No, it is Rs. 14,000", "D) No, it is Rs. 13,000"],
+    "correct_answer": "A) Yes",
+    "explanation": "Total earnings = 450 × 30 = Rs. 13,500. Deepak's statement is correct."
+  },
+  {
+    "id": 34,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Alok says 'The fraction 3/4 is greater than 2/3.' Balok says '2/3 is greater.' Who is correct?",
+    "options": ["A) Alok", "B) Balok", "C) Both are equal", "D) Cannot be determined"],
+    "correct_answer": "A) Alok",
+    "explanation": "3/4 = 0.75 and 2/3 ≈ 0.667. Since 0.75 > 0.667, Alok is correct."
+  },
+  {
+    "id": 35,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Priti says 'The time taken to travel 180 km at 45 km/h is 4 hours.' Is she correct?",
+    "options": ["A) Yes", "B) No, it is 3 hours", "C) No, it is 5 hours", "D) No, it is 6 hours"],
+    "correct_answer": "A) Yes",
+    "explanation": "Time = Distance/Speed = 180/45 = 4 hours. Priti's statement is correct."
+  },
+  {
+    "id": 36,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rahul says 'The number 72 is divisible by both 8 and 9.' Rahul's friend says 'It is not divisible by 9.' Who is correct?",
+    "options": ["A) Rahul", "B) Rahul's friend", "C) Both", "D) Neither"],
+    "correct_answer": "A) Rahul",
+    "explanation": "72 ÷ 8 = 9 (divisible). 72 ÷ 9 = 8 (divisible). Rahul is correct on both counts."
+  },
+  {
+    "id": 37,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Seema says 'The selling price of an item bought at Rs. 200 with 15% profit is Rs. 230.' Is she correct?",
+    "options": ["A) Yes", "B) No, it is Rs. 215", "C) No, it is Rs. 240", "D) No, it is Rs. 220"],
+    "correct_answer": "A) Yes",
+    "explanation": "SP = CP × (1 + profit%) = 200 × 1.15 = Rs. 230. Seema is correct."
+  },
+  {
+    "id": 38,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Vinod says 'The number of seconds in an hour is 3600.' Manoj says 'It is 3000.' Who is correct?",
+    "options": ["A) Vinod", "B) Manoj", "C) Both", "D) Neither"],
+    "correct_answer": "A) Vinod",
+    "explanation": "1 hour = 60 minutes × 60 seconds = 3600 seconds. Vinod is correct."
+  },
+  {
+    "id": 39,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Geeta says 'The probability of getting a head in a fair coin toss is 1/2.' Reeta says 'It is 1/3.' Who is correct?",
+    "options": ["A) Geeta", "B) Reeta", "C) Both", "D) Neither"],
+    "correct_answer": "A) Geeta",
+    "explanation": "A fair coin has 2 outcomes (H, T). P(Head) = 1/2. Geeta is correct."
+  },
+  {
+    "id": 40,
+    "topic": "Verification of Truth",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arun says 'The cost of 5 pens at Rs. 12 each is Rs. 60.' Varun says 'The cost is Rs. 72.' Who is correct?",
+    "options": ["A) Arun", "B) Varun", "C) Both", "D) Neither"],
+    "correct_answer": "A) Arun",
+    "explanation": "Cost = 5 × 12 = Rs. 60. Arun is correct; Varun calculated 6 × 12 = 72 (wrong count)."
+  },
+  {
+    "id": 41,
+    "topic": "Verification of Truth",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Three persons A, B, C make the following statements: A says 'B is lying.' B says 'C is lying.' C says 'Both A and B are lying.' How many of them are telling the truth?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "correct_answer": "B) 1",
+    "explanation": "If A tells truth, B lies → C tells truth → A and B both lie, contradiction. If B tells truth, C lies → A and B not both lying → A could tell truth. Exactly one consistent scenario gives 1 truth-teller."
+  },
+  {
+    "id": 42,
+    "topic": "Verification of Truth",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A says 'The sum of my age and B's age is 50.' B says 'I am 5 years younger than A.' C says 'A is 30 years old.' If C is correct, what is B's age?",
+    "options": ["A) 20", "B) 25", "C) 30", "D) 15"],
+    "correct_answer": "A) 20",
+    "explanation": "If A = 30, then from A's statement: B = 50 - 30 = 20. From B's statement: B = 30 - 5 = 25. C's statement gives B = 20 via A's claim."
+  },
+  {
+    "id": 43,
+    "topic": "Verification of Truth",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "P says 'Q has more money than R.' Q says 'R has more money than P.' R says 'P has more money than Q.' Only one of them is telling the truth. Who has the most money?",
+    "options": ["A) P", "B) Q", "C) R", "D) Cannot be determined"],
+    "correct_answer": "C) R",
+    "explanation": "If R has most money: P's statement (Q>R) is false, Q's statement (R>P) is true, R's statement (P>Q) could be false. Only Q tells truth. This is consistent with exactly one truth-teller."
+  },
+  {
+    "id": 44,
+    "topic": "Verification of Truth",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a class of 40 students, 60% passed in Math and 70% passed in Science. 20% failed in both. What percentage passed in both subjects?",
+    "options": ["A) 50%", "B) 40%", "C) 30%", "D) 45%"],
+    "correct_answer": "A) 50%",
+    "explanation": "Passed in at least one = 100% - 20% = 80%. By inclusion-exclusion: P(M∪S) = P(M)+P(S)-P(M∩S) → 80 = 60+70-P(M∩S

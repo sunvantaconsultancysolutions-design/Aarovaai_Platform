@@ -1,0 +1,469 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits are in an IPv6 address?",
+    "options": ["A) 32 bits", "B) 64 bits", "C) 128 bits", "D) 256 bits"],
+    "correct_answer": "C) 128 bits",
+    "explanation": "IPv6 addresses are 128 bits long, compared to IPv4 which uses 32 bits. This allows for a vastly larger address space."
+  },
+  {
+    "id": 2,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An IPv6 address is divided into how many groups of hexadecimal digits?",
+    "options": ["A) 4 groups", "B) 6 groups", "C) 8 groups", "D) 16 groups"],
+    "correct_answer": "C) 8 groups",
+    "explanation": "An IPv6 address is written as 8 groups of 4 hexadecimal digits, separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334)."
+  },
+  {
+    "id": 3,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which separator is used between groups in an IPv6 address?",
+    "options": ["A) Period (.)", "B) Colon (:)", "C) Hyphen (-)", "D) Slash (/)"],
+    "correct_answer": "B) Colon (:)",
+    "explanation": "IPv6 addresses use colons (:) to separate the 8 groups of hexadecimal digits, unlike IPv4 which uses periods."
+  },
+  {
+    "id": 4,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the total number of possible IPv6 addresses?",
+    "options": ["A) 2^32", "B) 2^64", "C) 2^128", "D) 2^256"],
+    "correct_answer": "C) 2^128",
+    "explanation": "Since IPv6 uses 128 bits, the total number of possible addresses is 2^128, which is approximately 3.4 × 10^38."
+  },
+  {
+    "id": 5,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid IPv6 address?",
+    "options": ["A) 192.168.1.1", "B) 2001:0db8:85a3:0000:0000:8a2e:0370:7334", "C) 2001.0db8.85a3.0000", "D) GH01:0db8:85a3:0000:0000:8a2e:0370:7334"],
+    "correct_answer": "B) 2001:0db8:85a3:0000:0000:8a2e:0370:7334",
+    "explanation": "A valid IPv6 address uses 8 groups of 4 hexadecimal digits separated by colons. Option A is IPv4, C uses periods, and D contains invalid hex characters (G, H)."
+  },
+  {
+    "id": 6,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the double colon (::) represent in an IPv6 address?",
+    "options": ["A) A single zero", "B) One or more groups of all zeros", "C) The end of the address", "D) A subnet mask"],
+    "correct_answer": "B) One or more groups of all zeros",
+    "explanation": "The double colon (::) is a shorthand notation that replaces one or more consecutive groups of all-zero 16-bit blocks. It can appear only once in an address."
+  },
+  {
+    "id": 7,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the loopback address in IPv6?",
+    "options": ["A) 127.0.0.1", "B) ::1", "C) FF02::1", "D) FE80::1"],
+    "correct_answer": "B) ::1",
+    "explanation": "The IPv6 loopback address is ::1, which is equivalent to 127.0.0.1 in IPv4. It represents the local host."
+  },
+  {
+    "id": 8,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which version of IP protocol uses 128-bit addresses?",
+    "options": ["A) IPv4", "B) IPv5", "C) IPv6", "D) IPv8"],
+    "correct_answer": "C) IPv6",
+    "explanation": "IPv6 (Internet Protocol version 6) uses 128-bit addresses. IPv4 uses 32-bit addresses. IPv5 was an experimental protocol and IPv8 does not exist as a standard."
+  },
+  {
+    "id": 9,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many hexadecimal digits are in each group of an IPv6 address?",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 8"],
+    "correct_answer": "B) 4",
+    "explanation": "Each of the 8 groups in an IPv6 address contains 4 hexadecimal digits, representing 16 bits per group (4 bits per hex digit × 4 digits = 16 bits)."
+  },
+  {
+    "id": 10,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What prefix is used for link-local addresses in IPv6?",
+    "options": ["A) FF00::/8", "B) FE80::/10", "C) 2001::/16", "D) FC00::/7"],
+    "correct_answer": "B) FE80::/10",
+    "explanation": "Link-local addresses in IPv6 use the prefix FE80::/10. These addresses are used for communication within a single network segment and are not routable."
+  },
+  {
+    "id": 11,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the IPv6 equivalent of IPv4 broadcast?",
+    "options": ["A) Unicast", "B) Anycast", "C) Multicast", "D) Broadcast"],
+    "correct_answer": "C) Multicast",
+    "explanation": "IPv6 does not support broadcast. Instead, it uses multicast to send packets to multiple destinations simultaneously. Anycast sends to the nearest node in a group."
+  },
+  {
+    "id": 12,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the prefix length notation used in IPv6 to denote the network portion?",
+    "options": ["A) Subnet mask like 255.255.255.0", "B) CIDR notation like /64", "C) Wildcard mask", "D) Hexadecimal mask"],
+    "correct_answer": "B) CIDR notation like /64",
+    "explanation": "IPv6 uses CIDR (Classless Inter-Domain Routing) notation with a slash followed by the prefix length (e.g., /64). Subnet masks are used in IPv4, not IPv6."
+  },
+  {
+    "id": 13,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which address type in IPv6 is used to send a packet to a single interface?",
+    "options": ["A) Multicast", "B) Anycast", "C) Unicast", "D) Broadcast"],
+    "correct_answer": "C) Unicast",
+    "explanation": "Unicast addresses identify a single network interface. A packet sent to a unicast address is delivered to only that specific interface."
+  },
+  {
+    "id": 14,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the all-nodes multicast address in IPv6?",
+    "options": ["A) FF02::1", "B) FF02::2", "C) FF02::5", "D) FF01::1"],
+    "correct_answer": "A) FF02::1",
+    "explanation": "FF02::1 is the all-nodes multicast address in IPv6, used to reach all IPv6-enabled nodes on the local link. FF02::2 is the all-routers multicast address."
+  },
+  {
+    "id": 15,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol does IPv6 use for neighbor discovery, replacing ARP from IPv4?",
+    "options": ["A) ICMP", "B) NDP (Neighbor Discovery Protocol)", "C) DHCP", "D) RARP"],
+    "correct_answer": "B) NDP (Neighbor Discovery Protocol)",
+    "explanation": "IPv6 uses NDP (Neighbor Discovery Protocol) instead of ARP. NDP uses ICMPv6 messages to discover neighbors, routers, and perform address resolution."
+  },
+  {
+    "id": 16,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of the IPv6 header?",
+    "options": ["A) 20 bytes", "B) 40 bytes", "C) 60 bytes", "D) 128 bytes"],
+    "correct_answer": "B) 40 bytes",
+    "explanation": "The IPv6 fixed header is 40 bytes (320 bits) long. This is larger than the minimum IPv4 header of 20 bytes but is simpler and fixed in size."
+  },
+  {
+    "id": 17,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which field in the IPv6 header replaces the TTL field from IPv4?",
+    "options": ["A) Flow Label", "B) Traffic Class", "C) Hop Limit", "D) Next Header"],
+    "correct_answer": "C) Hop Limit",
+    "explanation": "The Hop Limit field in IPv6 replaces the TTL (Time to Live) field in IPv4. It is decremented by 1 at each router, and the packet is discarded when it reaches 0."
+  },
+  {
+    "id": 18,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the unspecified address in IPv6?",
+    "options": ["A) ::1", "B) ::", "C) FF00::", "D) FE80::"],
+    "correct_answer": "B) ::",
+    "explanation": "The unspecified address in IPv6 is :: (all zeros), equivalent to 0.0.0.0 in IPv4. It is used when a device does not yet have an address assigned."
+  },
+  {
+    "id": 19,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly compresses the IPv6 address 2001:0DB8:0000:0000:0000:0000:0000:0001?",
+    "options": ["A) 2001:DB8::1", "B) 2001:DB8:0:1", "C) 2001::DB8::1", "D) 2001:0DB8::0001"],
+    "correct_answer": "A) 2001:DB8::1",
+    "explanation": "Leading zeros in each group can be removed, and consecutive all-zero groups can be replaced with ::. So 2001:0DB8:0000:0000:0000:0000:0000:0001 becomes 2001:DB8::1."
+  },
+  {
+    "id": 20,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of address is assigned to multiple interfaces, with packets delivered to the nearest one?",
+    "options": ["A) Unicast", "B) Multicast", "C) Anycast", "D) Broadcast"],
+    "correct_answer": "C) Anycast",
+    "explanation": "An anycast address is assigned to multiple interfaces. A packet sent to an anycast address is delivered to the nearest interface (in terms of routing distance) that has that address."
+  },
+  {
+    "id": 21,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the prefix used for IPv6 multicast addresses?",
+    "options": ["A) FE80::/10", "B) FC00::/7", "C) FF00::/8", "D) 2000::/3"],
+    "correct_answer": "C) FF00::/8",
+    "explanation": "All IPv6 multicast addresses begin with the prefix FF00::/8. The first byte is always FF (11111111 in binary), identifying the address as multicast."
+  },
+  {
+    "id": 22,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which mechanism allows IPv6 packets to be transmitted over IPv4 networks?",
+    "options": ["A) NAT", "B) Tunneling", "C) Subnetting", "D) VLSM"],
+    "correct_answer": "B) Tunneling",
+    "explanation": "Tunneling encapsulates IPv6 packets within IPv4 packets, allowing IPv6 traffic to traverse IPv4 networks. This is a key transition mechanism during IPv4 to IPv6 migration."
+  },
+  {
+    "id": 23,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits does each hexadecimal digit represent in an IPv6 address?",
+    "options": ["A) 2 bits", "B) 4 bits", "C) 8 bits", "D) 16 bits"],
+    "correct_answer": "B) 4 bits",
+    "explanation": "Each hexadecimal digit represents 4 bits (a nibble). Since each group in IPv6 has 4 hex digits, each group represents 16 bits."
+  },
+  {
+    "id": 24,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary reason IPv6 was developed?",
+    "options": ["A) To increase network speed", "B) To address IPv4 address exhaustion", "C) To replace TCP", "D) To improve wireless connectivity"],
+    "correct_answer": "B) To address IPv4 address exhaustion",
+    "explanation": "IPv6 was primarily developed to solve the IPv4 address exhaustion problem. IPv4 supports only ~4.3 billion addresses, while IPv6 supports 2^128 addresses."
+  },
+  {
+    "id": 25,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which field in the IPv6 header is used for QoS (Quality of Service) marking?",
+    "options": ["A) Flow Label", "B) Traffic Class", "C) Next Header", "D) Payload Length"],
+    "correct_answer": "B) Traffic Class",
+    "explanation": "The Traffic Class field (8 bits) in IPv6 is used for QoS marking, similar to the DSCP/TOS field in IPv4. It allows routers to prioritize certain types of traffic."
+  },
+  {
+    "id": 26,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default prefix length for a typical IPv6 subnet assigned to a LAN?",
+    "options": ["A) /32", "B) /48", "C) /64", "D) /128"],
+    "correct_answer": "C) /64",
+    "explanation": "A /64 prefix is the standard for IPv6 subnets assigned to LANs. The first 64 bits are the network prefix and the last 64 bits are the interface identifier."
+  },
+  {
+    "id": 27,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid rule for compressing an IPv6 address?",
+    "options": ["A) Remove leading zeros in each group", "B) Replace consecutive all-zero groups with ::", "C) Use :: more than once in an address", "D) Omit leading zeros from any group"],
+    "correct_answer": "C) Use :: more than once in an address",
+    "explanation": "The double colon (::) can only be used once in an IPv6 address. Using it more than once would create ambiguity about how many zero groups it represents."
+  },
+  {
+    "id": 28,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does SLAAC stand for in IPv6?",
+    "options": ["A) Stateless Link Address Auto Configuration", "B) Stateless Address Autoconfiguration", "C) Static Local Address Auto Configuration", "D) Subnet Layer Address Auto Configuration"],
+    "correct_answer": "B) Stateless Address Autoconfiguration",
+    "explanation": "SLAAC (Stateless Address Autoconfiguration) allows IPv6 devices to automatically configure their own IP addresses using the network prefix from router advertisements without a DHCP server."
+  },
+  {
+    "id": 29,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following IPv6 address types is routable on the global internet?",
+    "options": ["A) Link-local (FE80::/10)", "B) Loopback (::1)", "C) Global unicast (2000::/3)", "D) Unique local (FC00::/7)"],
+    "correct_answer": "C) Global unicast (2000::/3)",
+    "explanation": "Global unicast addresses (2000::/3) are globally routable on the internet. Link-local, loopback, and unique local addresses are not routable on the public internet."
+  },
+  {
+    "id": 30,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the all-routers multicast address in IPv6?",
+    "options": ["A) FF02::1", "B) FF02::2", "C) FF02::9", "D) FF01::2"],
+    "correct_answer": "B) FF02::2",
+    "explanation": "FF02::2 is the all-routers multicast address on the local link. Routers listen to this address. FF02::1 is the all-nodes multicast address."
+  },
+  {
+    "id": 31,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bytes are in an IPv6 address?",
+    "options": ["A) 4 bytes", "B) 8 bytes", "C) 16 bytes", "D) 32 bytes"],
+    "correct_answer": "C) 16 bytes",
+    "explanation": "An IPv6 address is 128 bits long. Since 1 byte = 8 bits, 128 ÷ 8 = 16 bytes. IPv4 addresses are 4 bytes (32 bits)."
+  },
+  {
+    "id": 32,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct expanded form of the IPv6 address 2001:DB8::1?",
+    "options": ["A) 2001:0DB8:0000:0000:0000:0000:0000:0001", "B) 2001:0DB8:0001:0000:0000:0000:0000:0000", "C) 2001:0DB8:0000:0000:0000:0000:0001:0000", "D) 2001:DB80:0000:0000:0000:0000:0000:0001"],
+    "correct_answer": "A) 2001:0DB8:0000:0000:0000:0000:0000:0001",
+    "explanation": "2001:DB8::1 expands by replacing :: with the required number of all-zero groups to make 8 groups total. DB8 becomes 0DB8, and 1 becomes 0001."
+  },
+  {
+    "id": 33,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the Flow Label field size in the IPv6 header?",
+    "options": ["A) 4 bits", "B) 8 bits", "C) 20 bits", "D) 32 bits"],
+    "correct_answer": "C) 20 bits",
+    "explanation": "The Flow Label field in the IPv6 header is 20 bits long. It is used to identify packets belonging to the same flow for special handling by routers."
+  },
+  {
+    "id": 34,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a unique local address prefix in IPv6?",
+    "options": ["A) FE80::/10", "B) FF00::/8", "C) FC00::/7", "D) 2001::/32"],
+    "correct_answer": "C) FC00::/7",
+    "explanation": "Unique local addresses (ULA) use the FC00::/7 prefix (FC00:: to FDFF::). They are similar to private addresses in IPv4 and are not routable on the global internet."
+  },
+  {
+    "id": 35,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In IPv6, which mechanism automatically generates an interface ID using the MAC address?",
+    "options": ["A) DHCP", "B) EUI-64", "C) NAT64", "D) 6to4"],
+    "correct_answer": "B) EUI-64",
+    "explanation": "EUI-64 (Extended Unique Identifier) is a method to automatically generate a 64-bit interface ID from a 48-bit MAC address by inserting FF:FE in the middle and flipping the 7th bit."
+  },
+  {
+    "id": 36,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the version number field value in an IPv6 header?",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 8"],
+    "correct_answer": "C) 6",
+    "explanation": "The Version field in the IPv6 header contains the value 6, indicating it is an IPv6 packet. IPv4 packets have the value 4 in this field."
+  },
+  {
+    "id": 37,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a field in the IPv6 fixed header?",
+    "options": ["A) Flow Label", "B) Hop Limit", "C) Checksum", "D) Traffic Class"],
+    "correct_answer": "C) Checksum",
+    "explanation": "IPv6 does not have a header checksum field, unlike IPv4. This was removed to reduce processing overhead at each router, as upper-layer protocols handle error checking."
+  },
+  {
+    "id": 38,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the Payload Length field in IPv6 measured in?",
+    "options": ["A) Bits", "B) Nibbles", "C) Bytes", "D) Kilobytes"],
+    "correct_answer": "C) Bytes",
+    "explanation": "The Payload Length field in IPv6 is a 16-bit field that indicates the length of the payload (data after the header) in bytes, not including the 40-byte fixed header."
+  },
+  {
+    "id": 39,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which transition technology embeds an IPv4 address within an IPv6 address?",
+    "options": ["A) Dual Stack", "B) 6to4", "C) ISATAP", "D) Teredo"],
+    "correct_answer": "B) 6to4",
+    "explanation": "6to4 is a transition mechanism that embeds an IPv4 address in the last 32 bits of an IPv6 address using the prefix 2002::/16, allowing IPv6 packets to travel over IPv4 networks."
+  },
+  {
+    "id": 40,
+    "topic": "IPv6",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the Next Header field in IPv6 indicate?",
+    "options": ["A) The IP version of the next packet", "B) The type of the next header or upper-layer protocol", "C) The next hop router address", "D) The next available IP address"],
+    "correct_answer": "B) The type of the next header or upper-layer protocol",
+    "explanation": "The Next Header field (8 bits) identifies the type of header immediately following the IPv6 header, such as TCP (6), UDP (17), or an extension header type."
+  },
+  {
+    "id": 41,
+    "topic": "IPv6",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "How many IPv6 addresses can be assigned to a single /64 subnet?",
+    "options": ["A) 2^32", "B) 2^48", "C) 2^64", "D) 2^128"],
+    "correct_answer": "C) 2^64",
+    "explanation": "In a /64 subnet, the first 64 bits are the network prefix and the remaining 64 bits are the host portion. So 2^64 addresses are available in a single /64 subnet."
+  },
+  {
+    "id": 42,
+    "topic": "IPv6",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "An organization receives a /48 IPv6 prefix. How many /64 subnets can it create?",
+    "options": ["A) 256", "B) 1024", "C) 65536", "D) 16777216"],
+    "correct_answer": "C) 65536",
+    "explanation": "From /48 to /64, there are 64 - 48 = 16 bits available for subnetting. So the number of /64 subnets = 2^16 = 65,536."
+  },
+  {
+    "id": 43,
+    "topic": "IPv6",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which ICMPv6 message type is used by a host to discover routers on the local link?",
+    "options": ["A) Router Advertisement (RA)", "B) Router Solicitation (RS)", "C) Neighbor Solicitation (NS)", "D) Neighbor Advertisement (NA)"],
+    "correct_answer": "B) Router Solicitation (RS)",
+    "explanation": "A host sends a Router Solicitation (RS) message to discover routers. Routers respond with Router Advertisement (RA) messages containing network prefix and configuration information."
+  },
+  {
+    "id": 44,
+    "topic": "IPv6",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the ICMPv6 type number for Neighbor Solicitation?",
+    "options": ["A) 133", "B) 134", "C) 135", "D) 136"],
+    "correct_answer": "C) 135",
+    "explanation": "ICMPv6 type 135 is Neighbor Solicitation (NS). Type 136 is Neighbor Advertisement (NA). Type 133 is Router Solicitation and Type 134 is Router Advertisement."
+  },
+  {
+    "id": 45,
+    "topic": "IPv6",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In EUI-64, a MAC address of 00:1A:2B:3C:4D:5E would generate which interface ID?",
+    "options": ["A) 021A:2BFF:FE3C:4D5E", "B) 001A:2B3C:4D5E:0000", "C) FF1A:2BFE:FF3C:4D5E", "D) 001A:2BFF:FE3C:4D5E"],
+    "correct_answer": "A) 021A:2BFF:FE3C:4D5E",
+    "explanation": "EUI-64: Split MAC at middle → 00:1A:2B | 3C:4D:5E, insert FF:FE → 00:1A:2B:FF:FE:3C:4D:5E, flip 7th bit of first byte (00 → 02). Result: 021A:2BFF:FE3C:4D5E."
+  },
+  {
+    "id": 46,
+    "topic": "IPv6",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which IPv6 extension header is used for fragmentation?",
+    "options": ["A) Hop-by-Hop Options", "B) Routing Header", "C) Fragment Header", "D) Destination Options"],
+    "correct_answer": "C) Fragment Header",
+    "explanation": "The Fragment Header extension header is used when a source node needs to fragment a packet. Unlike IPv4, only the source node can fragment IPv6 packets, not intermediate routers."
+  },
+  {
+    "id": 47,
+    "topic": "IPv6",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the solicited-node multicast address for the IPv6 address 2001:DB8::1?",
+    "

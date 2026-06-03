@@ -1,0 +1,617 @@
+[
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the square root of 144?",
+    "options": ["10", "11", "12", "13"],
+    "correct_answer": "12",
+    "explanation": "12 × 12 = 144, so √144 = 12."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the cube root of 27?",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "3",
+    "explanation": "3 × 3 × 3 = 27, so ∛27 = 3."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the square root of 225?",
+    "options": ["13", "14", "15", "16"],
+    "correct_answer": "15",
+    "explanation": "15 × 15 = 225, so √225 = 15."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the cube root of 64?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "4",
+    "explanation": "4 × 4 × 4 = 64, so ∛64 = 4."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the square root of 400?",
+    "options": ["18", "19", "20", "21"],
+    "correct_answer": "20",
+    "explanation": "20 × 20 = 400, so √400 = 20."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cube root of 125?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "5",
+    "explanation": "5 × 5 × 5 = 125, so ∛125 = 5."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the square root of 81?",
+    "options": ["7", "8", "9", "10"],
+    "correct_answer": "9",
+    "explanation": "9 × 9 = 81, so √81 = 9."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the cube root of 216?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "6",
+    "explanation": "6 × 6 × 6 = 216, so ∛216 = 6."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the square root of 169?",
+    "options": ["11", "12", "13", "14"],
+    "correct_answer": "13",
+    "explanation": "13 × 13 = 169, so √169 = 13."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the cube root of 512?",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "8",
+    "explanation": "8 × 8 × 8 = 512, so ∛512 = 8."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the square root of 256?",
+    "options": ["14", "15", "16", "17"],
+    "correct_answer": "16",
+    "explanation": "16 × 16 = 256, so √256 = 16."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cube root of 1000?",
+    "options": ["8", "9", "10", "11"],
+    "correct_answer": "10",
+    "explanation": "10 × 10 × 10 = 1000, so ∛1000 = 10."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the square root of 361?",
+    "options": ["17", "18", "19", "20"],
+    "correct_answer": "19",
+    "explanation": "19 × 19 = 361, so √361 = 19."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the cube root of 343?",
+    "options": ["5", "6", "7", "8"],
+    "correct_answer": "7",
+    "explanation": "7 × 7 × 7 = 343, so ∛343 = 7."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the square root of 625?",
+    "options": ["23", "24", "25", "26"],
+    "correct_answer": "25",
+    "explanation": "25 × 25 = 625, so √625 = 25."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the cube root of 729?",
+    "options": ["7", "8", "9", "10"],
+    "correct_answer": "9",
+    "explanation": "9 × 9 × 9 = 729, so ∛729 = 9."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the square root of 49?",
+    "options": ["5", "6", "7", "8"],
+    "correct_answer": "7",
+    "explanation": "7 × 7 = 49, so √49 = 7."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cube root of 8?",
+    "options": ["1", "2", "3", "4"],
+    "correct_answer": "2",
+    "explanation": "2 × 2 × 2 = 8, so ∛8 = 2."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the square root of 196?",
+    "options": ["12", "13", "14", "15"],
+    "correct_answer": "14",
+    "explanation": "14 × 14 = 196, so √196 = 14."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the cube root of 1331?",
+    "options": ["9", "10", "11", "12"],
+    "correct_answer": "11",
+    "explanation": "11 × 11 × 11 = 1331, so ∛1331 = 11."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the square root of 100?",
+    "options": ["8", "9", "10", "11"],
+    "correct_answer": "10",
+    "explanation": "10 × 10 = 100, so √100 = 10."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the cube root of 1728?",
+    "options": ["10", "11", "12", "13"],
+    "correct_answer": "12",
+    "explanation": "12 × 12 × 12 = 1728, so ∛1728 = 12."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the square root of 289?",
+    "options": ["15", "16", "17", "18"],
+    "correct_answer": "17",
+    "explanation": "17 × 17 = 289, so √289 = 17."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cube root of 2197?",
+    "options": ["11", "12", "13", "14"],
+    "correct_answer": "13",
+    "explanation": "13 × 13 × 13 = 2197, so ∛2197 = 13."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the square root of 529?",
+    "options": ["21", "22", "23", "24"],
+    "correct_answer": "23",
+    "explanation": "23 × 23 = 529, so √529 = 23."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the cube root of 2744?",
+    "options": ["12", "13", "14", "15"],
+    "correct_answer": "14",
+    "explanation": "14 × 14 × 14 = 2744, so ∛2744 = 14."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the square root of 36?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "6",
+    "explanation": "6 × 6 = 36, so √36 = 6."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the cube root of 3375?",
+    "options": ["13", "14", "15", "16"],
+    "correct_answer": "15",
+    "explanation": "15 × 15 × 15 = 3375, so ∛3375 = 15."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the square root of 441?",
+    "options": ["19", "20", "21", "22"],
+    "correct_answer": "21",
+    "explanation": "21 × 21 = 441, so √441 = 21."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cube root of 4096?",
+    "options": ["14", "15", "16", "17"],
+    "correct_answer": "16",
+    "explanation": "16 × 16 × 16 = 4096, so ∛4096 = 16."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the square root of 484?",
+    "options": ["20", "21", "22", "23"],
+    "correct_answer": "22",
+    "explanation": "22 × 22 = 484, so √484 = 22."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the cube root of 4913?",
+    "options": ["15", "16", "17", "18"],
+    "correct_answer": "17",
+    "explanation": "17 × 17 × 17 = 4913, so ∛4913 = 17."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the square root of 576?",
+    "options": ["22", "23", "24", "25"],
+    "correct_answer": "24",
+    "explanation": "24 × 24 = 576, so √576 = 24."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the cube root of 5832?",
+    "options": ["16", "17", "18", "19"],
+    "correct_answer": "18",
+    "explanation": "18 × 18 × 18 = 5832, so ∛5832 = 18."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the square root of 676?",
+    "options": ["24", "25", "26", "27"],
+    "correct_answer": "26",
+    "explanation": "26 × 26 = 676, so √676 = 26."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cube root of 6859?",
+    "options": ["17", "18", "19", "20"],
+    "correct_answer": "19",
+    "explanation": "19 × 19 × 19 = 6859, so ∛6859 = 19."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the square root of 729?",
+    "options": ["25", "26", "27", "28"],
+    "correct_answer": "27",
+    "explanation": "27 × 27 = 729, so √729 = 27."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the cube root of 8000?",
+    "options": ["18", "19", "20", "21"],
+    "correct_answer": "20",
+    "explanation": "20 × 20 × 20 = 8000, so ∛8000 = 20."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the square root of 784?",
+    "options": ["26", "27", "28", "29"],
+    "correct_answer": "28",
+    "explanation": "28 × 28 = 784, so √784 = 28."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the cube root of 9261?",
+    "options": ["19", "20", "21", "22"],
+    "correct_answer": "21",
+    "explanation": "21 × 21 × 21 = 9261, so ∛9261 = 21."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of √(0.0081)?",
+    "options": ["0.009", "0.09", "0.9", "9"],
+    "correct_answer": "0.09",
+    "explanation": "√(0.0081) = √(81/10000) = 9/100 = 0.09."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If √x = 12, what is the value of x?",
+    "options": ["120", "132", "144", "156"],
+    "correct_answer": "144",
+    "explanation": "If √x = 12, then x = 12² = 144."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of ∛(0.027)?",
+    "options": ["0.003", "0.03", "0.3", "3"],
+    "correct_answer": "0.3",
+    "explanation": "∛(0.027) = ∛(27/1000) = 3/10 = 0.3."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the smallest number by which 180 must be multiplied to make it a perfect square?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "5",
+    "explanation": "180 = 4 × 9 × 5 = 2² × 3² × 5. To make it a perfect square, multiply by 5. So 180 × 5 = 900 = 30²."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the smallest number by which 72 must be divided to make it a perfect cube?",
+    "options": ["3", "6", "9", "12"],
+    "correct_answer": "9",
+    "explanation": "72 = 2³ × 3². To make it a perfect cube, divide by 3² = 9. So 72/9 = 8 = 2³."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of √(1764)?",
+    "options": ["40", "42", "44", "46"],
+    "correct_answer": "42",
+    "explanation": "42 × 42 = 1764, so √1764 = 42."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of ∛(9261)?",
+    "options": ["19", "20", "21", "22"],
+    "correct_answer": "21",
+    "explanation": "21 × 21 × 21 = 9261, so ∛9261 = 21."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "If ∛x = 5, what is the value of x?",
+    "options": ["75", "100", "125", "150"],
+    "correct_answer": "125",
+    "explanation": "If ∛x = 5, then x = 5³ = 125."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of √(5929)?",
+    "options": ["75", "77", "79", "81"],
+    "correct_answer": "77",
+    "explanation": "77 × 77 = 5929, so √5929 = 77."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of √(2025)?",
+    "options": ["43", "44", "45", "46"],
+    "correct_answer": "45",
+    "explanation": "45 × 45 = 2025, so √2025 = 45."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the smallest number that must be added to 1300 to make it a perfect square?",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "6",
+    "explanation": "36² = 1296, 37² = 1369. So 1300 + 69 = 1369. Wait: 36² = 1296, difference = 4. Actually 36² = 1296, 1300 - 1296 = 4, so add 1369 - 1300 = 69. Recalculate: 36² = 1296, 37² = 1369. 1369 - 1300 = 69. But option is 6. Let me reconsider: nearest perfect square above 1300 is 1369 (37²), so add 69. Hmm, none match. Let me use 1296: 36²=1296, need to add 4 to get 1300, but 1300 is not a perfect square. Add 69 to get 1369. The answer should be 69 but that's not in options. Let me reframe: smallest number added to 1300 to make perfect square. 36²=1296 < 1300 < 37²=1369. So add 69. Correcting the question.",
+    "options": ["44", "56", "69", "81"],
+    "correct_answer": "69",
+    "explanation": "36² = 1296, 37² = 1369. Since 1300 < 1369, we need to add 1369 - 1300 = 69 to make it a perfect square."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of √(3136)?",
+    "options": ["54", "56", "58", "60"],
+    "correct_answer": "56",
+    "explanation": "56 × 56 = 3136, so √3136 = 56."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of ∛(17576)?",
+    "options": ["24", "25", "26", "27"],
+    "correct_answer": "26",
+    "explanation": "26 × 26 × 26 = 17576, so ∛17576 = 26."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of √(7056)?",
+    "options": ["82", "84", "86", "88"],
+    "correct_answer": "84",
+    "explanation": "84 × 84 = 7056, so √7056 = 84."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of ∛(19683)?",
+    "options": ["25", "26", "27", "28"],
+    "correct_answer": "27",
+    "explanation": "27 × 27 × 27 = 19683, so ∛19683 = 27."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of √(8281)?",
+    "options": ["89", "90", "91", "92"],
+    "correct_answer": "91",
+    "explanation": "91 × 91 = 8281, so √8281 = 91."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of √(4/9)?",
+    "options": ["1/3", "2/3", "2/9", "4/3"],
+    "correct_answer": "2/3",
+    "explanation": "√(4/9) = √4/√9 = 2/3."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of ∛(8/27)?",
+    "options": ["1/3", "2/3", "2/9", "4/9"],
+    "correct_answer": "2/3",
+    "explanation": "∛(8/27) = ∛8/∛27 = 2/3."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the smallest number by which 1458 must be multiplied to make it a perfect cube?",
+    "options": ["2", "3", "4", "6"],
+    "correct_answer": "4",
+    "explanation": "1458 = 2 × 3⁶. For a perfect cube, we need powers divisible by 3. 2 needs two more factors: multiply by 2² = 4. So 1458 × 4 = 5832 = 18³."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of √(10404)?",
+    "options": ["100", "102", "104", "106"],
+    "correct_answer": "102",
+    "explanation": "102 × 102 = 10404, so √10404 = 102."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of ∛(32768)?",
+    "options": ["30", "32", "34", "36"],
+    "correct_answer": "32",
+    "explanation": "32 × 32 × 32 = 32768, so ∛32768 = 32."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of √(12544)?",
+    "options": ["110", "112", "114", "116"],
+    "correct_answer": "112",
+    "explanation": "112 × 112 = 12544, so √12544 = 112."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of ∛(42875)?",
+    "options": ["33", "34", "35", "36"],
+    "correct_answer": "35",
+    "explanation": "35 × 35 × 35 = 42875, so ∛42875 = 35."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of √(15129)?",
+    "options": ["121", "123", "125", "127"],
+    "correct_answer": "123",
+    "explanation": "123 × 123 = 15129, so √15129 = 123."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of √(0.16)?",
+    "options": ["0.04", "0.4", "4", "0.004"],
+    "correct_answer": "0.4",
+    "explanation": "√(0.16) = √(16/100) = 4/10 = 0.4."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of ∛(0.000064)?",
+    "options": ["0.004", "0.04", "0.4", "4"],
+    "correct_answer": "0.04",
+    "explanation": "∛(0.000064) = ∛(64/1000000) = 4/100 = 0.04."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of √(17956)?",
+    "options": ["132", "134", "136", "138"],
+    "correct_answer": "134",
+    "explanation": "134 × 134 = 17956, so √17956 = 134."
+  },
+  {
+    "topic": "Square Root and Cube Root",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of ∛(54872)?",
+    "options": ["36", "37", "38", "39"],
+    "correct_answer": "38",
+    "explanation": "38 × 38 × 38 = 54872, so ∛54872 = 38."
+  }
+]

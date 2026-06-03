@@ -1,0 +1,497 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid variable declaration in C?",
+    "options": ["A) int 1var;", "B) int var1;", "C) int var-1;", "D) int var 1;"],
+    "correct_answer": "B) int var1;",
+    "explanation": "Variable names in C must start with a letter or underscore, not a digit or special character. 'var1' is valid as it starts with a letter."
+  },
+  {
+    "id": 2,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default value of a global integer variable in C if not explicitly initialized?",
+    "options": ["A) 1", "B) undefined", "C) 0", "D) garbage value"],
+    "correct_answer": "C) 0",
+    "explanation": "Global variables in C are automatically initialized to 0 by the compiler if not explicitly initialized."
+  },
+  {
+    "id": 3,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to declare a constant variable in C?",
+    "options": ["A) constant", "B) const", "C) final", "D) static"],
+    "correct_answer": "B) const",
+    "explanation": "The 'const' keyword is used in C to declare a variable whose value cannot be changed after initialization."
+  },
+  {
+    "id": 4,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of: int x = 5; printf(\"%d\", x);",
+    "options": ["A) 0", "B) 5", "C) garbage", "D) error"],
+    "correct_answer": "B) 5",
+    "explanation": "The variable x is declared and initialized to 5. printf with %d prints the integer value, so output is 5."
+  },
+  {
+    "id": 5,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares and initializes a float variable?",
+    "options": ["A) float x = 3;", "B) float x = 3.14;", "C) float x = '3';", "D) Both A and B"],
+    "correct_answer": "D) Both A and B",
+    "explanation": "Both int and float literals can be assigned to a float variable. 3 is implicitly converted to 3.0, and 3.14 is a valid float literal."
+  },
+  {
+    "id": 6,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of an int variable on a 32-bit system in C?",
+    "options": ["A) 1 byte", "B) 2 bytes", "C) 4 bytes", "D) 8 bytes"],
+    "correct_answer": "C) 4 bytes",
+    "explanation": "On a 32-bit system, an int typically occupies 4 bytes (32 bits) of memory."
+  },
+  {
+    "id": 7,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid C data type?",
+    "options": ["A) int", "B) float", "C) real", "D) char"],
+    "correct_answer": "C) real",
+    "explanation": "'real' is not a valid C data type. C supports int, float, double, char, etc., but not 'real'."
+  },
+  {
+    "id": 8,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if you use a local variable without initializing it in C?",
+    "options": ["A) It will be 0", "B) It will be NULL", "C) It will contain a garbage value", "D) Compilation error"],
+    "correct_answer": "C) It will contain a garbage value",
+    "explanation": "Local variables in C are not automatically initialized; they contain whatever value was previously stored at that memory location."
+  },
+  {
+    "id": 9,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following declares multiple variables of the same type in one statement?",
+    "options": ["A) int a; int b; int c;", "B) int a, b, c;", "C) int a b c;", "D) Both A and B"],
+    "correct_answer": "D) Both A and B",
+    "explanation": "Both styles are valid in C. 'int a, b, c;' declares three integers in one statement, while separate declarations also work."
+  },
+  {
+    "id": 10,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to declare a character variable and initialize it with 'A'?",
+    "options": ["A) char c = A;", "B) char c = \"A\";", "C) char c = 'A';", "D) character c = 'A';"],
+    "correct_answer": "C) char c = 'A';",
+    "explanation": "Character literals in C are enclosed in single quotes. 'A' is a char literal, while \"A\" is a string literal."
+  },
+  {
+    "id": 11,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid identifier in C?",
+    "options": ["A) _myVar", "B) my-var", "C) 2myVar", "D) my var"],
+    "correct_answer": "A) _myVar",
+    "explanation": "Identifiers in C can start with a letter or underscore. '_myVar' is valid; hyphens, spaces, and starting digits are not allowed."
+  },
+  {
+    "id": 12,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following declaration mean? unsigned int x;",
+    "options": ["A) x can store only positive integers", "B) x can store both positive and negative integers", "C) x can store only negative integers", "D) x is a float"],
+    "correct_answer": "A) x can store only positive integers",
+    "explanation": "'unsigned int' removes the sign bit, allowing only non-negative values (0 and positive integers) to be stored."
+  },
+  {
+    "id": 13,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: char c = 65; printf(\"%c\", c);",
+    "options": ["A) 65", "B) A", "C) a", "D) error"],
+    "correct_answer": "B) A",
+    "explanation": "ASCII value 65 corresponds to the character 'A'. When printed with %c format specifier, it displays 'A'."
+  },
+  {
+    "id": 14,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct syntax to declare a pointer to an integer?",
+    "options": ["A) int *p;", "B) int &p;", "C) pointer int p;", "D) int@ p;"],
+    "correct_answer": "A) int *p;",
+    "explanation": "In C, a pointer to an integer is declared using the asterisk (*) symbol before the variable name: int *p;"
+  },
+  {
+    "id": 15,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of x after: int x = 10, y = 20; x = y;",
+    "options": ["A) 10", "B) 20", "C) 30", "D) 0"],
+    "correct_answer": "B) 20",
+    "explanation": "The assignment x = y copies the value of y (20) into x. So x becomes 20."
+  },
+  {
+    "id": 16,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which storage class makes a variable retain its value between function calls?",
+    "options": ["A) auto", "B) register", "C) static", "D) extern"],
+    "correct_answer": "C) static",
+    "explanation": "The 'static' storage class causes a local variable to retain its value between function calls, unlike 'auto' which is reinitialized each call."
+  },
+  {
+    "id": 17,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct declaration of a double variable initialized to 3.14159?",
+    "options": ["A) double pi = 3.14159;", "B) Double pi = 3.14159;", "C) DOUBLE pi = 3.14159;", "D) dbl pi = 3.14159;"],
+    "correct_answer": "A) double pi = 3.14159;",
+    "explanation": "C keywords are case-sensitive. 'double' (lowercase) is the correct keyword for declaring a double-precision floating-point variable."
+  },
+  {
+    "id": 18,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5, b = 5; printf(\"%d\", a == b);",
+    "options": ["A) 0", "B) 1", "C) 5", "D) true"],
+    "correct_answer": "B) 1",
+    "explanation": "In C, the equality operator == returns 1 (true) if both operands are equal. Since a and b are both 5, the result is 1."
+  },
+  {
+    "id": 19,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid way to initialize an array in C?",
+    "options": ["A) int arr[3] = {1, 2, 3};", "B) int arr[3] = (1, 2, 3);", "C) int arr[3] = [1, 2, 3];", "D) int arr = {1, 2, 3};"],
+    "correct_answer": "A) int arr[3] = {1, 2, 3};",
+    "explanation": "Arrays in C are initialized using curly braces {}. The size must match or be omitted, and values are comma-separated."
+  },
+  {
+    "id": 20,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default storage class of a local variable in C?",
+    "options": ["A) static", "B) extern", "C) register", "D) auto"],
+    "correct_answer": "D) auto",
+    "explanation": "By default, local variables have 'auto' storage class, meaning they are created when the block is entered and destroyed when it exits."
+  },
+  {
+    "id": 21,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of: int x; printf(\"%d\", x); (local variable, no initialization)",
+    "options": ["A) 0", "B) 1", "C) garbage value", "D) compilation error"],
+    "correct_answer": "C) garbage value",
+    "explanation": "Uninitialized local variables contain garbage values (whatever was in that memory location previously)."
+  },
+  {
+    "id": 22,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares a string in C?",
+    "options": ["A) string s = \"hello\";", "B) char s[] = \"hello\";", "C) char s = \"hello\";", "D) String s = \"hello\";"],
+    "correct_answer": "B) char s[] = \"hello\";",
+    "explanation": "In C, strings are character arrays. 'char s[] = \"hello\";' declares a character array and initializes it with the string \"hello\"."
+  },
+  {
+    "id": 23,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of a char data type in C?",
+    "options": ["A) 2 bytes", "B) 4 bytes", "C) 1 byte", "D) 8 bytes"],
+    "correct_answer": "C) 1 byte",
+    "explanation": "A char data type in C always occupies exactly 1 byte (8 bits) of memory, regardless of the platform."
+  },
+  {
+    "id": 24,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid declaration using the 'extern' keyword?",
+    "options": ["A) extern int x = 5;", "B) extern int x;", "C) extern x;", "D) int extern x;"],
+    "correct_answer": "B) extern int x;",
+    "explanation": "'extern int x;' declares that x is defined elsewhere. extern declarations typically don't include initialization."
+  },
+  {
+    "id": 25,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int arr[5] = {0}; printf(\"%d\", arr[3]);",
+    "options": ["A) garbage", "B) 0", "C) 3", "D) 5"],
+    "correct_answer": "B) 0",
+    "explanation": "When an array is initialized with {0}, all elements are set to 0. So arr[3] is 0."
+  },
+  {
+    "id": 26,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 10;\n{\n    int a = 20;\n    printf(\"%d \", a);\n}\nprintf(\"%d\", a);",
+    "options": ["A) 10 10", "B) 20 10", "C) 20 20", "D) 10 20"],
+    "correct_answer": "B) 20 10",
+    "explanation": "The inner block creates a new 'a' that shadows the outer 'a'. Inside the block, a=20 is printed. After the block, the outer a=10 is printed."
+  },
+  {
+    "id": 27,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to declare a long integer?",
+    "options": ["A) long int x;", "B) longint x;", "C) int long x;", "D) Both A and C"],
+    "correct_answer": "A) long int x;",
+    "explanation": "'long int x;' is the standard way to declare a long integer. 'int long' is not standard syntax in C."
+  },
+  {
+    "id": 28,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you declare: int x = 3.9; in C?",
+    "options": ["A) x = 3.9", "B) x = 4 (rounded)", "C) x = 3 (truncated)", "D) Compilation error"],
+    "correct_answer": "C) x = 3 (truncated)",
+    "explanation": "When a float is assigned to an int, the fractional part is truncated (not rounded). So 3.9 becomes 3."
+  },
+  {
+    "id": 29,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid C keyword?",
+    "options": ["A) void", "B) int", "C) string", "D) char"],
+    "correct_answer": "C) string",
+    "explanation": "'string' is not a keyword in C. C uses 'char' arrays for strings. 'void', 'int', and 'char' are all valid C keywords."
+  },
+  {
+    "id": 30,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 5; int y = x++; printf(\"%d %d\", x, y);",
+    "options": ["A) 5 5", "B) 6 5", "C) 5 6", "D) 6 6"],
+    "correct_answer": "B) 6 5",
+    "explanation": "Post-increment (x++) returns the current value (5) to y, then increments x to 6. So x=6 and y=5."
+  },
+  {
+    "id": 31,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which format specifier is used to print a float value in C?",
+    "options": ["A) %d", "B) %c", "C) %f", "D) %s"],
+    "correct_answer": "C) %f",
+    "explanation": "%f is the format specifier for float and double values in printf/scanf. %d is for integers, %c for characters, %s for strings."
+  },
+  {
+    "id": 32,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to declare a void pointer in C?",
+    "options": ["A) void *ptr;", "B) void ptr;", "C) null *ptr;", "D) empty *ptr;"],
+    "correct_answer": "A) void *ptr;",
+    "explanation": "A void pointer is declared as 'void *ptr;'. It can point to any data type and is often used for generic programming."
+  },
+  {
+    "id": 33,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 010; printf(\"%d\", x);",
+    "options": ["A) 10", "B) 8", "C) 2", "D) 16"],
+    "correct_answer": "B) 8",
+    "explanation": "In C, a number starting with 0 is treated as octal. 010 in octal = 8 in decimal."
+  },
+  {
+    "id": 34,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following declares a constant integer with value 100?",
+    "options": ["A) const int MAX = 100;", "B) int const = 100;", "C) constant int MAX = 100;", "D) int MAX = const 100;"],
+    "correct_answer": "A) const int MAX = 100;",
+    "explanation": "'const int MAX = 100;' correctly declares a constant integer. The const keyword precedes the type or variable name."
+  },
+  {
+    "id": 35,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 0x1A; printf(\"%d\", x);",
+    "options": ["A) 1A", "B) 26", "C) 16", "D) 10"],
+    "correct_answer": "B) 26",
+    "explanation": "0x1A is a hexadecimal literal. 1A in hex = 1*16 + 10 = 26 in decimal."
+  },
+  {
+    "id": 36,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct declaration of a two-dimensional array?",
+    "options": ["A) int arr[2,3];", "B) int arr[2][3];", "C) int arr(2)(3);", "D) int arr{2}{3};"],
+    "correct_answer": "B) int arr[2][3];",
+    "explanation": "Two-dimensional arrays in C are declared using two separate bracket pairs: int arr[rows][cols];"
+  },
+  {
+    "id": 37,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of sizeof(int) on most 64-bit systems?",
+    "options": ["A) 2", "B) 4", "C) 8", "D) 16"],
+    "correct_answer": "B) 4",
+    "explanation": "On most 64-bit systems, sizeof(int) returns 4 bytes. The size of int is typically 4 bytes regardless of 32-bit or 64-bit architecture."
+  },
+  {
+    "id": 38,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid initialization of a pointer?",
+    "options": ["A) int *p = 0;", "B) int *p = NULL;", "C) int *p = (int*)0;", "D) All of the above"],
+    "correct_answer": "D) All of the above",
+    "explanation": "All three are valid ways to initialize a null pointer in C. NULL is typically defined as 0 or (void*)0."
+  },
+  {
+    "id": 39,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 2, b = 3; printf(\"%d\", a * b + 1);",
+    "options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "correct_answer": "B) 7",
+    "explanation": "a * b = 2 * 3 = 6, then 6 + 1 = 7. Multiplication has higher precedence than addition."
+  },
+  {
+    "id": 40,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly initializes all elements of an array to zero?",
+    "options": ["A) int arr[5] = {0, 0, 0, 0, 0};", "B) int arr[5] = {0};", "C) int arr[5] = {};", "D) Both A and B"],
+    "correct_answer": "D) Both A and B",
+    "explanation": "Both explicitly setting all elements to 0 and using {0} (which initializes first element to 0 and rest to 0 by default) work correctly."
+  },
+  {
+    "id": 41,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nstatic int count = 0;\nvoid increment() { count++; }\nint main() {\n    increment(); increment(); increment();\n    printf(\"%d\", count);\n}",
+    "options": ["A) 0", "B) 1", "C) 3", "D) garbage"],
+    "correct_answer": "C) 3",
+    "explanation": "Static global variable 'count' is initialized to 0 and retains its value. After 3 calls to increment(), count becomes 3."
+  },
+  {
+    "id": 42,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 5; int *p = &x; *p = 10; printf(\"%d\", x);",
+    "options": ["A) 5", "B) 10", "C) address of x", "D) garbage"],
+    "correct_answer": "B) 10",
+    "explanation": "p points to x. *p = 10 changes the value at the address p points to, which is x. So x becomes 10."
+  },
+  {
+    "id": 43,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int arr[] = {10, 20, 30}; printf(\"%d\", arr[1]);",
+    "options": ["A) 10", "B) 20", "C) 30", "D) 0"],
+    "correct_answer": "B) 20",
+    "explanation": "Array indexing starts at 0. arr[0]=10, arr[1]=20, arr[2]=30. So arr[1] is 20."
+  },
+  {
+    "id": 44,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint x = 5;\nconst int *p = &x;\nx = 10;\nprintf(\"%d\", *p);",
+    "options": ["A) 5", "B) 10", "C) compilation error", "D) garbage"],
+    "correct_answer": "B) 10",
+    "explanation": "'const int *p' means the value pointed to cannot be changed via p, but x itself can be changed directly. *p reflects the current value of x, which is 10."
+  },
+  {
+    "id": 45,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the size of the array declared as: int arr[3][4];?",
+    "options": ["A) 7 integers", "B) 12 integers", "C) 34 integers", "D) 3 integers"],
+    "correct_answer": "B) 12 integers",
+    "explanation": "A 2D array int arr[3][4] has 3 rows and 4 columns, totaling 3*4 = 12 integer elements."
+  },
+  {
+    "id": 46,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nvoid func() {\n    static int x = 0;\n    x++;\n    printf(\"%d \", x);\n}\nint main() { func(); func(); func(); }",
+    "options": ["A) 1 1 1", "B) 0 1 2", "C) 1 2 3", "D) 0 0 0"],
+    "correct_answer": "C) 1 2 3",
+    "explanation": "Static local variable x is initialized only once. Each call increments x, so outputs are 1, 2, 3."
+  },
+  {
+    "id": 47,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 5; printf(\"%d %d\", a++, ++a);",
+    "options": ["A) 5 7", "B) 6 7", "C) 5 6", "D) undefined behavior"],
+    "correct_answer": "D) undefined behavior",
+    "explanation": "Modifying a variable twice between sequence points (in the same printf call) is undefined behavior in C."
+  },
+  {
+    "id": 48,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: char str[] = \"Hello\"; printf(\"%d\", sizeof(str));",
+    "options": ["A) 5", "B) 6", "C) 4", "D) 8"],
+    "correct_answer": "B) 6",
+    "explanation": "The string \"Hello\" has 5 characters plus a null terminator '\\0', so sizeof(str) = 6 bytes."
+  },
+  {
+    "id": 49,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 5; printf(\"%d\", x << 1);",
+    "options": ["A) 5", "B) 10", "C) 2", "D) 6"],
+    "correct_answer": "B) 10",
+    "explanation": "Left shift by 1 is equivalent to multiplying by 2. 5 << 1 = 5 * 2 = 10."
+  },
+  {
+    "id": 50,
+    "topic": "Declarations and Initializations in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",

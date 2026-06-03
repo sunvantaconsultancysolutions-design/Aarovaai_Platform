@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Sentence 2. Letter 3. Word 4. Paragraph 5. Chapter",
+    "options": [
+      "A) 2, 3, 1, 4, 5",
+      "B) 3, 2, 1, 4, 5",
+      "C) 2, 1, 3, 4, 5",
+      "D) 1, 2, 3, 4, 5"
+    ],
+    "correct_answer": "A) 2, 3, 1, 4, 5",
+    "explanation": "The logical order is from smallest to largest unit: Letter → Word → Sentence → Paragraph → Chapter. So the answer is 2, 3, 1, 4, 5."
+  },
+  {
+    "id": 2,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Country 2. Village 3. District 4. State 5. Town",
+    "options": [
+      "A) 2, 5, 3, 4, 1",
+      "B) 2, 3, 5, 4, 1",
+      "C) 5, 2, 3, 4, 1",
+      "D) 2, 5, 4, 3, 1"
+    ],
+    "correct_answer": "A) 2, 5, 3, 4, 1",
+    "explanation": "The logical order from smallest to largest administrative unit: Village → Town → District → State → Country. So the answer is 2, 5, 3, 4, 1."
+  },
+  {
+    "id": 3,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Infant 2. Old 3. Adult 4. Child 5. Teenager",
+    "options": [
+      "A) 1, 4, 5, 3, 2",
+      "B) 4, 1, 5, 3, 2",
+      "C) 1, 5, 4, 3, 2",
+      "D) 1, 4, 3, 5, 2"
+    ],
+    "correct_answer": "A) 1, 4, 5, 3, 2",
+    "explanation": "The logical order of human life stages: Infant → Child → Teenager → Adult → Old. So the answer is 1, 4, 5, 3, 2."
+  },
+  {
+    "id": 4,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Sun 2. Rain 3. Cloud 4. Flood 5. River",
+    "options": [
+      "A) 1, 3, 2, 5, 4",
+      "B) 1, 2, 3, 5, 4",
+      "C) 3, 1, 2, 5, 4",
+      "D) 1, 3, 2, 4, 5"
+    ],
+    "correct_answer": "A) 1, 3, 2, 5, 4",
+    "explanation": "The logical sequence: Sun heats water → Cloud forms → Rain falls → River fills → Flood occurs. So the answer is 1, 3, 2, 5, 4."
+  },
+  {
+    "id": 5,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Seed 2. Plant 3. Flower 4. Fruit 5. Tree",
+    "options": [
+      "A) 1, 2, 5, 3, 4",
+      "B) 1, 5, 2, 3, 4",
+      "C) 2, 1, 5, 3, 4",
+      "D) 1, 2, 3, 5, 4"
+    ],
+    "correct_answer": "A) 1, 2, 5, 3, 4",
+    "explanation": "The logical growth sequence: Seed → Plant → Tree → Flower → Fruit. So the answer is 1, 2, 5, 3, 4."
+  },
+  {
+    "id": 6,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Butterfly 2. Larva 3. Egg 4. Cocoon 5. Caterpillar",
+    "options": [
+      "A) 3, 2, 5, 4, 1",
+      "B) 3, 5, 2, 4, 1",
+      "C) 2, 3, 5, 4, 1",
+      "D) 3, 2, 4, 5, 1"
+    ],
+    "correct_answer": "A) 3, 2, 5, 4, 1",
+    "explanation": "The life cycle of a butterfly: Egg → Larva → Caterpillar → Cocoon → Butterfly. So the answer is 3, 2, 5, 4, 1."
+  },
+  {
+    "id": 7,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Key 2. Door 3. Lock 4. Room 5. Switch on",
+    "options": [
+      "A) 1, 3, 2, 4, 5",
+      "B) 3, 1, 2, 4, 5",
+      "C) 1, 2, 3, 4, 5",
+      "D) 1, 3, 4, 2, 5"
+    ],
+    "correct_answer": "A) 1, 3, 2, 4, 5",
+    "explanation": "The logical sequence: Key → Lock (unlock) → Door (open) → Room (enter) → Switch on. So the answer is 1, 3, 2, 4, 5."
+  },
+  {
+    "id": 8,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Pulses 2. Sowing 3. Harvesting 4. Ploughing 5. Irrigation",
+    "options": [
+      "A) 4, 2, 5, 3, 1",
+      "B) 2, 4, 5, 3, 1",
+      "C) 4, 5, 2, 3, 1",
+      "D) 4, 2, 3, 5, 1"
+    ],
+    "correct_answer": "A) 4, 2, 5, 3, 1",
+    "explanation": "The farming sequence: Ploughing → Sowing → Irrigation → Harvesting → Pulses (product). So the answer is 4, 2, 5, 3, 1."
+  },
+  {
+    "id": 9,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Calf 2. Bull 3. Cow 4. Ox 5. Bullock",
+    "options": [
+      "A) 1, 3, 2, 5, 4",
+      "B) 1, 2, 3, 5, 4",
+      "C) 3, 1, 2, 5, 4",
+      "D) 1, 3, 5, 2, 4"
+    ],
+    "correct_answer": "A) 1, 3, 2, 5, 4",
+    "explanation": "The logical order: Calf (young) → Cow (female adult) → Bull (male adult) → Bullock (castrated young) → Ox (castrated adult). So the answer is 1, 3, 2, 5, 4."
+  },
+  {
+    "id": 10,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Consultation 2. Illness 3. Doctor 4. Treatment 5. Recovery",
+    "options": [
+      "A) 2, 3, 1, 4, 5",
+      "B) 3, 2, 1, 4, 5",
+      "C) 2, 1, 3, 4, 5",
+      "D) 2, 3, 4, 1, 5"
+    ],
+    "correct_answer": "A) 2, 3, 1, 4, 5",
+    "explanation": "The logical sequence: Illness → Doctor (visit) → Consultation → Treatment → Recovery. So the answer is 2, 3, 1, 4, 5."
+  },
+  {
+    "id": 11,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Probation 2. Interview 3. Selection 4. Appointment 5. Advertisement",
+    "options": [
+      "A) 5, 2, 3, 4, 1",
+      "B) 2, 5, 3, 4, 1",
+      "C) 5, 3, 2, 4, 1",
+      "D) 5, 2, 4, 3, 1"
+    ],
+    "correct_answer": "A) 5, 2, 3, 4, 1",
+    "explanation": "The recruitment process: Advertisement → Interview → Selection → Appointment → Probation. So the answer is 5, 2, 3, 4, 1."
+  },
+  {
+    "id": 12,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Yarn 2. Plant 3. Saree 4. Cotton 5. Cloth",
+    "options": [
+      "A) 2, 4, 1, 5, 3",
+      "B) 4, 2, 1, 5, 3",
+      "C) 2, 1, 4, 5, 3",
+      "D) 2, 4, 5, 1, 3"
+    ],
+    "correct_answer": "A) 2, 4, 1, 5, 3",
+    "explanation": "The production sequence: Plant → Cotton → Yarn → Cloth → Saree. So the answer is 2, 4, 1, 5, 3."
+  },
+  {
+    "id": 13,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Protect 2. Threat 3. Identify 4. Assess 5. Respond",
+    "options": [
+      "A) 2, 3, 4, 1, 5",
+      "B) 3, 2, 4, 1, 5",
+      "C) 2, 4, 3, 1, 5",
+      "D) 2, 3, 1, 4, 5"
+    ],
+    "correct_answer": "A) 2, 3, 4, 1, 5",
+    "explanation": "The security response sequence: Threat → Identify → Assess → Protect → Respond. So the answer is 2, 3, 4, 1, 5."
+  },
+  {
+    "id": 14,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Foetus 2. Child 3. Baby 4. Adult 5. Old man",
+    "options": [
+      "A) 1, 3, 2, 4, 5",
+      "B) 3, 1, 2, 4, 5",
+      "C) 1, 2, 3, 4, 5",
+      "D) 1, 3, 4, 2, 5"
+    ],
+    "correct_answer": "A) 1, 3, 2, 4, 5",
+    "explanation": "The stages of human development: Foetus → Baby → Child → Adult → Old man. So the answer is 1, 3, 2, 4, 5."
+  },
+  {
+    "id": 15,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Copper 2. Ore 3. Mine 4. Metal 5. Utensil",
+    "options": [
+      "A) 3, 2, 1, 4, 5",
+      "B) 2, 3, 1, 4, 5",
+      "C) 3, 1, 2, 4, 5",
+      "D) 3, 2, 4, 1, 5"
+    ],
+    "correct_answer": "A) 3, 2, 1, 4, 5",
+    "explanation": "The production sequence: Mine → Ore → Copper → Metal → Utensil. So the answer is 3, 2, 1, 4, 5."
+  },
+  {
+    "id": 16,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Elephant 2. Cat 3. Mosquito 4. Tiger 5. Whale",
+    "options": [
+      "A) 3, 2, 4, 1, 5",
+      "B) 2, 3, 4, 1, 5",
+      "C) 3, 4, 2, 1, 5",
+      "D) 3, 2, 1, 4, 5"
+    ],
+    "correct_answer": "A) 3, 2, 4, 1, 5",
+    "explanation": "The logical order from smallest to largest animal: Mosquito → Cat → Tiger → Elephant → Whale. So the answer is 3, 2, 4, 1, 5."
+  },
+  {
+    "id": 17,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Presentation 2. Recommendation 3. Arrival 4. Discussion 5. Introduction",
+    "options": [
+      "A) 3, 5, 1, 4, 2",
+      "B) 5, 3, 1, 4, 2",
+      "C) 3, 1, 5, 4, 2",
+      "D) 3, 5, 4, 1, 2"
+    ],
+    "correct_answer": "A) 3, 5, 1, 4, 2",
+    "explanation": "The logical meeting sequence: Arrival → Introduction → Presentation → Discussion → Recommendation. So the answer is 3, 5, 1, 4, 2."
+  },
+  {
+    "id": 18,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Milky Way 2. Sun 3. Earth 4. Universe 5. Solar System",
+    "options": [
+      "A) 2, 3, 5, 1, 4",
+      "B) 3, 2, 5, 1, 4",
+      "C) 2, 5, 3, 1, 4",
+      "D) 3, 5, 2, 1, 4"
+    ],
+    "correct_answer": "A) 2, 3, 5, 1, 4",
+    "explanation": "The order from smallest to largest: Sun → Earth → Solar System → Milky Way → Universe. So the answer is 2, 3, 5, 1, 4."
+  },
+  {
+    "id": 19,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Punishment 2. Crime 3. Judgement 4. Arrest 5. Trial",
+    "options": [
+      "A) 2, 4, 5, 3, 1",
+      "B) 4, 2, 5, 3, 1",
+      "C) 2, 5, 4, 3, 1",
+      "D) 2, 4, 3, 5, 1"
+    ],
+    "correct_answer": "A) 2, 4, 5, 3, 1",
+    "explanation": "The legal process: Crime → Arrest → Trial → Judgement → Punishment. So the answer is 2, 4, 5, 3, 1."
+  },
+  {
+    "id": 20,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Bud 2. Flower 3. Seed 4. Fruit 5. Plant",
+    "options": [
+      "A) 3, 5, 1, 2, 4",
+      "B) 5, 3, 1, 2, 4",
+      "C) 3, 1, 5, 2, 4",
+      "D) 3, 5, 2, 1, 4"
+    ],
+    "correct_answer": "A) 3, 5, 1, 2, 4",
+    "explanation": "The plant life cycle: Seed → Plant → Bud → Flower → Fruit. So the answer is 3, 5, 1, 2, 4."
+  },
+  {
+    "id": 21,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Poverty 2. Unemployment 3. Illiteracy 4. Overpopulation 5. Disease",
+    "options": [
+      "A) 3, 4, 2, 1, 5",
+      "B) 4, 3, 2, 1, 5",
+      "C) 3, 2, 4, 1, 5",
+      "D) 4, 2, 3, 1, 5"
+    ],
+    "correct_answer": "A) 3, 4, 2, 1, 5",
+    "explanation": "The cause-effect chain: Illiteracy → Overpopulation → Unemployment → Poverty → Disease. So the answer is 3, 4, 2, 1, 5."
+  },
+  {
+    "id": 22,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Brick 2. Clay 3. House 4. Room 5. Wall",
+    "options": [
+      "A) 2, 1, 5, 4, 3",
+      "B) 1, 2, 5, 4, 3",
+      "C) 2, 5, 1, 4, 3",
+      "D) 2, 1, 4, 5, 3"
+    ],
+    "correct_answer": "A) 2, 1, 5, 4, 3",
+    "explanation": "The construction sequence: Clay → Brick → Wall → Room → House. So the answer is 2, 1, 5, 4, 3."
+  },
+  {
+    "id": 23,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Typing 2. Formatting 3. Printing 4. Composing 5. Editing",
+    "options": [
+      "A) 4, 1, 5, 2, 3",
+      "B) 1, 4, 5, 2, 3",
+      "C) 4, 5, 1, 2, 3",
+      "D) 4, 1, 2, 5, 3"
+    ],
+    "correct_answer": "A) 4, 1, 5, 2, 3",
+    "explanation": "The document creation process: Composing → Typing → Editing → Formatting → Printing. So the answer is 4, 1, 5, 2, 3."
+  },
+  {
+    "id": 24,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Knee 2. Shoulder 3. Wrist 4. Elbow 5. Ankle",
+    "options": [
+      "A) 5, 1, 3, 4, 2",
+      "B) 1, 5, 3, 4, 2",
+      "C) 5, 3, 1, 4, 2",
+      "D) 5, 1, 4, 3, 2"
+    ],
+    "correct_answer": "A) 5, 1, 3, 4, 2",
+    "explanation": "The order of joints from bottom to top of the body: Ankle → Knee → Wrist → Elbow → Shoulder. So the answer is 5, 1, 3, 4, 2."
+  },
+  {
+    "id": 25,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Graduation 2. Primary school 3. Pre-school 4. Secondary school 5. College",
+    "options": [
+      "A) 3, 2, 4, 5, 1",
+      "B) 2, 3, 4, 5, 1",
+      "C) 3, 4, 2, 5, 1",
+      "D) 3, 2, 5, 4, 1"
+    ],
+    "correct_answer": "A) 3, 2, 4, 5, 1",
+    "explanation": "The educational progression: Pre-school → Primary school → Secondary school → College → Graduation. So the answer is 3, 2, 4, 5, 1."
+  },
+  {
+    "id": 26,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Flood 2. Rain 3. Drought 4. Famine 5. Death",
+    "options": [
+      "A) 3, 2, 1, 4, 5",
+      "B) 2, 1, 3, 4, 5",
+      "C) 3, 4, 2, 1, 5",
+      "D) 2, 3, 1, 4, 5"
+    ],
+    "correct_answer": "A) 3, 2, 1, 4, 5",
+    "explanation": "The disaster chain: Drought → Rain (insufficient) → Flood (excess) → Famine → Death. So the answer is 3, 2, 1, 4, 5."
+  },
+  {
+    "id": 27,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Paragraph 2. Word 3. Sentence 4. Chapter 5. Book",
+    "options": [
+      "A) 2, 3, 1, 4, 5",
+      "B) 3, 2, 1, 4, 5",
+      "C) 2, 1, 3, 4, 5",
+      "D) 2, 3, 4, 1, 5"
+    ],
+    "correct_answer": "A) 2, 3, 1, 4, 5",
+    "explanation": "The logical order from smallest to largest: Word → Sentence → Paragraph → Chapter → Book. So the answer is 2, 3, 1, 4, 5."
+  },
+  {
+    "id": 28,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Hunger 2. Food 3. Cooking 4. Eating 5. Satisfaction",
+    "options": [
+      "A) 1, 2, 3, 4, 5",
+      "B) 2, 1, 3, 4, 5",
+      "C) 1, 3, 2, 4, 5",
+      "D) 2, 3, 1, 4, 5"
+    ],
+    "correct_answer": "A) 1, 2, 3, 4, 5",
+    "explanation": "The logical sequence: Hunger → Food (buy/get) → Cooking → Eating → Satisfaction. So the answer is 1, 2, 3, 4, 5."
+  },
+  {
+    "id": 29,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Proposal 2. Engagement 3. Marriage 4. Dating 5. Honeymoon",
+    "options": [
+      "A) 4, 1, 2, 3, 5",
+      "B) 1, 4, 2, 3, 5",
+      "C) 4, 2, 1, 3, 5",
+      "D) 4, 1, 3, 2, 5"
+    ],
+    "correct_answer": "A) 4, 1, 2, 3, 5",
+    "explanation": "The relationship progression: Dating → Proposal → Engagement → Marriage → Honeymoon. So the answer is 4, 1, 2, 3, 5."
+  },
+  {
+    "id": 30,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Atom 2. Nucleus 3. Proton 4. Element 5. Compound",
+    "options": [
+      "A) 3, 2, 1, 4, 5",
+      "B) 2, 3, 1, 4, 5",
+      "C) 3, 1, 2, 4, 5",
+      "D) 3, 2, 4, 1, 5"
+    ],
+    "correct_answer": "A) 3, 2, 1, 4, 5",
+    "explanation": "The order from smallest to largest: Proton → Nucleus → Atom → Element → Compound. So the answer is 3, 2, 1, 4, 5."
+  },
+  {
+    "id": 31,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Worm 2. Egg 3. Butterfly 4. Pupa 5. Larva",
+    "options": [
+      "A) 2, 5, 1, 4, 3",
+      "B) 5, 2, 1, 4, 3",
+      "C) 2, 1, 5, 4, 3",
+      "D) 2, 5, 4, 1, 3"
+    ],
+    "correct_answer": "A) 2, 5, 1, 4, 3",
+    "explanation": "The metamorphosis stages: Egg → Larva → Worm → Pupa → Butterfly. So the answer is 2, 5, 1, 4, 3."
+  },
+  {
+    "id": 32,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Telephone 2. Telegraph 3. Wireless 4. Letter 5. Email",
+    "options": [
+      "A) 4, 2, 1, 3, 5",
+      "B) 2, 4, 1, 3, 5",
+      "C) 4, 1, 2, 3, 5",
+      "D) 4, 2, 3, 1, 5"
+    ],
+    "correct_answer": "A) 4, 2, 1, 3, 5",
+    "explanation": "The chronological order of communication methods: Letter → Telegraph → Telephone → Wireless → Email. So the answer is 4, 2, 1, 3, 5."
+  },
+  {
+    "id": 33,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Cub 2. Tiger 3. Kitten 4. Cat 5. Paw",
+    "options": [
+      "A) 3, 4, 1, 2, 5",
+      "B) 1, 3, 4, 2, 5",
+      "C) 3, 1, 4, 2, 5",
+      "D) 3, 4, 2, 1, 5"
+    ],
+    "correct_answer": "A) 3, 4, 1, 2, 5",
+    "explanation": "The logical grouping: Kitten (young cat) → Cat → Cub (young tiger) → Tiger → Paw (common feature). So the answer is 3, 4, 1, 2, 5."
+  },
+  {
+    "id": 34,
+    "topic": "Ordering of Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words in a meaningful/logical order: 1. Diagnosis 2. Symptoms 3. Prescription 4. Medicine 5. Recovery",
+    "options": [
+      "A) 2, 1, 3, 4, 5",
+      "B) 1, 2, 3, 4, 5",
+      "C) 2, 3, 1, 4, 5",
+      "D) 2, 1, 4, 3, 5"
+    ],
+    "correct_answer": "A) 2, 1, 3, 4, 5",
+    "explanation": "The medical process: Symptoms → Diagnosis → Prescription → Medicine → Recovery. So the answer is 2, 1, 3, 4, 5."
+  }
+]

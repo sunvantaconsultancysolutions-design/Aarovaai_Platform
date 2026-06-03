@@ -1,0 +1,410 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The government announced a sudden hike in petrol prices. Statement II: People started using public transport more frequently. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both statements are independent causes", "D) Both statements are effects of a common cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "A hike in petrol prices directly leads people to seek cheaper alternatives like public transport. Statement I (price hike) causes Statement II (increased public transport use)."
+  },
+  {
+    "id": 2,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: Heavy rainfall occurred in the city for three consecutive days. Statement II: Several low-lying areas of the city were flooded. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Statement I is the cause and Statement II is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "B) Statement I is the cause and Statement II is the effect",
+    "explanation": "Heavy rainfall for three days is the direct cause of flooding in low-lying areas. The sequence is logical and natural."
+  },
+  {
+    "id": 3,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The factory near the river was shut down by authorities. Statement II: The river water was found to be heavily polluted. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "B) Statement II is the cause and Statement I is the effect",
+    "explanation": "River pollution (Statement II) prompted authorities to shut down the factory (Statement I). Pollution is the cause; shutdown is the effect."
+  },
+  {
+    "id": 4,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: A large number of students failed in the annual examination. Statement II: The school decided to conduct extra remedial classes. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Mass failure (Statement I) prompted the school to arrange remedial classes (Statement II). The failure is the cause; remedial action is the effect."
+  },
+  {
+    "id": 5,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The electricity supply to the colony was disrupted for 12 hours. Statement II: Residents of the colony used candles and lanterns. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Power disruption (Statement I) forced residents to use alternative lighting (Statement II). This is a direct cause-effect relationship."
+  },
+  {
+    "id": 6,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The price of onions increased sharply in the market. Statement II: Farmers hoarded onions expecting further price rise. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "B) Statement II is the cause and Statement I is the effect",
+    "explanation": "Farmers hoarding onions (Statement II) reduced supply, causing prices to rise (Statement I). Hoarding is the cause; price rise is the effect."
+  },
+  {
+    "id": 7,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The city received very little rainfall this monsoon season. Statement II: The water level in the city's reservoirs dropped significantly. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a third cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Low rainfall (Statement I) directly leads to reduced water levels in reservoirs (Statement II). This is a straightforward cause-effect relationship."
+  },
+  {
+    "id": 8,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: A new shopping mall opened in the locality. Statement II: Several small shops in the area reported a decline in sales. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Statement I is the cause and Statement II is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "B) Statement I is the cause and Statement II is the effect",
+    "explanation": "The opening of a large mall (Statement I) diverts customers from small shops, causing their sales to decline (Statement II)."
+  },
+  {
+    "id": 9,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The patient was administered the wrong medication by the nurse. Statement II: The patient's condition worsened significantly. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Wrong medication (Statement I) directly caused the patient's condition to worsen (Statement II). This is a clear cause-effect chain."
+  },
+  {
+    "id": 10,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The government imposed a ban on plastic bags. Statement II: Shopkeepers started providing cloth and paper bags to customers. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Both are effects of a common cause", "D) Statement I is the cause and Statement II is the effect"],
+    "correct_answer": "D) Statement I is the cause and Statement II is the effect",
+    "explanation": "The plastic bag ban (Statement I) forced shopkeepers to switch to alternative bags (Statement II). The ban is the cause; the switch is the effect."
+  },
+  {
+    "id": 11,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The bridge over the river collapsed due to heavy load. Statement II: Traffic was diverted to an alternate route. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Bridge collapse (Statement I) necessitated traffic diversion (Statement II). The collapse is the cause; diversion is the effect."
+  },
+  {
+    "id": 12,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: A famous actor endorsed a particular brand of shoes. Statement II: The sales of that shoe brand increased dramatically. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Celebrity endorsement (Statement I) boosts brand visibility and trust, leading to increased sales (Statement II)."
+  },
+  {
+    "id": 13,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The company declared bankruptcy and shut down operations. Statement II: Thousands of employees lost their jobs. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Statement I is the cause and Statement II is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "B) Statement I is the cause and Statement II is the effect",
+    "explanation": "Company bankruptcy and shutdown (Statement I) directly resulted in job losses (Statement II). Shutdown is the cause; job loss is the effect."
+  },
+  {
+    "id": 14,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The city experienced an unusually cold winter this year. Statement II: Sales of woolen clothes and heaters increased significantly. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a third cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Cold winter (Statement I) drives demand for warm clothing and heaters (Statement II). Temperature is the cause; increased sales is the effect."
+  },
+  {
+    "id": 15,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The road was under repair for two weeks. Statement II: Commuters faced severe traffic jams daily. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Road repair (Statement I) reduces road capacity, directly causing traffic jams (Statement II). Repair work is the cause; jams are the effect."
+  },
+  {
+    "id": 16,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The school canteen started serving healthy and nutritious food. Statement II: The number of students falling sick reduced considerably. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Healthier food (Statement I) improves student health, reducing illness (Statement II). Diet change is the cause; reduced sickness is the effect."
+  },
+  {
+    "id": 17,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: A fire broke out in the warehouse storing chemicals. Statement II: The fire brigade was called to the spot immediately. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Both are effects of a common cause", "D) Statement I is the cause and Statement II is the effect"],
+    "correct_answer": "D) Statement I is the cause and Statement II is the effect",
+    "explanation": "The fire (Statement I) prompted the emergency call to the fire brigade (Statement II). Fire is the cause; calling fire brigade is the effect."
+  },
+  {
+    "id": 18,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The interest rates on home loans were reduced by banks. Statement II: There was a surge in applications for home loans. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Lower interest rates (Statement I) make loans more affordable, attracting more applicants (Statement II). Rate reduction is the cause; surge in applications is the effect."
+  },
+  {
+    "id": 19,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The athlete trained rigorously for six months before the championship. Statement II: The athlete won the gold medal at the championship. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Rigorous training (Statement I) prepared the athlete well, leading to winning the gold medal (Statement II). Training is the cause; winning is the effect."
+  },
+  {
+    "id": 20,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The city's population grew rapidly over the last decade. Statement II: The demand for housing in the city increased substantially. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Statement I is the cause and Statement II is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "B) Statement I is the cause and Statement II is the effect",
+    "explanation": "Population growth (Statement I) directly increases the need for housing (Statement II). More people need more homes."
+  },
+  {
+    "id": 21,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The teacher explained the concept using visual aids and examples. Statement II: Students performed better in the subsequent test. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Better teaching methods (Statement I) improve student understanding, leading to better test performance (Statement II)."
+  },
+  {
+    "id": 22,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The government launched a free vaccination drive in rural areas. Statement II: The incidence of measles in rural areas dropped sharply. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Vaccination drive (Statement I) builds immunity in the population, reducing disease incidence (Statement II). Vaccination is the cause; disease reduction is the effect."
+  },
+  {
+    "id": 23,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The new CEO implemented strict cost-cutting measures in the company. Statement II: The company's profits increased in the next financial quarter. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a third cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Cost-cutting measures (Statement I) reduce expenses, thereby increasing profits (Statement II). Cost reduction is the cause; profit increase is the effect."
+  },
+  {
+    "id": 24,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The city installed more streetlights in dark alleys and lanes. Statement II: The number of crimes reported at night decreased. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Better lighting (Statement I) deters criminal activity, reducing night crimes (Statement II). Lighting is the cause; crime reduction is the effect."
+  },
+  {
+    "id": 25,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The airline announced a major discount on ticket prices. Statement II: The number of passengers booking flights increased significantly. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a third cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Discounted ticket prices (Statement I) make air travel more affordable, attracting more passengers (Statement II). Discount is the cause; increased bookings is the effect."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The farmer used high-quality seeds and adequate fertilizers this season. Statement II: The crop yield was much higher than the previous year. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Statement I is the cause and Statement II is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "B) Statement I is the cause and Statement II is the effect",
+    "explanation": "Better inputs (Statement I) directly improve agricultural output (Statement II). Quality seeds and fertilizers are the cause; higher yield is the effect."
+  },
+  {
+    "id": 27,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The local municipality cleaned all the drains before the monsoon. Statement II: There was no waterlogging in the area during the monsoon. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Cleaning drains (Statement I) ensured proper water flow, preventing waterlogging (Statement II). Drain cleaning is the cause; no waterlogging is the effect."
+  },
+  {
+    "id": 28,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The child ate contaminated food at a roadside stall. Statement II: The child suffered from food poisoning and was hospitalized. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Eating contaminated food (Statement I) directly caused food poisoning and hospitalization (Statement II). Contaminated food is the cause; illness is the effect."
+  },
+  {
+    "id": 29,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The company launched an aggressive marketing campaign on social media. Statement II: Brand awareness among the youth increased significantly. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Social media marketing (Statement I) directly increases brand visibility and awareness (Statement II). Campaign is the cause; awareness is the effect."
+  },
+  {
+    "id": 30,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The government reduced import duties on electronic goods. Statement II: Prices of electronic goods in the domestic market fell. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Reduced import duties (Statement I) lower the cost of imported goods, reducing their market prices (Statement II). Duty reduction is the cause; price fall is the effect."
+  },
+  {
+    "id": 31,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The river overflowed its banks after continuous heavy rain. Statement II: Crops in the nearby fields were completely destroyed. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "River overflow (Statement I) flooded the fields, destroying crops (Statement II). Overflow is the cause; crop destruction is the effect."
+  },
+  {
+    "id": 32,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The software company released a major update fixing all known bugs. Statement II: Customer complaints about the software reduced drastically. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Bug-fixing update (Statement I) resolved issues, reducing customer complaints (Statement II). Update is the cause; fewer complaints is the effect."
+  },
+  {
+    "id": 33,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The hospital introduced a new, faster emergency response system. Statement II: The survival rate of emergency patients improved. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a third cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Faster emergency response (Statement I) ensures timely treatment, improving survival rates (Statement II). Better system is the cause; improved survival is the effect."
+  },
+  {
+    "id": 34,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The city council planted thousands of trees along the roads. Statement II: The average temperature in the city decreased slightly over the years. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a common cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Tree plantation (Statement I) increases green cover, which helps reduce urban temperatures (Statement II). Planting trees is the cause; temperature reduction is the effect."
+  },
+  {
+    "id": 35,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The student did not study for the examination at all. Statement II: The student failed in all subjects. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Not studying (Statement I) directly leads to failure in exams (Statement II). Lack of preparation is the cause; failure is the effect."
+  },
+  {
+    "id": 36,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The town's only water treatment plant broke down. Statement II: Residents were advised to boil water before drinking. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a third cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Water treatment plant breakdown (Statement I) compromised water safety, prompting the advisory to boil water (Statement II)."
+  },
+  {
+    "id": 37,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The new metro line was inaugurated connecting the suburbs to the city center. Statement II: The number of private vehicles on the road reduced. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "New metro connectivity (Statement I) provides an alternative to private vehicles, reducing their number on roads (Statement II)."
+  },
+  {
+    "id": 38,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The bakery introduced a new range of sugar-free products. Statement II: Diabetic customers started visiting the bakery more often. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a third cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Sugar-free products (Statement I) cater to diabetic customers' needs, attracting them to the bakery (Statement II). New products are the cause; increased visits are the effect."
+  },
+  {
+    "id": 39,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The government made wearing helmets mandatory for two-wheeler riders. Statement II: The number of head injuries in road accidents decreased. Which of the following is correct?",
+    "options": ["A) Statement I is the cause and Statement II is the effect", "B) Statement II is the cause and Statement I is the effect", "C) Both are independent events", "D) Both are effects of a common cause"],
+    "correct_answer": "A) Statement I is the cause and Statement II is the effect",
+    "explanation": "Mandatory helmet rule (Statement I) ensures head protection, reducing head injuries (Statement II). The law is the cause; fewer injuries is the effect."
+  },
+  {
+    "id": 40,
+    "topic": "Cause and Effect",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement I: The restaurant received several negative reviews online about its food quality. Statement II: The restaurant's customer footfall dropped sharply. Which of the following is correct?",
+    "options": ["A) Statement II is the cause and Statement I is the effect", "B) Both are independent events", "C) Statement I is the cause and Statement II is the effect", "D) Both are effects of a third cause"],
+    "correct_answer": "C) Statement I is the cause and Statement II is the effect",
+    "explanation": "Negative reviews (Statement I) damage reputation and deter customers, reducing footfall (Statement II). Bad reviews are the cause; reduced customers is the effect."
+  },
+  {
+    "id": 41,
+    "topic": "Cause and Effect",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement I: The Reserve Bank of India increased the repo rate by 50 basis points. Statement II: Banks raised their lending rates for home and auto loans. Which of the following correctly describes the relationship?",
+    "options": ["A) Statement I is the

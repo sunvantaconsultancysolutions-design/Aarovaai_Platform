@@ -1,0 +1,391 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should mobile phones be banned in schools?\nArgument I: Yes, mobile phones distract students from studies.\nArgument II: No, mobile phones help students access educational content.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Argument I is strong because distraction is a valid concern in academic settings. Argument II is also strong because educational access is a genuine benefit. Both present logical, relevant points."
+  },
+  {
+    "id": 2,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government provide free Wi-Fi in all public places?\nArgument I: Yes, it will help people access information easily.\nArgument II: No, it will lead to misuse of the internet.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as easy access to information is a clear public benefit. Argument II is weak because misuse is a possibility but not a definitive outcome and does not outweigh the benefit."
+  },
+  {
+    "id": 3,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should voting be made compulsory in India?\nArgument I: Yes, it will increase voter turnout and strengthen democracy.\nArgument II: No, forcing people to vote violates personal freedom.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Argument I is strong as compulsory voting does increase participation. Argument II is also strong as personal liberty is a fundamental right. Both arguments address valid and significant concerns."
+  },
+  {
+    "id": 4,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should plastic bags be completely banned?\nArgument I: Yes, plastic bags cause severe environmental pollution.\nArgument II: No, plastic bags are cheap and convenient for daily use.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as environmental damage is a serious and proven concern. Argument II is weak because convenience and cost do not justify long-term environmental harm."
+  },
+  {
+    "id": 5,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the retirement age of government employees be increased to 65?\nArgument I: Yes, experienced employees contribute more to the organization.\nArgument II: No, it will block opportunities for younger candidates.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Retaining experienced staff is beneficial, but blocking youth employment is a genuine concern. Both sides present logical and relevant reasoning."
+  },
+  {
+    "id": 6,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should fast food chains be taxed heavily?\nArgument I: Yes, heavy taxation will discourage unhealthy eating habits.\nArgument II: No, it will increase unemployment in the fast food industry.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as public health is a major concern. Argument II is weak because heavy taxation does not necessarily cause unemployment; businesses adapt pricing strategies."
+  },
+  {
+    "id": 7,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should private schools be brought under government control?\nArgument I: Yes, it will ensure uniform quality of education.\nArgument II: No, government control may reduce innovation in education.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Argument I is strong as uniform quality is a valid educational goal. Argument II is also strong as government control can stifle innovation. Both are logical and relevant."
+  },
+  {
+    "id": 8,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the use of social media be restricted for people under 18?\nArgument I: Yes, social media has negative effects on the mental health of teenagers.\nArgument II: No, teenagers use social media for learning and communication.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Mental health concerns are well-documented, and educational/social benefits are also real. Both sides present valid, evidence-backed reasoning."
+  },
+  {
+    "id": 9,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should India adopt a four-day work week?\nArgument I: Yes, it will improve employee productivity and work-life balance.\nArgument II: No, it will reduce overall output and harm the economy.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Argument I is strong as studies show productivity gains with shorter weeks. Argument II is also strong as economic output concerns are valid. Both are well-reasoned arguments."
+  },
+  {
+    "id": 10,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should capital punishment be abolished?\nArgument I: Yes, no one has the right to take another person's life.\nArgument II: No, it acts as a deterrent for heinous crimes.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Human rights concerns are valid, and deterrence is a recognized function of punishment. Both address significant aspects of the issue."
+  },
+  {
+    "id": 11,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should India ban the import of luxury goods?\nArgument I: Yes, it will encourage domestic production and save foreign exchange.\nArgument II: No, it will affect consumer choice and international trade relations.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Argument I is strong as protecting foreign exchange is economically sound. Argument II is also strong as trade relations and consumer freedom are important. Both are valid."
+  },
+  {
+    "id": 12,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should cricket be declared the national sport of India?\nArgument I: Yes, cricket is the most popular sport in India.\nArgument II: No, hockey has historically been India's national sport and has a rich legacy.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "B) Only Argument II is strong",
+    "explanation": "Argument I is weak because popularity alone is not a sufficient reason to declare a national sport. Argument II is strong as historical legacy and tradition are valid criteria for national symbols."
+  },
+  {
+    "id": 13,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government make yoga compulsory in all schools?\nArgument I: Yes, yoga improves physical and mental health of students.\nArgument II: No, students should have the freedom to choose their physical activities.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as health benefits of yoga are well-established. Argument II is weak because in a school setting, structured physical activities are commonly mandated for student welfare."
+  },
+  {
+    "id": 14,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government subsidize electric vehicles?\nArgument I: Yes, it will reduce pollution and dependence on fossil fuels.\nArgument II: No, subsidies are a financial burden on the government.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as environmental benefits are significant and long-term. Argument II is weak because subsidies are a common policy tool and the long-term savings outweigh short-term costs."
+  },
+  {
+    "id": 15,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the minimum age for driving be raised to 21?\nArgument I: Yes, young drivers are more prone to accidents due to inexperience.\nArgument II: No, many young people need to drive for work and education.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Argument I is strong as road safety statistics support the concern. Argument II is also strong as mobility is essential for young people's livelihood and education. Both are valid."
+  },
+  {
+    "id": 16,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government provide free healthcare to all citizens?\nArgument I: Yes, health is a basic right and no one should be denied treatment due to poverty.\nArgument II: No, it will put a huge financial burden on the government.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Healthcare as a right is a valid humanitarian concern, and financial sustainability is a genuine policy challenge. Both deserve serious consideration."
+  },
+  {
+    "id": 17,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should online gambling be legalized in India?\nArgument I: Yes, it will generate tax revenue for the government.\nArgument II: No, it will lead to addiction and financial ruin for many people.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "B) Only Argument II is strong",
+    "explanation": "Argument II is strong as social harm from gambling addiction is well-documented. Argument I is weak because tax revenue alone does not justify legalizing an activity with serious social consequences."
+  },
+  {
+    "id": 18,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government ban the use of firecrackers during festivals?\nArgument I: Yes, firecrackers cause severe air and noise pollution.\nArgument II: No, firecrackers are part of cultural traditions and celebrations.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as environmental and health impacts of firecrackers are scientifically proven. Argument II is weak because cultural tradition does not override public health concerns."
+  },
+  {
+    "id": 19,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government make English the sole medium of instruction in all schools?\nArgument I: Yes, English is the global language and improves career prospects.\nArgument II: No, it will disadvantage students from rural areas and harm regional languages.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. English proficiency is a career advantage, and protecting regional languages and rural students' access to education are equally valid concerns."
+  },
+  {
+    "id": 20,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government ban tobacco products?\nArgument I: Yes, tobacco causes cancer and other life-threatening diseases.\nArgument II: No, it will affect the livelihood of tobacco farmers and workers.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as health hazards of tobacco are scientifically proven. Argument II is weak because livelihood concerns can be addressed through alternative employment schemes."
+  },
+  {
+    "id": 21,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government make physical education compulsory in colleges?\nArgument I: Yes, it promotes fitness and reduces lifestyle diseases among youth.\nArgument II: No, college students should focus on academic subjects.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as physical health is essential for overall development. Argument II is weak because physical education does not significantly detract from academic performance."
+  },
+  {
+    "id": 22,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government provide free laptops to all college students?\nArgument I: Yes, it will bridge the digital divide and enhance learning.\nArgument II: No, it is a wasteful expenditure and students may misuse them.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as digital access is crucial for modern education. Argument II is weak because potential misuse is speculative and does not negate the educational benefit."
+  },
+  {
+    "id": 23,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should night curfews be imposed in cities to reduce crime?\nArgument I: Yes, most crimes occur at night and curfews will deter criminals.\nArgument II: No, it will restrict the freedom of law-abiding citizens.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Crime reduction is a valid public safety goal, and restricting citizens' freedom is a genuine civil liberties concern. Both are logically sound."
+  },
+  {
+    "id": 24,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government ban junk food advertisements targeting children?\nArgument I: Yes, such advertisements influence children to adopt unhealthy eating habits.\nArgument II: No, it infringes on the freedom of businesses to advertise their products.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as protecting children's health is a priority. Argument II is weak because business freedom does not extend to targeting vulnerable groups like children with harmful products."
+  },
+  {
+    "id": 25,
+    "topic": "Statement and Argument",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Should the government make it mandatory for companies to hire a certain percentage of women?\nArgument I: Yes, it will promote gender equality in the workplace.\nArgument II: No, hiring should be based on merit, not gender quotas.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Gender equality in workplaces is a valid social goal, and merit-based hiring is a fundamental principle of fair employment. Both present logical reasoning."
+  },
+  {
+    "id": 26,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should India adopt a uniform civil code?\nArgument I: Yes, it will ensure equal rights for all citizens regardless of religion.\nArgument II: No, it will interfere with the religious practices and personal laws of minorities.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Equal rights under a uniform code is a constitutional goal, and protecting minority religious practices is also a fundamental right. Both are substantive concerns."
+  },
+  {
+    "id": 27,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government privatize all public sector banks?\nArgument I: Yes, private banks are more efficient and customer-friendly.\nArgument II: No, public sector banks serve rural and underprivileged populations who may be ignored by private banks.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "B) Only Argument II is strong",
+    "explanation": "Argument II is strong as financial inclusion for rural and poor populations is a critical policy concern. Argument I is weak because efficiency alone does not justify removing banking access from vulnerable groups."
+  },
+  {
+    "id": 28,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government implement a population control policy?\nArgument I: Yes, overpopulation strains resources and infrastructure.\nArgument II: No, population control policies violate reproductive rights.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Resource management is a genuine concern, and reproductive rights are fundamental human rights. Both sides present valid and significant reasoning."
+  },
+  {
+    "id": 29,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government increase taxes on the wealthy to fund social welfare programs?\nArgument I: Yes, it will reduce income inequality and fund essential services.\nArgument II: No, high taxes discourage investment and economic growth.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Reducing inequality through redistribution is a valid social goal, and the impact on investment and growth is a legitimate economic concern. Both are well-reasoned."
+  },
+  {
+    "id": 30,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government make it mandatory for all citizens to learn a second Indian language?\nArgument I: Yes, it will promote national integration and preserve regional languages.\nArgument II: No, it adds unnecessary burden on students already dealing with heavy curriculum.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as national integration and language preservation are important goals. Argument II is weak because learning a language, while challenging, has long-term cognitive and cultural benefits."
+  },
+  {
+    "id": 31,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government ban the use of private vehicles on alternate days to reduce pollution?\nArgument I: Yes, it will significantly reduce vehicular pollution in cities.\nArgument II: No, it will cause inconvenience to commuters and affect productivity.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Pollution reduction is a critical environmental need, and commuter inconvenience affecting productivity is a genuine practical concern. Both are valid."
+  },
+  {
+    "id": 32,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government make organ donation compulsory after death?\nArgument I: Yes, it will save thousands of lives waiting for organ transplants.\nArgument II: No, it violates the religious and personal beliefs of individuals.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Saving lives through organ donation is a compelling humanitarian reason, and respecting religious and personal beliefs is a fundamental right. Both are valid."
+  },
+  {
+    "id": 33,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government impose a complete ban on alcohol?\nArgument I: Yes, alcohol is the root cause of many social evils including domestic violence and accidents.\nArgument II: No, prohibition has historically failed and leads to illegal trade.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "B) Only Argument II is strong",
+    "explanation": "Argument II is strong as historical evidence shows prohibition leads to black markets and fails to achieve its goals. Argument I is weak because social evils can be addressed through regulation rather than a complete ban."
+  },
+  {
+    "id": 34,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government make it mandatory for all political parties to have at least 33% women candidates?\nArgument I: Yes, it will increase women's representation in politics.\nArgument II: No, parties should have the freedom to choose candidates based on their strength.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as women's political representation is a critical democratic need. Argument II is weak because party autonomy should not override the need for inclusive representation."
+  },
+  {
+    "id": 35,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government provide reservation in private sector jobs?\nArgument I: Yes, it will help marginalized communities get better economic opportunities.\nArgument II: No, private companies should have the freedom to hire based on merit.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Economic upliftment of marginalized groups is a valid social goal, and merit-based hiring in private enterprise is a legitimate business concern. Both are well-reasoned."
+  },
+  {
+    "id": 36,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government make it mandatory for all citizens to file income tax returns?\nArgument I: Yes, it will increase tax compliance and government revenue.\nArgument II: No, it will create unnecessary paperwork for people below the taxable income limit.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as tax compliance is essential for national revenue. Argument II is weak because filing returns, even with nil tax, helps the government track income and is a manageable process."
+  },
+  {
+    "id": 37,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government ban the use of coal for power generation?\nArgument I: Yes, coal is a major contributor to air pollution and climate change.\nArgument II: No, coal is still the cheapest and most reliable source of energy for developing nations.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Environmental concerns about coal are scientifically valid, and energy affordability and reliability for developing nations are genuine economic concerns. Both are substantive."
+  },
+  {
+    "id": 38,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government make Aadhaar card mandatory for all financial transactions?\nArgument I: Yes, it will help curb black money and financial fraud.\nArgument II: No, it raises serious privacy concerns and risks of data breach.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "C) Both Arguments are strong",
+    "explanation": "Both arguments are strong. Curbing financial fraud is a valid policy goal, and privacy and data security are fundamental rights. Both present well-reasoned and significant concerns."
+  },
+  {
+    "id": 39,
+    "topic": "Statement and Argument",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Should the government make it compulsory for all citizens to undergo annual health checkups?\nArgument I: Yes, early detection of diseases will reduce healthcare costs and save lives.\nArgument II: No, it is an infringement on personal freedom and choice.\nWhich argument is strong?",
+    "options": ["A) Only Argument I is strong", "B) Only Argument II is strong", "C) Both Arguments are strong", "D) Neither Argument is strong"],
+    "correct_answer": "A) Only Argument I is strong",
+    "explanation": "Argument I is strong as preventive healthcare has proven benefits. Argument II is weak because the public health

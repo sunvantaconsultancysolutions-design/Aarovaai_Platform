@@ -1,0 +1,1917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>AarovaaiAI — Aptitude Test</title>
+<meta name="description" content="Practice aptitude questions for campus placements and govt exams"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+<!-- Auth guard — runs before page renders -->
+<script>
+if(!localStorage.getItem('aarovaai_token')){
+  document.documentElement.style.display='none';
+  window.location.replace('login.html');
+}
+</script>
+<script src="api.js"></script>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a0f;
+  --surface:#13131a;
+  --card:#1c1c27;
+  --border:#2a2a38;
+  --accent:#7c5cfc;
+  --accent2:#a78bfa;
+  --green:#22c55e;
+  --red:#ef4444;
+  --amber:#f59e0b;
+  --text:#f0f0ff;
+  --muted:#8888aa;
+  --radius:14px;
+}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;min-height:100vh}
+.screen{display:none;padding:20px 16px;max-width:700px;margin:0 auto}
+.screen.active{display:block}
+
+/* ── TOP BAR ── */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
+.logo{font-size:18px;font-weight:700;letter-spacing:-0.5px;color:var(--text)}
+.logo span{color:var(--accent)}
+.topbar-right{display:flex;align-items:center;gap:10px}
+.mode-pill{font-size:12px;color:var(--muted);background:var(--card);border:1px solid var(--border);border-radius:99px;padding:5px 12px;white-space:nowrap}
+
+/* ── PROFILE CHIP ── */
+.profile-chip{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);border-radius:99px;padding:4px 12px 4px 4px;cursor:pointer;transition:.15s;position:relative;user-select:none}
+.profile-chip:hover{border-color:var(--accent);background:#1c1c2f}
+.profile-avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0}
+.profile-name{font-size:12px;font-weight:600;color:var(--text);max-width:80px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.profile-caret{font-size:10px;color:var(--muted)}
+.profile-dropdown{display:none;position:absolute;top:calc(100% + 8px);right:0;background:var(--card);border:1px solid #3a3a50;border-radius:12px;padding:6px;min-width:160px;z-index:300;box-shadow:0 8px 32px #00000070}
+.profile-chip.open .profile-dropdown{display:block}
+.pd-item{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;font-size:13px;color:var(--text);cursor:pointer;transition:.1s}
+.pd-item:hover{background:#1c1c2f}
+.pd-item.danger{color:var(--red)}
+.pd-divider{height:1px;background:var(--border);margin:4px 0}
+
+/* ── HOME SCREEN ── */
+.hero{text-align:center;padding:32px 0 20px}
+.hero h1{font-size:28px;font-weight:700;line-height:1.2;margin-bottom:10px}
+.hero h1 span{color:var(--accent)}
+.hero p{color:var(--muted);font-size:15px;max-width:420px;margin:0 auto 28px}
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:28px}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 12px;text-align:center}
+.stat-num{font-size:22px;font-weight:700;color:var(--accent)}
+.stat-label{font-size:12px;color:var(--muted);margin-top:4px}
+.section-title{font-size:13px;font-weight:600;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.topics-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:24px}
+.topic-card{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:14px 16px;cursor:pointer;transition:.18s;display:flex;align-items:center;gap:12px}
+.topic-card:hover{border-color:var(--accent);background:#1c1c2f}
+.topic-card.selected{border-color:var(--accent);background:#1a1530}
+.topic-icon{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#7c5cfc22,#a78bfa22);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.topic-name{font-size:13px;font-weight:500;line-height:1.3}
+.topic-meta{font-size:11px;color:var(--muted);margin-top:2px}
+.config-row{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}
+.config-btn{flex:1;min-width:60px;background:var(--card);border:1.5px solid var(--border);border-radius:10px;padding:12px 8px;cursor:pointer;text-align:center;font-size:13px;font-weight:500;color:var(--text);transition:.15s;font-family:inherit}
+.config-btn.active,.config-btn:hover{border-color:var(--accent);color:var(--accent);background:#1a1530}
+.btn-primary{width:100%;background:var(--accent);color:#fff;border:none;border-radius:12px;padding:16px;font-size:16px;font-weight:600;cursor:pointer;transition:.15s;letter-spacing:.01em;font-family:inherit}
+.btn-primary:hover{background:#6d4ef0;transform:translateY(-1px)}
+.btn-primary:active{transform:scale(.98)}
+
+/* ── QUIZ SCREEN ── */
+.quiz-header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.timer-box{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:8px 16px;display:flex;align-items:center;gap:8px;font-size:15px;font-weight:600}
+.timer-box.warn{border-color:var(--amber);color:var(--amber)}
+.timer-box.danger{border-color:var(--red);color:var(--red)}
+.timer-dot{width:8px;height:8px;border-radius:50%;background:var(--green);animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.progress-wrap{flex:1;background:var(--card);border-radius:99px;height:8px;overflow:hidden;border:1px solid var(--border)}
+.progress-bar{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:99px;transition:.3s}
+.qcount{font-size:13px;color:var(--muted);white-space:nowrap}
+
+/* ── PAUSE / RESUME BANNER ── */
+.pause-banner{display:none;background:#1a1530;border:1.5px solid var(--accent);border-radius:14px;padding:20px;text-align:center;margin-bottom:16px}
+.pause-banner.visible{display:block}
+.pause-banner h3{font-size:18px;font-weight:700;margin-bottom:6px}
+.pause-banner p{color:var(--muted);font-size:13px;margin-bottom:16px}
+.pause-actions{display:flex;gap:10px}
+.btn-resume{flex:2;background:var(--accent);border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:600;color:#fff;cursor:pointer;font-family:inherit;transition:.15s}
+.btn-resume:hover{background:#6d4ef0}
+.btn-quit{flex:1;background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:14px;font-size:14px;font-weight:500;color:var(--text);cursor:pointer;font-family:inherit;transition:.15s}
+.btn-quit:hover{border-color:var(--red);color:var(--red)}
+
+.question-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-bottom:16px}
+.q-badge{display:inline-flex;align-items:center;gap:6px;background:#7c5cfc18;border:1px solid #7c5cfc44;border-radius:99px;padding:4px 12px;font-size:12px;color:var(--accent2);font-weight:500;margin-bottom:16px}
+.q-text{font-size:17px;font-weight:500;line-height:1.6;color:var(--text)}
+
+.options{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.option{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:15px 18px;cursor:pointer;transition:.15s;display:flex;align-items:center;gap:14px;font-size:15px;font-family:inherit;width:100%;text-align:left}
+.option:hover:not(.selected):not(.disabled){border-color:var(--accent);background:#1a1530}
+.option-letter{width:30px;height:30px;border-radius:8px;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;flex-shrink:0;color:var(--muted);transition:.15s}
+.option.selected{border-color:var(--accent);background:#1a1530}
+.option.selected .option-letter{background:var(--accent);border-color:var(--accent);color:#fff}
+.option.disabled{cursor:default;opacity:.7}
+
+/* ── NAV ROW ── */
+.nav-row{display:flex;gap:10px}
+.btn-outline{flex:1;background:transparent;border:1.5px solid var(--border);border-radius:12px;padding:14px;font-size:14px;font-weight:500;color:var(--text);cursor:pointer;transition:.15s;font-family:inherit}
+.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
+.btn-pause{background:transparent;border:1.5px solid var(--amber);border-radius:12px;padding:14px 18px;font-size:14px;font-weight:500;color:var(--amber);cursor:pointer;transition:.15s;font-family:inherit}
+.btn-pause:hover{background:#1a1200}
+.btn-next{flex:2;background:var(--accent);border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:600;color:#fff;cursor:pointer;transition:.15s;font-family:inherit}
+.btn-next:hover{background:#6d4ef0}
+
+.q-dots{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.q-dot{width:28px;height:28px;border-radius:8px;border:1.5px solid var(--border);background:var(--card);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:var(--muted);cursor:pointer;transition:.12s}
+.q-dot.answered{background:#1a1530;border-color:var(--accent);color:var(--accent2)}
+.q-dot.skipped{background:#1a1200;border-color:var(--amber);color:var(--amber)}
+.q-dot.current{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* ── RESULT SCREEN ── */
+.result-hero{text-align:center;padding:28px 0 20px}
+.score-ring{width:140px;height:140px;margin:0 auto 16px;position:relative}
+.score-ring svg{transform:rotate(-90deg)}
+.score-ring .score-text{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.score-pct{font-size:30px;font-weight:700}
+.score-label{font-size:11px;color:var(--muted)}
+.result-title{font-size:22px;font-weight:700;margin-bottom:6px}
+.result-sub{color:var(--muted);font-size:14px}
+.result-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0}
+.res-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px;text-align:center}
+.res-num{font-size:20px;font-weight:700;margin-bottom:4px}
+.res-lab{font-size:11px;color:var(--muted)}
+
+/* Review tabs */
+.rev-tabs{display:flex;gap:0;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:3px;margin-bottom:14px}
+.rev-tab{flex:1;text-align:center;padding:8px;font-size:12px;font-weight:600;border-radius:7px;cursor:pointer;color:var(--muted);transition:.12s;font-family:inherit;background:none;border:none}
+.rev-tab.active{background:var(--accent);color:#fff}
+
+.review-list{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+.review-item{background:var(--card);border-radius:12px;overflow:hidden;border-left:3px solid var(--border)}
+.review-item.r-correct{border-left-color:var(--green)}
+.review-item.r-wrong{border-left-color:var(--red)}
+.review-item.r-skip{border-left-color:var(--amber)}
+
+.ri-head{padding:14px 16px;display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.ri-q{font-size:13px;font-weight:600;flex:1;line-height:1.5}
+.ri-badge{font-size:11px;font-weight:700;border-radius:99px;padding:3px 10px;flex-shrink:0;white-space:nowrap}
+.ri-badge.ok{background:#052010;color:var(--green);border:1px solid #1a4028}
+.ri-badge.bad{background:#200505;color:var(--red);border:1px solid #4a1010}
+.ri-badge.sk{background:#1a1200;color:var(--amber);border:1px solid #3d2a00}
+
+.ri-body{padding:0 16px 14px;border-top:1px solid var(--border);padding-top:12px}
+.ri-opts{display:flex;flex-direction:column;gap:6px;margin-bottom:10px}
+.ri-opt{font-size:12px;padding:8px 12px;border-radius:8px;display:flex;align-items:center;gap:8px;border:1px solid transparent}
+.ri-opt.correct{background:#052010;color:var(--green);border-color:#1a4028}
+.ri-opt.wrong{background:#200505;color:var(--red);border-color:#4a1010}
+.ri-opt.neutral{background:var(--surface);color:var(--muted)}
+.ri-opt-ltr{width:22px;height:22px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;background:rgba(255,255,255,.08)}
+.ri-exp{background:#0d1a0f;border:1px solid #1a4028;border-radius:10px;padding:12px 14px;font-size:12px;line-height:1.7;color:#86efac}
+.ri-exp strong{color:#4ade80;display:block;margin-bottom:4px}
+
+.result-actions{display:flex;gap:10px}
+.btn-ghost{flex:1;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;font-size:14px;font-weight:500;color:var(--text);cursor:pointer;transition:.15s;font-family:inherit}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ── LOADING OVERLAY ── */
+#quiz-loader{display:none;position:fixed;inset:0;background:var(--bg);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:16px}
+.loader-spinner{width:48px;height:48px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loader-text{color:var(--muted);font-size:14px}
+
+@media(max-width:480px){
+  .result-grid{grid-template-columns:repeat(2,1fr)}
+  .nav-row{flex-wrap:wrap}
+  .btn-pause{flex-basis:100%;order:-1}
+}
+
+/* ── ACCORDION CATEGORIES ── */
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.accordion-item {
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.22s ease, box-shadow 0.22s ease;
+}
+.accordion-item:hover {
+  border-color: var(--accent);
+}
+.accordion-item.active {
+  border-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(124, 92, 252, 0.08);
+}
+.accordion-header {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--surface);
+  transition: background 0.15s ease;
+}
+.accordion-header:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+.accordion-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.topic-count {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 500;
+}
+.accordion-arrow {
+  font-size: 11px;
+  transition: transform 0.22s ease;
+  color: var(--muted);
+}
+.accordion-item.active .accordion-arrow {
+  transform: rotate(90deg);
+  color: var(--accent);
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 20px;
+}
+.accordion-item.active .accordion-content {
+  max-height: 2000px;
+  padding: 20px;
+}
+
+/* ── SKELETON LOADERS ── */
+.skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.skeleton-card {
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 68px;
+  position: relative;
+  overflow: hidden;
+}
+.skeleton-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #2a2a38;
+}
+.skeleton-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.skeleton-title {
+  width: 70%;
+  height: 12px;
+  background: #2a2a38;
+  border-radius: 4px;
+}
+.skeleton-subtitle {
+  width: 40%;
+  height: 8px;
+  background: #2a2a38;
+  border-radius: 3px;
+}
+.skeleton-shimmer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  transform: translateX(-100%);
+  animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+
+/* ── ERROR STATE ── */
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background: #200505;
+  border: 1px solid #4a1010;
+  border-radius: var(--radius);
+  margin-top: 10px;
+}
+.error-msg {
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.btn-retry {
+  background: transparent;
+  border: 1.5px solid var(--red);
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--red);
+  cursor: pointer;
+  transition: 0.15s;
+  font-family: inherit;
+}
+.btn-retry:hover {
+  background: var(--red);
+  color: #fff;
+}
+
+/* ── FILTER TABS (MODULE TOGGLE) ── */
+.filter-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+  overflow-x: auto;
+}
+.filter-tabs::-webkit-scrollbar { display: none; }
+.ftab {
+  padding: 8px 18px;
+  border-radius: 99px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--card);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 0.15s;
+}
+.ftab:hover { border-color: var(--muted); }
+.ftab.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+</style>
+</head>
+<body>
+
+<!-- ── TOPBAR ── -->
+<div class="topbar">
+  <div class="logo">Aarovaai <span>AI</span></div>
+  <div class="topbar-right">
+    <div class="mode-pill" id="mode-pill">Aptitude Test</div>
+    <div class="profile-chip" id="profile-chip" onclick="this.classList.toggle('open')" title="Your profile">
+      <div class="profile-avatar" id="profile-avatar">?</div>
+      <span class="profile-name" id="profile-name">Me</span>
+      <span class="profile-caret">▾</span>
+      <div class="profile-dropdown" onclick="event.stopPropagation()">
+        <div class="pd-item" onclick="window.location.href='aarovaai_platform_ui.html'">🏠 Dashboard</div>
+        <div class="pd-item" id="pd-hub-link-test">📚 Hub</div>
+        <div class="pd-item" onclick="window.location.href='aarovaai_progress.html'">📊 My Progress</div>
+        <div class="pd-divider"></div>
+        <div class="pd-item danger" onclick="aarovaaiLogout()">🚪 Logout</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── LOADING OVERLAY ── -->
+<div id="quiz-loader">
+  <div class="loader-spinner"></div>
+  <div class="loader-text" id="loader-text">Loading questions…</div>
+</div>
+
+<!-- ── HOME SCREEN ── -->
+<div class="screen active" id="home-screen">
+  <div class="hero" style="position:relative;">
+    <div class="filter-tabs" style="position:absolute; top:0px; right:0px; margin-bottom:0;">
+      <div class="ftab active" id="btn-mod-aptitude" onclick="switchTestModule('aptitude')">Aptitude</div>
+      <div class="ftab" id="btn-mod-technical" onclick="switchTestModule('technical')">Technical</div>
+    </div>
+    <div style="text-align:center;">
+      <h1 id="hero-title" style="margin-bottom:8px;">Master <span>Aptitude</span><br>Crack Any Exam</h1>
+      <p id="hero-desc">Practice 3200+ questions across 32 topics for campus placements and government exams</p>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-num" id="stat-q-num">3200+</div><div class="stat-label">Questions</div></div>
+    <div class="stat-card"><div class="stat-num" id="stat-t-num">32</div><div class="stat-label">Topics</div></div>
+    <div class="stat-card"><div class="stat-num">5 Exams</div><div class="stat-label">Patterns</div></div>
+  </div>
+
+  <div class="section-title">Category &amp; Topics</div>
+  <div class="accordion-container" id="category-accordion">
+    <div id="aptitude-accordions">
+    <!-- Accordion Item: Arithmetic -->
+    <div class="accordion-item" id="accordion-item-arithmetic">
+      <div class="accordion-header" onclick="toggleAccordion('arithmetic')">
+        <span class="accordion-title">🔢 Arithmetic Aptitude <span class="topic-count">(32 Topics)</span></span>
+        <span class="accordion-arrow">▶</span>
+      </div>
+      <div class="accordion-content" id="accordion-content-arithmetic"></div>
+    </div>
+    
+    <!-- Accordion Item: Verbal -->
+    <div class="accordion-item" id="accordion-item-verbal">
+      <div class="accordion-header" onclick="toggleAccordion('verbal')">
+        <span class="accordion-title">🔡 Verbal Ability <span class="topic-count">(19 Topics)</span></span>
+        <span class="accordion-arrow">▶</span>
+      </div>
+      <div class="accordion-content" id="accordion-content-verbal"></div>
+    </div>
+
+    <!-- Accordion Item: Logical -->
+    <div class="accordion-item" id="accordion-item-logical">
+      <div class="accordion-header" onclick="toggleAccordion('logical')">
+        <span class="accordion-title">💡 Logical Reasoning <span class="topic-count">(19 Topics)</span></span>
+        <span class="accordion-arrow">▶</span>
+      </div>
+      <div class="accordion-content" id="accordion-content-logical"></div>
+    </div>
+
+    <!-- Accordion Item: Reasoning -->
+    <div class="accordion-item" id="accordion-item-reasoning">
+      <div class="accordion-header" onclick="toggleAccordion('reasoning')">
+        <span class="accordion-title">🧠 Reasoning <span class="topic-count">(16 Topics)</span></span>
+        <span class="accordion-arrow">▶</span>
+      </div>
+      <div class="accordion-content" id="accordion-content-reasoning"></div>
+    </div>
+    </div> <!-- aptitude-accordions -->
+
+    <div id="technical-accordions" style="display:none">
+      <!-- Accordion Item: C Language -->
+      <div class="accordion-item" id="accordion-item-c-language">
+        <div class="accordion-header" onclick="toggleAccordion('c-language')">
+          <span class="accordion-title">💻 C Language <span class="topic-count">(19 Topics)</span></span>
+          <span class="accordion-arrow">▶</span>
+        </div>
+        <div class="accordion-content" id="accordion-content-c-language"></div>
+      </div>
+      <!-- Accordion Item: Java Language -->
+      <div class="accordion-item" id="accordion-item-java">
+        <div class="accordion-header" onclick="toggleAccordion('java')">
+          <span class="accordion-title">☕ Java Language <span class="topic-count">(11 Topics)</span></span>
+          <span class="accordion-arrow">▶</span>
+        </div>
+        <div class="accordion-content" id="accordion-content-java"></div>
+      </div>
+      <!-- Accordion Item: Database -->
+      <div class="accordion-item" id="accordion-item-database">
+        <div class="accordion-header" onclick="toggleAccordion('database')">
+          <span class="accordion-title">🗄️ Database Management <span class="topic-count">(29 Topics)</span></span>
+          <span class="accordion-arrow">▶</span>
+        </div>
+        <div class="accordion-content" id="accordion-content-database"></div>
+      </div>
+      <!-- Accordion Item: Networks -->
+      <div class="accordion-item" id="accordion-item-networks">
+        <div class="accordion-header" onclick="toggleAccordion('networks')">
+          <span class="accordion-title">🌐 Networks <span class="topic-count">(15 Topics)</span></span>
+          <span class="accordion-arrow">▶</span>
+        </div>
+        <div class="accordion-content" id="accordion-content-networks"></div>
+      </div>
+    </div> <!-- technical-accordions -->
+  </div>
+
+  <div class="section-title">Number of questions</div>
+  <div class="config-row" id="qcount-row">
+    <button class="config-btn active" data-val="10">10 Q</button>
+    <button class="config-btn" data-val="20">20 Q</button>
+    <button class="config-btn" data-val="30">30 Q</button>
+    <button class="config-btn" data-val="50">50 Q</button>
+  </div>
+
+  <div class="section-title">Difficulty</div>
+  <div class="config-row" id="diff-row">
+    <button class="config-btn active" data-val="mixed">Mixed</button>
+    <button class="config-btn" data-val="easy">Easy</button>
+    <button class="config-btn" data-val="medium">Medium</button>
+    <button class="config-btn" data-val="hard">Hard</button>
+  </div>
+
+  <div class="section-title">Exam type</div>
+  <div class="config-row" id="exam-row">
+    <button class="config-btn active" data-val="all">All</button>
+    <button class="config-btn" data-val="campus">Campus</button>
+    <button class="config-btn" data-val="govt">Govt</button>
+  </div>
+
+  <button class="btn-primary" id="start-btn" onclick="startTest()">Start Test →</button>
+  <div style="height:24px"></div>
+</div>
+
+<!-- ── QUIZ SCREEN ── -->
+<div class="screen" id="quiz-screen">
+  <div class="quiz-header">
+    <div class="timer-box" id="timer-box">
+      <div class="timer-dot" id="timer-dot"></div>
+      <span id="timer-display">20:00</span>
+    </div>
+    <div class="progress-wrap"><div class="progress-bar" id="progress-bar" style="width:0%"></div></div>
+    <div class="qcount" id="qcount-label">1 / 10</div>
+  </div>
+
+  <!-- Pause banner (shown when paused) -->
+  <div class="pause-banner" id="pause-banner">
+    <h3>⏸ Test Paused</h3>
+    <p>Your progress is saved. Resume whenever you're ready.</p>
+    <div class="pause-actions">
+      <button class="btn-quit" onclick="confirmQuit()">Quit Test</button>
+      <button class="btn-resume" onclick="resumeTest()">▶ Resume Test</button>
+    </div>
+  </div>
+
+  <div id="quiz-body">
+    <div class="q-dots" id="q-dots"></div>
+
+    <div class="question-card">
+      <div class="q-badge">
+        <span id="q-topic-badge">Topic</span> &bull;
+        <span id="q-diff-badge" style="color:var(--amber)">Medium</span>
+      </div>
+      <div class="q-text" id="q-text">Loading…</div>
+    </div>
+
+    <div class="options" id="options-container"></div>
+
+    <div class="nav-row">
+      <button class="btn-outline" id="skip-btn" onclick="skipQuestion()">Skip</button>
+      <button class="btn-pause" id="pause-btn" onclick="pauseTest()">⏸ Pause</button>
+      <button class="btn-next" id="next-btn" onclick="nextQuestion()">Next →</button>
+    </div>
+  </div>
+  <div style="height:20px"></div>
+</div>
+
+<!-- ── RESULT SCREEN ── -->
+<div class="screen" id="result-screen">
+  <div class="result-hero">
+    <div class="score-ring">
+      <svg width="140" height="140" viewBox="0 0 140 140">
+        <circle cx="70" cy="70" r="56" fill="none" stroke="#1c1c27" stroke-width="10"/>
+        <circle cx="70" cy="70" r="56" fill="none" stroke="url(#rg)" stroke-width="10"
+          stroke-linecap="round" stroke-dasharray="351.9" id="score-arc" stroke-dashoffset="351.9"/>
+        <defs><linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#7c5cfc"/><stop offset="100%" stop-color="#22c55e"/>
+        </linearGradient></defs>
+      </svg>
+      <div class="score-text">
+        <div class="score-pct" id="score-pct">0%</div>
+        <div class="score-label">Score</div>
+      </div>
+    </div>
+    <div class="result-title" id="result-title">Great job!</div>
+    <div class="result-sub" id="result-sub">You completed the test</div>
+  </div>
+
+  <div class="result-grid">
+    <div class="res-card"><div class="res-num" id="r-correct" style="color:var(--green)">0</div><div class="res-lab">Correct</div></div>
+    <div class="res-card"><div class="res-num" id="r-wrong" style="color:var(--red)">0</div><div class="res-lab">Wrong</div></div>
+    <div class="res-card"><div class="res-num" id="r-skip" style="color:var(--amber)">0</div><div class="res-lab">Skipped</div></div>
+    <div class="res-card"><div class="res-num" id="r-time" style="color:var(--accent2)">—</div><div class="res-lab">Time</div></div>
+  </div>
+
+  <div class="section-title">Review — All Questions</div>
+
+  <!-- Filter tabs -->
+  <div class="rev-tabs">
+    <button class="rev-tab active" onclick="switchRevTab('all',this)">All</button>
+    <button class="rev-tab" onclick="switchRevTab('wrong',this)">Wrong</button>
+    <button class="rev-tab" onclick="switchRevTab('correct',this)">Correct</button>
+    <button class="rev-tab" onclick="switchRevTab('skipped',this)">Skipped</button>
+  </div>
+
+  <div class="review-list" id="review-list"></div>
+
+  <div class="result-actions">
+    <button class="btn-ghost" onclick="goHome()">← Back</button>
+    <button class="btn-primary" style="flex:2" onclick="retryTest()">Retry Same Topic</button>
+  </div>
+  <div style="height:24px"></div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+//  FALLBACK DATA
+// ═══════════════════════════════════════════════════════════════
+const FALLBACK_TOPICS = [
+  {name:"Percentage",         id:"percentage",           icon:"📊"},
+  {name:"Profit & Loss",      id:"profit-loss",          icon:"💰"},
+  {name:"Simple Interest",    id:"simple-interest",      icon:"🏦"},
+  {name:"Compound Interest",  id:"compound-interest",    icon:"📈"},
+  {name:"Time & Work",        id:"time-work",            icon:"⏱️"},
+  {name:"Time & Distance",    id:"time-distance",        icon:"🚆"},
+  {name:"Average",            id:"average",              icon:"📉"},
+  {name:"Ratio & Proportion", id:"ratio-proportion",     icon:"⚖️"},
+  {name:"Probability",        id:"probability",          icon:"🎲"},
+  {name:"HCF & LCM",          id:"hcf-lcm",              icon:"🧮"},
+  {name:"Number System",      id:"number-system",        icon:"🔢"},
+  {name:"Permutation & Combination", id:"permutation-combination", icon:"🔢"},
+  {name:"Problems on Ages",   id:"ages",                 icon:"👴"},
+  {name:"Calendar",           id:"calendar",             icon:"📅"},
+  {name:"Clock",              id:"clock",                icon:"🕐"},
+  {name:"Simplification",     id:"simplification",       icon:"✏️"},
+  {name:"Partnership",        id:"partnership",          icon:"🤝"},
+  {name:"Area",               id:"area",                 icon:"📐"},
+  {name:"Boats & Streams",    id:"boats-streams",        icon:"🚢"},
+  {name:"Pipes & Cistern",    id:"pipes-cistern",        icon:"🔧"},
+];
+
+const FALLBACK_QUESTIONS = {
+  "percentage":[
+    {q:"If 30% of a number is 90, what is the number?",opts:["250","300","270","320"],ans:1,diff:"Easy",exp:"30% of x = 90 → x = 90 × 100 ÷ 30 = 300."},
+    {q:"A price increased from ₹800 to ₹1000. What is the % increase?",opts:["20%","25%","15%","30%"],ans:1,diff:"Easy",exp:"Increase = 200. % = (200 ÷ 800) × 100 = 25%."},
+    {q:"Anu scored 420 out of 600. What is her percentage?",opts:["65%","70%","72%","75%"],ans:1,diff:"Easy",exp:"(420 ÷ 600) × 100 = 70%."},
+    {q:"If 15% of A = 20% of B, then A:B is?",opts:["3:4","4:3","2:3","3:2"],ans:1,diff:"Medium",exp:"15A = 20B → A/B = 20/15 = 4:3."},
+    {q:"Two successive discounts of 20% and 10% equal a single discount of?",opts:["28%","30%","29%","25%"],ans:0,diff:"Hard",exp:"Equivalent = 1 − (0.8 × 0.9) = 28%."},
+  ],
+};
+
+const VERBAL_FILE_MAP = [
+  { file: 'Comprehension.json',          name: 'Reading Comprehension',  id: 'reading-comprehension',  e: '📖', bg: '#130010', count: 34 },
+  { file: 'Cloze_Test.json',             name: 'Cloze Test',             id: 'cloze-test',             e: '🔍', bg: '#120d00', count: 30 },
+  { file: 'Idioms_and_Phrases.json',     name: 'Idioms & Phrases',       id: 'idioms-phrases',         e: '💬', bg: '#130202', count: 50 },
+  { file: 'One_Word_Substitutes.json',   name: 'One Word Substitutes',   id: 'one-word-substitutes',   e: '📝', bg: '#020c1e', count: 50 },
+  { file: 'Ordering_of_Sentences.json',  name: 'Para Jumbles',           id: 'para-jumbles',           e: '🔀', bg: '#011410', count: 40 },
+  { file: 'Sentence_Correction.json',    name: 'Grammar & Usage',        id: 'grammar-usage',          e: '✍️', bg: '#7c5cfc12', count: 50 },
+  { file: 'Spotting_Errors.json',        name: 'Spotting Errors',        id: 'spotting-errors',        e: '🔎', bg: '#130010', count: 50 },
+  { file: 'Sentence_Improvement.json',   name: 'Sentence Improvement',   id: 'sentence-improvement',   e: '⬆️', bg: '#120d00', count: 50 },
+  { file: 'Synonyms.json',               name: 'Synonyms',               id: 'synonyms',               e: '🔗', bg: '#031a09', count: 50 },
+  { file: 'Antonyms.json',               name: 'Antonyms',               id: 'antonyms',               e: '↔️', bg: '#130202', count: 51 },
+  { file: 'Verbal_Analogies.json',       name: 'Verbal Analogies',       id: 'verbal-analogies',       e: '🧩', bg: '#020c1e', count: 40 },
+  { file: 'Change_of_Voice.json',        name: 'Change of Voice',        id: 'change-of-voice',        e: '🔄', bg: '#011410', count: 50 },
+  { file: 'Change_of_Speech.json',       name: 'Change of Speech',       id: 'change-of-speech',       e: '💭', bg: '#130010', count: 100 },
+  { file: 'Paragraph_Formation.json',    name: 'Paragraph Formation',    id: 'paragraph-formation',    e: '📄', bg: '#120d00', count: 50 },
+  { file: 'Ordering_of_Words.json',      name: 'Ordering of Words',      id: 'ordering-of-words',      e: '🔤', bg: '#031a09', count: 40 },
+  { file: 'Selecting_Words.json',        name: 'Selecting Words',        id: 'selecting-words',        e: '✅', bg: '#7c5cfc12', count: 50 },
+  { file: 'Sentence_Formation.json',     name: 'Sentence Formation',     id: 'sentence-formation',     e: '🖊️', bg: '#130202', count: 50 },
+  { file: 'Completing_Statements.json',  name: 'Sentence Completion',    id: 'sentence-completion',    e: '✔️', bg: '#020c1e', count: 40 },
+  { file: 'Spellings.json',              name: 'Spellings',              id: 'spellings',              e: '🔡', bg: '#011410', count: 12 },
+];
+
+const LOGICAL_FILE_MAP = [
+  { file: 'Analogies.json',                name: 'Analogies',                id: 'analogies',             e: '🧩', bg: '#020c1e', count: 50 },
+  { file: 'Analyzing_Arguments.json',      name: 'Analyzing Arguments',      id: 'analyzing-arguments',   e: '⚖️', bg: '#130010', count: 50 },
+  { file: 'Artificial_Language.json',      name: 'Artificial Language',      id: 'artificial-language',   e: '🔣', bg: '#120d00', count: 50 },
+  { file: 'Cause_and_Effect.json',         name: 'Cause and Effect',         id: 'cause-and-effect',      e: '🔄', bg: '#011410', count: 50 },
+  { file: 'Course_of_Action.json',         name: 'Course of Action',         id: 'course-of-action',      e: '🛤️', bg: '#031a09', count: 50 },
+  { file: 'Essential_Part.json',           name: 'Essential Part',           id: 'essential-part',        e: '🔑', bg: '#130202', count: 50 },
+  { file: 'Letter_and_Symbol_Series.json', name: 'Letter & Symbol Series',   id: 'letter-symbol-series',  e: '🔠', bg: '#7c5cfc12', count: 50 },
+  { file: 'Logical_Deduction.json',        name: 'Logical Deduction',        id: 'logical-deduction',     e: '🧠', bg: '#020c1e', count: 50 },
+  { file: 'Logical_Games.json',            name: 'Logical Games',            id: 'logical-games',         e: '🎮', bg: '#130010', count: 50 },
+  { file: 'Logical_Problems.json',         name: 'Logical Problems',         id: 'logical-problems',      e: '❓', bg: '#120d00', count: 50 },
+  { file: 'Making_Judgments.json',         name: 'Making Judgments',         id: 'making-judgments',      e: '🔨', bg: '#011410', count: 50 },
+  { file: 'Matching_Definitions.json',     name: 'Matching Definitions',     id: 'matching-definitions',  e: '📖', bg: '#031a09', count: 50 },
+  { file: 'Number_Series.json',            name: 'Number Series',            id: 'number-series',         e: '🔢', bg: '#130202', count: 50 },
+  { file: 'Statement_and_Argument.json',   name: 'Statement and Argument',   id: 'statement-argument',    e: '🗣️', bg: '#7c5cfc12', count: 50 },
+  { file: 'Statement_and_Assumption.json', name: 'Statement and Assumption', id: 'statement-assumption',  e: '💡', bg: '#020c1e', count: 50 },
+  { file: 'Statement_and_Conclusion.json', name: 'Statement and Conclusion', id: 'statement-conclusion',  e: '🎯', bg: '#130010', count: 50 },
+  { file: 'Theme_Detection.json',          name: 'Theme Detection',          id: 'theme-detection',       e: '🕵️', bg: '#120d00', count: 50 },
+  { file: 'Verbal_Classification.json',    name: 'Verbal Classification',    id: 'verbal-classification', e: '📂', bg: '#011410', count: 50 },
+  { file: 'Verbal_Reasoning.json',         name: 'Verbal Reasoning',         id: 'verbal-reasoning',      e: '💬', bg: '#031a09', count: 50 }
+];
+
+const REASONING_FILE_MAP = [
+  { file: 'Analogy.json', name: 'Analogy', id: 'analogy', e: '🔄', count: 100 },
+  { file: 'Arithmetic_Reasoning.json', name: 'Arithmetic Reasoning', id: 'arithmetic-reasoning', e: '🔢', count: 100 },
+  { file: 'Blood_Relation_Test.json', name: 'Blood Relation Test', id: 'blood-relation-test', e: '🩸', count: 100 },
+  { file: 'Cause_and_Effect.json', name: 'Cause and Effect', id: 'cause-and-effect', e: '⚖️', count: 100 },
+  { file: 'Character_Puzzles.json', name: 'Character Puzzles', id: 'character-puzzles', e: '🧩', count: 100 },
+  { file: 'Classification.json', name: 'Classification', id: 'classification', e: '📂', count: 100 },
+  { file: 'Cube_and_Cuboid.json', name: 'Cube and Cuboid', id: 'cube-and-cuboid', e: '🧊', count: 100 },
+  { file: 'Data_Sufficiency.json', name: 'Data Sufficiency', id: 'data-sufficiency', e: '📊', count: 100 },
+  { file: 'Dice.json', name: 'Dice', id: 'dice', e: '🎲', count: 100 },
+  { file: 'Direction_Sense_Test.json', name: 'Direction Sense Test', id: 'direction-sense-test', e: '🧭', count: 100 },
+  { file: 'Logical_Sequence_of_Words.json', name: 'Logical Sequence of Words', id: 'logical-sequence-of-words', e: '🔡', count: 100 },
+  { file: 'Seating_Arrangement.json', name: 'Seating Arrangement', id: 'seating-arrangement', e: '🪑', count: 100 },
+  { file: 'Series_Completion.json', name: 'Series Completion', id: 'series-completion', e: '📈', count: 100 },
+  { file: 'Syllogism.json', name: 'Syllogism', id: 'syllogism', e: '🧠', count: 100 },
+  { file: 'Venn_Diagrams.json', name: 'Venn Diagrams', id: 'venn-diagrams', e: '⭕', count: 100 },
+  { file: 'Verification_of_Truth.json', name: 'Verification of Truth', id: 'verification-of-truth', e: '✅', count: 100 }
+];
+
+const C_LANGUAGE_FILE_MAP = [
+  { file: 'Arrays__in_c_language.json', name: 'Arrays', id: 'arrays', e: '💻', count: 100 },
+  { file: 'Bitwise_Operators__in_c_language.json', name: 'Bitwise Operators', id: 'bitwise-operators', e: '💻', count: 100 },
+  { file: 'C_Preprocessor__in_c_language.json', name: 'C Preprocessor', id: 'c-preprocessor', e: '💻', count: 100 },
+  { file: 'Command_Line_Arguments__in_c_language.json', name: 'Command Line Arguments', id: 'command-line-arguments', e: '💻', count: 100 },
+  { file: 'Complicated_Declarations_in_c_language.json', name: 'Complicated Declarations', id: 'complicated-declarations', e: '💻', count: 100 },
+  { file: 'Const__in_c_language.json', name: 'Const', id: 'const', e: '💻', count: 100 },
+  { file: 'Control_Instructions__in_c_language.json', name: 'Control Instructions', id: 'control-instructions', e: '💻', count: 100 },
+  { file: 'Declarations_and_Initializations__in_c_language.json', name: 'Declarations And Initializations', id: 'declarations-and-initializations', e: '💻', count: 100 },
+  { file: 'Expressions__in_c_language.json', name: 'Expressions', id: 'expressions', e: '💻', count: 100 },
+  { file: 'Floating_Point_Issues__in_c_language.json', name: 'Floating Point Issues', id: 'floating-point-issues', e: '💻', count: 100 },
+  { file: 'Functions__in_c_language.json', name: 'Functions', id: 'functions', e: '💻', count: 100 },
+  { file: 'Input_Output__in_c_language.json', name: 'Input & Output', id: 'input-output', e: '💻', count: 100 },
+  { file: 'Library_Functions__in_c_language.json', name: 'Library Functions', id: 'library-functions', e: '💻', count: 100 },
+  { file: 'Memory_Allocation__in_c_language.json', name: 'Memory Allocation', id: 'memory-allocation', e: '💻', count: 100 },
+  { file: 'Pointers__in_c_language.json', name: 'Pointers', id: 'pointers', e: '💻', count: 100 },
+  { file: 'Strings__in_c_language.json', name: 'Strings', id: 'strings', e: '💻', count: 100 },
+  { file: 'Structures__Unions_Enums__in_c_language.json', name: 'Structures Unions Enums', id: 'structures-unions-enums', e: '💻', count: 100 },
+  { file: 'Typedef__in_c_language.json', name: 'Typedef', id: 'typedef', e: '💻', count: 100 },
+  { file: 'Variable_Number_of_Arguments__in_c_language.json', name: 'Variable Number Of Arguments', id: 'variable-number-of-arguments', e: '💻', count: 100 }
+];
+
+const JAVA_LANGUAGE_FILE_MAP = [
+  { file: 'Assertions_in_java.json', name: 'Assertions', id: 'assertions', e: '☕', count: 100 },
+  { file: 'Declarations_and_Access_Control_in_java.json', name: 'Declarations And Access Control', id: 'declarations-and-access-control', e: '☕', count: 100 },
+  { file: 'Exceptions_in_java.json', name: 'Exceptions', id: 'exceptions', e: '☕', count: 100 },
+  { file: 'Flow_Control_in_java.json', name: 'Flow Control', id: 'flow-control', e: '☕', count: 100 },
+  { file: 'Garbage_Collections_in_java.json', name: 'Garbage Collections', id: 'garbage-collections', e: '☕', count: 100 },
+  { file: 'Inner_Classes_in_java.json', name: 'Inner Classes', id: 'inner-classes', e: '☕', count: 100 },
+  { file: 'Java.lang_Class.json', name: 'Java.lang Class', id: 'java-lang-class', e: '☕', count: 100 },
+  { file: 'Language_Fundamentals_in_java.json', name: 'Language Fundamentals', id: 'language-fundamentals', e: '☕', count: 100 },
+  { file: 'Objects_and_Collections_in_java.json', name: 'Objects And Collections', id: 'objects-and-collections', e: '☕', count: 100 },
+  { file: 'Operators_and_Assignments_in_java.json', name: 'Operators And Assignments', id: 'operators-and-assignments', e: '☕', count: 100 },
+  { file: 'Threads_in_java.json', name: 'Threads', id: 'threads', e: '☕', count: 100 }
+];
+
+const DATABASE_FILE_MAP = [
+  { file: 'Advanced_SQL.json', name: 'Advanced SQL', id: 'advanced-sql', e: '🗄️', count: 100 },
+  { file: 'Data_Modeling_with_ER_Model.json', name: 'Data Modeling with ER Model', id: 'data-modeling-with-er-model', e: '🗄️', count: 100 },
+  { file: 'Data_Models_into_Database_Designs.json', name: 'Data Models into Database Designs', id: 'data-models-into-database-designs', e: '🗄️', count: 100 },
+  { file: 'Data_Warehousing.json', name: 'Data Warehousing', id: 'data-warehousing', e: '🗄️', count: 100 },
+  { file: 'Data_and_Database_Administration.json', name: 'Data and Database Administration', id: 'data-and-database-administration', e: '🗄️', count: 100 },
+  { file: 'Database_Design_Using_Normalization.json', name: 'Database Design Using Normalization', id: 'database-design-using-normalization', e: '🗄️', count: 100 },
+  { file: 'Database_Processing_for_BIS.json', name: 'Database Processing for BIS', id: 'database-processing-for-bis', e: '🗄️', count: 100 },
+  { file: 'Database_Redesign.json', name: 'Database Redesign', id: 'database-redesign', e: '🗄️', count: 100 },
+  { file: 'Distributed_Databases.json', name: 'Distributed Databases', id: 'distributed-databases', e: '🗄️', count: 100 },
+  { file: 'ER_Model_and_Business_Rules.json', name: 'ER Model and Business Rules', id: 'er-model-and-business-rules', e: '🗄️', count: 100 },
+  { file: 'Introduction_to_Database.json', name: 'Introduction to Database', id: 'introduction-to-database', e: '🗄️', count: 100 },
+  { file: 'Introduction_to_SQL.json', name: 'Introduction to SQL', id: 'introduction-to-sql', e: '🗄️', count: 100 },
+  { file: 'JDBC,_Java_Server_Pages,_and_MySQL.json', name: 'JDBC, Java Server Pages, and MySQL', id: 'jdbc-java-server-pages-and-mysql', e: '🗄️', count: 100 },
+  { file: 'Logical_Database_Design.json', name: 'Logical Database Design', id: 'logical-database-design', e: '🗄️', count: 100 },
+  { file: 'Managing_Databases_with_Oracle.json', name: 'Managing Databases with Oracle', id: 'managing-databases-with-oracle', e: '🗄️', count: 100 },
+  { file: 'Managing_Multiuser_Databases.json', name: 'Managing Multiuser Databases', id: 'managing-multiuser-databases', e: '🗄️', count: 100 },
+  { file: 'Modeling_Data_in_the_Organization.json', name: 'Modeling Data in the Organization', id: 'modeling-data-in-the-organization', e: '🗄️', count: 100 },
+  { file: 'ODBC,_OLE_DB,_ADO,_and_ASP.json', name: 'ODBC, OLE DB, ADO, and ASP', id: 'odbc-ole-db-ado-and-asp', e: '🗄️', count: 100 },
+  { file: 'Object-Oriented_Data_Modeling.json', name: 'Object-Oriented Data Modeling', id: 'object-oriented-data-modeling', e: '🗄️', count: 100 },
+  { file: 'Object-Oriented_Database.json', name: 'Object-Oriented Database', id: 'object-oriented-database', e: '🗄️', count: 100 },
+  { file: 'Physical_Database_Design.json', name: 'Physical Database Design', id: 'physical-database-design', e: '🗄️', count: 100 },
+  { file: 'SQL_Server_2000.json', name: 'SQL Server 2000', id: 'sql-server-2000', e: '🗄️', count: 100 },
+  { file: 'SQL_for_Database_Construction.json', name: 'SQL for Database Construction', id: 'sql-for-database-construction', e: '🗄️', count: 100 },
+  { file: 'The_Client-Server_Database.json', name: 'The Client-Server Database', id: 'the-client-server-database', e: '🗄️', count: 100 },
+  { file: 'The_Database_Development_Process.json', name: 'The Database Development Process', id: 'the-database-development-process', e: '🗄️', count: 100 },
+  { file: 'The_Database_Environment.json', name: 'The Database Environment', id: 'the-database-environment', e: '🗄️', count: 100 },
+  { file: 'The_Internet_Database_Environment.json', name: 'The Internet Database Environment', id: 'the-internet-database-environment', e: '🗄️', count: 100 },
+  { file: 'The_Relational_Model_and_Normalization.json', name: 'The Relational Model and Normalization', id: 'the-relational-model-and-normalization', e: '🗄️', count: 100 },
+  { file: 'XML_and_ADO.NET.json', name: 'XML and ADO.NET', id: 'xml-and-ado-net', e: '🗄️', count: 100 }
+];
+
+const NETWORKS_FILE_MAP = [
+  { file: 'EIGRP_and_OSPF.json', name: 'EIGRP and OSPF', id: 'eigrp-and-ospf', e: '🌐', count: 100 },
+  { file: 'IOS_and_Security_Device_Manager.json', name: 'IOS and Security Device Manager', id: 'ios-and-security-device-manager', e: '🌐', count: 100 },
+  { file: 'IP_Routing.json', name: 'IP Routing', id: 'ip-routing', e: '🌐', count: 100 },
+  { file: 'IPv6.json', name: 'IPv6', id: 'ipv6', e: '🌐', count: 100 },
+  { file: 'Internetworking.json', name: 'Internetworking', id: 'internetworking', e: '🌐', count: 100 },
+  { file: 'Managing_a_Cisco_Internetwork.json', name: 'Managing a Cisco Internetwork', id: 'managing-a-cisco-internetwork', e: '🌐', count: 100 },
+  { file: 'Network_Address_Translation.json', name: 'Network Address Translation', id: 'network-address-translation', e: '🌐', count: 100 },
+  { file: 'Networking_Basics.json', name: 'Networking Basics', id: 'networking-basics', e: '🌐', count: 100 },
+  { file: 'Security.json', name: 'Security', id: 'security', e: '🌐', count: 100 },
+  { file: 'Spanning_Tree_Protocol.json', name: 'Spanning Tree Protocol', id: 'spanning-tree-protocol', e: '🌐', count: 100 },
+  { file: 'Subnetting.json', name: 'Subnetting', id: 'subnetting', e: '🌐', count: 100 },
+  { file: 'TCP_IP.json', name: 'TCP/IP', id: 'tcp-ip', e: '🌐', count: 100 },
+  { file: 'Virtual_LANs.json', name: 'Virtual LANs', id: 'virtual-lans', e: '🌐', count: 100 },
+  { file: 'Wide_Area_Networks.json', name: 'Wide Area Networks', id: 'wide-area-networks', e: '🌐', count: 100 },
+  { file: 'Wireless_Technologies.json', name: 'Wireless Technologies', id: 'wireless-technologies', e: '🌐', count: 100 }
+];
+
+
+function formatTextWithCode(text) {
+  if(!text) return "";
+  text = text.replace(/```[a-z]*\s*\n([\s\S]*?)```/gi, function(m, code) {
+    let esc = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return `<pre style="background:#0f172a; color:#e2e8f0; padding:12px; border-radius:8px; overflow-x:auto; font-family:monospace; margin:10px 0; border: 1px solid #334155; text-align:left; font-size: 14px;"><code>${esc}</code></pre>`;
+  });
+  text = text.replace(/`([^`]+)`/g, '<code style="background:#1e293b; color:#fbbf24; padding:2px 6px; border-radius:4px; font-family:monospace;">$1</code>');
+  let parts = text.split(/(<pre[\s\S]*?<\/pre>)/);
+  for (let i=0; i<parts.length; i++) {
+    if (!parts[i].startsWith('<pre')) {
+      parts[i] = parts[i].replace(/\n/g, '<br>');
+    }
+  }
+  return parts.join('');
+}
+
+function normalizeVerbalJSON(dataArr, diffLevel) {
+  if(!Array.isArray(dataArr)) dataArr = dataArr.questions || [];
+  let mapped = dataArr.map(q => {
+    let opts = q.options || [];
+    let ansIdx = 0;
+    
+    // Convert string answer like "B) Sad" to an index
+    if (typeof q.correct_answer === 'string') {
+      const match = q.correct_answer.match(/^[A-D]\)/i);
+      if (match) {
+        ansIdx = q.correct_answer.charCodeAt(0) - 65;
+      } else {
+        ansIdx = opts.findIndex(o => o.trim().toLowerCase() === q.correct_answer.trim().toLowerCase());
+        if(ansIdx === -1) ansIdx = 0;
+      }
+    } else if (typeof q.correct_answer === 'number') {
+      ansIdx = q.correct_answer;
+    }
+
+    let cleanOpts = opts.map(o => o.replace(/^[A-D]\)\s*/i, '').trim());
+    let rawQ = q.question || q.q || `[No question text] (ID: ${q.id})`;
+    let rawExp = q.explanation || "No explanation provided.";
+
+    return {
+      q: formatTextWithCode(rawQ),
+      opts: cleanOpts,
+      ans: ansIdx,
+      diff: q.difficulty || "Medium",
+      exp: formatTextWithCode(rawExp)
+    };
+  });
+
+  // Filter by difficulty if not "mixed"
+  if (diffLevel && diffLevel !== 'mixed') {
+    const targetDiff = diffLevel.toLowerCase();
+    const filtered = mapped.filter(q => (q.diff||'').toLowerCase() === targetDiff);
+    if(filtered.length > 0) {
+       mapped = filtered;
+    } else {
+       console.warn("Difficulty filter removed all questions. Falling back to mixed difficulty.");
+    }
+  }
+
+  // Shuffle array using Fisher-Yates
+  for (let i = mapped.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [mapped[i], mapped[j]] = [mapped[j], mapped[i]];
+  }
+
+  return mapped;
+}
+
+function parseJSONResilient(text) {
+  let cleaned = text.replace(/```json/gi, '').replace(/```/g, '');
+  cleaned = cleaned.replace(/"?===\s*CHECKPOINT.*?==="(,)?/g, '');
+  cleaned = cleaned.replace(/===\s*CHECKPOINT.*?===(,)?/g, '');
+  cleaned = cleaned.replace(/"([A-D])":\s*"([^"]+)"/g, '"$1) $2"');
+  cleaned = cleaned.replace(/,\s*\]/g, ']');
+
+  try {
+    return JSON.parse(cleaned);
+  } catch(e) {
+    let lastBrace = cleaned.lastIndexOf('}');
+    while (lastBrace !== -1) {
+      let firstBracket = cleaned.indexOf('[');
+      if (firstBracket === -1) firstBracket = 0;
+      let validPart = cleaned.substring(firstBracket, lastBrace + 1);
+      validPart = validPart.replace(/,\s*$/, '') + ']';
+      try {
+        return JSON.parse(validPart);
+      } catch(e2) {
+        lastBrace = cleaned.lastIndexOf('}', lastBrace - 1);
+      }
+    }
+    return [];
+  }
+}
+
+async function loadVerbalQuestionsFromJSON(topicId, qCount, diffLevel) {
+  const mapEntry = VERBAL_FILE_MAP.find(e => e.id === topicId);
+  if (!mapEntry) return [];
+
+  try {
+    const url = 'verbal-generation/outputs/' + mapEntry.file;
+    const res = await fetch(url);
+    if (!res.ok) return [];
+    
+    const rawText = await res.text();
+    const data = parseJSONResilient(rawText);
+    const normalized = normalizeVerbalJSON(data, diffLevel);
+    
+    // Return requested number of questions
+    return normalized.slice(0, qCount);
+  } catch (err) {
+    console.error("Failed to load local JSON for verbal:", err);
+    return [];
+  }
+}
+
+async function loadCLanguageQuestionsFromJSON(topicId, qCount, diffLevel) {
+  const mapEntry = C_LANGUAGE_FILE_MAP.find(e => e.id === topicId);
+  if (!mapEntry) return [];
+
+  try {
+    const url = 'c-generation/outputs/' + mapEntry.file;
+    const res = await fetch(url);
+    if (!res.ok) return [];
+    
+    const rawText = await res.text();
+    const data = parseJSONResilient(rawText);
+    const normalized = normalizeVerbalJSON(data, diffLevel);
+    
+    return normalized.slice(0, qCount);
+  } catch (err) {
+    console.error("Failed to load local JSON for c-language:", err);
+    return [];
+  }
+}
+
+async function loadJavaQuestionsFromJSON(topicId, qCount, diffLevel) {
+  const mapEntry = JAVA_LANGUAGE_FILE_MAP.find(e => e.id === topicId);
+  if (!mapEntry) return [];
+
+  try {
+    const url = 'java-generation/outputs/' + mapEntry.file;
+    const res = await fetch(url);
+    if (!res.ok) return [];
+    
+    const rawText = await res.text();
+    const data = parseJSONResilient(rawText);
+    const normalized = normalizeVerbalJSON(data, diffLevel);
+    
+    return normalized.slice(0, qCount);
+  } catch (err) {
+    console.error("Failed to load local JSON for java:", err);
+    return [];
+  }
+}
+
+async function loadDatabaseQuestionsFromJSON(topicId, qCount, diffLevel) {
+  const mapEntry = DATABASE_FILE_MAP.find(e => e.id === topicId);
+  if (!mapEntry) return [];
+
+  try {
+    const url = 'database-generation/outputs/' + mapEntry.file;
+    const res = await fetch(url);
+    if (!res.ok) return [];
+    
+    const rawText = await res.text();
+    const data = parseJSONResilient(rawText);
+    const normalized = normalizeVerbalJSON(data, diffLevel);
+    
+    return normalized.slice(0, qCount);
+  } catch (err) {
+    console.error("Failed to load local JSON for database:", err);
+    return [];
+  }
+}
+
+async function loadNetworksQuestionsFromJSON(topicId, qCount, diffLevel) {
+  const mapEntry = NETWORKS_FILE_MAP.find(e => e.id === topicId);
+  if (!mapEntry) return [];
+
+  try {
+    const url = 'networking-generation/outputs/' + mapEntry.file;
+    const res = await fetch(url);
+    if (!res.ok) return [];
+    
+    const rawText = await res.text();
+    const data = parseJSONResilient(rawText);
+    const normalized = normalizeVerbalJSON(data, diffLevel);
+    
+    return normalized.slice(0, qCount);
+  } catch (err) {
+    console.error("Failed to load local JSON for networks:", err);
+    return [];
+  }
+}
+
+async function loadLogicalQuestionsFromJSON(topicId, qCount, diffLevel) {
+  const mapEntry = LOGICAL_FILE_MAP.find(e => e.id === topicId);
+  if (!mapEntry) return [];
+
+  try {
+    const url = 'logical-generation/outputs/' + mapEntry.file;
+    const res = await fetch(url);
+    if (!res.ok) return [];
+    
+    const rawText = await res.text();
+    const data = parseJSONResilient(rawText);
+    const normalized = normalizeVerbalJSON(data, diffLevel);
+    
+    // Return requested number of questions
+    return normalized.slice(0, qCount);
+  } catch (err) {
+    console.error("Failed to load local JSON for logical:", err);
+    return [];
+  }
+}
+
+async function loadReasoningQuestionsFromJSON(topicId, qCount, diffLevel) {
+  const mapEntry = REASONING_FILE_MAP.find(e => e.id === topicId);
+  if (!mapEntry) return [];
+
+  try {
+    const url = 'backend/reasoning/' + mapEntry.file;
+    const res = await fetch(url);
+    if (!res.ok) return [];
+    
+    const rawText = await res.text();
+    const data = parseJSONResilient(rawText);
+    const normalized = normalizeVerbalJSON(data, diffLevel);
+    
+    // Return requested number of questions
+    return normalized.slice(0, qCount);
+  } catch (err) {
+    console.error("Failed to load local JSON for reasoning:", err);
+    return [];
+  }
+}
+
+const fallbackQ = (topicId, i) => {
+  return {
+    q: `[${topicId}] Q${i+1}: A train travels 360 km in 4 hrs. Speed?`,
+    opts: ["80 km/h", "90 km/h", "85 km/h", "95 km/h"],
+    ans: 1,
+    diff: ["Easy", "Medium", "Hard"][i % 3],
+    exp: "Speed = 360/4 = 90 km/h."
+  };
+};
+
+// ═══════════════════════════════════════════════════════════════
+//  APP STATE
+// ═══════════════════════════════════════════════════════════════
+let state = {
+  topic:    "Percentage",
+  topicId:  "percentage",
+  category: "arithmetic",
+  mode:     "test",    // 'test' = timer | 'practice' = no timer
+  qCount:   10,
+  diff:     "mixed",
+  exam:     "all",
+  questions:[], current:0, answers:[],
+  startTime:null, timerInterval:null, totalSeconds:0, remaining:0,
+  paused: false,
+  testStartTime: null  // wall-clock start for elapsed
+};
+
+// Review filter state
+let revFilter = "all";
+let allReviewData = [];
+
+// ═══════════════════════════════════════════════════════════════
+//  HELPERS
+// ═══════════════════════════════════════════════════════════════
+function showScreen(id){
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+  window.scrollTo(0,0);
+}
+
+function showLoader(msg){
+  document.getElementById("loader-text").textContent = msg || "Loading…";
+  document.getElementById("quiz-loader").style.display = "flex";
+}
+
+function hideLoader(){
+  document.getElementById("quiz-loader").style.display = "none";
+}
+
+function fmtTime(secs){
+  const m = Math.floor(secs/60), s = secs%60;
+  return `${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  ACCORDION CATEGORIES LOGIC
+// ═══════════════════════════════════════════════════════════════
+async function toggleAccordion(cat) {
+  const item = document.getElementById(`accordion-item-${cat}`);
+  if (!item) return;
+
+  const isActive = item.classList.contains("active");
+
+  // Collapse all accordion items first
+  document.querySelectorAll(".accordion-item").forEach(x => {
+    x.classList.remove("active");
+  });
+
+  // If was not active, expand it, load topics, and update state
+  if (!isActive) {
+    item.classList.add("active");
+    state.category = cat;
+    
+    // Clear previously selected topic
+    state.topic = "";
+    state.topicId = "";
+
+    // Sync URL without full reload
+    const p = new URLSearchParams(window.location.search);
+    p.set("cat", cat);
+    p.delete("id");
+    p.delete("name");
+    history.replaceState(null, "", window.location.pathname + "?" + p.toString());
+
+    // Update titles based on category
+    const heroTitle = document.getElementById("hero-title");
+    const heroDesc = document.getElementById("hero-desc");
+    const statQ = document.getElementById("stat-q-num");
+    const statT = document.getElementById("stat-t-num");
+    if (cat === "verbal") {
+      if (heroTitle) heroTitle.innerHTML = 'Master <span>Verbal Ability</span><br>Ace Any Exam';
+      if (heroDesc) heroDesc.textContent = '1900+ questions across 19 Verbal Ability topics for campus placements and government exams';
+      if (statQ) statQ.textContent = '1900+';
+      if (statT) statT.textContent = '19';
+    } else if (cat === "logical") {
+      if (heroTitle) heroTitle.innerHTML = 'Master <span>Logical Reasoning</span><br>Ace Any Exam';
+      if (heroDesc) heroDesc.textContent = '1900+ questions across 19 Logical Reasoning topics for campus placements and government exams';
+      if (statQ) statQ.textContent = '1900+';
+      if (statT) statT.textContent = '19';
+    } else if (cat === "reasoning") {
+      if (heroTitle) heroTitle.innerHTML = 'Master <span>Reasoning</span><br>Ace Any Exam';
+      if (heroDesc) heroDesc.textContent = '1600+ questions across 16 Reasoning topics for campus placements and government exams';
+      if (statQ) statQ.textContent = '1600+';
+      if (statT) statT.textContent = '16';
+    } else if (cat === "c-language") {
+      if (heroTitle) heroTitle.innerHTML = 'Master <span>C Language</span><br>Ace Any Exam';
+      if (heroDesc) heroDesc.textContent = '1500+ questions across 19 C Language topics for campus placements and government exams';
+      if (statQ) statQ.textContent = '1500+';
+      if (statT) statT.textContent = '19';
+    } else if (cat === "java") {
+      if (heroTitle) heroTitle.innerHTML = 'Master <span>Java Language</span><br>Ace Any Exam';
+      if (heroDesc) heroDesc.textContent = '1100+ questions across 11 Java Language topics for campus placements and government exams';
+      if (statQ) statQ.textContent = '1100+';
+      if (statT) statT.textContent = '11';
+    } else if (cat === "database") {
+      if (heroTitle) heroTitle.innerHTML = 'Master <span>Database Management</span><br>Ace Any Exam';
+      if (heroDesc) heroDesc.textContent = '2900+ questions across 29 Database topics for campus placements and government exams';
+      if (statQ) statQ.textContent = '2900+';
+      if (statT) statT.textContent = '29';
+    } else if (cat === "networks") {
+      if (heroTitle) heroTitle.innerHTML = 'Master <span>Networks</span><br>Ace Any Exam';
+      if (heroDesc) heroDesc.textContent = '1500+ questions across 15 Networks topics for campus placements and government exams';
+      if (statQ) statQ.textContent = '1500+';
+      if (statT) statT.textContent = '15';
+    } else {
+      if (heroTitle) heroTitle.innerHTML = 'Master <span>Arithmetic</span><br>Crack Any Exam';
+      if (heroDesc) heroDesc.textContent = '3200+ questions across 32 topics for campus placements and government exams';
+      if (statQ) statQ.textContent = '3200+';
+      if (statT) statT.textContent = '32';
+    }
+
+    const hubLink = document.getElementById('pd-hub-link-test');
+    if (hubLink) {
+      if (cat === 'verbal') {
+        hubLink.innerHTML = '🔡 Verbal Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_verbal.html'; };
+      } else if (cat === 'logical') {
+        hubLink.innerHTML = '💡 Logical Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_logical.html'; };
+      } else if (cat === 'reasoning') {
+        hubLink.innerHTML = '🧠 Reasoning Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_reasoning.html'; };
+      } else if (cat === 'c-language') {
+        hubLink.innerHTML = '💻 C Language Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_c.html'; };
+      } else if (cat === 'java') {
+        hubLink.innerHTML = '☕ Java Language Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_java.html'; };
+      } else if (cat === 'database') {
+        hubLink.innerHTML = '🗄️ Database Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_database.html'; };
+      } else if (cat === 'networks') {
+        hubLink.innerHTML = '🌐 Networks Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_networks.html'; };
+      } else {
+        hubLink.innerHTML = '🔢 Arithmetic Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_aptitude.html'; };
+      }
+    }
+
+    // Load topics dynamically
+    await loadTopicsForCategory(cat);
+  }
+}
+
+function switchTestModule(mod) {
+  const btnApt = document.getElementById('btn-mod-aptitude');
+  const btnTech = document.getElementById('btn-mod-technical');
+  const aptAcc = document.getElementById('aptitude-accordions');
+  const techAcc = document.getElementById('technical-accordions');
+  
+  if (mod === 'aptitude') {
+    btnApt.classList.add('active');
+    btnTech.classList.remove('active');
+    aptAcc.style.display = 'block';
+    techAcc.style.display = 'none';
+    
+    if (state.category === 'c-language' || state.category === 'java' || state.category === 'database' || state.category === 'networks' || !state.category) {
+      document.querySelectorAll(".accordion-item").forEach(x => x.classList.remove("active"));
+      toggleAccordion('arithmetic');
+    }
+  } else {
+    btnTech.classList.add('active');
+    btnApt.classList.remove('active');
+    techAcc.style.display = 'block';
+    aptAcc.style.display = 'none';
+    
+    document.querySelectorAll(".accordion-item").forEach(x => x.classList.remove("active"));
+    toggleAccordion('c-language');
+  }
+}
+
+async function loadTopicsForCategory(cat) {
+  const content = document.getElementById(`accordion-content-${cat}`);
+  if (!content) return;
+
+  // Render shimmer skeleton cards
+  content.innerHTML = `
+    <div class="skeleton-grid">
+      ${Array(6).fill().map(() => `
+        <div class="skeleton-card">
+          <div class="skeleton-icon skeleton-pulse"></div>
+          <div class="skeleton-info">
+            <div class="skeleton-title skeleton-pulse"></div>
+            <div class="skeleton-subtitle skeleton-pulse"></div>
+          </div>
+          <div class="skeleton-shimmer"></div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+
+  let topics = null;
+  let hasError = false;
+
+  try {
+    if (cat === 'verbal') {
+      // Bypass API for verbal, build topics synchronously from local map
+      topics = VERBAL_FILE_MAP.map(t => ({
+        id: t.id,
+        name: t.name,
+        icon: t.e || "📖",
+        count: t.count || 50
+      }));
+    } else if (cat === 'logical') {
+      // Bypass API for logical, build topics synchronously from local map
+      topics = LOGICAL_FILE_MAP.map(t => ({
+        id: t.id,
+        name: t.name,
+        icon: t.e || "💡",
+        count: t.count || 50
+      }));
+    } else if (cat === 'reasoning') {
+      // Bypass API for reasoning, build topics synchronously from local map
+      topics = REASONING_FILE_MAP.map(t => ({
+        id: t.id,
+        name: t.name,
+        icon: t.e || "🧠",
+        count: t.count || 100
+      }));
+    } else if (cat === 'c-language') {
+      // Bypass API for c-language
+      topics = C_LANGUAGE_FILE_MAP.map(t => ({
+        id: t.id,
+        name: t.name,
+        icon: t.e || "💻",
+        count: t.count || 15
+      }));
+    } else if (cat === 'java') {
+      // Bypass API for java
+      topics = JAVA_LANGUAGE_FILE_MAP.map(t => ({
+        id: t.id,
+        name: t.name,
+        icon: t.e || "☕",
+        count: t.count || 11
+      }));
+    } else if (cat === 'database') {
+      // Bypass API for database
+      topics = DATABASE_FILE_MAP.map(t => ({
+        id: t.id,
+        name: t.name,
+        icon: t.e || "🗄️",
+        count: t.count || 29
+      }));
+    } else if (cat === 'networks') {
+      // Bypass API for networks
+      topics = NETWORKS_FILE_MAP.map(t => ({
+        id: t.id,
+        name: t.name,
+        icon: t.e || "🌐",
+        count: t.count || 15
+      }));
+    } else {
+      const res = await apiGetTopics({ category: cat });
+      if (res && res.topics && res.topics.length) {
+        topics = res.topics.map(t => ({ id: t.id, name: t.n, icon: t.e || "📊", count: t.total || 100 }));
+      } else {
+        hasError = true;
+      }
+    }
+  } catch (e) {
+    console.error("API error loading topics:", e);
+    hasError = true;
+  }
+
+  if (hasError) {
+    // Show error state with [Retry] button
+    content.innerHTML = `
+      <div class="error-state">
+        <div class="error-msg">Unable to load topics.</div>
+        <button class="btn-retry" onclick="event.stopPropagation(); retryLoadTopics('${cat}')">Retry</button>
+      </div>
+    `;
+    return;
+  }
+
+  // Render topic cards
+  buildTopicGridForAccordion(cat, topics || FALLBACK_TOPICS, state.topicId);
+}
+
+function retryLoadTopics(cat) {
+  loadTopicsForCategory(cat);
+}
+
+function buildTopicGridForAccordion(cat, topics, selectedId = null) {
+  const content = document.getElementById(`accordion-content-${cat}`);
+  if (!content) return;
+
+  if (!topics || !topics.length) {
+    content.innerHTML = '<div style="text-align:center;color:var(--muted);padding:20px">No topics found.</div>';
+    return;
+  }
+
+  content.innerHTML = `
+    <div class="topics-grid">
+      ${topics.map((t, i) => {
+        const id = t.id || t.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        const name = t.name || t.n;
+        const icon = t.icon || t.e || "📊";
+        const cnt = t.count || t.total || 100;
+        
+        const isSelected = selectedId ? id === selectedId : false;
+        
+        return `
+          <div class="topic-card${isSelected ? ' selected' : ''}" data-id="${id}" onclick="event.stopPropagation(); selectAccordionTopic('${name.replace(/'/g, "\\'")}', '${id}', this)">
+            <div class="topic-icon">${icon}</div>
+            <div>
+              <div class="topic-name">${name}</div>
+              <div class="topic-meta">${cnt} questions</div>
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+function selectAccordionTopic(name, id, el) {
+  document.querySelectorAll(".topic-card").forEach(c => c.classList.remove("selected"));
+  if (el) el.classList.add("selected");
+  state.topic = name;
+  state.topicId = id;
+  try {
+    localStorage.setItem('aarovaai_last_topic', JSON.stringify({id, name, cat: state.category, mode: state.mode}));
+  } catch(e) {
+    console.error('Failed to save last topic to local storage', e);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  CONFIG ROWS
+// ═══════════════════════════════════════════════════════════════
+function initConfigRows(){
+  document.getElementById("qcount-row").querySelectorAll(".config-btn").forEach(btn=>{
+    btn.onclick=function(){ this.parentElement.querySelectorAll(".config-btn").forEach(b=>b.classList.remove("active")); this.classList.add("active"); state.qCount=+this.dataset.val; };
+  });
+  document.getElementById("diff-row").querySelectorAll(".config-btn").forEach(btn=>{
+    btn.onclick=function(){ this.parentElement.querySelectorAll(".config-btn").forEach(b=>b.classList.remove("active")); this.classList.add("active"); state.diff=this.dataset.val; };
+  });
+  document.getElementById("exam-row").querySelectorAll(".config-btn").forEach(btn=>{
+    btn.onclick=function(){ this.parentElement.querySelectorAll(".config-btn").forEach(b=>b.classList.remove("active")); this.classList.add("active"); state.exam=this.dataset.val; };
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  START TEST
+// ═══════════════════════════════════════════════════════════════
+async function startTest(){
+  showLoader("Loading questions…");
+
+  let apiQs = [];
+  try {
+    const diff = (state.diff && state.diff !== 'mixed') ? state.diff : undefined;
+
+    // 1️⃣ Try API first (for arithmetic)
+    if (state.category !== 'verbal' && state.category !== 'logical' && state.category !== 'reasoning' && state.category !== 'c-language' && state.category !== 'java' && state.category !== 'database' && state.category !== 'networks') {
+      const res = await apiGetQuestions(state.topicId, state.qCount, { difficulty: diff, exam_type: state.exam !== 'all' ? state.exam : undefined });
+      if(res && res.questions && res.questions.length){
+        apiQs = res.questions.map(q => ({
+          q:    q.question,
+          opts: q.options,
+          ans:  q.answer,
+          diff: q.difficulty ? (q.difficulty.charAt(0).toUpperCase()+q.difficulty.slice(1)) : "Medium",
+          exp:  q.explanation || "",
+          _id:  q.id
+        }));
+      }
+    } else if (state.category === 'verbal') {
+      // 2️⃣ Try loading from local JSON for verbal topics
+      apiQs = await loadVerbalQuestionsFromJSON(state.topicId, state.qCount, diff);
+    } else if (state.category === 'logical') {
+      // 3️⃣ Try loading from local JSON for logical topics
+      apiQs = await loadLogicalQuestionsFromJSON(state.topicId, state.qCount, diff);
+    } else if (state.category === 'reasoning') {
+      // 4️⃣ Try loading from local JSON for reasoning topics
+      apiQs = await loadReasoningQuestionsFromJSON(state.topicId, state.qCount, diff);
+    } else if (state.category === 'c-language') {
+      // 5️⃣ Try loading from local JSON for c-language topics
+      apiQs = await loadCLanguageQuestionsFromJSON(state.topicId, state.qCount, diff);
+    } else if (state.category === 'java') {
+      // 6️⃣ Try loading from local JSON for java topics
+      apiQs = await loadJavaQuestionsFromJSON(state.topicId, state.qCount, diff);
+    } else if (state.category === 'database') {
+      // 7️⃣ Try loading from local JSON for database topics
+      apiQs = await loadDatabaseQuestionsFromJSON(state.topicId, state.qCount, diff);
+    } else if (state.category === 'networks') {
+      apiQs = await loadNetworksQuestionsFromJSON(state.topicId, state.qCount, diff);
+    }
+  } catch(e){
+    console.warn("[AarovaaiAI] API failed, using offline questions:", e.message);
+  }
+
+  // 3️⃣ Final fallback to generic hardcoded questions if all else fails
+  if(!apiQs.length){
+    showAarovaaiToast("Using offline question set.", "");
+    const pool = FALLBACK_QUESTIONS[state.topicId] || FALLBACK_QUESTIONS["percentage"] || [];
+    for(let i = 0; i < state.qCount; i++){
+      apiQs.push(pool[i] || fallbackQ(state.topicId, i));
+    }
+  }
+
+  state.questions     = apiQs;
+  state.current       = 0;
+  state.answers       = new Array(apiQs.length).fill(null);
+  state.startTime     = Date.now();
+  state.testStartTime = Date.now();
+  state.totalSeconds  = state.qCount * 60;
+  state.remaining     = state.totalSeconds;
+  state.paused        = false;
+
+  hideLoader();
+  showScreen("quiz-screen");
+  document.getElementById("pause-banner").classList.remove("visible");
+  document.getElementById("quiz-body").style.display = "block";
+
+  // Mode pill
+  const pill = document.getElementById("mode-pill");
+  if(pill) pill.textContent = state.mode === "practice" ? "🟢 Practice Mode" : "🔵 Test Mode";
+
+  // Timer: only in test mode
+  const timerBox = document.getElementById("timer-box");
+  const pauseBtn = document.getElementById("pause-btn");
+  if(state.mode === "practice"){
+    timerBox.style.display = "none";
+    if(pauseBtn) pauseBtn.style.display = "none";
+  } else {
+    timerBox.style.display = "flex";
+    if(pauseBtn) pauseBtn.style.display = "flex";
+    startTimer();
+  }
+
+  buildDots();
+  renderQuestion();
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  TIMER
+// ═══════════════════════════════════════════════════════════════
+function startTimer(){
+  clearInterval(state.timerInterval);
+  updateTimerDisplay();
+  state.timerInterval = setInterval(()=>{
+    if(state.paused) return;
+    state.remaining--;
+    updateTimerDisplay();
+    if(state.remaining <= 0){ clearInterval(state.timerInterval); showResult(); }
+  }, 1000);
+}
+
+function updateTimerDisplay(){
+  document.getElementById("timer-display").textContent = fmtTime(state.remaining);
+  const pct = state.remaining / state.totalSeconds;
+  const box  = document.getElementById("timer-box");
+  const dot  = document.getElementById("timer-dot");
+  box.className = "timer-box" + (pct < 0.25 ? " danger" : pct < 0.5 ? " warn" : "");
+  if(dot) dot.style.background = pct < 0.25 ? "var(--red)" : pct < 0.5 ? "var(--amber)" : "var(--green)";
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  PAUSE / RESUME
+// ═══════════════════════════════════════════════════════════════
+function pauseTest(){
+  if(state.paused) return;
+  state.paused = true;
+  document.getElementById("pause-banner").classList.add("visible");
+  document.getElementById("quiz-body").style.display = "none";
+  document.getElementById("timer-dot").style.animationPlayState = "paused";
+}
+
+function resumeTest(){
+  state.paused = false;
+  document.getElementById("pause-banner").classList.remove("visible");
+  document.getElementById("quiz-body").style.display = "block";
+  document.getElementById("timer-dot").style.animationPlayState = "running";
+}
+
+function confirmQuit(){
+  if(confirm("Are you sure you want to quit the test? Your progress will be lost.")){
+    clearInterval(state.timerInterval);
+    goHome();
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  QUESTION NAVIGATION & RENDERING
+// ═══════════════════════════════════════════════════════════════
+function buildDots(){
+  document.getElementById("q-dots").innerHTML = state.questions.map((_,i)=>
+    `<div class="q-dot${i===0?" current":""}" id="dot-${i}" onclick="jumpTo(${i})">${i+1}</div>`
+  ).join("");
+}
+
+function updateDots(){
+  state.questions.forEach((_,i)=>{
+    const d = document.getElementById("dot-"+i);
+    if(!d) return;
+    d.className = "q-dot";
+    if(i === state.current)          d.classList.add("current");
+    else if(state.answers[i] === -1) d.classList.add("skipped");
+    else if(state.answers[i] !== null) d.classList.add("answered");
+  });
+}
+
+function renderQuestion(){
+  if(state.paused) return;
+  const q = state.questions[state.current];
+  if(!q) return;
+  const n = state.questions.length;
+
+  document.getElementById("q-text").textContent = q.q;
+  document.getElementById("q-topic-badge").textContent = state.topic;
+
+  const diffEl = document.getElementById("q-diff-badge");
+  diffEl.textContent = q.diff || "Medium";
+  diffEl.style.color = (q.diff==="Easy"||q.diff==="easy") ? "var(--green)" : (q.diff==="Hard"||q.diff==="hard") ? "var(--red)" : "var(--amber)";
+
+  document.getElementById("qcount-label").textContent = `${state.current+1} / ${n}`;
+  document.getElementById("progress-bar").style.width = `${((state.current+1)/n)*100}%`;
+
+  const letters = ["A","B","C","D"];
+  const saved   = state.answers[state.current];
+
+  document.getElementById("options-container").innerHTML = (q.opts||[]).map((o,i)=>{
+    const isSel = saved !== null && saved !== -1 && i === saved;
+    return `<button class="option${isSel?' selected':''}" id="opt-${i}" onclick="selectAnswer(${i})">
+       <div class="option-letter">${letters[i]}</div>
+       <div>${o}</div>
+     </button>`;
+  }).join("");
+
+  // In test mode: if already answered this question (navigated back), just mark selected — no reveal
+  // No explanation shown during quiz
+
+  const isLast = state.current === n - 1;
+  document.getElementById("next-btn").textContent = isLast ? "Finish ✓" : "Next →";
+
+  updateDots();
+}
+
+function selectAnswer(i){
+  if(state.paused) return;
+  const cur = state.current;
+  // Allow re-selection unless locked (skipped with -1)
+  if(state.answers[cur] === -1) return; // skipped — can't re-answer
+  state.answers[cur] = i;
+
+  // Just visually highlight selected, NO reveal of correct/wrong during test
+  document.querySelectorAll(".option").forEach((el,idx)=>{
+    el.classList.toggle("selected", idx === i);
+  });
+
+  document.getElementById("next-btn").textContent =
+    cur < state.questions.length-1 ? "Next →" : "Finish ✓";
+  updateDots();
+}
+
+function jumpTo(i){ state.current = i; renderQuestion(); }
+
+function skipQuestion(){
+  if(state.paused) return;
+  if(state.answers[state.current] === null) state.answers[state.current] = -1;
+  nextQuestion();
+}
+
+function nextQuestion(){
+  if(state.paused) return;
+  if(state.current < state.questions.length-1){ state.current++; renderQuestion(); }
+  else showResult();
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  RESULT SCREEN
+// ═══════════════════════════════════════════════════════════════
+function showResult(){
+  clearInterval(state.timerInterval);
+  const qs = state.questions, ans = state.answers;
+  let correct=0, wrong=0, skip=0;
+  qs.forEach((q,i)=>{
+    if(ans[i]===null||ans[i]===-1) skip++;
+    else if(ans[i]===q.ans) correct++;
+    else wrong++;
+  });
+
+  const pct     = qs.length ? Math.round((correct/qs.length)*100) : 0;
+  const elapsed = Math.floor((Date.now() - (state.testStartTime||Date.now()))/1000);
+
+  document.getElementById("score-pct").textContent = pct+"%";
+  document.getElementById("score-arc").style.strokeDashoffset = 351.9-(351.9*(pct/100));
+  document.getElementById("r-correct").textContent = correct;
+  document.getElementById("r-wrong").textContent   = wrong;
+  document.getElementById("r-skip").textContent    = skip;
+  document.getElementById("r-time").textContent    = fmtTime(elapsed);
+
+  const titles = ["Keep Practicing! 💪","Good Effort! 👍","Well Done! 🎉","Excellent! 🌟","Outstanding! 🏆"];
+  document.getElementById("result-title").textContent = titles[Math.floor(pct/20)] || "Outstanding! 🏆";
+  document.getElementById("result-sub").textContent   = `${correct} correct out of ${qs.length} — ${state.topic}`;
+
+  // Build review data
+  const letters = ["A","B","C","D"];
+  allReviewData = qs.map((q,i)=>{
+    const a       = ans[i];
+    const skipped = (a===null||a===-1);
+    const ok      = !skipped && a === q.ans;
+    return { q, i, a, skipped, ok };
+  });
+
+  renderReviewList("all");
+  showScreen("result-screen");
+
+  // Save to backend
+  (async()=>{
+    try {
+      const apiQs = qs.map(q=>({
+        id: q._id || q.q,
+        question: q.q,
+        options: q.opts,
+        answer: q.ans,
+        correct_answer: (q.opts||[])[q.ans],
+        explanation: q.exp,
+        difficulty: q.diff
+      }));
+      await apiSubmitTest(state.topicId, state.topic, apiQs, ans, elapsed, state.mode||"test");
+      showAarovaaiToast("✅ Result saved!", "ok");
+    } catch(e){
+      console.warn("Could not save result:", e.message);
+    }
+  })();
+}
+
+function switchRevTab(filter, el){
+  document.querySelectorAll(".rev-tab").forEach(t=>t.classList.remove("active"));
+  el.classList.add("active");
+  renderReviewList(filter);
+}
+
+function renderReviewList(filter){
+  revFilter = filter;
+  const letters = ["A","B","C","D"];
+  const items = allReviewData.filter(d=>{
+    if(filter==="all")    return true;
+    if(filter==="correct") return d.ok;
+    if(filter==="wrong")   return !d.ok && !d.skipped;
+    if(filter==="skipped") return d.skipped;
+    return true;
+  });
+
+  if(!items.length){
+    document.getElementById("review-list").innerHTML =
+      `<div style="text-align:center;color:var(--muted);padding:20px;font-size:13px">No questions in this category.</div>`;
+    return;
+  }
+
+  document.getElementById("review-list").innerHTML = items.map(({q,i,a,skipped,ok})=>{
+    const badgeCls  = skipped ? "sk" : ok ? "ok" : "bad";
+    const badgeTxt  = skipped ? "Skipped" : ok ? "✓ Correct" : "✗ Wrong";
+    const optsHtml  = (q.opts||[]).map((opt,oi)=>{
+      let cls = "neutral";
+      if(oi === q.ans) cls = "correct";
+      else if(!skipped && oi === a) cls = "wrong";
+      return `<div class="ri-opt ${cls}">
+        <div class="ri-opt-ltr">${letters[oi]}</div>
+        <span>${opt}</span>
+      </div>`;
+    }).join("");
+    const expHtml = q.exp
+      ? `<div class="ri-exp"><strong>💡 Explanation</strong>${q.exp}</div>`
+      : "";
+    return `<div class="review-item r-${skipped?'skip':ok?'correct':'wrong'}">
+      <div class="ri-head">
+        <div class="ri-q">${i+1}. ${q.q}</div>
+        <span class="ri-badge ${badgeCls}">${badgeTxt}</span>
+      </div>
+      <div class="ri-body">
+        <div class="ri-opts">${optsHtml}</div>
+        ${expHtml}
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function goHome(){
+  clearInterval(state.timerInterval);
+  const cat = new URLSearchParams(window.location.search).get('cat') || 'arithmetic';
+  if(document.referrer){
+    if (document.referrer.includes('aarovaai_verbal')) {
+      window.location.href = 'aarovaai_verbal.html';
+      return;
+    }
+    if (document.referrer.includes('aarovaai_logical')) {
+      window.location.href = 'aarovaai_logical.html';
+      return;
+    }
+    if (document.referrer.includes('aarovaai_reasoning')) {
+      window.location.href = 'aarovaai_reasoning.html';
+      return;
+    }
+    if(document.referrer.includes('aarovaai_aptitude') || document.referrer.includes('aarovaai_platform_ui')){
+      window.location.href = cat === 'verbal' ? 'aarovaai_verbal.html' : cat === 'logical' ? 'aarovaai_logical.html' : cat === 'reasoning' ? 'aarovaai_reasoning.html' : 'aarovaai_aptitude.html';
+      return;
+    }
+  }
+  window.location.href = cat === 'verbal' ? 'aarovaai_verbal.html' : cat === 'logical' ? 'aarovaai_logical.html' : cat === 'reasoning' ? 'aarovaai_reasoning.html' : 'aarovaai_aptitude.html';
+}
+
+function retryTest(){ startTest(); }
+
+// ═══════════════════════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════════════════════
+
+
+const FALLBACK_TOPICS_VERBAL = [
+  {name:"Reading Comprehension", id:"reading-comprehension", icon:"📖", count:80},
+  {name:"Vocabulary",            id:"vocabulary",            icon:"📚", count:80},
+  {name:"Grammar & Usage",       id:"grammar",               icon:"✍️", count:80},
+  {name:"Para Jumbles",          id:"para-jumbles",          icon:"🔀", count:80},
+  {name:"Fill in the Blanks",    id:"fill-blanks",           icon:"📝", count:80},
+  {name:"Idioms & Phrases",      id:"idioms-phrases",        icon:"💬", count:80},
+  {name:"Sentence Completion",   id:"sentence-completion",   icon:"✅", count:80},
+  {name:"Critical Reasoning",    id:"critical-reasoning",    icon:"🤔", count:80},
+];
+
+// ═══════════════════════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════════════════════
+async function init(){
+  const user = await requireAuth();
+  if(!user) return;
+
+  const initials = (user.name||"U").split(" ").map(w=>w[0]).join("").toUpperCase().slice(0,2);
+  const pa = document.getElementById("profile-avatar");
+  const pn = document.getElementById("profile-name");
+  if(pa) pa.textContent = initials;
+  if(pn) pn.textContent = (user.name || "User").split(" ")[0];
+
+  document.addEventListener("click", e=>{
+    const chip = document.getElementById("profile-chip");
+    if(chip && !chip.contains(e.target)) chip.classList.remove("open");
+  });
+
+  const p        = new URLSearchParams(window.location.search);
+  let paramId   = p.get("id");
+  let paramName = p.get("name");
+  let paramMode = p.get("mode");
+  let paramCat  = p.get("cat") || p.get("category");
+
+  if (!paramId && !paramName) {
+    try {
+      const saved = JSON.parse(localStorage.getItem('aarovaai_last_topic') || 'null');
+      if (saved && saved.id) {
+        paramId = saved.id;
+        paramName = saved.name;
+        if(!paramCat) paramCat = saved.cat;
+        if(!paramMode) paramMode = saved.mode;
+      }
+    } catch(e) {}
+  }
+  
+  paramCat = paramCat || "arithmetic";
+  state.category = paramCat;
+
+  const btnApt = document.getElementById('btn-mod-aptitude');
+  const btnTech = document.getElementById('btn-mod-technical');
+  const aptAcc = document.getElementById('aptitude-accordions');
+  const techAcc = document.getElementById('technical-accordions');
+
+  if (paramCat === 'c-language' || paramCat === 'java' || paramCat === 'database' || paramCat === 'networks') {
+    if (btnTech) btnTech.classList.add('active');
+    if (btnApt) btnApt.classList.remove('active');
+    if (techAcc) techAcc.style.display = 'block';
+    if (aptAcc) aptAcc.style.display = 'none';
+  } else {
+    if (btnApt) btnApt.classList.add('active');
+    if (btnTech) btnTech.classList.remove('active');
+    if (aptAcc) aptAcc.style.display = 'block';
+    if (techAcc) techAcc.style.display = 'none';
+  }
+
+  if (paramId && paramName) {
+    state.mode    = paramMode || "test";
+    state.topicId = paramId;
+    state.topic   = decodeURIComponent(paramName);
+  }
+
+  // Set active accordion category on load
+  const item = document.getElementById(`accordion-item-${paramCat}`);
+  if (item) {
+    item.classList.add("active");
+  }
+
+  // Update stats on initial load
+  const heroTitle = document.getElementById("hero-title");
+  const heroDesc = document.getElementById("hero-desc");
+  const statQ = document.getElementById("stat-q-num");
+  const statT = document.getElementById("stat-t-num");
+  if (paramCat === "verbal") {
+    if (heroTitle) heroTitle.innerHTML = 'Master <span>Verbal Ability</span><br>Ace Any Exam';
+    if (heroDesc) heroDesc.textContent = '1900+ questions across 19 Verbal Ability topics for campus placements and government exams';
+    if (statQ) statQ.textContent = '1900+';
+    if (statT) statT.textContent = '19';
+  } else if (paramCat === "logical") {
+    if (heroTitle) heroTitle.innerHTML = 'Master <span>Logical Reasoning</span><br>Ace Any Exam';
+    if (heroDesc) heroDesc.textContent = '1900+ questions across 19 Logical Reasoning topics for campus placements and government exams';
+    if (statQ) statQ.textContent = '1900+';
+    if (statT) statT.textContent = '19';
+  } else {
+    if (heroTitle) heroTitle.innerHTML = 'Master <span>Arithmetic</span><br>Crack Any Exam';
+    if (heroDesc) heroDesc.textContent = '3200+ questions across 32 topics for campus placements and government exams';
+    if (statQ) statQ.textContent = '3200+';
+    if (statT) statT.textContent = '32';
+  }
+
+  const hubLink = document.getElementById('pd-hub-link-test');
+  if (hubLink) {
+    if (paramCat === 'verbal') {
+      hubLink.innerHTML = '🔡 Verbal Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_verbal.html'; };
+    } else if (paramCat === 'logical') {
+      hubLink.innerHTML = '💡 Logical Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_logical.html'; };
+    } else if (paramCat === 'reasoning') {
+      hubLink.innerHTML = '🧠 Reasoning Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_reasoning.html'; };
+    } else if (paramCat === 'c-language') {
+      hubLink.innerHTML = '💻 C Language Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_c.html'; };
+    } else if (paramCat === 'java') {
+      hubLink.innerHTML = '☕ Java Language Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_java.html'; };
+    } else if (paramCat === 'database') {
+      hubLink.innerHTML = '🗄️ Database Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_database.html'; };
+    } else if (paramCat === 'networks') {
+      hubLink.innerHTML = '🌐 Networks Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_networks.html'; };
+    } else {
+      hubLink.innerHTML = '🔢 Arithmetic Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_aptitude.html'; };
+    }
+  }
+
+  initConfigRows();
+
+  if(paramMode){
+    state.mode = paramMode;
+  }
+
+  // Load topics dynamically for active accordion (this will synchronously select the card)
+  await loadTopicsForCategory(paramCat);
+
+  showScreen("home-screen");
+}
+
+init();
+</script>
+</body>
+</html>

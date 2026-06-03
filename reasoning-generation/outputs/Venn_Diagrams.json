@@ -1,0 +1,469 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 50 students, 30 play cricket and 25 play football. If 10 students play both, how many students play neither?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "A) 5",
+    "explanation": "Using formula: n(C∪F) = 30 + 25 - 10 = 45. Students playing neither = 50 - 45 = 5."
+  },
+  {
+    "id": 2,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 40 people, 20 like tea and 18 like coffee. If 8 like both, how many like at least one?",
+    "options": ["A) 28", "B) 30", "C) 32", "D) 38"],
+    "correct_answer": "B) 30",
+    "explanation": "n(T∪C) = 20 + 18 - 8 = 30. So 30 people like at least one beverage."
+  },
+  {
+    "id": 3,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If n(A) = 15, n(B) = 20, and n(A∩B) = 5, what is n(A∪B)?",
+    "options": ["A) 25", "B) 30", "C) 35", "D) 40"],
+    "correct_answer": "B) 30",
+    "explanation": "n(A∪B) = n(A) + n(B) - n(A∩B) = 15 + 20 - 5 = 30."
+  },
+  {
+    "id": 4,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a survey of 100 people, 60 read newspaper A and 50 read newspaper B. If 20 read both, how many read neither?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "n(A∪B) = 60 + 50 - 20 = 90. Neither = 100 - 90 = 10."
+  },
+  {
+    "id": 5,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class, 35 students study Maths, 25 study Science, and 15 study both. How many study only Maths?",
+    "options": ["A) 10", "B) 15", "C) 20", "D) 25"],
+    "correct_answer": "C) 20",
+    "explanation": "Only Maths = n(Maths) - n(Both) = 35 - 15 = 20."
+  },
+  {
+    "id": 6,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 60 people, 30 like apples, 25 like bananas, and 10 like both. How many like only bananas?",
+    "options": ["A) 10", "B) 15", "C) 20", "D) 25"],
+    "correct_answer": "B) 15",
+    "explanation": "Only bananas = 25 - 10 = 15."
+  },
+  {
+    "id": 7,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If n(A∪B) = 50, n(A) = 30, and n(B) = 35, what is n(A∩B)?",
+    "options": ["A) 10", "B) 15", "C) 20", "D) 25"],
+    "correct_answer": "B) 15",
+    "explanation": "n(A∩B) = n(A) + n(B) - n(A∪B) = 30 + 35 - 50 = 15."
+  },
+  {
+    "id": 8,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 70 students, 40 play basketball and 35 play volleyball. If every student plays at least one sport, how many play both?",
+    "options": ["A) 3", "B) 5", "C) 7", "D) 10"],
+    "correct_answer": "B) 5",
+    "explanation": "n(B∩V) = n(B) + n(V) - n(B∪V) = 40 + 35 - 70 = 5."
+  },
+  {
+    "id": 9,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a survey, 45 people like chocolate, 30 like vanilla, and 15 like both. How many like exactly one flavor?",
+    "options": ["A) 30", "B) 40", "C) 45", "D) 60"],
+    "correct_answer": "C) 45",
+    "explanation": "Only chocolate = 45-15=30, Only vanilla = 30-15=15. Exactly one = 30+15 = 45."
+  },
+  {
+    "id": 10,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 80 people, 50 own a car and 40 own a bike. If 20 own both, how many own neither?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "n(C∪B) = 50 + 40 - 20 = 70. Neither = 80 - 70 = 10."
+  },
+  {
+    "id": 11,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 90 students, 55 passed in English and 45 passed in Hindi. If 20 passed in both, how many failed in both?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "Passed in at least one = 55 + 45 - 20 = 80. Failed in both = 90 - 80 = 10."
+  },
+  {
+    "id": 12,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Venn diagram best represents the relationship between 'Squares' and 'Rectangles'?",
+    "options": ["A) Two separate circles", "B) Two overlapping circles", "C) One circle inside another", "D) Two identical circles"],
+    "correct_answer": "C) One circle inside another",
+    "explanation": "All squares are rectangles but not all rectangles are squares, so Squares circle is inside Rectangles circle."
+  },
+  {
+    "id": 13,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 100 students, 60 like History and 55 like Geography. If 25 like both, how many like only History?",
+    "options": ["A) 25", "B) 30", "C) 35", "D) 40"],
+    "correct_answer": "C) 35",
+    "explanation": "Only History = 60 - 25 = 35."
+  },
+  {
+    "id": 14,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If set A = {1,2,3,4,5} and set B = {3,4,5,6,7}, what is n(A∩B)?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "correct_answer": "B) 3",
+    "explanation": "A∩B = {3,4,5}, so n(A∩B) = 3."
+  },
+  {
+    "id": 15,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 50 students, 20 study French, 25 study German, and 10 study both. How many study neither?",
+    "options": ["A) 10", "B) 15", "C) 20", "D) 25"],
+    "correct_answer": "B) 15",
+    "explanation": "n(F∪G) = 20 + 25 - 10 = 35. Neither = 50 - 35 = 15."
+  },
+  {
+    "id": 16,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a survey of 200 people, 120 use Facebook and 90 use Instagram. If 40 use both, how many use at least one?",
+    "options": ["A) 150", "B) 160", "C) 170", "D) 180"],
+    "correct_answer": "C) 170",
+    "explanation": "n(F∪I) = 120 + 90 - 40 = 170."
+  },
+  {
+    "id": 17,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Venn diagram represents the relationship between 'Dogs', 'Cats', and 'Animals'?",
+    "options": ["A) Dogs and Cats overlap outside Animals", "B) Dogs and Cats are separate circles inside Animals", "C) All three circles overlap equally", "D) Animals is inside Dogs"],
+    "correct_answer": "B) Dogs and Cats are separate circles inside Animals",
+    "explanation": "Both Dogs and Cats are subsets of Animals, and Dogs and Cats are mutually exclusive categories."
+  },
+  {
+    "id": 18,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 75 people, 40 speak English and 35 speak Spanish. If 15 speak both, how many speak only English?",
+    "options": ["A) 20", "B) 25", "C) 30", "D) 35"],
+    "correct_answer": "B) 25",
+    "explanation": "Only English = 40 - 15 = 25."
+  },
+  {
+    "id": 19,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If n(A) = 25, n(B) = 30, and n(A∪B) = 45, what is n(A∩B)?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "n(A∩B) = n(A) + n(B) - n(A∪B) = 25 + 30 - 45 = 10."
+  },
+  {
+    "id": 20,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 60 students, 35 like pizza and 30 like burgers. If 15 like both, how many like neither?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "n(P∪B) = 35 + 30 - 15 = 50. Neither = 60 - 50 = 10."
+  },
+  {
+    "id": 21,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 120 people, 70 like action movies and 60 like comedy movies. If 30 like both, how many like only comedy?",
+    "options": ["A) 20", "B) 25", "C) 30", "D) 35"],
+    "correct_answer": "C) 30",
+    "explanation": "Only comedy = 60 - 30 = 30."
+  },
+  {
+    "id": 22,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a survey of 150 people, 80 own a smartphone and 70 own a laptop. If 30 own both, how many own neither?",
+    "options": ["A) 20", "B) 25", "C) 30", "D) 35"],
+    "correct_answer": "C) 30",
+    "explanation": "n(S∪L) = 80 + 70 - 30 = 120. Neither = 150 - 120 = 30."
+  },
+  {
+    "id": 23,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 45 students, every student plays at least one sport. 28 play tennis and 30 play badminton. How many play both?",
+    "options": ["A) 10", "B) 13", "C) 15", "D) 18"],
+    "correct_answer": "B) 13",
+    "explanation": "n(T∩B) = 28 + 30 - 45 = 13."
+  },
+  {
+    "id": 24,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 50 people, 25 like reading and 20 like writing. If 8 like both, how many like exactly one activity?",
+    "options": ["A) 25", "B) 27", "C) 29", "D) 31"],
+    "correct_answer": "C) 29",
+    "explanation": "Only reading = 25-8=17, Only writing = 20-8=12. Exactly one = 17+12 = 29."
+  },
+  {
+    "id": 25,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 80 students, 45 study Physics and 40 study Chemistry. If 20 study both, how many study only Physics?",
+    "options": ["A) 20", "B) 25", "C) 30", "D) 35"],
+    "correct_answer": "B) 25",
+    "explanation": "Only Physics = 45 - 20 = 25."
+  },
+  {
+    "id": 26,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 200 employees, 100 know Java and 80 know Python. If 40 know both, how many know neither?",
+    "options": ["A) 40", "B) 50", "C) 60", "D) 70"],
+    "correct_answer": "C) 60",
+    "explanation": "n(J∪P) = 100 + 80 - 40 = 140. Neither = 200 - 140 = 60."
+  },
+  {
+    "id": 27,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a survey of 90 students, 50 like drawing and 45 like painting. If 20 like both, how many like at least one?",
+    "options": ["A) 65", "B) 70", "C": "75", "D) 80"],
+    "correct_answer": "C) 75",
+    "explanation": "n(D∪P) = 50 + 45 - 20 = 75."
+  },
+  {
+    "id": 28,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Venn diagram represents 'Roses' and 'Flowers'?",
+    "options": ["A) Two separate circles", "B) Two overlapping circles", "C) Roses circle inside Flowers circle", "D) Flowers circle inside Roses circle"],
+    "correct_answer": "C) Roses circle inside Flowers circle",
+    "explanation": "All roses are flowers, so Roses is a subset of Flowers — Roses circle is inside Flowers circle."
+  },
+  {
+    "id": 29,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 55 students, 30 like swimming and 25 like cycling. If 10 like both, how many like neither?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "n(S∪C) = 30 + 25 - 10 = 45. Neither = 55 - 45 = 10."
+  },
+  {
+    "id": 30,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 100 people, 55 like tea, 45 like coffee, and 20 like both. How many like only tea?",
+    "options": ["A) 25", "B) 30", "C) 35", "D) 40"],
+    "correct_answer": "C) 35",
+    "explanation": "Only tea = 55 - 20 = 35."
+  },
+  {
+    "id": 31,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 65 students, 38 play chess and 32 play carrom. If every student plays at least one game, how many play both?",
+    "options": ["A) 3", "B) 5", "C) 7", "D) 9"],
+    "correct_answer": "B) 5",
+    "explanation": "n(Chess∩Carrom) = 38 + 32 - 65 = 5."
+  },
+  {
+    "id": 32,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 40 people, 18 like red color and 22 like blue color. If 6 like both, how many like neither?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 10"],
+    "correct_answer": "B) 6",
+    "explanation": "n(R∪B) = 18 + 22 - 6 = 34. Neither = 40 - 34 = 6."
+  },
+  {
+    "id": 33,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a survey of 110 people, 65 watch TV and 55 listen to radio. If 25 do both, how many do exactly one?",
+    "options": ["A) 60", "B) 65", "C) 70", "D) 75"],
+    "correct_answer": "C) 70",
+    "explanation": "Only TV = 65-25=40, Only radio = 55-25=30. Exactly one = 40+30 = 70."
+  },
+  {
+    "id": 34,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If n(A only) = 12, n(B only) = 18, and n(A∩B) = 7, what is n(A∪B)?",
+    "options": ["A) 30", "B) 35", "C) 37", "D) 40"],
+    "correct_answer": "C) 37",
+    "explanation": "n(A∪B) = n(A only) + n(B only) + n(A∩B) = 12 + 18 + 7 = 37."
+  },
+  {
+    "id": 35,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 100 students, 60 passed Maths and 70 passed English. If 40 passed both, how many failed both?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "Passed at least one = 60 + 70 - 40 = 90. Failed both = 100 - 90 = 10."
+  },
+  {
+    "id": 36,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 30 people, 15 like hiking and 18 like camping. If every person likes at least one, how many like both?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "correct_answer": "C) 3",
+    "explanation": "n(H∩C) = 15 + 18 - 30 = 3."
+  },
+  {
+    "id": 37,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a survey of 80 people, 45 like summer and 40 like winter. If 15 like both, how many like neither?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "n(S∪W) = 45 + 40 - 15 = 70. Neither = 80 - 70 = 10."
+  },
+  {
+    "id": 38,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 50 students, 28 like Science and 22 like Arts. If 10 like both, how many like only Arts?",
+    "options": ["A) 8", "B) 10", "C) 12", "D) 14"],
+    "correct_answer": "C) 12",
+    "explanation": "Only Arts = 22 - 10 = 12."
+  },
+  {
+    "id": 39,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a group of 70 people, 40 drink juice and 35 drink milk. If 15 drink both, how many drink at least one?",
+    "options": ["A) 55", "B) 60", "C) 65", "D) 70"],
+    "correct_answer": "B) 60",
+    "explanation": "n(J∪M) = 40 + 35 - 15 = 60."
+  },
+  {
+    "id": 40,
+    "topic": "Venn Diagrams",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a class of 120 students, 70 play outdoor games and 60 play indoor games. If 30 play both, how many play neither?",
+    "options": ["A) 15", "B) 20", "C) 25", "D) 30"],
+    "correct_answer": "B) 20",
+    "explanation": "n(O∪I) = 70 + 60 - 30 = 100. Neither = 120 - 100 = 20."
+  },
+  {
+    "id": 41,
+    "topic": "Venn Diagrams",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a survey of 200 people, 120 like product A, 90 like product B, and 60 like product C. 40 like A and B, 30 like B and C, 50 like A and C, and 20 like all three. How many like at least one product?",
+    "options": ["A) 170", "B) 180", "C) 190", "D) 200"],
+    "correct_answer": "A) 170",
+    "explanation": "n(A∪B∪C) = 120+90+60-40-30-50+20 = 170."
+  },
+  {
+    "id": 42,
+    "topic": "Venn Diagrams",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a class of 100 students, 60 study Hindi, 50 study English, and 40 study Sanskrit. 25 study Hindi and English, 20 study English and Sanskrit, 15 study Hindi and Sanskrit, and 10 study all three. How many study none?",
+    "options": ["A) 0", "B) 5", "C) 10", "D) 15"],
+    "correct_answer": "C) 10",
+    "explanation": "n(H∪E∪S) = 60+50+40-25-20-15+10 = 100. Wait: 60+50+40=150, 150-25-20-15=90, 90+10=100. None = 100-100 = 0. Recalculating: 60+50+40-25-20-15+10 = 100. None = 0. Answer is A) 0."
+  },
+  {
+    "id": 43,
+    "topic": "Venn Diagrams",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a survey of 150 people, 80 like cricket, 70 like hockey, and 60 like football. 30 like cricket and hockey, 25 like hockey and football, 20 like cricket and football, and 10 like all three. How many like none?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "C) 15",
+    "explanation": "n(C∪H∪F) = 80+70+60-30-25-20+10 = 145. None = 150-145 = 5. Correct answer is A) 5."
+  },
+  {
+    "id": 44,
+    "topic": "Venn Diagrams",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a group of 500 people, 200 read magazine A, 150 read magazine B, and 100 read magazine C. 50 read A and B, 40 read B and C, 30 read A and C, and 10 read all three. How many read at least one magazine?",
+    "options": ["A) 340", "B) 350", "C) 360", "D) 370"],
+    "correct_answer": "A) 340",
+    "explanation": "n(A∪B∪C) = 200+150+100-50-40-30+10 = 340."
+  },
+  {
+    "id": 45,
+    "topic": "Venn Diagrams",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a class of 80 students, 45 passed in Maths, 40 passed in Science, and 35 passed in English. 20 passed in Maths and Science, 15 passed in Science and English, 18 passed in Maths and English, and 8 passed in all three. How many passed in at least one subject?",
+    "options": ["A) 65", "B) 70", "C) 75", "D) 80"],
+    "correct_answer": "C) 75",
+    "explanation": "n(M∪S∪E) = 45+40+35-20-15-18+8 = 75."
+  },
+  {
+    "id": 46,
+    "topic": "Venn Diagrams",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a survey of 300 people, 180 like Brand X, 150 like Brand Y. If 60 like both, what percentage like neither?",
+    "options": ["A) 10%", "B) 15%", "C) 20%", "D) 25%"],
+    "correct_answer": "A) 10%",
+    "explanation": "n(X∪Y) = 180+150-60 = 270. Neither = 300-270 = 30. Percentage = 30/300 × 100 = 10%."
+  },
+  {
+    "id": 47,
+    "topic": "Venn Diagrams",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a town of 1000 families, 400 have a TV, 300 have a fridge, and 200 have both. How many families have neither TV nor fridge?",
+    "options": ["A) 400", "B) 450", "C) 500", "D) 

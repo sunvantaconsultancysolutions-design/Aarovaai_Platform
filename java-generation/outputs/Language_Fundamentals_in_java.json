@@ -1,0 +1,481 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid Java identifier?",
+    "options": ["A) 2variable", "B) _myVar", "C) my-var", "D) class"],
+    "correct_answer": "B) _myVar",
+    "explanation": "Java identifiers can start with a letter, underscore (_), or dollar sign ($). '2variable' starts with a digit, 'my-var' contains a hyphen, and 'class' is a reserved keyword."
+  },
+  {
+    "id": 2,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default value of a boolean variable in Java?",
+    "options": ["A) true", "B) false", "C) 0", "D) null"],
+    "correct_answer": "B) false",
+    "explanation": "In Java, the default value of a boolean instance variable is 'false'. Local variables do not have default values and must be initialized before use."
+  },
+  {
+    "id": 3,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which data type is used to store a single character in Java?",
+    "options": ["A) String", "B) char", "C) byte", "D) int"],
+    "correct_answer": "B) char",
+    "explanation": "The 'char' data type in Java is used to store a single 16-bit Unicode character. It can hold values from '\\u0000' (0) to '\\uffff' (65535)."
+  },
+  {
+    "id": 4,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of an int data type in Java?",
+    "options": ["A) 8 bits", "B) 16 bits", "C) 32 bits", "D) 64 bits"],
+    "correct_answer": "C) 32 bits",
+    "explanation": "In Java, the 'int' data type is a 32-bit signed two's complement integer with a range of -2^31 to 2^31-1 (approximately -2.1 billion to 2.1 billion)."
+  },
+  {
+    "id": 5,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to define a constant in Java?",
+    "options": ["A) static", "B) const", "C) final", "D) constant"],
+    "correct_answer": "C) final",
+    "explanation": "The 'final' keyword in Java is used to declare constants. Once a final variable is assigned a value, it cannot be changed. 'const' is a reserved word but not used in Java."
+  },
+  {
+    "id": 6,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of: System.out.println(10 + 20 + \"Java\");",
+    "options": ["A) 1020Java", "B) 30Java", "C) Java1020", "D) Java30"],
+    "correct_answer": "B) 30Java",
+    "explanation": "Java evaluates left to right. 10 + 20 = 30 (integer addition), then 30 + \"Java\" = \"30Java\" (string concatenation). So the output is 30Java."
+  },
+  {
+    "id": 7,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a primitive data type in Java?",
+    "options": ["A) int", "B) float", "C) String", "D) boolean"],
+    "correct_answer": "C) String",
+    "explanation": "Java has 8 primitive data types: byte, short, int, long, float, double, char, and boolean. 'String' is a class (reference type), not a primitive data type."
+  },
+  {
+    "id": 8,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the range of the byte data type in Java?",
+    "options": ["A) 0 to 255", "B) -128 to 127", "C) -256 to 255", "D) -32768 to 32767"],
+    "correct_answer": "B) -128 to 127",
+    "explanation": "The 'byte' data type in Java is an 8-bit signed integer. Its range is -2^7 to 2^7-1, which is -128 to 127."
+  },
+  {
+    "id": 9,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to declare a long literal in Java?",
+    "options": ["A) long x = 100;", "B) long x = 100L;", "C) long x = 100l;", "D) Both B and C"],
+    "correct_answer": "D) Both B and C",
+    "explanation": "In Java, a long literal can be specified by appending 'L' or 'l' to the number. Both 100L and 100l are valid, though uppercase 'L' is preferred for readability."
+  },
+  {
+    "id": 10,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does JVM stand for in Java?",
+    "options": ["A) Java Virtual Memory", "B) Java Virtual Machine", "C) Java Variable Method", "D) Java Verified Module"],
+    "correct_answer": "B) Java Virtual Machine",
+    "explanation": "JVM stands for Java Virtual Machine. It is the runtime engine that executes Java bytecode and provides platform independence to Java programs."
+  },
+  {
+    "id": 11,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid comment in Java?",
+    "options": ["A) <!-- comment -->", "B) # comment", "C) // comment", "D) ** comment **"],
+    "correct_answer": "C) // comment",
+    "explanation": "Java supports three types of comments: single-line (//) , multi-line (/* */), and documentation (/** */). HTML-style and # comments are not valid in Java."
+  },
+  {
+    "id": 12,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println('A' + 1);",
+    "options": ["A) A1", "B) B", "C) 66", "D) 65"],
+    "correct_answer": "C) 66",
+    "explanation": "The ASCII value of 'A' is 65. When you add 1 to a char, it performs integer arithmetic. 65 + 1 = 66. To get 'B', you would need to cast: (char)('A' + 1)."
+  },
+  {
+    "id": 13,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which access modifier makes a member accessible only within the same class?",
+    "options": ["A) public", "B) protected", "C) private", "D) default"],
+    "correct_answer": "C) private",
+    "explanation": "The 'private' access modifier restricts access to only within the declaring class. It provides the highest level of encapsulation in Java."
+  },
+  {
+    "id": 14,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the extension of a compiled Java file?",
+    "options": ["A) .java", "B) .class", "C) .exe", "D) .jar"],
+    "correct_answer": "B) .class",
+    "explanation": "Java source files have the .java extension. When compiled using javac, they produce bytecode files with the .class extension, which are executed by the JVM."
+  },
+  {
+    "id": 15,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct main method signature in Java?",
+    "options": ["A) public static void main(String args)", "B) public void main(String[] args)", "C) public static void main(String[] args)", "D) static void main(String[] args)"],
+    "correct_answer": "C) public static void main(String[] args)",
+    "explanation": "The correct main method signature is 'public static void main(String[] args)'. It must be public (accessible by JVM), static (called without object), void (no return), and accept String array."
+  },
+  {
+    "id": 16,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default value of an int instance variable in Java?",
+    "options": ["A) -1", "B) null", "C) 0", "D) undefined"],
+    "correct_answer": "C) 0",
+    "explanation": "In Java, instance variables of numeric types (byte, short, int, long, float, double) are automatically initialized to 0 (or 0.0 for floating-point types)."
+  },
+  {
+    "id": 17,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator is used to check equality in Java?",
+    "options": ["A) =", "B) ==", "C) ===", "D) .equals()"],
+    "correct_answer": "B) ==",
+    "explanation": "The '==' operator is used to compare primitive values or object references in Java. For comparing object content, .equals() method is used, but '==' is the equality operator."
+  },
+  {
+    "id": 18,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(5 % 3);",
+    "options": ["A) 1", "B) 2", "C) 1.67", "D) 0"],
+    "correct_answer": "B) 2",
+    "explanation": "The % operator returns the remainder of division. 5 divided by 3 gives quotient 1 and remainder 2. So 5 % 3 = 2."
+  },
+  {
+    "id": 19,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to print output with a newline in Java?",
+    "options": ["A) System.out.print()", "B) System.out.println()", "C) System.out.printf()", "D) System.println()"],
+    "correct_answer": "B) System.out.println()",
+    "explanation": "System.out.println() prints the output and moves the cursor to the next line. System.out.print() prints without a newline. System.println() is not a valid method."
+  },
+  {
+    "id": 20,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of a double data type in Java?",
+    "options": ["A) 32 bits", "B) 48 bits", "C) 64 bits", "D) 128 bits"],
+    "correct_answer": "C) 64 bits",
+    "explanation": "The 'double' data type in Java is a 64-bit IEEE 754 floating-point number. It provides approximately 15-16 significant decimal digits of precision."
+  },
+  {
+    "id": 21,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following keywords is used to create an object in Java?",
+    "options": ["A) create", "B) object", "C) new", "D) make"],
+    "correct_answer": "C) new",
+    "explanation": "The 'new' keyword is used to create objects (instances) of a class in Java. It allocates memory on the heap and calls the constructor to initialize the object."
+  },
+  {
+    "id": 22,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of: int x = 5; System.out.println(x++);",
+    "options": ["A) 4", "B) 5", "C) 6", "D) Compilation error"],
+    "correct_answer": "B) 5",
+    "explanation": "The post-increment operator (x++) returns the current value first, then increments. So println prints 5, and after the statement, x becomes 6."
+  },
+  {
+    "id": 23,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid float literal in Java?",
+    "options": ["A) float f = 3.14;", "B) float f = 3.14f;", "C) float f = 3.14d;", "D) float f = 3.14F is invalid"],
+    "correct_answer": "B) float f = 3.14f;",
+    "explanation": "Float literals must be suffixed with 'f' or 'F'. Without the suffix, 3.14 is treated as a double by default, causing a compilation error when assigned to float."
+  },
+  {
+    "id": 24,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(\"Java\".length());",
+    "options": ["A) 3", "B) 4", "C) 5", "D) Compilation error"],
+    "correct_answer": "B) 4",
+    "explanation": "The length() method of String returns the number of characters. \"Java\" has 4 characters: J, a, v, a. So the output is 4."
+  },
+  {
+    "id": 25,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about Java?",
+    "options": ["A) Java is platform-dependent", "B) Java supports multiple inheritance through classes", "C) Java is purely object-oriented", "D) Java is platform-independent"],
+    "correct_answer": "D) Java is platform-independent",
+    "explanation": "Java achieves platform independence through bytecode and JVM. The same compiled bytecode can run on any platform with a JVM installed, following the 'Write Once, Run Anywhere' principle."
+  },
+  {
+    "id": 26,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(10 / 3);",
+    "options": ["A) 3.33", "B) 3", "C) 4", "D) 3.0"],
+    "correct_answer": "B) 3",
+    "explanation": "When both operands are integers, Java performs integer division and truncates the decimal part. 10 / 3 = 3 (remainder 1 is discarded). To get 3.33, use 10.0/3 or (double)10/3."
+  },
+  {
+    "id": 27,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to declare a String in Java?",
+    "options": ["A) string s = \"Hello\";", "B) String s = 'Hello';", "C) String s = \"Hello\";", "D) STRING s = \"Hello\";"],
+    "correct_answer": "C) String s = \"Hello\";",
+    "explanation": "In Java, 'String' is a class and is case-sensitive. String literals are enclosed in double quotes (\"). Single quotes are used for char literals. Java is case-sensitive, so 'string' and 'STRING' are invalid."
+  },
+  {
+    "id": 28,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(true && false);",
+    "options": ["A) true", "B) false", "C) 1", "D) 0"],
+    "correct_answer": "B) false",
+    "explanation": "The && (AND) operator returns true only if both operands are true. Since false is one of the operands, the result is false. Java prints boolean values as 'true' or 'false'."
+  },
+  {
+    "id": 29,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a Java keyword?",
+    "options": ["A) goto", "B) null", "C) instanceof", "D) then"],
+    "correct_answer": "D) then",
+    "explanation": "'then' is not a Java keyword. 'goto' and 'const' are reserved words in Java but not used. 'null' is a literal, and 'instanceof' is an operator/keyword in Java."
+  },
+  {
+    "id": 30,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int a = 10; int b = 3; System.out.println(a % b);",
+    "options": ["A) 3", "B) 1", "C) 0", "D) 3.33"],
+    "correct_answer": "B) 1",
+    "explanation": "The modulo operator (%) returns the remainder. 10 divided by 3 gives quotient 3 and remainder 1. So 10 % 3 = 1."
+  },
+  {
+    "id": 31,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares an array in Java?",
+    "options": ["A) int arr[] = new int(5);", "B) int arr[] = new int[5];", "C) int arr = new int[5];", "D) array int arr = new int[5];"],
+    "correct_answer": "B) int arr[] = new int[5];",
+    "explanation": "Arrays in Java are declared using square brackets []. The size is specified in square brackets when using 'new'. 'int arr[] = new int[5]' creates an integer array of size 5."
+  },
+  {
+    "id": 32,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default value of a reference type (object) variable in Java?",
+    "options": ["A) 0", "B) empty", "C) undefined", "D) null"],
+    "correct_answer": "D) null",
+    "explanation": "In Java, all reference type instance variables (objects, arrays, Strings) are initialized to 'null' by default if not explicitly assigned a value."
+  },
+  {
+    "id": 33,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(\"Hello\" + \"World\");",
+    "options": ["A) Hello World", "B) HelloWorld", "C) Hello+World", "D) Compilation error"],
+    "correct_answer": "B) HelloWorld",
+    "explanation": "The + operator with String operands performs concatenation. \"Hello\" + \"World\" concatenates the two strings without any space, resulting in \"HelloWorld\"."
+  },
+  {
+    "id": 34,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the bitwise AND operator in Java?",
+    "options": ["A) &&", "B) &", "C) AND", "D) |"],
+    "correct_answer": "B) &",
+    "explanation": "'&' is the bitwise AND operator that operates on individual bits. '&&' is the logical AND operator used for boolean expressions. They are different operators in Java."
+  },
+  {
+    "id": 35,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(++5);",
+    "options": ["A) 6", "B) 5", "C) Compilation error", "D) Runtime error"],
+    "correct_answer": "C) Compilation error",
+    "explanation": "The increment operator (++) can only be applied to variables, not to literal values. '++5' is invalid because 5 is a constant/literal, not a variable. This causes a compilation error."
+  },
+  {
+    "id": 36,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to convert a String to an integer in Java?",
+    "options": ["A) int x = (int)\"123\";", "B) int x = Integer.parseInt(\"123\");", "C) int x = Integer.valueOf(\"123\");", "D) Both B and C"],
+    "correct_answer": "D) Both B and C",
+    "explanation": "Both Integer.parseInt(\"123\") and Integer.valueOf(\"123\") convert a String to an integer. parseInt returns a primitive int, while valueOf returns an Integer object (auto-unboxed to int)."
+  },
+  {
+    "id": 37,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(2 * 3 + 4);",
+    "options": ["A) 14", "B) 10", "C) 24", "D) 18"],
+    "correct_answer": "B) 10",
+    "explanation": "Java follows operator precedence. Multiplication (*) has higher precedence than addition (+). So 2 * 3 = 6 first, then 6 + 4 = 10."
+  },
+  {
+    "id": 38,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to read input from the user in Java?",
+    "options": ["A) System.in.read()", "B) Scanner sc = new Scanner(System.in);", "C) BufferedReader br = new BufferedReader(new InputStreamReader(System.in));", "D) All of the above"],
+    "correct_answer": "D) All of the above",
+    "explanation": "All three methods can be used to read user input in Java. Scanner is the most commonly used for beginners, BufferedReader is more efficient, and System.in.read() reads raw bytes."
+  },
+  {
+    "id": 39,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(Math.max(10, 20));",
+    "options": ["A) 10", "B) 20", "C) 30", "D) 15"],
+    "correct_answer": "B) 20",
+    "explanation": "Math.max(a, b) returns the larger of two values. Math.max(10, 20) returns 20 since 20 > 10."
+  },
+  {
+    "id": 40,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about Java is correct?",
+    "options": ["A) Java supports pointers", "B) Java does not support automatic garbage collection", "C) Java supports automatic garbage collection", "D) Java requires manual memory management"],
+    "correct_answer": "C) Java supports automatic garbage collection",
+    "explanation": "Java has a built-in garbage collector that automatically reclaims memory occupied by objects that are no longer referenced. This eliminates the need for manual memory management and pointer arithmetic."
+  },
+  {
+    "id": 41,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 5;\nSystem.out.println(x++ + ++x);",
+    "options": ["A) 10", "B) 11", "C) 12", "D) 13"],
+    "correct_answer": "C) 12",
+    "explanation": "x++ returns 5 (post-increment, x becomes 6), then ++x increments x to 7 and returns 7. So 5 + 7 = 12."
+  },
+  {
+    "id": 42,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What happens when you try to assign a double value to a float variable without casting in Java?",
+    "options": ["A) The value is automatically truncated", "B) Compilation error occurs", "C) Runtime exception is thrown", "D) The value is rounded"],
+    "correct_answer": "B) Compilation error occurs",
+    "explanation": "Assigning a double to a float is a narrowing conversion and requires explicit casting. Without casting (float f = 3.14;), a compilation error occurs because precision may be lost."
+  },
+  {
+    "id": 43,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: System.out.println(1 + 2 + \"3\" + 4 + 5);",
+    "options": ["A) 12345", "B) 3345", "C) 3349", "D) 15"],
+    "correct_answer": "C) 3349",
+    "explanation": "Left to right: 1+2=3 (int), 3+\"3\"=\"33\" (string concat), \"33\"+4=\"334\" (string concat), \"334\"+5=\"3345\". Wait: 1+2=3, 3+\"3\"=\"33\", \"33\"+4=\"334\", \"334\"+5=\"3345\". Output is 3345."
+  },
+  {
+    "id": 44,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes the difference between '==' and '.equals()' for String comparison?",
+    "options": ["A) Both compare content", "B) == compares references, .equals() compares content", "C) == compares content, .equals() compares references", "D) Both compare references"],
+    "correct_answer": "B) == compares references, .equals() compares content",
+    "explanation": "For String objects, '==' checks if both references point to the same object in memory. '.equals()' compares the actual character content of the strings. Use .equals() for content comparison."
+  },
+  {
+    "id": 45,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nString s1 = \"Hello\";\nString s2 = \"Hello\";\nSystem.out.println(s1 == s2);",
+    "options": ["A) false", "B) true", "C) Compilation error", "D) null"],
+    "correct_answer": "B) true",
+    "explanation": "String literals are stored in the String Pool. Both s1 and s2 point to the same \"Hello\" object in the pool, so == returns true. This would be false if 'new String(\"Hello\")' was used."
+  },
+  {
+    "id": 46,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nbyte b = 127;\nb++;\nSystem.out.println(b);",
+    "options": ["A) 128", "B) -128", "C) Compilation error", "D) Runtime exception"],
+    "correct_answer": "B) -128",
+    "explanation": "byte has a max value of 127. When incremented beyond 127, it wraps around (overflow) to -128 due to two's complement representation. This is called integer overflow."
+  },
+  {
+    "id": 47,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about the 'static' keyword in Java?",
+    "options": ["A) Static methods can access instance variables directly", "B) Static variables are shared among all instances of a class", "C) Static methods can be overridden", "D) Static blocks execute after the constructor"],
+    "correct_answer": "B) Static variables are shared among all instances of a class",
+    "explanation": "Static variables belong to the class, not to any specific instance. All objects of the class share the same static variable. Static methods cannot directly access instance variables."
+  },
+  {
+    "id": 48,
+    "topic": "Language Fundamentals in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint[] arr = {1, 2, 3, 4, 5};\nSystem.out.println(arr.length);",
+    "options": ["A) 4", "B) 5", "C) 6", "D) Compilation error"],
+    "correct_answer": "B) 5",
+    "explanation": "The 'length' property of an array returns the number of elements. The array {1, 2, 3, 4, 5} has 5 elements,

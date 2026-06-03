@@ -1,0 +1,511 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to create an object of a class 'Car' in Java?",
+    "options": ["A) Car c = new Car();", "B) Car c = Car();", "C) new Car c;", "D) Car c;"],
+    "correct_answer": "A) Car c = new Car();",
+    "explanation": "In Java, objects are created using the 'new' keyword followed by the constructor call. 'Car c = new Car();' is the correct syntax."
+  },
+  {
+    "id": 2,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which interface is the root of the Java Collections Framework hierarchy?",
+    "options": ["A) List", "B) Collection", "C) Iterable", "D) Set"],
+    "correct_answer": "C) Iterable",
+    "explanation": "The 'Iterable' interface is at the top of the collection hierarchy. 'Collection' extends 'Iterable', and List, Set, Queue extend 'Collection'."
+  },
+  {
+    "id": 3,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class provides a resizable array implementation of the List interface in Java?",
+    "options": ["A) LinkedList", "B) Vector", "C) ArrayList", "D) Stack"],
+    "correct_answer": "C) ArrayList",
+    "explanation": "ArrayList provides a resizable-array implementation of the List interface. It grows dynamically as elements are added."
+  },
+  {
+    "id": 4,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'new' keyword do in Java?",
+    "options": ["A) Declares a variable", "B) Allocates memory for an object", "C) Imports a class", "D) Defines a method"],
+    "correct_answer": "B) Allocates memory for an object",
+    "explanation": "The 'new' keyword allocates memory on the heap for a new object and calls the constructor to initialize it."
+  },
+  {
+    "id": 5,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following collections does NOT allow duplicate elements?",
+    "options": ["A) ArrayList", "B) LinkedList", "C) HashSet", "D) Vector"],
+    "correct_answer": "C) HashSet",
+    "explanation": "HashSet implements the Set interface which does not allow duplicate elements. ArrayList, LinkedList, and Vector all allow duplicates."
+  },
+  {
+    "id": 6,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default initial capacity of an ArrayList in Java?",
+    "options": ["A) 5", "B) 16", "C) 10", "D) 8"],
+    "correct_answer": "C) 10",
+    "explanation": "The default initial capacity of an ArrayList in Java is 10. When the list exceeds this capacity, it grows by 50%."
+  },
+  {
+    "id": 7,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to add an element to an ArrayList?",
+    "options": ["A) insert()", "B) append()", "C) add()", "D) push()"],
+    "correct_answer": "C) add()",
+    "explanation": "The add() method is used to add elements to an ArrayList. It can add at the end or at a specific index."
+  },
+  {
+    "id": 8,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a key-value pair based collection in Java?",
+    "options": ["A) ArrayList", "B) HashSet", "C) HashMap", "D) LinkedList"],
+    "correct_answer": "C) HashMap",
+    "explanation": "HashMap stores data as key-value pairs. Each key maps to exactly one value, and keys must be unique."
+  },
+  {
+    "id": 9,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: ArrayList<Integer> list = new ArrayList<>(); list.add(5); System.out.println(list.size());",
+    "options": ["A) 0", "B) 1", "C) 5", "D) null"],
+    "correct_answer": "B) 1",
+    "explanation": "After adding one element (5) to the ArrayList, the size() method returns 1, which is the number of elements in the list."
+  },
+  {
+    "id": 10,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which collection class maintains insertion order and allows duplicates?",
+    "options": ["A) HashSet", "B) TreeSet", "C) ArrayList", "D) HashMap"],
+    "correct_answer": "C) ArrayList",
+    "explanation": "ArrayList maintains insertion order (elements are stored in the order they are added) and allows duplicate elements."
+  },
+  {
+    "id": 11,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method removes an element at a specific index from an ArrayList?",
+    "options": ["A) delete(index)", "B) remove(index)", "C) erase(index)", "D) pop(index)"],
+    "correct_answer": "B) remove(index)",
+    "explanation": "The remove(int index) method removes the element at the specified position in the ArrayList and shifts subsequent elements left."
+  },
+  {
+    "id": 12,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the package that contains the Collections Framework in Java?",
+    "options": ["A) java.lang", "B) java.io", "C) java.util", "D) java.net"],
+    "correct_answer": "C) java.util",
+    "explanation": "The Java Collections Framework is located in the java.util package. Classes like ArrayList, HashMap, HashSet are all in java.util."
+  },
+  {
+    "id": 13,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a constructor in Java?",
+    "options": ["A) It has a return type", "B) It must be public", "C) It has the same name as the class", "D) It cannot be overloaded"],
+    "correct_answer": "C) It has the same name as the class",
+    "explanation": "A constructor must have the same name as the class. It has no return type (not even void) and can be overloaded."
+  },
+  {
+    "id": 14,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does HashMap.get(key) return if the key does not exist?",
+    "options": ["A) 0", "B) -1", "C) null", "D) throws Exception"],
+    "correct_answer": "C) null",
+    "explanation": "If the specified key is not found in the HashMap, the get() method returns null."
+  },
+  {
+    "id": 15,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following collections is thread-safe by default?",
+    "options": ["A) ArrayList", "B) HashMap", "C) HashSet", "D) Vector"],
+    "correct_answer": "D) Vector",
+    "explanation": "Vector is a thread-safe (synchronized) implementation of a dynamic array. ArrayList is not synchronized by default."
+  },
+  {
+    "id": 16,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to iterate over an ArrayList using a for-each loop?",
+    "options": ["A) for(int i : list)", "B) for(String s : list)", "C) foreach(list)", "D) for(list.each())"],
+    "correct_answer": "B) for(String s : list)",
+    "explanation": "The enhanced for-each loop syntax is 'for(Type variable : collection)'. For a String ArrayList, 'for(String s : list)' is correct."
+  },
+  {
+    "id": 17,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method checks if a HashMap contains a specific key?",
+    "options": ["A) hasKey()", "B) containsKey()", "C) existsKey()", "D) findKey()"],
+    "correct_answer": "B) containsKey()",
+    "explanation": "The containsKey() method returns true if the HashMap contains a mapping for the specified key, false otherwise."
+  },
+  {
+    "id": 18,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between '==' and '.equals()' when comparing objects in Java?",
+    "options": ["A) No difference", "B) '==' compares references, '.equals()' compares content", "C) '.equals()' compares references, '==' compares content", "D) Both compare content"],
+    "correct_answer": "B) '==' compares references, '.equals()' compares content",
+    "explanation": "'==' checks if two references point to the same object in memory. '.equals()' checks logical equality (content), which can be overridden."
+  },
+  {
+    "id": 19,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid way to declare a List in Java?",
+    "options": ["A) List<String> list = new ArrayList<>();", "B) ArrayList<String> list = new ArrayList<>();", "C) List<String> list = new List<>();", "D) List<String> list = new LinkedList<>();"],
+    "correct_answer": "C) List<String> list = new List<>();",
+    "explanation": "List is an interface and cannot be instantiated directly. You must use a concrete class like ArrayList or LinkedList."
+  },
+  {
+    "id": 20,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the Collections.sort() method do?",
+    "options": ["A) Sorts in descending order", "B) Sorts in natural ascending order", "C) Shuffles the collection", "D) Reverses the collection"],
+    "correct_answer": "B) Sorts in natural ascending order",
+    "explanation": "Collections.sort() sorts the elements of a List in their natural ascending order (alphabetical for Strings, numerical for numbers)."
+  },
+  {
+    "id": 21,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method returns the number of key-value pairs in a HashMap?",
+    "options": ["A) length()", "B) count()", "C) size()", "D) capacity()"],
+    "correct_answer": "C) size()",
+    "explanation": "The size() method returns the number of key-value mappings in the HashMap."
+  },
+  {
+    "id": 22,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: List<String> list = new ArrayList<>(); System.out.println(list.isEmpty());",
+    "options": ["A) false", "B) true", "C) null", "D) 0"],
+    "correct_answer": "B) true",
+    "explanation": "isEmpty() returns true if the list contains no elements. Since no elements were added, it returns true."
+  },
+  {
+    "id": 23,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which collection maintains elements in sorted order automatically?",
+    "options": ["A) ArrayList", "B) LinkedList", "C) TreeSet", "D) HashSet"],
+    "correct_answer": "C) TreeSet",
+    "explanation": "TreeSet stores elements in sorted (natural) order automatically. It implements the NavigableSet interface backed by a TreeMap."
+  },
+  {
+    "id": 24,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'this' keyword used for in Java?",
+    "options": ["A) To refer to the parent class", "B) To refer to the current object", "C) To create a new object", "D) To call a static method"],
+    "correct_answer": "B) To refer to the current object",
+    "explanation": "'this' keyword refers to the current instance of the class. It is used to differentiate instance variables from local variables."
+  },
+  {
+    "id": 25,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to convert an ArrayList to an array?",
+    "options": ["A) toArray()", "B) asArray()", "C) convertArray()", "D) getArray()"],
+    "correct_answer": "A) toArray()",
+    "explanation": "The toArray() method converts an ArrayList to an array. It returns an Object[] or a typed array if a typed array is passed as argument."
+  },
+  {
+    "id": 26,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to create a HashMap with String keys and Integer values?",
+    "options": ["A) HashMap<String, Integer> map = new HashMap<>();", "B) HashMap map = new HashMap<String, Integer>();", "C) HashMap<String:Integer> map = new HashMap<>();", "D) Map map = new HashMap(String, Integer);"],
+    "correct_answer": "A) HashMap<String, Integer> map = new HashMap<>();",
+    "explanation": "The correct generic syntax for a HashMap is HashMap<KeyType, ValueType>. Diamond operator <> on the right side infers types."
+  },
+  {
+    "id": 27,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to retrieve an element at a specific index from an ArrayList?",
+    "options": ["A) fetch(index)", "B) get(index)", "C) retrieve(index)", "D) elementAt(index)"],
+    "correct_answer": "B) get(index)",
+    "explanation": "The get(int index) method returns the element at the specified position in the ArrayList."
+  },
+  {
+    "id": 28,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you call put() on a HashMap with an existing key?",
+    "options": ["A) Throws an exception", "B) Adds a duplicate entry", "C) Replaces the old value", "D) Does nothing"],
+    "correct_answer": "C) Replaces the old value",
+    "explanation": "If a key already exists in a HashMap and put() is called with the same key, the old value is replaced with the new value."
+  },
+  {
+    "id": 29,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to import ArrayList in Java?",
+    "options": ["A) import java.lang.ArrayList;", "B) import java.util.ArrayList;", "C) import java.io.ArrayList;", "D) import ArrayList;"],
+    "correct_answer": "B) import java.util.ArrayList;",
+    "explanation": "ArrayList is part of the java.util package. The correct import statement is 'import java.util.ArrayList;'."
+  },
+  {
+    "id": 30,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the time complexity of accessing an element by index in an ArrayList?",
+    "options": ["A) O(n)", "B) O(log n)", "C) O(1)", "D) O(n²)"],
+    "correct_answer": "C) O(1)",
+    "explanation": "ArrayList uses an array internally, so accessing an element by index is O(1) — constant time, regardless of list size."
+  },
+  {
+    "id": 31,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about LinkedList is true?",
+    "options": ["A) It implements only List interface", "B) It implements both List and Deque interfaces", "C) It does not allow null elements", "D) It is backed by an array"],
+    "correct_answer": "B) It implements both List and Deque interfaces",
+    "explanation": "LinkedList implements both List and Deque interfaces, making it usable as a list, stack, or queue."
+  },
+  {
+    "id": 32,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: HashMap<String,Integer> map = new HashMap<>(); map.put(\"a\",1); map.put(\"b\",2); System.out.println(map.size());",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 0"],
+    "correct_answer": "B) 2",
+    "explanation": "Two key-value pairs ('a'->1 and 'b'->2) are added to the HashMap, so size() returns 2."
+  },
+  {
+    "id": 33,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method clears all elements from a collection?",
+    "options": ["A) empty()", "B) removeAll()", "C) clear()", "D) flush()"],
+    "correct_answer": "C) clear()",
+    "explanation": "The clear() method removes all elements from the collection, making it empty. size() returns 0 after calling clear()."
+  },
+  {
+    "id": 34,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the superclass of all classes in Java?",
+    "options": ["A) Class", "B) Base", "C) Object", "D) Root"],
+    "correct_answer": "C) Object",
+    "explanation": "In Java, the Object class is the root of the class hierarchy. Every class has Object as a superclass either directly or indirectly."
+  },
+  {
+    "id": 35,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a method of the Object class?",
+    "options": ["A) toString()", "B) hashCode()", "C) equals()", "D) compareTo()"],
+    "correct_answer": "D) compareTo()",
+    "explanation": "compareTo() is a method of the Comparable interface, not the Object class. toString(), hashCode(), and equals() are all Object class methods."
+  },
+  {
+    "id": 36,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the contains() method do in an ArrayList?",
+    "options": ["A) Returns the index of an element", "B) Returns true if the element exists", "C) Adds an element if not present", "D) Counts occurrences of an element"],
+    "correct_answer": "B) Returns true if the element exists",
+    "explanation": "The contains(Object o) method returns true if the ArrayList contains the specified element, false otherwise."
+  },
+  {
+    "id": 37,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which collection class allows null keys and null values?",
+    "options": ["A) Hashtable", "B) TreeMap", "C) HashMap", "D) ConcurrentHashMap"],
+    "correct_answer": "C) HashMap",
+    "explanation": "HashMap allows one null key and multiple null values. Hashtable and ConcurrentHashMap do not allow null keys or values."
+  },
+  {
+    "id": 38,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the index of the first element in an ArrayList?",
+    "options": ["A) 1", "B) -1", "C) 0", "D) Depends on implementation"],
+    "correct_answer": "C) 0",
+    "explanation": "Like arrays, ArrayList uses zero-based indexing. The first element is at index 0, and the last element is at index size()-1."
+  },
+  {
+    "id": 39,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to iterate over a HashMap's entries?",
+    "options": ["A) map.entrySet()", "B) map.entries()", "C) map.pairs()", "D) map.keyValueSet()"],
+    "correct_answer": "A) map.entrySet()",
+    "explanation": "entrySet() returns a Set of Map.Entry objects, each containing a key-value pair. It is used to iterate over all entries in a HashMap."
+  },
+  {
+    "id": 40,
+    "topic": "Objects and Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: ArrayList<Integer> list = new ArrayList<>(); list.add(10); list.add(20); list.add(30); System.out.println(list.get(1));",
+    "options": ["A) 10", "B) 20", "C) 30", "D) IndexOutOfBoundsException"],
+    "correct_answer": "B) 20",
+    "explanation": "Elements are added at indices 0, 1, 2 respectively. list.get(1) returns the element at index 1, which is 20."
+  },
+  {
+    "id": 41,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nList<String> list = new ArrayList<>(Arrays.asList(\"A\",\"B\",\"C\"));\nlist.remove(\"B\");\nSystem.out.println(list);",
+    "options": ["A) [A, C]", "B) [A, B]", "C) [B, C]", "D) [A, B, C]"],
+    "correct_answer": "A) [A, C]",
+    "explanation": "remove(Object o) removes the first occurrence of the specified element. 'B' is removed, leaving [A, C]."
+  },
+  {
+    "id": 42,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between HashMap and LinkedHashMap?",
+    "options": ["A) LinkedHashMap is faster", "B) LinkedHashMap maintains insertion order", "C) HashMap allows null keys, LinkedHashMap does not", "D) LinkedHashMap is thread-safe"],
+    "correct_answer": "B) LinkedHashMap maintains insertion order",
+    "explanation": "LinkedHashMap maintains insertion order of entries using a doubly-linked list. HashMap does not guarantee any order."
+  },
+  {
+    "id": 43,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: List<Integer> list = new ArrayList<>(Arrays.asList(3,1,4,1,5)); Collections.sort(list); System.out.println(list);",
+    "options": ["A) [3, 1, 4, 1, 5]", "B) [1, 1, 3, 4, 5]", "C) [5, 4, 3, 1, 1]", "D) [1, 3, 4, 1, 5]"],
+    "correct_answer": "B) [1, 1, 3, 4, 5]",
+    "explanation": "Collections.sort() sorts in natural ascending order. The sorted list of [3,1,4,1,5] is [1,1,3,4,5]."
+  },
+  {
+    "id": 44,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly implements a stack using Java Collections?",
+    "options": ["A) Queue<Integer> stack = new LinkedList<>();", "B) Deque<Integer> stack = new ArrayDeque<>();", "C) List<Integer> stack = new ArrayList<>();", "D) Set<Integer> stack = new HashSet<>();"],
+    "correct_answer": "B) Deque<Integer> stack = new ArrayDeque<>();",
+    "explanation": "ArrayDeque is recommended for stack operations (push/pop/peek). It implements Deque which supports LIFO operations efficiently."
+  },
+  {
+    "id": 45,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: HashMap<String,Integer> map = new HashMap<>(); map.put(\"x\",5); map.put(\"x\",10); System.out.println(map.get(\"x\"));",
+    "options": ["A) 5", "B) 10", "C) 15", "D) null"],
+    "correct_answer": "B) 10",
+    "explanation": "When put() is called with an existing key, the old value is replaced. So map.get(\"x\") returns 10, the latest value."
+  },
+  {
+    "id": 46,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the time complexity of searching for an element in a HashSet?",
+    "options": ["A) O(n)", "B) O(log n)", "C) O(1) average", "D) O(n log n)"],
+    "correct_answer": "C) O(1) average",
+    "explanation": "HashSet uses a hash table internally. Average-case search is O(1). Worst case (many collisions) can be O(n)."
+  },
+  {
+    "id": 47,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: Set<Integer> set = new TreeSet<>(); set.add(5); set.add(2); set.add(8); set.add(2); System.out.println(set);",
+    "options": ["A) [5, 2, 8, 2]", "B) [2, 5, 8]", "C) [5, 2, 8]", "D) [2, 2, 5, 8]"],
+    "correct_answer": "B) [2, 5, 8]",
+    "explanation": "TreeSet stores unique elements in sorted order. Duplicate 2 is ignored, and elements are sorted: [2, 5, 8]."
+  },
+  {
+    "id": 48,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which method of Iterator is used to remove the current element during iteration?",
+    "options": ["A) delete()", "B) remove()", "C) erase()", "D) discard()"],
+    "correct_answer": "B) remove()",
+    "explanation": "The Iterator's remove() method removes the last element returned by next(). It is the safe way to remove elements during iteration."
+  },
+  {
+    "id": 49,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What exception is thrown when you modify a collection while iterating over it using an Iterator (not using Iterator's remove)?",
+    "options": ["A) IllegalStateException", "B) ConcurrentModificationException", "C) UnsupportedOperationException", "D) IndexOutOfBoundsException"],
+    "correct_answer": "B) ConcurrentModificationException",
+    "explanation": "Modifying a collection structurally while iterating (without using Iterator's remove) throws ConcurrentModificationException."
+  },
+  {
+    "id": 50,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between ArrayList and LinkedList in terms of performance?",
+    "options": ["A) ArrayList is faster for insertion at beginning", "B) LinkedList is faster for random access", "C) ArrayList is faster for random access, LinkedList is faster for insertions/deletions", "D) Both have same performance"],
+    "correct_answer": "C) ArrayList is faster for random access, LinkedList is faster for insertions/deletions",
+    "explanation": "ArrayList provides O(1) random access but O(n) insertion/deletion. LinkedList provides O(1) insertion/deletion but O(n) random access."
+  },
+  {
+    "id": 51,
+    "topic": "Objects and Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does the Collections.unmodifiableList() method return?",
+    "options": ["A) A sorted list", "B) A read-only view of the list", "C) A synchronized list", "D) A copy of the list"],
+    "correct_answer": "B) A read-only view of the list",
+    "explanation": "Collections.unmodifiableList() returns an unmodifiable view of the list. Any attempt to modify it throws UnsupportedOper

@@ -1,0 +1,416 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary goal of normalization in database design?",
+    "options": ["A) To increase data redundancy", "B) To reduce data redundancy and improve data integrity", "C) To increase the number of tables", "D) To slow down query performance"],
+    "correct_answer": "B) To reduce data redundancy and improve data integrity",
+    "explanation": "Normalization organizes data to minimize redundancy and dependency. It ensures data integrity by structuring tables logically. This reduces anomalies during insert, update, and delete operations."
+  },
+  {
+    "id": 2,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form requires that a table has no repeating groups and each column contains atomic values?",
+    "options": ["A) 2NF", "B) 3NF", "C) 1NF", "D) BCNF"],
+    "correct_answer": "C) 1NF",
+    "explanation": "First Normal Form (1NF) requires all columns to contain atomic (indivisible) values and no repeating groups. Each row must be unique. This is the foundation of normalization."
+  },
+  {
+    "id": 3,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A table is in 2NF if it is in 1NF and:",
+    "options": ["A) Has no transitive dependencies", "B) Every non-key attribute is fully functionally dependent on the entire primary key", "C) Has no multi-valued dependencies", "D) Has no partial dependencies on any candidate key"],
+    "correct_answer": "B) Every non-key attribute is fully functionally dependent on the entire primary key",
+    "explanation": "2NF eliminates partial dependencies where a non-key attribute depends on only part of a composite primary key. Every non-key attribute must depend on the whole primary key. This applies only when the primary key is composite."
+  },
+  {
+    "id": 4,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a transitive dependency?",
+    "options": ["A) A → B and B → C, so A → C", "B) A → B and A → C", "C) AB → C where C depends on both A and B", "D) A → A"],
+    "correct_answer": "A) A → B and B → C, so A → C",
+    "explanation": "A transitive dependency occurs when a non-key attribute depends on another non-key attribute. If A→B and B→C, then C is transitively dependent on A through B. 3NF eliminates such dependencies."
+  },
+  {
+    "id": 5,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates transitive dependencies?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) 4NF"],
+    "correct_answer": "C) 3NF",
+    "explanation": "Third Normal Form (3NF) requires that no non-key attribute is transitively dependent on the primary key. A table in 3NF must already be in 2NF. It removes indirect dependencies between non-key attributes."
+  },
+  {
+    "id": 6,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a functional dependency?",
+    "options": ["A) When one attribute uniquely determines another attribute", "B) When two attributes have the same value", "C) When a table has a foreign key", "D) When a column has NULL values"],
+    "correct_answer": "A) When one attribute uniquely determines another attribute",
+    "explanation": "A functional dependency X→Y means that for each value of X, there is exactly one value of Y. X is called the determinant and Y is the dependent. It is the basis for normalization theory."
+  },
+  {
+    "id": 7,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following anomalies does normalization help to prevent?",
+    "options": ["A) Syntax errors", "B) Insertion, deletion, and update anomalies", "C) Network errors", "D) Hardware failures"],
+    "correct_answer": "B) Insertion, deletion, and update anomalies",
+    "explanation": "Normalization prevents data anomalies that occur due to redundancy. Insertion anomaly prevents adding data without unrelated data; deletion anomaly causes unintended data loss; update anomaly causes inconsistency. Normalization resolves all three."
+  },
+  {
+    "id": 8,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A relation R(A, B, C, D) has the functional dependency A → B, C. Which normal form violation does this represent if A is not the primary key?",
+    "options": ["A) 1NF violation", "B) 2NF violation", "C) 3NF violation", "D) No violation"],
+    "correct_answer": "C) 3NF violation",
+    "explanation": "If A is not a superkey and B, C are non-prime attributes, then A→B,C represents a transitive dependency violating 3NF. The table must be decomposed to achieve 3NF. BCNF would also be violated."
+  },
+  {
+    "id": 9,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a candidate key?",
+    "options": ["A) Any attribute in a table", "B) A minimal superkey that uniquely identifies each row", "C) A foreign key referencing another table", "D) A key with NULL values allowed"],
+    "correct_answer": "B) A minimal superkey that uniquely identifies each row",
+    "explanation": "A candidate key is a minimal set of attributes that can uniquely identify each tuple in a relation. It must be unique and irreducible (no proper subset can also be a superkey). A table can have multiple candidate keys."
+  },
+  {
+    "id": 10,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a table Student(RollNo, Name, CourseID, CourseName), if RollNo→Name and CourseID→CourseName, what normal form is violated?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "C) 3NF",
+    "explanation": "If the primary key is (RollNo, CourseID), then CourseName depends only on CourseID (partial dependency violating 2NF). Also, transitive dependencies exist. The table violates at least 2NF due to partial dependency."
+  },
+  {
+    "id": 11,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a property of a relation in 1NF?",
+    "options": ["A) All attributes are atomic", "B) No repeating groups", "C) Multi-valued attributes are allowed", "D) Each row is unique"],
+    "correct_answer": "C) Multi-valued attributes are allowed",
+    "explanation": "1NF requires all attributes to be atomic, meaning no multi-valued or composite attributes are allowed. Each cell must contain a single value. Multi-valued attributes violate the atomicity requirement of 1NF."
+  },
+  {
+    "id": 12,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "BCNF stands for:",
+    "options": ["A) Basic Codd Normal Form", "B) Boyce-Codd Normal Form", "C) Binary Codd Normal Form", "D) Boolean Codd Normal Form"],
+    "correct_answer": "B) Boyce-Codd Normal Form",
+    "explanation": "BCNF (Boyce-Codd Normal Form) was developed by Raymond Boyce and Edgar Codd. It is a stronger version of 3NF. A relation is in BCNF if for every functional dependency X→Y, X is a superkey."
+  },
+  {
+    "id": 13,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form deals with multi-valued dependencies?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) 4NF"],
+    "correct_answer": "D) 4NF",
+    "explanation": "Fourth Normal Form (4NF) deals with multi-valued dependencies. A relation is in 4NF if it is in BCNF and has no non-trivial multi-valued dependencies. It prevents certain types of redundancy not addressed by BCNF."
+  },
+  {
+    "id": 14,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a partial dependency?",
+    "options": ["A) When a non-key attribute depends on the entire composite primary key", "B) When a non-key attribute depends on only part of a composite primary key", "C) When a key attribute depends on a non-key attribute", "D) When two tables share a common attribute"],
+    "correct_answer": "B) When a non-key attribute depends on only part of a composite primary key",
+    "explanation": "A partial dependency occurs when a non-key attribute is functionally dependent on a proper subset of the composite primary key. This violates 2NF. To fix it, the table must be decomposed."
+  },
+  {
+    "id": 15,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A table with a single-attribute primary key can have which type of dependency issue?",
+    "options": ["A) Partial dependency", "B) Transitive dependency", "C) Both partial and transitive dependency", "D) Neither partial nor transitive dependency"],
+    "correct_answer": "B) Transitive dependency",
+    "explanation": "Partial dependencies only occur with composite primary keys. A single-attribute primary key cannot have partial dependencies. However, transitive dependencies can still exist and must be resolved for 3NF compliance."
+  },
+  {
+    "id": 16,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes denormalization?",
+    "options": ["A) The process of converting a table to higher normal forms", "B) The process of intentionally introducing redundancy to improve query performance", "C) The process of removing all foreign keys", "D) The process of adding more constraints to a table"],
+    "correct_answer": "B) The process of intentionally introducing redundancy to improve query performance",
+    "explanation": "Denormalization is the reverse of normalization where redundancy is deliberately added to improve read performance. It reduces the number of joins needed for queries. It trades storage efficiency for query speed."
+  },
+  {
+    "id": 17,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the relation Employee(EmpID, EmpName, DeptID, DeptName), if EmpID is the primary key and DeptID→DeptName, what is the problem?",
+    "options": ["A) Partial dependency", "B) Transitive dependency", "C) Multi-valued dependency", "D) No problem exists"],
+    "correct_answer": "B) Transitive dependency",
+    "explanation": "EmpID→DeptID and DeptID→DeptName creates a transitive dependency: EmpID→DeptName through DeptID. This violates 3NF. The solution is to create a separate Department table."
+  },
+  {
+    "id": 18,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a superkey?",
+    "options": ["A) A key that is a subset of a candidate key", "B) Any set of attributes that uniquely identifies a tuple", "C) A key that references another table", "D) A key with exactly one attribute"],
+    "correct_answer": "B) Any set of attributes that uniquely identifies a tuple",
+    "explanation": "A superkey is any set of attributes that can uniquely identify each row in a relation. It may contain extra attributes beyond what is necessary. A candidate key is a minimal superkey."
+  },
+  {
+    "id": 19,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a lossless decomposition?",
+    "options": ["A) A decomposition where some data is lost after joining", "B) A decomposition where the original relation can be reconstructed by natural join", "C) A decomposition that increases redundancy", "D) A decomposition that removes all foreign keys"],
+    "correct_answer": "B) A decomposition where the original relation can be reconstructed by natural join",
+    "explanation": "A lossless decomposition ensures that joining the decomposed relations produces exactly the original relation without spurious tuples. It is a critical requirement for normalization. Lossy decomposition generates extra tuples on join."
+  },
+  {
+    "id": 20,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form is considered the minimum acceptable level for a well-designed relational database?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "C) 3NF",
+    "explanation": "3NF is generally considered the minimum acceptable level for a well-designed relational database. It eliminates both partial and transitive dependencies. Most practical database designs aim for at least 3NF."
+  },
+  {
+    "id": 21,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A table Order(OrderID, ProductID, ProductName, Quantity) has primary key (OrderID, ProductID). ProductName depends only on ProductID. Which normal form is violated?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "B) 2NF",
+    "explanation": "ProductName depends only on ProductID, which is part of the composite primary key. This is a partial dependency, violating 2NF. To fix this, create a separate Product table with ProductID as the primary key."
+  },
+  {
+    "id": 22,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'atomic value' mean in the context of 1NF?",
+    "options": ["A) A value that cannot be divided further", "B) A value that is very small", "C) A value that is a primary key", "D) A value that is numeric"],
+    "correct_answer": "A) A value that cannot be divided further",
+    "explanation": "An atomic value is indivisible — it cannot be broken into smaller meaningful parts. For example, a phone number stored as a single value is atomic, but a list of phone numbers in one cell is not. 1NF requires all values to be atomic."
+  },
+  {
+    "id": 23,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following relations is in 1NF?",
+    "options": ["A) Student(ID, Name, {Phone1, Phone2})", "B) Student(ID, Name, Phone) where each row has one phone number", "C) Student(ID, Name, Courses) where Courses is a list", "D) Student(ID, Name, Address) where Address contains city and zip"],
+    "correct_answer": "B) Student(ID, Name, Phone) where each row has one phone number",
+    "explanation": "Option B has atomic values with one phone number per row, satisfying 1NF. Options A and C have multi-valued attributes. Option D has a composite attribute (Address). Only B meets 1NF requirements."
+  },
+  {
+    "id": 24,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In normalization, what is a 'prime attribute'?",
+    "options": ["A) An attribute that is part of any candidate key", "B) An attribute with the highest value", "C) An attribute that is a foreign key", "D) An attribute that is never NULL"],
+    "correct_answer": "A) An attribute that is part of any candidate key",
+    "explanation": "A prime attribute is any attribute that is a member of at least one candidate key. Non-prime attributes are those not part of any candidate key. This distinction is important for defining 2NF and 3NF."
+  },
+  {
+    "id": 25,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about BCNF is correct?",
+    "options": ["A) Every relation in BCNF is also in 3NF", "B) Every relation in 3NF is also in BCNF", "C) BCNF is weaker than 3NF", "D) BCNF allows transitive dependencies"],
+    "correct_answer": "A) Every relation in BCNF is also in 3NF",
+    "explanation": "BCNF is a stronger form than 3NF. Every relation in BCNF satisfies all 3NF requirements, but not every 3NF relation is in BCNF. BCNF requires every determinant to be a superkey."
+  },
+  {
+    "id": 26,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an update anomaly?",
+    "options": ["A) When inserting a new record requires entering NULL values", "B) When updating one record requires updating multiple records to maintain consistency", "C) When deleting a record causes loss of other useful data", "D) When a query returns incorrect results"],
+    "correct_answer": "B) When updating one record requires updating multiple records to maintain consistency",
+    "explanation": "An update anomaly occurs when the same data is stored in multiple places, requiring multiple updates to maintain consistency. If one instance is updated and others are not, data becomes inconsistent. Normalization eliminates this by removing redundancy."
+  },
+  {
+    "id": 27,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an insertion anomaly?",
+    "options": ["A) When you cannot insert a record without providing unrelated data", "B) When inserting causes duplicate records", "C) When a record is inserted with wrong data type", "D) When insertion violates a foreign key constraint"],
+    "correct_answer": "A) When you cannot insert a record without providing unrelated data",
+    "explanation": "An insertion anomaly occurs when you cannot add data about one entity without adding data about another entity. For example, you cannot add a new course unless a student is enrolled. Normalization separates entities into different tables."
+  },
+  {
+    "id": 28,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a deletion anomaly?",
+    "options": ["A) When deleting a record causes loss of other useful information", "B) When a DELETE statement fails due to a constraint", "C) When deleting creates duplicate records", "D) When a record cannot be deleted from a table"],
+    "correct_answer": "A) When deleting a record causes loss of other useful information",
+    "explanation": "A deletion anomaly occurs when deleting one piece of information unintentionally removes other useful data. For example, deleting the last student enrolled in a course also deletes the course information. Normalization prevents this by separating concerns."
+  },
+  {
+    "id": 29,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many normal forms are commonly discussed in database theory?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "D) 6",
+    "explanation": "The commonly discussed normal forms are 1NF, 2NF, 3NF, BCNF, 4NF, and 5NF (also called Project-Join Normal Form or PJNF). Some also include 6NF and Domain-Key Normal Form (DKNF). The first six are most commonly tested."
+  },
+  {
+    "id": 30,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relation R(A, B, C) with functional dependencies A→B and B→C, what is the closure of {A}?",
+    "options": ["A) {A}", "B) {A, B}", "C) {A, B, C}", "D) {B, C}"],
+    "correct_answer": "C) {A, B, C}",
+    "explanation": "Starting with {A}: A→B adds B, giving {A,B}. Then B→C adds C, giving {A,B,C}. The closure of A is {A,B,C}, meaning A is a candidate key for R. Attribute closure is used to find candidate keys."
+  },
+  {
+    "id": 31,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a relation in 3NF?",
+    "options": ["A) It may have partial dependencies", "B) It must be in 2NF and have no transitive dependencies", "C) It allows multi-valued dependencies", "D) It does not need to be in 1NF"],
+    "correct_answer": "B) It must be in 2NF and have no transitive dependencies",
+    "explanation": "3NF requires the relation to first be in 2NF (no partial dependencies) and additionally have no transitive dependencies. Each non-key attribute must depend directly on the primary key. This ensures data integrity."
+  },
+  {
+    "id": 32,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The relation R(StudentID, SubjectID, Marks, TeacherID, TeacherName) has primary key (StudentID, SubjectID). If TeacherID→TeacherName, which normal form is violated?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) 4NF"],
+    "correct_answer": "C) 3NF",
+    "explanation": "TeacherName depends on TeacherID (a non-key attribute), creating a transitive dependency: (StudentID,SubjectID)→TeacherID→TeacherName. This violates 3NF. A separate Teacher table should be created."
+  },
+  {
+    "id": 33,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct order of normal forms from weakest to strongest?",
+    "options": ["A) 1NF → 2NF → 3NF → BCNF → 4NF → 5NF", "B) BCNF → 3NF → 2NF → 1NF", "C) 2NF → 1NF → 3NF → BCNF", "D) 1NF → 3NF → 2NF → BCNF"],
+    "correct_answer": "A) 1NF → 2NF → 3NF → BCNF → 4NF → 5NF",
+    "explanation": "Normal forms are hierarchical: each higher form is a subset of the lower form. 1NF is the weakest and 5NF is the strongest among common forms. Every relation in a higher NF also satisfies all lower NFs."
+  },
+  {
+    "id": 34,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of a well-normalized database?",
+    "options": ["A) High data redundancy", "B) Fewer tables with more columns", "C) Minimal data redundancy and better data integrity", "D) Faster write operations always"],
+    "correct_answer": "C) Minimal data redundancy and better data integrity",
+    "explanation": "A well-normalized database has minimal redundancy, which reduces storage and prevents anomalies. It ensures data integrity by storing each fact in exactly one place. However, it may require more joins for complex queries."
+  },
+  {
+    "id": 35,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the context of normalization, what is a 'trivial functional dependency'?",
+    "options": ["A) X→Y where Y is a subset of X", "B) X→Y where X and Y have no common attributes", "C) X→Y where X is a superkey", "D) X→Y where Y is a primary key"],
+    "correct_answer": "A) X→Y where Y is a subset of X",
+    "explanation": "A trivial functional dependency is one where Y is a subset of X (e.g., {A,B}→A). It is always true and holds in every relation. Non-trivial dependencies are the ones that matter for normalization analysis."
+  },
+  {
+    "id": 36,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of decomposition in normalization?",
+    "options": ["A) To combine multiple tables into one", "B) To split a relation into smaller relations to eliminate anomalies", "C) To add more attributes to a table", "D) To create indexes on tables"],
+    "correct_answer": "B) To split a relation into smaller relations to eliminate anomalies",
+    "explanation": "Decomposition breaks a relation into two or more smaller relations to eliminate redundancy and anomalies. The decomposition should be lossless and dependency-preserving. It is the primary technique used in normalization."
+  },
+  {
+    "id": 37,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of data anomaly?",
+    "options": ["A) Insertion anomaly", "B) Deletion anomaly", "C) Update anomaly", "D) Selection anomaly"],
+    "correct_answer": "D) Selection anomaly",
+    "explanation": "The three types of data anomalies in unnormalized databases are insertion, deletion, and update anomalies. There is no such thing as a 'selection anomaly' in normalization theory. Normalization prevents the first three types."
+  },
+  {
+    "id": 38,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A relation R(A, B, C) where A is the primary key and A→B, A→C. What is the highest normal form of R?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "D) BCNF",
+    "explanation": "Since A is the primary key (a superkey), all functional dependencies have A as the determinant. There are no partial or transitive dependencies. The relation satisfies BCNF since every determinant is a superkey."
+  },
+  {
+    "id": 39,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the relationship between 2NF and partial dependencies?",
+    "options": ["A) 2NF allows partial dependencies", "B) 2NF eliminates partial dependencies", "C) 2NF introduces partial dependencies", "D) 2NF has nothing to do with partial dependencies"],
+    "correct_answer": "B) 2NF eliminates partial dependencies",
+    "explanation": "Second Normal Form (2NF) specifically addresses and eliminates partial dependencies. A relation is in 2NF if it is in 1NF and every non-prime attribute is fully functionally dependent on the entire primary key. Partial dependencies are removed by decomposition."
+  },
+  {
+    "id": 40,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'dependency-preserving decomposition'?",
+    "options": ["A) A decomposition where all original functional dependencies can be checked in the decomposed relations", "B) A decomposition that preserves all rows of the original table", "C) A decomposition that keeps all attributes in one table", "D) A decomposition that adds new functional dependencies"],
+    "correct_answer": "A) A decomposition where all original functional dependencies can be checked in the decomposed relations",
+    "explanation": "A dependency-preserving decomposition ensures that all original functional dependencies can be enforced without joining the decomposed relations. This is important for maintaining data integrity. BCNF decomposition may not always be dependency-preserving."
+  },
+  {
+    "id": 41,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider relation R(A, B, C, D, E) with FDs: AB→C, C→D, D→E. What is the candidate key of R?",
+    "options": ["A) AB", "B) ABC", "C) ABD", "D) ABCDE"],
+    "correct_answer": "A) AB",
+    "explanation": "Closure of AB: AB→C (gives C), C→D (gives D), D→E (gives E). So AB+ = {A,B,C,D,E} = all attributes. AB is minimal since neither A nor B alone can determine all attributes. Therefore AB is the candidate key."
+  },
+  {
+    "id": 42,
+    "topic": "Database Design Using Normalization",
+    "difficulty": "medium",

@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the idiom 'Break the ice' mean?",
+    "options": [
+      "A) To start a conversation in a social setting",
+      "B) To destroy something made of ice",
+      "C) To cause a fight",
+      "D) To end a relationship"
+    ],
+    "correct_answer": "A) To start a conversation in a social setting",
+    "explanation": "'Break the ice' means to do or say something to relieve tension or awkwardness, especially in a new social situation."
+  },
+  {
+    "id": 2,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Hit the nail on the head' mean?",
+    "options": [
+      "A) To hammer something",
+      "B) To describe exactly what is causing a situation or problem",
+      "C) To make a mistake",
+      "D) To injure oneself"
+    ],
+    "correct_answer": "B) To describe exactly what is causing a situation or problem",
+    "explanation": "'Hit the nail on the head' means to be exactly right about something or to describe a situation perfectly."
+  },
+  {
+    "id": 3,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Bite the bullet' mean?",
+    "options": [
+      "A) To eat something hard",
+      "B) To endure a painful or difficult situation",
+      "C) To shoot someone",
+      "D) To be very hungry"
+    ],
+    "correct_answer": "B) To endure a painful or difficult situation",
+    "explanation": "'Bite the bullet' means to endure a painful or difficult situation stoically, accepting it as unavoidable."
+  },
+  {
+    "id": 4,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Spill the beans' mean?",
+    "options": [
+      "A) To cook beans",
+      "B) To accidentally drop food",
+      "C) To reveal secret information",
+      "D) To waste resources"
+    ],
+    "correct_answer": "C) To reveal secret information",
+    "explanation": "'Spill the beans' means to disclose secret or confidential information, often accidentally."
+  },
+  {
+    "id": 5,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Under the weather' mean?",
+    "options": [
+      "A) To be outdoors",
+      "B) To feel ill or unwell",
+      "C) To be caught in a storm",
+      "D) To be confused"
+    ],
+    "correct_answer": "B) To feel ill or unwell",
+    "explanation": "'Under the weather' is an idiom meaning to feel sick or not in good health."
+  },
+  {
+    "id": 6,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Burn the midnight oil' mean?",
+    "options": [
+      "A) To waste fuel",
+      "B) To work or study late into the night",
+      "C) To start a fire",
+      "D) To be careless"
+    ],
+    "correct_answer": "B) To work or study late into the night",
+    "explanation": "'Burn the midnight oil' means to stay up late working or studying, referring to the old practice of using oil lamps."
+  },
+  {
+    "id": 7,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Cost an arm and a leg' mean?",
+    "options": [
+      "A) To cause physical injury",
+      "B) To be very expensive",
+      "C) To be a good deal",
+      "D) To require hard work"
+    ],
+    "correct_answer": "B) To be very expensive",
+    "explanation": "'Cost an arm and a leg' means something is extremely expensive or costs a lot of money."
+  },
+  {
+    "id": 8,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Let the cat out of the bag' mean?",
+    "options": [
+      "A) To release a pet",
+      "B) To accidentally reveal a secret",
+      "C) To make a mess",
+      "D) To cause confusion"
+    ],
+    "correct_answer": "B) To accidentally reveal a secret",
+    "explanation": "'Let the cat out of the bag' means to accidentally disclose a secret or surprise."
+  },
+  {
+    "id": 9,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Piece of cake' mean?",
+    "options": [
+      "A) A slice of dessert",
+      "B) Something very easy to do",
+      "C) A reward for hard work",
+      "D) A small portion of something"
+    ],
+    "correct_answer": "B) Something very easy to do",
+    "explanation": "'Piece of cake' is used to describe a task that is very easy or requires little effort."
+  },
+  {
+    "id": 10,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Once in a blue moon' mean?",
+    "options": [
+      "A) During a lunar eclipse",
+      "B) Very rarely",
+      "C) Every month",
+      "D) During nighttime only"
+    ],
+    "correct_answer": "B) Very rarely",
+    "explanation": "'Once in a blue moon' means something that happens very rarely or infrequently."
+  },
+  {
+    "id": 11,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Hit the sack' mean?",
+    "options": [
+      "A) To punch a bag",
+      "B) To go to bed",
+      "C) To fire someone",
+      "D) To pack luggage"
+    ],
+    "correct_answer": "B) To go to bed",
+    "explanation": "'Hit the sack' is an informal idiom meaning to go to sleep or go to bed."
+  },
+  {
+    "id": 12,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Bite off more than you can chew' mean?",
+    "options": [
+      "A) To eat too much food",
+      "B) To take on more responsibility than you can handle",
+      "C) To be greedy about food",
+      "D) To speak with your mouth full"
+    ],
+    "correct_answer": "B) To take on more responsibility than you can handle",
+    "explanation": "'Bite off more than you can chew' means to attempt to do more than one is capable of handling."
+  },
+  {
+    "id": 13,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'The ball is in your court' mean?",
+    "options": [
+      "A) A sports term",
+      "B) It is your turn to take action or make a decision",
+      "C) You are playing well",
+      "D) You have won the game"
+    ],
+    "correct_answer": "B) It is your turn to take action or make a decision",
+    "explanation": "'The ball is in your court' means it is now someone else's responsibility to take the next step or make a decision."
+  },
+  {
+    "id": 14,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Barking up the wrong tree' mean?",
+    "options": [
+      "A) A dog chasing a cat",
+      "B) Looking in the wrong place or blaming the wrong person",
+      "C) Making too much noise",
+      "D) Being lost in a forest"
+    ],
+    "correct_answer": "B) Looking in the wrong place or blaming the wrong person",
+    "explanation": "'Barking up the wrong tree' means to pursue a mistaken or misguided line of thought or action."
+  },
+  {
+    "id": 15,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Kick the bucket' mean?",
+    "options": [
+      "A) To kick a pail",
+      "B) To die",
+      "C) To give up on something",
+      "D) To start a new project"
+    ],
+    "correct_answer": "B) To die",
+    "explanation": "'Kick the bucket' is an informal idiom meaning to die."
+  },
+  {
+    "id": 16,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Pull someone's leg' mean?",
+    "options": [
+      "A) To physically pull someone",
+      "B) To tease or joke with someone",
+      "C) To help someone walk",
+      "D) To trip someone"
+    ],
+    "correct_answer": "B) To tease or joke with someone",
+    "explanation": "'Pull someone's leg' means to tease or joke with someone, often by telling them something untrue."
+  },
+  {
+    "id": 17,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Sit on the fence' mean?",
+    "options": [
+      "A) To literally sit on a fence",
+      "B) To avoid taking sides in a dispute",
+      "C) To be lazy",
+      "D) To be indoors"
+    ],
+    "correct_answer": "B) To avoid taking sides in a dispute",
+    "explanation": "'Sit on the fence' means to remain neutral and avoid committing to any particular side or opinion."
+  },
+  {
+    "id": 18,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Steal someone's thunder' mean?",
+    "options": [
+      "A) To cause a storm",
+      "B) To take credit or attention away from someone else",
+      "C) To be very loud",
+      "D) To win a competition unfairly"
+    ],
+    "correct_answer": "B) To take credit or attention away from someone else",
+    "explanation": "'Steal someone's thunder' means to upstage someone or take the attention and credit that was meant for them."
+  },
+  {
+    "id": 19,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'A blessing in disguise' mean?",
+    "options": [
+      "A) A hidden gift",
+      "B) Something that seems bad but turns out to be good",
+      "C) A religious ceremony",
+      "D) A costume party"
+    ],
+    "correct_answer": "B) Something that seems bad but turns out to be good",
+    "explanation": "'A blessing in disguise' refers to something that initially appears negative but ultimately has a positive outcome."
+  },
+  {
+    "id": 20,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Add fuel to the fire' mean?",
+    "options": [
+      "A) To start a campfire",
+      "B) To worsen an already bad situation",
+      "C) To provide energy",
+      "D) To help someone in need"
+    ],
+    "correct_answer": "B) To worsen an already bad situation",
+    "explanation": "'Add fuel to the fire' means to make a bad situation even worse by doing or saying something that intensifies it."
+  },
+  {
+    "id": 21,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Beat around the bush' mean?",
+    "options": [
+      "A) To hit plants with a stick",
+      "B) To avoid talking about the main topic",
+      "C) To search for something in a garden",
+      "D) To be very active outdoors"
+    ],
+    "correct_answer": "B) To avoid talking about the main topic",
+    "explanation": "'Beat around the bush' means to avoid coming to the main point of a discussion by talking about irrelevant things."
+  },
+  {
+    "id": 22,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Bite the dust' mean?",
+    "options": [
+      "A) To eat dirt",
+      "B) To fail or be defeated",
+      "C) To clean the floor",
+      "D) To fall down"
+    ],
+    "correct_answer": "B) To fail or be defeated",
+    "explanation": "'Bite the dust' means to fail, be defeated, or die, often used informally."
+  },
+  {
+    "id": 23,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Cut corners' mean?",
+    "options": [
+      "A) To trim edges of paper",
+      "B) To do something in the easiest or cheapest way, often sacrificing quality",
+      "C) To take a shortcut while driving",
+      "D) To be precise in work"
+    ],
+    "correct_answer": "B) To do something in the easiest or cheapest way, often sacrificing quality",
+    "explanation": "'Cut corners' means to do something in a way that saves time or money but reduces quality or safety."
+  },
+  {
+    "id": 24,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Don't judge a book by its cover' mean?",
+    "options": [
+      "A) Books should have good covers",
+      "B) Don't judge something or someone by their appearance alone",
+      "C) Reading is important",
+      "D) Always buy books with good covers"
+    ],
+    "correct_answer": "B) Don't judge something or someone by their appearance alone",
+    "explanation": "This idiom means you should not form an opinion about something or someone based solely on outward appearance."
+  },
+  {
+    "id": 25,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Every cloud has a silver lining' mean?",
+    "options": [
+      "A) Clouds are made of silver",
+      "B) Every difficult situation has a positive aspect",
+      "C) Weather is always changing",
+      "D) Silver is found in nature"
+    ],
+    "correct_answer": "B) Every difficult situation has a positive aspect",
+    "explanation": "'Every cloud has a silver lining' means that even in difficult or unpleasant situations, there is always something positive to be found."
+  },
+  {
+    "id": 26,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Get a taste of your own medicine' mean?",
+    "options": [
+      "A) To take prescribed medication",
+      "B) To experience the same unpleasant treatment you give to others",
+      "C) To enjoy good food",
+      "D) To recover from illness"
+    ],
+    "correct_answer": "B) To experience the same unpleasant treatment you give to others",
+    "explanation": "'Get a taste of your own medicine' means to suffer the same unpleasant experience that you have caused others to suffer."
+  },
+  {
+    "id": 27,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Give the benefit of the doubt' mean?",
+    "options": [
+      "A) To question someone's honesty",
+      "B) To trust someone despite uncertainty",
+      "C) To give financial benefits",
+      "D) To doubt everything"
+    ],
+    "correct_answer": "B) To trust someone despite uncertainty",
+    "explanation": "'Give the benefit of the doubt' means to believe someone's statement or good intentions even when there is some reason to be suspicious."
+  },
+  {
+    "id": 28,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Go back to the drawing board' mean?",
+    "options": [
+      "A) To return to art class",
+      "B) To start over from the beginning",
+      "C) To make a drawing",
+      "D) To plan a building"
+    ],
+    "correct_answer": "B) To start over from the beginning",
+    "explanation": "'Go back to the drawing board' means to start something over again because the previous attempt failed."
+  },
+  {
+    "id": 29,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Hit the books' mean?",
+    "options": [
+      "A) To throw books",
+      "B) To study",
+      "C) To go to a library",
+      "D) To damage books"
+    ],
+    "correct_answer": "B) To study",
+    "explanation": "'Hit the books' is an informal idiom meaning to study, especially intensively."
+  },
+  {
+    "id": 30,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'In the heat of the moment' mean?",
+    "options": [
+      "A) During hot weather",
+      "B) While feeling very emotional or excited, without thinking",
+      "C) During a fire",
+      "D) In a warm place"
+    ],
+    "correct_answer": "B) While feeling very emotional or excited, without thinking",
+    "explanation": "'In the heat of the moment' means doing or saying something without thinking because of strong emotions at that time."
+  },
+  {
+    "id": 31,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Jump on the bandwagon' mean?",
+    "options": [
+      "A) To join a music band",
+      "B) To follow a trend or join a popular activity",
+      "C) To jump over obstacles",
+      "D) To travel by wagon"
+    ],
+    "correct_answer": "B) To follow a trend or join a popular activity",
+    "explanation": "'Jump on the bandwagon' means to join others in doing something that has become fashionable or popular."
+  },
+  {
+    "id": 32,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Keep your chin up' mean?",
+    "options": [
+      "A) To maintain good posture",
+      "B) To remain cheerful in a difficult situation",
+      "C) To look upward",
+      "D) To be proud"
+    ],
+    "correct_answer": "B) To remain cheerful in a difficult situation",
+    "explanation": "'Keep your chin up' is an expression of encouragement, meaning to stay positive and not give up during hard times."
+  },
+  {
+    "id": 33,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Kill two birds with one stone' mean?",
+    "options": [
+      "A) To harm animals",
+      "B) To accomplish two things with a single action",
+      "C) To be very efficient at hunting",
+      "D) To solve a problem violently"
+    ],
+    "correct_answer": "B) To accomplish two things with a single action",
+    "explanation": "'Kill two birds with one stone' means to solve two problems or accomplish two goals with a single action."
+  },
+  {
+    "id": 34,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Let sleeping dogs lie' mean?",
+    "options": [
+      "A) To let dogs rest",
+      "B) To avoid bringing up old problems or conflicts",
+      "C) To be kind to animals",
+      "D) To ignore a dangerous situation"
+    ],
+    "correct_answer": "B) To avoid bringing up old problems or conflicts",
+    "explanation": "'Let sleeping dogs lie' means to avoid bringing up old issues or problems that could cause trouble if disturbed."
+  },
+  {
+    "id": 35,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Miss the boat' mean?",
+    "options": [
+      "A) To arrive late for a ship",
+      "B) To miss an opportunity",
+      "C) To fail to understand something",
+      "D) To be left behind"
+    ],
+    "correct_answer": "B) To miss an opportunity",
+    "explanation": "'Miss the boat' means to miss an opportunity or to be too late to take advantage of something."
+  },
+  {
+    "id": 36,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'No pain, no gain' mean?",
+    "options": [
+      "A) Pain is unnecessary",
+      "B) You must work hard and suffer to achieve success",
+      "C) Avoid painful situations",
+      "D) Gain is always painful"
+    ],
+    "correct_answer": "B) You must work hard and suffer to achieve success",
+    "explanation": "'No pain, no gain' means that effort and hard work, even if uncomfortable, are necessary to achieve success."
+  },
+  {
+    "id": 37,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'On the ball' mean?",
+    "options": [
+      "A) Standing on a ball",
+      "B) Alert, competent, and efficient",
+      "C) Playing a sport",
+      "D) Being round"
+    ],
+    "correct_answer": "B) Alert, competent, and efficient",
+    "explanation": "'On the ball' means to be alert, quick to understand, and efficient in one's work or actions."
+  },
+  {
+    "id": 38,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Put your foot in your mouth' mean?",
+    "options": [
+      "A) To be flexible",
+      "B) To say something embarrassing or inappropriate",
+      "C) To be clumsy",
+      "D) To eat with your feet"
+    ],
+    "correct_answer": "B) To say something embarrassing or inappropriate",
+    "explanation": "'Put your foot in your mouth' means to say something tactless, embarrassing, or inappropriate accidentally."
+  },
+  {
+    "id": 39,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'See eye to eye' mean?",
+    "options": [
+      "A) To have good eyesight",
+      "B) To agree with someone",
+      "C) To look at someone directly",
+      "D) To be the same height"
+    ],
+    "correct_answer": "B) To agree with someone",
+    "explanation": "'See eye to eye' means to agree with someone or share the same opinion on a matter."
+  },
+  {
+    "id": 40,
+    "topic": "Idioms and Phrases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'Speak of the devil' mean?",
+    "options": [
+      "A) To talk about evil things",
+      "B) Said when someone appears just after being mentioned",
+      "C) To curse someone",
+      "D) To be superstitious"
+    ],
+    "correct_answer": "B) Said when someone appears just after being mentioned",
+    "explanation": "'Speak of the devil' is said when someone you were just talking about suddenly appears or contacts you."
+  },
+  {
+    "id": 41,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does the idiom 'Burn one's bridges' mean?",
+    "options": [
+      "A) To set fire to infrastructure",
+      "B) To do something that makes it impossible to return to a previous situation",
+      "C) To destroy relationships permanently",
+      "D) Both B and C"
+    ],
+    "correct_answer": "D) Both B and C",
+    "explanation": "'Burn one's bridges' means to take an action that permanently destroys a relationship or makes it impossible to return to a previous state."
+  },
+  {
+    "id": 42,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Caught between a rock and a hard place' mean?",
+    "options": [
+      "A) To be trapped physically",
+      "B) To be in a difficult situation with no good options",
+      "C) To be stuck in a cave",
+      "D) To face geological challenges"
+    ],
+    "correct_answer": "B) To be in a difficult situation with no good options",
+    "explanation": "'Caught between a rock and a hard place' means to be in a dilemma where all available choices are equally unpleasant."
+  },
+  {
+    "id": 43,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Cry wolf' mean?",
+    "options": [
+      "A) To weep loudly",
+      "B) To raise a false alarm repeatedly",
+      "C) To imitate a wolf's howl",
+      "D) To be afraid of wolves"
+    ],
+    "correct_answer": "B) To raise a false alarm repeatedly",
+    "explanation": "'Cry wolf' means to raise false alarms so often that people stop believing you when a real emergency occurs."
+  },
+  {
+    "id": 44,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Cut the mustard' mean?",
+    "options": [
+      "A) To slice condiments",
+      "B) To meet the required standard",
+      "C) To cook well",
+      "D) To be sharp with a knife"
+    ],
+    "correct_answer": "B) To meet the required standard",
+    "explanation": "'Cut the mustard' means to reach the required standard or to be good enough for a particular task."
+  },
+  {
+    "id": 45,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Devil's advocate' mean?",
+    "options": [
+      "A) A lawyer who defends criminals",
+      "B) Someone who argues against a position to test its validity",
+      "C) A person who supports evil",
+      "D) An aggressive debater"
+    ],
+    "correct_answer": "B) Someone who argues against a position to test its validity",
+    "explanation": "'Devil's advocate' refers to someone who takes a contrary position for the sake of argument or to test the strength of an idea."
+  },
+  {
+    "id": 46,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Don't put all your eggs in one basket' mean?",
+    "options": [
+      "A) Carry eggs carefully",
+      "B) Don't risk everything on a single venture",
+      "C) Distribute food evenly",
+      "D) Be careful while cooking"
+    ],
+    "correct_answer": "B) Don't risk everything on a single venture",
+    "explanation": "'Don't put all your eggs in one basket' advises against concentrating all resources or hopes in one place, as failure would be total."
+  },
+  {
+    "id": 47,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Elephant in the room' mean?",
+    "options": [
+      "A) A large animal in a building",
+      "B) An obvious problem that everyone ignores",
+      "C) Something very large and noticeable",
+      "D) A topic that is frequently discussed"
+    ],
+    "correct_answer": "B) An obvious problem that everyone ignores",
+    "explanation": "'Elephant in the room' refers to an obvious problem or controversial issue that people avoid discussing despite its significance."
+  },
+  {
+    "id": 48,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Face the music' mean?",
+    "options": [
+      "A) To listen to music",
+      "B) To accept the consequences of one's actions",
+      "C) To perform on stage",
+      "D) To confront a musician"
+    ],
+    "correct_answer": "B) To accept the consequences of one's actions",
+    "explanation": "'Face the music' means to accept and deal with the unpleasant consequences of one's actions."
+  },
+  {
+    "id": 49,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Fly in the ointment' mean?",
+    "options": [
+      "A) An insect in medicine",
+      "B) A small problem that spoils an otherwise good situation",
+      "C) A minor irritation",
+      "D) Both B and C"
+    ],
+    "correct_answer": "D) Both B and C",
+    "explanation": "'Fly in the ointment' refers to a small but significant problem or flaw that spoils an otherwise satisfactory situation."
+  },
+  {
+    "id": 50,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Get out of hand' mean?",
+    "options": [
+      "A) To escape from someone's grip",
+      "B) To become out of control",
+      "C) To finish a task",
+      "D) To leave a place quickly"
+    ],
+    "correct_answer": "B) To become out of control",
+    "explanation": "'Get out of hand' means to become uncontrollable or to go beyond what is acceptable."
+  },
+  {
+    "id": 51,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Give someone the cold shoulder' mean?",
+    "options": [
+      "A) To offer someone a cold drink",
+      "B) To deliberately ignore or be unfriendly to someone",
+      "C) To give someone a massage",
+      "D) To be physically cold"
+    ],
+    "correct_answer": "B) To deliberately ignore or be unfriendly to someone",
+    "explanation": "'Give someone the cold shoulder' means to deliberately ignore or treat someone in an unfriendly manner."
+  },
+  {
+    "id": 52,
+    "topic": "Idioms and Phrases",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What does 'Go the extra mile' mean?",
+    "options": [
+      "A) To travel a long distance",
+      "B) To make more effort than is required",
+      "C) To run a marathon",
+      "D) To exceed speed limits"
+    ],
+    "correct_answer": "B) To make more effort than is required",
+    "explanation": "'Go the extra mile' means to put in more effort than what is expected or required to achieve a goal."
+  }
+]

@@ -1,0 +1,491 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database model, which component is responsible for storing and managing the data?",
+    "options": ["A) Client", "B) Server", "C) Browser", "D) Router"],
+    "correct_answer": "B) Server",
+    "explanation": "In the client-server model, the server hosts and manages the database. The client sends requests, and the server processes them and returns results."
+  },
+  {
+    "id": 2,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'client' in a client-server database architecture?",
+    "options": ["A) A machine that stores all data", "B) A machine that requests services from the server", "C) A machine that processes all queries internally", "D) A machine that acts as both sender and receiver"],
+    "correct_answer": "B) A machine that requests services from the server",
+    "explanation": "A client is an application or machine that sends requests to the server for data or services. The server fulfills these requests."
+  },
+  {
+    "id": 3,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is most commonly used for communication between a client and a database server over a network?",
+    "options": ["A) FTP", "B) SMTP", "C) TCP/IP", "D) HTTP only"],
+    "correct_answer": "C) TCP/IP",
+    "explanation": "TCP/IP is the standard communication protocol used for data transmission between clients and servers in a network-based database system."
+  },
+  {
+    "id": 4,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a two-tier client-server architecture, which two components are directly involved?",
+    "options": ["A) Client and Middleware", "B) Client and Server", "C) Server and Database", "D) Middleware and Database"],
+    "correct_answer": "B) Client and Server",
+    "explanation": "A two-tier architecture consists of a client that directly communicates with the server (database). There is no intermediate layer."
+  },
+  {
+    "id": 5,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary advantage of a client-server database over a file-server database?",
+    "options": ["A) Lower cost", "B) Reduced network traffic", "C) No need for a network", "D) Simpler design"],
+    "correct_answer": "B) Reduced network traffic",
+    "explanation": "In a client-server model, only query results are sent over the network, unlike file-server models where entire files are transferred, reducing network traffic significantly."
+  },
+  {
+    "id": 6,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a popular client-server database management system?",
+    "options": ["A) Microsoft Excel", "B) MySQL", "C) Notepad", "D) Windows Explorer"],
+    "correct_answer": "B) MySQL",
+    "explanation": "MySQL is a widely used client-server DBMS where clients connect to the MySQL server to perform database operations."
+  },
+  {
+    "id": 7,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database system, SQL queries are typically executed on which component?",
+    "options": ["A) Client machine", "B) Network switch", "C) Database server", "D) Web browser"],
+    "correct_answer": "C) Database server",
+    "explanation": "SQL queries are sent from the client to the server, where they are processed and executed. Only the results are returned to the client."
+  },
+  {
+    "id": 8,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a characteristic of a client-server database system?",
+    "options": ["A) Centralized data management", "B) Multiple clients can access the server simultaneously", "C) Data is stored on each client machine", "D) Server handles query processing"],
+    "correct_answer": "C) Data is stored on each client machine",
+    "explanation": "In a client-server model, data is centrally stored on the server, not on individual client machines. Clients only send requests and receive results."
+  },
+  {
+    "id": 9,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DBMS stand for in the context of client-server databases?",
+    "options": ["A) Data Backup Management System", "B) Database Management System", "C) Distributed Base Management System", "D) Data Binary Management System"],
+    "correct_answer": "B) Database Management System",
+    "explanation": "DBMS stands for Database Management System, which is the software that manages databases in a client-server environment."
+  },
+  {
+    "id": 10,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a three-tier client-server architecture, what is the middle tier called?",
+    "options": ["A) Data tier", "B) Presentation tier", "C) Application/Logic tier", "D) Network tier"],
+    "correct_answer": "C) Application/Logic tier",
+    "explanation": "The three tiers are: Presentation (client), Application/Logic (middleware), and Data (database server). The middle tier handles business logic."
+  },
+  {
+    "id": 11,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'scalability' in a client-server database system?",
+    "options": ["A) Ability to reduce data size", "B) Ability to handle increasing workloads by adding resources", "C) Ability to delete old records", "D) Ability to encrypt data"],
+    "correct_answer": "B) Ability to handle increasing workloads by adding resources",
+    "explanation": "Scalability refers to the system's ability to grow and handle more clients or data by adding hardware or software resources to the server."
+  },
+  {
+    "id": 12,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default port number used by MySQL server for client connections?",
+    "options": ["A) 8080", "B) 1521", "C) 3306", "D) 5432"],
+    "correct_answer": "C) 3306",
+    "explanation": "MySQL server listens on port 3306 by default for incoming client connections. Port 1521 is Oracle, 5432 is PostgreSQL."
+  },
+  {
+    "id": 13,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database, what is a 'connection string'?",
+    "options": ["A) A physical cable connecting client to server", "B) A string of text containing parameters to connect to a database", "C) A SQL query string", "D) A network protocol name"],
+    "correct_answer": "B) A string of text containing parameters to connect to a database",
+    "explanation": "A connection string contains information like server address, database name, username, and password needed to establish a database connection."
+  },
+  {
+    "id": 14,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a key security feature in client-server databases?",
+    "options": ["A) Open access to all users", "B) User authentication and authorization", "C) Storing passwords in plain text", "D) Disabling network connections"],
+    "correct_answer": "B) User authentication and authorization",
+    "explanation": "Authentication verifies user identity, and authorization controls what actions users can perform. Both are essential security features in client-server databases."
+  },
+  {
+    "id": 15,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a 'query optimizer' in a client-server database server?",
+    "options": ["A) To compress data on the client", "B) To find the most efficient way to execute a SQL query", "C) To encrypt network traffic", "D) To manage user passwords"],
+    "correct_answer": "B) To find the most efficient way to execute a SQL query",
+    "explanation": "The query optimizer analyzes SQL queries and determines the most efficient execution plan to minimize resource usage and response time."
+  },
+  {
+    "id": 16,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server model, if 50 clients are connected to a single server, and each client sends 1 query per second, how many queries does the server handle per minute?",
+    "options": ["A) 50", "B) 500", "C) 3000", "D) 300"],
+    "correct_answer": "C) 3000",
+    "explanation": "Each client sends 1 query/second × 50 clients = 50 queries/second. In 60 seconds (1 minute): 50 × 60 = 3000 queries per minute."
+  },
+  {
+    "id": 17,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an advantage of centralized data storage in a client-server database?",
+    "options": ["A) Data redundancy increases", "B) Easier data backup and recovery", "C) Each client maintains its own copy", "D) Network is not required"],
+    "correct_answer": "B) Easier data backup and recovery",
+    "explanation": "Centralized storage means data is in one place, making backup and recovery simpler and more consistent compared to distributed storage."
+  },
+  {
+    "id": 18,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'ODBC' stand for in the context of database connectivity?",
+    "options": ["A) Open Database Connectivity", "B) Object Database Connection", "C) Online Data Backup Control", "D) Operational Database Communication"],
+    "correct_answer": "A) Open Database Connectivity",
+    "explanation": "ODBC (Open Database Connectivity) is a standard API that allows applications to connect to various database management systems in a client-server environment."
+  },
+  {
+    "id": 19,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database system, which component handles concurrency control?",
+    "options": ["A) Client application", "B) Network router", "C) Database server", "D) Web browser"],
+    "correct_answer": "C) Database server",
+    "explanation": "The database server manages concurrency control to ensure multiple clients can access data simultaneously without conflicts or data corruption."
+  },
+  {
+    "id": 20,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about a file-server vs. client-server database is TRUE?",
+    "options": ["A) File-server sends only results; client-server sends entire files", "B) Client-server sends only results; file-server sends entire files", "C) Both send entire files over the network", "D) Both send only results over the network"],
+    "correct_answer": "B) Client-server sends only results; file-server sends entire files",
+    "explanation": "In a file-server model, entire files are transferred to the client for processing. In a client-server model, processing happens on the server and only results are sent."
+  },
+  {
+    "id": 21,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default port number for Microsoft SQL Server?",
+    "options": ["A) 3306", "B) 5432", "C) 1433", "D) 8080"],
+    "correct_answer": "C) 1433",
+    "explanation": "Microsoft SQL Server uses port 1433 by default for client connections. MySQL uses 3306, PostgreSQL uses 5432."
+  },
+  {
+    "id": 22,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database, what is a 'stored procedure'?",
+    "options": ["A) A backup copy of the database", "B) A precompiled set of SQL statements stored on the server", "C) A client-side script", "D) A network configuration file"],
+    "correct_answer": "B) A precompiled set of SQL statements stored on the server",
+    "explanation": "A stored procedure is a precompiled collection of SQL statements stored on the database server that can be executed by clients, improving performance and security."
+  },
+  {
+    "id": 23,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a disadvantage of the client-server database model?",
+    "options": ["A) Centralized data management", "B) Single point of failure at the server", "C) Reduced network traffic", "D) Better security"],
+    "correct_answer": "B) Single point of failure at the server",
+    "explanation": "If the server fails, all clients lose access to the database. This single point of failure is a key disadvantage of the client-server model."
+  },
+  {
+    "id": 24,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'JDBC' used for in Java-based client-server database applications?",
+    "options": ["A) Java Database Connectivity — connecting Java apps to databases", "B) Java Data Backup Control", "C) Java Distributed Base Connection", "D) Java Dynamic Binary Code"],
+    "correct_answer": "A) Java Database Connectivity — connecting Java apps to databases",
+    "explanation": "JDBC (Java Database Connectivity) is an API that enables Java applications to connect to and interact with relational databases in a client-server setup."
+  },
+  {
+    "id": 25,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database, a transaction that is successfully completed is said to be:",
+    "options": ["A) Rolled back", "B) Committed", "C) Suspended", "D) Queued"],
+    "correct_answer": "B) Committed",
+    "explanation": "When a transaction completes successfully, it is 'committed' to the database, making all changes permanent. If it fails, it is 'rolled back'."
+  },
+  {
+    "id": 26,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct definition of 'latency' in a client-server database system?",
+    "options": ["A) The amount of data stored on the server", "B) The time delay between a client request and server response", "C) The number of clients connected", "D) The size of the database"],
+    "correct_answer": "B) The time delay between a client request and server response",
+    "explanation": "Latency is the time taken from when a client sends a request to when it receives a response from the server. Lower latency means better performance."
+  },
+  {
+    "id": 27,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server architecture, which tier is responsible for displaying data to the end user?",
+    "options": ["A) Data tier", "B) Logic tier", "C) Presentation tier", "D) Network tier"],
+    "correct_answer": "C) Presentation tier",
+    "explanation": "The presentation tier (client side) is responsible for the user interface and displaying data received from the server to the end user."
+  },
+  {
+    "id": 28,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'ACID' stand for in database transactions?",
+    "options": ["A) Atomicity, Consistency, Isolation, Durability", "B) Access, Control, Integration, Data", "C) Automated, Concurrent, Indexed, Dynamic", "D) Atomicity, Concurrency, Integrity, Distribution"],
+    "correct_answer": "A) Atomicity, Consistency, Isolation, Durability",
+    "explanation": "ACID properties ensure reliable database transactions: Atomicity (all or nothing), Consistency (valid state), Isolation (independent transactions), Durability (permanent changes)."
+  },
+  {
+    "id": 29,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a thin client in a client-server database system?",
+    "options": ["A) A desktop with local database software", "B) A web browser accessing a remote database", "C) A server with multiple CPUs", "D) A standalone PC with no network"],
+    "correct_answer": "B) A web browser accessing a remote database",
+    "explanation": "A thin client has minimal local processing and relies on the server for most computation. A web browser accessing a remote database is a classic thin client example."
+  },
+  {
+    "id": 30,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database, what is the purpose of 'indexing'?",
+    "options": ["A) To encrypt data", "B) To speed up data retrieval", "C) To compress the database", "D) To replicate data across servers"],
+    "correct_answer": "B) To speed up data retrieval",
+    "explanation": "Indexes are data structures that allow the database server to find rows faster without scanning the entire table, significantly improving query performance."
+  },
+  {
+    "id": 31,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A database server can handle a maximum of 200 concurrent connections. If 150 clients are currently connected, how many more clients can connect?",
+    "options": ["A) 150", "B) 200", "C) 50", "D) 350"],
+    "correct_answer": "C) 50",
+    "explanation": "Maximum connections = 200. Currently connected = 150. Remaining = 200 - 150 = 50 more clients can connect."
+  },
+  {
+    "id": 32,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands is used by a client to retrieve data from a server database?",
+    "options": ["A) INSERT", "B) DELETE", "C) SELECT", "D) UPDATE"],
+    "correct_answer": "C) SELECT",
+    "explanation": "The SELECT statement is used to query and retrieve data from a database table. It is the most commonly used SQL command in client-server interactions."
+  },
+  {
+    "id": 33,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'connection pooling' in a client-server database system?",
+    "options": ["A) Storing multiple databases on one server", "B) Reusing existing database connections instead of creating new ones", "C) Connecting multiple servers together", "D) Encrypting all database connections"],
+    "correct_answer": "B) Reusing existing database connections instead of creating new ones",
+    "explanation": "Connection pooling maintains a pool of open connections that clients can reuse, reducing the overhead of creating new connections for each request."
+  },
+  {
+    "id": 34,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database, which of the following is responsible for enforcing data integrity constraints?",
+    "options": ["A) Client application only", "B) Network firewall", "C) Database server", "D) Operating system"],
+    "correct_answer": "C) Database server",
+    "explanation": "The database server enforces integrity constraints (primary keys, foreign keys, check constraints) to ensure data validity regardless of which client submits the data."
+  },
+  {
+    "id": 35,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default port for PostgreSQL database server?",
+    "options": ["A) 3306", "B) 1433", "C) 5432", "D) 1521"],
+    "correct_answer": "C) 5432",
+    "explanation": "PostgreSQL uses port 5432 by default. MySQL uses 3306, SQL Server uses 1433, and Oracle uses 1521."
+  },
+  {
+    "id": 36,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following describes a 'fat client' in a client-server database system?",
+    "options": ["A) A client with no processing capability", "B) A client that performs significant local processing", "C) A server with large storage", "D) A network with high bandwidth"],
+    "correct_answer": "B) A client that performs significant local processing",
+    "explanation": "A fat (thick) client performs significant processing locally, unlike a thin client that relies on the server. Fat clients have more software installed locally."
+  },
+  {
+    "id": 37,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a client-server database, what does 'replication' mean?",
+    "options": ["A) Deleting duplicate records", "B) Copying data from one server to another", "C) Compressing database files", "D) Encrypting client requests"],
+    "correct_answer": "B) Copying data from one server to another",
+    "explanation": "Database replication involves copying and maintaining database objects in multiple database servers to improve availability and fault tolerance."
+  },
+  {
+    "id": 38,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is TRUE about a client-server database compared to a desktop database?",
+    "options": ["A) Desktop databases support more concurrent users", "B) Client-server databases support more concurrent users", "C) Desktop databases have better security", "D) Client-server databases cannot be accessed over a network"],
+    "correct_answer": "B) Client-server databases support more concurrent users",
+    "explanation": "Client-server databases are designed for multi-user environments and can handle many concurrent users, unlike desktop databases (like MS Access) which are limited."
+  },
+  {
+    "id": 39,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a 'database administrator (DBA)' in a client-server environment?",
+    "options": ["A) Writing client-side code only", "B) Managing, maintaining, and securing the database server", "C) Designing the user interface", "D) Managing network hardware"],
+    "correct_answer": "B) Managing, maintaining, and securing the database server",
+    "explanation": "A DBA is responsible for installing, configuring, monitoring, and maintaining the database server, including security, backups, and performance tuning."
+  },
+  {
+    "id": 40,
+    "topic": "The Client-Server Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a database server processes 120 transactions per minute and each transaction takes an average of 0.5 seconds, what is the server's throughput in transactions per second?",
+    "options": ["A) 1", "B) 2", "C) 60", "D) 240"],
+    "correct_answer": "B) 2",
+    "explanation": "120 transactions per minute ÷ 60 seconds = 2 transactions per second. This is the server's throughput in TPS."
+  },
+  {
+    "id": 41,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a client-server database, a deadlock occurs when:",
+    "options": ["A) The server runs out of disk space", "B) Two or more transactions wait indefinitely for each other to release locks", "C) A client disconnects unexpectedly", "D) The network connection is lost"],
+    "correct_answer": "B) Two or more transactions wait indefinitely for each other to release locks",
+    "explanation": "A deadlock is a situation where two or more transactions each hold a lock that the other needs, causing all to wait indefinitely. The DBMS detects and resolves deadlocks."
+  },
+  {
+    "id": 42,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which isolation level in a client-server database prevents dirty reads but allows non-repeatable reads?",
+    "options": ["A) Read Uncommitted", "B) Read Committed", "C) Repeatable Read", "D) Serializable"],
+    "correct_answer": "B) Read Committed",
+    "explanation": "Read Committed prevents dirty reads (reading uncommitted data) but allows non-repeatable reads (same query returns different results within a transaction)."
+  },
+  {
+    "id": 43,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A client-server database uses a connection pool of 20 connections. Each request takes 100ms to process. What is the maximum throughput (requests/second) the pool can handle?",
+    "options": ["A) 20", "B) 100", "C) 200", "D) 2000"],
+    "correct_answer": "C) 200",
+    "explanation": "Each connection handles 1000ms/100ms = 10 requests/second. With 20 connections: 20 × 10 = 200 requests/second maximum throughput."
+  },
+  {
+    "id": 44,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a client-server database, what is a 'phantom read'?",
+    "options": ["A) Reading data that was never committed", "B) Reading the same row twice and getting different values", "C) A transaction sees new rows inserted by another transaction during its execution", "D) Reading data from a deleted table"],
+    "correct_answer": "C) A transaction sees new rows inserted by another transaction during its execution",
+    "explanation": "A phantom read occurs when a transaction re-executes a query and finds new rows that were inserted by another committed transaction since the first execution."
+  },
+  {
+    "id": 45,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following locking mechanisms in a client-server database allows multiple readers but only one writer at a time?",
+    "options": ["A) Exclusive lock", "B) Shared lock", "C) Read-Write lock", "D) Optimistic lock"],
+    "correct_answer": "C) Read-Write lock",
+    "explanation": "A Read-Write (RW) lock allows multiple concurrent readers (shared access) but grants exclusive access to a single writer, preventing read-write conflicts."
+  },
+  {
+    "id": 46,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a three-tier client-server architecture, what is the main advantage of separating the application logic tier from the database tier?",
+    "options": ["A) Reduces the need for a network", "B) Allows independent scaling of each tier", "C) Eliminates the need for SQL", "D) Reduces the number of clients"],
+    "correct_answer": "B) Allows independent scaling of each tier",
+    "explanation": "Separating tiers allows each to be scaled independently. For example, more application servers can be added without changing the database tier, improving flexibility."
+  },
+  {
+    "id": 47,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A database server has 8 GB of RAM. The buffer pool uses 60% of RAM. How much memory (in GB) is allocated to the buffer pool?",
+    "options": ["A) 3.2 GB", "B) 4.8 GB", "C) 6.0 GB", "D) 5.6 GB"],
+    "correct_answer": "B) 4.8 GB",
+    "explanation": "Buffer pool = 60% of 8 GB = 0.60 × 8 = 4.8 GB. The buffer pool caches frequently accessed data pages to reduce disk I/O."
+  },
+  {
+    "id": 48,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between 'horizontal scaling' and 'vertical scaling' in a client-server database?",
+    "options": ["A) Horizontal adds more servers; vertical adds more resources to existing server", "B) Horizontal adds more RAM; vertical adds more servers", "C) Both mean the same thing", "D) Horizontal reduces servers; vertical increases servers"],
+    "correct_answer": "A) Horizontal adds more servers; vertical adds more resources to existing server",
+    "explanation": "Vertical scaling (scale up) adds CPU/RAM to existing server. Horizontal scaling (scale out) adds more servers to distribute the load."
+  },
+  {
+    "id": 49,
+    "topic": "The Client-Server Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a client-server database, what is 'query caching'?",
+    "options": ["A) Storing query results in memory for reuse", "B) Deleting old queries from the log", "C) Encrypting query strings", "D) Compressing SQL statements"],
+    "correct_answer": "A) Storing query results in memory for reuse",
+    "explanation": "Query caching stores the results of frequently executed queries in memory. When

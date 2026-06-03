@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She don't know the answer to the question.'",
+    "options": [
+      "A) She don't",
+      "B) know the",
+      "C) answer to",
+      "D) the question"
+    ],
+    "correct_answer": "A) She don't",
+    "explanation": "'She' is a third-person singular subject, so the correct auxiliary verb is 'doesn't' not 'don't'. The correct sentence is 'She doesn't know the answer to the question.'"
+  },
+  {
+    "id": 2,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is one of the best player in the team.'",
+    "options": [
+      "A) He is one",
+      "B) of the best",
+      "C) player in",
+      "D) the team"
+    ],
+    "correct_answer": "C) player in",
+    "explanation": "After 'one of the best', a plural noun is required. The correct word is 'players' not 'player'. The sentence should read 'one of the best players in the team.'"
+  },
+  {
+    "id": 3,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The news are very shocking to everyone.'",
+    "options": [
+      "A) The news",
+      "B) are very",
+      "C) shocking to",
+      "D) everyone"
+    ],
+    "correct_answer": "B) are very",
+    "explanation": "'News' is an uncountable noun and always takes a singular verb. The correct form is 'is very' not 'are very'."
+  },
+  {
+    "id": 4,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'I have been living here since three years.'",
+    "options": [
+      "A) I have been",
+      "B) living here",
+      "C) since three",
+      "D) years"
+    ],
+    "correct_answer": "C) since three",
+    "explanation": "'Since' is used with a specific point in time, while 'for' is used with a duration. The correct preposition is 'for three years'."
+  },
+  {
+    "id": 5,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'Neither of the two boys have completed their homework.'",
+    "options": [
+      "A) Neither of",
+      "B) the two boys",
+      "C) have completed",
+      "D) their homework"
+    ],
+    "correct_answer": "C) have completed",
+    "explanation": "'Neither' takes a singular verb. The correct form is 'has completed' not 'have completed'."
+  },
+  {
+    "id": 6,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He told me that he will come tomorrow.'",
+    "options": [
+      "A) He told me",
+      "B) that he will",
+      "C) come tomorrow",
+      "D) No error"
+    ],
+    "correct_answer": "B) that he will",
+    "explanation": "In indirect speech, when the reporting verb is in the past tense ('told'), the verb in the reported clause should also be in the past tense. 'will' should be changed to 'would'."
+  },
+  {
+    "id": 7,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The committee have decided to postpone the meeting.'",
+    "options": [
+      "A) The committee",
+      "B) have decided",
+      "C) to postpone",
+      "D) the meeting"
+    ],
+    "correct_answer": "B) have decided",
+    "explanation": "Collective nouns like 'committee' take a singular verb when acting as a single unit. The correct form is 'has decided'."
+  },
+  {
+    "id": 8,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She is more smarter than her sister.'",
+    "options": [
+      "A) She is",
+      "B) more smarter",
+      "C) than her",
+      "D) sister"
+    ],
+    "correct_answer": "B) more smarter",
+    "explanation": "'Smarter' is already a comparative form. Using 'more' with it creates a double comparative, which is incorrect. The correct form is simply 'smarter'."
+  },
+  {
+    "id": 9,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He has been working in this company since five years.'",
+    "options": [
+      "A) He has been",
+      "B) working in this",
+      "C) company since",
+      "D) five years"
+    ],
+    "correct_answer": "C) company since",
+    "explanation": "'Since' is used with a specific point in time. For a duration like 'five years', the correct preposition is 'for'. The sentence should read 'for five years'."
+  },
+  {
+    "id": 10,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'Each of the students were given a prize.'",
+    "options": [
+      "A) Each of",
+      "B) the students",
+      "C) were given",
+      "D) a prize"
+    ],
+    "correct_answer": "C) were given",
+    "explanation": "'Each' is a singular pronoun and always takes a singular verb. The correct form is 'was given' not 'were given'."
+  },
+  {
+    "id": 11,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The teacher along with his students are going on a trip.'",
+    "options": [
+      "A) The teacher",
+      "B) along with his students",
+      "C) are going",
+      "D) on a trip"
+    ],
+    "correct_answer": "C) are going",
+    "explanation": "When 'along with' connects two nouns, the verb agrees with the first noun (subject). 'The teacher' is singular, so the correct verb is 'is going'."
+  },
+  {
+    "id": 12,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'I am knowing him for a long time.'",
+    "options": [
+      "A) I am knowing",
+      "B) him for",
+      "C) a long",
+      "D) time"
+    ],
+    "correct_answer": "A) I am knowing",
+    "explanation": "'Know' is a stative verb and cannot be used in the continuous tense. The correct form is 'I have known him for a long time.'"
+  },
+  {
+    "id": 13,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is the most tallest boy in the class.'",
+    "options": [
+      "A) He is",
+      "B) the most tallest",
+      "C) boy in",
+      "D) the class"
+    ],
+    "correct_answer": "B) the most tallest",
+    "explanation": "'Tallest' is already in the superlative form. Adding 'most' creates a double superlative, which is incorrect. The correct form is 'the tallest'."
+  },
+  {
+    "id": 14,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She has went to the market to buy vegetables.'",
+    "options": [
+      "A) She has",
+      "B) went to",
+      "C) the market",
+      "D) to buy vegetables"
+    ],
+    "correct_answer": "B) went to",
+    "explanation": "With the auxiliary 'has', the past participle form must be used. 'Went' is the simple past; the correct past participle is 'gone'. The sentence should read 'She has gone to the market'."
+  },
+  {
+    "id": 15,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The police has arrested the thief last night.'",
+    "options": [
+      "A) The police",
+      "B) has arrested",
+      "C) the thief",
+      "D) last night"
+    ],
+    "correct_answer": "B) has arrested",
+    "explanation": "'Police' is a plural noun and takes a plural verb. Also, 'last night' indicates simple past, so the correct form is 'arrested' not 'has arrested'."
+  },
+  {
+    "id": 16,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is too weak to not lift the box.'",
+    "options": [
+      "A) He is",
+      "B) too weak",
+      "C) to not lift",
+      "D) the box"
+    ],
+    "correct_answer": "C) to not lift",
+    "explanation": "The structure 'too...to' already implies a negative meaning. Adding 'not' creates a double negative. The correct form is 'too weak to lift the box'."
+  },
+  {
+    "id": 17,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'My father gave me many good advices.'",
+    "options": [
+      "A) My father",
+      "B) gave me",
+      "C) many good",
+      "D) advices"
+    ],
+    "correct_answer": "D) advices",
+    "explanation": "'Advice' is an uncountable noun and has no plural form. The correct usage is 'advice' or 'pieces of advice', not 'advices'."
+  },
+  {
+    "id": 18,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She is elder than me by two years.'",
+    "options": [
+      "A) She is",
+      "B) elder than",
+      "C) me by",
+      "D) two years"
+    ],
+    "correct_answer": "B) elder than",
+    "explanation": "'Elder' is used to show seniority within a family and is not followed by 'than'. For general age comparison, 'older than' should be used."
+  },
+  {
+    "id": 19,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He works very hardly to support his family.'",
+    "options": [
+      "A) He works",
+      "B) very hardly",
+      "C) to support",
+      "D) his family"
+    ],
+    "correct_answer": "B) very hardly",
+    "explanation": "'Hardly' means 'scarcely' or 'barely', which changes the meaning. The correct adverb to use here is 'hard'. 'He works very hard' is the correct form."
+  },
+  {
+    "id": 20,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The furnitures in this room are very expensive.'",
+    "options": [
+      "A) The furnitures",
+      "B) in this room",
+      "C) are very",
+      "D) expensive"
+    ],
+    "correct_answer": "A) The furnitures",
+    "explanation": "'Furniture' is an uncountable noun and does not have a plural form. The correct usage is 'The furniture in this room is very expensive.'"
+  },
+  {
+    "id": 21,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is a university student and live in a hostel.'",
+    "options": [
+      "A) He is a",
+      "B) university student",
+      "C) and live",
+      "D) in a hostel"
+    ],
+    "correct_answer": "C) and live",
+    "explanation": "The subject 'He' is third-person singular, so the verb must agree. The correct form is 'lives' not 'live'."
+  },
+  {
+    "id": 22,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She was very tire after the long journey.'",
+    "options": [
+      "A) She was",
+      "B) very tire",
+      "C) after the",
+      "D) long journey"
+    ],
+    "correct_answer": "B) very tire",
+    "explanation": "After 'very', an adjective is required. 'Tire' is a verb; the correct adjective form is 'tired'. The sentence should read 'She was very tired'."
+  },
+  {
+    "id": 23,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'I have a lot of works to finish today.'",
+    "options": [
+      "A) I have",
+      "B) a lot of",
+      "C) works to",
+      "D) finish today"
+    ],
+    "correct_answer": "C) works to",
+    "explanation": "'Work' in the sense of tasks or duties is an uncountable noun and does not take a plural form. The correct usage is 'a lot of work to finish'."
+  },
+  {
+    "id": 24,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is looking forward to meet you soon.'",
+    "options": [
+      "A) He is",
+      "B) looking forward",
+      "C) to meet",
+      "D) you soon"
+    ],
+    "correct_answer": "C) to meet",
+    "explanation": "In the phrase 'look forward to', the word 'to' is a preposition, not part of an infinitive. Therefore, it must be followed by a gerund (verb+ing). The correct form is 'to meeting'."
+  },
+  {
+    "id": 25,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The children was playing in the garden when it started raining.'",
+    "options": [
+      "A) The children",
+      "B) was playing",
+      "C) in the garden",
+      "D) when it started raining"
+    ],
+    "correct_answer": "B) was playing",
+    "explanation": "'Children' is a plural noun and requires a plural verb. The correct form is 'were playing' not 'was playing'."
+  },
+  {
+    "id": 26,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He said that he is feeling unwell that day.'",
+    "options": [
+      "A) He said that",
+      "B) he is feeling",
+      "C) unwell that",
+      "D) day"
+    ],
+    "correct_answer": "B) he is feeling",
+    "explanation": "In reported speech, when the reporting verb is in the past tense, the verb in the reported clause must also shift to the past. 'is feeling' should be 'was feeling'."
+  },
+  {
+    "id": 27,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She bought a new dress for attend the party.'",
+    "options": [
+      "A) She bought",
+      "B) a new dress",
+      "C) for attend",
+      "D) the party"
+    ],
+    "correct_answer": "C) for attend",
+    "explanation": "The preposition 'for' must be followed by a gerund (verb+ing), not a base verb. The correct form is 'for attending the party'."
+  },
+  {
+    "id": 28,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is good in mathematics but weak in science.'",
+    "options": [
+      "A) He is good",
+      "B) in mathematics",
+      "C) but weak",
+      "D) in science"
+    ],
+    "correct_answer": "A) He is good",
+    "explanation": "The correct preposition to use with 'good' when referring to a subject or skill is 'at', not 'in'. The correct form is 'good at mathematics'."
+  },
+  {
+    "id": 29,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The boy which won the race was very happy.'",
+    "options": [
+      "A) The boy",
+      "B) which won",
+      "C) the race",
+      "D) was very happy"
+    ],
+    "correct_answer": "B) which won",
+    "explanation": "'Which' is used for things, not people. For a person, the correct relative pronoun is 'who'. The sentence should read 'The boy who won the race'."
+  },
+  {
+    "id": 30,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She has been absent from school from Monday.'",
+    "options": [
+      "A) She has been",
+      "B) absent from school",
+      "C) from Monday",
+      "D) No error"
+    ],
+    "correct_answer": "C) from Monday",
+    "explanation": "'Since' is used with a specific point in time in perfect tenses. 'From' is used with simple tenses. The correct preposition here is 'since Monday'."
+  },
+  {
+    "id": 31,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is a honest man and everyone respects him.'",
+    "options": [
+      "A) He is a",
+      "B) honest man",
+      "C) and everyone",
+      "D) respects him"
+    ],
+    "correct_answer": "A) He is a",
+    "explanation": "The article 'a' is used before consonant sounds, while 'an' is used before vowel sounds. 'Honest' begins with a silent 'h' and has a vowel sound, so 'an' should be used."
+  },
+  {
+    "id": 32,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'I prefer tea than coffee in the morning.'",
+    "options": [
+      "A) I prefer",
+      "B) tea than",
+      "C) coffee in",
+      "D) the morning"
+    ],
+    "correct_answer": "B) tea than",
+    "explanation": "The verb 'prefer' is followed by 'to', not 'than'. The correct form is 'I prefer tea to coffee'."
+  },
+  {
+    "id": 33,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The two brothers quarreled with one another over money.'",
+    "options": [
+      "A) The two brothers",
+      "B) quarreled with",
+      "C) one another",
+      "D) over money"
+    ],
+    "correct_answer": "C) one another",
+    "explanation": "'Each other' is used for two people or things, while 'one another' is used for more than two. Since there are only two brothers, 'each other' is correct."
+  },
+  {
+    "id": 34,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He has a great deal of friends in his college.'",
+    "options": [
+      "A) He has",
+      "B) a great deal of",
+      "C) friends in",
+      "D) his college"
+    ],
+    "correct_answer": "B) a great deal of",
+    "explanation": "'A great deal of' is used with uncountable nouns. For countable nouns like 'friends', the correct expression is 'a large number of' or 'many'."
+  },
+  {
+    "id": 35,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She could not help but to cry when she heard the news.'",
+    "options": [
+      "A) She could not",
+      "B) help but",
+      "C) to cry when",
+      "D) she heard the news"
+    ],
+    "correct_answer": "C) to cry when",
+    "explanation": "The expression 'cannot help but' is followed by a bare infinitive (without 'to'). The correct form is 'could not help but cry'."
+  },
+  {
+    "id": 36,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is suffering from fever since last week.'",
+    "options": [
+      "A) He is suffering",
+      "B) from fever",
+      "C) since last",
+      "D) week"
+    ],
+    "correct_answer": "A) He is suffering",
+    "explanation": "When 'since' is used, the present perfect continuous tense is required. The correct form is 'He has been suffering from fever since last week'."
+  },
+  {
+    "id": 37,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'The sceneries of Kashmir are very beautiful.'",
+    "options": [
+      "A) The sceneries",
+      "B) of Kashmir",
+      "C) are very",
+      "D) beautiful"
+    ],
+    "correct_answer": "A) The sceneries",
+    "explanation": "'Scenery' is an uncountable noun and does not have a plural form. The correct usage is 'The scenery of Kashmir is very beautiful'."
+  },
+  {
+    "id": 38,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He denied to help me when I needed him most.'",
+    "options": [
+      "A) He denied",
+      "B) to help me",
+      "C) when I needed",
+      "D) him most"
+    ],
+    "correct_answer": "B) to help me",
+    "explanation": "'Deny' is followed by a gerund, not an infinitive. The correct form is 'He denied helping me' or alternatively 'He refused to help me'."
+  },
+  {
+    "id": 39,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'She is married with a doctor for ten years.'",
+    "options": [
+      "A) She is married",
+      "B) with a doctor",
+      "C) for ten",
+      "D) years"
+    ],
+    "correct_answer": "B) with a doctor",
+    "explanation": "The correct preposition after 'married' is 'to', not 'with'. The correct form is 'She has been married to a doctor for ten years'."
+  },
+  {
+    "id": 40,
+    "topic": "Spotting Errors",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error in the sentence: 'He is the cleverest of the two candidates.'",
+    "options": [
+      "A) He is",
+      "B) the cleverest",
+      "C) of the two",
+      "D) candidates"
+    ],
+    "correct_answer": "B) the cleverest",
+    "explanation": "When comparing two people or things, the comparative degree is used, not the superlative. The correct form is 'the cleverer of the two candidates'."
+  },
+  {
+    "id": 41,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'No sooner did he enter the room than everyone stood up.'",
+    "options": [
+      "A) No sooner did",
+      "B) he enter the room",
+      "C) than everyone",
+      "D) No error"
+    ],
+    "correct_answer": "D) No error",
+    "explanation": "The sentence is grammatically correct. 'No sooner...than' is a standard correlative conjunction pair used with inverted subject-verb order, which is correctly applied here."
+  },
+  {
+    "id": 42,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'The number of students in the class are increasing every year.'",
+    "options": [
+      "A) The number of",
+      "B) students in the class",
+      "C) are increasing",
+      "D) every year"
+    ],
+    "correct_answer": "C) are increasing",
+    "explanation": "'The number of' takes a singular verb because 'the number' is the subject. The correct form is 'is increasing'. Note: 'A number of' takes a plural verb."
+  },
+  {
+    "id": 43,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'It is I who is responsible for this mistake.'",
+    "options": [
+      "A) It is I",
+      "B) who is",
+      "C) responsible for",
+      "D) this mistake"
+    ],
+    "correct_answer": "B) who is",
+    "explanation": "The relative pronoun 'who' refers to 'I', which is first person singular. The verb must agree with the antecedent 'I', so the correct form is 'who am responsible'."
+  },
+  {
+    "id": 44,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'Had I known about the problem, I would have helped you.'",
+    "options": [
+      "A) Had I known",
+      "B) about the problem",
+      "C) I would have",
+      "D) No error"
+    ],
+    "correct_answer": "D) No error",
+    "explanation": "The sentence uses the third conditional correctly. 'Had I known' is an inverted conditional (equivalent to 'If I had known'), and 'would have helped' is the correct result clause."
+  },
+  {
+    "id": 45,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'The accused was found guilty and was hanged till death.'",
+    "options": [
+      "A) The accused was",
+      "B) found guilty and",
+      "C) was hanged",
+      "D) till death"
+    ],
+    "correct_answer": "D) till death",
+    "explanation": "The correct idiomatic expression is 'hanged until dead' or more commonly 'hanged to death'. 'Till death' is not the standard expression used in this context."
+  },
+  {
+    "id": 46,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'He is too intelligent to make such a silly mistake.'",
+    "options": [
+      "A) He is too",
+      "B) intelligent to",
+      "C) make such a",
+      "D) No error"
+    ],
+    "correct_answer": "D) No error",
+    "explanation": "The sentence is grammatically correct. 'Too...to' structure is properly used here to indicate that his intelligence prevents him from making such mistakes."
+  },
+  {
+    "id": 47,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'The rich should help the poors in the society.'",
+    "options": [
+      "A) The rich",
+      "B) should help",
+      "C) the poors",
+      "D) in the society"
+    ],
+    "correct_answer": "C) the poors",
+    "explanation": "When 'the' is used before an adjective to refer to a class of people, it acts as a plural noun and does not take an 's'. The correct form is 'the poor', not 'the poors'."
+  },
+  {
+    "id": 48,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'She insisted that he should apologizes for his behavior.'",
+    "options": [
+      "A) She insisted",
+      "B) that he should",
+      "C) apologizes for",
+      "D) his behavior"
+    ],
+    "correct_answer": "C) apologizes for",
+    "explanation": "After modal verbs like 'should', the base form of the verb is used. 'Apologizes' (third person singular present) should be 'apologize'."
+  },
+  {
+    "id": 49,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'He not only lost his money but also his reputation.'",
+    "options": [
+      "A) He not only",
+      "B) lost his money",
+      "C) but also his",
+      "D) No error"
+    ],
+    "correct_answer": "D) No error",
+    "explanation": "The sentence is grammatically correct. 'Not only...but also' is a correlative conjunction used correctly here, with parallel structure maintained (lost his money / his reputation)."
+  },
+  {
+    "id": 50,
+    "topic": "Spotting Errors",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the error in the sentence: 'The teacher, as well as the students, were present at the function.'",
+    "options": [
+      "A) The teacher",
+      "B) as well as the students",
+      "C) were present",
+      "D) at the function"
+    ],
+    "correct_answer": "C) were present",
+    "explanation": "When 'as well as' connects two subjects, the verb agrees with the first subject. 'The teacher' is singular, so the correct verb is 'was present', not 'were present'."
+  }
+]

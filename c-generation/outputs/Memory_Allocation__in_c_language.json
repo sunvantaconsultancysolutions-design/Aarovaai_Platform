@@ -1,0 +1,495 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to allocate a single block of memory dynamically in C?",
+    "options": ["A) calloc()", "B) malloc()", "C) realloc()", "D) alloc()"],
+    "correct_answer": "B) malloc()",
+    "explanation": "malloc() allocates a single block of specified size in bytes and returns a void pointer. It does not initialize the memory."
+  },
+  {
+    "id": 2,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does malloc() return if memory allocation fails?",
+    "options": ["A) 0", "B) -1", "C) NULL", "D) Garbage value"],
+    "correct_answer": "C) NULL",
+    "explanation": "If malloc() cannot allocate the requested memory, it returns NULL. Always check the return value before using the pointer."
+  },
+  {
+    "id": 3,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file must be included to use malloc() in C?",
+    "options": ["A) <stdio.h>", "B) <string.h>", "C) <stdlib.h>", "D) <memory.h>"],
+    "correct_answer": "C) <stdlib.h>",
+    "explanation": "malloc(), calloc(), realloc(), and free() are all declared in <stdlib.h>. Including this header is mandatory."
+  },
+  {
+    "id": 4,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between malloc() and calloc()?",
+    "options": ["A) malloc initializes memory to zero; calloc does not", "B) calloc initializes memory to zero; malloc does not", "C) Both initialize memory to zero", "D) Neither initializes memory"],
+    "correct_answer": "B) calloc initializes memory to zero; malloc does not",
+    "explanation": "calloc() allocates memory and initializes all bytes to zero. malloc() allocates memory but leaves it uninitialized (contains garbage values)."
+  },
+  {
+    "id": 5,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many arguments does calloc() take?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "correct_answer": "B) 2",
+    "explanation": "calloc(n, size) takes two arguments: the number of elements (n) and the size of each element in bytes."
+  },
+  {
+    "id": 6,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to release dynamically allocated memory in C?",
+    "options": ["A) delete()", "B) release()", "C) free()", "D) dealloc()"],
+    "correct_answer": "C) free()",
+    "explanation": "free() is used to deallocate memory that was previously allocated by malloc(), calloc(), or realloc(). It takes the pointer as argument."
+  },
+  {
+    "id": 7,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of pointer does malloc() return?",
+    "options": ["A) int*", "B) char*", "C) void*", "D) float*"],
+    "correct_answer": "C) void*",
+    "explanation": "malloc() returns a void* (void pointer) which can be cast to any pointer type. This makes it generic and reusable."
+  },
+  {
+    "id": 8,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to allocate memory for 10 integers using malloc()?",
+    "options": ["A) int *p = malloc(10);", "B) int *p = (int*)malloc(10 * sizeof(int));", "C) int *p = malloc(10, sizeof(int));", "D) int *p = (int*)calloc(10);"],
+    "correct_answer": "B) int *p = (int*)malloc(10 * sizeof(int));",
+    "explanation": "malloc() takes total bytes as argument. For 10 integers, we pass 10*sizeof(int). The result is cast to int*."
+  },
+  {
+    "id": 9,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Dynamic memory in C is allocated from which memory area?",
+    "options": ["A) Stack", "B) Code segment", "C) Heap", "D) Register"],
+    "correct_answer": "C) Heap",
+    "explanation": "Dynamic memory allocation (malloc, calloc, realloc) allocates memory from the heap. Stack is used for local variables."
+  },
+  {
+    "id": 10,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens if you call free() on a NULL pointer?",
+    "options": ["A) Program crashes", "B) Nothing happens (safe operation)", "C) Memory corruption occurs", "D) Compiler error"],
+    "correct_answer": "B) Nothing happens (safe operation)",
+    "explanation": "Calling free(NULL) is defined behavior in C — it simply does nothing. It is safe to call free() on a NULL pointer."
+  },
+  {
+    "id": 11,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to resize previously allocated memory?",
+    "options": ["A) resize()", "B) realloc()", "C) malloc()", "D) memresize()"],
+    "correct_answer": "B) realloc()",
+    "explanation": "realloc(ptr, new_size) changes the size of previously allocated memory block pointed to by ptr to new_size bytes."
+  },
+  {
+    "id": 12,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a memory leak in C?",
+    "options": ["A) Accessing memory out of bounds", "B) Allocated memory that is never freed", "C) Using uninitialized variables", "D) Stack overflow"],
+    "correct_answer": "B) Allocated memory that is never freed",
+    "explanation": "A memory leak occurs when dynamically allocated memory is not freed after use, causing the program to consume increasing amounts of memory."
+  },
+  {
+    "id": 13,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does sizeof(int) typically return on a 32-bit system?",
+    "options": ["A) 1", "B) 2", "C) 4", "D) 8"],
+    "correct_answer": "C) 4",
+    "explanation": "On a 32-bit system, sizeof(int) is typically 4 bytes. This is important when calculating memory to allocate with malloc()."
+  },
+  {
+    "id": 14,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly allocates memory for a single float?",
+    "options": ["A) float *p = malloc(1);", "B) float *p = (float*)malloc(sizeof(float));", "C) float *p = calloc(sizeof(float));", "D) float *p = malloc(float);"],
+    "correct_answer": "B) float *p = (float*)malloc(sizeof(float));",
+    "explanation": "To allocate memory for one float, pass sizeof(float) to malloc() and cast the result to float*."
+  },
+  {
+    "id": 15,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a dangling pointer?",
+    "options": ["A) A pointer that points to NULL", "B) A pointer that points to freed memory", "C) A pointer that is never initialized", "D) A pointer to a global variable"],
+    "correct_answer": "B) A pointer that points to freed memory",
+    "explanation": "A dangling pointer points to memory that has been freed. Accessing it leads to undefined behavior. Set pointer to NULL after free()."
+  },
+  {
+    "id": 16,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bytes does calloc(5, sizeof(char)) allocate?",
+    "options": ["A) 1", "B) 4", "C) 5", "D) 10"],
+    "correct_answer": "C) 5",
+    "explanation": "calloc(5, sizeof(char)) allocates 5 * 1 = 5 bytes since sizeof(char) is 1. All bytes are initialized to zero."
+  },
+  {
+    "id": 17,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is static memory allocation in C?",
+    "options": ["A) Memory allocated at runtime using malloc", "B) Memory allocated at compile time", "C) Memory allocated using calloc", "D) Memory allocated on the heap"],
+    "correct_answer": "B) Memory allocated at compile time",
+    "explanation": "Static memory allocation happens at compile time for global variables, static variables, and local variables (stack). Size must be known at compile time."
+  },
+  {
+    "id": 18,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which statement about realloc() is correct?",
+    "options": ["A) It always allocates new memory", "B) It may move the memory block to a new location", "C) It initializes new memory to zero", "D) It cannot shrink memory"],
+    "correct_answer": "B) It may move the memory block to a new location",
+    "explanation": "realloc() may move the memory block if there isn't enough contiguous space at the original location. The old pointer becomes invalid."
+  },
+  {
+    "id": 19,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: int *p = (int*)malloc(sizeof(int)); *p = 42; printf(\"%d\", *p);",
+    "options": ["A) 0", "B) 42", "C) Garbage", "D) Compilation error"],
+    "correct_answer": "B) 42",
+    "explanation": "malloc allocates memory for one int, *p = 42 stores 42 at that location, and printf prints 42."
+  },
+  {
+    "id": 20,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Local variables in C are stored in which memory area?",
+    "options": ["A) Heap", "B) Stack", "C) Data segment", "D) Code segment"],
+    "correct_answer": "B) Stack",
+    "explanation": "Local variables are stored on the stack. They are automatically allocated when a function is called and deallocated when it returns."
+  },
+  {
+    "id": 21,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following code do? free(ptr); ptr = NULL;",
+    "options": ["A) Causes memory leak", "B) Frees memory and prevents dangling pointer", "C) Causes double free", "D) Syntax error"],
+    "correct_answer": "B) Frees memory and prevents dangling pointer",
+    "explanation": "free(ptr) releases the memory, and setting ptr = NULL prevents it from becoming a dangling pointer. This is best practice."
+  },
+  {
+    "id": 22,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bytes does malloc(sizeof(double)) allocate on most systems?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "sizeof(double) is typically 8 bytes on most systems. malloc(sizeof(double)) allocates exactly 8 bytes."
+  },
+  {
+    "id": 23,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a dynamic memory allocation function in C?",
+    "options": ["A) malloc()", "B) calloc()", "C) alloca()", "D) realloc()"],
+    "correct_answer": "C) alloca()",
+    "explanation": "alloca() allocates memory on the stack (not heap) and is not a standard dynamic memory allocation function. malloc, calloc, realloc allocate from heap."
+  },
+  {
+    "id": 24,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of accessing memory after calling free() on it?",
+    "options": ["A) Always returns 0", "B) Undefined behavior", "C) Returns the last stored value", "D) Compilation error"],
+    "correct_answer": "B) Undefined behavior",
+    "explanation": "Accessing freed memory is undefined behavior in C. The memory may have been reallocated or corrupted, leading to unpredictable results."
+  },
+  {
+    "id": 25,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does calloc(3, sizeof(int)) allocate if sizeof(int) = 4?",
+    "options": ["A) 3 bytes", "B) 4 bytes", "C) 12 bytes", "D) 7 bytes"],
+    "correct_answer": "C) 12 bytes",
+    "explanation": "calloc(3, sizeof(int)) = calloc(3, 4) = 3 * 4 = 12 bytes, all initialized to zero."
+  },
+
+  {
+    "id": 26,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Global variables in C are stored in which memory segment?",
+    "options": ["A) Stack", "B) Heap", "C) Data segment", "D) Code segment"],
+    "correct_answer": "C) Data segment",
+    "explanation": "Global and static variables are stored in the data segment. Initialized globals go to .data, uninitialized to .bss segment."
+  },
+  {
+    "id": 27,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to check if malloc() succeeded?",
+    "options": ["A) if(ptr == 0)", "B) if(ptr != NULL)", "C) if(ptr == NULL)", "D) if(!ptr == NULL)"],
+    "correct_answer": "C) if(ptr == NULL)",
+    "explanation": "If malloc() fails, it returns NULL. Check if(ptr == NULL) to detect allocation failure and handle the error appropriately."
+  },
+  {
+    "id": 28,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following allocates memory for an array of 5 doubles?",
+    "options": ["A) double *p = malloc(5);", "B) double *p = (double*)malloc(5 * sizeof(double));", "C) double *p = calloc(sizeof(double));", "D) double *p = malloc(sizeof(double));"],
+    "correct_answer": "B) double *p = (double*)malloc(5 * sizeof(double));",
+    "explanation": "To allocate 5 doubles, multiply count by element size: 5 * sizeof(double). Cast the void* result to double*."
+  },
+  {
+    "id": 29,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a wild pointer in C?",
+    "options": ["A) A pointer initialized to NULL", "B) A pointer that is never initialized", "C) A pointer to freed memory", "D) A pointer to a constant"],
+    "correct_answer": "B) A pointer that is never initialized",
+    "explanation": "A wild pointer is an uninitialized pointer that points to some arbitrary memory location. Using it causes undefined behavior."
+  },
+  {
+    "id": 30,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does realloc(ptr, 0) do?",
+    "options": ["A) Does nothing", "B) Equivalent to free(ptr)", "C) Allocates 1 byte", "D) Returns NULL without freeing"],
+    "correct_answer": "B) Equivalent to free(ptr)",
+    "explanation": "realloc(ptr, 0) is equivalent to free(ptr) — it frees the memory and returns NULL (implementation-defined but commonly NULL)."
+  },
+  {
+    "id": 31,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of memory allocated by malloc(0)?",
+    "options": ["A) 0 bytes always", "B) Implementation-defined (may return NULL or unique pointer)", "C) 1 byte", "D) Causes segmentation fault"],
+    "correct_answer": "B) Implementation-defined (may return NULL or unique pointer)",
+    "explanation": "malloc(0) behavior is implementation-defined. It may return NULL or a unique non-NULL pointer that should not be dereferenced."
+  },
+  {
+    "id": 32,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which memory allocation function takes only one argument?",
+    "options": ["A) calloc()", "B) realloc()", "C) malloc()", "D) Both B and C"],
+    "correct_answer": "C) malloc()",
+    "explanation": "malloc(size) takes only one argument — the number of bytes to allocate. calloc takes 2, realloc takes 2 arguments."
+  },
+  {
+    "id": 33,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the sizeof operator in memory allocation?",
+    "options": ["A) To count array elements", "B) To determine the size in bytes of a data type", "C) To allocate memory", "D) To free memory"],
+    "correct_answer": "B) To determine the size in bytes of a data type",
+    "explanation": "sizeof returns the size in bytes of a data type or variable. It's used with malloc/calloc to allocate the correct amount of memory."
+  },
+  {
+    "id": 34,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you free() the same pointer twice (double free)?",
+    "options": ["A) Nothing happens", "B) Memory is freed twice safely", "C) Undefined behavior / program crash", "D) Compiler warning only"],
+    "correct_answer": "C) Undefined behavior / program crash",
+    "explanation": "Double free is undefined behavior and can corrupt the heap, leading to crashes or security vulnerabilities. Always set pointer to NULL after free."
+  },
+  {
+    "id": 35,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which segment stores the machine code of a C program?",
+    "options": ["A) Stack", "B) Heap", "C) Data segment", "D) Text/Code segment"],
+    "correct_answer": "D) Text/Code segment",
+    "explanation": "The text (code) segment stores the compiled machine code of the program. It is typically read-only to prevent accidental modification."
+  },
+  {
+    "id": 36,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct prototype of malloc()?",
+    "options": ["A) void malloc(size_t size)", "B) void* malloc(size_t size)", "C) int* malloc(int size)", "D) char* malloc(size_t size)"],
+    "correct_answer": "B) void* malloc(size_t size)",
+    "explanation": "malloc() returns void* and takes a size_t argument representing the number of bytes to allocate."
+  },
+  {
+    "id": 37,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "After calling realloc(), what should you do with the original pointer?",
+    "options": ["A) Continue using it normally", "B) Free it separately", "C) Use the new pointer returned by realloc()", "D) Set it to 1"],
+    "correct_answer": "C) Use the new pointer returned by realloc()",
+    "explanation": "realloc() may move the memory block. Always use the returned pointer. The original pointer may be invalid after realloc()."
+  },
+  {
+    "id": 38,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value stored in memory allocated by calloc()?",
+    "options": ["A) Garbage values", "B) All bits set to 1", "C) All bytes set to 0", "D) Random values"],
+    "correct_answer": "C) All bytes set to 0",
+    "explanation": "calloc() initializes all allocated bytes to zero. This is the key difference from malloc() which leaves memory uninitialized."
+  },
+  {
+    "id": 39,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about stack memory?",
+    "options": ["A) Managed manually by programmer", "B) Automatically managed by compiler/OS", "C) Allocated using malloc()", "D) Persists after function returns"],
+    "correct_answer": "B) Automatically managed by compiler/OS",
+    "explanation": "Stack memory is automatically allocated when a function is called and automatically freed when the function returns. No manual management needed."
+  },
+  {
+    "id": 40,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the total memory allocated by: int *arr = (int*)malloc(5 * sizeof(int)); if sizeof(int) = 4?",
+    "options": ["A) 5 bytes", "B) 4 bytes", "C) 20 bytes", "D) 9 bytes"],
+    "correct_answer": "C) 20 bytes",
+    "explanation": "5 * sizeof(int) = 5 * 4 = 20 bytes. malloc allocates a contiguous block of 20 bytes for 5 integers."
+  },
+
+  {
+    "id": 41,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint *p = (int*)calloc(3, sizeof(int));\nprintf(\"%d %d %d\", p[0], p[1], p[2]);",
+    "options": ["A) Garbage Garbage Garbage", "B) 0 0 0", "C) 1 1 1", "D) NULL NULL NULL"],
+    "correct_answer": "B) 0 0 0",
+    "explanation": "calloc() initializes all allocated memory to zero. So p[0], p[1], p[2] are all 0."
+  },
+  {
+    "id": 42,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What happens when realloc() fails to allocate memory?",
+    "options": ["A) Original memory is freed and NULL is returned", "B) NULL is returned but original memory is preserved", "C) Program terminates", "D) Original pointer is returned unchanged"],
+    "correct_answer": "B) NULL is returned but original memory is preserved",
+    "explanation": "If realloc() fails, it returns NULL but does NOT free the original memory. Always save the return value in a separate pointer to avoid memory leak."
+  },
+  {
+    "id": 43,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is wrong with this code?\nint *p = (int*)malloc(sizeof(int));\nfree(p);\n*p = 10;",
+    "options": ["A) malloc syntax is wrong", "B) Accessing freed memory (dangling pointer)", "C) free() syntax is wrong", "D) Nothing is wrong"],
+    "correct_answer": "B) Accessing freed memory (dangling pointer)",
+    "explanation": "After free(p), p becomes a dangling pointer. Writing *p = 10 is undefined behavior as the memory has been released."
+  },
+  {
+    "id": 44,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "How do you dynamically allocate a 2D array of 3 rows and 4 columns of integers?",
+    "options": ["A) int **arr = malloc(3*4*sizeof(int));", "B) int **arr = (int**)malloc(3*sizeof(int*)); then allocate each row", "C) int arr[3][4] = malloc(3,4);", "D) int **arr = calloc(3,4);"],
+    "correct_answer": "B) int **arr = (int**)malloc(3*sizeof(int*)); then allocate each row",
+    "explanation": "For a 2D array, first allocate array of row pointers, then allocate each row separately: arr[i] = (int*)malloc(4*sizeof(int))."
+  },
+  {
+    "id": 45,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\nint *p = (int*)malloc(sizeof(int));\nif(p == NULL) printf(\"Failed\");\nelse { *p = 100; printf(\"%d\", *p); free(p); }",
+    "options": ["A) Failed", "B) 100", "C) 0", "D) Undefined"],
+    "correct_answer": "B) 100",
+    "explanation": "Assuming malloc succeeds (p != NULL), *p = 100 stores 100, and printf prints 100. free(p) releases the memory."
+  },
+  {
+    "id": 46,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the problem with this code?\nchar *p = (char*)malloc(10);\np = (char*)malloc(20);",
+    "options": ["A) Second malloc fails", "B) Memory leak — first allocation is lost", "C) Syntax error", "D) p cannot be reassigned"],
+    "correct_answer": "B) Memory leak — first allocation is lost",
+    "explanation": "The first malloc(10) allocation is never freed before p is reassigned. The pointer to the first block is lost, causing a memory leak."
+  },
+  {
+    "id": 47,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does the following code print?\nint *arr = (int*)malloc(4 * sizeof(int));\nfor(int i=0; i<4; i++) arr[i] = i*2;\nprintf(\"%d\", arr[3]);\nfree(arr);",
+    "options": ["A) 3", "B) 6", "C) 8", "D) 4"],
+    "correct_answer": "B) 6",
+    "explanation": "arr[i] = i*2, so arr[3] = 3*2 = 6. The loop fills: arr[0]=0, arr[1]=2, arr[2]=4, arr[3]=6."
+  },
+  {
+    "id": 48,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly reallocates an array from 5 to 10 integers?",
+    "options": ["A) ptr = realloc(ptr, 10);", "B) ptr = (int*)realloc(ptr, 10 * sizeof(int));", "C) ptr = malloc(ptr, 10 * sizeof(int));", "D) realloc(ptr, 10 * sizeof(int));"],
+    "correct_answer": "B) ptr = (int*)realloc(ptr, 10 * sizeof(int));",
+    "explanation": "realloc(ptr, new_size) takes the original pointer and new size in bytes. The return value must be saved (cast to int*)."
+  },
+  {
+    "id": 49,
+    "topic": "Memory Allocation in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between stack overflow and heap overflow?",
+    "options": ["A) Stack overflow occurs in heap; heap overflow in stack", "B) Stack overflow: stack exhausted (deep recursion); heap overflow: heap exhausted (too many mallocs)", "C) They are the same", "D) Stack overflow is a compile error; heap overflow is runtime"],
+    "correct_answer": "B) Stack overflow: stack exhausted (deep recursion); heap overflow: heap exhausted (too many mallocs)",
+    "explanation": "Stack overflow happens when stack space is exhaust
+  }
+  

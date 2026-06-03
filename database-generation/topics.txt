@@ -1,0 +1,29 @@
+Introduction to Database
+The Relational Model and Normalization
+Data Modeling with ER Model
+SQL for Database Construction
+Managing Multiuser Databases
+SQL Server 2000
+XML and ADO.NET
+Introduction to SQL
+Database Design Using Normalization
+Data Models into Database Designs
+Database Redesign
+Managing Databases with Oracle
+ODBC, OLE DB, ADO, and ASP
+JDBC, Java Server Pages, and MySQL
+Database Processing for BIS
+The Database Environment
+The Database Development Process
+Modeling Data in the Organization
+ER Model and Business Rules
+Logical Database Design
+Physical Database Design
+Advanced SQL
+The Client-Server Database
+The Internet Database Environment
+Data Warehousing
+Data and Database Administration
+Distributed Databases
+Object-Oriented Data Modeling
+Object-Oriented Database

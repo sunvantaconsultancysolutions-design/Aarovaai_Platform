@@ -1,0 +1,460 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a control instruction in C?",
+    "options": ["A) if-else", "B) switch", "C) printf", "D) for loop"],
+    "correct_answer": "C) printf",
+    "explanation": "printf is a library function used for output, not a control instruction. Control instructions include if-else, switch, loops, and jump statements."
+  },
+  {
+    "id": 2,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\nint x = 5;\nif(x > 3)\n  printf(\"A\");\nelse\n  printf(\"B\");",
+    "options": ["A) A", "B) B", "C) AB", "D) No output"],
+    "correct_answer": "A) A",
+    "explanation": "Since x=5 which is greater than 3, the if condition is true, so 'A' is printed."
+  },
+  {
+    "id": 3,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many times will the following loop execute?\nfor(int i=0; i<5; i++)\n  printf(\"%d\", i);",
+    "options": ["A) 4", "B) 5", "C) 6", "D) Infinite"],
+    "correct_answer": "B) 5",
+    "explanation": "The loop runs for i=0,1,2,3,4 (5 iterations) and stops when i becomes 5 since condition i<5 fails."
+  },
+  {
+    "id": 4,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint i = 0;\nwhile(i < 3) {\n  printf(\"%d \", i);\n  i++;\n}",
+    "options": ["A) 0 1 2", "B) 1 2 3", "C) 0 1 2 3", "D) 1 2"],
+    "correct_answer": "A) 0 1 2",
+    "explanation": "The while loop starts at i=0 and increments until i<3 fails. So it prints 0, 1, 2."
+  },
+  {
+    "id": 5,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to exit a loop prematurely in C?",
+    "options": ["A) exit", "B) break", "C) continue", "D) return"],
+    "correct_answer": "B) break",
+    "explanation": "The 'break' statement is used to exit a loop or switch statement immediately before the loop condition becomes false."
+  },
+  {
+    "id": 6,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'continue' statement do in a loop?",
+    "options": ["A) Exits the loop", "B) Skips the current iteration and moves to next", "C) Restarts the loop from beginning", "D) Terminates the program"],
+    "correct_answer": "B) Skips the current iteration and moves to next",
+    "explanation": "The 'continue' statement skips the remaining code in the current iteration and jumps to the loop's update expression."
+  },
+  {
+    "id": 7,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint x = 10;\nswitch(x) {\n  case 10: printf(\"Ten\"); break;\n  case 20: printf(\"Twenty\"); break;\n  default: printf(\"Other\");\n}",
+    "options": ["A) Ten", "B) Twenty", "C) Other", "D) TenTwenty"],
+    "correct_answer": "A) Ten",
+    "explanation": "x=10 matches case 10, so 'Ten' is printed. The break statement prevents fall-through to other cases."
+  },
+  {
+    "id": 8,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of:\ndo {\n  printf(\"Hello\");\n} while(0);",
+    "options": ["A) No output", "B) Hello", "C) Hello Hello", "D) Infinite Hello"],
+    "correct_answer": "B) Hello",
+    "explanation": "A do-while loop executes the body at least once before checking the condition. Since condition is 0 (false), it prints 'Hello' once."
+  },
+  {
+    "id": 9,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": ["A) for loop", "B) while loop", "C) do-while loop", "D) All loops"],
+    "correct_answer": "C) do-while loop",
+    "explanation": "The do-while loop checks the condition after executing the body, so it always executes at least once regardless of the condition."
+  },
+  {
+    "id": 10,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nfor(int i=1; i<=3; i++)\n  printf(\"%d \", i*2);",
+    "options": ["A) 1 2 3", "B) 2 4 6", "C) 2 3 4", "D) 1 3 5"],
+    "correct_answer": "B) 2 4 6",
+    "explanation": "For i=1,2,3 the expression i*2 gives 2,4,6 respectively."
+  },
+  {
+    "id": 11,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax for an if-else statement in C?",
+    "options": ["A) if(condition) { } else { }", "B) if condition { } else { }", "C) if[condition] { } else { }", "D) if{condition} ( ) else ( )"],
+    "correct_answer": "A) if(condition) { } else { }",
+    "explanation": "In C, the if statement requires the condition to be enclosed in parentheses: if(condition)."
+  },
+  {
+    "id": 12,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of:\nint a = 5, b = 10;\nif(a > b)\n  printf(\"a is greater\");\nelse\n  printf(\"b is greater\");",
+    "options": ["A) a is greater", "B) b is greater", "C) Both are equal", "D) Compilation error"],
+    "correct_answer": "B) b is greater",
+    "explanation": "Since a=5 and b=10, a>b is false, so the else block executes printing 'b is greater'."
+  },
+  {
+    "id": 13,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nfor(int i=0; i<5; i++) {\n  if(i==3) break;\n  printf(\"%d \", i);\n}",
+    "options": ["A) 0 1 2 3 4", "B) 0 1 2", "C) 0 1 2 3", "D) 1 2 3"],
+    "correct_answer": "B) 0 1 2",
+    "explanation": "When i=3, the break statement exits the loop. So only 0, 1, 2 are printed."
+  },
+  {
+    "id": 14,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nfor(int i=0; i<5; i++) {\n  if(i==3) continue;\n  printf(\"%d \", i);\n}",
+    "options": ["A) 0 1 2 3 4", "B) 0 1 2 4", "C) 0 1 2", "D) 1 2 4 5"],
+    "correct_answer": "B) 0 1 2 4",
+    "explanation": "When i=3, continue skips the printf for that iteration. So 0,1,2,4 are printed (3 is skipped)."
+  },
+  {
+    "id": 15,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a switch statement, what happens if there is no 'break' after a case?",
+    "options": ["A) Compilation error", "B) Only that case executes", "C) Fall-through to next case", "D) Program terminates"],
+    "correct_answer": "C) Fall-through to next case",
+    "explanation": "Without a break statement, execution falls through to the next case and continues until a break or end of switch is reached."
+  },
+  {
+    "id": 16,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint x = 2;\nswitch(x) {\n  case 1: printf(\"One\");\n  case 2: printf(\"Two\");\n  case 3: printf(\"Three\");\n}",
+    "options": ["A) Two", "B) TwoThree", "C) OneTwoThree", "D) Two Three"],
+    "correct_answer": "B) TwoThree",
+    "explanation": "x=2 matches case 2. Without break statements, execution falls through to case 3, printing 'TwoThree'."
+  },
+  {
+    "id": 17,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'default' case in a switch statement?",
+    "options": ["A) It is mandatory in every switch", "B) It executes when no case matches", "C) It always executes first", "D) It replaces the break statement"],
+    "correct_answer": "B) It executes when no case matches",
+    "explanation": "The 'default' case is optional and executes when none of the case values match the switch expression."
+  },
+  {
+    "id": 18,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of:\nint i = 1;\nwhile(i <= 5) {\n  printf(\"%d \", i);\n  i += 2;\n}",
+    "options": ["A) 1 2 3 4 5", "B) 1 3 5", "C) 2 4", "D) 1 3 5 7"],
+    "correct_answer": "B) 1 3 5",
+    "explanation": "Starting at i=1, incrementing by 2 each time: 1, 3, 5. When i becomes 7, condition i<=5 fails."
+  },
+  {
+    "id": 19,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following creates an infinite loop in C?",
+    "options": ["A) for(;;)", "B) while(1)", "C) do { } while(1)", "D) All of the above"],
+    "correct_answer": "D) All of the above",
+    "explanation": "All three constructs create infinite loops: for(;;) has no condition, while(1) always true, do-while(1) always true."
+  },
+  {
+    "id": 20,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nif(0)\n  printf(\"True\");\nelse\n  printf(\"False\");",
+    "options": ["A) True", "B) False", "C) No output", "D) Compilation error"],
+    "correct_answer": "B) False",
+    "explanation": "In C, 0 is treated as false. So the else block executes and prints 'False'."
+  },
+  {
+    "id": 21,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nfor(int i=10; i>0; i-=3)\n  printf(\"%d \", i);",
+    "options": ["A) 10 7 4 1", "B) 10 7 4", "C) 10 8 6 4 2", "D) 10 7 4 1 -2"],
+    "correct_answer": "A) 10 7 4 1",
+    "explanation": "Starting at 10, decrementing by 3: 10, 7, 4, 1. When i becomes -2, condition i>0 fails."
+  },
+  {
+    "id": 22,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the 'goto' statement used for in C?",
+    "options": ["A) To exit a function", "B) To jump to a labeled statement", "C) To skip an iteration", "D) To terminate the program"],
+    "correct_answer": "B) To jump to a labeled statement",
+    "explanation": "The goto statement transfers control to a labeled statement within the same function. It is generally discouraged in structured programming."
+  },
+  {
+    "id": 23,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of:\nint x = 7;\nif(x % 2 == 0)\n  printf(\"Even\");\nelse\n  printf(\"Odd\");",
+    "options": ["A) Even", "B) Odd", "C) 7", "D) 1"],
+    "correct_answer": "B) Odd",
+    "explanation": "7 % 2 = 1, which is not equal to 0, so the else block executes printing 'Odd'."
+  },
+  {
+    "id": 24,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many times does the body of the following loop execute?\nint i = 5;\nwhile(i > 5)\n  i++;",
+    "options": ["A) 0", "B) 1", "C) 5", "D) Infinite"],
+    "correct_answer": "A) 0",
+    "explanation": "The condition i>5 is false initially (i=5), so the while loop body never executes."
+  },
+  {
+    "id": 25,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nfor(int i=0; i<3; i++)\n  for(int j=0; j<2; j++)\n    printf(\"*\");",
+    "options": ["A) ***", "B) ******", "C) **", "D) ****"],
+    "correct_answer": "B) ******",
+    "explanation": "Outer loop runs 3 times, inner loop runs 2 times each. Total = 3 × 2 = 6 asterisks."
+  },
+  {
+    "id": 26,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint n = 4;\nif(n > 0 && n < 10)\n  printf(\"In range\");\nelse\n  printf(\"Out of range\");",
+    "options": ["A) In range", "B) Out of range", "C) Compilation error", "D) No output"],
+    "correct_answer": "A) In range",
+    "explanation": "n=4 satisfies both n>0 (true) and n<10 (true), so the && condition is true and 'In range' is printed."
+  },
+  {
+    "id": 27,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint i;\nfor(i=1; i<=4; i++);\nprintf(\"%d\", i);",
+    "options": ["A) 4", "B) 5", "C) 1", "D) Compilation error"],
+    "correct_answer": "B) 5",
+    "explanation": "The semicolon after for() makes the loop body empty. The loop runs until i=5 when condition fails. Then printf prints 5."
+  },
+  {
+    "id": 28,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid switch expression in C?",
+    "options": ["A) switch(3.14)", "B) switch('A')", "C) switch(\"hello\")", "D) switch(3.14f)"],
+    "correct_answer": "B) switch('A')",
+    "explanation": "Switch expressions must be of integer or character type. 'A' is a char (integer type). Float and string types are not allowed."
+  },
+  {
+    "id": 29,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint x = 15;\nif(x > 10)\n  if(x > 20)\n    printf(\"Greater than 20\");\n  else\n    printf(\"Between 10 and 20\");",
+    "options": ["A) Greater than 20", "B) Between 10 and 20", "C) No output", "D) Compilation error"],
+    "correct_answer": "B) Between 10 and 20",
+    "explanation": "x=15 satisfies x>10, then x>20 is false, so the inner else executes printing 'Between 10 and 20'."
+  },
+  {
+    "id": 30,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint sum = 0;\nfor(int i=1; i<=5; i++)\n  sum += i;\nprintf(\"%d\", sum);",
+    "options": ["A) 10", "B) 15", "C) 5", "D) 20"],
+    "correct_answer": "B) 15",
+    "explanation": "Sum = 1+2+3+4+5 = 15. This is the sum of first 5 natural numbers using formula n(n+1)/2 = 5×6/2 = 15."
+  },
+  {
+    "id": 31,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if the condition in a while loop is always true?",
+    "options": ["A) Loop executes once", "B) Compilation error", "C) Infinite loop", "D) Loop is skipped"],
+    "correct_answer": "C) Infinite loop",
+    "explanation": "If the condition never becomes false, the while loop will execute indefinitely, creating an infinite loop."
+  },
+  {
+    "id": 32,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint a = 3;\nswitch(a) {\n  case 1: printf(\"One\"); break;\n  case 2: printf(\"Two\"); break;\n  default: printf(\"Default\");\n}",
+    "options": ["A) One", "B) Two", "C) Default", "D) No output"],
+    "correct_answer": "C) Default",
+    "explanation": "a=3 doesn't match case 1 or case 2, so the default case executes printing 'Default'."
+  },
+  {
+    "id": 33,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nfor(int i=0; i<1; i++)\n  printf(\"Loop\");",
+    "options": ["A) No output", "B) Loop", "C) LoopLoop", "D) Compilation error"],
+    "correct_answer": "B) Loop",
+    "explanation": "The loop runs once for i=0 (condition i<1 is true), prints 'Loop', then i becomes 1 and condition fails."
+  },
+  {
+    "id": 34,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between while and do-while loop?",
+    "options": ["A) No difference", "B) while checks condition first, do-while checks after execution", "C) do-while checks condition first", "D) while loop cannot be infinite"],
+    "correct_answer": "B) while checks condition first, do-while checks after execution",
+    "explanation": "while is an entry-controlled loop (checks before executing), do-while is exit-controlled (checks after executing at least once)."
+  },
+  {
+    "id": 35,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint x = 5;\nprintf(\"%d\", (x > 3) ? 1 : 0);",
+    "options": ["A) 0", "B) 1", "C) 5", "D) 3"],
+    "correct_answer": "B) 1",
+    "explanation": "The ternary operator evaluates x>3 which is true (5>3), so it returns 1."
+  },
+  {
+    "id": 36,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint count = 0;\nfor(int i=0; i<10; i++)\n  if(i % 2 == 0) count++;\nprintf(\"%d\", count);",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 10"],
+    "correct_answer": "B) 5",
+    "explanation": "Even numbers from 0 to 9 are: 0,2,4,6,8 — that's 5 numbers. So count = 5."
+  },
+  {
+    "id": 37,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a switch statement use a float as its expression?",
+    "options": ["A) Yes, always", "B) No, only integer types are allowed", "C) Yes, with casting", "D) Only in C99"],
+    "correct_answer": "B) No, only integer types are allowed",
+    "explanation": "Switch expressions must evaluate to an integer type (int, char, enum). Float/double types are not allowed."
+  },
+  {
+    "id": 38,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint i = 0;\ndo {\n  i++;\n  printf(\"%d \", i);\n} while(i < 3);",
+    "options": ["A) 0 1 2", "B) 1 2 3", "C) 0 1 2 3", "D) 1 2"],
+    "correct_answer": "B) 1 2 3",
+    "explanation": "i starts at 0, increments to 1 then prints. Continues until i=3 is printed, then condition i<3 fails."
+  },
+  {
+    "id": 39,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint x = 0;\nif(x)\n  printf(\"Non-zero\");\nelse\n  printf(\"Zero\");",
+    "options": ["A) Non-zero", "B) Zero", "C) 0", "D) Compilation error"],
+    "correct_answer": "B) Zero",
+    "explanation": "In C, 0 is treated as false in a boolean context. So the else block executes printing 'Zero'."
+  },
+  {
+    "id": 40,
+    "topic": "Control Instructions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of:\nfor(int i=1; i<=3; i++) {\n  if(i==2) continue;\n  printf(\"%d \", i);\n}",
+    "options": ["A) 1 2 3", "B) 1 3", "C) 2", "D) 1 2"],
+    "correct_answer": "B) 1 3",
+    "explanation": "When i=2, continue skips the printf. So only 1 and 3 are printed."
+  },
+  {
+    "id": 41,
+    "topic": "Control Instructions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint i = 1;\nwhile(i++ <= 3)\n  printf(\"%d \", i);",
+    "options": ["A) 1 2 3", "B) 2 3 4", "C) 1 2 3 4", "D) 2 3 4 5"],
+    "correct_answer": "B) 2 3 4",
+    "explanation": "i++ is post-increment. Check: i=1(true,print 2), i=2(true,print 3), i=3(true,print 4), i=4(false,stop). Prints 2 3 4."
+  },
+  {
+    "id": 42,
+    "topic": "Control Instructions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint x = 5;\nswitch(x) {\n  case 5:\n  case 6: printf(\"Five or Six\"); break;\n  case 7: printf(\"Seven\"); break;\n}",
+    "options": ["A) Five or Six", "B) Seven", "C) No output", "D) Compilation error"],
+    "correct_answer": "A) Five or Six",
+    "explanation": "Case 5 has no break, so it falls through to case 6 which prints 'Five or Six' and breaks. This is intentional fall-through."
+  },
+  {
+    "id": 43,
+    "topic": "Control Instructions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nfor(int i=0; i<3; i++) {\n  for(int j=0; j<3; j++) {\n    if(i==j) break;\n    printf(\"%d%d \", i, j);\n  }\n}",
+    "options": ["A) 00 11 22", "B) 10 20 21", "C) 01 02 12", "D) No output"],
+    "correct_answer": "B) 10 20 21",
+    "explanation": "When i==j, inner loop breaks. For i=0: breaks immediately. For i=1: prints 10, breaks at j=1. For i=2: prints 20,21, breaks at j=2."
+  },
+  {
+    "id": 44,
+    "topic": "Control Instructions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint i = 5;\nif(i = 0)\n  printf(\"Zero\");\nelse\n  printf(\"Non-zero\");",
+    "options": ["A) Zero", "B) Non-zero", "C) Compilation error", "D) Undefined behavior"],
+    "correct_answer": "A) Zero",
+    "explanation": "i=0 is an assignment (not comparison), assigning 0 to i. The if condition evaluates to 0 (false), so else executes... Wait: if(i=0) evaluates to 0 which is false, so 'Non-zero' prints. Actually: if(i=0) → condition is 0 → false → else → 'Non-zero'.",
+    "correct_answer": "B) Non-zero",
+    "explanation": "i=0 assigns 0 to i. The condition evaluates to 0 (false), so the else block executes printing 'Non-zero'."
+  },
+  {
+    "id": 45,
+    "topic": "Control Instructions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\nint x = 10;\nwhile(x > 0) {\n  x -= 3;\n}\nprintf(\"%d\", x);",
+    "options": ["A) 0", "B) -2", "C) 1", "D) -1"],
+    "correct_answer": "B) -2",
+    "explanation": "x: 10→7→4→1→-2. When x=-2, condition x>0 fails. So printf prints -2."
+  },
+  {
+    "id": 46,
+    "topic": "Control Instructions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of:\

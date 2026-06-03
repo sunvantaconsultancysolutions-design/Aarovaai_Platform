@@ -1,0 +1,477 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a distributed database?",
+    "options": ["A) A database stored on a single server", "B) A collection of multiple databases spread across different locations connected by a network", "C) A database that only stores data in the cloud", "D) A database with no backup system"],
+    "correct_answer": "B) A collection of multiple databases spread across different locations connected by a network",
+    "explanation": "A distributed database is a database in which storage devices are not all attached to a common processor. It is spread across multiple physical locations connected via a network."
+  },
+  {
+    "id": 2,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT an advantage of distributed databases?",
+    "options": ["A) Improved reliability", "B) Faster local queries", "C) Simplified data management", "D) Increased availability"],
+    "correct_answer": "C) Simplified data management",
+    "explanation": "Distributed databases are more complex to manage than centralized databases. Advantages include improved reliability, faster local queries, and increased availability."
+  },
+  {
+    "id": 3,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DDBMS stand for?",
+    "options": ["A) Dynamic Database Management System", "B) Distributed Database Management System", "C) Dual Database Management System", "D) Dedicated Database Management System"],
+    "correct_answer": "B) Distributed Database Management System",
+    "explanation": "DDBMS stands for Distributed Database Management System, which manages a distributed database and makes the distribution transparent to users."
+  },
+  {
+    "id": 4,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a distributed database, what is a 'site'?",
+    "options": ["A) A web page hosting the database", "B) A physical location or node that holds part of the distributed database", "C) A backup copy of the database", "D) A table within the database"],
+    "correct_answer": "B) A physical location or node that holds part of the distributed database",
+    "explanation": "In distributed databases, a 'site' refers to a physical location or node (computer) that participates in the distributed system and holds a portion of the data."
+  },
+  {
+    "id": 5,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is data fragmentation in distributed databases?",
+    "options": ["A) Corrupting data across nodes", "B) Dividing a database into smaller pieces stored at different sites", "C) Merging multiple databases into one", "D) Encrypting data for security"],
+    "correct_answer": "B) Dividing a database into smaller pieces stored at different sites",
+    "explanation": "Data fragmentation is the process of dividing a database into smaller fragments (pieces) that can be stored at different sites in the distributed system."
+  },
+  {
+    "id": 6,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of fragmentation divides a table by rows?",
+    "options": ["A) Vertical fragmentation", "B) Horizontal fragmentation", "C) Mixed fragmentation", "D) Derived fragmentation"],
+    "correct_answer": "B) Horizontal fragmentation",
+    "explanation": "Horizontal fragmentation divides a relation (table) by rows (tuples), where each fragment contains a subset of rows satisfying a certain condition."
+  },
+  {
+    "id": 7,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of fragmentation divides a table by columns?",
+    "options": ["A) Horizontal fragmentation", "B) Vertical fragmentation", "C) Derived fragmentation", "D) Primary fragmentation"],
+    "correct_answer": "B) Vertical fragmentation",
+    "explanation": "Vertical fragmentation divides a relation by columns (attributes). Each fragment contains a subset of columns, and the primary key is included in each fragment."
+  },
+  {
+    "id": 8,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is data replication in distributed databases?",
+    "options": ["A) Deleting duplicate data", "B) Storing copies of the same data at multiple sites", "C) Compressing data to save space", "D) Encrypting data at rest"],
+    "correct_answer": "B) Storing copies of the same data at multiple sites",
+    "explanation": "Data replication involves storing identical copies of data at multiple sites to improve availability, reliability, and performance of read operations."
+  },
+  {
+    "id": 9,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main disadvantage of data replication?",
+    "options": ["A) Reduced availability", "B) Slower read operations", "C) Increased storage cost and complexity of maintaining consistency", "D) Reduced fault tolerance"],
+    "correct_answer": "C) Increased storage cost and complexity of maintaining consistency",
+    "explanation": "While replication improves availability and read performance, it increases storage requirements and makes it complex to keep all copies consistent when updates occur."
+  },
+  {
+    "id": 10,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'transparency' mean in the context of distributed databases?",
+    "options": ["A) The database is visible to all users", "B) Users are unaware of the distributed nature of the system", "C) Data is stored in plain text", "D) All nodes have equal access rights"],
+    "correct_answer": "B) Users are unaware of the distributed nature of the system",
+    "explanation": "Transparency in distributed databases means that users interact with the system as if it were a single centralized database, without needing to know about the distribution."
+  },
+  {
+    "id": 11,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which transparency hides the fact that data is fragmented across multiple sites?",
+    "options": ["A) Location transparency", "B) Replication transparency", "C) Fragmentation transparency", "D) Concurrency transparency"],
+    "correct_answer": "C) Fragmentation transparency",
+    "explanation": "Fragmentation transparency allows users to query the database without knowing that data is divided into fragments stored at different sites."
+  },
+  {
+    "id": 12,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which transparency hides the physical location of data from users?",
+    "options": ["A) Fragmentation transparency", "B) Replication transparency", "C) Location transparency", "D) Concurrency transparency"],
+    "correct_answer": "C) Location transparency",
+    "explanation": "Location transparency allows users to access data without knowing its physical location. The system handles routing queries to the appropriate site."
+  },
+  {
+    "id": 13,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a distributed database, what is a global schema?",
+    "options": ["A) A schema used only at one site", "B) The overall logical description of the entire distributed database", "C) A schema for internet-based databases", "D) A schema that stores only metadata"],
+    "correct_answer": "B) The overall logical description of the entire distributed database",
+    "explanation": "The global schema (or global conceptual schema) describes the entire distributed database as if it were a single centralized database, providing a unified view."
+  },
+  {
+    "id": 14,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a homogeneous distributed database?",
+    "options": ["A) A database with only one table", "B) A distributed database where all sites use the same DBMS software", "C) A database with identical data at all sites", "D) A database that supports only one type of query"],
+    "correct_answer": "B) A distributed database where all sites use the same DBMS software",
+    "explanation": "In a homogeneous distributed database, all sites use the same DBMS software and data model, making integration simpler compared to heterogeneous systems."
+  },
+  {
+    "id": 15,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a heterogeneous distributed database?",
+    "options": ["A) A database with different table structures", "B) A distributed database where different sites may use different DBMS software", "C) A database with mixed data types", "D) A database that stores both structured and unstructured data"],
+    "correct_answer": "B) A distributed database where different sites may use different DBMS software",
+    "explanation": "In a heterogeneous distributed database, different sites may use different DBMS software, data models, or hardware, requiring translation and integration mechanisms."
+  },
+  {
+    "id": 16,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the two-phase commit (2PC) protocol used for?",
+    "options": ["A) Encrypting distributed transactions", "B) Ensuring atomicity of distributed transactions across multiple sites", "C) Compressing data before transmission", "D) Replicating data to backup sites"],
+    "correct_answer": "B) Ensuring atomicity of distributed transactions across multiple sites",
+    "explanation": "The two-phase commit protocol ensures that a distributed transaction either commits at all participating sites or aborts at all sites, maintaining atomicity."
+  },
+  {
+    "id": 17,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the two-phase commit protocol, what are the two phases?",
+    "options": ["A) Read phase and Write phase", "B) Prepare phase and Commit phase", "C) Lock phase and Unlock phase", "D) Send phase and Receive phase"],
+    "correct_answer": "B) Prepare phase and Commit phase",
+    "explanation": "2PC has two phases: Phase 1 (Prepare/Voting) where the coordinator asks all participants if they can commit, and Phase 2 (Commit/Abort) where the final decision is executed."
+  },
+  {
+    "id": 18,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a coordinator in the context of distributed transactions?",
+    "options": ["A) A database administrator", "B) The site that initiates and manages a distributed transaction", "C) A backup server", "D) A network router"],
+    "correct_answer": "B) The site that initiates and manages a distributed transaction",
+    "explanation": "In a distributed transaction, the coordinator is the site where the transaction originates. It coordinates the execution and commitment of the transaction across all participating sites."
+  },
+  {
+    "id": 19,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does CAP theorem stand for?",
+    "options": ["A) Consistency, Availability, Partition tolerance", "B) Concurrency, Atomicity, Performance", "C) Caching, Access, Processing", "D) Consistency, Atomicity, Persistence"],
+    "correct_answer": "A) Consistency, Availability, Partition tolerance",
+    "explanation": "CAP theorem states that a distributed system can guarantee at most two of three properties: Consistency, Availability, and Partition tolerance simultaneously."
+  },
+  {
+    "id": 20,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "According to CAP theorem, which two properties does a traditional relational database typically prioritize?",
+    "options": ["A) Availability and Partition tolerance", "B) Consistency and Availability", "C) Consistency and Partition tolerance", "D) All three equally"],
+    "correct_answer": "B) Consistency and Availability",
+    "explanation": "Traditional RDBMS systems typically prioritize Consistency and Availability (CA systems), sacrificing partition tolerance, which is acceptable in single-node or tightly coupled systems."
+  },
+  {
+    "id": 21,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a distributed query?",
+    "options": ["A) A query that runs on a single node", "B) A query that accesses data from multiple sites in a distributed database", "C) A query that only reads data", "D) A query written in a distributed programming language"],
+    "correct_answer": "B) A query that accesses data from multiple sites in a distributed database",
+    "explanation": "A distributed query is one that requires accessing data stored at multiple sites. The DDBMS must decompose and optimize such queries across the network."
+  },
+  {
+    "id": 22,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary goal of distributed query optimization?",
+    "options": ["A) To minimize the number of tables accessed", "B) To minimize total query execution cost including communication cost", "C) To maximize the number of sites involved", "D) To ensure all queries run in parallel"],
+    "correct_answer": "B) To minimize total query execution cost including communication cost",
+    "explanation": "Distributed query optimization aims to minimize total cost including CPU cost, I/O cost, and especially communication cost (data transfer between sites), which is often the dominant factor."
+  },
+  {
+    "id": 23,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a local transaction in a distributed database?",
+    "options": ["A) A transaction that spans all sites", "B) A transaction that accesses data only at the site where it is initiated", "C) A transaction that only reads data", "D) A transaction that runs during off-peak hours"],
+    "correct_answer": "B) A transaction that accesses data only at the site where it is initiated",
+    "explanation": "A local transaction accesses and updates data only at the local site where it is initiated, without involving any other sites in the distributed system."
+  },
+  {
+    "id": 24,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a global transaction in a distributed database?",
+    "options": ["A) A transaction that only runs at the main server", "B) A transaction that accesses data at multiple sites", "C) A transaction that involves all users simultaneously", "D) A transaction that modifies the global schema"],
+    "correct_answer": "B) A transaction that accesses data at multiple sites",
+    "explanation": "A global transaction (also called distributed transaction) accesses and possibly updates data at multiple sites, requiring coordination between those sites."
+  },
+  {
+    "id": 25,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'replication transparency'?",
+    "options": ["A) Users can see all replicated copies", "B) Users are unaware that multiple copies of data exist", "C) Data is replicated in real-time", "D) Only administrators can access replicated data"],
+    "correct_answer": "B) Users are unaware that multiple copies of data exist",
+    "explanation": "Replication transparency means users interact with the database without knowing that data is replicated across multiple sites. The system handles consistency of replicas automatically."
+  },
+  {
+    "id": 26,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a catalog in a distributed database system?",
+    "options": ["A) To store user passwords", "B) To maintain metadata about the distribution of data across sites", "C) To cache frequently accessed queries", "D) To manage network connections"],
+    "correct_answer": "B) To maintain metadata about the distribution of data across sites",
+    "explanation": "The distributed catalog (or directory) stores metadata including information about data location, fragmentation, and replication, enabling the DDBMS to locate and access data."
+  },
+  {
+    "id": 27,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a table with 1000 rows is horizontally fragmented into 4 equal fragments, how many rows does each fragment contain?",
+    "options": ["A) 100", "B) 200", "C) 250", "D) 400"],
+    "correct_answer": "C) 250",
+    "explanation": "With horizontal fragmentation into 4 equal parts: 1000 ÷ 4 = 250 rows per fragment."
+  },
+  {
+    "id": 28,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is meant by 'autonomy' in distributed databases?",
+    "options": ["A) Each site operates independently without any central control", "B) The database runs without human intervention", "C) Data is automatically backed up", "D) Queries are automatically optimized"],
+    "correct_answer": "A) Each site operates independently without any central control",
+    "explanation": "Autonomy in distributed databases refers to the degree to which individual sites can operate independently, managing their own data and transactions without central control."
+  },
+  {
+    "id": 29,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a key challenge in distributed databases?",
+    "options": ["A) Too much storage space", "B) Maintaining data consistency across multiple sites", "C) Lack of query languages", "D) Inability to handle large datasets"],
+    "correct_answer": "B) Maintaining data consistency across multiple sites",
+    "explanation": "Maintaining data consistency across multiple sites is a major challenge in distributed databases, especially when updates occur and replicated data must be kept synchronized."
+  },
+  {
+    "id": 30,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'network partitioning' mean in distributed systems?",
+    "options": ["A) Dividing the network into subnets", "B) A failure where the network splits into disconnected components", "C) Partitioning data across network nodes", "D) Encrypting network traffic"],
+    "correct_answer": "B) A failure where the network splits into disconnected components",
+    "explanation": "Network partitioning occurs when a network failure causes some nodes to be unable to communicate with others, splitting the distributed system into isolated groups."
+  },
+  {
+    "id": 31,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'eventual consistency' in distributed databases?",
+    "options": ["A) Data is always consistent at all times", "B) All replicas will eventually become consistent if no new updates are made", "C) Consistency is never guaranteed", "D) Only the primary node maintains consistency"],
+    "correct_answer": "B) All replicas will eventually become consistent if no new updates are made",
+    "explanation": "Eventual consistency is a consistency model where, given enough time without new updates, all replicas of data will converge to the same value."
+  },
+  {
+    "id": 32,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a distributed database system?",
+    "options": ["A) Microsoft Access", "B) Google Spanner", "C) Microsoft Excel", "D) Notepad"],
+    "correct_answer": "B) Google Spanner",
+    "explanation": "Google Spanner is a globally distributed relational database system. Other examples include Apache Cassandra, Amazon DynamoDB, and CockroachDB."
+  },
+  {
+    "id": 33,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'subtransaction' in distributed databases?",
+    "options": ["A) A failed transaction", "B) A portion of a global transaction that executes at a single site", "C) A read-only transaction", "D) A transaction that runs in the background"],
+    "correct_answer": "B) A portion of a global transaction that executes at a single site",
+    "explanation": "A subtransaction (or agent) is the part of a global distributed transaction that executes at a particular site, accessing local data on behalf of the global transaction."
+  },
+  {
+    "id": 34,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a 'lock manager' in a distributed database?",
+    "options": ["A) To manage user passwords", "B) To control concurrent access to data and prevent conflicts", "C) To lock the database during backups", "D) To manage network connections"],
+    "correct_answer": "B) To control concurrent access to data and prevent conflicts",
+    "explanation": "A lock manager controls concurrent access to shared data by granting and releasing locks, preventing conflicts such as dirty reads and lost updates in distributed transactions."
+  },
+  {
+    "id": 35,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'data allocation' in distributed databases?",
+    "options": ["A) Assigning memory to queries", "B) Deciding which fragments of data are stored at which sites", "C) Allocating bandwidth for data transfer", "D) Assigning user permissions to data"],
+    "correct_answer": "B) Deciding which fragments of data are stored at which sites",
+    "explanation": "Data allocation (or data placement) is the process of deciding where each data fragment should be stored in the distributed system to optimize performance and availability."
+  },
+  {
+    "id": 36,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In distributed databases, what is 'semi-join' used for?",
+    "options": ["A) Joining only half the rows of a table", "B) Reducing data transfer in distributed query processing", "C) Performing joins on encrypted data", "D) Joining tables with missing values"],
+    "correct_answer": "B) Reducing data transfer in distributed query processing",
+    "explanation": "Semi-join is a technique used in distributed query optimization to reduce the amount of data transferred between sites by sending only the join attributes rather than entire relations."
+  },
+  {
+    "id": 37,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'deadlock' in a distributed database?",
+    "options": ["A) A situation where the database stops responding", "B) A situation where two or more transactions wait indefinitely for each other to release locks", "C) A network failure causing data loss", "D) A situation where a query takes too long to execute"],
+    "correct_answer": "B) A situation where two or more transactions wait indefinitely for each other to release locks",
+    "explanation": "Deadlock occurs when two or more transactions are each waiting for the other to release a lock, creating a circular dependency that prevents any of them from proceeding."
+  },
+  {
+    "id": 38,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'primary copy' in distributed database replication?",
+    "options": ["A) The first database ever created", "B) The authoritative copy of replicated data used for updates", "C) A backup copy stored offsite", "D) The copy with the most recent timestamp"],
+    "correct_answer": "B) The authoritative copy of replicated data used for updates",
+    "explanation": "In primary copy replication, one copy is designated as the primary (master) copy. All updates are applied to the primary copy first, then propagated to secondary copies."
+  },
+  {
+    "id": 39,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ACID stand for in database transactions?",
+    "options": ["A) Atomicity, Consistency, Isolation, Durability", "B) Availability, Consistency, Integrity, Distribution", "C) Atomicity, Concurrency, Integrity, Durability", "D) Availability, Consistency, Isolation, Distribution"],
+    "correct_answer": "A) Atomicity, Consistency, Isolation, Durability",
+    "explanation": "ACID stands for Atomicity (all or nothing), Consistency (valid state transitions), Isolation (transactions don't interfere), and Durability (committed changes persist)."
+  },
+  {
+    "id": 40,
+    "topic": "Distributed Databases",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of a fully replicated distributed database?",
+    "options": ["A) Each site stores only one fragment", "B) Every site stores a complete copy of the entire database", "C) Data is stored at only one site", "D) Each site stores a different portion of the database"],
+    "correct_answer": "B) Every site stores a complete copy of the entire database",
+    "explanation": "In a fully replicated distributed database, every site maintains a complete copy of the entire database, maximizing availability and read performance but increasing update complexity."
+  },
+  {
+    "id": 41,
+    "topic": "Distributed Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In the two-phase commit protocol, what happens if a participant votes 'NO' during the prepare phase?",
+    "options": ["A) The coordinator retries the transaction", "B) The coordinator sends an ABORT message to all participants", "C) The transaction is committed partially", "D) The participant is removed from the system"],
+    "correct_answer": "B) The coordinator sends an ABORT message to all participants",
+    "explanation": "If any participant votes NO (cannot commit), the coordinator must abort the entire transaction and send ABORT messages to all participants to maintain atomicity."
+  },
+  {
+    "id": 42,
+    "topic": "Distributed Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the main weakness of the two-phase commit protocol?",
+    "options": ["A) It cannot handle more than 2 sites", "B) It can leave participants in a blocked state if the coordinator fails", "C) It requires all participants to be online simultaneously", "D) It does not support rollback operations"],
+    "correct_answer": "B) It can leave participants in a blocked state if the coordinator fails",
+    "explanation": "2PC's main weakness is the blocking problem: if the coordinator fails after sending PREPARE but before sending COMMIT/ABORT, participants are blocked waiting indefinitely."
+  },
+  {
+    "id": 43,
+    "topic": "Distributed Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "How does the three-phase commit (3PC) protocol improve upon 2PC?",
+    "options": ["A) It reduces the number of messages required", "B) It adds a pre-commit phase to avoid the blocking problem", "C) It eliminates the need for a coordinator", "D) It allows partial commits"],
+    "correct_answer": "B) It adds a pre-commit phase to avoid the blocking problem",
+    "explanation": "3PC adds a pre-commit phase between prepare and commit, allowing participants to determine the outcome even if the coordinator fails, thus avoiding the blocking problem of 2PC."
+  },
+  {
+    "id": 44,
+    "topic": "Distributed Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A distributed database has 5 sites. If data is fully replicated, how many copies of each data item exist?",
+    "options": ["A) 1", "B) 3", "C) 5", "D) 10"],
+    "correct_answer": "C) 5",
+    "explanation": "In full replication, every site stores a complete copy. With 5 sites, there are 5 copies of each data item, one at each site."
+  },
+  {
+    "id": 45,
+    "topic": "Distributed Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between synchronous and asynchronous replication?",
+    "options": ["A) Synchronous replication is faster than asynchronous", "B) In synchronous replication, all copies are updated before the transaction commits; in asynchronous, updates propagate after commit", "C) Asynchronous replication guarantees stronger consistency", "D) Synchronous replication only works with homogeneous databases"],
+    "correct_answer": "B) In synchronous replication, all copies are updated before the transaction commits; in asynchronous, updates propagate after commit",
+    "explanation": "Synchronous replication updates all replicas before acknowledging the commit (strong consistency, higher latency). Asynchronous replication updates replicas after commit (lower latency, eventual consistency)."
+  },
+  {
+    "id": 46,
+    "topic": "Distributed Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In distributed concurrency control, what is the 'timestamp ordering' protocol?",
+    "options": ["A) Transactions are ordered by their size", "B) Each transaction is assigned a unique timestamp and executed in timestamp order to ensure serializability", "C) Timestamps are used to encrypt transactions", "D) Transactions are ordered by the number of operations they perform"],
+    "correct_answer": "B) Each transaction is assigned a unique timestamp and executed in timestamp order to ensure serializability",
+    "explanation": "Timestamp ordering assigns each transaction a unique timestamp at start. Operations are validated against timestamps to ensure the execution is equivalent to a serial schedule."
+  },
+  {
+    "id": 47,
+    "topic": "Distributed Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a 'wait-for graph' used for in distributed databases?",
+    "options": ["A) Tracking query execution time", "B) Detecting deadlocks by representing transaction wait dependencies", "C) Scheduling backup operations", "D) Monitoring network latency"],
+    "correct_answer": "B) Detecting deadlocks by representing transaction wait dependencies",
+    "explanation": "A wait-for graph has transactions as nodes and directed edges from Ti to Tj if Ti is waiting for Tj to release a lock. A cycle in this graph indicates a deadlock."
+  },
+  {
+    "id": 48,
+    "topic": "Distributed Databases",
+    "difficulty": "medium",
+    "exam_type": "campus",

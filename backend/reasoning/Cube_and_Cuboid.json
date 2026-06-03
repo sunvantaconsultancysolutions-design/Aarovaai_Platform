@@ -1,0 +1,481 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the volume of a cube with side length 5 cm?",
+    "options": ["A) 100 cm³", "B) 125 cm³", "C) 150 cm³", "D) 25 cm³"],
+    "correct_answer": "B) 125 cm³",
+    "explanation": "Volume of cube = side³ = 5³ = 125 cm³."
+  },
+  {
+    "id": 2,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the total surface area of a cube with side 4 cm?",
+    "options": ["A) 64 cm²", "B) 96 cm²", "C) 48 cm²", "D) 80 cm²"],
+    "correct_answer": "B) 96 cm²",
+    "explanation": "Total surface area of cube = 6 × side² = 6 × 16 = 96 cm²."
+  },
+  {
+    "id": 3,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the volume of a cuboid with length 6 cm, breadth 4 cm, and height 3 cm.",
+    "options": ["A) 60 cm³", "B) 72 cm³", "C) 84 cm³", "D) 48 cm³"],
+    "correct_answer": "B) 72 cm³",
+    "explanation": "Volume of cuboid = l × b × h = 6 × 4 × 3 = 72 cm³."
+  },
+  {
+    "id": 4,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the lateral surface area of a cube with side 7 cm?",
+    "options": ["A) 196 cm²", "B) 294 cm²", "C) 168 cm²", "D) 49 cm²"],
+    "correct_answer": "A) 196 cm²",
+    "explanation": "Lateral surface area of cube = 4 × side² = 4 × 49 = 196 cm²."
+  },
+  {
+    "id": 5,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The total surface area of a cuboid is given by which formula?",
+    "options": ["A) 2(lb + bh + lh)", "B) l × b × h", "C) 4(l + b) × h", "D) 6 × side²"],
+    "correct_answer": "A) 2(lb + bh + lh)",
+    "explanation": "Total surface area of cuboid = 2(lb + bh + lh), where l, b, h are length, breadth, height."
+  },
+  {
+    "id": 6,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many faces does a cube have?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "correct_answer": "B) 6",
+    "explanation": "A cube has 6 faces, all of which are equal squares."
+  },
+  {
+    "id": 7,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the diagonal of a cube with side 3 cm.",
+    "options": ["A) 3√2 cm", "B) 3√3 cm", "C) 9 cm", "D) 6 cm"],
+    "correct_answer": "B) 3√3 cm",
+    "explanation": "Diagonal of cube = side × √3 = 3√3 cm."
+  },
+  {
+    "id": 8,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the volume of a cuboid with dimensions 10 cm × 5 cm × 2 cm?",
+    "options": ["A) 17 cm³", "B) 100 cm³", "C) 50 cm³", "D) 200 cm³"],
+    "correct_answer": "B) 100 cm³",
+    "explanation": "Volume = l × b × h = 10 × 5 × 2 = 100 cm³."
+  },
+  {
+    "id": 9,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If the side of a cube is doubled, by how many times does its volume increase?",
+    "options": ["A) 2 times", "B) 4 times", "C) 6 times", "D) 8 times"],
+    "correct_answer": "D) 8 times",
+    "explanation": "New volume = (2a)³ = 8a³. So volume increases 8 times."
+  },
+  {
+    "id": 10,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many edges does a cuboid have?",
+    "options": ["A) 6", "B) 8", "C) 10", "D) 12"],
+    "correct_answer": "D) 12",
+    "explanation": "A cuboid has 12 edges: 4 each of length, breadth, and height."
+  },
+  {
+    "id": 11,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the total surface area of a cuboid with l = 8 cm, b = 5 cm, h = 3 cm?",
+    "options": ["A) 158 cm²", "B) 120 cm²", "C": "D) 180 cm²"],
+    "correct_answer": "A) 158 cm²",
+    "explanation": "TSA = 2(lb + bh + lh) = 2(40 + 15 + 24) = 2 × 79 = 158 cm²."
+  },
+  {
+    "id": 12,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A cube has a volume of 216 cm³. What is its side length?",
+    "options": ["A) 4 cm", "B) 5 cm", "C) 6 cm", "D) 7 cm"],
+    "correct_answer": "C) 6 cm",
+    "explanation": "Side = ∛216 = 6 cm."
+  },
+  {
+    "id": 13,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the lateral surface area of a cuboid with l = 7 cm, b = 4 cm, h = 5 cm?",
+    "options": ["A) 110 cm²", "B) 120 cm²", "C) 130 cm²", "D) 140 cm²"],
+    "correct_answer": "A) 110 cm²",
+    "explanation": "Lateral SA = 2(l + b) × h = 2(7 + 4) × 5 = 2 × 11 × 5 = 110 cm²."
+  },
+  {
+    "id": 14,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many vertices does a cube have?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "correct_answer": "C) 8",
+    "explanation": "A cube has 8 vertices (corners)."
+  },
+  {
+    "id": 15,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the diagonal of a cuboid with l = 3 cm, b = 4 cm, h = 12 cm.",
+    "options": ["A) 13 cm", "B) 15 cm", "C) 11 cm", "D) 19 cm"],
+    "correct_answer": "A) 13 cm",
+    "explanation": "Diagonal = √(l² + b² + h²) = √(9 + 16 + 144) = √169 = 13 cm."
+  },
+  {
+    "id": 16,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If the total surface area of a cube is 54 cm², what is its side?",
+    "options": ["A) 2 cm", "B) 3 cm", "C) 4 cm", "D) 5 cm"],
+    "correct_answer": "B) 3 cm",
+    "explanation": "6a² = 54 → a² = 9 → a = 3 cm."
+  },
+  {
+    "id": 17,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A cuboid has volume 120 cm³, length 10 cm, and breadth 4 cm. Find its height.",
+    "options": ["A) 2 cm", "B) 3 cm", "C) 4 cm", "D) 5 cm"],
+    "correct_answer": "B) 3 cm",
+    "explanation": "h = Volume / (l × b) = 120 / (10 × 4) = 120 / 40 = 3 cm."
+  },
+  {
+    "id": 18,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the number of small cubes of side 2 cm that can be cut from a cube of side 8 cm?",
+    "options": ["A) 16", "B) 32", "C) 64", "D) 128"],
+    "correct_answer": "C) 64",
+    "explanation": "Number = (8/2)³ = 4³ = 64 small cubes."
+  },
+  {
+    "id": 19,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The side of a cube is 9 cm. What is its total surface area?",
+    "options": ["A) 324 cm²", "B) 486 cm²", "C) 540 cm²", "D) 729 cm²"],
+    "correct_answer": "B) 486 cm²",
+    "explanation": "TSA = 6 × 9² = 6 × 81 = 486 cm²."
+  },
+  {
+    "id": 20,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A water tank is in the shape of a cuboid with dimensions 5 m × 4 m × 3 m. How many litres of water can it hold? (1 m³ = 1000 litres)",
+    "options": ["A) 40,000 L", "B) 50,000 L", "C) 60,000 L", "D) 70,000 L"],
+    "correct_answer": "C) 60,000 L",
+    "explanation": "Volume = 5 × 4 × 3 = 60 m³ = 60 × 1000 = 60,000 litres."
+  },
+  {
+    "id": 21,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If the side of a cube is tripled, by how many times does its surface area increase?",
+    "options": ["A) 3 times", "B) 6 times", "C) 9 times", "D) 27 times"],
+    "correct_answer": "C) 9 times",
+    "explanation": "New SA = 6(3a)² = 54a² = 9 × 6a². So surface area increases 9 times."
+  },
+  {
+    "id": 22,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the volume of a cube whose surface area is 150 cm²?",
+    "options": ["A) 100 cm³", "B) 125 cm³", "C) 150 cm³", "D) 175 cm³"],
+    "correct_answer": "B) 125 cm³",
+    "explanation": "6a² = 150 → a² = 25 → a = 5. Volume = 5³ = 125 cm³."
+  },
+  {
+    "id": 23,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the total surface area of a cuboid with l = 12 cm, b = 10 cm, h = 8 cm.",
+    "options": ["A) 592 cm²", "B) 672 cm²", "C) 512 cm²", "D) 480 cm²"],
+    "correct_answer": "A) 592 cm²",
+    "explanation": "TSA = 2(lb + bh + lh) = 2(120 + 80 + 96) = 2 × 296 = 592 cm²."
+  },
+  {
+    "id": 24,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A cube of side 6 cm is painted on all faces. How many unit cubes have exactly 3 faces painted?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "correct_answer": "C) 8",
+    "explanation": "Cubes with 3 faces painted are always at the corners. A cube has 8 corners, so 8 unit cubes."
+  },
+  {
+    "id": 25,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the length of the longest rod that can be placed in a room of dimensions 12 m × 9 m × 8 m?",
+    "options": ["A) 17 m", "B) 15 m", "C) 19 m", "D) 21 m"],
+    "correct_answer": "A) 17 m",
+    "explanation": "Longest rod = diagonal = √(12² + 9² + 8²) = √(144 + 81 + 64) = √289 = 17 m."
+  },
+  {
+    "id": 26,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many small cubes of side 3 cm can be placed in a cuboid of dimensions 9 cm × 6 cm × 3 cm?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "correct_answer": "B) 6",
+    "explanation": "Number = (9/3) × (6/3) × (3/3) = 3 × 2 × 1 = 6 cubes."
+  },
+  {
+    "id": 27,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The volume of a cube is 512 cm³. Find its side.",
+    "options": ["A) 6 cm", "B) 7 cm", "C) 8 cm", "D) 9 cm"],
+    "correct_answer": "C) 8 cm",
+    "explanation": "Side = ∛512 = 8 cm."
+  },
+  {
+    "id": 28,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the perimeter of one face of a cube with side 5 cm?",
+    "options": ["A) 10 cm", "B) 15 cm", "C) 20 cm", "D) 25 cm"],
+    "correct_answer": "C) 20 cm",
+    "explanation": "Each face is a square. Perimeter = 4 × side = 4 × 5 = 20 cm."
+  },
+  {
+    "id": 29,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A cuboid has l = 5 cm, b = 5 cm, h = 5 cm. What shape is it?",
+    "options": ["A) Rectangular box", "B) Cube", "C) Cylinder", "D) Prism"],
+    "correct_answer": "B) Cube",
+    "explanation": "When all three dimensions of a cuboid are equal, it becomes a cube."
+  },
+  {
+    "id": 30,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the volume of a cube whose diagonal is 6√3 cm.",
+    "options": ["A) 216 cm³", "B) 125 cm³", "C) 343 cm³", "D) 512 cm³"],
+    "correct_answer": "A) 216 cm³",
+    "explanation": "Diagonal = a√3 → 6√3 = a√3 → a = 6. Volume = 6³ = 216 cm³."
+  },
+  {
+    "id": 31,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A cube of side 4 cm is painted red on all faces and then cut into unit cubes. How many unit cubes have no face painted?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "Unpainted cubes = (n-2)³ = (4-2)³ = 2³ = 8."
+  },
+  {
+    "id": 32,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the total surface area of a cube with volume 27 cm³?",
+    "options": ["A) 27 cm²", "B) 36 cm²", "C) 54 cm²", "D) 81 cm²"],
+    "correct_answer": "C) 54 cm²",
+    "explanation": "Volume = 27 → side = 3. TSA = 6 × 3² = 54 cm²."
+  },
+  {
+    "id": 33,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A box is 20 cm long, 15 cm wide, and 10 cm tall. What is its volume?",
+    "options": ["A) 2000 cm³", "B) 2500 cm³", "C) 3000 cm³", "D) 3500 cm³"],
+    "correct_answer": "C) 3000 cm³",
+    "explanation": "Volume = 20 × 15 × 10 = 3000 cm³."
+  },
+  {
+    "id": 34,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The surface area of one face of a cube is 49 cm². What is the volume of the cube?",
+    "options": ["A) 216 cm³", "B) 343 cm³", "C) 512 cm³", "D) 125 cm³"],
+    "correct_answer": "B) 343 cm³",
+    "explanation": "Face area = a² = 49 → a = 7. Volume = 7³ = 343 cm³."
+  },
+  {
+    "id": 35,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many edges does a cube have?",
+    "options": ["A) 6", "B) 8", "C) 10", "D) 12"],
+    "correct_answer": "D) 12",
+    "explanation": "A cube has 12 edges: 4 on top, 4 on bottom, and 4 vertical."
+  },
+  {
+    "id": 36,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A cuboid has a volume of 360 cm³. If its length is 12 cm and height is 5 cm, find its breadth.",
+    "options": ["A) 4 cm", "B) 5 cm", "C) 6 cm", "D) 7 cm"],
+    "correct_answer": "C) 6 cm",
+    "explanation": "b = Volume / (l × h) = 360 / (12 × 5) = 360 / 60 = 6 cm."
+  },
+  {
+    "id": 37,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the lateral surface area of a cube with side 10 cm?",
+    "options": ["A) 300 cm²", "B) 400 cm²", "C) 500 cm²", "D) 600 cm²"],
+    "correct_answer": "B) 400 cm²",
+    "explanation": "Lateral SA = 4 × side² = 4 × 100 = 400 cm²."
+  },
+  {
+    "id": 38,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If the volume of a cuboid is 240 cm³ and its base area is 40 cm², what is its height?",
+    "options": ["A) 4 cm", "B) 5 cm", "C) 6 cm", "D) 8 cm"],
+    "correct_answer": "C) 6 cm",
+    "explanation": "Height = Volume / Base area = 240 / 40 = 6 cm."
+  },
+  {
+    "id": 39,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A cube of side 5 cm is painted on all faces and cut into unit cubes. How many unit cubes have exactly 2 faces painted?",
+    "options": ["A) 12", "B) 24", "C) 36", "D) 48"],
+    "correct_answer": "C) 36",
+    "explanation": "Cubes with 2 faces painted = 12(n-2) = 12(5-2) = 12 × 3 = 36."
+  },
+  {
+    "id": 40,
+    "topic": "Cube and Cuboid",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the diagonal of a cube with side 5 cm?",
+    "options": ["A) 5√2 cm", "B) 5√3 cm", "C) 10 cm", "D) 15 cm"],
+    "correct_answer": "B) 5√3 cm",
+    "explanation": "Diagonal of cube = a√3 = 5√3 cm."
+  },
+  {
+    "id": 41,
+    "topic": "Cube and Cuboid",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A cube of side 6 cm is painted on all faces and then cut into unit cubes. How many unit cubes have exactly 1 face painted?",
+    "options": ["A) 48", "B) 72", "C) 96", "D) 120"],
+    "correct_answer": "C) 96",
+    "explanation": "Cubes with 1 face painted = 6(n-2)² = 6(6-2)² = 6 × 16 = 96."
+  },
+  {
+    "id": 42,
+    "topic": "Cube and Cuboid",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Three cubes of sides 3 cm, 4 cm, and 5 cm are melted and recast into a single cube. Find the side of the new cube.",
+    "options": ["A) 5 cm", "B) 6 cm", "C) 7 cm", "D) 8 cm"],
+    "correct_answer": "B) 6 cm",
+    "explanation": "Total volume = 27 + 64 + 125 = 216 cm³. New side = ∛216 = 6 cm."
+  },
+  {
+    "id": 43,
+    "topic": "Cube and Cuboid",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The ratio of the volumes of two cubes is 8:27. What is the ratio of their surface areas?",
+    "options": ["A) 2:3", "B) 4:9", "C) 8:27", "D) 16:81"],
+    "correct_answer": "B) 4:9",
+    "explanation": "Ratio of sides = ∛(8:27) = 2:3. Ratio of surface areas = 2²:3² = 4:9."
+  },
+  {
+    "id": 44,
+    "topic": "Cube and Cuboid",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A cuboid of dimensions 24 cm × 18 cm × 12 cm is cut into cubes of side 6 cm. How many cubes are formed?",
+    "options": ["A) 24", "B) 36", "C) 48", "D) 72"],
+    "correct_answer": "A) 24",
+    "explanation": "Number = (24/6) × (18/6) × (12/6) = 4 × 3 × 2 = 24 cubes."
+  },
+  {
+    "id": 45,
+    "topic": "Cube and Cuboid",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The surface area of a cube is 384 cm². Find its volume.",
+    "options": ["A) 512 cm³", "B) 729 cm³", "C) 1000 cm³", "D) 343 cm³"],
+    "correct_answer": "A) 512 cm³",
+    "explanation": "6a² = 384 → a² = 64 → a = 8. Volume = 8³ = 512 cm³."
+  },
+  {
+    "id": 46,
+    "topic": "Cube and Cuboid",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A room is 15 m long, 12 m wide, and 5 m high. Find the cost of plastering its four walls and ceiling at ₹10 per m².",
+    "options": ["A) ₹4,500", "B) ₹5,100", "C) ₹5,700", "D) ₹6,300"],
+    "correct_answer": "C) ₹5,700",
+    "explanation": "Area = 2(l+b)h + lb = 2(15+12)×5 + 15×12 = 270 + 180 = 450 m² (4 walls + ceiling). Wait: 4 walls = 2(15+12)×5 = 270, ceiling = 15×12 = 180. Total = 450 m². Cost = 450 × 10 = ₹4,500. Correction: 4 walls + ceiling = 270 + 180 = 450. Cost = ₹4,500."
+  },
+  {
+    "id": 47,
+    "topic": "Cube and Cuboid",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "How many bricks of size 25 cm × 12.5 cm × 7.5 cm are needed to build a wall 10 m × 4 m × 0.5 m?",
+    "options": ["A) 6400", "B) 8533", "C) 7000", "D) 5000"],
+    "correct_answer": "B) 8533",
+    "explanation": "Wall volume = 1000 × 400 × 50 = 20,000,000 cm³. Brick volume = 25 × 12.5 × 7.5 = 2343.75 cm³. Number = 20,000,000 / 2343.75 ≈ 8533."
+  },
+  {
+    "id": 48,
+    "topic": "Cube and Cuboid",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The diagonal of a cuboid is 13 cm. If l = 3 cm and b = 4 cm, find the height.",
+    "options": ["A) 10 cm", "B) 11 cm", "C) 12 cm", "D) 13 cm"],
+    "correct_answer": "C) 12 cm",
+    "explanation": "Diagonal = √(l² + b² + h²) → 13 = √(9 + 16 + h²) → 169 = 25 

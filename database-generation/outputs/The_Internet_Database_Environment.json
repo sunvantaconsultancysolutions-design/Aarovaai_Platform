@@ -1,0 +1,493 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'Internet Database' primarily refer to?",
+    "options": ["A) A database stored on a single local machine", "B) A database accessible via the Internet using web technologies", "C) A database used only for email storage", "D) A database that stores only images"],
+    "correct_answer": "B) A database accessible via the Internet using web technologies",
+    "explanation": "An Internet database is one that can be accessed through web browsers and Internet protocols, making data available to users over the network."
+  },
+  {
+    "id": 2,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is most commonly used to transfer data between a web server and a client browser?",
+    "options": ["A) FTP", "B) SMTP", "C) HTTP", "D) SNMP"],
+    "correct_answer": "C) HTTP",
+    "explanation": "HTTP (HyperText Transfer Protocol) is the foundation of data communication on the World Wide Web, used to transfer web pages and data between servers and clients."
+  },
+  {
+    "id": 3,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a three-tier web database architecture, which tier contains the database server?",
+    "options": ["A) Presentation tier", "B) Logic tier", "C) Data tier", "D) Network tier"],
+    "correct_answer": "C) Data tier",
+    "explanation": "The three-tier architecture consists of Presentation (client), Logic (application/web server), and Data (database server) tiers. The database resides in the data tier."
+  },
+  {
+    "id": 4,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does CGI stand for in the context of web-database connectivity?",
+    "options": ["A) Common Gateway Interface", "B) Computer Generated Interface", "C) Central Gateway Integration", "D) Common Graphical Interface"],
+    "correct_answer": "A) Common Gateway Interface",
+    "explanation": "CGI (Common Gateway Interface) is a standard protocol that allows web servers to execute programs and pass data between web browsers and server-side applications including databases."
+  },
+  {
+    "id": 5,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a server-side scripting language commonly used to connect web pages to databases?",
+    "options": ["A) HTML", "B) CSS", "C) PHP", "D) XML"],
+    "correct_answer": "C) PHP",
+    "explanation": "PHP (Hypertext Preprocessor) is a widely-used server-side scripting language that can connect to databases like MySQL to generate dynamic web content."
+  },
+  {
+    "id": 6,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a web server in an Internet database environment?",
+    "options": ["A) To store the database permanently", "B) To handle HTTP requests and pass them to the application layer", "C) To encrypt all user passwords", "D) To manage network hardware"],
+    "correct_answer": "B) To handle HTTP requests and pass them to the application layer",
+    "explanation": "A web server receives HTTP requests from clients, processes them, and communicates with the application layer which in turn queries the database."
+  },
+  {
+    "id": 7,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'thin client' in an Internet database environment?",
+    "options": ["A) A client with a large local database", "B) A client that relies on the server for most processing", "C) A client with high processing power", "D) A client that stores all data locally"],
+    "correct_answer": "B) A client that relies on the server for most processing",
+    "explanation": "A thin client performs minimal local processing and relies on the server for computation and data storage, which is typical in web-based database environments."
+  },
+  {
+    "id": 8,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does URL stand for?",
+    "options": ["A) Universal Resource Locator", "B) Uniform Resource Locator", "C) Unified Reference Link", "D) Universal Reference Language"],
+    "correct_answer": "B) Uniform Resource Locator",
+    "explanation": "URL stands for Uniform Resource Locator, which is the address used to access resources on the Internet, including web-based database applications."
+  },
+  {
+    "id": 9,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which language is used to define the structure of web pages displayed in a browser?",
+    "options": ["A) SQL", "B) HTML", "C) Java", "D) Python"],
+    "correct_answer": "B) HTML",
+    "explanation": "HTML (HyperText Markup Language) is the standard language for creating web pages. It defines the structure and content displayed in a web browser."
+  },
+  {
+    "id": 10,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In web-database connectivity, what does ODBC stand for?",
+    "options": ["A) Open Database Connectivity", "B) Online Data Base Connection", "C) Object Database Connectivity", "D) Open Data Broadcast Channel"],
+    "correct_answer": "A) Open Database Connectivity",
+    "explanation": "ODBC (Open Database Connectivity) is a standard API for accessing database management systems, allowing applications to connect to various databases using a common interface."
+  },
+  {
+    "id": 11,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a component of the Internet database environment?",
+    "options": ["A) Web browser", "B) Web server", "C) Database server", "D) Mainframe punch card reader"],
+    "correct_answer": "D) Mainframe punch card reader",
+    "explanation": "The Internet database environment consists of web browsers, web servers, application servers, and database servers. Punch card readers are obsolete and not part of this environment."
+  },
+  {
+    "id": 12,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary purpose of a firewall in an Internet database environment?",
+    "options": ["A) To speed up database queries", "B) To prevent unauthorized access to the network and database", "C) To compress database files", "D) To format web pages"],
+    "correct_answer": "B) To prevent unauthorized access to the network and database",
+    "explanation": "A firewall monitors and controls incoming and outgoing network traffic based on security rules, protecting the database server from unauthorized access."
+  },
+  {
+    "id": 13,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following databases is most commonly used with PHP in web applications?",
+    "options": ["A) Oracle", "B) MySQL", "C) DB2", "D) Sybase"],
+    "correct_answer": "B) MySQL",
+    "explanation": "MySQL is the most popular open-source relational database used with PHP in web applications, forming the 'LAMP' stack (Linux, Apache, MySQL, PHP)."
+  },
+  {
+    "id": 14,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'dynamic web page' mean in the context of Internet databases?",
+    "options": ["A) A page with animated graphics only", "B) A page whose content is generated from a database at runtime", "C) A page that changes color automatically", "D) A page stored permanently on the client"],
+    "correct_answer": "B) A page whose content is generated from a database at runtime",
+    "explanation": "Dynamic web pages retrieve data from a database and generate HTML content on-the-fly, unlike static pages which have fixed content."
+  },
+  {
+    "id": 15,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which tier in a multi-tier architecture is responsible for business logic processing?",
+    "options": ["A) Presentation tier", "B) Application/Middle tier", "C) Data tier", "D) Network tier"],
+    "correct_answer": "B) Application/Middle tier",
+    "explanation": "The middle (application) tier handles business logic, processing requests from the presentation tier and querying the data tier accordingly."
+  },
+  {
+    "id": 16,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'cookie' in the context of web-based database applications?",
+    "options": ["A) A type of database query", "B) A small file stored on the client to maintain session information", "C) A server-side script", "D) A type of encryption algorithm"],
+    "correct_answer": "B) A small file stored on the client to maintain session information",
+    "explanation": "Cookies are small text files stored on the client's browser to maintain session state and user preferences in web-based applications."
+  },
+  {
+    "id": 17,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a NoSQL database used in Internet environments?",
+    "options": ["A) MySQL", "B) PostgreSQL", "C) MongoDB", "D) Oracle"],
+    "correct_answer": "C) MongoDB",
+    "explanation": "MongoDB is a popular NoSQL document-oriented database widely used in Internet and web application environments for its flexibility and scalability."
+  },
+  {
+    "id": 18,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does API stand for in web-database integration?",
+    "options": ["A) Application Programming Interface", "B) Automated Process Integration", "C) Advanced Protocol Interface", "D) Application Process Interpreter"],
+    "correct_answer": "A) Application Programming Interface",
+    "explanation": "API (Application Programming Interface) defines how software components interact. In web-database environments, APIs allow web applications to communicate with database systems."
+  },
+  {
+    "id": 19,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of a two-tier client-server architecture?",
+    "options": ["A) The client communicates directly with the database server", "B) There is always a middle application server", "C) The database is stored on the client machine", "D) Three separate servers are required"],
+    "correct_answer": "A) The client communicates directly with the database server",
+    "explanation": "In a two-tier architecture, the client application communicates directly with the database server without an intermediate application server."
+  },
+  {
+    "id": 20,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the function of SQL in an Internet database environment?",
+    "options": ["A) To design web page layouts", "B) To query and manipulate relational databases", "C) To encrypt network traffic", "D) To manage web server configurations"],
+    "correct_answer": "B) To query and manipulate relational databases",
+    "explanation": "SQL (Structured Query Language) is used to create, read, update, and delete data in relational databases, which are the backbone of most Internet database environments."
+  },
+  {
+    "id": 21,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'data integrity' in an Internet database?",
+    "options": ["A) The speed of data retrieval", "B) The accuracy and consistency of data stored in the database", "C) The size of the database", "D) The number of users accessing the database"],
+    "correct_answer": "B) The accuracy and consistency of data stored in the database",
+    "explanation": "Data integrity ensures that data stored in a database is accurate, consistent, and reliable throughout its lifecycle."
+  },
+  {
+    "id": 22,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does HTTPS add to HTTP in terms of security?",
+    "options": ["A) Faster data transfer", "B) SSL/TLS encryption for secure communication", "C) Larger data packets", "D) Automatic database backup"],
+    "correct_answer": "B) SSL/TLS encryption for secure communication",
+    "explanation": "HTTPS uses SSL/TLS protocols to encrypt data transmitted between the client and server, ensuring secure communication in web-database environments."
+  },
+  {
+    "id": 23,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a popular Java-based technology for connecting web applications to databases?",
+    "options": ["A) ODBC", "B) JDBC", "C) ADO.NET", "D) CGI"],
+    "correct_answer": "B) JDBC",
+    "explanation": "JDBC (Java Database Connectivity) is a Java API that enables Java applications to interact with relational databases in web and Internet environments."
+  },
+  {
+    "id": 24,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a 'connection pool' in an Internet database environment?",
+    "options": ["A) To store backup copies of the database", "B) To reuse database connections and improve performance", "C) To encrypt database queries", "D) To distribute data across multiple servers"],
+    "correct_answer": "B) To reuse database connections and improve performance",
+    "explanation": "A connection pool maintains a set of pre-established database connections that can be reused, reducing the overhead of creating new connections for each request."
+  },
+  {
+    "id": 25,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which format is commonly used to exchange data between web applications and databases over the Internet?",
+    "options": ["A) BMP", "B) JSON", "C) MP3", "D) EXE"],
+    "correct_answer": "B) JSON",
+    "explanation": "JSON (JavaScript Object Notation) is a lightweight data-interchange format widely used to transmit data between web applications and servers/databases."
+  },
+
+  {
+    "id": 26,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main advantage of using a three-tier architecture over a two-tier architecture in Internet database environments?",
+    "options": ["A) Reduced cost of hardware", "B) Better scalability and separation of concerns", "C) Faster network speeds", "D) Simpler database design"],
+    "correct_answer": "B) Better scalability and separation of concerns",
+    "explanation": "Three-tier architecture separates presentation, business logic, and data layers, improving scalability, maintainability, and security compared to two-tier systems."
+  },
+  {
+    "id": 27,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a web application framework used with Python for database-driven websites?",
+    "options": ["A) Laravel", "B) Django", "C) Spring", "D) Rails"],
+    "correct_answer": "B) Django",
+    "explanation": "Django is a high-level Python web framework that includes built-in ORM (Object-Relational Mapping) for easy database integration in web applications."
+  },
+  {
+    "id": 28,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'scalability' mean in the context of Internet database environments?",
+    "options": ["A) The ability to reduce database size", "B) The ability to handle increasing loads by adding resources", "C) The ability to encrypt more data", "D) The ability to reduce query time to zero"],
+    "correct_answer": "B) The ability to handle increasing loads by adding resources",
+    "explanation": "Scalability refers to a system's ability to handle growing amounts of work or users by adding hardware or software resources without degrading performance."
+  },
+  {
+    "id": 29,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a web server software?",
+    "options": ["A) MySQL", "B) Apache HTTP Server", "C) MongoDB", "D) Oracle DB"],
+    "correct_answer": "B) Apache HTTP Server",
+    "explanation": "Apache HTTP Server is one of the most widely used web server software that handles HTTP requests and serves web content to clients."
+  },
+  {
+    "id": 30,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'session' in the context of web-database applications?",
+    "options": ["A) A permanent database record", "B) A temporary interaction period between a user and a web application", "C) A type of SQL query", "D) A network protocol"],
+    "correct_answer": "B) A temporary interaction period between a user and a web application",
+    "explanation": "A session represents a series of interactions between a user and a web application during a single visit, often used to maintain state across multiple HTTP requests."
+  },
+  {
+    "id": 31,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct definition of 'cloud database'?",
+    "options": ["A) A database stored in the atmosphere", "B) A database service delivered and accessed via cloud computing platforms", "C) A database that only stores weather data", "D) A database with no physical storage"],
+    "correct_answer": "B) A database service delivered and accessed via cloud computing platforms",
+    "explanation": "A cloud database is a database that runs on cloud computing infrastructure, accessible over the Internet, offering scalability and managed services."
+  },
+  {
+    "id": 32,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of XML in Internet database environments?",
+    "options": ["A) To style web pages", "B) To represent and exchange structured data between systems", "C) To execute database queries", "D) To manage network connections"],
+    "correct_answer": "B) To represent and exchange structured data between systems",
+    "explanation": "XML (eXtensible Markup Language) is used to represent structured data in a human-readable format, facilitating data exchange between different systems and databases."
+  },
+  {
+    "id": 33,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'data redundancy' in an Internet database?",
+    "options": ["A) Storing the same data in multiple places unnecessarily", "B) Encrypting data multiple times", "C) Backing up data to the cloud", "D) Compressing data for faster transfer"],
+    "correct_answer": "A) Storing the same data in multiple places unnecessarily",
+    "explanation": "Data redundancy occurs when the same piece of data is stored in multiple locations, leading to inconsistency and wasted storage space."
+  },
+  {
+    "id": 34,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of an IP address in an Internet database environment?",
+    "options": ["A) To identify and locate devices on a network", "B) To encrypt database queries", "C) To format web pages", "D) To store user passwords"],
+    "correct_answer": "A) To identify and locate devices on a network",
+    "explanation": "An IP address uniquely identifies a device on a network, allowing web servers and database servers to communicate with each other and with clients."
+  },
+  {
+    "id": 35,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a key benefit of using a database in a web application compared to flat files?",
+    "options": ["A) Databases are always faster than flat files", "B) Databases provide structured storage, querying, and concurrent access", "C) Databases require no maintenance", "D) Databases use less storage space always"],
+    "correct_answer": "B) Databases provide structured storage, querying, and concurrent access",
+    "explanation": "Databases offer structured data storage, powerful query capabilities, data integrity, and support for concurrent access by multiple users, unlike flat files."
+  },
+  {
+    "id": 36,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'authentication' mean in an Internet database environment?",
+    "options": ["A) Verifying the identity of a user or system", "B) Encrypting database records", "C) Backing up the database", "D) Optimizing SQL queries"],
+    "correct_answer": "A) Verifying the identity of a user or system",
+    "explanation": "Authentication is the process of verifying that a user or system is who they claim to be, typically through usernames, passwords, or tokens."
+  },
+  {
+    "id": 37,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a common method to prevent SQL injection attacks in web applications?",
+    "options": ["A) Using longer passwords", "B) Using parameterized queries or prepared statements", "C) Disabling the database", "D) Using only GET requests"],
+    "correct_answer": "B) Using parameterized queries or prepared statements",
+    "explanation": "Parameterized queries separate SQL code from user input, preventing malicious SQL code from being executed as part of a database query."
+  },
+  {
+    "id": 38,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'bandwidth' in the context of Internet database environments?",
+    "options": ["A) The size of the database", "B) The maximum rate of data transfer across a network", "C) The number of database tables", "D) The speed of SQL query execution"],
+    "correct_answer": "B) The maximum rate of data transfer across a network",
+    "explanation": "Bandwidth refers to the maximum amount of data that can be transmitted over a network connection per unit of time, affecting web application performance."
+  },
+  {
+    "id": 39,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of a relational database used in Internet environments?",
+    "options": ["A) Data is stored in documents", "B) Data is organized in tables with rows and columns", "C) Data is stored as key-value pairs only", "D) Data cannot be queried"],
+    "correct_answer": "B) Data is organized in tables with rows and columns",
+    "explanation": "Relational databases organize data into tables (relations) with rows (records) and columns (attributes), and use SQL for data manipulation."
+  },
+  {
+    "id": 40,
+    "topic": "The Internet Database Environment",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of caching in an Internet database environment?",
+    "options": ["A) To permanently delete old data", "B) To store frequently accessed data temporarily for faster retrieval", "C) To encrypt sensitive database records", "D) To compress the database size"],
+    "correct_answer": "B) To store frequently accessed data temporarily for faster retrieval",
+    "explanation": "Caching stores copies of frequently accessed data in fast-access storage (like memory), reducing database load and improving response times for web applications."
+  },
+
+  {
+    "id": 41,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a web application, a user submits a form that triggers a database query. The query takes 200ms to execute, and the network latency is 50ms each way. What is the total round-trip time for the request?",
+    "options": ["A) 200ms", "B) 250ms", "C) 300ms", "D) 400ms"],
+    "correct_answer": "C) 300ms",
+    "explanation": "Total time = Network latency (client to server) + Query execution + Network latency (server to client) = 50ms + 200ms + 50ms = 300ms."
+  },
+  {
+    "id": 42,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes the difference between stateless and stateful protocols in web-database environments?",
+    "options": ["A) Stateless protocols remember previous interactions; stateful do not", "B) HTTP is stateful; FTP is stateless", "C) Stateless protocols do not retain session information between requests; stateful do", "D) Stateful protocols are always faster than stateless ones"],
+    "correct_answer": "C) Stateless protocols do not retain session information between requests; stateful do",
+    "explanation": "HTTP is stateless — each request is independent. Stateful protocols maintain session context. Web apps use cookies/sessions to add statefulness to HTTP."
+  },
+  {
+    "id": 43,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A web application has a connection pool with a maximum of 10 connections. If 15 simultaneous users try to access the database, what happens to the extra 5 users?",
+    "options": ["A) They are immediately rejected with an error", "B) They wait in a queue until a connection becomes available", "C) New connections are automatically created beyond the pool limit", "D) The database server crashes"],
+    "correct_answer": "B) They wait in a queue until a connection becomes available",
+    "explanation": "When all connections in a pool are in use, additional requests are queued and wait until a connection is released back to the pool."
+  },
+  {
+    "id": 44,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the primary difference between horizontal scaling and vertical scaling in Internet database environments?",
+    "options": ["A) Horizontal scaling adds more CPUs to one server; vertical adds more servers", "B) Horizontal scaling adds more servers; vertical scaling upgrades existing server resources", "C) Horizontal scaling is for databases only; vertical is for web servers", "D) There is no difference between the two"],
+    "correct_answer": "B) Horizontal scaling adds more servers; vertical scaling upgrades existing server resources",
+    "explanation": "Vertical scaling (scale up) means adding more resources (CPU, RAM) to existing servers. Horizontal scaling (scale out) means adding more servers to distribute the load."
+  },
+  {
+    "id": 45,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In REST API design for database-backed web services, which HTTP method is used to UPDATE an existing resource?",
+    "options": ["A) GET", "B) POST", "C) PUT", "D) DELETE"],
+    "correct_answer": "C) PUT",
+    "explanation": "In RESTful APIs: GET retrieves, POST creates, PUT updates/replaces, and DELETE removes resources. PUT is used to update an existing database record."
+  },
+  {
+    "id": 46,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct order of operations when a user requests a dynamic web page backed by a database?",
+    "options": ["A) Browser → Database → Web Server → Browser", "B) Browser → Web Server → Application Server → Database → Application Server → Web Server → Browser", "C) Browser → Application Server → Browser", "D) Database → Web Server → Browser"],
+    "correct_answer": "B) Browser → Web Server → Application Server → Database → Application Server → Web Server → Browser",
+    "explanation": "The request flows from browser to web server, then to application server which queries the database, and the response travels back through the same path."
+  },
+  {
+    "id": 47,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is 'database sharding' in the context of Internet-scale applications?",
+    "options": ["A) Encrypting database tables", "B) Splitting a large database into smaller, distributed pieces called shards", "C) Merging multiple databases into one", "D) Creating read-only copies of the database"],
+    "correct_answer": "B) Splitting a large database into smaller, distributed pieces called shards",
+    "explanation": "Sharding partitions data across multiple database instances (shards), each holding a subset of the data, enabling horizontal scaling for large Internet applications."
+  },
+  {
+    "id": 48,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A database server handles 1000 queries per second. If each query takes an average of 5ms to execute, what is the minimum number of parallel processing threads needed to sustain this load?",
+    "options": ["A) 1", "B) 5", "C) 10", "D) 100"],
+    "correct_answer": "B) 5",
+    "explanation": "Each thread handles 1000ms/5ms = 200 queries/second. To handle 1000 queries/second: 1000/200 = 5 threads minimum."
+  },
+  {
+    "id": 49,
+    "topic": "The Internet Database Environment",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes the CAP theorem in distributed Internet database systems?",
+    "options": ["A) A system can simultaneously guarantee Consistency, Availability, and Partition tolerance", "B) A distributed system can only guarantee two of the three: Consistency, Availability, Partition tolerance", "C) CAP stands for Cache, API, and Protocol", "D) CAP theorem applies only to NoSQL databases"],
+    "correct_answer": "B) A distributed system can only guarantee two of the three: Consistency, Availability, Partition tolerance",
+    "explanation": "The CAP theorem states that a distributed database system

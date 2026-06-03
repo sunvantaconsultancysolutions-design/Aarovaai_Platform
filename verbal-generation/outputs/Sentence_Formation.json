@@ -1,0 +1,677 @@
+[
+  {
+    "id": 1,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words to form a meaningful sentence: 'goes / school / he / every / to / day'",
+    "options": [
+      "A) He goes to school every day.",
+      "B) He school goes every day to.",
+      "C) Every day he school goes to.",
+      "D) To school every day he goes."
+    ],
+    "correct_answer": "A) He goes to school every day.",
+    "explanation": "The correct sentence follows Subject + Verb + Object + Adverb structure: 'He goes to school every day.' This is a simple present tense sentence."
+  },
+  {
+    "id": 2,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a grammatically correct sentence? Choose the best arrangement: 'the / cat / sat / on / mat / the'",
+    "options": [
+      "A) The cat sat on the mat.",
+      "B) The mat sat on the cat.",
+      "C) Sat the cat on mat the.",
+      "D) On the mat the cat sat."
+    ],
+    "correct_answer": "A) The cat sat on the mat.",
+    "explanation": "The correct arrangement is Subject (The cat) + Verb (sat) + Prepositional phrase (on the mat). Option A is the standard grammatically correct sentence."
+  },
+  {
+    "id": 3,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'is / she / a / doctor / good' to form a meaningful sentence.",
+    "options": [
+      "A) She is a good doctor.",
+      "B) A good doctor she is.",
+      "C) She good is a doctor.",
+      "D) Is she a good doctor."
+    ],
+    "correct_answer": "A) She is a good doctor.",
+    "explanation": "The correct order is Subject (She) + Verb (is) + Article (a) + Adjective (good) + Noun (doctor). Option A follows standard English sentence structure."
+  },
+  {
+    "id": 4,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence formed from: 'plays / he / cricket / morning / every'",
+    "options": [
+      "A) Every morning he plays cricket.",
+      "B) He plays cricket every morning.",
+      "C) Both A and B are correct.",
+      "D) Cricket plays he every morning."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both 'Every morning he plays cricket' and 'He plays cricket every morning' are grammatically correct. Adverbs of time can appear at the beginning or end of a sentence."
+  },
+  {
+    "id": 5,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the correct sentence from the jumbled words: 'birds / the / sky / in / fly / the'",
+    "options": [
+      "A) The birds fly in the sky.",
+      "B) In the sky fly the birds.",
+      "C) The sky birds fly in the.",
+      "D) Fly the birds in sky the."
+    ],
+    "correct_answer": "A) The birds fly in the sky.",
+    "explanation": "The correct arrangement follows Subject (The birds) + Verb (fly) + Prepositional phrase (in the sky). Option A is the most natural and grammatically correct sentence."
+  },
+  {
+    "id": 6,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange: 'mango / likes / she / eating' to form a correct sentence.",
+    "options": [
+      "A) She likes eating mango.",
+      "B) Eating mango she likes.",
+      "C) She eating likes mango.",
+      "D) Mango she likes eating."
+    ],
+    "correct_answer": "A) She likes eating mango.",
+    "explanation": "The correct order is Subject (She) + Verb (likes) + Gerund phrase (eating mango). 'Likes eating' is the correct verb + gerund construction."
+  },
+  {
+    "id": 7,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which arrangement makes a correct sentence? 'the / children / park / in / playing / are'",
+    "options": [
+      "A) The children are playing in the park.",
+      "B) Playing in the park are the children.",
+      "C) The children playing in the park are.",
+      "D) In the park the children are playing."
+    ],
+    "correct_answer": "A) The children are playing in the park.",
+    "explanation": "The correct structure is Subject (The children) + Auxiliary verb (are) + Present participle (playing) + Prepositional phrase (in the park). This is present continuous tense."
+  },
+  {
+    "id": 8,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Form a sentence from: 'book / reading / am / I / a'",
+    "options": [
+      "A) I am reading a book.",
+      "B) A book I am reading.",
+      "C) Reading a book I am.",
+      "D) I reading am a book."
+    ],
+    "correct_answer": "A) I am reading a book.",
+    "explanation": "The correct order is Subject (I) + Auxiliary (am) + Present participle (reading) + Article + Object (a book). This forms a correct present continuous sentence."
+  },
+  {
+    "id": 9,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'letter / wrote / she / a / yesterday' to form a meaningful sentence.",
+    "options": [
+      "A) She wrote a letter yesterday.",
+      "B) Yesterday she wrote a letter.",
+      "C) Both A and B are correct.",
+      "D) She yesterday wrote a letter."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both options A and B are grammatically correct. In English, time adverbs like 'yesterday' can appear at the beginning or end of a sentence without changing the meaning."
+  },
+  {
+    "id": 10,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence: 'dog / the / bone / a / chewing / is'",
+    "options": [
+      "A) The dog is chewing a bone.",
+      "B) A bone the dog is chewing.",
+      "C) Chewing a bone is the dog.",
+      "D) The dog chewing is a bone."
+    ],
+    "correct_answer": "A) The dog is chewing a bone.",
+    "explanation": "The correct structure is Subject (The dog) + Auxiliary (is) + Present participle (chewing) + Object (a bone). This is a standard present continuous sentence."
+  },
+  {
+    "id": 11,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the words: 'sun / the / east / rises / in / the' to form a correct sentence.",
+    "options": [
+      "A) The sun rises in the east.",
+      "B) In the east the sun rises.",
+      "C) The sun in the east rises.",
+      "D) Rises the sun in the east."
+    ],
+    "correct_answer": "A) The sun rises in the east.",
+    "explanation": "The correct order is Subject (The sun) + Verb (rises) + Prepositional phrase (in the east). This is a simple present tense sentence stating a universal truth."
+  },
+  {
+    "id": 12,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which is the correct sentence formed from: 'have / I / homework / my / done'?",
+    "options": [
+      "A) I have done my homework.",
+      "B) My homework I have done.",
+      "C) Done my homework I have.",
+      "D) I done have my homework."
+    ],
+    "correct_answer": "A) I have done my homework.",
+    "explanation": "The correct structure is Subject (I) + Auxiliary (have) + Past participle (done) + Object (my homework). This is present perfect tense."
+  },
+  {
+    "id": 13,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'to / market / went / she / the' to form a meaningful sentence.",
+    "options": [
+      "A) She went to the market.",
+      "B) To the market she went.",
+      "C) She to the market went.",
+      "D) The market she went to."
+    ],
+    "correct_answer": "A) She went to the market.",
+    "explanation": "The correct order is Subject (She) + Verb (went) + Prepositional phrase (to the market). Option A follows standard Subject-Verb-Object/Complement structure."
+  },
+  {
+    "id": 14,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Form a correct sentence from: 'will / tomorrow / rain / it'",
+    "options": [
+      "A) It will rain tomorrow.",
+      "B) Tomorrow it will rain.",
+      "C) Both A and B are correct.",
+      "D) It tomorrow will rain."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both 'It will rain tomorrow' and 'Tomorrow it will rain' are grammatically correct. The adverb 'tomorrow' can be placed at the beginning or end of the sentence."
+  },
+  {
+    "id": 15,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange: 'the / teacher / lesson / explained / the' to form a correct sentence.",
+    "options": [
+      "A) The teacher explained the lesson.",
+      "B) The lesson the teacher explained.",
+      "C) Explained the teacher the lesson.",
+      "D) The teacher the lesson explained."
+    ],
+    "correct_answer": "A) The teacher explained the lesson.",
+    "explanation": "The correct structure is Subject (The teacher) + Verb (explained) + Object (the lesson). This follows the standard SVO pattern in English."
+  },
+  {
+    "id": 16,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence is correctly formed from: 'singing / is / she / beautifully'?",
+    "options": [
+      "A) She is singing beautifully.",
+      "B) Beautifully she is singing.",
+      "C) She beautifully is singing.",
+      "D) Is she singing beautifully."
+    ],
+    "correct_answer": "A) She is singing beautifully.",
+    "explanation": "The correct order is Subject (She) + Auxiliary (is) + Present participle (singing) + Adverb (beautifully). Adverbs of manner typically follow the verb phrase."
+  },
+  {
+    "id": 17,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'a / he / bought / new / car' to form a meaningful sentence.",
+    "options": [
+      "A) He bought a new car.",
+      "B) A new car he bought.",
+      "C) He a new car bought.",
+      "D) Bought he a new car."
+    ],
+    "correct_answer": "A) He bought a new car.",
+    "explanation": "The correct structure is Subject (He) + Verb (bought) + Article (a) + Adjective (new) + Noun (car). This follows standard SVO sentence structure."
+  },
+  {
+    "id": 18,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence from: 'the / flowers / garden / beautiful / are / in'",
+    "options": [
+      "A) The flowers in the garden are beautiful.",
+      "B) Beautiful are the flowers in the garden.",
+      "C) The flowers are beautiful in the garden.",
+      "D) Both A and C are correct."
+    ],
+    "correct_answer": "D) Both A and C are correct.",
+    "explanation": "Both 'The flowers in the garden are beautiful' and 'The flowers are beautiful in the garden' are grammatically correct, though A is more natural with the prepositional phrase modifying 'flowers'."
+  },
+  {
+    "id": 19,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange: 'quickly / ran / the / boy / home' to form a correct sentence.",
+    "options": [
+      "A) The boy ran home quickly.",
+      "B) The boy quickly ran home.",
+      "C) Both A and B are correct.",
+      "D) Quickly the boy ran home."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both arrangements are grammatically correct. Adverbs of manner like 'quickly' can appear before the verb or after the object in English sentences."
+  },
+  {
+    "id": 20,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Form a sentence from: 'has / she / not / eaten / yet'",
+    "options": [
+      "A) She has not eaten yet.",
+      "B) She not has eaten yet.",
+      "C) Yet she has not eaten.",
+      "D) She has eaten not yet."
+    ],
+    "correct_answer": "A) She has not eaten yet.",
+    "explanation": "In negative present perfect sentences, 'not' comes after the auxiliary verb 'has'. The adverb 'yet' typically appears at the end of the sentence in negative constructions."
+  },
+  {
+    "id": 21,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'the / movie / watched / they / together' to form a meaningful sentence.",
+    "options": [
+      "A) They watched the movie together.",
+      "B) Together they watched the movie.",
+      "C) Both A and B are correct.",
+      "D) They together watched the movie."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both sentences are grammatically correct. 'Together' as an adverb can appear at the beginning or end of the sentence without changing the meaning."
+  },
+  {
+    "id": 22,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which is the correct arrangement? 'coffee / morning / drinks / every / he'",
+    "options": [
+      "A) He drinks coffee every morning.",
+      "B) Every morning he drinks coffee.",
+      "C) Both A and B are correct.",
+      "D) He every morning drinks coffee."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both arrangements are grammatically correct. Time expressions like 'every morning' can appear at the beginning or end of a sentence in English."
+  },
+  {
+    "id": 23,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange: 'is / the / very / cold / water' to form a correct sentence.",
+    "options": [
+      "A) The water is very cold.",
+      "B) Very cold is the water.",
+      "C) The water very cold is.",
+      "D) Is the water very cold."
+    ],
+    "correct_answer": "A) The water is very cold.",
+    "explanation": "The correct structure is Subject (The water) + Linking verb (is) + Adverb (very) + Adjective (cold). This is a standard Subject-Linking Verb-Complement sentence."
+  },
+  {
+    "id": 24,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Form a sentence from: 'to / she / wants / become / doctor / a'",
+    "options": [
+      "A) She wants to become a doctor.",
+      "B) A doctor she wants to become.",
+      "C) She wants a doctor to become.",
+      "D) To become a doctor she wants."
+    ],
+    "correct_answer": "A) She wants to become a doctor.",
+    "explanation": "The correct structure is Subject (She) + Verb (wants) + Infinitive phrase (to become a doctor). The infinitive 'to become' acts as the object of 'wants'."
+  },
+  {
+    "id": 25,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'the / students / hard / exam / for / studied / the' to form a correct sentence.",
+    "options": [
+      "A) The students studied hard for the exam.",
+      "B) For the exam the students studied hard.",
+      "C) Both A and B are correct.",
+      "D) The students hard studied for the exam."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both sentences are grammatically correct. Prepositional phrases indicating purpose can appear at the beginning or end of a sentence in English."
+  },
+  {
+    "id": 26,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange: 'the / newspaper / reads / father / my / daily' to form a correct sentence.",
+    "options": [
+      "A) My father reads the newspaper daily.",
+      "B) Daily my father reads the newspaper.",
+      "C) Both A and B are correct.",
+      "D) My father daily reads the newspaper."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both arrangements are grammatically correct. Frequency adverbs like 'daily' can appear at the beginning or end of a sentence."
+  },
+  {
+    "id": 27,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence is correctly formed? 'the / baby / sleeping / is / soundly'",
+    "options": [
+      "A) The baby is sleeping soundly.",
+      "B) Soundly the baby is sleeping.",
+      "C) The baby sleeping soundly is.",
+      "D) Is the baby sleeping soundly."
+    ],
+    "correct_answer": "A) The baby is sleeping soundly.",
+    "explanation": "The correct structure is Subject (The baby) + Auxiliary (is) + Present participle (sleeping) + Adverb (soundly). This is a standard present continuous sentence."
+  },
+  {
+    "id": 28,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Form a sentence from: 'gave / teacher / the / prize / him / a'",
+    "options": [
+      "A) The teacher gave him a prize.",
+      "B) The teacher gave a prize him.",
+      "C) Him the teacher gave a prize.",
+      "D) A prize the teacher gave him."
+    ],
+    "correct_answer": "A) The teacher gave him a prize.",
+    "explanation": "The correct structure is Subject (The teacher) + Verb (gave) + Indirect Object (him) + Direct Object (a prize). This follows the standard ditransitive verb pattern."
+  },
+  {
+    "id": 29,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'the / is / longest / Nile / river / world / in / the' to form a correct sentence.",
+    "options": [
+      "A) The Nile is the longest river in the world.",
+      "B) The longest river in the world is the Nile.",
+      "C) Both A and B are correct.",
+      "D) The Nile the longest river in the world is."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both sentences are grammatically correct. Option A uses standard SVC order while Option B uses an inverted structure for emphasis, both are acceptable."
+  },
+  {
+    "id": 30,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange: 'she / piano / the / plays / well' to form a correct sentence.",
+    "options": [
+      "A) She plays the piano well.",
+      "B) She well plays the piano.",
+      "C) Well she plays the piano.",
+      "D) She plays well the piano."
+    ],
+    "correct_answer": "A) She plays the piano well.",
+    "explanation": "The correct structure is Subject (She) + Verb (plays) + Object (the piano) + Adverb (well). Adverbs of manner typically follow the object when there is one."
+  },
+  {
+    "id": 31,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which is the correct sentence? 'the / was / match / exciting / very'",
+    "options": [
+      "A) The match was very exciting.",
+      "B) Very exciting was the match.",
+      "C) The match very exciting was.",
+      "D) Was the match very exciting."
+    ],
+    "correct_answer": "A) The match was very exciting.",
+    "explanation": "The correct structure is Subject (The match) + Linking verb (was) + Adverb (very) + Adjective (exciting). This is a standard Subject-Verb-Complement sentence."
+  },
+  {
+    "id": 32,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Form a sentence from: 'has / the / arrived / train / already'",
+    "options": [
+      "A) The train has already arrived.",
+      "B) Already the train has arrived.",
+      "C) The train already has arrived.",
+      "D) Has the train already arrived."
+    ],
+    "correct_answer": "A) The train has already arrived.",
+    "explanation": "In present perfect sentences, adverbs like 'already' are placed between the auxiliary verb (has) and the past participle (arrived). Option A is correct."
+  },
+  {
+    "id": 33,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'the / is / sky / blue' to form a correct sentence.",
+    "options": [
+      "A) The sky is blue.",
+      "B) Blue is the sky.",
+      "C) Both A and B are correct.",
+      "D) The blue sky is."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both 'The sky is blue' (standard) and 'Blue is the sky' (inverted/poetic) are grammatically correct, though the standard form is more common in everyday usage."
+  },
+  {
+    "id": 34,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange: 'he / to / office / drives / work / his' to form a correct sentence.",
+    "options": [
+      "A) He drives to his office for work.",
+      "B) He drives to his work office.",
+      "C) He drives his office to work.",
+      "D) To work he drives his office."
+    ],
+    "correct_answer": "B) He drives to his work office.",
+    "explanation": "The most natural arrangement from the given words is 'He drives to his work office' where 'work' acts as an adjective modifying 'office'. This follows standard sentence structure."
+  },
+  {
+    "id": 35,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence is correctly formed from: 'the / cooked / mother / dinner / my'?",
+    "options": [
+      "A) My mother cooked the dinner.",
+      "B) The dinner my mother cooked.",
+      "C) My mother the dinner cooked.",
+      "D) Cooked my mother the dinner."
+    ],
+    "correct_answer": "A) My mother cooked the dinner.",
+    "explanation": "The correct structure is Subject (My mother) + Verb (cooked) + Object (the dinner). This follows the standard SVO pattern in English."
+  },
+  {
+    "id": 36,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Form a sentence from: 'the / is / answer / correct'",
+    "options": [
+      "A) The answer is correct.",
+      "B) Correct is the answer.",
+      "C) Both A and B are correct.",
+      "D) The correct answer is."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both 'The answer is correct' (standard declarative) and 'Correct is the answer' (inverted for emphasis) are grammatically acceptable English sentences."
+  },
+  {
+    "id": 37,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rearrange: 'the / opened / door / he / slowly' to form a correct sentence.",
+    "options": [
+      "A) He slowly opened the door.",
+      "B) He opened the door slowly.",
+      "C) Both A and B are correct.",
+      "D) Slowly he opened the door."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "All three options (A, B, and D) are grammatically correct. However, the question asks for the best options among the given choices, and both A and B are standard arrangements."
+  },
+  {
+    "id": 38,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange: 'she / her / forgot / umbrella / home / at' to form a correct sentence.",
+    "options": [
+      "A) She forgot her umbrella at home.",
+      "B) At home she forgot her umbrella.",
+      "C) Both A and B are correct.",
+      "D) She her umbrella forgot at home."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both arrangements are grammatically correct. Prepositional phrases of place can appear at the beginning or end of a sentence in English."
+  },
+  {
+    "id": 39,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which is the correct sentence formed from: 'the / barks / dog / loudly'?",
+    "options": [
+      "A) The dog barks loudly.",
+      "B) Loudly the dog barks.",
+      "C) The dog loudly barks.",
+      "D) All of the above are correct."
+    ],
+    "correct_answer": "D) All of the above are correct.",
+    "explanation": "All three arrangements are grammatically correct in English. Adverbs of manner can appear in different positions in a sentence, though 'The dog barks loudly' is the most natural."
+  },
+  {
+    "id": 40,
+    "topic": "Sentence Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Form a sentence from: 'is / the / very / hot / today / weather'",
+    "options": [
+      "A) The weather is very hot today.",
+      "B) Today the weather is very hot.",
+      "C) Both A and B are correct.",
+      "D) The weather today very hot is."
+    ],
+    "correct_answer": "C) Both A and B are correct.",
+    "explanation": "Both 'The weather is very hot today' and 'Today the weather is very hot' are grammatically correct. Time adverbs can appear at the beginning or end of a sentence."
+  },
+  {
+    "id": 41,
+    "topic": "Sentence Formation",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Rearrange the following parts to form a meaningful sentence: P: had been waiting Q: for two hours R: when the bus arrived S: she. Choose the correct order.",
+    "options": [
+      "A) S-P-Q-R",
+      "B) S-R-P-Q",
+      "C) R-S-P-Q",
+      "D) P-S-Q-R"
+    ],
+    "correct_answer": "A) S-P-Q-R",
+    "explanation": "The correct sentence is 'She had been waiting for two hours when the bus arrived.' This uses past perfect continuous tense (had been waiting) with a time clause (when the bus arrived)."
+  },
+  {
+    "id": 42,
+    "topic": "Sentence Formation",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Arrange the parts P, Q, R, S to form a meaningful sentence: P: despite the heavy rain Q: the match R: was not cancelled S: yesterday. Choose the correct order.",
+    "options": [
+      "A) P-Q-R-S",
+      "B) Q-P-R-S",
+      "C) P-Q-S-R",
+      "D) S-P-Q-R"
+    ],
+    "correct_answer": "A) P-Q-R-S",
+    "explanation": "The correct sentence is 'Despite the heavy rain, the match was not cancelled yesterday.' The concessive clause 'despite the heavy rain' comes first, followed by the main clause."
+  },
+  {
+    "id": 43,
+    "topic": "Sentence Formation",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Rearrange: P: the government Q: to reduce pollution R: has taken several measures S: in major cities. Choose the correct order.",
+    "options": [
+      "A) P-R-Q-S",
+      "B) P-Q-R-S",
+      "C) R-P-Q-S",
+      "D) P-S-R-Q"
+    ],
+    "correct_answer": "A) P-R-Q-S",
+    "explanation": "The correct sentence is 'The government has taken several measures to reduce pollution in major cities.' Subject + Verb phrase + Infinitive phrase + Prepositional phrase."
+  },
+  {
+    "id": 44,
+    "topic": "Sentence Formation",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Arrange the parts to form a meaningful sentence: P: not only Q: but also R: she speaks French S: German. Choose the correct order.",
+    "options": [
+      "A) P-R-Q-S",
+      "B) R-P-Q-S",
+      "C) P-S-Q-R",
+      "D) Q-R-P-S"
+    ],
+    "correct_answer": "A) P-R-Q-S",
+    "explanation": "The correct sentence is 'Not only she speaks French but also German.' The correlative conjunction 'not only...but also' connects two parallel elements."
+  },
+  {
+    "id": 45,
+    "topic": "Sentence Formation",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Rearrange: P: if you work hard Q: you will R: succeed in life S: definitely. Choose the correct order.",
+    "options": [
+      "A) P-Q-S-R",
+      "B) P-Q-R-S",
+      "C) Q-P-S-R",
+      "D) P-S-Q-R"
+    ],
+    "correct_answer": "A) P-Q-S-R",
+    "explanation": "The correct sentence is 'If you work hard, you will definitely succeed in life.' The conditional clause comes first, followed by the main clause with the adverb 'definitely' before the main verb."
+  }
+]

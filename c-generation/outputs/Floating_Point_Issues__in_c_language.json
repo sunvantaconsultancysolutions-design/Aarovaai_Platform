@@ -1,0 +1,408 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following C code?\n#include<stdio.h>\nint main(){\n  float x = 0.1;\n  if(x == 0.1)\n    printf(\"Equal\");\n  else\n    printf(\"Not Equal\");\n  return 0;\n}",
+    "options": ["A) Equal", "B) Not Equal", "C) Compilation Error", "D) Runtime Error"],
+    "correct_answer": "B) Not Equal",
+    "explanation": "0.1 is a double literal in C. 'float x = 0.1' stores a less precise version. Comparing float with double literal 0.1 fails due to precision difference, so 'Not Equal' is printed."
+  },
+  {
+    "id": 2,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which data type in C provides more precision for floating point numbers?",
+    "options": ["A) float", "B) double", "C) int", "D) char"],
+    "correct_answer": "B) double",
+    "explanation": "In C, 'double' provides 64-bit precision (about 15-16 significant digits) compared to 'float' which provides 32-bit precision (about 6-7 significant digits)."
+  },
+  {
+    "id": 3,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\n#include<stdio.h>\nint main(){\n  printf(\"%d\", (int)3.9);\n  return 0;\n}",
+    "options": ["A) 4", "B) 3", "C) 3.9", "D) Compilation Error"],
+    "correct_answer": "B) 3",
+    "explanation": "Casting a float to int in C truncates the decimal part (does not round). So (int)3.9 gives 3."
+  },
+  {
+    "id": 4,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of a float variable in C on most systems?",
+    "options": ["A) 2 bytes", "B) 4 bytes", "C) 8 bytes", "D) 16 bytes"],
+    "correct_answer": "B) 4 bytes",
+    "explanation": "A float in C is typically 4 bytes (32 bits) following the IEEE 754 single-precision standard."
+  },
+  {
+    "id": 5,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float a = 1.0/3.0;\n  printf(\"%.2f\", a);\n  return 0;\n}",
+    "options": ["A) 0.33", "B) 0.34", "C) 0.30", "D) 1.00"],
+    "correct_answer": "A) 0.33",
+    "explanation": "1.0/3.0 = 0.3333... When printed with %.2f, it rounds to 2 decimal places giving 0.33."
+  },
+  {
+    "id": 6,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which format specifier is used to print a float value in C?",
+    "options": ["A) %d", "B) %f", "C) %c", "D) %s"],
+    "correct_answer": "B) %f",
+    "explanation": "%f is the format specifier for float and double in printf(). %d is for integers, %c for characters, %s for strings."
+  },
+  {
+    "id": 7,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 5.0;\n  int y = 2;\n  printf(\"%f\", x/y);\n  return 0;\n}",
+    "options": ["A) 2", "B) 2.000000", "C) 2.5", "D) 2.500000"],
+    "correct_answer": "D) 2.500000",
+    "explanation": "x is float and y is int. x/y performs float division giving 2.5. printf with %f prints 6 decimal places by default: 2.500000."
+  },
+  {
+    "id": 8,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you divide two integers in C and store the result in a float?",
+    "options": ["A) The result is always a float with decimal part", "B) Integer division occurs first, then stored as float", "C) Compilation error occurs", "D) Runtime error occurs"],
+    "correct_answer": "B) Integer division occurs first, then stored as float",
+    "explanation": "In C, 5/2 = 2 (integer division). Storing in float gives 2.000000. To get 2.5, at least one operand must be float: 5.0/2 or (float)5/2."
+  },
+  {
+    "id": 9,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float a = 0.7;\n  double b = 0.7;\n  if(a == b)\n    printf(\"Same\");\n  else\n    printf(\"Different\");\n  return 0;\n}",
+    "options": ["A) Same", "B) Different", "C) Compilation Error", "D) Undefined Behavior"],
+    "correct_answer": "B) Different",
+    "explanation": "float stores 0.7 with less precision than double. When compared, float is promoted to double but the values differ due to precision loss in float storage."
+  },
+  {
+    "id": 10,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to declare a long double in C?",
+    "options": ["A) long float x;", "B) long double x;", "C) double long x;", "D) extended double x;"],
+    "correct_answer": "B) long double x;",
+    "explanation": "In C, 'long double' is the correct syntax for extended precision floating point. It typically provides 80-bit or 128-bit precision depending on the platform."
+  },
+  {
+    "id": 11,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  int a = 7, b = 2;\n  float c = a/b;\n  printf(\"%f\", c);\n  return 0;\n}",
+    "options": ["A) 3.500000", "B) 3.000000", "C) 3", "D) 3.5"],
+    "correct_answer": "B) 3.000000",
+    "explanation": "a/b is integer division: 7/2 = 3. This integer 3 is then stored in float c as 3.000000. The division happens before assignment."
+  },
+  {
+    "id": 12,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does IEEE 754 standard define?",
+    "options": ["A) Integer arithmetic", "B) Floating point representation", "C) Character encoding", "D) Memory management"],
+    "correct_answer": "B) Floating point representation",
+    "explanation": "IEEE 754 is the standard for floating-point arithmetic, defining how floating-point numbers are represented in binary, including single (32-bit) and double (64-bit) precision formats."
+  },
+  {
+    "id": 13,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 1e38;\n  float y = x * 10;\n  printf(\"%f\", y);\n  return 0;\n}",
+    "options": ["A) 1e39", "B) 0.000000", "C) inf", "D) Compilation Error"],
+    "correct_answer": "C) inf",
+    "explanation": "The maximum value of float is approximately 3.4e38. Multiplying 1e38 by 10 exceeds this limit, causing float overflow which results in 'inf' (infinity)."
+  },
+  {
+    "id": 14,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits are used to represent a double in C?",
+    "options": ["A) 32 bits", "B) 48 bits", "C) 64 bits", "D) 128 bits"],
+    "correct_answer": "C) 64 bits",
+    "explanation": "A double in C uses 64 bits: 1 sign bit, 11 exponent bits, and 52 mantissa bits, following IEEE 754 double-precision format."
+  },
+  {
+    "id": 15,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float a = 0.0/0.0;\n  printf(\"%f\", a);\n  return 0;\n}",
+    "options": ["A) 0.000000", "B) inf", "C) nan", "D) Compilation Error"],
+    "correct_answer": "C) nan",
+    "explanation": "0.0/0.0 is an indeterminate form in floating point arithmetic, resulting in NaN (Not a Number). printf prints 'nan' for NaN values."
+  },
+  {
+    "id": 16,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file provides functions like isnan() and isinf() in C?",
+    "options": ["A) <stdlib.h>", "B) <math.h>", "C) <float.h>", "D) <limits.h>"],
+    "correct_answer": "B) <math.h>",
+    "explanation": "The <math.h> header provides macros/functions like isnan(), isinf(), and isfinite() for checking special floating-point values."
+  },
+  {
+    "id": 17,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 1.0/0.0;\n  printf(\"%f\", x);\n  return 0;\n}",
+    "options": ["A) 0.000000", "B) nan", "C) inf", "D) Runtime Error"],
+    "correct_answer": "C) inf",
+    "explanation": "Dividing a positive float by 0.0 results in positive infinity (inf) in IEEE 754 floating point arithmetic. This is not a runtime error for floats."
+  },
+  {
+    "id": 18,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the approximate range of a float in C?",
+    "options": ["A) -128 to 127", "B) -32768 to 32767", "C) 1.2e-38 to 3.4e38", "D) 2.2e-308 to 1.8e308"],
+    "correct_answer": "C) 1.2e-38 to 3.4e38",
+    "explanation": "A 32-bit float (IEEE 754 single precision) has a range of approximately 1.2e-38 to 3.4e38 for positive values. Double has range up to 1.8e308."
+  },
+  {
+    "id": 19,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float a = 3.14f;\n  printf(\"%.1f\", a);\n  return 0;\n}",
+    "options": ["A) 3.1", "B) 3.14", "C) 3.2", "D) 3.0"],
+    "correct_answer": "A) 3.1",
+    "explanation": "%.1f prints float with 1 decimal place. 3.14 rounded to 1 decimal place is 3.1 (the second decimal 4 < 5, so no rounding up)."
+  },
+  {
+    "id": 20,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What suffix is used to denote a float literal in C?",
+    "options": ["A) d or D", "B) f or F", "C) l or L", "D) No suffix needed"],
+    "correct_answer": "B) f or F",
+    "explanation": "In C, floating-point literals without suffix are double by default. The 'f' or 'F' suffix makes them float literals (e.g., 3.14f). 'l' or 'L' makes them long double."
+  },
+  {
+    "id": 21,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  double x = 1.0/3.0;\n  printf(\"%.10f\", x);\n  return 0;\n}",
+    "options": ["A) 0.3333333333", "B) 0.3333333334", "C) 0.3300000000", "D) 0.3000000000"],
+    "correct_answer": "A) 0.3333333333",
+    "explanation": "1.0/3.0 in double precision gives 0.3333333333333... Printing with %.10f shows 10 decimal places: 0.3333333333."
+  },
+  {
+    "id": 22,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly compares two floating point numbers in C?",
+    "options": ["A) if(a == b)", "B) if(fabs(a-b) < 1e-9)", "C) if(a - b == 0)", "D) if(a = b)"],
+    "correct_answer": "B) if(fabs(a-b) < 1e-9)",
+    "explanation": "Direct equality comparison of floats is unreliable due to precision issues. The correct approach is to check if the absolute difference is less than a small epsilon value."
+  },
+  {
+    "id": 23,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 1.5f + 2.5f;\n  printf(\"%f\", x);\n  return 0;\n}",
+    "options": ["A) 3.000000", "B) 4.000000", "C) 4.500000", "D) 3.500000"],
+    "correct_answer": "B) 4.000000",
+    "explanation": "1.5 + 2.5 = 4.0 exactly. Both 1.5 and 2.5 are exactly representable in binary floating point, so the result is exactly 4.000000."
+  },
+  {
+    "id": 24,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = -1.0/0.0;\n  printf(\"%f\", x);\n  return 0;\n}",
+    "options": ["A) inf", "B) -inf", "C) nan", "D) 0.000000"],
+    "correct_answer": "B) -inf",
+    "explanation": "Dividing a negative float by 0.0 gives negative infinity (-inf) in IEEE 754. The sign of the result follows the sign of the numerator."
+  },
+  {
+    "id": 25,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float a = 100000.0f;\n  float b = 0.0001f;\n  float c = a + b;\n  printf(\"%f\", c);\n  return 0;\n}",
+    "options": ["A) 100000.000100", "B) 100000.000000", "C) 100000.001000", "D) 100001.000000"],
+    "correct_answer": "B) 100000.000000",
+    "explanation": "Float has only ~7 significant digits. 100000.0001 requires more precision than float can store. The small value 0.0001 is lost due to catastrophic cancellation/precision limit."
+  },
+  {
+    "id": 26,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 0.1f + 0.2f;\n  printf(\"%.1f\", x);\n  return 0;\n}",
+    "options": ["A) 0.3", "B) 0.30000001", "C) 0.4", "D) 0.2"],
+    "correct_answer": "A) 0.3",
+    "explanation": "0.1f + 0.2f may not be exactly 0.3 in binary, but when printed with %.1f (1 decimal place), it rounds to 0.3. The precision issue is hidden by rounding."
+  },
+  {
+    "id": 27,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'f' suffix in '3.14f' indicate in C?",
+    "options": ["A) It is a function call", "B) It is a float literal, not double", "C) It is a formatted value", "D) It is a fixed-point number"],
+    "correct_answer": "B) It is a float literal, not double",
+    "explanation": "Without the 'f' suffix, 3.14 is a double literal in C. Adding 'f' makes it a float literal, which uses 32-bit single precision instead of 64-bit double precision."
+  },
+  {
+    "id": 28,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 9.99f;\n  int y = (int)x;\n  printf(\"%d\", y);\n  return 0;\n}",
+    "options": ["A) 10", "B) 9", "C) 9.99", "D) Compilation Error"],
+    "correct_answer": "B) 9",
+    "explanation": "Casting float to int in C truncates toward zero (not rounding). (int)9.99 = 9, the decimal part is discarded."
+  },
+  {
+    "id": 29,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following values CANNOT be represented exactly in binary floating point?",
+    "options": ["A) 0.5", "B) 0.25", "C) 0.1", "D) 0.125"],
+    "correct_answer": "C) 0.1",
+    "explanation": "0.5 = 1/2, 0.25 = 1/4, 0.125 = 1/8 are exact powers of 2 and representable exactly. 0.1 = 1/10 has no exact binary representation (repeating binary fraction)."
+  },
+  {
+    "id": 30,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  printf(\"%f\", 5/2);\n  return 0;\n}",
+    "options": ["A) 2.500000", "B) 2.000000", "C) Undefined Behavior", "D) 2"],
+    "correct_answer": "C) Undefined Behavior",
+    "explanation": "5/2 is integer division = 2 (int). Passing an int to printf with %f format specifier causes undefined behavior as the format expects a double but receives an int."
+  },
+  {
+    "id": 31,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 1.0f;\n  float y = 0.1f;\n  int count = 0;\n  while(x != 0.0f){\n    x -= y;\n    count++;\n    if(count > 20) break;\n  }\n  printf(\"%d\", count);\n  return 0;\n}",
+    "options": ["A) 10", "B) 11", "C) 20", "D) Infinite loop without break"],
+    "correct_answer": "D) Infinite loop without break",
+    "explanation": "Due to floating point precision, subtracting 0.1f ten times from 1.0f may not give exactly 0.0f. The loop would run indefinitely without the break, demonstrating floating point comparison issues."
+  },
+  {
+    "id": 32,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the format specifier for long double in printf()?",
+    "options": ["A) %f", "B) %lf", "C) %Lf", "D) %llf"],
+    "correct_answer": "C) %Lf",
+    "explanation": "%Lf (capital L) is the format specifier for long double in printf(). %f is for float/double, %lf is for double in scanf()."
+  },
+  {
+    "id": 33,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float a = 2.0f;\n  float b = 3.0f;\n  printf(\"%f\", a/b);\n  return 0;\n}",
+    "options": ["A) 0.666667", "B) 0.666666", "C) 0.000000", "D) 1.000000"],
+    "correct_answer": "A) 0.666667",
+    "explanation": "2.0/3.0 = 0.66666... printf with %f rounds to 6 decimal places. The 7th digit is 6 (>=5), so it rounds up the 6th digit: 0.666667."
+  },
+  {
+    "id": 34,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the number of significant decimal digits for a float in C?",
+    "options": ["A) 3-4 digits", "B) 6-7 digits", "C) 15-16 digits", "D) 18-19 digits"],
+    "correct_answer": "B) 6-7 digits",
+    "explanation": "A 32-bit float (IEEE 754 single precision) provides approximately 6-7 significant decimal digits. Double provides 15-16 digits."
+  },
+  {
+    "id": 35,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 1.23456789f;\n  printf(\"%.8f\", x);\n  return 0;\n}",
+    "options": ["A) 1.23456789", "B) 1.23456788", "C) 1.23456800", "D) 1.23456790"],
+    "correct_answer": "B) 1.23456788",
+    "explanation": "Float has only ~7 significant digits. 1.23456789 stored as float loses precision beyond 7 digits. The stored value when printed with 8 decimal places shows the precision limit."
+  },
+  {
+    "id": 36,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 0.0f;\n  printf(\"%f\", 1.0f/x);\n  return 0;\n}",
+    "options": ["A) 0.000000", "B) nan", "C) inf", "D) Runtime Error"],
+    "correct_answer": "C) inf",
+    "explanation": "Dividing a positive float by 0.0f gives positive infinity (inf) in IEEE 754 floating point. Unlike integer division by zero, float division by zero is defined."
+  },
+  {
+    "id": 37,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float a = 1.5f;\n  float b = 2.5f;\n  printf(\"%d\", (int)(a+b));\n  return 0;\n}",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 3.5"],
+    "correct_answer": "B) 4",
+    "explanation": "1.5f + 2.5f = 4.0f exactly (both are exactly representable). (int)4.0f = 4. So the output is 4."
+  },
+  {
+    "id": 38,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 1.0f/0.0f;\n  float y = -1.0f/0.0f;\n  printf(\"%d\", x > y);\n  return 0;\n}",
+    "options": ["A) 0", "B) 1", "C) Undefined", "D) Compilation Error"],
+    "correct_answer": "B) 1",
+    "explanation": "x = +inf, y = -inf. +inf > -inf is true (1). IEEE 754 defines ordering for infinities: positive infinity is greater than negative infinity."
+  },
+  {
+    "id": 39,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\n#include<math.h>\nint main(){\n  float x = sqrt(2.0f);\n  printf(\"%.4f\", x);\n  return 0;\n}",
+    "options": ["A) 1.4142", "B) 1.4143", "C) 1.4141", "D) 1.4100"],
+    "correct_answer": "A) 1.4142",
+    "explanation": "sqrt(2) ≈ 1.41421356... When printed with %.4f, it shows 4 decimal places: 1.4142 (the 5th digit is 1, so no rounding up)."
+  },
+  {
+    "id": 40,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main(){\n  float x = 1.0f;\n  float y = 1.0f;\n  printf(\"%d\", x == y);\n  return 0;\n}",
+    "options": ["A) 0", "B) 1", "C) Undefined", "D) Compilation Error"],
+    "correct_answer": "B) 1",
+    "explanation": "1.0f is exactly representable in binary floating point. Both x and y store the same exact value, so x == y is true (1). Equality comparison is safe for exactly representable values."
+  },
+  {
+    "id": 41,
+    "topic": "Floating Point Issues in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is

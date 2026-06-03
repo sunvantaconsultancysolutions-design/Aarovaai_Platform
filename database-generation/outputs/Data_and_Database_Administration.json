@@ -1,0 +1,488 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DBMS stand for?",
+    "options": ["A) Database Management System", "B) Data Backup Management System", "C) Database Monitoring Software", "D) Data Binding Management System"],
+    "correct_answer": "A) Database Management System",
+    "explanation": "DBMS stands for Database Management System, which is software used to create, manage, and manipulate databases. It provides an interface between users and the database."
+  },
+  {
+    "id": 2,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of database model?",
+    "options": ["A) Hierarchical", "B) Relational", "C) Sequential", "D) Network"],
+    "correct_answer": "C) Sequential",
+    "explanation": "The main database models are Hierarchical, Relational, Network, and Object-Oriented. Sequential is a file organization method, not a database model."
+  },
+  {
+    "id": 3,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to retrieve data from a database?",
+    "options": ["A) INSERT", "B) UPDATE", "C) SELECT", "D) DELETE"],
+    "correct_answer": "C) SELECT",
+    "explanation": "The SELECT statement is used to query and retrieve data from a database table. INSERT adds data, UPDATE modifies data, and DELETE removes data."
+  },
+  {
+    "id": 4,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a primary key in a database?",
+    "options": ["A) A key that can have duplicate values", "B) A unique identifier for each record in a table", "C) A key used only for foreign tables", "D) A key that allows NULL values"],
+    "correct_answer": "B) A unique identifier for each record in a table",
+    "explanation": "A primary key uniquely identifies each record in a database table. It cannot contain NULL values and must be unique for every row."
+  },
+  {
+    "id": 5,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DDL (Data Definition Language) command?",
+    "options": ["A) SELECT", "B) INSERT", "C) CREATE", "D) UPDATE"],
+    "correct_answer": "C) CREATE",
+    "explanation": "DDL commands define the database structure. CREATE, ALTER, and DROP are DDL commands. SELECT, INSERT, UPDATE, DELETE are DML commands."
+  },
+  {
+    "id": 6,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does SQL stand for?",
+    "options": ["A) Structured Query Language", "B) Simple Query Language", "C) Standard Query Logic", "D) Sequential Query Language"],
+    "correct_answer": "A) Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language. It is the standard language used to communicate with relational database management systems."
+  },
+  {
+    "id": 7,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates partial dependencies?",
+    "options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "B) Second Normal Form (2NF)",
+    "explanation": "2NF eliminates partial dependencies, meaning every non-key attribute must be fully functionally dependent on the entire primary key, not just part of it."
+  },
+  {
+    "id": 8,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a foreign key?",
+    "options": ["A) A key from another country's database", "B) A primary key of one table used in another table to establish a relationship", "C) A key that is always NULL", "D) A key used only in NoSQL databases"],
+    "correct_answer": "B) A primary key of one table used in another table to establish a relationship",
+    "explanation": "A foreign key is a column in one table that references the primary key of another table, establishing a referential relationship between the two tables."
+  },
+  {
+    "id": 9,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to remove all records from a table without deleting the table structure?",
+    "options": ["A) DROP", "B) DELETE", "C) TRUNCATE", "D) REMOVE"],
+    "correct_answer": "C) TRUNCATE",
+    "explanation": "TRUNCATE removes all rows from a table but keeps the table structure intact. DROP removes the entire table including its structure. DELETE can remove specific rows."
+  },
+  {
+    "id": 10,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of ACID in database transactions?",
+    "options": ["A) Atomicity, Consistency, Isolation, Durability", "B) Accuracy, Consistency, Integrity, Durability", "C) Atomicity, Concurrency, Isolation, Data", "D) Accuracy, Concurrency, Integrity, Data"],
+    "correct_answer": "A) Atomicity, Consistency, Isolation, Durability",
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability — the four key properties that guarantee reliable database transactions."
+  },
+  {
+    "id": 11,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to filter records based on a condition?",
+    "options": ["A) ORDER BY", "B) GROUP BY", "C) WHERE", "D) HAVING"],
+    "correct_answer": "C) WHERE",
+    "explanation": "The WHERE clause filters records based on a specified condition. HAVING is used with GROUP BY to filter grouped results. ORDER BY sorts results."
+  },
+  {
+    "id": 12,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of relationship exists when one record in Table A can relate to many records in Table B, and one record in Table B can relate to many records in Table A?",
+    "options": ["A) One-to-One", "B) One-to-Many", "C) Many-to-Many", "D) Many-to-One"],
+    "correct_answer": "C) Many-to-Many",
+    "explanation": "A Many-to-Many relationship means multiple records in one table can be associated with multiple records in another table. It is typically implemented using a junction table."
+  },
+  {
+    "id": 13,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a NoSQL database?",
+    "options": ["A) MySQL", "B) Oracle", "C) MongoDB", "D) PostgreSQL"],
+    "correct_answer": "C) MongoDB",
+    "explanation": "MongoDB is a NoSQL document-oriented database. MySQL, Oracle, and PostgreSQL are all relational (SQL) databases."
+  },
+  {
+    "id": 14,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'schema' refer to in a database?",
+    "options": ["A) The actual data stored in the database", "B) The logical structure or blueprint of the database", "C) A backup copy of the database", "D) The user interface of the DBMS"],
+    "correct_answer": "B) The logical structure or blueprint of the database",
+    "explanation": "A schema defines the logical structure of a database, including tables, columns, data types, and relationships. It is the blueprint without the actual data."
+  },
+  {
+    "id": 15,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which aggregate function returns the total number of rows in a result set?",
+    "options": ["A) SUM()", "B) AVG()", "C) COUNT()", "D) MAX()"],
+    "correct_answer": "C) COUNT()",
+    "explanation": "COUNT() returns the number of rows that match a specified condition. SUM() adds values, AVG() calculates average, and MAX() returns the maximum value."
+  },
+  {
+    "id": 16,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is data redundancy in a database?",
+    "options": ["A) Storing data in encrypted format", "B) The unnecessary duplication of data across the database", "C) Backing up data regularly", "D) Indexing data for faster retrieval"],
+    "correct_answer": "B) The unnecessary duplication of data across the database",
+    "explanation": "Data redundancy refers to storing the same data in multiple places unnecessarily. It wastes storage space and can lead to data inconsistency. Normalization helps reduce redundancy."
+  },
+  {
+    "id": 17,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to sort the result set in ascending or descending order?",
+    "options": ["A) SORT BY", "B) ORDER BY", "C) GROUP BY", "D) ARRANGE BY"],
+    "correct_answer": "B) ORDER BY",
+    "explanation": "ORDER BY is used to sort the result set. By default it sorts in ascending order (ASC). Use DESC keyword for descending order."
+  },
+  {
+    "id": 18,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an index in a database?",
+    "options": ["A) A list of all databases in the server", "B) A data structure that improves the speed of data retrieval", "C) A backup of the primary table", "D) A constraint that enforces uniqueness"],
+    "correct_answer": "B) A data structure that improves the speed of data retrieval",
+    "explanation": "An index is a data structure (like a B-tree) that speeds up data retrieval operations on a table at the cost of additional storage space and slower write operations."
+  },
+  {
+    "id": 19,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a DML (Data Manipulation Language) command?",
+    "options": ["A) CREATE", "B) ALTER", "C) DROP", "D) INSERT"],
+    "correct_answer": "D) INSERT",
+    "explanation": "DML commands manipulate data within tables. INSERT, UPDATE, DELETE, and SELECT are DML commands. CREATE, ALTER, and DROP are DDL commands."
+  },
+  {
+    "id": 20,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a view in SQL?",
+    "options": ["A) A physical copy of a table", "B) A virtual table based on the result of a SQL query", "C) A stored procedure", "D) An index on a table"],
+    "correct_answer": "B) A virtual table based on the result of a SQL query",
+    "explanation": "A view is a virtual table created by a stored query. It does not store data physically but provides a way to look at data from one or more tables."
+  },
+  {
+    "id": 21,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which constraint ensures that a column cannot have a NULL value?",
+    "options": ["A) UNIQUE", "B) PRIMARY KEY", "C) NOT NULL", "D) CHECK"],
+    "correct_answer": "C) NOT NULL",
+    "explanation": "The NOT NULL constraint ensures that a column must always contain a value and cannot be left empty (NULL). PRIMARY KEY also implies NOT NULL but serves a different purpose."
+  },
+  {
+    "id": 22,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the GROUP BY clause do in SQL?",
+    "options": ["A) Sorts the result set", "B) Groups rows with the same values in specified columns", "C) Filters individual rows", "D) Joins two tables together"],
+    "correct_answer": "B) Groups rows with the same values in specified columns",
+    "explanation": "GROUP BY groups rows that have the same values in specified columns into summary rows. It is often used with aggregate functions like COUNT, SUM, AVG."
+  },
+  {
+    "id": 23,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'data integrity'?",
+    "options": ["A) The speed of data retrieval", "B) The accuracy and consistency of data over its lifecycle", "C) The size of the database", "D) The number of users accessing the database"],
+    "correct_answer": "B) The accuracy and consistency of data over its lifecycle",
+    "explanation": "Data integrity refers to maintaining and assuring the accuracy and consistency of data over its entire lifecycle. It is enforced through constraints, rules, and validation."
+  },
+  {
+    "id": 24,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the COMMIT command in SQL?",
+    "options": ["A) To undo all changes made in the current transaction", "B) To permanently save all changes made in the current transaction", "C) To delete all records from a table", "D) To create a new transaction"],
+    "correct_answer": "B) To permanently save all changes made in the current transaction",
+    "explanation": "COMMIT permanently saves all changes made during the current transaction to the database. ROLLBACK is used to undo changes made in the current transaction."
+  },
+  {
+    "id": 25,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL join returns all rows from both tables, with NULLs where there is no match?",
+    "options": ["A) INNER JOIN", "B) LEFT JOIN", "C) RIGHT JOIN", "D) FULL OUTER JOIN"],
+    "correct_answer": "D) FULL OUTER JOIN",
+    "explanation": "FULL OUTER JOIN returns all rows from both tables. Where there is no match, NULL values are returned for the columns of the table that lacks a matching row."
+  },
+
+  {
+    "id": 26,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is normalization in database design?",
+    "options": ["A) The process of increasing data redundancy", "B) The process of organizing data to reduce redundancy and improve integrity", "C) The process of encrypting database data", "D) The process of backing up the database"],
+    "correct_answer": "B) The process of organizing data to reduce redundancy and improve integrity",
+    "explanation": "Normalization is the process of structuring a relational database to reduce data redundancy and improve data integrity by dividing large tables into smaller related tables."
+  },
+  {
+    "id": 27,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to grant privileges to a user in SQL?",
+    "options": ["A) ALLOW", "B) PERMIT", "C) GRANT", "D) ASSIGN"],
+    "correct_answer": "C) GRANT",
+    "explanation": "The GRANT command is used to give specific privileges (like SELECT, INSERT, UPDATE) to users or roles. REVOKE is used to remove those privileges."
+  },
+  {
+    "id": 28,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a stored procedure in a database?",
+    "options": ["A) A saved SQL query that can be reused", "B) A precompiled set of SQL statements stored in the database", "C) A backup procedure for the database", "D) A method to encrypt stored data"],
+    "correct_answer": "B) A precompiled set of SQL statements stored in the database",
+    "explanation": "A stored procedure is a precompiled collection of SQL statements stored in the database. It can be executed repeatedly, improving performance and code reusability."
+  },
+  {
+    "id": 29,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct syntax to add a new column to an existing table?",
+    "options": ["A) UPDATE TABLE employees ADD COLUMN age INT;", "B) ALTER TABLE employees ADD age INT;", "C) MODIFY TABLE employees ADD age INT;", "D) INSERT COLUMN age INT INTO employees;"],
+    "correct_answer": "B) ALTER TABLE employees ADD age INT;",
+    "explanation": "The ALTER TABLE command with ADD clause is used to add a new column to an existing table. The syntax is: ALTER TABLE table_name ADD column_name datatype;"
+  },
+  {
+    "id": 30,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the DISTINCT keyword do in a SELECT statement?",
+    "options": ["A) Sorts the result in ascending order", "B) Returns only unique (non-duplicate) values", "C) Filters NULL values", "D) Groups similar values together"],
+    "correct_answer": "B) Returns only unique (non-duplicate) values",
+    "explanation": "The DISTINCT keyword eliminates duplicate rows from the result set. For example, SELECT DISTINCT city FROM customers returns each city only once."
+  },
+  {
+    "id": 31,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of a relational database?",
+    "options": ["A) Data is stored in key-value pairs", "B) Data is stored in tables with rows and columns", "C) Data is stored in hierarchical tree structures", "D) Data is stored in graph nodes and edges"],
+    "correct_answer": "B) Data is stored in tables with rows and columns",
+    "explanation": "Relational databases store data in tables (relations) consisting of rows (tuples) and columns (attributes). Tables are related to each other through keys."
+  },
+  {
+    "id": 32,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the ROLLBACK command?",
+    "options": ["A) To save all changes permanently", "B) To undo all changes made since the last COMMIT", "C) To delete the entire database", "D) To create a new savepoint"],
+    "correct_answer": "B) To undo all changes made since the last COMMIT",
+    "explanation": "ROLLBACK undoes all changes made in the current transaction since the last COMMIT or SAVEPOINT. It is used to recover from errors during a transaction."
+  },
+  {
+    "id": 33,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the current date and time?",
+    "options": ["A) GETDATE() or NOW()", "B) CURRENT()", "C) DATETIME()", "D) TODAY()"],
+    "correct_answer": "A) GETDATE() or NOW()",
+    "explanation": "GETDATE() is used in SQL Server and NOW() is used in MySQL to return the current date and time. The exact function depends on the DBMS being used."
+  },
+  {
+    "id": 34,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a trigger in a database?",
+    "options": ["A) A scheduled backup job", "B) A stored procedure that automatically executes in response to certain events", "C) A type of index", "D) A constraint on a column"],
+    "correct_answer": "B) A stored procedure that automatically executes in response to certain events",
+    "explanation": "A trigger is a special stored procedure that automatically fires when a specific event (INSERT, UPDATE, DELETE) occurs on a table or view."
+  },
+  {
+    "id": 35,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL statements is used to modify existing records in a table?",
+    "options": ["A) MODIFY", "B) ALTER", "C) UPDATE", "D) CHANGE"],
+    "correct_answer": "C) UPDATE",
+    "explanation": "The UPDATE statement is used to modify existing records in a table. Syntax: UPDATE table_name SET column1=value1 WHERE condition;"
+  },
+  {
+    "id": 36,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between DELETE and DROP in SQL?",
+    "options": ["A) Both are identical commands", "B) DELETE removes rows from a table; DROP removes the entire table", "C) DELETE removes the table; DROP removes rows", "D) DELETE is DDL; DROP is DML"],
+    "correct_answer": "B) DELETE removes rows from a table; DROP removes the entire table",
+    "explanation": "DELETE is a DML command that removes specific rows from a table. DROP is a DDL command that removes the entire table including its structure from the database."
+  },
+  {
+    "id": 37,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to filter groups in a GROUP BY query?",
+    "options": ["A) WHERE", "B) FILTER", "C) HAVING", "D) CONDITION"],
+    "correct_answer": "C) HAVING",
+    "explanation": "HAVING is used to filter groups created by GROUP BY, similar to how WHERE filters individual rows. HAVING is applied after grouping, WHERE is applied before."
+  },
+  {
+    "id": 38,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a candidate key in a relational database?",
+    "options": ["A) A key that is always NULL", "B) Any column that could potentially serve as a primary key", "C) A foreign key candidate", "D) A key used only in candidate tables"],
+    "correct_answer": "B) Any column that could potentially serve as a primary key",
+    "explanation": "A candidate key is a minimal set of attributes that can uniquely identify a tuple in a relation. One candidate key is chosen as the primary key; others are called alternate keys."
+  },
+  {
+    "id": 39,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to combine rows from two or more tables based on a related column?",
+    "options": ["A) MERGE", "B) COMBINE", "C) JOIN", "D) LINK"],
+    "correct_answer": "C) JOIN",
+    "explanation": "JOIN is used to combine rows from two or more tables based on a related column between them. Types include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN."
+  },
+  {
+    "id": 40,
+    "topic": "Data and Database Administration",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the LIKE operator in SQL?",
+    "options": ["A) To compare two exact values", "B) To search for a specified pattern in a column", "C) To check if a value is in a list", "D) To compare numerical ranges"],
+    "correct_answer": "B) To search for a specified pattern in a column",
+    "explanation": "The LIKE operator is used in a WHERE clause to search for a specified pattern. '%' matches any sequence of characters, '_' matches any single character."
+  },
+
+  {
+    "id": 41,
+    "topic": "Data and Database Administration",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A table 'Orders' has 1,000,000 rows. An index is created on the 'CustomerID' column. If a query searches for a specific CustomerID, approximately how many comparisons are needed using a B-tree index (height = log₂ n)?",
+    "options": ["A) 1,000,000", "B) 500,000", "C) 20", "D) 100"],
+    "correct_answer": "C) 20",
+    "explanation": "A B-tree index has height ≈ log₂(1,000,000) ≈ 20. So only about 20 comparisons are needed instead of scanning all 1,000,000 rows, demonstrating the efficiency of indexing."
+  },
+  {
+    "id": 42,
+    "topic": "Data and Database Administration",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a relation R(A, B, C, D) with functional dependencies: A→B, B→C, A→D. Which normal form is violated if A is the primary key?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "C) 3NF",
+    "explanation": "Since A→B and B→C, there is a transitive dependency (A→B→C). The relation is in 2NF (no partial dependencies since A is a single-attribute key) but violates 3NF due to the transitive dependency B→C."
+  },
+  {
+    "id": 43,
+    "topic": "Data and Database Administration",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the result of the following SQL query? SELECT COUNT(*) FROM employees WHERE salary > 50000 AND department = 'IT'; — Given: 200 employees total, 80 in IT, 120 earn >50000, 50 are in IT AND earn >50000.",
+    "options": ["A) 200", "B) 80", "C) 120", "D) 50"],
+    "correct_answer": "D) 50",
+    "explanation": "The WHERE clause uses AND, so both conditions must be true simultaneously. Only employees who are in IT AND earn more than 50000 are counted, which is 50."
+  },
+  {
+    "id": 44,
+    "topic": "Data and Database Administration",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which isolation level prevents dirty reads but allows non-repeatable reads?",
+    "options": ["A) READ UNCOMMITTED", "B) READ COMMITTED", "C) REPEATABLE READ", "D) SERIALIZABLE"],
+    "correct_answer": "B) READ COMMITTED",
+    "explanation": "READ COMMITTED prevents dirty reads (reading uncommitted data) but allows non-repeatable reads (same query returns different results within a transaction). READ UNCOMMITTED allows dirty reads."
+  },
+  {
+    "id": 45,
+    "topic": "Data and Database Administration",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a database with 5 tables each having 3 columns, what is the maximum number of foreign key relationships possible if each table can reference any other table?",
+    "options": ["A) 10", "B) 15", "C) 20", "D) 25"],
+    "correct_answer": "C) 20",
+    "explanation": "Each of the 5 tables can reference any of the other 4 tables, giving 5 × 4 = 20 possible directed foreign key relationships. This is a permutation: P(5,2) = 5!/(5-2)! = 20."
+  },
+  {
+    "id": 46,
+    "topic": "Data and Database Administration",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a deadlock in database systems?",
+    "options": ["A) A situation where a query takes too long to execute", "B) A situation where two or more transactions wait indefinitely for each other to release locks", "C) A database crash due to hardware failure", "D) A situation where a table has no primary key"],
+    "correct_answer": "B) A situation where two or more transactions wait indefinitely for each other to release locks",
+    "explanation": "A deadlock occurs when Transaction T1 holds a lock on resource A and waits for resource B, while Transaction T2 holds a lock on resource B and waits for resource A — creating a circular wait."
+  },
+  {
+    "id": 47,
+    "topic": "Data and Database Administration",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following SQL queries correctly finds the second highest salary from an 'employees' table?",
+    "options": ["A) SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);", "B) SELECT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1;", "C) Both A and B", "D) SELECT SECOND(salary) FROM employees;"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "Both approaches work: Option A uses a subquery to find the max salary below the overall max. Option B uses LIMIT with OFFSET to skip the first row and get the second. SECOND() is not a valid SQL function."
+  },
+  {
+    "id": 48,
+    "topic": "Data and Database Administration",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between a clustered and non-clustered index?",
+    "options": ["A) Clustered index sorts and stores data rows physically; non-clustered creates a separate structure", "B) Clustered index is faster for writes; non-clustered is faster for reads", "C) Clustered index allows duplicates; non-clustered does not", "D) There is no difference; they are synonymous"],
+    "correct_answer": "A) Clustered index sorts and stores data rows physically; non-clustered creates a separate structure",
+    "explanation": "A clustered index physically reorders the table data to match the index. Only one clustered index per table is allowed. A non-clustered index creates a separate structure with pointers to the data rows."
+  },
+  {
+    "id": 49,
+    "topic": "Data and Database Administration",
+    

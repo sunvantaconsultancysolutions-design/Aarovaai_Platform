@@ -1,0 +1,588 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Book : Library :: Painting : ?",
+    "options": ["A) Artist", "B) Gallery", "C) Canvas", "D) Museum"],
+    "correct_answer": "B) Gallery",
+    "explanation": "A Book is stored/displayed in a Library. Similarly, a Painting is stored/displayed in a Gallery. The relationship is object to its place of display/storage."
+  },
+  {
+    "id": 2,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Doctor : Hospital :: Teacher : ?",
+    "options": ["A) Student", "B) Classroom", "C) School", "D) Lesson"],
+    "correct_answer": "C) School",
+    "explanation": "A Doctor works in a Hospital. Similarly, a Teacher works in a School. The relationship is professional to their workplace."
+  },
+  {
+    "id": 3,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Fish : Water :: Bird : ?",
+    "options": ["A) Sky", "B) Nest", "C) Tree", "D) Wing"],
+    "correct_answer": "A) Sky",
+    "explanation": "A Fish lives/moves in Water. Similarly, a Bird lives/moves in the Sky. The relationship is creature to its natural habitat/medium of movement."
+  },
+  {
+    "id": 4,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pen : Write :: Knife : ?",
+    "options": ["A) Sharp", "B) Cut", "C) Steel", "D) Cook"],
+    "correct_answer": "B) Cut",
+    "explanation": "A Pen is used to Write. Similarly, a Knife is used to Cut. The relationship is tool to its primary function."
+  },
+  {
+    "id": 5,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Cow : Calf :: Horse : ?",
+    "options": ["A) Pony", "B) Foal", "C) Colt", "D) Filly"],
+    "correct_answer": "B) Foal",
+    "explanation": "A Calf is the young one of a Cow. Similarly, a Foal is the young one of a Horse. The relationship is animal to its young one."
+  },
+  {
+    "id": 6,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Sun : Day :: Moon : ?",
+    "options": ["A) Star", "B) Light", "C) Night", "D) Sky"],
+    "correct_answer": "C) Night",
+    "explanation": "The Sun is associated with Day. Similarly, the Moon is associated with Night. The relationship is celestial body to the time period it represents."
+  },
+  {
+    "id": 7,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Carpenter : Wood :: Blacksmith : ?",
+    "options": ["A) Fire", "B) Iron", "C) Hammer", "D) Metal"],
+    "correct_answer": "B) Iron",
+    "explanation": "A Carpenter works with Wood. Similarly, a Blacksmith works with Iron. The relationship is craftsman to the material they work with."
+  },
+  {
+    "id": 8,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Eye : See :: Ear : ?",
+    "options": ["A) Nose", "B) Hear", "C) Sound", "D) Listen"],
+    "correct_answer": "B) Hear",
+    "explanation": "The Eye is used to See. Similarly, the Ear is used to Hear. The relationship is sense organ to its function."
+  },
+  {
+    "id": 9,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rose : Flower :: Mango : ?",
+    "options": ["A) Tree", "B) Fruit", "C) Sweet", "D) Yellow"],
+    "correct_answer": "B) Fruit",
+    "explanation": "A Rose is a type of Flower. Similarly, a Mango is a type of Fruit. The relationship is specific to general category."
+  },
+  {
+    "id": 10,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Bread : Bakery :: Medicine : ?",
+    "options": ["A) Doctor", "B) Hospital", "C) Pharmacy", "D) Clinic"],
+    "correct_answer": "C) Pharmacy",
+    "explanation": "Bread is obtained from a Bakery. Similarly, Medicine is obtained from a Pharmacy. The relationship is product to its source/shop."
+  },
+  {
+    "id": 11,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Lion : Pride :: Wolf : ?",
+    "options": ["A) Pack", "B) Herd", "C) Flock", "D) Colony"],
+    "correct_answer": "A) Pack",
+    "explanation": "A group of Lions is called a Pride. Similarly, a group of Wolves is called a Pack. The relationship is animal to its group name."
+  },
+  {
+    "id": 12,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Hammer : Nail :: Scissors : ?",
+    "options": ["A) Thread", "B) Cloth", "C) Sew", "D) Cut"],
+    "correct_answer": "B) Cloth",
+    "explanation": "A Hammer is used on a Nail. Similarly, Scissors are used on Cloth. The relationship is tool to the object it acts upon."
+  },
+  {
+    "id": 13,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "India : Rupee :: Japan : ?",
+    "options": ["A) Dollar", "B) Yen", "C) Won", "D) Euro"],
+    "correct_answer": "B) Yen",
+    "explanation": "Rupee is the currency of India. Similarly, Yen is the currency of Japan. The relationship is country to its currency."
+  },
+  {
+    "id": 14,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Cricket : Bat :: Tennis : ?",
+    "options": ["A) Ball", "B) Court", "C) Racket", "D) Net"],
+    "correct_answer": "C) Racket",
+    "explanation": "In Cricket, a Bat is the primary equipment used. Similarly, in Tennis, a Racket is the primary equipment used."
+  },
+  {
+    "id": 15,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Poet : Poem :: Sculptor : ?",
+    "options": ["A) Chisel", "B) Statue", "C) Clay", "D) Art"],
+    "correct_answer": "B) Statue",
+    "explanation": "A Poet creates a Poem. Similarly, a Sculptor creates a Statue. The relationship is creator to their creation."
+  },
+  {
+    "id": 16,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Aeroplane : Pilot :: Ship : ?",
+    "options": ["A) Sailor", "B) Captain", "C) Navigator", "D) Crew"],
+    "correct_answer": "B) Captain",
+    "explanation": "An Aeroplane is operated/commanded by a Pilot. Similarly, a Ship is commanded by a Captain. The relationship is vehicle to its commander."
+  },
+  {
+    "id": 17,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Brick : Wall :: Page : ?",
+    "options": ["A) Write", "B) Paper", "C) Book", "D) Read"],
+    "correct_answer": "C) Book",
+    "explanation": "Bricks are the building units of a Wall. Similarly, Pages are the building units of a Book. The relationship is component to the whole."
+  },
+  {
+    "id": 18,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Hot : Cold :: Day : ?",
+    "options": ["A) Sun", "B) Light", "C) Night", "D) Dark"],
+    "correct_answer": "C) Night",
+    "explanation": "Hot and Cold are opposites. Similarly, Day and Night are opposites. The relationship is antonym."
+  },
+  {
+    "id": 19,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Elephant : Trunk :: Bee : ?",
+    "options": ["A) Honey", "B) Sting", "C) Wing", "D) Hive"],
+    "correct_answer": "B) Sting",
+    "explanation": "A Trunk is the distinctive feature/weapon of an Elephant. Similarly, a Sting is the distinctive feature/weapon of a Bee."
+  },
+  {
+    "id": 20,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Tailor : Sew :: Painter : ?",
+    "options": ["A) Brush", "B) Canvas", "C) Paint", "D) Draw"],
+    "correct_answer": "C) Paint",
+    "explanation": "A Tailor's primary action is to Sew. Similarly, a Painter's primary action is to Paint. The relationship is professional to their primary action."
+  },
+  {
+    "id": 21,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Wheat : Flour :: Sugarcane : ?",
+    "options": ["A) Sweet", "B) Sugar", "C) Juice", "D) Syrup"],
+    "correct_answer": "B) Sugar",
+    "explanation": "Flour is the product derived from Wheat. Similarly, Sugar is the product derived from Sugarcane. The relationship is raw material to its derived product."
+  },
+  {
+    "id": 22,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Mountain : Hill :: Ocean : ?",
+    "options": ["A) River", "B) Lake", "C) Sea", "D) Pond"],
+    "correct_answer": "C) Sea",
+    "explanation": "A Mountain is a larger version of a Hill. Similarly, an Ocean is a larger version of a Sea. The relationship is larger to smaller of the same type."
+  },
+  {
+    "id": 23,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Gloves : Hands :: Helmet : ?",
+    "options": ["A) Neck", "B) Head", "C) Face", "D) Hair"],
+    "correct_answer": "B) Head",
+    "explanation": "Gloves are worn to protect Hands. Similarly, a Helmet is worn to protect the Head. The relationship is protective gear to the body part it protects."
+  },
+  {
+    "id": 24,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Frog : Tadpole :: Butterfly : ?",
+    "options": ["A) Larva", "B) Caterpillar", "C) Pupa", "D) Egg"],
+    "correct_answer": "B) Caterpillar",
+    "explanation": "A Tadpole is the young/larval form of a Frog. Similarly, a Caterpillar is the larval form of a Butterfly."
+  },
+  {
+    "id": 25,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Keyboard : Computer :: Steering : ?",
+    "options": ["A) Engine", "B) Car", "C) Road", "D) Driver"],
+    "correct_answer": "B) Car",
+    "explanation": "A Keyboard is the input/control device of a Computer. Similarly, a Steering is the control device of a Car."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Candle : Wax :: Paper : ?",
+    "options": ["A) Write", "B) Pulp", "C) White", "D) Thin"],
+    "correct_answer": "B) Pulp",
+    "explanation": "A Candle is made from Wax. Similarly, Paper is made from Pulp. The relationship is product to its raw material."
+  },
+  {
+    "id": 27,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Cobra : Reptile :: Eagle : ?",
+    "options": ["A) Mammal", "B) Insect", "C) Bird", "D) Amphibian"],
+    "correct_answer": "C) Bird",
+    "explanation": "A Cobra belongs to the class Reptile. Similarly, an Eagle belongs to the class Bird. The relationship is specific animal to its class."
+  },
+  {
+    "id": 28,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Laugh : Joy :: Cry : ?",
+    "options": ["A) Tears", "B) Sorrow", "C) Pain", "D) Weep"],
+    "correct_answer": "B) Sorrow",
+    "explanation": "Laughing is an expression of Joy. Similarly, Crying is an expression of Sorrow. The relationship is expression to the emotion it represents."
+  },
+  {
+    "id": 29,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Architect : Building :: Author : ?",
+    "options": ["A) Publisher", "B) Novel", "C) Reader", "D) Library"],
+    "correct_answer": "B) Novel",
+    "explanation": "An Architect designs/creates a Building. Similarly, an Author creates a Novel. The relationship is creator to their creation."
+  },
+  {
+    "id": 30,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Oxygen : Breathe :: Food : ?",
+    "options": ["A) Cook", "B) Eat", "C) Digest", "D) Hunger"],
+    "correct_answer": "B) Eat",
+    "explanation": "Oxygen is taken in by the action of Breathing. Similarly, Food is taken in by the action of Eating."
+  },
+  {
+    "id": 31,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "France : Paris :: Australia : ?",
+    "options": ["A) Melbourne", "B) Sydney", "C) Canberra", "D) Brisbane"],
+    "correct_answer": "C) Canberra",
+    "explanation": "Paris is the capital of France. Similarly, Canberra is the capital of Australia. The relationship is country to its capital city."
+  },
+  {
+    "id": 32,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Microscope : Small :: Telescope : ?",
+    "options": ["A) Large", "B) Distant", "C) Stars", "D) Space"],
+    "correct_answer": "B) Distant",
+    "explanation": "A Microscope is used to view Small objects. Similarly, a Telescope is used to view Distant objects. The relationship is instrument to what it helps observe."
+  },
+  {
+    "id": 33,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Wool : Sheep :: Silk : ?",
+    "options": ["A) Worm", "B) Silkworm", "C) Spider", "D) Cotton"],
+    "correct_answer": "B) Silkworm",
+    "explanation": "Wool is obtained from Sheep. Similarly, Silk is obtained from Silkworm. The relationship is material to its source animal."
+  },
+  {
+    "id": 34,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Soldier : Army :: Player : ?",
+    "options": ["A) Coach", "B) Team", "C) Game", "D) Sport"],
+    "correct_answer": "B) Team",
+    "explanation": "A Soldier is a member of an Army. Similarly, a Player is a member of a Team. The relationship is individual to their group."
+  },
+  {
+    "id": 35,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Clock : Time :: Thermometer : ?",
+    "options": ["A) Heat", "B) Weather", "C) Temperature", "D) Mercury"],
+    "correct_answer": "C) Temperature",
+    "explanation": "A Clock measures Time. Similarly, a Thermometer measures Temperature. The relationship is instrument to what it measures."
+  },
+  {
+    "id": 36,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Honest : Dishonest :: Brave : ?",
+    "options": ["A) Fearless", "B) Coward", "C) Bold", "D) Timid"],
+    "correct_answer": "B) Coward",
+    "explanation": "Dishonest is the antonym of Honest. Similarly, Coward is the antonym of Brave. The relationship is word to its opposite."
+  },
+  {
+    "id": 37,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Cow : Milk :: Hen : ?",
+    "options": ["A) Chick", "B) Feather", "C) Egg", "D) Meat"],
+    "correct_answer": "C) Egg",
+    "explanation": "Milk is the product obtained from a Cow. Similarly, an Egg is the product obtained from a Hen."
+  },
+  {
+    "id": 38,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Stethoscope : Doctor :: Gavel : ?",
+    "options": ["A) Lawyer", "B) Judge", "C) Police", "D) Court"],
+    "correct_answer": "B) Judge",
+    "explanation": "A Stethoscope is the tool associated with a Doctor. Similarly, a Gavel is the tool associated with a Judge."
+  },
+  {
+    "id": 39,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Paw : Cat :: Hoof : ?",
+    "options": ["A) Dog", "B) Horse", "C) Cow", "D) Deer"],
+    "correct_answer": "B) Horse",
+    "explanation": "A Paw is the foot of a Cat. Similarly, a Hoof is the foot of a Horse. The relationship is foot type to the animal."
+  },
+  {
+    "id": 40,
+    "topic": "Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Seed : Plant :: Egg : ?",
+    "options": ["A) Hen", "B) Bird", "C) Nest", "D) Chick"],
+    "correct_answer": "B) Bird",
+    "explanation": "A Seed grows into a Plant. Similarly, an Egg hatches into a Bird. The relationship is origin/source to the grown form."
+  },
+  {
+    "id": 41,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Acrophobia : Heights :: Claustrophobia : ?",
+    "options": ["A) Water", "B) Darkness", "C) Confined Spaces", "D) Crowds"],
+    "correct_answer": "C) Confined Spaces",
+    "explanation": "Acrophobia is the fear of Heights. Similarly, Claustrophobia is the fear of Confined Spaces. The relationship is phobia name to the object of fear."
+  },
+  {
+    "id": 42,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Ornithology : Birds :: Entomology : ?",
+    "options": ["A) Plants", "B) Insects", "C) Reptiles", "D) Fossils"],
+    "correct_answer": "B) Insects",
+    "explanation": "Ornithology is the study of Birds. Similarly, Entomology is the study of Insects. The relationship is branch of science to its subject of study."
+  },
+  {
+    "id": 43,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Pen : Ink :: Lamp : ?",
+    "options": ["A) Light", "B) Oil", "C) Wick", "D) Glass"],
+    "correct_answer": "B) Oil",
+    "explanation": "A Pen uses Ink to function. Similarly, a Lamp uses Oil to function. The relationship is device to the fuel/medium it requires."
+  },
+  {
+    "id": 44,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Ophthalmology : Eyes :: Cardiology : ?",
+    "options": ["A) Brain", "B) Lungs", "C) Heart", "D) Kidneys"],
+    "correct_answer": "C) Heart",
+    "explanation": "Ophthalmology is the medical study of Eyes. Similarly, Cardiology is the medical study of the Heart."
+  },
+  {
+    "id": 45,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Quill : Feather :: Anvil : ?",
+    "options": ["A) Hammer", "B) Iron", "C) Blacksmith", "D) Metal block"],
+    "correct_answer": "D) Metal block",
+    "explanation": "A Quill is a type of Feather used as a writing tool. Similarly, an Anvil is a type of Metal block used in smithing. The relationship is specific tool to its material form."
+  },
+  {
+    "id": 46,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Chronometer : Time :: Sextant : ?",
+    "options": ["A) Speed", "B) Altitude", "C) Navigation/Position", "D) Depth"],
+    "correct_answer": "C) Navigation/Position",
+    "explanation": "A Chronometer is an instrument used to measure Time precisely. Similarly, a Sextant is an instrument used for Navigation/measuring angular position."
+  },
+  {
+    "id": 47,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Numismatics : Coins :: Philately : ?",
+    "options": ["A) Books", "B) Stamps", "C) Antiques", "D) Paintings"],
+    "correct_answer": "B) Stamps",
+    "explanation": "Numismatics is the study/collection of Coins. Similarly, Philately is the study/collection of Stamps."
+  },
+  {
+    "id": 48,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Lachrymose : Tears :: Somnolent : ?",
+    "options": ["A) Dreams", "B) Sleep", "C) Hunger", "D) Anger"],
+    "correct_answer": "B) Sleep",
+    "explanation": "Lachrymose means tending to cause Tears (tearful). Similarly, Somnolent means tending to cause Sleep (sleepy). The relationship is adjective to the state it describes."
+  },
+  {
+    "id": 49,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Cartography : Maps :: Choreography : ?",
+    "options": ["A) Music", "B) Dance", "C) Drama", "D) Art"],
+    "correct_answer": "B) Dance",
+    "explanation": "Cartography is the art/science of making Maps. Similarly, Choreography is the art of composing/arranging Dance."
+  },
+  {
+    "id": 50,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Herbivore : Plants :: Carnivore : ?",
+    "options": ["A) Grass", "B) Flesh/Meat", "C) Insects", "D) Fruits"],
+    "correct_answer": "B) Flesh/Meat",
+    "explanation": "A Herbivore feeds on Plants. Similarly, a Carnivore feeds on Flesh/Meat. The relationship is feeding type to the food consumed."
+  },
+  {
+    "id": 51,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Stalactite : Ceiling :: Stalagmite : ?",
+    "options": ["A) Wall", "B) Floor", "C) Cave entrance", "D) Rock"],
+    "correct_answer": "B) Floor",
+    "explanation": "A Stalactite hangs from the Ceiling of a cave. Similarly, a Stalagmite rises from the Floor of a cave."
+  },
+  {
+    "id": 52,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Pedagogy : Teaching :: Gerontology : ?",
+    "options": ["A) Germs", "B) Aging/Elderly", "C) Geography", "D) Genetics"],
+    "correct_answer": "B) Aging/Elderly",
+    "explanation": "Pedagogy is the study/science of Teaching. Similarly, Gerontology is the study of Aging and the Elderly."
+  },
+  {
+    "id": 53,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Archipelago : Islands :: Constellation : ?",
+    "options": ["A) Planets", "B) Stars", "C) Galaxies", "D) Comets"],
+    "correct_answer": "B) Stars",
+    "explanation": "An Archipelago is a group/cluster of Islands. Similarly, a Constellation is a group/pattern of Stars."
+  },
+  {
+    "id": 54,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Dermatology : Skin :: Neurology : ?",
+    "options": ["A) Muscles", "B) Bones", "C) Nervous System", "D) Blood"],
+    "correct_answer": "C) Nervous System",
+    "explanation": "Dermatology is the medical study of Skin. Similarly, Neurology is the medical study of the Nervous System."
+  },
+  {
+    "id": 55,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Filibuster : Speech :: Boycott : ?",
+    "options": ["A) Protest", "B) Participation", "C) Refusal to participate", "D) Election"],
+    "correct_answer": "C) Refusal to participate",
+    "explanation": "A Filibuster is a prolonged Speech used to delay legislation. Similarly, a Boycott is a Refusal to participate as a form of protest."
+  },
+  {
+    "id": 56,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Igneous : Volcanic :: Sedimentary : ?",
+    "options": ["A) Metamorphic", "B) Layered deposits", "C) Crystalline", "D) Underground"],
+    "correct_answer": "B) Layered deposits",
+    "explanation": "Igneous rock is formed from Volcanic activity. Similarly, Sedimentary rock is formed from Layered deposits of sediment."
+  },
+  {
+    "id": 57,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Prologue : Beginning :: Epilogue : ?",
+    "options": ["A) Middle", "B) Climax", "C) End", "D) Chapter"],
+    "correct_answer": "C) End",
+    "explanation": "A Prologue appears at the Beginning of a literary work. Similarly, an Epilogue appears at the End of a literary work."
+  },
+  {
+    "id": 58,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Equinox : Equal day and night :: Solstice : ?",
+    "options": ["A) Full moon", "B) Longest or shortest day", "C) Eclipse", "D) New year"],
+    "correct_answer": "B) Longest or shortest day",
+    "explanation": "An Equinox is when day and night are of Equal length. Similarly, a Solstice is when the day is either the Longest or Shortest of the year."
+  },
+  {
+    "id": 59,
+    "topic": "Analogies",
+    "difficulty": "medium",
+    "exam

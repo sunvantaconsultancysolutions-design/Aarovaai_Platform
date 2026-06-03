@@ -1,0 +1,479 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file must be included to use variable argument functions in C?",
+    "options": ["A) stdarg.h", "B) stdlib.h", "C) stdio.h", "D) string.h"],
+    "correct_answer": "A) stdarg.h",
+    "explanation": "The stdarg.h header provides macros like va_list, va_start, va_arg, and va_end needed for variable argument functions."
+  },
+  {
+    "id": 2,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which macro is used to initialize a va_list variable in C?",
+    "options": ["A) va_end", "B) va_arg", "C) va_start", "D) va_init"],
+    "correct_answer": "C) va_start",
+    "explanation": "va_start initializes the va_list variable to point to the first variable argument after the last fixed parameter."
+  },
+  {
+    "id": 3,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which macro retrieves the next argument from a variable argument list?",
+    "options": ["A) va_start", "B) va_arg", "C) va_end", "D) va_next"],
+    "correct_answer": "B) va_arg",
+    "explanation": "va_arg(ap, type) retrieves the next argument of the specified type from the va_list ap."
+  },
+  {
+    "id": 4,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which macro must be called before returning from a function that uses variable arguments?",
+    "options": ["A) va_start", "B) va_arg", "C) va_end", "D) va_close"],
+    "correct_answer": "C) va_end",
+    "explanation": "va_end cleans up the va_list variable and must be called before the function returns to avoid undefined behavior."
+  },
+  {
+    "id": 5,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does '...' represent in a C function declaration?",
+    "options": ["A) Default arguments", "B) Variable number of arguments (ellipsis)", "C) Pointer arguments", "D) Optional arguments"],
+    "correct_answer": "B) Variable number of arguments (ellipsis)",
+    "explanation": "The ellipsis '...' in a function parameter list indicates that the function accepts a variable number of arguments."
+  },
+  {
+    "id": 6,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct declaration of a variadic function in C?",
+    "options": ["A) int func(...)", "B) int func(int n, ...)", "C) int func(... int n)", "D) int func(int ..., n)"],
+    "correct_answer": "B) int func(int n, ...)",
+    "explanation": "A variadic function must have at least one fixed parameter before the ellipsis '...' in its declaration."
+  },
+  {
+    "id": 7,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a well-known example of a variadic function in C?",
+    "options": ["A) malloc()", "B) printf()", "C) strlen()", "D) fopen()"],
+    "correct_answer": "B) printf()",
+    "explanation": "printf() is a classic variadic function that accepts a format string followed by a variable number of arguments."
+  },
+  {
+    "id": 8,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type is va_list in C?",
+    "options": ["A) A pointer type", "B) An integer type", "C) An implementation-defined type to hold variable argument info", "D) A structure type defined by the user"],
+    "correct_answer": "C) An implementation-defined type to hold variable argument info",
+    "explanation": "va_list is a type defined in stdarg.h that holds the information needed to retrieve variable arguments."
+  },
+  {
+    "id": 9,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a variadic function in C have zero fixed parameters?",
+    "options": ["A) Yes, always", "B) No, at least one fixed parameter is required", "C) Yes, if using C99", "D) Yes, if using C11"],
+    "correct_answer": "B) No, at least one fixed parameter is required",
+    "explanation": "C standard requires at least one named parameter before '...' so that va_start can reference it."
+  },
+  {
+    "id": 10,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of printf(\"%d\", 5)?",
+    "options": ["A) 5", "B) %d", "C) 0", "D) Compilation error"],
+    "correct_answer": "A) 5",
+    "explanation": "printf is a variadic function; it reads the format string and prints the integer 5 corresponding to %d."
+  },
+  {
+    "id": 11,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly calls va_start?",
+    "options": ["A) va_start(ap)", "B) va_start(ap, last_fixed_param)", "C) va_start(last_fixed_param, ap)", "D) va_start(ap, ...)"],
+    "correct_answer": "B) va_start(ap, last_fixed_param)",
+    "explanation": "va_start takes two arguments: the va_list variable and the name of the last fixed parameter before '...'."
+  },
+  {
+    "id": 12,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens if va_end is not called after va_start?",
+    "options": ["A) Compilation error", "B) Undefined behavior", "C) The program runs normally", "D) Memory is automatically freed"],
+    "correct_answer": "B) Undefined behavior",
+    "explanation": "Not calling va_end leads to undefined behavior; it is required to properly clean up the va_list."
+  },
+  {
+    "id": 13,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is similar to printf but writes to a string buffer?",
+    "options": ["A) fprintf", "B) sprintf", "C) scanf", "D) puts"],
+    "correct_answer": "B) sprintf",
+    "explanation": "sprintf is a variadic function like printf but writes the formatted output to a character string buffer."
+  },
+  {
+    "id": 14,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does va_arg(ap, int) do?",
+    "options": ["A) Initializes ap", "B) Returns the next argument as int and advances ap", "C) Ends the argument list", "D) Counts the number of arguments"],
+    "correct_answer": "B) Returns the next argument as int and advances ap",
+    "explanation": "va_arg retrieves the next argument from the list as the specified type and advances the internal pointer."
+  },
+  {
+    "id": 15,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT defined in stdarg.h?",
+    "options": ["A) va_list", "B) va_start", "C) va_arg", "D) va_printf"],
+    "correct_answer": "D) va_printf",
+    "explanation": "va_printf does not exist in stdarg.h. The macros defined are va_list, va_start, va_arg, va_end, and va_copy."
+  },
+  {
+    "id": 16,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a variadic function, how does the function know how many arguments were passed?",
+    "options": ["A) Automatically via va_count", "B) Through a fixed parameter (like count or format string)", "C) The compiler tracks it", "D) Using sizeof operator"],
+    "correct_answer": "B) Through a fixed parameter (like count or format string)",
+    "explanation": "The programmer must pass the count or use a sentinel value/format string to determine the number of variable arguments."
+  },
+  {
+    "id": 17,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following: printf(\"%d %d\", 3, 7)?",
+    "options": ["A) 3 7", "B) 37", "C) 7 3", "D) Compilation error"],
+    "correct_answer": "A) 3 7",
+    "explanation": "printf processes the format string and substitutes %d with 3 and the second %d with 7, printing '3 7'."
+  },
+  {
+    "id": 18,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which macro was added in C99 to copy one va_list to another?",
+    "options": ["A) va_dup", "B) va_copy", "C) va_clone", "D) va_assign"],
+    "correct_answer": "B) va_copy",
+    "explanation": "va_copy(dest, src) was introduced in C99 to copy the state of one va_list to another."
+  },
+  {
+    "id": 19,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the minimum number of arguments a variadic function must be called with?",
+    "options": ["A) Zero", "B) One (the fixed parameter)", "C) Two", "D) Depends on the function"],
+    "correct_answer": "B) One (the fixed parameter)",
+    "explanation": "A variadic function must be called with at least the fixed parameters; the variable part can be empty in some implementations."
+  },
+  {
+    "id": 20,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following functions uses variable arguments to read input?",
+    "options": ["A) gets()", "B) fgets()", "C) scanf()", "D) getchar()"],
+    "correct_answer": "C) scanf()",
+    "explanation": "scanf() is a variadic function that reads formatted input using a format string and variable number of pointer arguments."
+  },
+  {
+    "id": 21,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the type of the second argument to va_arg?",
+    "options": ["A) A variable name", "B) A type name", "C) An integer count", "D) A pointer"],
+    "correct_answer": "B) A type name",
+    "explanation": "va_arg(ap, type) requires a type name as the second argument to know how to interpret the next argument."
+  },
+  {
+    "id": 22,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can you pass a float directly as a variable argument in C?",
+    "options": ["A) Yes, it stays as float", "B) No, float is promoted to double", "C) No, float is promoted to int", "D) Yes, but only in C99"],
+    "correct_answer": "B) No, float is promoted to double",
+    "explanation": "Due to default argument promotions, float arguments are automatically promoted to double when passed as variable arguments."
+  },
+  {
+    "id": 23,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to retrieve a double from a va_list?",
+    "options": ["A) va_arg(ap, float)", "B) va_arg(ap, double)", "C) va_arg(ap, long double)", "D) va_arg(ap, real)"],
+    "correct_answer": "B) va_arg(ap, double)",
+    "explanation": "Since float is promoted to double in variable arguments, you must use va_arg(ap, double) to retrieve it correctly."
+  },
+  {
+    "id": 24,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid variadic function definition?",
+    "options": ["A) void f(int a, int b, ...){}", "B) void f(...){}", "C) void f(... int a){}", "D) void f(int ..., a){}"],
+    "correct_answer": "A) void f(int a, int b, ...){}",
+    "explanation": "A valid variadic function must have at least one named parameter before '...', and '...' must be the last parameter."
+  },
+  {
+    "id": 25,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following code print?\n#include<stdio.h>\n#include<stdarg.h>\nvoid show(int n, ...){\n  va_list ap;\n  va_start(ap, n);\n  printf(\"%d\", va_arg(ap, int));\n  va_end(ap);\n}\nint main(){\n  show(1, 42);\n  return 0;\n}",
+    "options": ["A) 1", "B) 42", "C) 0", "D) Undefined"],
+    "correct_answer": "B) 42",
+    "explanation": "va_start initializes ap after n, and va_arg retrieves the first variable argument which is 42."
+  },
+  {
+    "id": 26,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about variadic functions in C?",
+    "options": ["A) They can have no fixed parameters", "B) The ellipsis can appear anywhere in the parameter list", "C) The ellipsis must be the last parameter", "D) They cannot return values"],
+    "correct_answer": "C) The ellipsis must be the last parameter",
+    "explanation": "The C standard requires that '...' appears as the last element in the parameter list of a variadic function."
+  },
+  {
+    "id": 27,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the last fixed parameter in va_start?",
+    "options": ["A) It specifies the number of arguments", "B) It helps va_start locate the start of variable arguments on the stack", "C) It is the return type indicator", "D) It is ignored"],
+    "correct_answer": "B) It helps va_start locate the start of variable arguments on the stack",
+    "explanation": "va_start uses the address of the last fixed parameter to determine where the variable arguments begin in memory."
+  },
+  {
+    "id": 28,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a variadic function from the C standard library?",
+    "options": ["A) memcpy()", "B) fprintf()", "C) fread()", "D) memmove()"],
+    "correct_answer": "B) fprintf()",
+    "explanation": "fprintf() is a variadic function that writes formatted output to a file stream using a format string and variable arguments."
+  },
+  {
+    "id": 29,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of calling va_arg with the wrong type?",
+    "options": ["A) Compilation error", "B) Undefined behavior", "C) Returns 0", "D) Returns NULL"],
+    "correct_answer": "B) Undefined behavior",
+    "explanation": "Using the wrong type in va_arg causes undefined behavior because the bytes are misinterpreted."
+  },
+  {
+    "id": 30,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can char be passed directly as a variable argument in C?",
+    "options": ["A) Yes, it stays as char", "B) No, char is promoted to int", "C) No, char is promoted to long", "D) Yes, but only in C11"],
+    "correct_answer": "B) No, char is promoted to int",
+    "explanation": "Due to default argument promotions, char and short are promoted to int when passed as variable arguments."
+  },
+  {
+    "id": 31,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to retrieve a char passed as a variable argument?",
+    "options": ["A) va_arg(ap, char)", "B) va_arg(ap, int)", "C) va_arg(ap, short)", "D) va_arg(ap, unsigned char)"],
+    "correct_answer": "B) va_arg(ap, int)",
+    "explanation": "Since char is promoted to int in variable arguments, you must use va_arg(ap, int) to retrieve it correctly."
+  },
+  {
+    "id": 32,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header provides the vprintf function?",
+    "options": ["A) stdarg.h", "B) stdio.h", "C) stdlib.h", "D) stddef.h"],
+    "correct_answer": "B) stdio.h",
+    "explanation": "vprintf is declared in stdio.h and is used to print formatted output using a va_list argument."
+  },
+  {
+    "id": 33,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does vprintf do differently from printf?",
+    "options": ["A) It writes to a file", "B) It accepts a va_list instead of '...'", "C) It returns a string", "D) It reads input"],
+    "correct_answer": "B) It accepts a va_list instead of '...'",
+    "explanation": "vprintf takes a va_list argument, making it useful for implementing wrapper functions around printf."
+  },
+  {
+    "id": 34,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many times can va_arg be called on the same va_list?",
+    "options": ["A) Only once", "B) Exactly as many times as there are variable arguments", "C) Unlimited times", "D) Twice"],
+    "correct_answer": "B) Exactly as many times as there are variable arguments",
+    "explanation": "va_arg should be called once per variable argument; calling it more times leads to undefined behavior."
+  },
+  {
+    "id": 35,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of printf(\"%s\", \"hello\")?",
+    "options": ["A) hello", "B) %s", "C) h", "D) Compilation error"],
+    "correct_answer": "A) hello",
+    "explanation": "printf is variadic; %s format specifier causes it to print the string 'hello' passed as the variable argument."
+  },
+  {
+    "id": 36,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly sums variable integer arguments?",
+    "options": ["A) Use va_sum macro", "B) Loop calling va_arg(ap, int) for each argument", "C) Use va_total function", "D) Use va_count then sum"],
+    "correct_answer": "B) Loop calling va_arg(ap, int) for each argument",
+    "explanation": "To sum variable arguments, you loop and call va_arg(ap, int) for each argument, accumulating the sum."
+  },
+  {
+    "id": 37,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a sentinel value in the context of variadic functions?",
+    "options": ["A) The first fixed argument", "B) A special value used to mark the end of variable arguments", "C) The return value", "D) The va_list variable"],
+    "correct_answer": "B) A special value used to mark the end of variable arguments",
+    "explanation": "A sentinel value (like -1 or NULL) is passed as the last variable argument to signal the end of the argument list."
+  },
+  {
+    "id": 38,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is it possible to call a variadic function without any variable arguments?",
+    "options": ["A) No, always need at least one variable argument", "B) Yes, only the fixed parameters are required", "C) No, it causes a compile error", "D) Yes, but only in C99"],
+    "correct_answer": "B) Yes, only the fixed parameters are required",
+    "explanation": "A variadic function can be called with only its fixed parameters; the variable argument part can be empty."
+  },
+  {
+    "id": 39,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following declaration mean: int sum(int count, ...)?",
+    "options": ["A) sum takes exactly two int arguments", "B) sum takes one int and a variable number of additional arguments", "C) sum takes a variable number of int arguments only", "D) sum takes count as a pointer"],
+    "correct_answer": "B) sum takes one int and a variable number of additional arguments",
+    "explanation": "count is the fixed parameter, and '...' indicates that additional arguments of any type can follow."
+  },
+  {
+    "id": 40,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about va_end?",
+    "options": ["A) It returns the last argument", "B) It resets the va_list for reuse", "C) It performs cleanup of the va_list", "D) It counts the arguments"],
+    "correct_answer": "C) It performs cleanup of the va_list",
+    "explanation": "va_end performs necessary cleanup of the va_list variable and should be called before the function returns."
+  },
+  {
+    "id": 41,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\n#include<stdarg.h>\nint sum(int n, ...){\n  int s=0, i;\n  va_list ap;\n  va_start(ap, n);\n  for(i=0;i<n;i++) s+=va_arg(ap,int);\n  va_end(ap);\n  return s;\n}\nint main(){\n  printf(\"%d\", sum(4, 1, 2, 3, 4));\n}",
+    "options": ["A) 10", "B) 4", "C) 1", "D) Undefined"],
+    "correct_answer": "A) 10",
+    "explanation": "sum(4, 1,2,3,4) loops 4 times adding 1+2+3+4=10. va_arg retrieves each int correctly."
+  },
+  {
+    "id": 42,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\n#include<stdio.h>\n#include<stdarg.h>\nvoid print(int n, ...){\n  va_list ap;\n  va_start(ap, n);\n  printf(\"%d \", va_arg(ap, int));\n  printf(\"%d \", va_arg(ap, int));\n  va_end(ap);\n}\nint main(){\n  print(2, 10, 20);\n}",
+    "options": ["A) 10 20", "B) 20 10", "C) 2 10", "D) 10 2"],
+    "correct_answer": "A) 10 20",
+    "explanation": "First va_arg retrieves 10, second retrieves 20. They are printed in order as '10 20'."
+  },
+  {
+    "id": 43,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\n#include<stdio.h>\n#include<stdarg.h>\nint product(int n, ...){\n  int p=1, i;\n  va_list ap;\n  va_start(ap, n);\n  for(i=0;i<n;i++) p*=va_arg(ap,int);\n  va_end(ap);\n  return p;\n}\nint main(){\n  printf(\"%d\", product(3, 2, 3, 4));\n}",
+    "options": ["A) 24", "B) 9", "C) 6", "D) 12"],
+    "correct_answer": "A) 24",
+    "explanation": "product(3, 2,3,4) multiplies 2*3*4=24. The loop runs 3 times using va_arg to get each value."
+  },
+  {
+    "id": 44,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What happens when you call va_arg more times than there are variable arguments?",
+    "options": ["A) Returns 0", "B) Returns -1", "C) Undefined behavior", "D) Throws an exception"],
+    "correct_answer": "C) Undefined behavior",
+    "explanation": "Calling va_arg beyond the actual number of arguments reads garbage memory, causing undefined behavior."
+  },
+  {
+    "id": 45,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\n#include<stdio.h>\n#include<stdarg.h>\nvoid show(char *fmt, ...){\n  va_list ap;\n  va_start(ap, fmt);\n  while(*fmt){\n    if(*fmt=='d') printf(\"%d \", va_arg(ap,int));\n    fmt++;\n  }\n  va_end(ap);\n}\nint main(){\n  show(\"dd\", 5, 10);\n}",
+    "options": ["A) 5 10", "B) 10 5", "C) 5 5", "D) dd"],
+    "correct_answer": "A) 5 10",
+    "explanation": "The loop processes 'd' twice, retrieving 5 then 10 from the va_list and printing them."
+  },
+  {
+    "id": 46,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly implements a variadic max function returning the maximum of n integers?",
+    "options": ["A) Use va_arg in a loop, track maximum", "B) Use va_max macro", "C) Use qsort on va_list", "D) Use va_arg once and return"],
+    "correct_answer": "A) Use va_arg in a loop, track maximum",
+    "explanation": "To find the maximum, loop n times calling va_arg(ap, int) and keep track of the largest value seen."
+  },
+  {
+    "id": 47,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\n#include<stdio.h>\n#include<stdarg.h>\nint count_pos(int n, ...){\n  int c=0, i, v;\n  va_list ap;\n  va_start(ap, n);\n  for(i=0;i<n;i++){\n    v=va_arg(ap,int);\n    if(v>0) c++;\n  }\n  va_end(ap);\n  return c;\n}\nint main(){\n  printf(\"%d\", count_pos(5, -1, 2, -3, 4, 5));\n}",
+    "options": ["A) 3", "B) 2", "C) 5", "D) 4"],
+    "correct_answer": "A) 3",
+    "explanation": "Among -1,2,-3,4,5 the positive values are 2,4,5 — count is 3."
+  },
+  {
+    "id": 48,
+    "topic": "Variable Number of Arguments in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of va_copy?",
+    "options": ["A) Copy the function pointer", "B) Create a copy of a va_list to traverse arguments multiple times", "C) Copy arguments to an array", "D) Duplicate the format string"],

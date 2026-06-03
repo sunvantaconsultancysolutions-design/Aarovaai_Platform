@@ -1,0 +1,428 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid loop in Java?",
+    "options": ["A) for", "B) while", "C) repeat-until", "D) do-while"],
+    "correct_answer": "C) repeat-until",
+    "explanation": "Java supports for, while, and do-while loops. There is no 'repeat-until' loop in Java."
+  },
+  {
+    "id": 2,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nfor(int i=0; i<5; i++) {\n  if(i==3) break;\n  System.out.print(i+\" \");\n}",
+    "options": ["A) 0 1 2 3", "B) 0 1 2", "C) 0 1 2 3 4", "D) 1 2 3"],
+    "correct_answer": "B) 0 1 2",
+    "explanation": "The loop prints i for i=0,1,2. When i=3, break is executed and the loop terminates without printing 3."
+  },
+  {
+    "id": 3,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 10;\nif(x > 5)\n  System.out.println(\"A\");\nelse\n  System.out.println(\"B\");",
+    "options": ["A) B", "B) A", "C) AB", "D) Compilation error"],
+    "correct_answer": "B) A",
+    "explanation": "Since x=10 is greater than 5, the condition is true and 'A' is printed."
+  },
+  {
+    "id": 4,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many times will the following loop execute?\nfor(int i=1; i<=10; i+=2) { }",
+    "options": ["A) 10", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "C) 5",
+    "explanation": "i takes values 1,3,5,7,9 — that's 5 iterations. When i=11, the condition i<=10 fails."
+  },
+  {
+    "id": 5,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'continue' statement do in a loop?",
+    "options": ["A) Exits the loop", "B) Skips the current iteration and continues with the next", "C) Restarts the loop from the beginning", "D) Terminates the program"],
+    "correct_answer": "B) Skips the current iteration and continues with the next",
+    "explanation": "The continue statement skips the remaining code in the current iteration and moves to the next iteration of the loop."
+  },
+  {
+    "id": 6,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint i = 0;\nwhile(i < 3) {\n  System.out.print(i + \" \");\n  i++;\n}",
+    "options": ["A) 0 1 2 3", "B) 1 2 3", "C) 0 1 2", "D) 0 1 2 3 4"],
+    "correct_answer": "C) 0 1 2",
+    "explanation": "The loop runs while i<3. i starts at 0 and increments each time, printing 0, 1, 2 before i becomes 3 and the loop ends."
+  },
+  {
+    "id": 7,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to exit a switch statement in Java?",
+    "options": ["A) exit", "B) stop", "C) break", "D) return"],
+    "correct_answer": "C) break",
+    "explanation": "The 'break' keyword is used to exit a switch statement. Without it, execution falls through to the next case."
+  },
+  {
+    "id": 8,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\ndo {\n  System.out.print(\"Hello\");\n} while(false);",
+    "options": ["A) No output", "B) Hello", "C) HelloHello", "D) Infinite loop"],
+    "correct_answer": "B) Hello",
+    "explanation": "A do-while loop executes the body at least once before checking the condition. So 'Hello' is printed once, then the condition false stops the loop."
+  },
+  {
+    "id": 9,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 5;\nswitch(a) {\n  case 5: System.out.println(\"Five\"); break;\n  case 10: System.out.println(\"Ten\"); break;\n  default: System.out.println(\"Other\");\n}",
+    "options": ["A) Ten", "B) Other", "C) Five", "D) FiveTen"],
+    "correct_answer": "C) Five",
+    "explanation": "a=5 matches case 5, so 'Five' is printed. The break statement prevents fall-through to other cases."
+  },
+  {
+    "id": 10,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following loop types is guaranteed to execute at least once?",
+    "options": ["A) for loop", "B) while loop", "C) do-while loop", "D) enhanced for loop"],
+    "correct_answer": "C) do-while loop",
+    "explanation": "The do-while loop checks the condition after executing the body, so it always executes at least once regardless of the condition."
+  },
+  {
+    "id": 11,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nfor(int i=0; i<5; i++) {\n  if(i==2) continue;\n  System.out.print(i+\" \");\n}",
+    "options": ["A) 0 1 2 3 4", "B) 0 1 3 4", "C) 0 1 2 4", "D) 0 1"],
+    "correct_answer": "B) 0 1 3 4",
+    "explanation": "When i=2, continue skips the print statement. All other values (0,1,3,4) are printed."
+  },
+  {
+    "id": 12,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the value of x after the following code executes?\nint x = 0;\nfor(int i=1; i<=5; i++) {\n  x += i;\n}",
+    "options": ["A) 10", "B) 15", "C) 20", "D) 5"],
+    "correct_answer": "B) 15",
+    "explanation": "x = 1+2+3+4+5 = 15. The loop adds each value of i from 1 to 5 to x."
+  },
+  {
+    "id": 13,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid if-else syntax in Java?",
+    "options": ["A) if(x>0) then { } else { }", "B) if x>0 { } else { }", "C) if(x>0) { } else { }", "D) if{x>0} else{}"],
+    "correct_answer": "C) if(x>0) { } else { }",
+    "explanation": "In Java, the condition in an if statement must be enclosed in parentheses. The 'then' keyword is not used in Java."
+  },
+  {
+    "id": 14,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 3;\nif(x == 1)\n  System.out.println(\"One\");\nelse if(x == 2)\n  System.out.println(\"Two\");\nelse\n  System.out.println(\"Other\");",
+    "options": ["A) One", "B) Two", "C) Other", "D) OneTwo"],
+    "correct_answer": "C) Other",
+    "explanation": "x=3 doesn't match 1 or 2, so the else block executes and prints 'Other'."
+  },
+  {
+    "id": 15,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when a switch statement has no matching case and no default?",
+    "options": ["A) Compilation error", "B) Runtime error", "C) Nothing happens, execution continues after switch", "D) The first case executes"],
+    "correct_answer": "C) Nothing happens, execution continues after switch",
+    "explanation": "If no case matches and there is no default, the switch block is skipped entirely and execution continues with the next statement after the switch."
+  },
+  {
+    "id": 16,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint i = 5;\nwhile(i > 0) {\n  System.out.print(i + \" \");\n  i -= 2;\n}",
+    "options": ["A) 5 3 1", "B) 5 4 3 2 1", "C) 5 3 1 -1", "D) 5 3"],
+    "correct_answer": "A) 5 3 1",
+    "explanation": "i starts at 5, decrements by 2 each time: 5, 3, 1. When i becomes -1, the condition i>0 is false and the loop ends."
+  },
+  {
+    "id": 17,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which data types can be used in a switch statement in Java 7+?",
+    "options": ["A) int, char, String, float", "B) int, char, String, enum", "C) int, float, double, String", "D) All primitive types and String"],
+    "correct_answer": "B) int, char, String, enum",
+    "explanation": "Java 7+ supports int, char, byte, short, String, and enum in switch. float and double are NOT supported."
+  },
+  {
+    "id": 18,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nfor(int i=10; i>=1; i--) {\n  if(i % 2 == 0) System.out.print(i + \" \");\n}",
+    "options": ["A) 10 8 6 4 2", "B) 2 4 6 8 10", "C) 10 9 8 7 6 5 4 3 2 1", "D) 9 7 5 3 1"],
+    "correct_answer": "A) 10 8 6 4 2",
+    "explanation": "The loop counts down from 10 to 1, printing only even numbers: 10, 8, 6, 4, 2."
+  },
+  {
+    "id": 19,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 0;\nif(x = 5) System.out.println(\"True\");\nelse System.out.println(\"False\");",
+    "options": ["A) True", "B) False", "C) Compilation error", "D) 5"],
+    "correct_answer": "C) Compilation error",
+    "explanation": "In Java, assignment (=) in an if condition is a compilation error because the result is int (not boolean). Java requires a boolean expression in if conditions."
+  },
+  {
+    "id": 20,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nfor(int i=0; i<3; i++) {\n  for(int j=0; j<3; j++) {\n    if(i==j) System.out.print(\"* \");\n  }\n}",
+    "options": ["A) * * *", "B) * * * * * * * * *", "C) * *", "D) No output"],
+    "correct_answer": "A) * * *",
+    "explanation": "The inner loop prints '*' only when i==j (diagonal positions): (0,0), (1,1), (2,2) — three times."
+  },
+  {
+    "id": 21,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'default' case in a switch statement?",
+    "options": ["A) It is mandatory in every switch", "B) It executes when no other case matches", "C) It always executes first", "D) It replaces the break statement"],
+    "correct_answer": "B) It executes when no other case matches",
+    "explanation": "The default case is optional and executes when none of the other cases match the switch expression."
+  },
+  {
+    "id": 22,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint count = 0;\nfor(int i=1; i<=100; i++) {\n  if(i % 10 == 0) count++;\n}\nSystem.out.println(count);",
+    "options": ["A) 9", "B) 10", "C) 100", "D) 11"],
+    "correct_answer": "B) 10",
+    "explanation": "Multiples of 10 from 1 to 100 are: 10,20,30,40,50,60,70,80,90,100 — exactly 10 numbers."
+  },
+  {
+    "id": 23,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 7;\nString result = (x > 5) ? \"Big\" : \"Small\";\nSystem.out.println(result);",
+    "options": ["A) Small", "B) Big", "C) BigSmall", "D) Compilation error"],
+    "correct_answer": "B) Big",
+    "explanation": "The ternary operator evaluates x>5 which is true (7>5), so 'Big' is assigned to result and printed."
+  },
+  {
+    "id": 24,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nfor(int i=0; i<0; i++) {\n  System.out.println(\"Hello\");\n}\nSystem.out.println(\"Done\");",
+    "options": ["A) Hello Done", "B) Done", "C) Hello", "D) No output"],
+    "correct_answer": "B) Done",
+    "explanation": "The loop condition i<0 is false from the start (i=0), so the loop body never executes. Only 'Done' is printed."
+  },
+  {
+    "id": 25,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 2;\nswitch(a) {\n  case 1:\n  case 2:\n  case 3: System.out.println(\"1 to 3\"); break;\n  default: System.out.println(\"Other\");\n}",
+    "options": ["A) Other", "B) 1 to 3 Other", "C) 1 to 3", "D) Compilation error"],
+    "correct_answer": "C) 1 to 3",
+    "explanation": "a=2 matches case 2. Since case 1 and case 2 have no break, execution falls through to case 3 which prints '1 to 3' and breaks."
+  },
+  {
+    "id": 26,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint i = 1;\nwhile(i <= 5) {\n  System.out.print(i * i + \" \");\n  i++;\n}",
+    "options": ["A) 1 4 9 16 25", "B) 1 2 3 4 5", "C) 2 4 6 8 10", "D) 1 3 5 7 9"],
+    "correct_answer": "A) 1 4 9 16 25",
+    "explanation": "The loop prints i*i for i=1 to 5: 1*1=1, 2*2=4, 3*3=9, 4*4=16, 5*5=25."
+  },
+  {
+    "id": 27,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly represents an infinite loop in Java?",
+    "options": ["A) for(int i=0; i<10; i--) {}", "B) while(true) {}", "C) Both A and B", "D) do { } while(false)"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "while(true) is an explicit infinite loop. for(i=0; i<10; i--) is also infinite because i decrements and never reaches 10."
+  },
+  {
+    "id": 28,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nfor(int i=1; i<=3; i++) {\n  System.out.print(i + \" \");\n}\nSystem.out.print(\"End\");",
+    "options": ["A) 1 2 3 End", "B) 1 2 3End", "C) End 1 2 3", "D) 1 2 3"],
+    "correct_answer": "B) 1 2 3End",
+    "explanation": "The loop prints '1 ', '2 ', '3 ' with spaces, then 'End' is printed without a space before it, giving '1 2 3End'."
+  },
+  {
+    "id": 29,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 15;\nif(x % 3 == 0 && x % 5 == 0)\n  System.out.println(\"FizzBuzz\");\nelse if(x % 3 == 0)\n  System.out.println(\"Fizz\");\nelse\n  System.out.println(\"Buzz\");",
+    "options": ["A) Fizz", "B) Buzz", "C) FizzBuzz", "D) FizzFizzBuzz"],
+    "correct_answer": "C) FizzBuzz",
+    "explanation": "15 % 3 == 0 and 15 % 5 == 0 are both true, so the first condition is true and 'FizzBuzz' is printed."
+  },
+  {
+    "id": 30,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint sum = 0;\nfor(int i=2; i<=10; i+=2) {\n  sum += i;\n}\nSystem.out.println(sum);",
+    "options": ["A) 25", "B) 30", "C) 20", "D) 35"],
+    "correct_answer": "B) 30",
+    "explanation": "Even numbers from 2 to 10: 2+4+6+8+10 = 30."
+  },
+  {
+    "id": 31,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 5;\nif(x > 3)\n  if(x > 4)\n    System.out.println(\"A\");\n  else\n    System.out.println(\"B\");\nelse\n  System.out.println(\"C\");",
+    "options": ["A) A", "B) B", "C) C", "D) AB"],
+    "correct_answer": "A) A",
+    "explanation": "x=5 > 3 is true, then x=5 > 4 is also true, so 'A' is printed. The else belongs to the nearest if."
+  },
+  {
+    "id": 32,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nfor(int i=0; i<5; i++) { }\nSystem.out.println(i);",
+    "options": ["A) 5", "B) 4", "C) 0", "D) Compilation error"],
+    "correct_answer": "D) Compilation error",
+    "explanation": "The variable i is declared inside the for loop and is not accessible outside it. Accessing i after the loop causes a compilation error."
+  },
+  {
+    "id": 33,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint n = 4;\nint fact = 1;\nfor(int i=1; i<=n; i++) {\n  fact *= i;\n}\nSystem.out.println(fact);",
+    "options": ["A) 12", "B) 24", "C) 16", "D) 10"],
+    "correct_answer": "B) 24",
+    "explanation": "4! = 1*2*3*4 = 24. The loop multiplies fact by each i from 1 to 4."
+  },
+  {
+    "id": 34,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 10;\nswitch(x) {\n  case 10: System.out.print(\"Ten\");\n  case 20: System.out.print(\"Twenty\");\n  default: System.out.print(\"Default\");\n}",
+    "options": ["A) Ten", "B) TenTwenty", "C) TenTwentyDefault", "D) Default"],
+    "correct_answer": "C) TenTwentyDefault",
+    "explanation": "x=10 matches case 10. Since there are no break statements, execution falls through all cases printing 'TenTwentyDefault'."
+  },
+  {
+    "id": 35,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint i = 0;\ndo {\n  i++;\n} while(i < 5);\nSystem.out.println(i);",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 0"],
+    "correct_answer": "B) 5",
+    "explanation": "The do-while loop increments i until i is no longer < 5. After the loop, i=5 (the condition i<5 fails when i=5)."
+  },
+  {
+    "id": 36,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct syntax for an enhanced for loop in Java?",
+    "options": ["A) for(int x : array) { }", "B) for(int x in array) { }", "C) foreach(int x : array) { }", "D) for each(int x : array) { }"],
+    "correct_answer": "A) for(int x : array) { }",
+    "explanation": "Java's enhanced for loop (for-each) uses the colon (:) operator. The syntax is: for(type variable : collection) { }."
+  },
+  {
+    "id": 37,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint[] arr = {1, 2, 3, 4, 5};\nint sum = 0;\nfor(int x : arr) {\n  sum += x;\n}\nSystem.out.println(sum);",
+    "options": ["A) 10", "B) 15", "C) 12", "D) 5"],
+    "correct_answer": "B) 15",
+    "explanation": "The enhanced for loop iterates over all elements: 1+2+3+4+5 = 15."
+  },
+  {
+    "id": 38,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nboolean flag = true;\nif(flag == true)\n  System.out.println(\"Yes\");\nelse\n  System.out.println(\"No\");",
+    "options": ["A) No", "B) Yes", "C) YesNo", "D) Compilation error"],
+    "correct_answer": "B) Yes",
+    "explanation": "flag is true, so flag==true evaluates to true and 'Yes' is printed."
+  },
+  {
+    "id": 39,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nfor(int i=1; i<10; i*=2) {\n  System.out.print(i + \" \");\n}",
+    "options": ["A) 1 2 4 8", "B) 1 2 4 8 16", "C) 2 4 8", "D) 1 2 3 4 5 6 7 8 9"],
+    "correct_answer": "A) 1 2 4 8",
+    "explanation": "i starts at 1 and doubles each time: 1, 2, 4, 8. When i=16, the condition i<10 fails."
+  },
+  {
+    "id": 40,
+    "topic": "Flow Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 5;\nint y = (x > 3) ? (x > 4 ? 10 : 20) : 30;\nSystem.out.println(y);",
+    "options": ["A) 10", "B) 20", "C) 30", "D) 5"],
+    "correct_answer": "A) 10",
+    "explanation": "x=5 > 3 is true, then x=5 > 4 is also true, so y=10."
+  },
+  {
+    "id": 41,
+    "topic": "Flow Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nouter: for(int i=0; i<3; i++) {\n  for(int j=0; j<3; j++) {\n    if(j==1) break outer;\n    System.out.print(i+\"\"+j+\" \");\n  }\n}",
+    "options": ["A) 00 10 20", "B) 00", "C) 00 01 02", "D) 00 11 22"],
+    "correct_answer": "B) 00",
+    "explanation": "When i=0, j=0: prints '00'. When j=1, 'break outer' exits the outer loop entirely. So only '00' is printed."
+  },
+  {
+    "id": 42,
+    "topic": "Flow Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint x = 5;\nswitch(x) {\n  default: System.out.println(\"Default\");\n  case 5: System.out.println(\"Five\");\n  case 10: System.out.println(\"Ten\");\n}",
+    "options": ["A) Default Five Ten", "B) Five Ten", "C) Five", "D) Default"],
+    "correct_answer": "B) Five Ten",
+    "explanation": "x=5 matches case 5 directly (default is skipped when a match is found). No break, so it falls through to case 10 printing 'Five' then 'Ten'."
+  },
+  {
+    "id": 43,
+    "topic": "Flow Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint i = 0;\nfor(; i < 5; )

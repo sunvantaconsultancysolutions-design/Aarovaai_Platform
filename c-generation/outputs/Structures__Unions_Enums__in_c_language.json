@@ -1,0 +1,465 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to define a structure in C?",
+    "options": ["A) struct", "B) structure", "C) record", "D) class"],
+    "correct_answer": "A) struct",
+    "explanation": "In C, the 'struct' keyword is used to define a structure. 'structure', 'record', and 'class' are not valid C keywords for this purpose."
+  },
+  {
+    "id": 2,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to declare a structure named 'Student' in C?",
+    "options": ["A) struct Student { };", "B) structure Student { };", "C) Student struct { };", "D) define struct Student { };"],
+    "correct_answer": "A) struct Student { };",
+    "explanation": "The correct syntax is 'struct TagName { members; };'. Option A follows this syntax correctly."
+  },
+  {
+    "id": 3,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How do you access a member 'age' of a structure variable 'emp' in C?",
+    "options": ["A) emp.age", "B) emp->age", "C) emp::age", "D) emp#age"],
+    "correct_answer": "A) emp.age",
+    "explanation": "The dot (.) operator is used to access members of a structure variable. The arrow (->) operator is used with pointers to structures."
+  },
+  {
+    "id": 4,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator is used to access a structure member through a pointer?",
+    "options": ["A) ->", "B) .", "C) ::", "D) *"],
+    "correct_answer": "A) ->",
+    "explanation": "The arrow operator (->) is used to access structure members through a pointer. For example, ptr->member is equivalent to (*ptr).member."
+  },
+  {
+    "id": 5,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of the following structure? struct A { int x; char y; }; (Assume int = 4 bytes, char = 1 byte, no padding)",
+    "options": ["A) 5 bytes", "B) 4 bytes", "C) 8 bytes", "D) 1 byte"],
+    "correct_answer": "A) 5 bytes",
+    "explanation": "Without padding, the size is sum of all members: int (4 bytes) + char (1 byte) = 5 bytes. With padding it may differ, but the question specifies no padding."
+  },
+  {
+    "id": 6,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to define a union in C?",
+    "options": ["A) union", "B) Union", "C) UNION", "D) combine"],
+    "correct_answer": "A) union",
+    "explanation": "In C, the 'union' keyword (lowercase) is used to define a union. C is case-sensitive, so 'Union' and 'UNION' are invalid."
+  },
+  {
+    "id": 7,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the key difference between a structure and a union in C?",
+    "options": ["A) In a union, all members share the same memory location", "B) In a structure, all members share the same memory location", "C) Unions cannot have more than one member", "D) Structures cannot have pointers as members"],
+    "correct_answer": "A) In a union, all members share the same memory location",
+    "explanation": "In a union, all members share the same memory space, so only one member can hold a value at a time. In a structure, each member has its own memory."
+  },
+  {
+    "id": 8,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of a union? union B { int x; char y; double z; }; (int=4, char=1, double=8 bytes)",
+    "options": ["A) 8 bytes", "B) 13 bytes", "C) 4 bytes", "D) 1 byte"],
+    "correct_answer": "A) 8 bytes",
+    "explanation": "The size of a union equals the size of its largest member. Here, double (8 bytes) is the largest, so the union size is 8 bytes."
+  },
+  {
+    "id": 9,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to define an enumeration in C?",
+    "options": ["A) enum", "B) enumerate", "C) Enum", "D) enumeration"],
+    "correct_answer": "A) enum",
+    "explanation": "The 'enum' keyword is used to define an enumeration in C. It allows you to assign names to integer constants."
+  },
+  {
+    "id": 10,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default starting value of the first enumerator in an enum?",
+    "options": ["A) 0", "B) 1", "C) -1", "D) Undefined"],
+    "correct_answer": "A) 0",
+    "explanation": "By default, the first enumerator in an enum is assigned the value 0, and each subsequent enumerator is incremented by 1."
+  },
+  {
+    "id": 11,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Given: enum Color { RED, GREEN, BLUE }; What is the value of GREEN?",
+    "options": ["A) 1", "B) 0", "C) 2", "D) 3"],
+    "correct_answer": "A) 1",
+    "explanation": "RED=0 (default), GREEN=1 (RED+1), BLUE=2 (GREEN+1). So GREEN has the value 1."
+  },
+  {
+    "id": 12,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a structure contain another structure as a member in C?",
+    "options": ["A) Yes", "B) No", "C) Only if they are of the same type", "D) Only with pointers"],
+    "correct_answer": "A) Yes",
+    "explanation": "C allows nested structures. A structure can contain another structure as a member, which is called a nested structure."
+  },
+  {
+    "id": 13,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'typedef' do when used with a structure?",
+    "options": ["A) Creates an alias for the structure type", "B) Defines a new structure", "C) Allocates memory for the structure", "D) Initializes the structure members"],
+    "correct_answer": "A) Creates an alias for the structure type",
+    "explanation": "typedef creates a new name (alias) for an existing type. When used with struct, it allows you to use the alias instead of 'struct TagName'."
+  },
+  {
+    "id": 14,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares a structure variable 'p' of type 'struct Point'?",
+    "options": ["A) struct Point p;", "B) Point p;", "C) struct p Point;", "D) p struct Point;"],
+    "correct_answer": "A) struct Point p;",
+    "explanation": "In C, to declare a structure variable, you use 'struct TagName variableName;'. Without typedef, you must include the 'struct' keyword."
+  },
+  {
+    "id": 15,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output? struct X { int a; }; struct X obj = {10}; printf(\"%d\", obj.a);",
+    "options": ["A) 10", "B) 0", "C) Garbage value", "D) Compilation error"],
+    "correct_answer": "A) 10",
+    "explanation": "The structure variable 'obj' is initialized with {10}, so obj.a = 10. printf prints 10."
+  },
+  {
+    "id": 16,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can we pass a structure to a function in C?",
+    "options": ["A) Yes, by value or by reference", "B) No, structures cannot be passed to functions", "C) Only by reference", "D) Only by value"],
+    "correct_answer": "A) Yes, by value or by reference",
+    "explanation": "In C, structures can be passed to functions both by value (a copy is made) and by reference (using pointers)."
+  },
+  {
+    "id": 17,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of union U { char c; int i; }? (char=1, int=4 bytes)",
+    "options": ["A) 4 bytes", "B) 5 bytes", "C) 1 byte", "D) 8 bytes"],
+    "correct_answer": "A) 4 bytes",
+    "explanation": "The size of a union is the size of its largest member. int (4 bytes) is larger than char (1 byte), so the union size is 4 bytes."
+  },
+  {
+    "id": 18,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid enum declaration?",
+    "options": ["A) enum Day { MON, TUE, WED };", "B) enum { MON=1, TUE=1, WED=1 };", "C) enum Day ( MON, TUE, WED );", "D) enum Day [ MON, TUE, WED ];"],
+    "correct_answer": "A) enum Day { MON, TUE, WED };",
+    "explanation": "Enum uses curly braces {} to enclose the enumerators. Options C and D use wrong brackets. Option B is valid syntax but has duplicate values."
+  },
+  {
+    "id": 19,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you assign a value to one member of a union and then read another member?",
+    "options": ["A) The result is implementation-defined/undefined behavior", "B) Both members will have the same value", "C) The second member will be zero", "D) Compilation error"],
+    "correct_answer": "A) The result is implementation-defined/undefined behavior",
+    "explanation": "In a union, all members share memory. Reading a member other than the last written one leads to implementation-defined behavior as the bytes are reinterpreted."
+  },
+  {
+    "id": 20,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an enum have negative values in C?",
+    "options": ["A) Yes", "B) No", "C) Only if explicitly cast", "D) Only in C99"],
+    "correct_answer": "A) Yes",
+    "explanation": "Enum values can be assigned any integer value including negative numbers. For example: enum E { A = -5, B = -3 }; is valid."
+  },
+  {
+    "id": 21,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to initialize all members of a structure to zero?",
+    "options": ["A) struct S obj = {0};", "B) struct S obj = NULL;", "C) struct S obj = 0;", "D) struct S obj = {};"],
+    "correct_answer": "A) struct S obj = {0};",
+    "explanation": "Using {0} as the initializer sets the first member to 0 and all remaining members are zero-initialized by default in C."
+  },
+  {
+    "id": 22,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid member type in a C structure?",
+    "options": ["A) A function definition", "B) An integer", "C) A pointer", "D) Another structure"],
+    "correct_answer": "A) A function definition",
+    "explanation": "Structures can contain variables (int, float, char, pointers, arrays, other structs) but NOT function definitions. Function pointers are allowed, but not function definitions."
+  },
+  {
+    "id": 23,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Given: enum E { A=2, B, C }; What is the value of C?",
+    "options": ["A) 4", "B) 2", "C) 3", "D) 1"],
+    "correct_answer": "A) 4",
+    "explanation": "A=2 (explicit), B=3 (A+1), C=4 (B+1). Each subsequent enumerator increments by 1 from the previous value."
+  },
+  {
+    "id": 24,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of using 'typedef' with a struct?",
+    "options": ["A) To avoid writing 'struct' keyword every time", "B) To increase the size of the structure", "C) To make the structure read-only", "D) To initialize structure members"],
+    "correct_answer": "A) To avoid writing 'struct' keyword every time",
+    "explanation": "typedef struct { ... } TypeName; allows you to declare variables as 'TypeName var;' instead of 'struct TagName var;', making code cleaner."
+  },
+  {
+    "id": 25,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can two different structure variables be compared using == operator in C?",
+    "options": ["A) No, C does not support direct comparison of structures", "B) Yes, using == operator", "C) Yes, but only if they have the same members", "D) Yes, using the compare() function"],
+    "correct_answer": "A) No, C does not support direct comparison of structures",
+    "explanation": "C does not allow direct comparison of structure variables using ==. You must compare each member individually or use memcmp()."
+  },
+  {
+    "id": 26,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output? struct P { int x, y; }; struct P p = {3, 4}; printf(\"%d %d\", p.x, p.y);",
+    "options": ["A) 3 4", "B) 4 3", "C) 0 0", "D) Compilation error"],
+    "correct_answer": "A) 3 4",
+    "explanation": "The structure is initialized with {3, 4}, so p.x=3 and p.y=4. printf prints them in order: 3 4."
+  },
+  {
+    "id": 27,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly accesses member 'name' of a structure through pointer 'ptr'?",
+    "options": ["A) ptr->name", "B) ptr.name", "C) *ptr.name", "D) &ptr->name"],
+    "correct_answer": "A) ptr->name",
+    "explanation": "When accessing structure members through a pointer, use the arrow operator (->). ptr->name is equivalent to (*ptr).name."
+  },
+  {
+    "id": 28,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a self-referential structure in C?",
+    "options": ["A) A structure that contains a pointer to itself", "B) A structure that contains itself as a member", "C) A structure with only one member", "D) A structure defined inside a function"],
+    "correct_answer": "A) A structure that contains a pointer to itself",
+    "explanation": "A self-referential structure contains a pointer to the same structure type. This is used in linked lists, trees, etc. A structure cannot contain itself directly (only a pointer to itself)."
+  },
+  {
+    "id": 29,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of sizeof(enum Color) where enum Color { RED, GREEN, BLUE }? (Assume int = 4 bytes)",
+    "options": ["A) 4 bytes", "B) 1 byte", "C) 3 bytes", "D) 12 bytes"],
+    "correct_answer": "A) 4 bytes",
+    "explanation": "In C, enum variables are stored as integers. The size of an enum is typically the size of an int (4 bytes on most systems)."
+  },
+  {
+    "id": 30,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a union contain a structure as its member?",
+    "options": ["A) Yes", "B) No", "C) Only if the structure has one member", "D) Only in C99 and later"],
+    "correct_answer": "A) Yes",
+    "explanation": "A union can contain any valid C data type as its member, including structures. The union size will be at least the size of the structure."
+  },
+  {
+    "id": 31,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output? enum Fruit { APPLE=1, MANGO=3, BANANA }; printf(\"%d\", BANANA);",
+    "options": ["A) 4", "B) 2", "C) 3", "D) 5"],
+    "correct_answer": "A) 4",
+    "explanation": "APPLE=1, MANGO=3 (explicit), BANANA=4 (MANGO+1). Each enumerator without explicit value is previous value + 1."
+  },
+  {
+    "id": 32,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to dynamically allocate memory for a structure?",
+    "options": ["A) struct S *p = (struct S*)malloc(sizeof(struct S));", "B) struct S *p = new struct S;", "C) struct S p = malloc(sizeof(struct S));", "D) struct S *p = alloc(struct S);"],
+    "correct_answer": "A) struct S *p = (struct S*)malloc(sizeof(struct S));",
+    "explanation": "malloc() is used for dynamic memory allocation in C. The result is cast to the appropriate pointer type and sizeof is used to get the correct size."
+  },
+  {
+    "id": 33,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is structure padding?",
+    "options": ["A) Extra bytes added by compiler for memory alignment", "B) Initializing structure members to zero", "C) Adding extra members to a structure", "D) Copying one structure to another"],
+    "correct_answer": "A) Extra bytes added by compiler for memory alignment",
+    "explanation": "Structure padding is extra bytes inserted by the compiler between members to align data on natural boundaries, improving memory access performance."
+  },
+  {
+    "id": 34,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can we have an array of structures in C?",
+    "options": ["A) Yes", "B) No", "C) Only with pointers", "D) Only with typedef"],
+    "correct_answer": "A) Yes",
+    "explanation": "Arrays of structures are valid in C. For example: struct Student s[10]; declares an array of 10 Student structures."
+  },
+  {
+    "id": 35,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output? union U { int i; char c; }; union U u; u.i = 65; printf(\"%c\", u.c); (Assume little-endian)",
+    "options": ["A) A", "B) 65", "C) B", "D) Compilation error"],
+    "correct_answer": "A) A",
+    "explanation": "In a union, members share memory. u.i=65 stores 65 in memory. u.c reads the first byte which is 65 (ASCII 'A') on little-endian systems."
+  },
+  {
+    "id": 36,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about enum is TRUE?",
+    "options": ["A) Two enumerators in the same enum can have the same value", "B) Enum values must be unique", "C) Enum values must be positive", "D) Enum names are case-insensitive"],
+    "correct_answer": "A) Two enumerators in the same enum can have the same value",
+    "explanation": "In C, two enumerators can have the same integer value. For example: enum E { A=1, B=1 }; is valid."
+  },
+  {
+    "id": 37,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to copy one structure to another of the same type?",
+    "options": ["A) s2 = s1;", "B) s2 == s1;", "C) strcpy(s2, s1);", "D) memcopy(s2, s1);"],
+    "correct_answer": "A) s2 = s1;",
+    "explanation": "In C, you can directly assign one structure to another of the same type using the = operator. This performs a member-wise copy."
+  },
+  {
+    "id": 38,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a bit field in a structure?",
+    "options": ["A) A member that specifies the number of bits to use", "B) A member that stores binary data", "C) A pointer to a bit array", "D) A special type of union"],
+    "correct_answer": "A) A member that specifies the number of bits to use",
+    "explanation": "Bit fields allow you to specify the exact number of bits a member should occupy. Example: struct { int flag : 1; int value : 4; };"
+  },
+  {
+    "id": 39,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output? struct T { int a; float b; }; printf(\"%lu\", sizeof(struct T)); (int=4, float=4 bytes, no padding)",
+    "options": ["A) 8", "B) 4", "C) 16", "D) 2"],
+    "correct_answer": "A) 8",
+    "explanation": "sizeof(struct T) = sizeof(int) + sizeof(float) = 4 + 4 = 8 bytes (assuming no padding needed since both are 4-byte aligned)."
+  },
+  {
+    "id": 40,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can we return a structure from a function in C?",
+    "options": ["A) Yes", "B) No", "C) Only if the structure has one member", "D) Only using pointers"],
+    "correct_answer": "A) Yes",
+    "explanation": "In C, a function can return a structure by value. The entire structure is copied and returned. It's also common to return a pointer to a structure."
+  },
+  {
+    "id": 41,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nstruct Node { int data; struct Node *next; };\nstruct Node n1 = {10, NULL};\nstruct Node n2 = {20, &n1};\nprintf(\"%d\", n2.next->data);",
+    "options": ["A) 10", "B) 20", "C) NULL", "D) Compilation error"],
+    "correct_answer": "A) 10",
+    "explanation": "n2.next points to n1. n2.next->data accesses n1.data which is 10. The arrow operator dereferences the pointer and accesses the member."
+  },
+  {
+    "id": 42,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the size of the following structure with padding?\nstruct S { char a; int b; char c; }; (char=1, int=4 bytes, 4-byte alignment)",
+    "options": ["A) 12 bytes", "B) 6 bytes", "C) 9 bytes", "D) 8 bytes"],
+    "correct_answer": "A) 12 bytes",
+    "explanation": "char a (1 byte) + 3 padding + int b (4 bytes) + char c (1 byte) + 3 padding = 12 bytes. Padding is added after 'a' and 'c' for alignment."
+  },
+  {
+    "id": 43,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\nstruct S { int x; int y; };\nstruct S arr[3] = {{1,2},{3,4},{5,6}};\nprintf(\"%d\", arr[1].y);",
+    "options": ["A) 4", "B) 3", "C) 2", "D) 5"],
+    "correct_answer": "A) 4",
+    "explanation": "arr[1] is the second element {3,4}. arr[1].y accesses the y member which is 4."
+  },
+  {
+    "id": 44,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\nunion U { int i; float f; };\nunion U u;\nu.f = 3.14f;\nprintf(\"%d\", u.i);",
+    "options": ["A) Some garbage/implementation-defined integer value", "B) 3", "C) 0", "D) 314"],
+    "correct_answer": "A) Some garbage/implementation-defined integer value",
+    "explanation": "After assigning to u.f, reading u.i reinterprets the float bytes as an integer. The result is implementation-defined (the bit pattern of 3.14f interpreted as int)."
+  },
+  {
+    "id": 45,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\ntypedef struct { int x; int y; } Point;\nPoint p = {5, 10};\nPoint *ptr = &p;\nptr->x = 20;\nprintf(\"%d\", p.x);",
+    "options": ["A) 20", "B) 5", "C) 10", "D) 0"],
+    "correct_answer": "A) 20",
+    "explanation": "ptr points to p. ptr->x = 20 modifies p.x through the pointer. So p.x becomes 20."
+  },
+  {
+    "id": 46,
+    "topic": "Structures Unions Enums in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the size of the following structure?\nstruct S { int a; double b; int c; }; (int=4, double=8 bytes, 8-byte alignment)",
+    "options": ["A) 24 bytes", "B) 16 bytes", "C) 20 bytes", "D) 12 bytes"],
+    "correct_answer": "A) 24 bytes",
+    "explanation": "int a (4) + 4 padding + double b (8) + int c (4) + 4 padding = 24 bytes. Padding after 'a' aligns double, padding after 'c' aligns the struct size to 8."
+  },
+  {
+    "id": 47,
+    "topic": "Structures Unions Enums in c language

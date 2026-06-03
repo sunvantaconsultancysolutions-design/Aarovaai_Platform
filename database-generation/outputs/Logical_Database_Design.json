@@ -1,0 +1,471 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a logical database design?",
+    "options": ["A) The physical storage of data on disk", "B) The abstract representation of data structures independent of physical implementation", "C) The process of writing SQL queries", "D) The hardware configuration of a database server"],
+    "correct_answer": "B) The abstract representation of data structures independent of physical implementation",
+    "explanation": "Logical database design focuses on defining data structures, relationships, and constraints without considering how data is physically stored. It is implementation-independent."
+  },
+  {
+    "id": 2,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a primary key in a relational database?",
+    "options": ["A) A key that can have NULL values", "B) A unique identifier for each record in a table", "C) A key that references another table", "D) A key used only for indexing purposes"],
+    "correct_answer": "B) A unique identifier for each record in a table",
+    "explanation": "A primary key uniquely identifies each row in a table. It cannot contain NULL values and must be unique across all rows."
+  },
+  {
+    "id": 3,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates partial dependencies?",
+    "options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "B) Second Normal Form (2NF)",
+    "explanation": "2NF eliminates partial dependencies, meaning every non-key attribute must be fully functionally dependent on the entire primary key, not just part of it."
+  },
+  {
+    "id": 4,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a foreign key?",
+    "options": ["A) A key that uniquely identifies a record in its own table", "B) A key that links two tables by referencing the primary key of another table", "C) A key that cannot have duplicate values", "D) A key used for full-text searching"],
+    "correct_answer": "B) A key that links two tables by referencing the primary key of another table",
+    "explanation": "A foreign key establishes a referential integrity constraint between two tables by referencing the primary key of the parent table."
+  },
+  {
+    "id": 5,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a property of a relation in a relational database?",
+    "options": ["A) Each row is unique", "B) Column values are atomic", "C) Rows are ordered", "D) Each column has a unique name"],
+    "correct_answer": "C) Rows are ordered",
+    "explanation": "In a relational model, rows (tuples) are unordered. The other options — unique rows, atomic column values, and unique column names — are all valid properties of a relation."
+  },
+  {
+    "id": 6,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 1NF (First Normal Form) require?",
+    "options": ["A) No transitive dependencies", "B) All attributes must be atomic (no repeating groups)", "C) No partial dependencies", "D) Every determinant must be a candidate key"],
+    "correct_answer": "B) All attributes must be atomic (no repeating groups)",
+    "explanation": "1NF requires that each column contains only atomic (indivisible) values and there are no repeating groups or arrays within a single column."
+  },
+  {
+    "id": 7,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An entity-relationship (ER) diagram is used in which phase of database design?",
+    "options": ["A) Physical design", "B) Implementation", "C) Conceptual/Logical design", "D) Query optimization"],
+    "correct_answer": "C) Conceptual/Logical design",
+    "explanation": "ER diagrams are used during the conceptual and logical design phases to model entities, attributes, and relationships before physical implementation."
+  },
+  {
+    "id": 8,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following represents a one-to-many relationship?",
+    "options": ["A) One student can enroll in one course only", "B) One department can have many employees", "C) Many students can have many courses", "D) One employee works in many companies simultaneously"],
+    "correct_answer": "B) One department can have many employees",
+    "explanation": "A one-to-many relationship means one record in Table A can relate to multiple records in Table B. One department having many employees is a classic example."
+  },
+  {
+    "id": 9,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is normalization in database design?",
+    "options": ["A) The process of combining multiple tables into one", "B) The process of organizing data to reduce redundancy and improve integrity", "C) The process of encrypting database records", "D) The process of backing up a database"],
+    "correct_answer": "B) The process of organizing data to reduce redundancy and improve integrity",
+    "explanation": "Normalization is a systematic approach to decomposing tables to eliminate data redundancy and undesirable insertion, update, and deletion anomalies."
+  },
+  {
+    "id": 10,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a candidate key?",
+    "options": ["A) Any attribute that can uniquely identify a tuple", "B) Only the primary key of a table", "C) A key that allows NULL values", "D) A key that references another table"],
+    "correct_answer": "A) Any attribute that can uniquely identify a tuple",
+    "explanation": "A candidate key is any minimal set of attributes that can uniquely identify a tuple. One candidate key is chosen as the primary key; others are called alternate keys."
+  },
+  {
+    "id": 11,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, what shape is used to represent an entity?",
+    "options": ["A) Diamond", "B) Circle/Ellipse", "C) Rectangle", "D) Triangle"],
+    "correct_answer": "C) Rectangle",
+    "explanation": "In standard ER notation, rectangles represent entities, ellipses represent attributes, and diamonds represent relationships."
+  },
+  {
+    "id": 12,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a composite key?",
+    "options": ["A) A key made up of two or more attributes that together uniquely identify a record", "B) A key that references multiple foreign tables", "C) A key that is automatically generated by the database", "D) A key that can have NULL values"],
+    "correct_answer": "A) A key made up of two or more attributes that together uniquely identify a record",
+    "explanation": "A composite key uses multiple columns together to uniquely identify a row. No single column alone is sufficient to identify the record."
+  },
+  {
+    "id": 13,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which anomaly occurs when deleting a record causes unintended loss of other data?",
+    "options": ["A) Insertion anomaly", "B) Update anomaly", "C) Deletion anomaly", "D) Retrieval anomaly"],
+    "correct_answer": "C) Deletion anomaly",
+    "explanation": "A deletion anomaly occurs when removing a record unintentionally deletes other important data that was stored in the same row due to poor table design."
+  },
+  {
+    "id": 14,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'schema' refer to in database design?",
+    "options": ["A) The actual data stored in the database", "B) The logical structure or blueprint of the database", "C) The physical storage format of data", "D) The query language used to access data"],
+    "correct_answer": "B) The logical structure or blueprint of the database",
+    "explanation": "A schema defines the logical structure of a database, including tables, columns, data types, and relationships, without containing actual data."
+  },
+  {
+    "id": 15,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a many-to-many relationship?",
+    "options": ["A) One author writes one book", "B) One manager manages one department", "C) Students enrolling in multiple courses and courses having multiple students", "D) One employee has one employee ID"],
+    "correct_answer": "C) Students enrolling in multiple courses and courses having multiple students",
+    "explanation": "A many-to-many relationship exists when multiple records in Table A relate to multiple records in Table B. It is typically resolved using a junction/bridge table."
+  },
+  {
+    "id": 16,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a surrogate key?",
+    "options": ["A) A natural key derived from business data", "B) An artificially generated unique identifier with no business meaning", "C) A key that references another table", "D) A composite key with two attributes"],
+    "correct_answer": "B) An artificially generated unique identifier with no business meaning",
+    "explanation": "A surrogate key is a system-generated identifier (like an auto-increment integer) used as a primary key when no natural key exists or is suitable."
+  },
+  {
+    "id": 17,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes referential integrity?",
+    "options": ["A) Ensuring all data is encrypted", "B) Ensuring foreign key values match existing primary key values in the referenced table", "C) Ensuring all columns have unique values", "D) Ensuring data is backed up regularly"],
+    "correct_answer": "B) Ensuring foreign key values match existing primary key values in the referenced table",
+    "explanation": "Referential integrity ensures that a foreign key value in one table always corresponds to an existing primary key value in the referenced (parent) table."
+  },
+  {
+    "id": 18,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relational model, a table is also called a:",
+    "options": ["A) Tuple", "B) Attribute", "C) Relation", "D) Domain"],
+    "correct_answer": "C) Relation",
+    "explanation": "In the relational model, a table is formally called a relation. Rows are called tuples and columns are called attributes."
+  },
+  {
+    "id": 19,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a functional dependency?",
+    "options": ["A) When one attribute's value determines another attribute's value", "B) When two tables share the same primary key", "C) When a column depends on physical storage", "D) When a table has no primary key"],
+    "correct_answer": "A) When one attribute's value determines another attribute's value",
+    "explanation": "A functional dependency X → Y means that for each value of X, there is exactly one corresponding value of Y. X is the determinant and Y is the dependent."
+  },
+  {
+    "id": 20,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of entity in ER modeling?",
+    "options": ["A) Strong entity", "B) Weak entity", "C) Associative entity", "D) Virtual entity"],
+    "correct_answer": "D) Virtual entity",
+    "explanation": "ER modeling recognizes strong entities, weak entities, and associative entities (also called junction entities). 'Virtual entity' is not a standard ER modeling concept."
+  },
+  {
+    "id": 21,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is denormalization?",
+    "options": ["A) The process of removing all tables from a database", "B) Intentionally introducing redundancy to improve query performance", "C) Converting a database to 3NF", "D) Removing all foreign keys from a database"],
+    "correct_answer": "B) Intentionally introducing redundancy to improve query performance",
+    "explanation": "Denormalization deliberately adds redundancy to a normalized database to reduce the number of joins needed, thereby improving read performance at the cost of storage and update complexity."
+  },
+  {
+    "id": 22,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A weak entity in an ER diagram is represented by:",
+    "options": ["A) A single rectangle", "B) A double rectangle", "C) A diamond shape", "D) An ellipse"],
+    "correct_answer": "B) A double rectangle",
+    "explanation": "In ER diagrams, a weak entity (one that cannot be uniquely identified without its owner entity) is represented by a double rectangle."
+  },
+  {
+    "id": 23,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a transitive dependency?",
+    "options": ["A) A → B and B → C, therefore A → C", "B) A → B and A → C simultaneously", "C) A and B together determine C", "D) A depends on the primary key directly"],
+    "correct_answer": "A) A → B and B → C, therefore A → C",
+    "explanation": "A transitive dependency occurs when a non-key attribute determines another non-key attribute. If A→B and B→C, then C is transitively dependent on A through B."
+  },
+  {
+    "id": 24,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the degree of a relation?",
+    "options": ["A) The number of rows in a table", "B) The number of columns (attributes) in a table", "C) The number of foreign keys in a table", "D) The number of indexes on a table"],
+    "correct_answer": "B) The number of columns (attributes) in a table",
+    "explanation": "The degree of a relation refers to the number of attributes (columns) it contains. The number of rows is called the cardinality of the relation."
+  },
+  {
+    "id": 25,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which constraint ensures that a column cannot have NULL values?",
+    "options": ["A) UNIQUE constraint", "B) CHECK constraint", "C) NOT NULL constraint", "D) DEFAULT constraint"],
+    "correct_answer": "C) NOT NULL constraint",
+    "explanation": "The NOT NULL constraint ensures that a column must always have a value and cannot be left empty (NULL) when inserting or updating records."
+  },
+  {
+    "id": 26,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cardinality of a relation?",
+    "options": ["A) The number of attributes in a table", "B) The number of tuples (rows) in a table", "C) The number of foreign keys", "D) The number of candidate keys"],
+    "correct_answer": "B) The number of tuples (rows) in a table",
+    "explanation": "Cardinality refers to the number of rows (tuples) in a relation. Degree refers to the number of columns (attributes)."
+  },
+  {
+    "id": 27,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a UNIQUE constraint?",
+    "options": ["A) It allows multiple NULL values but no duplicate non-NULL values", "B) It does not allow any NULL values", "C) It is the same as a primary key constraint", "D) It allows duplicate values in a column"],
+    "correct_answer": "A) It allows multiple NULL values but no duplicate non-NULL values",
+    "explanation": "A UNIQUE constraint prevents duplicate non-NULL values in a column. Unlike primary keys, UNIQUE columns can contain NULL values (in most databases, multiple NULLs are allowed)."
+  },
+  {
+    "id": 28,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, what does participation constraint specify?",
+    "options": ["A) The data type of attributes", "B) Whether all entities must participate in a relationship", "C) The number of tables in a database", "D) The storage format of data"],
+    "correct_answer": "B) Whether all entities must participate in a relationship",
+    "explanation": "Participation constraints (total or partial) specify whether every entity in an entity set must participate in a relationship. Total participation means every entity must participate."
+  },
+  {
+    "id": 29,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an attribute in database terminology?",
+    "options": ["A) A row in a table", "B) A table in a database", "C) A column or property that describes an entity", "D) A relationship between two tables"],
+    "correct_answer": "C) A column or property that describes an entity",
+    "explanation": "An attribute is a characteristic or property of an entity. In a relational table, attributes correspond to columns."
+  },
+  {
+    "id": 30,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of an insertion anomaly?",
+    "options": ["A) Updating one record requires updating many records", "B) Deleting a record removes unrelated data", "C) Unable to add new data without adding unrelated data", "D) Duplicate data exists in multiple rows"],
+    "correct_answer": "C) Unable to add new data without adding unrelated data",
+    "explanation": "An insertion anomaly occurs when you cannot insert new data into a table without also providing unrelated data, due to poor table design."
+  },
+  {
+    "id": 31,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a junction table (bridge table)?",
+    "options": ["A) To store indexes for faster queries", "B) To resolve many-to-many relationships between two tables", "C) To store backup copies of data", "D) To enforce NOT NULL constraints"],
+    "correct_answer": "B) To resolve many-to-many relationships between two tables",
+    "explanation": "A junction table resolves many-to-many relationships by creating a separate table containing foreign keys from both related tables, effectively breaking the relationship into two one-to-many relationships."
+  },
+  {
+    "id": 32,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a multivalued attribute?",
+    "options": ["A) Employee's date of birth", "B) Employee's phone numbers (can have multiple)", "C) Employee's employee ID", "D) Employee's salary"],
+    "correct_answer": "B) Employee's phone numbers (can have multiple)",
+    "explanation": "A multivalued attribute can hold multiple values for a single entity. An employee can have multiple phone numbers, making it a multivalued attribute."
+  },
+  {
+    "id": 33,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a domain in the context of relational databases?",
+    "options": ["A) A set of all possible values an attribute can take", "B) A physical storage location", "C) A type of relationship between tables", "D) A backup of the database"],
+    "correct_answer": "A) A set of all possible values an attribute can take",
+    "explanation": "A domain defines the set of permissible values for an attribute. For example, the domain of a 'Month' attribute would be integers 1 through 12."
+  },
+  {
+    "id": 34,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following describes a derived attribute?",
+    "options": ["A) An attribute that is stored directly in the database", "B) An attribute whose value can be calculated from other stored attributes", "C) An attribute that serves as a primary key", "D) An attribute that references another table"],
+    "correct_answer": "B) An attribute whose value can be calculated from other stored attributes",
+    "explanation": "A derived attribute's value is computed from other attributes. For example, 'Age' can be derived from 'Date of Birth' and the current date."
+  },
+  {
+    "id": 35,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does BCNF stand for?",
+    "options": ["A) Basic Canonical Normal Form", "B) Boyce-Codd Normal Form", "C) Binary Composite Normal Form", "D) Base Constraint Normal Form"],
+    "correct_answer": "B) Boyce-Codd Normal Form",
+    "explanation": "BCNF stands for Boyce-Codd Normal Form, a stronger version of 3NF. It requires that every determinant in a table must be a candidate key."
+  },
+  {
+    "id": 36,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relational database, what is a tuple?",
+    "options": ["A) A column in a table", "B) A row in a table", "C) A constraint on a table", "D) An index on a table"],
+    "correct_answer": "B) A row in a table",
+    "explanation": "In relational database terminology, a tuple corresponds to a row in a table. It represents a single record or instance of an entity."
+  },
+  {
+    "id": 37,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a primary key?",
+    "options": ["A) It can contain NULL values", "B) A table can have multiple primary keys", "C) It must be unique and NOT NULL", "D) It can have duplicate values"],
+    "correct_answer": "C) It must be unique and NOT NULL",
+    "explanation": "A primary key must uniquely identify each row and cannot contain NULL values. A table can have only one primary key (though it may be composite)."
+  },
+  {
+    "id": 38,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main goal of the logical database design phase?",
+    "options": ["A) To determine the physical storage of data", "B) To translate the conceptual model into a specific data model (e.g., relational)", "C) To write application code", "D) To configure database server hardware"],
+    "correct_answer": "B) To translate the conceptual model into a specific data model (e.g., relational)",
+    "explanation": "Logical database design translates the conceptual ER model into a specific data model (typically relational), defining tables, columns, keys, and relationships."
+  },
+  {
+    "id": 39,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a natural key?",
+    "options": ["A) An auto-incremented integer ID", "B) A randomly generated UUID", "C) A student's national ID number", "D) A system-assigned sequence number"],
+    "correct_answer": "C) A student's national ID number",
+    "explanation": "A natural key is derived from real-world data with inherent business meaning. A national ID number is a natural key because it exists in the real world and uniquely identifies a person."
+  },
+  {
+    "id": 40,
+    "topic": "Logical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an alternate key?",
+    "options": ["A) A foreign key in another table", "B) A candidate key that was not chosen as the primary key", "C) A key that allows NULL values", "D) A key used only for backup purposes"],
+    "correct_answer": "B) A candidate key that was not chosen as the primary key",
+    "explanation": "When multiple candidate keys exist, one is selected as the primary key. The remaining candidate keys are called alternate keys."
+  },
+  {
+    "id": 41,
+    "topic": "Logical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A table has the following functional dependencies: {StudentID → Name, CourseID → CourseName, StudentID, CourseID → Grade}. The primary key is (StudentID, CourseID). Which normal form is violated?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "B) 2NF",
+    "explanation": "Since StudentID → Name and CourseID → CourseName are partial dependencies (non-key attributes depend on part of the composite key), 2NF is violated. The table must be decomposed."
+  },
+  {
+    "id": 42,
+    "topic": "Logical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a relation R(A, B, C, D) with functional dependencies: A → B, B → C, A → D. What is the closure of {A}?",
+    "options": ["A) {A, B}", "B) {A, B, C}", "C) {A, B, C, D}", "D) {A, D}"],
+    "correct_answer": "C) {A, B, C, D}",
+    "explanation": "Starting with {A}: A→B gives {A,B}; A→D gives {A,B,D}; B→C gives {A,B,C,D}. The closure of A is {A,B,C,D}, so A is a candidate key."
+  },
+  {
+    "id": 43,
+    "topic": "Logical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following decompositions is lossless-join for relation R(A, B, C) with FD A → B?",
+    "options": ["A) R1(A, B) and R2(B, C)", "B) R1(A, C) and R2(B, C)", "C) R1(A, B) and R2(A, C)", "D) R1(A) and R2(B, C)"],
+    "correct_answer": "C) R1(A, B) and R2(A, C)",
+    "explanation": "A decomposition is lossless if the common attribute(s) between the two relations form a superkey in at least one of them. R1∩R2 = {A}, and A is a key in R1(A,B) since A→B. So R1(A,B) and R2(A,C) is lossless."
+  },
+  {
+    "id": 44,
+    "topic": "Logical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A relation R(A, B, C) has FDs: A → B and B → C. Which normal form does R satisfy if A is the primary key?",
+    "options": ["A) 1NF only", "B) 2NF but not 3NF", "C) 3NF but not BCNF", "D) BCNF"],
+    "correct_answer": "B) 2NF but not 3NF",
+    "explanation": "Since A is the only key and A→B (no partial dependency), 2NF is satisfied. However, B→C is a transitive dependency (B is not a superkey), so 3NF is violated."
+  },
+  {
+    "id": 45,
+    "topic": "Logical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "How many tables are needed to represent a many-to-many relationship between entities A and B in a relational database?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "correct_answer": "C) 3",
+    "explanation": "A many-to-many relationship requires 3 tables: one for entity A, one for entity B, and one junction table that contains foreign keys referencing both A and B."
+  },
+  {
+    "id": 46,
+    "topic": "Logical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct definition of BCNF?",
+    "options": ["A) Every non-key attribute is fully dependent on the primary key", "B) Every determinant in the relation is a candidate key", "C) No transitive dependencies exist", "D) All attributes are atomic"],
+    "correct_answer": "B) Every determinant in the relation is a candidate key",
+    "explanation": "BCNF requires that for every non-trivial functional dependency X→Y, X must be a superkey (candidate key). It is stricter than 3NF."
+  },
+  {
+    "id": 47,
+    "topic": "Logical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A relation R(A, B, C, D) has FDs: AB → C, C → D, D → A. What are the candidate keys?",
+    "options": ["A) {AB} only", "B) {AB} and {BC}", "C) {AB}, {BC}, and {BD}", "D) {AB} and {BD}"],
+    "correct_answer": "B) {AB} and {BC}",
+    "explanation": "AB+ = {A,B,C,D} ✓. BC+: C→D, D→

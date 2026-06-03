@@ -1,0 +1,421 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Many students in the school are falling ill due to contaminated water in the school canteen. Courses of Action: I. The school should immediately shut down the canteen. II. The school should get the water tested and provide clean drinking water to students.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Shutting down the canteen prevents further illness (I), and testing water and providing clean water addresses the root cause (II). Both are practical and immediate actions."
+  },
+  {
+    "id": 2,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A large number of people are dying in road accidents due to overspeeding on highways. Courses of Action: I. Speed limit signs should be installed on highways. II. Strict penalties should be imposed on those who overspeed.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Installing speed limit signs (I) informs drivers, and strict penalties (II) deter overspeeding. Both actions directly address the problem of road accidents."
+  },
+  {
+    "id": 3,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: The number of unemployed youth in the country is increasing rapidly. Courses of Action: I. The government should launch more skill development programs. II. The government should ban all private companies from hiring foreign workers.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Skill development programs (I) directly address unemployment by making youth employable. Banning foreign workers (II) is an extreme measure and may harm international relations and business."
+  },
+  {
+    "id": 4,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A bridge in the city is in a dilapidated condition and may collapse anytime. Courses of Action: I. The bridge should be closed for traffic immediately. II. The bridge should be repaired at the earliest.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Closing the bridge (I) prevents immediate danger to lives, and repairing it (II) provides a long-term solution. Both actions are necessary and practical."
+  },
+  {
+    "id": 5,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Many children in rural areas are suffering from malnutrition. Courses of Action: I. The government should provide free nutritious meals to children in rural schools. II. The government should close all schools in rural areas.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Providing free nutritious meals (I) directly addresses malnutrition. Closing schools (II) would worsen the situation by depriving children of education and the meals provided there."
+  },
+  {
+    "id": 6,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: The city is experiencing severe air pollution due to industrial emissions. Courses of Action: I. Industries should be asked to install pollution control equipment. II. All industries in the city should be permanently shut down.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Installing pollution control equipment (I) is a balanced solution that reduces pollution while keeping industries running. Permanently shutting down all industries (II) is too extreme and would cause economic damage."
+  },
+  {
+    "id": 7,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: There has been a sudden increase in the number of thefts in a residential colony. Courses of Action: I. Police patrolling should be increased in the colony. II. Residents should be advised to install security cameras.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Increased police patrolling (I) provides immediate security, and security cameras (II) act as a deterrent and help in identifying thieves. Both are practical measures."
+  },
+  {
+    "id": 8,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A river flowing through the city is heavily polluted due to industrial waste being dumped into it. Courses of Action: I. Industries should be strictly prohibited from dumping waste into the river. II. A campaign should be launched to clean the river.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Prohibiting waste dumping (I) stops further pollution, and a cleaning campaign (II) addresses existing pollution. Both actions together provide a comprehensive solution."
+  },
+  {
+    "id": 9,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: The literacy rate in a particular district is very low. Courses of Action: I. More schools should be opened in the district. II. Teachers should be given better training and incentives.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Opening more schools (I) increases access to education, and better-trained teachers with incentives (II) improve the quality of education. Both are necessary to improve literacy."
+  },
+  {
+    "id": 10,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A large number of passengers are missing their trains due to long queues at ticket counters. Courses of Action: I. More ticket counters should be opened. II. Online ticket booking facilities should be promoted.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "More ticket counters (I) reduce queue length immediately, and promoting online booking (II) reduces the number of people visiting counters. Both are effective solutions."
+  },
+  {
+    "id": 11,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Many employees in a company are frequently absent from work without prior notice. Courses of Action: I. The company should introduce a strict attendance policy with penalties for unnotified absences. II. The company should fire all employees who have been absent even once.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "A strict attendance policy with penalties (I) is a proportionate and practical response. Firing all employees for a single absence (II) is too extreme and impractical."
+  },
+  {
+    "id": 12,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: The prices of essential commodities have risen sharply in the past few months. Courses of Action: I. The government should release buffer stocks of essential commodities in the market. II. The government should investigate hoarding and black marketing.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Releasing buffer stocks (I) increases supply and reduces prices immediately. Investigating hoarding (II) addresses the root cause of artificial price rise. Both are necessary."
+  },
+  {
+    "id": 13,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A software company is losing clients because its products have too many bugs. Courses of Action: I. The company should strengthen its quality testing process. II. The company should hire more skilled software developers.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Strengthening quality testing (I) catches bugs before release, and hiring skilled developers (II) reduces the occurrence of bugs. Both actions address the problem effectively."
+  },
+  {
+    "id": 14,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A hospital is facing a shortage of blood for emergency patients. Courses of Action: I. The hospital should organize blood donation camps. II. The hospital should tie up with blood banks in the city.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Blood donation camps (I) build a local supply, and tying up with blood banks (II) ensures immediate availability. Both are practical and complementary solutions."
+  },
+  {
+    "id": 15,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Students in a college are spending too much time on social media, affecting their academic performance. Courses of Action: I. The college should ban mobile phones on campus. II. The college should conduct awareness sessions on balanced use of technology.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Awareness sessions (II) help students develop self-discipline, which is a sustainable solution. Banning mobile phones entirely (I) is too restrictive and may not be practical in a college setting."
+  },
+  {
+    "id": 16,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A city is facing a severe water shortage during summer months. Courses of Action: I. Rainwater harvesting should be made mandatory for all new buildings. II. Citizens should be educated about water conservation.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Mandatory rainwater harvesting (I) increases water availability, and educating citizens (II) reduces wastage. Both are practical long-term solutions to water shortage."
+  },
+  {
+    "id": 17,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A factory worker was injured due to the absence of safety equipment at the workplace. Courses of Action: I. The factory should immediately provide safety equipment to all workers. II. The factory owner should be arrested immediately.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Providing safety equipment (I) is an immediate and practical action to prevent further injuries. Arresting the owner (II) is too extreme without a proper investigation and legal process."
+  },
+  {
+    "id": 18,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: The dropout rate in government schools is very high. Courses of Action: I. The government should provide free uniforms, books, and mid-day meals to students. II. The government should make attendance compulsory with strict punishments for parents.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Providing free essentials (I) removes financial barriers and incentivizes attendance. Strict punishments for parents (II) is a negative approach that may not address the root cause of dropouts."
+  },
+  {
+    "id": 19,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A town is frequently experiencing power cuts lasting several hours each day. Courses of Action: I. The electricity department should upgrade the power infrastructure. II. Citizens should be encouraged to use solar energy.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Upgrading infrastructure (I) addresses the immediate power supply problem, and encouraging solar energy (II) provides an alternative and reduces dependence on the grid. Both are valid."
+  },
+  {
+    "id": 20,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A large number of people are suffering from dengue fever in a city. Courses of Action: I. Fogging should be carried out in affected areas to kill mosquitoes. II. Citizens should be advised to eliminate stagnant water near their homes.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Fogging (I) provides immediate relief by killing mosquitoes, and eliminating stagnant water (II) prevents mosquito breeding. Both are essential for controlling dengue."
+  },
+  {
+    "id": 21,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A bank is receiving numerous complaints about long waiting times for customers. Courses of Action: I. The bank should hire more staff to handle customer queries. II. The bank should introduce token-based queue management systems.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Hiring more staff (I) increases service capacity, and a token system (II) organizes the queue efficiently. Both actions together will reduce waiting times effectively."
+  },
+  {
+    "id": 22,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A city's garbage collection system is failing, leading to piles of garbage on streets. Courses of Action: I. The municipal corporation should increase the frequency of garbage collection. II. Citizens should be fined for littering on streets.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Increasing garbage collection frequency (I) addresses the immediate problem, and fining for littering (II) discourages the behavior that contributes to the problem. Both are necessary."
+  },
+  {
+    "id": 23,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A company's sales have dropped significantly in the last quarter. Courses of Action: I. The company should conduct a market survey to understand customer needs. II. The company should immediately reduce the price of all its products by 50%.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "A market survey (I) helps identify the root cause of declining sales and guides appropriate action. Reducing prices by 50% (II) without understanding the problem may cause financial losses."
+  },
+  {
+    "id": 24,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Many senior citizens in a city are being cheated by fraudsters posing as government officials. Courses of Action: I. Police should launch awareness campaigns to educate senior citizens about such frauds. II. All senior citizens should be kept under police surveillance.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Awareness campaigns (I) empower senior citizens to protect themselves, which is a practical and respectful solution. Keeping all senior citizens under surveillance (II) is an invasion of privacy and impractical."
+  },
+  {
+    "id": 25,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A school's examination results show that more than 60% of students have failed in mathematics. Courses of Action: I. The school should arrange extra coaching classes for weak students in mathematics. II. The school should replace the mathematics teacher.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Extra coaching (I) directly helps weak students improve their performance. Replacing the teacher (II) without investigation is hasty; the problem may have other causes like student effort or curriculum difficulty."
+  },
+  
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+
+  {
+    "id": 26,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A popular tourist destination is getting overcrowded, damaging its natural beauty. Courses of Action: I. The number of tourists allowed per day should be limited. II. The tourist destination should be permanently closed to visitors.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Limiting the number of tourists (I) balances conservation with tourism. Permanently closing the destination (II) is too extreme and would harm the local economy dependent on tourism."
+  },
+  {
+    "id": 27,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A new employee is struggling to understand the company's software systems. Courses of Action: I. The company should provide proper onboarding and training to the new employee. II. The company should terminate the new employee immediately.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Providing training (I) is the appropriate response as the employee is new and needs time to learn. Terminating the employee (II) for struggling initially is unreasonable and counterproductive."
+  },
+  {
+    "id": 28,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A city's public transport system is overcrowded during peak hours. Courses of Action: I. More buses should be added during peak hours. II. The government should encourage carpooling and cycling.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Adding more buses (I) directly increases transport capacity, and encouraging carpooling/cycling (II) reduces the number of people using public transport. Both are complementary solutions."
+  },
+  {
+    "id": 29,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A restaurant is receiving complaints that its food quality has deteriorated. Courses of Action: I. The restaurant should review and improve its food preparation standards. II. The restaurant should immediately shut down permanently.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Reviewing and improving food preparation standards (I) directly addresses the quality issue. Permanently shutting down (II) is an extreme step for a quality complaint that can be resolved."
+  },
+  {
+    "id": 30,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A state is facing a severe drought, and farmers are unable to grow crops. Courses of Action: I. The government should provide financial assistance to affected farmers. II. The government should invest in irrigation infrastructure.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Financial assistance (I) provides immediate relief to farmers, and irrigation infrastructure (II) is a long-term solution to prevent future droughts from affecting agriculture. Both are necessary."
+  },
+  {
+    "id": 31,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Many people are getting injured while using a particular brand of electric appliance. Courses of Action: I. The brand should recall the defective appliances immediately. II. The brand should issue a public safety warning about the appliance.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Recalling defective appliances (I) removes the danger from the market, and issuing a safety warning (II) alerts people who already own the product. Both actions are necessary for public safety."
+  },
+  {
+    "id": 32,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A college hostel is facing a rat infestation problem. Courses of Action: I. The hostel should hire pest control services immediately. II. Students should be advised to keep their rooms and common areas clean.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Pest control (I) eliminates the existing infestation, and maintaining cleanliness (II) prevents future infestations. Both are practical and necessary actions."
+  },
+  {
+    "id": 33,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A company's website is frequently crashing due to high traffic. Courses of Action: I. The company should upgrade its server capacity. II. The company should shut down its website permanently.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Upgrading server capacity (I) directly solves the problem of website crashes due to high traffic. Shutting down the website permanently (II) would harm the business and is not a solution."
+  },
+  {
+    "id": 34,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A neighborhood park has become unsafe for children due to broken equipment. Courses of Action: I. The broken equipment should be repaired or replaced immediately. II. The park should be closed until repairs are completed.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Repairing equipment (I) makes the park safe again, and closing it temporarily (II) prevents injuries during the repair period. Both actions together ensure child safety."
+  },
+  {
+    "id": 35,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A city's traffic signals are malfunctioning, causing major traffic jams. Courses of Action: I. Traffic police should be deployed at major intersections to manage traffic manually. II. The malfunctioning signals should be repaired at the earliest.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Deploying traffic police (I) provides an immediate solution to manage traffic, and repairing signals (II) provides a permanent fix. Both are necessary and complementary."
+  },
+  {
+    "id": 36,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A student has been consistently scoring low marks in all subjects. Courses of Action: I. The student should be counseled to identify learning difficulties and provided extra support. II. The student should be expelled from school.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Counseling and extra support (I) addresses the root cause of poor performance and helps the student improve. Expelling the student (II) is an extreme and counterproductive measure."
+  },
+  {
+    "id": 37,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A city is experiencing frequent flooding during monsoon due to blocked drainage systems. Courses of Action: I. The drainage systems should be cleaned and desilted before the monsoon season. II. The city should be relocated to a different area.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Cleaning and desilting drainage systems (I) directly addresses the cause of flooding. Relocating the entire city (II) is impractical and an extreme overreaction to a manageable problem."
+  },
+  {
+    "id": 38,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A government office is receiving complaints about rude behavior from its staff. Courses of Action: I. The staff should be given training in customer service and communication skills. II. All staff members should be immediately suspended.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Customer service training (I) addresses the root cause by improving staff behavior. Suspending all staff (II) is an extreme measure that would disrupt office functioning without solving the problem."
+  },
+  {
+    "id": 39,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A housing society is facing a shortage of parking space, leading to disputes among residents. Courses of Action: I. The society should build a multi-level parking facility. II. The society should allocate parking spaces to residents on a rotation basis.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Building a multi-level parking facility (I) is a long-term solution, and rotation-based allocation (II) is an immediate fair solution. Both are practical and address the parking shortage."
+  },
+  {
+    "id": 40,
+    "topic": "Course of Action",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: A city's public library is underutilized, with very few visitors each day. Courses of Action: I. The library should organize reading events, workshops, and book clubs to attract visitors. II. The library should be converted into a shopping mall.",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Organizing events and workshops (I) promotes the library and increases its utilization. Converting it into a shopping mall (II) would eliminate a public educational resource, which is not a constructive solution."
+  },
+  {
+    "id": 41,
+    "topic": "Course of Action",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Reports indicate that the number of cybercrimes in the country has increased by 40% in the last year. Courses of Action: I. The government should establish a dedicated cybercrime investigation unit in every state. II. Citizens should be made aware of cybersecurity practices through public campaigns. III. All internet services should be suspended to prevent cybercrimes.",
+    "options": ["A) Only I and II follow", "B) Only II and III follow", "C) Only I and III follow", "D) All I, II, and III follow"],
+    "correct_answer": "A) Only I and II follow",
+    "explanation": "Dedicated cybercrime units (I) strengthen law enforcement, and awareness campaigns (II) help citizens protect themselves. Suspending internet services (III) is impractical and would cripple the economy."
+  },
+  {
+    "id": 42,
+    "topic": "Course of Action",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: A survey reveals that 70% of farmers in a state are in debt and unable to repay loans.

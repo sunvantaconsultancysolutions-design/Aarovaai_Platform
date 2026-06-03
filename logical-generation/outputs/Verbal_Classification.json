@@ -1,0 +1,580 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Rose", "B) Tulip", "C) Mango", "D) Lily"],
+    "correct_answer": "C) Mango",
+    "explanation": "Rose, Tulip, and Lily are all flowers. Mango is a fruit, so it does not belong to the group."
+  },
+  {
+    "id": 2,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Cat", "B) Dog", "C) Eagle", "D) Horse"],
+    "correct_answer": "C) Eagle",
+    "explanation": "Cat, Dog, and Horse are all mammals. Eagle is a bird, so it does not belong to the group."
+  },
+  {
+    "id": 3,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Carrot", "B) Potato", "C) Radish", "D) Tomato"],
+    "correct_answer": "D) Tomato",
+    "explanation": "Carrot, Potato, and Radish are root vegetables. Tomato is a fruit (botanically), not a root vegetable."
+  },
+  {
+    "id": 4,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Jupiter", "B) Mars", "C) Moon", "D) Saturn"],
+    "correct_answer": "C) Moon",
+    "explanation": "Jupiter, Mars, and Saturn are planets in our solar system. Moon is a natural satellite, not a planet."
+  },
+  {
+    "id": 5,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Cricket", "B) Football", "C) Chess", "D) Hockey"],
+    "correct_answer": "C) Chess",
+    "explanation": "Cricket, Football, and Hockey are outdoor sports played with physical activity. Chess is an indoor board game."
+  },
+  {
+    "id": 6,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Violin", "B) Guitar", "C) Flute", "D) Sitar"],
+    "correct_answer": "C) Flute",
+    "explanation": "Violin, Guitar, and Sitar are string instruments. Flute is a wind instrument."
+  },
+  {
+    "id": 7,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Red", "B) Blue", "C) Green", "D) Gold"],
+    "correct_answer": "D) Gold",
+    "explanation": "Red, Blue, and Green are primary colors. Gold is a metal/precious material, not a primary color."
+  },
+  {
+    "id": 8,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Sparrow", "B) Parrot", "C) Bat", "D) Pigeon"],
+    "correct_answer": "C) Bat",
+    "explanation": "Sparrow, Parrot, and Pigeon are birds. Bat is a mammal that flies but is not a bird."
+  },
+  {
+    "id": 9,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Wheat", "B) Rice", "C) Maize", "D) Mustard"],
+    "correct_answer": "D) Mustard",
+    "explanation": "Wheat, Rice, and Maize are cereal crops. Mustard is an oilseed crop."
+  },
+  {
+    "id": 10,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Nile", "B) Amazon", "C) Pacific", "D) Ganges"],
+    "correct_answer": "C) Pacific",
+    "explanation": "Nile, Amazon, and Ganges are rivers. Pacific is an ocean."
+  },
+  {
+    "id": 11,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Copper", "B) Iron", "C) Diamond", "D) Gold"],
+    "correct_answer": "C) Diamond",
+    "explanation": "Copper, Iron, and Gold are metals. Diamond is a non-metal (carbon allotrope)."
+  },
+  {
+    "id": 12,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Mango", "B) Banana", "C) Apple", "D) Brinjal"],
+    "correct_answer": "D) Brinjal",
+    "explanation": "Mango, Banana, and Apple are fruits. Brinjal is a vegetable."
+  },
+  {
+    "id": 13,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Doctor", "B) Engineer", "C) Teacher", "D) Hospital"],
+    "correct_answer": "D) Hospital",
+    "explanation": "Doctor, Engineer, and Teacher are professions/occupations. Hospital is a place/institution."
+  },
+  {
+    "id": 14,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Triangle", "B) Square", "C) Circle", "D) Cube"],
+    "correct_answer": "D) Cube",
+    "explanation": "Triangle, Square, and Circle are 2D shapes. Cube is a 3D shape."
+  },
+  {
+    "id": 15,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Lion", "B) Tiger", "C) Leopard", "D) Elephant"],
+    "correct_answer": "D) Elephant",
+    "explanation": "Lion, Tiger, and Leopard are wild cats (felines). Elephant is a pachyderm, not a feline."
+  },
+  {
+    "id": 16,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) January", "B) March", "C) April", "D) July"],
+    "correct_answer": "C) April",
+    "explanation": "January, March, and July have 31 days. April has only 30 days."
+  },
+  {
+    "id": 17,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Pen", "B) Pencil", "C) Eraser", "D) Chalk"],
+    "correct_answer": "C) Eraser",
+    "explanation": "Pen, Pencil, and Chalk are writing instruments. Eraser is used to remove writing, not to write."
+  },
+  {
+    "id": 18,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Bus", "B) Train", "C) Bicycle", "D) Aeroplane"],
+    "correct_answer": "C) Bicycle",
+    "explanation": "Bus, Train, and Aeroplane are motorized/engine-powered vehicles. Bicycle is human-powered."
+  },
+  {
+    "id": 19,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Hindi", "B) English", "C) Sanskrit", "D) Mathematics"],
+    "correct_answer": "D) Mathematics",
+    "explanation": "Hindi, English, and Sanskrit are languages. Mathematics is a subject/science, not a language."
+  },
+  {
+    "id": 20,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Cobra", "B) Python", "C) Viper", "D) Crocodile"],
+    "correct_answer": "D) Crocodile",
+    "explanation": "Cobra, Python, and Viper are snakes (reptiles without legs). Crocodile is a reptile but not a snake."
+  },
+  {
+    "id": 21,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Oxygen", "B) Nitrogen", "C) Carbon Dioxide", "D) Water"],
+    "correct_answer": "D) Water",
+    "explanation": "Oxygen, Nitrogen, and Carbon Dioxide are gases. Water is a liquid under normal conditions."
+  },
+  {
+    "id": 22,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Paris", "B) London", "C) Tokyo", "D) Amazon"],
+    "correct_answer": "D) Amazon",
+    "explanation": "Paris, London, and Tokyo are capital cities of countries. Amazon is a river (and a company), not a capital city."
+  },
+  {
+    "id": 23,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Shirt", "B) Trouser", "C) Sandal", "D) Jacket"],
+    "correct_answer": "C) Sandal",
+    "explanation": "Shirt, Trouser, and Jacket are clothing items worn on the body. Sandal is footwear."
+  },
+  {
+    "id": 24,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Kidney", "B) Heart", "C) Liver", "D) Skull"],
+    "correct_answer": "D) Skull",
+    "explanation": "Kidney, Heart, and Liver are internal organs. Skull is a bone structure, not an organ."
+  },
+  {
+    "id": 25,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Hammer", "B) Saw", "C) Nail", "D) Chisel"],
+    "correct_answer": "C) Nail",
+    "explanation": "Hammer, Saw, and Chisel are tools used by a carpenter. Nail is a fastener/material, not a tool."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Wheat", "B) Barley", "C) Oats", "D) Cotton"],
+    "correct_answer": "D) Cotton",
+    "explanation": "Wheat, Barley, and Oats are food grains/cereals. Cotton is a fiber crop, not a food grain."
+  },
+  {
+    "id": 27,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Frog", "B) Toad", "C) Salamander", "D) Lizard"],
+    "correct_answer": "D) Lizard",
+    "explanation": "Frog, Toad, and Salamander are amphibians. Lizard is a reptile."
+  },
+  {
+    "id": 28,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Sofa", "B) Chair", "C) Table", "D) Curtain"],
+    "correct_answer": "D) Curtain",
+    "explanation": "Sofa, Chair, and Table are furniture items. Curtain is a fabric/window covering, not furniture."
+  },
+  {
+    "id": 29,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Typhoon", "B) Tornado", "C) Hurricane", "D) Earthquake"],
+    "correct_answer": "D) Earthquake",
+    "explanation": "Typhoon, Tornado, and Hurricane are wind/storm-related natural disasters. Earthquake is a seismic event."
+  },
+  {
+    "id": 30,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Milk", "B) Butter", "C) Cheese", "D) Bread"],
+    "correct_answer": "D) Bread",
+    "explanation": "Milk, Butter, and Cheese are dairy products. Bread is a baked grain product, not a dairy product."
+  },
+  {
+    "id": 31,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Microscope", "B) Telescope", "C) Periscope", "D) Stethoscope"],
+    "correct_answer": "D) Stethoscope",
+    "explanation": "Microscope, Telescope, and Periscope are optical instruments for viewing. Stethoscope is a medical instrument for hearing."
+  },
+  {
+    "id": 32,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Sahara", "B) Gobi", "C) Thar", "D) Himalayas"],
+    "correct_answer": "D) Himalayas",
+    "explanation": "Sahara, Gobi, and Thar are deserts. Himalayas is a mountain range."
+  },
+  {
+    "id": 33,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Autobiography", "B) Biography", "C) Novel", "D) Newspaper"],
+    "correct_answer": "D) Newspaper",
+    "explanation": "Autobiography, Biography, and Novel are books/literary works. Newspaper is a periodical publication."
+  },
+  {
+    "id": 34,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Ant", "B) Bee", "C) Butterfly", "D) Spider"],
+    "correct_answer": "D) Spider",
+    "explanation": "Ant, Bee, and Butterfly are insects (6 legs). Spider is an arachnid (8 legs), not an insect."
+  },
+  {
+    "id": 35,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Rupee", "B) Dollar", "C) Euro", "D) Bitcoin"],
+    "correct_answer": "D) Bitcoin",
+    "explanation": "Rupee, Dollar, and Euro are official national/regional currencies. Bitcoin is a cryptocurrency, not a government-issued currency."
+  },
+  {
+    "id": 36,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Kidney", "B) Lungs", "C) Brain", "D) Femur"],
+    "correct_answer": "D) Femur",
+    "explanation": "Kidney, Lungs, and Brain are soft organs. Femur is a bone (the thigh bone)."
+  },
+  {
+    "id": 37,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Onion", "B) Garlic", "C) Ginger", "D) Spinach"],
+    "correct_answer": "D) Spinach",
+    "explanation": "Onion, Garlic, and Ginger are underground bulb/root spices. Spinach is a leafy green vegetable."
+  },
+  {
+    "id": 38,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Plumber", "B) Electrician", "C) Carpenter", "D) Accountant"],
+    "correct_answer": "D) Accountant",
+    "explanation": "Plumber, Electrician, and Carpenter are skilled tradespeople who do manual/technical work. Accountant is a white-collar financial professional."
+  },
+  {
+    "id": 39,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Whale", "B) Dolphin", "C) Shark", "D) Seal"],
+    "correct_answer": "C) Shark",
+    "explanation": "Whale, Dolphin, and Seal are marine mammals. Shark is a fish (cartilaginous fish), not a mammal."
+  },
+  {
+    "id": 40,
+    "topic": "Verbal Classification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Algebra", "B) Geometry", "C) Trigonometry", "D) Biology"],
+    "correct_answer": "D) Biology",
+    "explanation": "Algebra, Geometry, and Trigonometry are branches of Mathematics. Biology is a branch of Science."
+  },
+  {
+    "id": 41,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Four words are given. Three of them belong to the same category. Find the odd one out.",
+    "options": ["A) Basalt", "B) Granite", "C) Marble", "D) Sandstone"],
+    "correct_answer": "C) Marble",
+    "explanation": "Basalt, Granite, and Sandstone are igneous/sedimentary rocks. Marble is a metamorphic rock."
+  },
+  {
+    "id": 42,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the word that does NOT belong to the same group as the others.",
+    "options": ["A) Photosynthesis", "B) Respiration", "C) Transpiration", "D) Fermentation"],
+    "correct_answer": "D) Fermentation",
+    "explanation": "Photosynthesis, Respiration, and Transpiration are biological processes in plants/animals. Fermentation is a chemical/microbial process."
+  },
+  {
+    "id": 43,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Soprano", "B) Alto", "C) Tenor", "D) Sonata"],
+    "correct_answer": "D) Sonata",
+    "explanation": "Soprano, Alto, and Tenor are vocal ranges/voice types in music. Sonata is a musical composition form."
+  },
+  {
+    "id": 44,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out from the following words.",
+    "options": ["A) Typhoid", "B) Cholera", "C) Malaria", "D) Tuberculosis"],
+    "correct_answer": "C) Malaria",
+    "explanation": "Typhoid, Cholera, and Tuberculosis are bacterial diseases. Malaria is caused by a protozoan parasite (Plasmodium)."
+  },
+  {
+    "id": 45,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Stratosphere", "B) Troposphere", "C) Lithosphere", "D) Mesosphere"],
+    "correct_answer": "C) Lithosphere",
+    "explanation": "Stratosphere, Troposphere, and Mesosphere are layers of the atmosphere. Lithosphere is the solid outer layer of the Earth."
+  },
+  {
+    "id": 46,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out.",
+    "options": ["A) Vedas", "B) Upanishads", "C) Puranas", "D) Arthashastra"],
+    "correct_answer": "D) Arthashastra",
+    "explanation": "Vedas, Upanishads, and Puranas are Hindu religious/spiritual scriptures. Arthashastra is a treatise on statecraft and economic policy by Kautilya."
+  },
+  {
+    "id": 47,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Osmosis", "B) Diffusion", "C) Plasmolysis", "D) Mitosis"],
+    "correct_answer": "D) Mitosis",
+    "explanation": "Osmosis, Diffusion, and Plasmolysis are processes related to movement of substances across membranes. Mitosis is a type of cell division."
+  },
+  {
+    "id": 48,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out from the following.",
+    "options": ["A) Canberra", "B) Sydney", "C) Melbourne", "D) Brisbane"],
+    "correct_answer": "A) Canberra",
+    "explanation": "Sydney, Melbourne, and Brisbane are the largest cities in Australia. Canberra is the capital city of Australia (not the largest)."
+  },
+  {
+    "id": 49,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Haiku", "B) Sonnet", "C) Limerick", "D) Prose"],
+    "correct_answer": "D) Prose",
+    "explanation": "Haiku, Sonnet, and Limerick are forms of poetry. Prose is ordinary written/spoken language without poetic structure."
+  },
+  {
+    "id": 50,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out.",
+    "options": ["A) Ampere", "B) Volt", "C) Ohm", "D) Newton"],
+    "correct_answer": "D) Newton",
+    "explanation": "Ampere, Volt, and Ohm are units of electrical quantities (current, voltage, resistance). Newton is a unit of mechanical force."
+  },
+  {
+    "id": 51,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Baroque", "B) Renaissance", "C) Impressionism", "D) Romanticism"],
+    "correct_answer": "D) Romanticism",
+    "explanation": "Baroque, Renaissance, and Impressionism are primarily visual art movements. Romanticism is more broadly a literary and philosophical movement."
+  },
+  {
+    "id": 52,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out from the following words.",
+    "options": ["A) Chlorophyll", "B) Carotene", "C) Melanin", "D) Xanthophyll"],
+    "correct_answer": "C) Melanin",
+    "explanation": "Chlorophyll, Carotene, and Xanthophyll are plant pigments involved in photosynthesis. Melanin is an animal/human skin pigment."
+  },
+  {
+    "id": 53,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Rajya Sabha", "B) Lok Sabha", "C) Vidhan Sabha", "D) Vidhan Parishad"],
+    "correct_answer": "A) Rajya Sabha",
+    "explanation": "Lok Sabha, Vidhan Sabha, and Vidhan Parishad are lower/state legislative houses. Rajya Sabha is the upper house of the Indian Parliament."
+  },
+  {
+    "id": 54,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out.",
+    "options": ["A) Tsunami", "B) Avalanche", "C) Landslide", "D) Blizzard"],
+    "correct_answer": "A) Tsunami",
+    "explanation": "Avalanche, Landslide, and Blizzard are land/weather-based natural disasters. Tsunami is an ocean wave disaster caused by seismic activity."
+  },
+  {
+    "id": 55,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Proton", "B) Neutron", "C) Electron", "D) Photon"],
+    "correct_answer": "D) Photon",
+    "explanation": "Proton, Neutron, and Electron are subatomic particles that make up atoms. Photon is a quantum of light/electromagnetic radiation, not a subatomic particle of matter."
+  },
+  {
+    "id": 56,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out from the following.",
+    "options": ["A) Hemoglobin", "B) Insulin", "C) Keratin", "D) Glucose"],
+    "correct_answer": "D) Glucose",
+    "explanation": "Hemoglobin, Insulin, and Keratin are proteins found in the body. Glucose is a simple sugar (carbohydrate)."
+  },
+  {
+    "id": 57,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which word does NOT belong to the same group as the others?",
+    "options": ["A) Tundra", "B) Taiga", "C) Savanna", "D) Delta"],
+    "correct_answer": "D) Delta",
+    "explanation": "Tundra, Taiga, and Savanna are biomes/ecosystems. Delta is a landform formed at the mouth of a river."
+  },
+  {
+    "id": 58,
+    "topic": "Verbal Classification",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the odd one out.",
+    "options": ["A) Sitar", "B

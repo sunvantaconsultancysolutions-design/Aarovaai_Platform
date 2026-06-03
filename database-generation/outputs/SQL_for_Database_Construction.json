@@ -1,0 +1,489 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL statement is used to create a new table in a database?",
+    "options": ["A) CREATE TABLE", "B) NEW TABLE", "C) MAKE TABLE", "D) BUILD TABLE"],
+    "correct_answer": "A) CREATE TABLE",
+    "explanation": "CREATE TABLE is the standard SQL DDL command used to define and create a new table in a database. It specifies column names, data types, and constraints."
+  },
+  {
+    "id": 2,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct syntax to add a PRIMARY KEY constraint to a column named 'emp_id' while creating a table?",
+    "options": ["A) emp_id INT PRIMARY KEY", "B) emp_id INT KEY PRIMARY", "C) PRIMARY KEY emp_id INT", "D) emp_id PRIMARY INT KEY"],
+    "correct_answer": "A) emp_id INT PRIMARY KEY",
+    "explanation": "In SQL, the PRIMARY KEY constraint is placed after the data type in a column definition: column_name datatype PRIMARY KEY. This uniquely identifies each row."
+  },
+  {
+    "id": 3,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to remove an entire table from the database including its structure?",
+    "options": ["A) DELETE TABLE", "B) REMOVE TABLE", "C) DROP TABLE", "D) TRUNCATE TABLE"],
+    "correct_answer": "C) DROP TABLE",
+    "explanation": "DROP TABLE removes the table structure along with all its data permanently. TRUNCATE removes only data, and DELETE removes rows conditionally."
+  },
+  {
+    "id": 4,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which data type would you use to store a person's age in SQL?",
+    "options": ["A) VARCHAR", "B) INT", "C) DATE", "D) FLOAT"],
+    "correct_answer": "B) INT",
+    "explanation": "Age is a whole number, so INT (integer) is the most appropriate data type. VARCHAR is for strings, DATE for dates, and FLOAT for decimal numbers."
+  },
+  {
+    "id": 5,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the NOT NULL constraint ensure in a table column?",
+    "options": ["A) The column must have unique values", "B) The column cannot store empty/null values", "C) The column is the primary key", "D) The column stores only numeric values"],
+    "correct_answer": "B) The column cannot store empty/null values",
+    "explanation": "NOT NULL constraint ensures that a column must always have a value and cannot be left empty (NULL). It enforces mandatory data entry for that field."
+  },
+  {
+    "id": 6,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to modify the structure of an existing table?",
+    "options": ["A) MODIFY TABLE", "B) UPDATE TABLE", "C) ALTER TABLE", "D) CHANGE TABLE"],
+    "correct_answer": "C) ALTER TABLE",
+    "explanation": "ALTER TABLE is the DDL command used to modify an existing table structure — adding, dropping, or modifying columns and constraints."
+  },
+  {
+    "id": 7,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL statements correctly inserts a row into a table named 'students'?",
+    "options": ["A) INSERT INTO students VALUES (1, 'Alice', 20)", "B) ADD INTO students VALUES (1, 'Alice', 20)", "C) INSERT students VALUES (1, 'Alice', 20)", "D) PUT INTO students VALUES (1, 'Alice', 20)"],
+    "correct_answer": "A) INSERT INTO students VALUES (1, 'Alice', 20)",
+    "explanation": "The correct syntax is INSERT INTO table_name VALUES (...). The keywords INSERT INTO are mandatory for inserting data into a table."
+  },
+  {
+    "id": 8,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the UNIQUE constraint in SQL?",
+    "options": ["A) Ensures no two rows have the same value in that column", "B) Ensures the column cannot be NULL", "C) Makes the column a foreign key", "D) Allows only numeric values"],
+    "correct_answer": "A) Ensures no two rows have the same value in that column",
+    "explanation": "UNIQUE constraint ensures all values in a column are distinct. Unlike PRIMARY KEY, a table can have multiple UNIQUE constraints and UNIQUE columns can contain NULL."
+  },
+  {
+    "id": 9,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to retrieve data from a database table?",
+    "options": ["A) FETCH", "B) GET", "C) SELECT", "D) RETRIEVE"],
+    "correct_answer": "C) SELECT",
+    "explanation": "SELECT is the DML command used to query and retrieve data from one or more tables. It is the most commonly used SQL command."
+  },
+  {
+    "id": 10,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly defines a FOREIGN KEY in SQL?",
+    "options": ["A) A key that uniquely identifies each row in its own table", "B) A key that references the PRIMARY KEY of another table", "C) A key that allows duplicate values only", "D) A key used for indexing purposes only"],
+    "correct_answer": "B) A key that references the PRIMARY KEY of another table",
+    "explanation": "A FOREIGN KEY establishes a referential integrity link between two tables by referencing the PRIMARY KEY of another (parent) table."
+  },
+  {
+    "id": 11,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DDL stand for in SQL?",
+    "options": ["A) Data Definition Language", "B) Data Display Language", "C) Database Design Language", "D) Data Deletion Language"],
+    "correct_answer": "A) Data Definition Language",
+    "explanation": "DDL stands for Data Definition Language. It includes commands like CREATE, ALTER, DROP, and TRUNCATE that define or modify database structure."
+  },
+  {
+    "id": 12,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to delete all rows from a table without removing the table structure?",
+    "options": ["A) DROP TABLE", "B) DELETE FROM table", "C) TRUNCATE TABLE", "D) REMOVE FROM table"],
+    "correct_answer": "C) TRUNCATE TABLE",
+    "explanation": "TRUNCATE TABLE removes all rows quickly without logging individual row deletions, but keeps the table structure intact. DROP removes the entire table."
+  },
+  {
+    "id": 13,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which data type is best suited to store a product price like 199.99 in SQL?",
+    "options": ["A) INT", "B) CHAR", "C) DECIMAL(5,2)", "D) DATE"],
+    "correct_answer": "C) DECIMAL(5,2)",
+    "explanation": "DECIMAL(5,2) stores exact numeric values with 2 decimal places, making it ideal for monetary values. INT cannot store decimals, and FLOAT may have precision issues."
+  },
+  {
+    "id": 14,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct SQL syntax to add a new column 'email' of type VARCHAR(100) to an existing table 'employees'?",
+    "options": ["A) ALTER TABLE employees ADD email VARCHAR(100)", "B) UPDATE TABLE employees ADD email VARCHAR(100)", "C) MODIFY TABLE employees ADD email VARCHAR(100)", "D) ALTER employees ADD COLUMN email VARCHAR(100) ONLY"],
+    "correct_answer": "A) ALTER TABLE employees ADD email VARCHAR(100)",
+    "explanation": "ALTER TABLE ... ADD column_name datatype is the standard syntax to add a new column to an existing table in SQL."
+  },
+  {
+    "id": 15,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands belongs to DML (Data Manipulation Language)?",
+    "options": ["A) CREATE", "B) DROP", "C) UPDATE", "D) ALTER"],
+    "correct_answer": "C) UPDATE",
+    "explanation": "DML commands manipulate data: SELECT, INSERT, UPDATE, DELETE. DDL commands (CREATE, DROP, ALTER) define structure. UPDATE modifies existing records."
+  },
+  {
+    "id": 16,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will happen if you try to insert a duplicate value into a PRIMARY KEY column?",
+    "options": ["A) The duplicate will be inserted successfully", "B) An error will be raised and insertion will fail", "C) The old value will be replaced", "D) NULL will be inserted instead"],
+    "correct_answer": "B) An error will be raised and insertion will fail",
+    "explanation": "PRIMARY KEY enforces uniqueness. Inserting a duplicate value violates this constraint, causing the database to raise an integrity constraint violation error."
+  },
+  {
+    "id": 17,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to filter rows based on a condition?",
+    "options": ["A) HAVING", "B) WHERE", "C) FILTER", "D) CONDITION"],
+    "correct_answer": "B) WHERE",
+    "explanation": "WHERE clause filters rows based on a specified condition before grouping. HAVING filters after grouping. WHERE is used with SELECT, UPDATE, and DELETE."
+  },
+  {
+    "id": 18,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid SQL data type for storing a date value?",
+    "options": ["A) DATETIME", "B) TIMEDATE", "C) DATEVALUE", "D) CALENDAR"],
+    "correct_answer": "A) DATETIME",
+    "explanation": "DATETIME is a valid SQL data type that stores both date and time. DATE stores only date. TIMEDATE, DATEVALUE, and CALENDAR are not standard SQL types."
+  },
+  {
+    "id": 19,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum number of PRIMARY KEY constraints allowed on a single table?",
+    "options": ["A) 1", "B) 2", "C) 5", "D) Unlimited"],
+    "correct_answer": "A) 1",
+    "explanation": "A table can have only ONE PRIMARY KEY constraint, though it can be composed of multiple columns (composite primary key). Multiple UNIQUE constraints are allowed."
+  },
+  {
+    "id": 20,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL statement is used to create a new database?",
+    "options": ["A) CREATE DATABASE dbname", "B) NEW DATABASE dbname", "C) MAKE DATABASE dbname", "D) BUILD DATABASE dbname"],
+    "correct_answer": "A) CREATE DATABASE dbname",
+    "explanation": "CREATE DATABASE followed by the database name is the standard SQL command to create a new database. It is a DDL command."
+  },
+  {
+    "id": 21,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the DEFAULT constraint do in SQL?",
+    "options": ["A) Sets a default value for a column when no value is specified during insertion", "B) Makes the column mandatory", "C) Prevents duplicate values", "D) Links the column to another table"],
+    "correct_answer": "A) Sets a default value for a column when no value is specified during insertion",
+    "explanation": "DEFAULT constraint assigns a predefined value to a column automatically when no value is provided during an INSERT operation."
+  },
+  {
+    "id": 22,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly drops a database named 'school'?",
+    "options": ["A) DROP DATABASE school", "B) DELETE DATABASE school", "C) REMOVE DATABASE school", "D) DESTROY DATABASE school"],
+    "correct_answer": "A) DROP DATABASE school",
+    "explanation": "DROP DATABASE is the SQL DDL command to permanently delete an entire database along with all its tables and data."
+  },
+  {
+    "id": 23,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to sort the result set of a query?",
+    "options": ["A) SORT BY", "B) GROUP BY", "C) ORDER BY", "D) ARRANGE BY"],
+    "correct_answer": "C) ORDER BY",
+    "explanation": "ORDER BY clause sorts the result set in ascending (ASC) or descending (DESC) order. By default, ORDER BY sorts in ascending order."
+  },
+  {
+    "id": 24,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the difference between CHAR(10) and VARCHAR(10) in SQL?",
+    "options": ["A) CHAR always uses 10 bytes; VARCHAR uses only as many bytes as needed", "B) VARCHAR always uses 10 bytes; CHAR uses variable bytes", "C) Both are identical in storage", "D) CHAR stores numbers; VARCHAR stores strings"],
+    "correct_answer": "A) CHAR always uses 10 bytes; VARCHAR uses only as many bytes as needed",
+    "explanation": "CHAR is fixed-length (always allocates defined size), while VARCHAR is variable-length (allocates only what's needed). CHAR is faster; VARCHAR saves space."
+  },
+  {
+    "id": 25,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to select a specific database to work with?",
+    "options": ["A) OPEN DATABASE dbname", "B) USE dbname", "C) SELECT DATABASE dbname", "D) CONNECT dbname"],
+    "correct_answer": "B) USE dbname",
+    "explanation": "USE dbname selects the specified database as the current working database. All subsequent SQL commands will apply to this database."
+  },
+  {
+    "id": 26,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which constraint ensures that a value in one table must exist in another table?",
+    "options": ["A) PRIMARY KEY", "B) UNIQUE", "C) FOREIGN KEY", "D) CHECK"],
+    "correct_answer": "C) FOREIGN KEY",
+    "explanation": "FOREIGN KEY enforces referential integrity by ensuring that a value in the child table must exist in the referenced column of the parent table."
+  },
+  {
+    "id": 27,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct SQL syntax to rename a table from 'old_name' to 'new_name'?",
+    "options": ["A) RENAME TABLE old_name TO new_name", "B) ALTER TABLE old_name RENAME new_name", "C) CHANGE TABLE old_name TO new_name", "D) MODIFY TABLE old_name AS new_name"],
+    "correct_answer": "A) RENAME TABLE old_name TO new_name",
+    "explanation": "RENAME TABLE old_name TO new_name is the MySQL syntax. In SQL Server, sp_rename is used. RENAME TABLE ... TO ... is the most standard form."
+  },
+  {
+    "id": 28,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL statements correctly creates an index on the 'last_name' column of the 'employees' table?",
+    "options": ["A) CREATE INDEX idx_ln ON employees(last_name)", "B) ADD INDEX idx_ln ON employees(last_name)", "C) MAKE INDEX idx_ln FOR employees(last_name)", "D) BUILD INDEX idx_ln ON employees.last_name"],
+    "correct_answer": "A) CREATE INDEX idx_ln ON employees(last_name)",
+    "explanation": "CREATE INDEX index_name ON table_name(column_name) is the standard SQL syntax to create an index, which speeds up data retrieval operations."
+  },
+  {
+    "id": 29,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the CHECK constraint do in SQL?",
+    "options": ["A) Verifies that all values in a column satisfy a specific condition", "B) Checks if the table exists before creation", "C) Validates foreign key references", "D) Ensures the column has unique values"],
+    "correct_answer": "A) Verifies that all values in a column satisfy a specific condition",
+    "explanation": "CHECK constraint limits the range of values that can be placed in a column. For example, CHECK (age >= 18) ensures only adults are stored."
+  },
+  {
+    "id": 30,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to update existing records in a table?",
+    "options": ["A) MODIFY", "B) CHANGE", "C) UPDATE", "D) ALTER"],
+    "correct_answer": "C) UPDATE",
+    "explanation": "UPDATE is the DML command used to modify existing records. Syntax: UPDATE table SET column=value WHERE condition. Without WHERE, all rows are updated."
+  },
+  {
+    "id": 31,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of SELECT COUNT(*) FROM employees if the table has 50 rows?",
+    "options": ["A) 50", "B) 0", "C) NULL", "D) Error"],
+    "correct_answer": "A) 50",
+    "explanation": "COUNT(*) counts all rows in the table including those with NULL values. If the table has 50 rows, COUNT(*) returns 50."
+  },
+  {
+    "id": 32,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to group rows that have the same values in specified columns?",
+    "options": ["A) ORDER BY", "B) GROUP BY", "C) CLUSTER BY", "D) PARTITION BY"],
+    "correct_answer": "B) GROUP BY",
+    "explanation": "GROUP BY groups rows with the same values in specified columns into summary rows. It is often used with aggregate functions like COUNT, SUM, AVG."
+  },
+  {
+    "id": 33,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid SQL aggregate function?",
+    "options": ["A) SUM()", "B) AVG()", "C) TOTAL()", "D) MAX()"],
+    "correct_answer": "C) TOTAL()",
+    "explanation": "Standard SQL aggregate functions are SUM, AVG, MIN, MAX, COUNT. TOTAL() is not a standard SQL aggregate function (though it exists in SQLite)."
+  },
+  {
+    "id": 34,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does AUTO_INCREMENT do in MySQL when applied to a column?",
+    "options": ["A) Automatically generates a unique sequential number for each new row", "B) Automatically updates the column value on each query", "C) Increments all numeric columns by 1", "D) Creates an automatic index on the column"],
+    "correct_answer": "A) Automatically generates a unique sequential number for each new row",
+    "explanation": "AUTO_INCREMENT automatically assigns the next sequential integer value to a column (usually PRIMARY KEY) when a new row is inserted without specifying that column's value."
+  },
+  {
+    "id": 35,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL statement is used to delete specific rows from a table?",
+    "options": ["A) REMOVE FROM table WHERE condition", "B) DELETE FROM table WHERE condition", "C) DROP FROM table WHERE condition", "D) ERASE FROM table WHERE condition"],
+    "correct_answer": "B) DELETE FROM table WHERE condition",
+    "explanation": "DELETE FROM table WHERE condition removes specific rows matching the condition. Without WHERE clause, all rows are deleted but the table structure remains."
+  },
+  {
+    "id": 36,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a VIEW in SQL?",
+    "options": ["A) A virtual table based on the result of a SELECT query", "B) A physical copy of a table", "C) A type of index", "D) A stored procedure"],
+    "correct_answer": "A) A virtual table based on the result of a SELECT query",
+    "explanation": "A VIEW is a virtual table created from a SELECT query. It doesn't store data physically but provides a way to simplify complex queries and enhance security."
+  },
+  {
+    "id": 37,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to avoid duplicate rows in a SELECT result?",
+    "options": ["A) UNIQUE", "B) DISTINCT", "C) DIFFERENT", "D) NODUPLICATE"],
+    "correct_answer": "B) DISTINCT",
+    "explanation": "SELECT DISTINCT eliminates duplicate rows from the result set, returning only unique values. Example: SELECT DISTINCT city FROM customers."
+  },
+  {
+    "id": 38,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands is used to grant privileges to a user?",
+    "options": ["A) ALLOW", "B) PERMIT", "C) GRANT", "D) GIVE"],
+    "correct_answer": "C) GRANT",
+    "explanation": "GRANT is the DCL (Data Control Language) command used to give specific privileges (SELECT, INSERT, UPDATE, etc.) to database users or roles."
+  },
+  {
+    "id": 39,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct order of clauses in a standard SQL SELECT statement?",
+    "options": ["A) SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY", "B) SELECT, WHERE, FROM, GROUP BY, ORDER BY, HAVING", "C) FROM, SELECT, WHERE, GROUP BY, HAVING, ORDER BY", "D) SELECT, FROM, HAVING, WHERE, GROUP BY, ORDER BY"],
+    "correct_answer": "A) SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY",
+    "explanation": "The standard SQL SELECT clause order is: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY. This sequence must be followed for valid SQL syntax."
+  },
+  {
+    "id": 40,
+    "topic": "SQL for Database Construction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the number of characters in a string?",
+    "options": ["A) SIZE()", "B) COUNT()", "C) LEN() or LENGTH()", "D) CHARS()"],
+    "correct_answer": "C) LEN() or LENGTH()",
+    "explanation": "LEN() is used in SQL Server and LENGTH() in MySQL/Oracle to return the number of characters in a string. COUNT() counts rows, not string length."
+  },
+
+  {
+    "id": 41,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider the following SQL: CREATE TABLE orders (order_id INT PRIMARY KEY, customer_id INT, FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE CASCADE). What happens when a customer record is deleted?",
+    "options": ["A) The deletion is prevented", "B) All related orders are automatically deleted", "C) customer_id is set to NULL in orders", "D) An error is raised"],
+    "correct_answer": "B) All related orders are automatically deleted",
+    "explanation": "ON DELETE CASCADE means when a parent record is deleted, all child records referencing it are automatically deleted too, maintaining referential integrity."
+  },
+  {
+    "id": 42,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: SELECT 5 + NULL in SQL?",
+    "options": ["A) 5", "B) NULL", "C) 0", "D) Error"],
+    "correct_answer": "B) NULL",
+    "explanation": "Any arithmetic operation involving NULL returns NULL in SQL. NULL represents an unknown value, so 5 + NULL = NULL (unknown)."
+  },
+  {
+    "id": 43,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly creates a composite primary key on columns (student_id, course_id)?",
+    "options": ["A) student_id INT PRIMARY KEY, course_id INT PRIMARY KEY", "B) PRIMARY KEY (student_id, course_id)", "C) COMPOSITE KEY (student_id, course_id)", "D) student_id INT, course_id INT, UNIQUE(student_id, course_id)"],
+    "correct_answer": "B) PRIMARY KEY (student_id, course_id)",
+    "explanation": "A composite primary key is defined at the table level using PRIMARY KEY (col1, col2). Defining PRIMARY KEY on individual columns creates two separate constraints, which is invalid."
+  },
+  {
+    "id": 44,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between TRUNCATE and DELETE in SQL?",
+    "options": ["A) TRUNCATE can use WHERE clause; DELETE cannot", "B) DELETE is DDL; TRUNCATE is DML", "C) TRUNCATE is faster and cannot be rolled back (in most DBs); DELETE can be rolled back", "D) Both are identical in functionality"],
+    "correct_answer": "C) TRUNCATE is faster and cannot be rolled back (in most DBs); DELETE can be rolled back",
+    "explanation": "TRUNCATE is a DDL command that removes all rows quickly without logging individual deletions. DELETE is DML and can be rolled back within a transaction."
+  },
+  {
+    "id": 45,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Given a table 'products' with columns (id, name, price, category), which query finds the average price per category for categories with average price > 500?",
+    "options": ["A) SELECT category, AVG(price) FROM products WHERE AVG(price) > 500 GROUP BY category", "B) SELECT category, AVG(price) FROM products GROUP BY category HAVING AVG(price) > 500", "C) SELECT category, AVG(price) FROM products HAVING AVG(price) > 500", "D) SELECT category, AVG(price) FROM products GROUP BY category WHERE AVG(price) > 500"],
+    "correct_answer": "B) SELECT category, AVG(price) FROM products GROUP BY category HAVING AVG(price) > 500",
+    "explanation": "HAVING filters groups after GROUP BY. WHERE cannot use aggregate functions. The correct order is GROUP BY then HAVING to filter aggregated results."
+  },
+  {
+    "id": 46,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a self-join in SQL?",
+    "options": ["A) Joining a table with itself using aliases", "B) Joining two tables with the same structure", "C) A join that doesn't require a condition", "D) Joining all tables in a database simultaneously"],
+    "correct_answer": "A) Joining a table with itself using aliases",
+    "explanation": "A self-join joins a table with itself using different aliases. It's useful for hierarchical data like finding employees and their managers in the same table."
+  },
+  {
+    "id": 47,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which SQL statement creates a view named 'high_salary_emp' showing employees with salary > 70000?",
+    "options": ["A) CREATE VIEW high_salary_emp AS SELECT * FROM employees WHERE salary > 70000", "B) MAKE VIEW high_salary_emp FROM employees WHERE salary > 70000", "C) CREATE VIEW high_salary_emp SELECT * FROM employees WHERE salary > 70000", "D) VIEW high_salary_emp AS SELECT * FROM employees WHERE salary > 70000"],
+    "correct_answer": "A) CREATE VIEW high_salary_emp AS SELECT * FROM employees WHERE salary > 70000",
+    "explanation": "CREATE VIEW view_name AS SELECT ... is the correct syntax. The AS keyword is mandatory between the view name and the SELECT statement."
+  },
+  {
+    "id": 48,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the result of the following query: SELECT COALESCE(NULL, NULL, 'Hello', 'World')?",
+    "options": ["A) NULL", "B) Hello", "C) World", "D) HelloWorld"],
+    "correct_answer": "B) Hello",
+    "explanation": "COALESCE returns the first non-NULL value in the list. It evaluates left to right: NULL, NULL are skipped, 'Hello' is the first non-NULL value returned."
+  },
+  {
+    "id": 49,
+    "topic": "SQL for Database Construction",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which type of JOIN returns all rows from the left table and

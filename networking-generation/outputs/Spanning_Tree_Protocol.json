@@ -1,0 +1,478 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary purpose of the Spanning Tree Protocol (STP)?",
+    "options": ["A) To prevent routing loops in Layer 3 networks", "B) To prevent switching loops in Layer 2 networks", "C) To increase bandwidth between switches", "D) To assign IP addresses dynamically"],
+    "correct_answer": "B) To prevent switching loops in Layer 2 networks",
+    "explanation": "STP operates at Layer 2 (Data Link Layer) and prevents broadcast storms and switching loops by logically blocking redundant paths while keeping them available for failover."
+  },
+  {
+    "id": 2,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which IEEE standard defines the original Spanning Tree Protocol?",
+    "options": ["A) IEEE 802.1D", "B) IEEE 802.1Q", "C) IEEE 802.1W", "D) IEEE 802.3"],
+    "correct_answer": "A) IEEE 802.1D",
+    "explanation": "The original STP is defined by IEEE 802.1D. IEEE 802.1W defines RSTP (Rapid STP) and IEEE 802.1Q defines VLANs."
+  },
+  {
+    "id": 3,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default bridge priority value in STP?",
+    "options": ["A) 4096", "B) 16384", "C) 32768", "D) 65535"],
+    "correct_answer": "C) 32768",
+    "explanation": "The default bridge priority in STP is 32768. This value is used in Bridge ID calculation to determine the Root Bridge."
+  },
+  {
+    "id": 4,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which switch is elected as the Root Bridge in STP?",
+    "options": ["A) The switch with the highest Bridge ID", "B) The switch with the lowest Bridge ID", "C) The switch with the most ports", "D) The switch with the highest IP address"],
+    "correct_answer": "B) The switch with the lowest Bridge ID",
+    "explanation": "The Root Bridge is the switch with the lowest Bridge ID. Bridge ID = Bridge Priority + MAC Address. Lower priority wins; if equal, lower MAC address wins."
+  },
+  {
+    "id": 5,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What are the two components that make up a Bridge ID in STP?",
+    "options": ["A) IP address and MAC address", "B) Bridge priority and MAC address", "C) Port cost and bridge priority", "D) VLAN ID and IP address"],
+    "correct_answer": "B) Bridge priority and MAC address",
+    "explanation": "A Bridge ID is a combination of the 2-byte bridge priority and the 6-byte MAC address, totaling 8 bytes. It uniquely identifies each switch in STP."
+  },
+  {
+    "id": 6,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of frames does STP use to exchange information between switches?",
+    "options": ["A) Hello frames", "B) BPDU (Bridge Protocol Data Units)", "C) ARP frames", "D) ICMP frames"],
+    "correct_answer": "B) BPDU (Bridge Protocol Data Units)",
+    "explanation": "STP uses BPDUs (Bridge Protocol Data Units) to exchange topology information between switches. BPDUs are sent every 2 seconds by default."
+  },
+  {
+    "id": 7,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default Hello Time interval in STP?",
+    "options": ["A) 1 second", "B) 2 seconds", "C) 5 seconds", "D) 10 seconds"],
+    "correct_answer": "B) 2 seconds",
+    "explanation": "The default Hello Time in STP is 2 seconds. The Root Bridge sends BPDUs every 2 seconds to maintain topology information across the network."
+  },
+  {
+    "id": 8,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default Forward Delay timer in STP?",
+    "options": ["A) 5 seconds", "B) 10 seconds", "C) 15 seconds", "D) 20 seconds"],
+    "correct_answer": "C) 15 seconds",
+    "explanation": "The default Forward Delay in STP is 15 seconds. A port spends 15 seconds in the Listening state and another 15 seconds in the Learning state before transitioning to Forwarding."
+  },
+  {
+    "id": 9,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default Max Age timer in STP?",
+    "options": ["A) 10 seconds", "B) 15 seconds", "C) 20 seconds", "D) 30 seconds"],
+    "correct_answer": "C) 20 seconds",
+    "explanation": "The default Max Age timer in STP is 20 seconds. If a switch does not receive a BPDU within 20 seconds, it assumes the Root Bridge is unreachable and initiates topology recalculation."
+  },
+  {
+    "id": 10,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many port states does the original STP (802.1D) define?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "C) 5",
+    "explanation": "Original STP defines 5 port states: Blocking, Listening, Learning, Forwarding, and Disabled. Each state has a specific role in the STP convergence process."
+  },
+  {
+    "id": 11,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which STP port state forwards data frames and learns MAC addresses?",
+    "options": ["A) Blocking", "B) Listening", "C) Learning", "D) Forwarding"],
+    "correct_answer": "D) Forwarding",
+    "explanation": "The Forwarding state is the only state where a port both forwards data frames AND learns MAC addresses. It is the fully operational state in STP."
+  },
+  {
+    "id": 12,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which STP port state does NOT forward data frames but DOES learn MAC addresses?",
+    "options": ["A) Blocking", "B) Listening", "C) Learning", "D) Disabled"],
+    "correct_answer": "C) Learning",
+    "explanation": "In the Learning state, a port does not forward data frames but does learn MAC addresses to populate the MAC address table, reducing flooding when it transitions to Forwarding."
+  },
+  {
+    "id": 13,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the total convergence time for STP in a typical network?",
+    "options": ["A) 15 seconds", "B) 30 seconds", "C) 50 seconds", "D) 60 seconds"],
+    "correct_answer": "C) 50 seconds",
+    "explanation": "STP convergence = Max Age (20s) + 2 × Forward Delay (2 × 15s) = 20 + 30 = 50 seconds. This is why STP is considered slow compared to RSTP."
+  },
+  {
+    "id": 14,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the STP port cost for a 100 Mbps Fast Ethernet link?",
+    "options": ["A) 4", "B) 19", "C) 100", "D) 200"],
+    "correct_answer": "B) 19",
+    "explanation": "According to IEEE 802.1D, the STP port cost for a 100 Mbps Fast Ethernet link is 19. Lower bandwidth links have higher costs (e.g., 10 Mbps = 100, 1 Gbps = 4)."
+  },
+  {
+    "id": 15,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the STP port cost for a 1 Gbps Gigabit Ethernet link?",
+    "options": ["A) 2", "B) 4", "C) 10", "D) 19"],
+    "correct_answer": "B) 4",
+    "explanation": "The IEEE 802.1D STP port cost for a 1 Gbps link is 4. Port costs decrease as bandwidth increases: 10 Mbps=100, 100 Mbps=19, 1 Gbps=4, 10 Gbps=2."
+  },
+  {
+    "id": 16,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which port on a non-root switch is the port closest to the Root Bridge (lowest path cost)?",
+    "options": ["A) Designated Port", "B) Root Port", "C) Blocked Port", "D) Alternate Port"],
+    "correct_answer": "B) Root Port",
+    "explanation": "The Root Port is the port on a non-root switch that has the lowest cost path to the Root Bridge. Every non-root switch has exactly one Root Port."
+  },
+  {
+    "id": 17,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which port forwards traffic on behalf of the network segment and is elected per segment?",
+    "options": ["A) Root Port", "B) Designated Port", "C) Blocked Port", "D) Backup Port"],
+    "correct_answer": "B) Designated Port",
+    "explanation": "A Designated Port is elected for each network segment. It is the port that forwards traffic toward the Root Bridge on that segment. All Root Bridge ports are Designated Ports."
+  },
+  {
+    "id": 18,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens to a port that is neither a Root Port nor a Designated Port in STP?",
+    "options": ["A) It becomes a backup port", "B) It is placed in the Blocking state", "C) It is disabled permanently", "D) It becomes an alternate port"],
+    "correct_answer": "B) It is placed in the Blocking state",
+    "explanation": "In original STP (802.1D), ports that are neither Root Ports nor Designated Ports are placed in the Blocking state to prevent loops while remaining available for failover."
+  },
+  {
+    "id": 19,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which version of STP provides faster convergence (approximately 1-2 seconds)?",
+    "options": ["A) STP (802.1D)", "B) RSTP (802.1W)", "C) PVST+", "D) MST (802.1S)"],
+    "correct_answer": "B) RSTP (802.1W)",
+    "explanation": "RSTP (Rapid Spanning Tree Protocol), defined by IEEE 802.1W, provides convergence in approximately 1-2 seconds compared to STP's 30-50 seconds."
+  },
+  {
+    "id": 20,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does PVST+ stand for in Cisco's STP implementation?",
+    "options": ["A) Per VLAN Spanning Tree Plus", "B) Primary VLAN Spanning Tree Plus", "C) Parallel VLAN Spanning Tree Plus", "D) Protected VLAN Spanning Tree Plus"],
+    "correct_answer": "A) Per VLAN Spanning Tree Plus",
+    "explanation": "PVST+ (Per VLAN Spanning Tree Plus) is Cisco's proprietary enhancement that runs a separate STP instance for each VLAN, allowing load balancing across VLANs."
+  },
+  {
+    "id": 21,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In STP, what is a broadcast storm?",
+    "options": ["A) A storm caused by too many routers", "B) Continuous looping of broadcast frames causing network congestion", "C) A sudden increase in unicast traffic", "D) A failure of the Root Bridge"],
+    "correct_answer": "B) Continuous looping of broadcast frames causing network congestion",
+    "explanation": "A broadcast storm occurs when broadcast frames loop endlessly in a network with redundant paths and no STP, consuming all available bandwidth and crashing the network."
+  },
+  {
+    "id": 22,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which STP feature allows an edge port to immediately transition to the Forwarding state?",
+    "options": ["A) BPDU Guard", "B) PortFast", "C) Root Guard", "D) Loop Guard"],
+    "correct_answer": "B) PortFast",
+    "explanation": "PortFast allows a port connected to an end device (not another switch) to skip the Listening and Learning states and immediately enter the Forwarding state, reducing connection delay."
+  },
+  {
+    "id": 23,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does BPDU Guard do when enabled on a PortFast-enabled port?",
+    "options": ["A) Sends BPDUs to neighboring switches", "B) Disables the port if a BPDU is received", "C) Increases the priority of the port", "D) Blocks all traffic on the port"],
+    "correct_answer": "B) Disables the port if a BPDU is received",
+    "explanation": "BPDU Guard shuts down a PortFast-enabled port (err-disabled state) if it receives a BPDU, protecting the STP topology from unauthorized switches being connected."
+  },
+  {
+    "id": 24,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many port roles does RSTP (802.1W) define?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "C) 5",
+    "explanation": "RSTP defines 5 port roles: Root, Designated, Alternate, Backup, and Disabled. The Alternate and Backup roles replace the Blocking state of STP for faster convergence."
+  },
+  {
+    "id": 25,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a network with 5 switches fully connected, how many links will STP block to create a loop-free topology?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "D) 6",
+    "explanation": "For N switches in a fully connected mesh, total links = N(N-1)/2 = 5×4/2 = 10. A spanning tree needs N-1 = 4 active links. So STP blocks 10 - 4 = 6 links."
+  },
+  === CHECKPOINT: 25/100 COMPLETE ===
+  {
+    "id": 26,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the STP port cost for a 10 Mbps Ethernet link?",
+    "options": ["A) 4", "B) 19", "C) 100", "D) 200"],
+    "correct_answer": "C) 100",
+    "explanation": "The IEEE 802.1D STP port cost for a 10 Mbps Ethernet link is 100. The formula is based on 1,000,000,000 / bandwidth in bps (rounded)."
+  },
+  {
+    "id": 27,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which STP timer determines how long a port stays in the Listening and Learning states?",
+    "options": ["A) Hello Time", "B) Max Age", "C) Forward Delay", "D) Hold Time"],
+    "correct_answer": "C) Forward Delay",
+    "explanation": "The Forward Delay timer (default 15 seconds) determines how long a port remains in both the Listening state and the Learning state before transitioning to the next state."
+  },
+  {
+    "id": 28,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All ports on the Root Bridge are in which STP port role?",
+    "options": ["A) Root Port", "B) Designated Port", "C) Blocked Port", "D) Alternate Port"],
+    "correct_answer": "B) Designated Port",
+    "explanation": "All ports on the Root Bridge are Designated Ports because the Root Bridge is the center of the spanning tree and all its ports forward traffic toward the rest of the network."
+  },
+  {
+    "id": 29,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the minimum bridge priority value that can be configured in STP?",
+    "options": ["A) 0", "B) 1", "C) 4096", "D) 8192"],
+    "correct_answer": "A) 0",
+    "explanation": "The bridge priority can be set to 0, which guarantees that switch becomes the Root Bridge (assuming no other switch also has priority 0 with a lower MAC address)."
+  },
+  {
+    "id": 30,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In STP, what is the purpose of the Root Guard feature?",
+    "options": ["A) To protect the Root Bridge from being replaced", "B) To prevent a port from becoming a Root Port", "C) To block BPDUs on edge ports", "D) To speed up STP convergence"],
+    "correct_answer": "B) To prevent a port from becoming a Root Port",
+    "explanation": "Root Guard prevents a port from becoming a Root Port. If a superior BPDU is received on a Root Guard-enabled port, the port is placed in root-inconsistent state."
+  },
+  {
+    "id": 31,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which STP variant is defined by IEEE 802.1S?",
+    "options": ["A) RSTP", "B) PVST+", "C) MST (Multiple Spanning Tree)", "D) Rapid PVST+"],
+    "correct_answer": "C) MST (Multiple Spanning Tree)",
+    "explanation": "IEEE 802.1S defines MST (Multiple Spanning Tree Protocol), which maps multiple VLANs to a single STP instance, reducing CPU and memory overhead compared to PVST+."
+  },
+  {
+    "id": 32,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In STP, which state does a port enter immediately after being enabled?",
+    "options": ["A) Forwarding", "B) Learning", "C) Blocking", "D) Listening"],
+    "correct_answer": "C) Blocking",
+    "explanation": "When a port is first enabled in STP, it enters the Blocking state. It then transitions through Listening and Learning before reaching the Forwarding state."
+  },
+  {
+    "id": 33,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does TCN stand for in STP?",
+    "options": ["A) Topology Change Notification", "B) Tree Control Node", "C) Traffic Control Network", "D) Topology Control Number"],
+    "correct_answer": "A) Topology Change Notification",
+    "explanation": "TCN (Topology Change Notification) is a special BPDU sent by a switch to notify the Root Bridge that a topology change has occurred, triggering MAC table flushing."
+  },
+  {
+    "id": 34,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many Root Ports does a non-root switch have in STP?",
+    "options": ["A) Zero", "B) Exactly one", "C) One per VLAN", "D) Depends on number of uplinks"],
+    "correct_answer": "B) Exactly one",
+    "explanation": "Every non-root switch has exactly one Root Port — the port with the lowest cost path to the Root Bridge. The Root Bridge itself has no Root Ports."
+  },
+  {
+    "id": 35,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which STP port state receives BPDUs but does NOT forward data frames?",
+    "options": ["A) Forwarding", "B) Learning", "C) Blocking", "D) Disabled"],
+    "correct_answer": "C) Blocking",
+    "explanation": "In the Blocking state, a port receives and processes BPDUs but does not forward data frames or learn MAC addresses. It prevents loops while monitoring the network."
+  },
+  {
+    "id": 36,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the bridge priority increment in STP (priority must be a multiple of this value)?",
+    "options": ["A) 1", "B) 256", "C) 4096", "D) 1024"],
+    "correct_answer": "C) 4096",
+    "explanation": "In modern STP implementations, bridge priority must be configured in multiples of 4096 (0, 4096, 8192, ..., 61440). This is because the lower 12 bits are used for the VLAN ID."
+  },
+  {
+    "id": 37,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum bridge priority value in STP?",
+    "options": ["A) 32768", "B) 49152", "C) 61440", "D) 65535"],
+    "correct_answer": "C) 61440",
+    "explanation": "The maximum bridge priority is 61440 (= 15 × 4096). Priority values range from 0 to 61440 in increments of 4096, giving 16 possible values."
+  },
+  {
+    "id": 38,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which STP feature prevents a port from transitioning to the Forwarding state if no BPDUs are received?",
+    "options": ["A) BPDU Guard", "B) Root Guard", "C) Loop Guard", "D) PortFast"],
+    "correct_answer": "C) Loop Guard",
+    "explanation": "Loop Guard prevents a port from transitioning to the Forwarding state if it stops receiving BPDUs, placing it in a loop-inconsistent state to prevent loops caused by unidirectional link failures."
+  },
+  {
+    "id": 39,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In STP, if two switches have the same bridge priority, what is used as a tiebreaker for Root Bridge election?",
+    "options": ["A) IP address (lowest wins)", "B) MAC address (lowest wins)", "C) Port number (lowest wins)", "D) Number of ports (most wins)"],
+    "correct_answer": "B) MAC address (lowest wins)",
+    "explanation": "If bridge priorities are equal, the switch with the lowest MAC address wins the Root Bridge election. MAC addresses are compared numerically, and the lowest value wins."
+  },
+  {
+    "id": 40,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the total number of active links in a spanning tree with 8 switches?",
+    "options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "correct_answer": "B) 7",
+    "explanation": "A spanning tree with N nodes always has exactly N-1 edges (active links). For 8 switches, the spanning tree has 8-1 = 7 active links, regardless of total physical links."
+  },
+  {
+    "id": 41,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Switch A has priority 32768 and MAC 00:00:00:00:00:01. Switch B has priority 32768 and MAC 00:00:00:00:00:02. Switch C has priority 28672 and MAC 00:00:00:00:00:03. Which switch becomes the Root Bridge?",
+    "options": ["A) Switch A", "B) Switch B", "C) Switch C", "D) Cannot be determined"],
+    "correct_answer": "C) Switch C",
+    "explanation": "Root Bridge election: lowest Bridge ID wins. Switch C has priority 28672 (lowest), so it wins regardless of MAC address. Priority is compared first before MAC address."
+  },
+  {
+    "id": 42,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A switch port connects via a 100 Mbps link to an intermediate switch, which connects via a 1 Gbps link to the Root Bridge. What is the total path cost to the Root Bridge?",
+    "options": ["A) 19", "B) 23", "C) 4", "D) 104"],
+    "correct_answer": "B) 23",
+    "explanation": "Path cost = sum of port costs along the path. 100 Mbps cost = 19, 1 Gbps cost = 4. Total = 19 + 4 = 23. The path cost is accumulated from the switch to the Root Bridge."
+  },
+  {
+    "id": 43,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In RSTP, which port role provides an alternate path to the Root Bridge and is in the Discarding state?",
+    "options": ["A) Backup Port", "B) Alternate Port", "C) Blocked Port", "D) Edge Port"],
+    "correct_answer": "B) Alternate Port",
+    "explanation": "In RSTP, the Alternate Port provides an alternate path to the Root Bridge and stays in the Discarding state. It can quickly transition to Root Port if the current Root Port fails."
+  },
+  {
+    "id": 44,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In RSTP, which port role provides a backup path to the same segment as the Designated Port?",
+    "options": ["A) Alternate Port", "B) Backup Port", "C) Root Port", "D) Edge Port"],
+    "correct_answer": "B) Backup Port",
+    "explanation": "The Backup Port in RSTP provides a redundant path to the same segment already served by a Designated Port on the same switch. It stays in Discarding state."
+  },
+  {
+    "id": 45,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "How many port states does RSTP (802.1W) define?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "A) 3",
+    "explanation": "RSTP defines only 3 port states: Discarding (combines Blocking, Listening, and Disabled), Learning, and Forwarding. This simplification helps achieve faster convergence."
+  },
+  {
+    "id": 46,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A network has 6 switches connected in a ring topology. How many ports will STP block to eliminate loops?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 6"],
+    "correct_answer": "A) 1",
+    "explanation": "In a ring of N switches, there are N links. A spanning tree needs N-1 links. So STP blocks N - (N-1) = 1 link. For 6 switches in a ring: 6 links, block 1."
+  },
+  {
+    "id": 47,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Switch X has two paths to the Root Bridge: Path 1 via a 100 Mbps link (cost 19) and Path 2 via two 1 Gbps links (cost 4+4=8). Which path is selected as the Root Port?",
+    "options": ["A) Path 1 (cost 19)", "B) Path 2 (cost 8)", "C) Both paths are used", "D) The path with higher bandwidth"],
+    "correct_answer": "B) Path 2 (cost 8)",
+    "explanation": "STP selects the Root Port based on the lowest cumulative path cost to the Root Bridge. Path 2 has cost 8 vs Path 1's cost 19, so Path 2 is selected as the Root Port."
+  },
+  {
+    "id": 48,
+    "topic": "Spanning Tree Protocol",
+    "difficulty": "medium",
+    "exam_type":

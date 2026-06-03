@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who cannot read or write is called a/an ___.",
+    "options": [
+      "A) Illiterate",
+      "B) Ignorant",
+      "C) Imbecile",
+      "D) Insolent"
+    ],
+    "correct_answer": "A) Illiterate",
+    "explanation": "Illiterate refers to a person who is unable to read or write. Ignorant means lacking knowledge, Imbecile means a stupid person, and Insolent means rude."
+  },
+  {
+    "id": 2,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A place where dead bodies are kept before burial is called a/an ___.",
+    "options": [
+      "A) Mortuary",
+      "B) Cemetery",
+      "C) Crematorium",
+      "D) Monastery"
+    ],
+    "correct_answer": "A) Mortuary",
+    "explanation": "A mortuary is a place where dead bodies are kept before burial or identification. Cemetery is a burial ground, Crematorium is where bodies are cremated."
+  },
+  {
+    "id": 3,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who travels to a holy place as an act of religious devotion is called a/an ___.",
+    "options": [
+      "A) Pilgrim",
+      "B) Nomad",
+      "C) Hermit",
+      "D) Ascetic"
+    ],
+    "correct_answer": "A) Pilgrim",
+    "explanation": "A pilgrim is someone who travels to a sacred place for religious reasons. Nomad is a wanderer, Hermit is a recluse, Ascetic is one who practices self-denial."
+  },
+  {
+    "id": 4,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A story in which ideas are symbolized as people is called a/an ___.",
+    "options": [
+      "A) Allegory",
+      "B) Fable",
+      "C) Parable",
+      "D) Anecdote"
+    ],
+    "correct_answer": "A) Allegory",
+    "explanation": "An allegory is a narrative in which abstract ideas are represented as characters or events. A fable uses animals, a parable is a moral story, an anecdote is a short personal account."
+  },
+  {
+    "id": 5,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is unable to pay his debts is called a/an ___.",
+    "options": [
+      "A) Insolvent",
+      "B) Pauper",
+      "C) Miser",
+      "D) Spendthrift"
+    ],
+    "correct_answer": "A) Insolvent",
+    "explanation": "Insolvent refers to a person who is legally unable to pay their debts. Pauper is an extremely poor person, Miser hoards money, Spendthrift spends recklessly."
+  },
+  {
+    "id": 6,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The study of the origin and history of words is called ___.",
+    "options": [
+      "A) Etymology",
+      "B) Entomology",
+      "C) Ecology",
+      "D) Epistemology"
+    ],
+    "correct_answer": "A) Etymology",
+    "explanation": "Etymology is the study of the origin and historical development of words. Entomology is the study of insects, Ecology is the study of environment, Epistemology is the study of knowledge."
+  },
+  {
+    "id": 7,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who looks at the bright side of things is called a/an ___.",
+    "options": [
+      "A) Optimist",
+      "B) Pessimist",
+      "C) Realist",
+      "D) Idealist"
+    ],
+    "correct_answer": "A) Optimist",
+    "explanation": "An optimist is someone who tends to see the positive side of situations. A pessimist sees the negative side, a realist sees things as they are, an idealist pursues perfect standards."
+  },
+  {
+    "id": 8,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A government run by the people is called a/an ___.",
+    "options": [
+      "A) Democracy",
+      "B) Monarchy",
+      "C) Oligarchy",
+      "D) Theocracy"
+    ],
+    "correct_answer": "A) Democracy",
+    "explanation": "Democracy is a system of government where power is vested in the people. Monarchy is ruled by a king/queen, Oligarchy by a few, Theocracy by religious leaders."
+  },
+  {
+    "id": 9,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who hates mankind is called a/an ___.",
+    "options": [
+      "A) Misanthrope",
+      "B) Philanthropist",
+      "C) Misogynist",
+      "D) Egoist"
+    ],
+    "correct_answer": "A) Misanthrope",
+    "explanation": "A misanthrope is a person who dislikes or distrusts humankind. A philanthropist loves humanity, a misogynist hates women, an egoist is self-centered."
+  },
+  {
+    "id": 10,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A book written by an unknown author is called ___.",
+    "options": [
+      "A) Anonymous",
+      "B) Pseudonymous",
+      "C) Autobiography",
+      "D) Memoir"
+    ],
+    "correct_answer": "A) Anonymous",
+    "explanation": "Anonymous refers to a work whose author is unknown or unnamed. Pseudonymous means written under a false name, Autobiography is a self-written life story."
+  },
+  {
+    "id": 11,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is new to a job or activity is called a/an ___.",
+    "options": [
+      "A) Novice",
+      "B) Expert",
+      "C) Veteran",
+      "D) Prodigy"
+    ],
+    "correct_answer": "A) Novice",
+    "explanation": "A novice is a person who is new to or inexperienced in a field. An expert is highly skilled, a veteran is experienced, a prodigy is exceptionally talented."
+  },
+  {
+    "id": 12,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The killing of one's own brother is called ___.",
+    "options": [
+      "A) Fratricide",
+      "B) Patricide",
+      "C) Matricide",
+      "D) Homicide"
+    ],
+    "correct_answer": "A) Fratricide",
+    "explanation": "Fratricide is the act of killing one's own brother. Patricide is killing one's father, Matricide is killing one's mother, Homicide is killing a human being."
+  },
+  {
+    "id": 13,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who believes in no god is called a/an ___.",
+    "options": [
+      "A) Atheist",
+      "B) Agnostic",
+      "C) Theist",
+      "D) Deist"
+    ],
+    "correct_answer": "A) Atheist",
+    "explanation": "An atheist is a person who does not believe in the existence of God. An agnostic is uncertain about God's existence, a theist believes in God, a deist believes in a creator God."
+  },
+  {
+    "id": 14,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A place where birds are kept is called a/an ___.",
+    "options": [
+      "A) Aviary",
+      "B) Apiary",
+      "C) Aquarium",
+      "D) Sanctuary"
+    ],
+    "correct_answer": "A) Aviary",
+    "explanation": "An aviary is a large enclosure for keeping birds. An apiary is for bees, an aquarium is for fish, a sanctuary is a protected area for wildlife."
+  },
+  {
+    "id": 15,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who speaks many languages is called a/an ___.",
+    "options": [
+      "A) Polyglot",
+      "B) Bilingual",
+      "C) Linguist",
+      "D) Interpreter"
+    ],
+    "correct_answer": "A) Polyglot",
+    "explanation": "A polyglot is a person who knows and uses several languages. Bilingual means knowing two languages, a linguist studies language, an interpreter translates spoken language."
+  },
+  {
+    "id": 16,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is excessively fond of one's wife is called a/an ___.",
+    "options": [
+      "A) Uxorious",
+      "B) Philanderer",
+      "C) Misogynist",
+      "D) Celibate"
+    ],
+    "correct_answer": "A) Uxorious",
+    "explanation": "Uxorious describes a man who is excessively fond of or submissive to his wife. A philanderer has many love affairs, a misogynist hates women, a celibate abstains from marriage."
+  },
+  {
+    "id": 17,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is always running away from danger is called a/an ___.",
+    "options": [
+      "A) Coward",
+      "B) Fugitive",
+      "C) Renegade",
+      "D) Deserter"
+    ],
+    "correct_answer": "A) Coward",
+    "explanation": "A coward is a person who lacks courage and runs away from danger. A fugitive is someone fleeing from law, a renegade is a traitor, a deserter abandons duty."
+  },
+  {
+    "id": 18,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A speech made without prior preparation is called a/an ___.",
+    "options": [
+      "A) Extempore",
+      "B) Soliloquy",
+      "C) Monologue",
+      "D) Eulogy"
+    ],
+    "correct_answer": "A) Extempore",
+    "explanation": "Extempore refers to a speech delivered without preparation or notes. A soliloquy is talking to oneself, a monologue is a long speech, a eulogy is a speech praising the deceased."
+  },
+  {
+    "id": 19,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The practice of having more than one husband at a time is called ___.",
+    "options": [
+      "A) Polyandry",
+      "B) Polygamy",
+      "C) Polygyny",
+      "D) Monogamy"
+    ],
+    "correct_answer": "A) Polyandry",
+    "explanation": "Polyandry is the practice of a woman having more than one husband simultaneously. Polygamy is having multiple spouses, Polygyny is a man having multiple wives, Monogamy is having one spouse."
+  },
+  {
+    "id": 20,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is indifferent to pleasure or pain is called a/an ___.",
+    "options": [
+      "A) Stoic",
+      "B) Hedonist",
+      "C) Epicurean",
+      "D) Ascetic"
+    ],
+    "correct_answer": "A) Stoic",
+    "explanation": "A stoic is a person who endures pain or hardship without showing feelings. A hedonist seeks pleasure, an epicurean enjoys refined pleasures, an ascetic practices self-denial."
+  },
+  {
+    "id": 21,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A place where monks live and work is called a/an ___.",
+    "options": [
+      "A) Monastery",
+      "B) Convent",
+      "C) Hermitage",
+      "D) Sanctuary"
+    ],
+    "correct_answer": "A) Monastery",
+    "explanation": "A monastery is a building where monks live and work. A convent is for nuns, a hermitage is a secluded dwelling, a sanctuary is a place of refuge."
+  },
+  {
+    "id": 22,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is appointed to settle a dispute between two parties is called a/an ___.",
+    "options": [
+      "A) Arbitrator",
+      "B) Mediator",
+      "C) Advocate",
+      "D) Magistrate"
+    ],
+    "correct_answer": "A) Arbitrator",
+    "explanation": "An arbitrator is a person officially appointed to settle a dispute. A mediator helps parties reach agreement, an advocate pleads in court, a magistrate is a judicial officer."
+  },
+  {
+    "id": 23,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The art of beautiful handwriting is called ___.",
+    "options": [
+      "A) Calligraphy",
+      "B) Typography",
+      "C) Stenography",
+      "D) Lithography"
+    ],
+    "correct_answer": "A) Calligraphy",
+    "explanation": "Calligraphy is the art of producing decorative handwriting. Typography is the art of arranging type, Stenography is shorthand writing, Lithography is a printing technique."
+  },
+  {
+    "id": 24,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is fond of fighting is called a/an ___.",
+    "options": [
+      "A) Belligerent",
+      "B) Pacifist",
+      "C) Militant",
+      "D) Aggressor"
+    ],
+    "correct_answer": "A) Belligerent",
+    "explanation": "Belligerent describes a person who is hostile and aggressive, fond of fighting. A pacifist opposes war, a militant is aggressively active, an aggressor initiates conflict."
+  },
+  {
+    "id": 25,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who collects stamps is called a/an ___.",
+    "options": [
+      "A) Philatelist",
+      "B) Numismatist",
+      "C) Bibliophile",
+      "D) Philologist"
+    ],
+    "correct_answer": "A) Philatelist",
+    "explanation": "A philatelist is a person who collects and studies postage stamps. A numismatist collects coins, a bibliophile loves books, a philologist studies language and literature."
+  },
+  {
+    "id": 26,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is always thinking about himself is called a/an ___.",
+    "options": [
+      "A) Egoist",
+      "B) Altruist",
+      "C) Narcissist",
+      "D) Introvert"
+    ],
+    "correct_answer": "A) Egoist",
+    "explanation": "An egoist is a person who is self-centered and thinks primarily about themselves. An altruist is selfless, a narcissist has excessive self-admiration, an introvert is reserved."
+  },
+  {
+    "id": 27,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is skilled in the science of medicine is called a/an ___.",
+    "options": [
+      "A) Physician",
+      "B) Surgeon",
+      "C) Pharmacist",
+      "D) Pathologist"
+    ],
+    "correct_answer": "A) Physician",
+    "explanation": "A physician is a qualified practitioner of medicine. A surgeon performs operations, a pharmacist dispenses medicines, a pathologist studies diseases."
+  },
+  {
+    "id": 28,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who lives alone and avoids other people is called a/an ___.",
+    "options": [
+      "A) Recluse",
+      "B) Hermit",
+      "C) Introvert",
+      "D) Misanthrope"
+    ],
+    "correct_answer": "A) Recluse",
+    "explanation": "A recluse is a person who lives a solitary life and tends to avoid other people. A hermit is similar but often for religious reasons, an introvert is shy, a misanthrope hates people."
+  },
+  {
+    "id": 29,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The study of the universe and its contents is called ___.",
+    "options": [
+      "A) Cosmology",
+      "B) Astronomy",
+      "C) Astrology",
+      "D) Astrophysics"
+    ],
+    "correct_answer": "A) Cosmology",
+    "explanation": "Cosmology is the science of the origin and development of the universe. Astronomy studies celestial objects, Astrology studies celestial influence on humans, Astrophysics studies physics of space."
+  },
+  {
+    "id": 30,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is easily deceived or cheated is called a/an ___.",
+    "options": [
+      "A) Gullible",
+      "B) Credulous",
+      "C) Naive",
+      "D) Dupe"
+    ],
+    "correct_answer": "D) Dupe",
+    "explanation": "A dupe is a person who is easily deceived or used as a tool by others. Gullible and credulous describe the tendency to believe easily, naive means innocent and inexperienced."
+  },
+  {
+    "id": 31,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is present everywhere at the same time is called ___.",
+    "options": [
+      "A) Omnipresent",
+      "B) Omniscient",
+      "C) Omnipotent",
+      "D) Ubiquitous"
+    ],
+    "correct_answer": "A) Omnipresent",
+    "explanation": "Omnipresent means present everywhere at the same time. Omniscient means all-knowing, Omnipotent means all-powerful, Ubiquitous means seeming to appear everywhere."
+  },
+  {
+    "id": 32,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is against war and violence is called a/an ___.",
+    "options": [
+      "A) Pacifist",
+      "B) Activist",
+      "C) Anarchist",
+      "D) Nihilist"
+    ],
+    "correct_answer": "A) Pacifist",
+    "explanation": "A pacifist is a person who believes that war and violence are unjustifiable. An activist campaigns for change, an anarchist opposes authority, a nihilist rejects all values."
+  },
+  {
+    "id": 33,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is skilled in drawing maps is called a/an ___.",
+    "options": [
+      "A) Cartographer",
+      "B) Geographer",
+      "C) Topographer",
+      "D) Surveyor"
+    ],
+    "correct_answer": "A) Cartographer",
+    "explanation": "A cartographer is a person who draws or produces maps. A geographer studies the earth, a topographer studies terrain features, a surveyor measures land."
+  },
+  {
+    "id": 34,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is very particular about food is called a/an ___.",
+    "options": [
+      "A) Gourmet",
+      "B) Glutton",
+      "C) Epicure",
+      "D) Gourmand"
+    ],
+    "correct_answer": "A) Gourmet",
+    "explanation": "A gourmet is a person with a refined taste in food and drink. A glutton eats excessively, an epicure enjoys fine food, a gourmand is a person who loves eating."
+  },
+  {
+    "id": 35,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who donates money for charitable purposes is called a/an ___.",
+    "options": [
+      "A) Philanthropist",
+      "B) Benefactor",
+      "C) Patron",
+      "D) Altruist"
+    ],
+    "correct_answer": "A) Philanthropist",
+    "explanation": "A philanthropist is a person who donates money and time to help others. A benefactor gives financial help, a patron supports arts/causes, an altruist is selflessly concerned for others."
+  },
+  {
+    "id": 36,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is skilled in the art of cooking is called a/an ___.",
+    "options": [
+      "A) Culinary artist",
+      "B) Chef",
+      "C) Gastronome",
+      "D) Caterer"
+    ],
+    "correct_answer": "B) Chef",
+    "explanation": "A chef is a professional cook, especially the chief cook in a restaurant or hotel. A gastronome is a connoisseur of food, a caterer provides food for events."
+  },
+  {
+    "id": 37,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A place where bees are kept is called a/an ___.",
+    "options": [
+      "A) Apiary",
+      "B) Aviary",
+      "C) Aquarium",
+      "D) Vivarium"
+    ],
+    "correct_answer": "A) Apiary",
+    "explanation": "An apiary is a place where bees are kept. An aviary is for birds, an aquarium is for fish, a vivarium is for keeping animals in a natural environment."
+  },
+  {
+    "id": 38,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is skilled in the science of numbers is called a/an ___.",
+    "options": [
+      "A) Mathematician",
+      "B) Statistician",
+      "C) Numerologist",
+      "D) Accountant"
+    ],
+    "correct_answer": "A) Mathematician",
+    "explanation": "A mathematician is an expert in mathematics. A statistician analyzes data, a numerologist studies mystical significance of numbers, an accountant manages financial records."
+  },
+  {
+    "id": 39,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is excessively concerned with his own health is called a/an ___.",
+    "options": [
+      "A) Hypochondriac",
+      "B) Valetudinarian",
+      "C) Malingerer",
+      "D) Neurotic"
+    ],
+    "correct_answer": "A) Hypochondriac",
+    "explanation": "A hypochondriac is a person who is excessively worried about their health. A valetudinarian is chronically ill, a malingerer fakes illness, a neurotic has excessive anxiety."
+  },
+  {
+    "id": 40,
+    "topic": "One Word Substitutes",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person who is skilled in the art of public speaking is called a/an ___.",
+    "options": [
+      "A) Orator",
+      "B) Rhetorician",
+      "C) Elocutionist",
+      "D) Debater"
+    ],
+    "correct_answer": "A) Orator",
+    "explanation": "An orator is a person who is skilled in the art of public speaking. A rhetorician studies rhetoric, an elocutionist teaches clear speech, a debater argues formally."
+  },
+  {
+    "id": 41,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A person who is appointed to manage the affairs of a bankrupt company is called a/an ___.",
+    "options": [
+      "A) Liquidator",
+      "B) Receiver",
+      "C) Administrator",
+      "D) Trustee"
+    ],
+    "correct_answer": "B) Receiver",
+    "explanation": "A receiver is a person appointed by a court to manage the property of a bankrupt company. A liquidator winds up a company, an administrator manages affairs, a trustee holds property for another."
+  },
+  {
+    "id": 42,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The practice of marrying one person at a time is called ___.",
+    "options": [
+      "A) Monogamy",
+      "B) Bigamy",
+      "C) Celibacy",
+      "D) Matrimony"
+    ],
+    "correct_answer": "A) Monogamy",
+    "explanation": "Monogamy is the practice of being married to only one person at a time. Bigamy is being married to two people simultaneously, celibacy is abstaining from marriage, matrimony is the state of being married."
+  },
+  {
+    "id": 43,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A person who is skilled in the science of the mind is called a/an ___.",
+    "options": [
+      "A) Psychologist",
+      "B) Psychiatrist",
+      "C) Neurologist",
+      "D) Psychoanalyst"
+    ],
+    "correct_answer": "A) Psychologist",
+    "explanation": "A psychologist studies the human mind and behavior. A psychiatrist is a medical doctor specializing in mental illness, a neurologist studies the nervous system, a psychoanalyst uses Freudian methods."
+  },
+  {
+    "id": 44,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A person who is skilled in the art of writing in shorthand is called a/an ___.",
+    "options": [
+      "A) Stenographer",
+      "B) Typographer",
+      "C) Calligrapher",
+      "D) Scribe"
+    ],
+    "correct_answer": "A) Stenographer",
+    "explanation": "A stenographer is a person skilled in writing shorthand. A typographer arranges printed text, a calligrapher writes beautifully, a scribe copies manuscripts."
+  },
+  {
+    "id": 45,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A person who is skilled in the science of the stars is called a/an ___.",
+    "options": [
+      "A) Astronomer",
+      "B) Astrologer",
+      "C) Astrophysicist",
+      "D) Cosmologist"
+    ],
+    "correct_answer": "A) Astronomer",
+    "explanation": "An astronomer is a scientist who studies celestial objects and phenomena. An astrologer predicts human affairs from stars, an astrophysicist studies physics of space, a cosmologist studies the universe."
+  },
+  {
+    "id": 46,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A person who is skilled in the art of healing by surgery is called a/an ___.",
+    "options": [
+      "A) Surgeon",
+      "B) Physician",
+      "C) Orthopedist",
+      "D) Specialist"
+    ],
+    "correct_answer": "A) Surgeon",
+    "explanation": "A surgeon is a doctor who performs surgical operations. A physician treats illness without surgery, an orthopedist treats bone disorders, a specialist focuses on a specific area."
+  },
+  {
+    "id": 47,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A person who is skilled in the science of the earth is called a/an ___.",
+    "options": [
+      "A) Geologist",
+      "B) Geographer",
+      "C) Seismologist",
+      "D) Mineralogist"
+    ],
+    "correct_answer": "A) Geologist",
+    "explanation": "A geologist is a scientist who studies the earth's physical structure and history. A geographer studies the earth's surface, a seismologist studies earthquakes, a mineralogist studies minerals."
+  },
+  {
+    "id": 48,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A person who is skilled in the science of plants is called a/an ___.",
+    "options": [
+      "A) Botanist",
+      "B) Horticulturist",
+      "C) Ecologist",
+      "D) Agronomist"
+    ],
+    "correct_answer": "A) Botanist",
+    "explanation": "A botanist is a scientist who studies plants. A horticulturist cultivates plants, an ecologist studies ecosystems, an agronomist studies soil and crop production."
+  },
+  {
+    "id": 49,
+    "topic": "One Word Substitutes",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A person who is skilled in the science of animals is called a/an ___.",
+    "options": [
+      "A) Zoologist",
+      "B) Veterinarian",
+      "C) Entomologist",
+      "D) Ornithologist"
+    ],
+    "correct_answer": "A) Zoologist",
+    "explanation": "A zoologist is a scientist who studies animals. A veterinarian treats animal diseases, an entomologist studies insects, an ornithologist studies birds."
+  }
+]

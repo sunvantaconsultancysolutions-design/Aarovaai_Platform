@@ -1,0 +1,16 @@
+[
+  {
+    "id": "a412d5c9-d516-4bf1-963f-05cee3bb72a4",
+    "name": "MANCHALA JASHWANTH SAI",
+    "email": "mjashwanth2007@gmail.com",
+    "phone": "+917396334220",
+    "password": "$2a$12$oQwl8qyENcc8cD61JV3kJOjUvGbh9h/Ume2JOKu8mNpCxuOkE7Suy",
+    "profileImage": null,
+    "createdAt": "2026-05-29T10:38:54.436Z",
+    "lastLogin": "2026-06-01T12:01:51.427Z",
+    "refreshTokens": [
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE0MTJkNWM5LWQ1MTYtNGJmMS05NjNmLTA1Y2VlM2JiNzJhNCIsImlhdCI6MTc4MDA1MTEzNCwiZXhwIjoxNzgwNjU1OTM0fQ.D60MJmcuaHcbZKWeL27GT7Ibh3VdooVaOazqz7kaBF0",
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE0MTJkNWM5LWQ1MTYtNGJmMS05NjNmLTA1Y2VlM2JiNzJhNCIsImlhdCI6MTc4MDMxMzc4MCwiZXhwIjoxNzgyOTA1NzgwfQ.q8UztSbQPd16DnMWRRCaflq2s-jgX4lX6fEPRf2QEd8"
+    ]
+  }
+]

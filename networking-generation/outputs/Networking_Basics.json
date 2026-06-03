@@ -1,0 +1,539 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'IP' stand for in networking?",
+    "options": ["A) Internet Protocol", "B) Internal Process", "C) Integrated Program", "D) Internet Procedure"],
+    "correct_answer": "A) Internet Protocol",
+    "explanation": "IP stands for Internet Protocol, which is the principal communications protocol for relaying datagrams across network boundaries."
+  },
+  {
+    "id": 2,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the OSI model is responsible for routing packets?",
+    "options": ["A) Data Link Layer", "B) Transport Layer", "C) Network Layer", "D) Session Layer"],
+    "correct_answer": "C) Network Layer",
+    "explanation": "The Network Layer (Layer 3) is responsible for logical addressing and routing of packets between different networks."
+  },
+  {
+    "id": 3,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many layers does the OSI model have?",
+    "options": ["A) 5", "B) 6", "C) 7", "D) 8"],
+    "correct_answer": "C) 7",
+    "explanation": "The OSI (Open Systems Interconnection) model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+  },
+  {
+    "id": 4,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum length of an IPv4 address in bits?",
+    "options": ["A) 16 bits", "B) 32 bits", "C) 64 bits", "D) 128 bits"],
+    "correct_answer": "B) 32 bits",
+    "explanation": "IPv4 addresses are 32 bits long, written as four octets (e.g., 192.168.1.1), each ranging from 0 to 255."
+  },
+  {
+    "id": 5,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which device connects multiple computers in a LAN and operates at the Data Link layer?",
+    "options": ["A) Router", "B) Hub", "C) Switch", "D) Modem"],
+    "correct_answer": "C) Switch",
+    "explanation": "A Switch operates at Layer 2 (Data Link layer) and uses MAC addresses to forward frames to the correct destination within a LAN."
+  },
+  {
+    "id": 6,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'LAN' stand for?",
+    "options": ["A) Large Area Network", "B) Local Area Network", "C) Linked Access Node", "D) Logical Address Network"],
+    "correct_answer": "B) Local Area Network",
+    "explanation": "LAN stands for Local Area Network, which connects computers within a limited area such as a home, school, or office building."
+  },
+  {
+    "id": 7,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to assign IP addresses automatically to devices on a network?",
+    "options": ["A) DNS", "B) FTP", "C) DHCP", "D) SMTP"],
+    "correct_answer": "C) DHCP",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network configuration parameters to devices."
+  },
+  {
+    "id": 8,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default subnet mask for a Class C IP address?",
+    "options": ["A) 255.0.0.0", "B) 255.255.0.0", "C) 255.255.255.0", "D) 255.255.255.255"],
+    "correct_answer": "C) 255.255.255.0",
+    "explanation": "Class C networks use a default subnet mask of 255.255.255.0 (/24), allowing up to 254 usable host addresses."
+  },
+  {
+    "id": 9,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol translates domain names to IP addresses?",
+    "options": ["A) DHCP", "B) DNS", "C) ARP", "D) ICMP"],
+    "correct_answer": "B) DNS",
+    "explanation": "DNS (Domain Name System) translates human-readable domain names (like www.google.com) into IP addresses that computers use."
+  },
+  {
+    "id": 10,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number used by HTTP?",
+    "options": ["A) 21", "B) 25", "C) 80", "D) 443"],
+    "correct_answer": "C) 80",
+    "explanation": "HTTP (HyperText Transfer Protocol) uses port 80 by default. HTTPS uses port 443, FTP uses 21, and SMTP uses 25."
+  },
+  {
+    "id": 11,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which transmission medium offers the highest bandwidth?",
+    "options": ["A) Coaxial cable", "B) Twisted pair cable", "C) Fiber optic cable", "D) Wireless radio"],
+    "correct_answer": "C) Fiber optic cable",
+    "explanation": "Fiber optic cables transmit data as light pulses and offer the highest bandwidth and speed among all transmission media."
+  },
+  {
+    "id": 12,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does MAC stand for in networking?",
+    "options": ["A) Media Access Control", "B) Machine Address Code", "C) Multiple Access Channel", "D) Managed Access Control"],
+    "correct_answer": "A) Media Access Control",
+    "explanation": "MAC stands for Media Access Control. A MAC address is a unique hardware identifier assigned to a network interface card."
+  },
+  {
+    "id": 13,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits are in a MAC address?",
+    "options": ["A) 32 bits", "B) 48 bits", "C) 64 bits", "D) 128 bits"],
+    "correct_answer": "B) 48 bits",
+    "explanation": "A MAC address is 48 bits (6 bytes) long, typically written as 12 hexadecimal digits (e.g., 00:1A:2B:3C:4D:5E)."
+  },
+  {
+    "id": 14,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which network topology connects all devices to a single central cable?",
+    "options": ["A) Star topology", "B) Ring topology", "C) Bus topology", "D) Mesh topology"],
+    "correct_answer": "C) Bus topology",
+    "explanation": "In Bus topology, all devices are connected to a single backbone cable. A failure in the cable affects the entire network."
+  },
+  {
+    "id": 15,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'WAN' stand for?",
+    "options": ["A) Wide Area Network", "B) Wireless Access Node", "C) Web Area Network", "D) Wired Area Network"],
+    "correct_answer": "A) Wide Area Network",
+    "explanation": "WAN stands for Wide Area Network, which spans large geographical areas and connects multiple LANs. The Internet is the largest WAN."
+  },
+  {
+    "id": 16,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the OSI model handles error detection and correction?",
+    "options": ["A) Physical Layer", "B) Data Link Layer", "C) Network Layer", "D) Transport Layer"],
+    "correct_answer": "B) Data Link Layer",
+    "explanation": "The Data Link Layer (Layer 2) is responsible for error detection and correction in data frames transmitted over the physical medium."
+  },
+  {
+    "id": 17,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number for HTTPS?",
+    "options": ["A) 80", "B) 110", "C) 443", "D) 8080"],
+    "correct_answer": "C) 443",
+    "explanation": "HTTPS (HTTP Secure) uses port 443. It encrypts communication using SSL/TLS to provide secure data transmission."
+  },
+  {
+    "id": 18,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which device operates at the Physical layer of the OSI model?",
+    "options": ["A) Switch", "B) Router", "C) Hub", "D) Bridge"],
+    "correct_answer": "C) Hub",
+    "explanation": "A Hub operates at Layer 1 (Physical layer) and broadcasts data to all connected devices without any intelligence or filtering."
+  },
+  {
+    "id": 19,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of TCP?",
+    "options": ["A) Transfer Control Protocol", "B) Transmission Control Protocol", "C) Transport Communication Protocol", "D) Terminal Control Protocol"],
+    "correct_answer": "B) Transmission Control Protocol",
+    "explanation": "TCP stands for Transmission Control Protocol. It provides reliable, ordered, and error-checked delivery of data between applications."
+  },
+  {
+    "id": 20,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which IP address class supports the most hosts per network?",
+    "options": ["A) Class A", "B) Class B", "C) Class C", "D) Class D"],
+    "correct_answer": "A) Class A",
+    "explanation": "Class A networks use 8 bits for the network portion and 24 bits for hosts, supporting up to 16,777,214 hosts per network."
+  },
+  {
+    "id": 21,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the loopback IP address?",
+    "options": ["A) 0.0.0.0", "B) 127.0.0.1", "C) 192.168.0.1", "D) 255.255.255.255"],
+    "correct_answer": "B) 127.0.0.1",
+    "explanation": "127.0.0.1 is the loopback address used to test network software on the local machine without sending data over the network."
+  },
+  {
+    "id": 22,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used for sending emails?",
+    "options": ["A) POP3", "B) IMAP", "C) SMTP", "D) FTP"],
+    "correct_answer": "C) SMTP",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending emails. POP3 and IMAP are used for receiving emails."
+  },
+  {
+    "id": 23,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum number of usable hosts in a /24 subnet?",
+    "options": ["A) 254", "B) 255", "C) 256", "D) 253"],
+    "correct_answer": "A) 254",
+    "explanation": "A /24 subnet has 256 addresses (2^8). Subtract 1 for network address and 1 for broadcast = 254 usable host addresses."
+  },
+  {
+    "id": 24,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which network device connects two different networks and routes traffic between them?",
+    "options": ["A) Switch", "B) Hub", "C) Router", "D) Repeater"],
+    "correct_answer": "C) Router",
+    "explanation": "A Router operates at Layer 3 (Network layer) and connects different networks, routing packets based on IP addresses."
+  },
+  {
+    "id": 25,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does UDP stand for?",
+    "options": ["A) Universal Data Protocol", "B) User Datagram Protocol", "C) Unified Data Process", "D) User Data Packet"],
+    "correct_answer": "B) User Datagram Protocol",
+    "explanation": "UDP stands for User Datagram Protocol. It is a connectionless protocol that provides fast but unreliable data transmission."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the OSI model is responsible for end-to-end communication and reliability?",
+    "options": ["A) Network Layer", "B) Session Layer", "C) Transport Layer", "D) Application Layer"],
+    "correct_answer": "C) Transport Layer",
+    "explanation": "The Transport Layer (Layer 4) ensures end-to-end communication, reliability, flow control, and error recovery using TCP or UDP."
+  },
+  {
+    "id": 27,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number for FTP data transfer?",
+    "options": ["A) 20", "B) 21", "C) 22", "D) 23"],
+    "correct_answer": "A) 20",
+    "explanation": "FTP uses port 21 for control/commands and port 20 for actual data transfer. Both ports are used in active FTP mode."
+  },
+  {
+    "id": 28,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which topology provides the highest fault tolerance by connecting every device to every other device?",
+    "options": ["A) Star", "B) Bus", "C) Ring", "D) Mesh"],
+    "correct_answer": "D) Mesh",
+    "explanation": "In a full Mesh topology, every device is connected to every other device, providing maximum redundancy and fault tolerance."
+  },
+  {
+    "id": 29,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the IPv6 address length in bits?",
+    "options": ["A) 32 bits", "B) 64 bits", "C) 128 bits", "D) 256 bits"],
+    "correct_answer": "C) 128 bits",
+    "explanation": "IPv6 addresses are 128 bits long, written as 8 groups of 4 hexadecimal digits, providing a vastly larger address space than IPv4."
+  },
+  {
+    "id": 30,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to map IP addresses to MAC addresses?",
+    "options": ["A) DNS", "B) RARP", "C) ARP", "D) ICMP"],
+    "correct_answer": "C) ARP",
+    "explanation": "ARP (Address Resolution Protocol) maps a known IP address to a MAC address within a local network segment."
+  },
+  {
+    "id": 31,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number for SSH?",
+    "options": ["A) 21", "B) 22", "C) 23", "D) 25"],
+    "correct_answer": "B) 22",
+    "explanation": "SSH (Secure Shell) uses port 22. It provides encrypted remote login and command execution, replacing the insecure Telnet (port 23)."
+  },
+  {
+    "id": 32,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a private IP address range?",
+    "options": ["A) 8.8.8.0/24", "B) 172.16.0.0/12", "C) 200.100.50.0/24", "D) 100.64.0.0/10"],
+    "correct_answer": "B) 172.16.0.0/12",
+    "explanation": "Private IP ranges are: 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. These are not routable on the public Internet."
+  },
+  {
+    "id": 33,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'ping' command test?",
+    "options": ["A) File transfer speed", "B) Network connectivity and latency", "C) DNS resolution", "D) Bandwidth availability"],
+    "correct_answer": "B) Network connectivity and latency",
+    "explanation": "The ping command uses ICMP Echo Request/Reply messages to test connectivity between two hosts and measure round-trip time."
+  },
+  {
+    "id": 34,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the OSI model deals with data encryption and compression?",
+    "options": ["A) Application Layer", "B) Session Layer", "C) Presentation Layer", "D) Transport Layer"],
+    "correct_answer": "C) Presentation Layer",
+    "explanation": "The Presentation Layer (Layer 6) handles data translation, encryption, decryption, and compression for the application layer."
+  },
+  {
+    "id": 35,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the broadcast address for the network 192.168.1.0/24?",
+    "options": ["A) 192.168.1.0", "B) 192.168.1.1", "C) 192.168.1.254", "D) 192.168.1.255"],
+    "correct_answer": "D) 192.168.1.255",
+    "explanation": "For 192.168.1.0/24, the broadcast address is the last address in the range: 192.168.1.255. All host bits are set to 1."
+  },
+  {
+    "id": 36,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used by web browsers to retrieve web pages?",
+    "options": ["A) FTP", "B) SMTP", "C) HTTP", "D) SNMP"],
+    "correct_answer": "C) HTTP",
+    "explanation": "HTTP (HyperText Transfer Protocol) is used by web browsers to request and receive web pages from web servers."
+  },
+  {
+    "id": 37,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of NIC?",
+    "options": ["A) Network Interface Card", "B) Network Internal Component", "C) Node Identification Code", "D) Network Integration Circuit"],
+    "correct_answer": "A) Network Interface Card",
+    "explanation": "NIC stands for Network Interface Card, a hardware component that connects a computer to a network and has a unique MAC address."
+  },
+  {
+    "id": 38,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class of IP address has the first octet range of 192 to 223?",
+    "options": ["A) Class A", "B) Class B", "C) Class C", "D) Class D"],
+    "correct_answer": "C) Class C",
+    "explanation": "Class C IP addresses have first octets ranging from 192 to 223. They support up to 254 hosts per network."
+  },
+  {
+    "id": 39,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'bandwidth' refer to in networking?",
+    "options": ["A) The physical width of a cable", "B) The maximum data transfer rate of a network", "C) The number of connected devices", "D) The distance between two nodes"],
+    "correct_answer": "B) The maximum data transfer rate of a network",
+    "explanation": "Bandwidth refers to the maximum rate at which data can be transferred over a network connection, typically measured in Mbps or Gbps."
+  },
+  {
+    "id": 40,
+    "topic": "Networking Basics",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which network device regenerates and amplifies signals to extend network range?",
+    "options": ["A) Switch", "B) Router", "C) Repeater", "D) Bridge"],
+    "correct_answer": "C) Repeater",
+    "explanation": "A Repeater operates at Layer 1 and regenerates/amplifies signals to extend the transmission distance of a network."
+  },
+  {
+    "id": 41,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A network has the IP address 172.16.45.0 with a subnet mask of 255.255.255.192. How many usable host addresses are available?",
+    "options": ["A) 30", "B) 62", "C) 126", "D) 14"],
+    "correct_answer": "B) 62",
+    "explanation": "255.255.255.192 = /26. Host bits = 32-26 = 6. Total addresses = 2^6 = 64. Usable hosts = 64 - 2 = 62."
+  },
+  {
+    "id": 42,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which routing protocol uses the Bellman-Ford algorithm?",
+    "options": ["A) OSPF", "B) BGP", "C) RIP", "D) EIGRP"],
+    "correct_answer": "C) RIP",
+    "explanation": "RIP (Routing Information Protocol) uses the Bellman-Ford algorithm to calculate routes. OSPF uses Dijkstra's algorithm."
+  },
+  {
+    "id": 43,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the maximum hop count in RIP before a route is considered unreachable?",
+    "options": ["A) 10", "B) 15", "C) 16", "D) 255"],
+    "correct_answer": "C) 16",
+    "explanation": "In RIP, a hop count of 16 means the destination is unreachable. The maximum valid hop count is 15, limiting RIP to small networks."
+  },
+  {
+    "id": 44,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "How many subnets can be created from a Class B network using a /26 subnet mask?",
+    "options": ["A) 256", "B) 512", "C) 1024", "D) 2048"],
+    "correct_answer": "C) 1024",
+    "explanation": "Class B has 16 host bits. /26 uses 26-16=10 bits for subnetting. Subnets = 2^10 = 1024."
+  },
+  {
+    "id": 45,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which of the following is NOT a feature of TCP?",
+    "options": ["A) Connection-oriented", "B) Flow control", "C) Low overhead", "D) Error recovery"],
+    "correct_answer": "C) Low overhead",
+    "explanation": "Low overhead is a feature of UDP, not TCP. TCP has higher overhead due to connection establishment, flow control, and error recovery mechanisms."
+  },
+  {
+    "id": 46,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the CIDR notation for the subnet mask 255.255.240.0?",
+    "options": ["A) /18", "B) /20", "C) /22", "D) /24"],
+    "correct_answer": "B) /20",
+    "explanation": "255.255.240.0 in binary: 11111111.11111111.11110000.00000000. Count the 1s: 8+8+4 = 20. So CIDR notation is /20."
+  },
+  {
+    "id": 47,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In which TCP/IP model layer does the HTTP protocol operate?",
+    "options": ["A) Network Access Layer", "B) Internet Layer", "C) Transport Layer", "D) Application Layer"],
+    "correct_answer": "D) Application Layer",
+    "explanation": "HTTP operates at the Application Layer of the TCP/IP model, which corresponds to the top three layers (Application, Presentation, Session) of the OSI model."
+  },
+  {
+    "id": 48,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the purpose of NAT (Network Address Translation)?",
+    "options": ["A) To encrypt network traffic", "B) To allow multiple devices to share a single public IP address", "C) To assign static IP addresses", "D) To filter malicious packets"],
+    "correct_answer": "B) To allow multiple devices to share a single public IP address",
+    "explanation": "NAT translates private IP addresses to a public IP address, allowing multiple devices on a private network to access the Internet using one public IP."
+  },
+  {
+    "id": 49,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which IEEE standard defines Ethernet?",
+    "options": ["A) IEEE 802.3", "B) IEEE 802.11", "C) IEEE 802.15", "D) IEEE 802.16"],
+    "correct_answer": "A) IEEE 802.3",
+    "explanation": "IEEE 802.3 defines the Ethernet standard. IEEE 802.11 defines Wi-Fi, 802.15 defines Bluetooth, and 802.16 defines WiMAX."
+  },
+  {
+    "id": 50,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A data packet has a TTL value of 64. If it passes through 10 routers, what will be the TTL value when it reaches the destination?",
+    "options": ["A) 54", "B) 55", "C) 64", "D) 74"],
+    "correct_answer": "A) 54",
+    "explanation": "Each router decrements the TTL by 1. After 10 routers: TTL = 64 - 10 = 54. If TTL reaches 0, the packet is discarded."
+  },
+  {
+    "id": 51,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which protocol is used to test network reachability and is part of the Internet layer?",
+    "options": ["A) TCP", "B) UDP", "C) ICMP", "D) ARP"],
+    "correct_answer": "C) ICMP",
+    "explanation": "ICMP (Internet Control Message Protocol) operates at the Internet/Network layer and is used by tools like ping and traceroute to test connectivity."
+  },
+  {
+    "id": 52,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What is the network address of the IP 10.20.30.45 with subnet mask 255.255.255.224?",
+    "options": ["A) 10.20.30.0", "B) 10.20.30.32", "C) 10.20.30.64", "D) 10.20.30.16"],
+    "correct_answer": "B) 10.20.30.32",
+    "explanation": "255.255.255.224 = /27, block size = 32. Subnets: .0, .32, .64... 45 falls in .32 block. Network address = 10.20.30.32."
+  },
+  {
+    "id": 53,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Which type of DNS record maps a domain name to an IPv4 address?",
+    "options": ["A) AAAA record", "B) MX record", "C) A record", "D) CNAME record"],
+    "correct_answer": "C) A record",
+    "explanation": "An A (Address) record maps a domain name to an IPv4 address. AAAA records map to IPv6, MX to mail servers, CNAME to aliases."
+  },
+  {
+    "id": 54,
+    "topic": "Networking Basics",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "What

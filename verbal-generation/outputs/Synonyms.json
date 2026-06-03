@@ -1,0 +1,857 @@
+[
+  {
+    "id": 1,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: HAPPY",
+    "options": [
+      "A) Sad",
+      "B) Joyful",
+      "C) Angry",
+      "D) Tired"
+    ],
+    "correct_answer": "B) Joyful",
+    "explanation": "HAPPY means feeling pleasure or contentment. JOYFUL means feeling great happiness, making it the closest synonym."
+  },
+  {
+    "id": 2,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: BRAVE",
+    "options": [
+      "A) Cowardly",
+      "B) Timid",
+      "C) Courageous",
+      "D) Fearful"
+    ],
+    "correct_answer": "C) Courageous",
+    "explanation": "BRAVE means ready to face danger without fear. COURAGEOUS shares the same meaning, making it the correct synonym."
+  },
+  {
+    "id": 3,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: FAST",
+    "options": [
+      "A) Slow",
+      "B) Quick",
+      "C) Lazy",
+      "D) Dull"
+    ],
+    "correct_answer": "B) Quick",
+    "explanation": "FAST means moving at high speed. QUICK also means moving with speed, making it the best synonym."
+  },
+  {
+    "id": 4,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: SMART",
+    "options": [
+      "A) Foolish",
+      "B) Dumb",
+      "C) Clever",
+      "D) Ignorant"
+    ],
+    "correct_answer": "C) Clever",
+    "explanation": "SMART means having or showing quick intelligence. CLEVER means the same, making it the correct synonym."
+  },
+  {
+    "id": 5,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: BEGIN",
+    "options": [
+      "A) End",
+      "B) Finish",
+      "C) Stop",
+      "D) Start"
+    ],
+    "correct_answer": "D) Start",
+    "explanation": "BEGIN means to start or commence. START is the closest synonym as both mean to initiate an action."
+  },
+  {
+    "id": 6,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: ANGRY",
+    "options": [
+      "A) Calm",
+      "B) Furious",
+      "C) Peaceful",
+      "D) Gentle"
+    ],
+    "correct_answer": "B) Furious",
+    "explanation": "ANGRY means feeling strong displeasure. FURIOUS means extremely angry, making it the best synonym."
+  },
+  {
+    "id": 7,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: BEAUTIFUL",
+    "options": [
+      "A) Ugly",
+      "B) Plain",
+      "C) Lovely",
+      "D) Dull"
+    ],
+    "correct_answer": "C) Lovely",
+    "explanation": "BEAUTIFUL means pleasing to the senses. LOVELY means attractive and beautiful, making it the correct synonym."
+  },
+  {
+    "id": 8,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: RICH",
+    "options": [
+      "A) Poor",
+      "B) Wealthy",
+      "C) Needy",
+      "D) Broke"
+    ],
+    "correct_answer": "B) Wealthy",
+    "explanation": "RICH means having a great deal of money or assets. WEALTHY shares the same meaning, making it the correct synonym."
+  },
+  {
+    "id": 9,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: COLD",
+    "options": [
+      "A) Hot",
+      "B) Warm",
+      "C) Chilly",
+      "D) Burning"
+    ],
+    "correct_answer": "C) Chilly",
+    "explanation": "COLD means at a low temperature. CHILLY also means uncomfortably cold, making it the best synonym."
+  },
+  {
+    "id": 10,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: LARGE",
+    "options": [
+      "A) Tiny",
+      "B) Small",
+      "C) Huge",
+      "D) Miniature"
+    ],
+    "correct_answer": "C) Huge",
+    "explanation": "LARGE means of considerable size. HUGE means extremely large, making it the closest synonym."
+  },
+  {
+    "id": 11,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: TIRED",
+    "options": [
+      "A) Energetic",
+      "B) Exhausted",
+      "C) Active",
+      "D) Lively"
+    ],
+    "correct_answer": "B) Exhausted",
+    "explanation": "TIRED means feeling a need for rest. EXHAUSTED means completely tired out, making it the best synonym."
+  },
+  {
+    "id": 12,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: HELP",
+    "options": [
+      "A) Hinder",
+      "B) Obstruct",
+      "C) Assist",
+      "D) Block"
+    ],
+    "correct_answer": "C) Assist",
+    "explanation": "HELP means to make it easier for someone to do something. ASSIST means to give support or aid, making it the correct synonym."
+  },
+  {
+    "id": 13,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: TALK",
+    "options": [
+      "A) Listen",
+      "B) Speak",
+      "C) Hear",
+      "D) Ignore"
+    ],
+    "correct_answer": "B) Speak",
+    "explanation": "TALK means to communicate verbally. SPEAK also means to say words aloud, making it the correct synonym."
+  },
+  {
+    "id": 14,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: SIMPLE",
+    "options": [
+      "A) Complex",
+      "B) Difficult",
+      "C) Easy",
+      "D) Hard"
+    ],
+    "correct_answer": "C) Easy",
+    "explanation": "SIMPLE means not complicated. EASY means achieved without great effort, making it the best synonym."
+  },
+  {
+    "id": 15,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: DARK",
+    "options": [
+      "A) Bright",
+      "B) Light",
+      "C) Gloomy",
+      "D) Shiny"
+    ],
+    "correct_answer": "C) Gloomy",
+    "explanation": "DARK means having little or no light. GLOOMY means dark and depressing, making it the closest synonym."
+  },
+  {
+    "id": 16,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: CLEAN",
+    "options": [
+      "A) Dirty",
+      "B) Spotless",
+      "C) Messy",
+      "D) Filthy"
+    ],
+    "correct_answer": "B) Spotless",
+    "explanation": "CLEAN means free from dirt or impurities. SPOTLESS means absolutely clean, making it the correct synonym."
+  },
+  {
+    "id": 17,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: STRONG",
+    "options": [
+      "A) Weak",
+      "B) Feeble",
+      "C) Powerful",
+      "D) Fragile"
+    ],
+    "correct_answer": "C) Powerful",
+    "explanation": "STRONG means having great physical power. POWERFUL means having great strength or force, making it the best synonym."
+  },
+  {
+    "id": 18,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: FUNNY",
+    "options": [
+      "A) Serious",
+      "B) Boring",
+      "C) Humorous",
+      "D) Dull"
+    ],
+    "correct_answer": "C) Humorous",
+    "explanation": "FUNNY means causing laughter or amusement. HUMOROUS means amusing and entertaining, making it the correct synonym."
+  },
+  {
+    "id": 19,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: AFRAID",
+    "options": [
+      "A) Bold",
+      "B) Fearless",
+      "C) Scared",
+      "D) Brave"
+    ],
+    "correct_answer": "C) Scared",
+    "explanation": "AFRAID means feeling fear or anxiety. SCARED means frightened, making it the closest synonym."
+  },
+  {
+    "id": 20,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: ANCIENT",
+    "options": [
+      "A) Modern",
+      "B) New",
+      "C) Old",
+      "D) Recent"
+    ],
+    "correct_answer": "C) Old",
+    "explanation": "ANCIENT means belonging to the very distant past. OLD means having existed for a long time, making it the best synonym."
+  },
+  {
+    "id": 21,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: CORRECT",
+    "options": [
+      "A) Wrong",
+      "B) False",
+      "C) Right",
+      "D) Incorrect"
+    ],
+    "correct_answer": "C) Right",
+    "explanation": "CORRECT means free from error. RIGHT means in accordance with fact or truth, making it the correct synonym."
+  },
+  {
+    "id": 22,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: GIFT",
+    "options": [
+      "A) Penalty",
+      "B) Fine",
+      "C) Present",
+      "D) Punishment"
+    ],
+    "correct_answer": "C) Present",
+    "explanation": "GIFT means something given voluntarily without payment. PRESENT also means a gift, making it the correct synonym."
+  },
+  {
+    "id": 23,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: CHOOSE",
+    "options": [
+      "A) Reject",
+      "B) Select",
+      "C) Refuse",
+      "D) Deny"
+    ],
+    "correct_answer": "B) Select",
+    "explanation": "CHOOSE means to pick out from a number of alternatives. SELECT means to carefully choose, making it the best synonym."
+  },
+  {
+    "id": 24,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: ENEMY",
+    "options": [
+      "A) Friend",
+      "B) Ally",
+      "C) Foe",
+      "D) Companion"
+    ],
+    "correct_answer": "C) Foe",
+    "explanation": "ENEMY means a person who is actively opposed to another. FOE means an enemy or opponent, making it the correct synonym."
+  },
+  {
+    "id": 25,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: QUICK",
+    "options": [
+      "A) Slow",
+      "B) Sluggish",
+      "C) Rapid",
+      "D) Lazy"
+    ],
+    "correct_answer": "C) Rapid",
+    "explanation": "QUICK means moving fast. RAPID means happening in a short time or at a great rate, making it the best synonym."
+  },
+  {
+    "id": 26,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: SILENT",
+    "options": [
+      "A) Noisy",
+      "B) Loud",
+      "C) Quiet",
+      "D) Boisterous"
+    ],
+    "correct_answer": "C) Quiet",
+    "explanation": "SILENT means making no sound. QUIET means making little or no noise, making it the correct synonym."
+  },
+  {
+    "id": 27,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: STRANGE",
+    "options": [
+      "A) Normal",
+      "B) Ordinary",
+      "C) Weird",
+      "D) Common"
+    ],
+    "correct_answer": "C) Weird",
+    "explanation": "STRANGE means unusual or surprising. WEIRD means suggesting something supernatural or uncanny, making it the best synonym."
+  },
+  {
+    "id": 28,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: GLAD",
+    "options": [
+      "A) Unhappy",
+      "B) Pleased",
+      "C) Miserable",
+      "D) Sorrowful"
+    ],
+    "correct_answer": "B) Pleased",
+    "explanation": "GLAD means feeling pleasure or happiness. PLEASED means feeling satisfaction or delight, making it the correct synonym."
+  },
+  {
+    "id": 29,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: THIN",
+    "options": [
+      "A) Fat",
+      "B) Obese",
+      "C) Slim",
+      "D) Chubby"
+    ],
+    "correct_answer": "C) Slim",
+    "explanation": "THIN means having little flesh or fat on the body. SLIM means attractively thin, making it the best synonym."
+  },
+  {
+    "id": 30,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: PURCHASE",
+    "options": [
+      "A) Sell",
+      "B) Return",
+      "C) Buy",
+      "D) Donate"
+    ],
+    "correct_answer": "C) Buy",
+    "explanation": "PURCHASE means to acquire something by paying for it. BUY means the same, making it the correct synonym."
+  },
+  {
+    "id": 31,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: CLOSE",
+    "options": [
+      "A) Open",
+      "B) Shut",
+      "C) Unlock",
+      "D) Expand"
+    ],
+    "correct_answer": "B) Shut",
+    "explanation": "CLOSE means to move so as to cover an opening. SHUT means to close something, making it the correct synonym."
+  },
+  {
+    "id": 32,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: ANSWER",
+    "options": [
+      "A) Question",
+      "B) Query",
+      "C) Reply",
+      "D) Ask"
+    ],
+    "correct_answer": "C) Reply",
+    "explanation": "ANSWER means a response to a question. REPLY also means a response, making it the correct synonym."
+  },
+  {
+    "id": 33,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: HATE",
+    "options": [
+      "A) Love",
+      "B) Adore",
+      "C) Cherish",
+      "D) Detest"
+    ],
+    "correct_answer": "D) Detest",
+    "explanation": "HATE means to feel intense dislike. DETEST means to dislike intensely, making it the best synonym."
+  },
+  {
+    "id": 34,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: WALK",
+    "options": [
+      "A) Run",
+      "B) Stroll",
+      "C) Sprint",
+      "D) Dash"
+    ],
+    "correct_answer": "B) Stroll",
+    "explanation": "WALK means to move at a regular pace. STROLL means to walk in a leisurely way, making it the closest synonym."
+  },
+  {
+    "id": 35,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: MISTAKE",
+    "options": [
+      "A) Accuracy",
+      "B) Perfection",
+      "C) Error",
+      "D) Correctness"
+    ],
+    "correct_answer": "C) Error",
+    "explanation": "MISTAKE means an action or judgment that is wrong. ERROR means a mistake, making it the correct synonym."
+  },
+  {
+    "id": 36,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: SHOW",
+    "options": [
+      "A) Hide",
+      "B) Conceal",
+      "C) Display",
+      "D) Cover"
+    ],
+    "correct_answer": "C) Display",
+    "explanation": "SHOW means to make visible or present. DISPLAY means to show something publicly, making it the correct synonym."
+  },
+  {
+    "id": 37,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: HURT",
+    "options": [
+      "A) Heal",
+      "B) Cure",
+      "C) Harm",
+      "D) Soothe"
+    ],
+    "correct_answer": "C) Harm",
+    "explanation": "HURT means to cause pain or injury. HARM means to damage or injure, making it the correct synonym."
+  },
+  {
+    "id": 38,
+    "topic": "Synonyms",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the synonym of the word: NEAT",
+    "options": [
+      "A) Messy",
+      "B) Untidy",
+      "C) Tidy",
+      "D) Cluttered"
+    ],
+    "correct_answer": "C) Tidy",
+    "explanation": "NEAT means arranged in an orderly way. TIDY means arranged neatly and in order, making it the correct synonym."
+  },
+  {
+    "id": 39,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: ABUNDANT",
+    "options": [
+      "A) Scarce",
+      "B) Plentiful",
+      "C) Rare",
+      "D) Meager"
+    ],
+    "correct_answer": "B) Plentiful",
+    "explanation": "ABUNDANT means existing in large quantities. PLENTIFUL means existing in or yielding great quantities, making it the correct synonym."
+  },
+  {
+    "id": 40,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: AMBIGUOUS",
+    "options": [
+      "A) Clear",
+      "B) Definite",
+      "C) Vague",
+      "D) Precise"
+    ],
+    "correct_answer": "C) Vague",
+    "explanation": "AMBIGUOUS means open to more than one interpretation. VAGUE means not clearly expressed, making it the best synonym."
+  },
+  {
+    "id": 41,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: BENEVOLENT",
+    "options": [
+      "A) Cruel",
+      "B) Malicious",
+      "C) Charitable",
+      "D) Selfish"
+    ],
+    "correct_answer": "C) Charitable",
+    "explanation": "BENEVOLENT means well-meaning and kindly. CHARITABLE means generous in giving to those in need, making it the correct synonym."
+  },
+  {
+    "id": 42,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: CANDID",
+    "options": [
+      "A) Deceptive",
+      "B) Frank",
+      "C) Dishonest",
+      "D) Secretive"
+    ],
+    "correct_answer": "B) Frank",
+    "explanation": "CANDID means truthful and straightforward. FRANK means open and honest in expression, making it the correct synonym."
+  },
+  {
+    "id": 43,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: DILIGENT",
+    "options": [
+      "A) Lazy",
+      "B) Careless",
+      "C) Hardworking",
+      "D) Negligent"
+    ],
+    "correct_answer": "C) Hardworking",
+    "explanation": "DILIGENT means having or showing care and conscientiousness in work. HARDWORKING means tending to work with energy and commitment, making it the best synonym."
+  },
+  {
+    "id": 44,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: ELOQUENT",
+    "options": [
+      "A) Inarticulate",
+      "B) Fluent",
+      "C) Stammering",
+      "D) Mute"
+    ],
+    "correct_answer": "B) Fluent",
+    "explanation": "ELOQUENT means fluent or persuasive in speaking or writing. FLUENT means able to express oneself easily, making it the correct synonym."
+  },
+  {
+    "id": 45,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: FRUGAL",
+    "options": [
+      "A) Extravagant",
+      "B) Wasteful",
+      "C) Thrifty",
+      "D) Lavish"
+    ],
+    "correct_answer": "C) Thrifty",
+    "explanation": "FRUGAL means sparing or economical with money. THRIFTY means using money and resources carefully, making it the correct synonym."
+  },
+  {
+    "id": 46,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: GREGARIOUS",
+    "options": [
+      "A) Solitary",
+      "B) Antisocial",
+      "C) Sociable",
+      "D) Reserved"
+    ],
+    "correct_answer": "C) Sociable",
+    "explanation": "GREGARIOUS means fond of company and sociable. SOCIABLE means willing to talk and engage in activities with others, making it the best synonym."
+  },
+  {
+    "id": 47,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: HOSTILE",
+    "options": [
+      "A) Friendly",
+      "B) Welcoming",
+      "C) Antagonistic",
+      "D) Amicable"
+    ],
+    "correct_answer": "C) Antagonistic",
+    "explanation": "HOSTILE means showing or feeling opposition or dislike. ANTAGONISTIC means showing or feeling active opposition, making it the correct synonym."
+  },
+  {
+    "id": 48,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: IMMINENT",
+    "options": [
+      "A) Distant",
+      "B) Remote",
+      "C) Impending",
+      "D) Delayed"
+    ],
+    "correct_answer": "C) Impending",
+    "explanation": "IMMINENT means about to happen. IMPENDING means about to happen soon, making it the correct synonym."
+  },
+  {
+    "id": 49,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: JUBILANT",
+    "options": [
+      "A) Sorrowful",
+      "B) Elated",
+      "C) Depressed",
+      "D) Gloomy"
+    ],
+    "correct_answer": "B) Elated",
+    "explanation": "JUBILANT means feeling or expressing great happiness. ELATED means very happy and excited, making it the best synonym."
+  },
+  {
+    "id": 50,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: KINDLE",
+    "options": [
+      "A) Extinguish",
+      "B) Quench",
+      "C) Ignite",
+      "D) Douse"
+    ],
+    "correct_answer": "C) Ignite",
+    "explanation": "KINDLE means to light or set on fire. IGNITE means to catch fire or cause to catch fire, making it the correct synonym."
+  },
+  {
+    "id": 51,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: LETHARGIC",
+    "options": [
+      "A) Energetic",
+      "B) Active",
+      "C) Sluggish",
+      "D) Vigorous"
+    ],
+    "correct_answer": "C) Sluggish",
+    "explanation": "LETHARGIC means affected by lethargy; sluggish and apathetic. SLUGGISH means slow-moving or inactive, making it the correct synonym."
+  },
+  {
+    "id": 52,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: METICULOUS",
+    "options": [
+      "A) Careless",
+      "B) Sloppy",
+      "C) Thorough",
+      "D) Negligent"
+    ],
+    "correct_answer": "C) Thorough",
+    "explanation": "METICULOUS means showing great attention to detail. THOROUGH means complete with regard to every detail, making it the best synonym."
+  },
+  {
+    "id": 53,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: NOVICE",
+    "options": [
+      "A) Expert",
+      "B) Veteran",
+      "C) Beginner",
+      "D) Professional"
+    ],
+    "correct_answer": "C) Beginner",
+    "explanation": "NOVICE means a person new to a skill or activity. BEGINNER means a person just starting to learn a skill, making it the correct synonym."
+  },
+  {
+    "id": 54,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: OBSCURE",
+    "options": [
+      "A) Clear",
+      "B) Obvious",
+      "C) Vague",
+      "D) Apparent"
+    ],
+    "correct_answer": "C) Vague",
+    "explanation": "OBSCURE means not discovered or known about. VAGUE means not clearly expressed or understood, making it the best synonym."
+  },
+  {
+    "id": 55,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: PRUDENT",
+    "options": [
+      "A) Reckless",
+      "B) Impulsive",
+      "C) Cautious",
+      "D) Careless"
+    ],
+    "correct_answer": "C) Cautious",
+    "explanation": "PRUDENT means acting with care and thought for the future. CAUTIOUS means careful to avoid potential problems, making it the correct synonym."
+  },
+  {
+    "id": 56,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: QUERULOUS",
+    "options": [
+      "A) Content",
+      "B) Satisfied",
+      "C) Complaining",
+      "D) Pleased"
+    ],
+    "correct_answer": "C) Complaining",
+    "explanation": "QUERULOUS means complaining in a petulant or whining manner. COMPLAINING means expressing dissatisfaction, making it the correct synonym."
+  },
+  {
+    "id": 57,
+    "topic": "Synonyms",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the synonym of the word: RESILIENT",
+    "options": [
+      "A) Fragile",
+      "B) Weak",
+      "C) Tough",
+      "D) Delicate"
+    ],
+    "correct_answer": "C) Tough",
+    "explanation": "RESILIENT means able to recover quickly from difficulties. TOUGH means able to endure hardship, making it the best synonym."
+  }
+]

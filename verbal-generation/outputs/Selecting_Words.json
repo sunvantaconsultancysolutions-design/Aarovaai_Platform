@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She was _______ tired that she could not walk another step.",
+    "options": [
+      "A) so",
+      "B) too",
+      "C) very",
+      "D) quite"
+    ],
+    "correct_answer": "A) so",
+    "explanation": "'So...that' is the correct correlative conjunction structure. 'So tired that she could not walk' is grammatically correct. 'Too' would require an infinitive without 'that'."
+  },
+  {
+    "id": 2,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The teacher asked the students to _______ their homework on time.",
+    "options": [
+      "A) submit",
+      "B) submits",
+      "C) submitted",
+      "D) submitting"
+    ],
+    "correct_answer": "A) submit",
+    "explanation": "After 'asked...to', the base form of the verb is used. 'Asked the students to submit' follows the pattern: ask + object + to + infinitive."
+  },
+  {
+    "id": 3,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is _______ honest man and everyone respects him.",
+    "options": [
+      "A) a",
+      "B) an",
+      "C) the",
+      "D) no article needed"
+    ],
+    "correct_answer": "B) an",
+    "explanation": "'Honest' begins with a silent 'h', making the first sound a vowel sound /ɒ/. Therefore, 'an' is used before 'honest'."
+  },
+  {
+    "id": 4,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Neither the manager nor the employees _______ aware of the new policy.",
+    "options": [
+      "A) was",
+      "B) were",
+      "C) is",
+      "D) has been"
+    ],
+    "correct_answer": "B) were",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Employees' is plural, so 'were' is correct."
+  },
+  {
+    "id": 5,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The news _______ very shocking to all of us.",
+    "options": [
+      "A) were",
+      "B) was",
+      "C) are",
+      "D) have been"
+    ],
+    "correct_answer": "B) was",
+    "explanation": "'News' is an uncountable noun and always takes a singular verb. 'The news was' is grammatically correct."
+  },
+  {
+    "id": 6,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "I have been living in this city _______ ten years.",
+    "options": [
+      "A) since",
+      "B) for",
+      "C) from",
+      "D) during"
+    ],
+    "correct_answer": "B) for",
+    "explanation": "'For' is used with a period of time (ten years). 'Since' is used with a point in time (since 2014). 'For ten years' is correct here."
+  },
+  {
+    "id": 7,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She _______ to the market every Sunday morning.",
+    "options": [
+      "A) go",
+      "B) goes",
+      "C) going",
+      "D) gone"
+    ],
+    "correct_answer": "B) goes",
+    "explanation": "With third-person singular subjects (she/he/it) in simple present tense, the verb takes an '-s' or '-es' ending. 'She goes' is correct."
+  },
+  {
+    "id": 8,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The children were playing _______ the park when it started raining.",
+    "options": [
+      "A) at",
+      "B) on",
+      "C) in",
+      "D) into"
+    ],
+    "correct_answer": "C) in",
+    "explanation": "'In the park' is the correct preposition usage. We say 'in the park', 'in the garden', 'in the field' for enclosed or defined spaces."
+  },
+  {
+    "id": 9,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He _______ his keys somewhere and cannot find them now.",
+    "options": [
+      "A) loses",
+      "B) lost",
+      "C) has lost",
+      "D) had lost"
+    ],
+    "correct_answer": "C) has lost",
+    "explanation": "Present perfect 'has lost' is used when the action happened in the past but has a present consequence (cannot find them now)."
+  },
+  {
+    "id": 10,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The committee _______ its decision after a long discussion.",
+    "options": [
+      "A) announce",
+      "B) announced",
+      "C) announcing",
+      "D) announces"
+    ],
+    "correct_answer": "B) announced",
+    "explanation": "The sentence is in past tense context ('after a long discussion'). 'Announced' is the simple past form of 'announce'."
+  },
+  {
+    "id": 11,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "You should _______ your elders with respect.",
+    "options": [
+      "A) treat",
+      "B) treating",
+      "C) treated",
+      "D) treats"
+    ],
+    "correct_answer": "A) treat",
+    "explanation": "After modal verbs like 'should', 'would', 'could', the base form of the verb is always used. 'Should treat' is correct."
+  },
+  {
+    "id": 12,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The book was written _______ a famous author.",
+    "options": [
+      "A) from",
+      "B) by",
+      "C) with",
+      "D) through"
+    ],
+    "correct_answer": "B) by",
+    "explanation": "In passive voice constructions, 'by' is used to indicate the agent (doer of the action). 'Written by a famous author' is correct."
+  },
+  {
+    "id": 13,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "I would rather _______ at home than go to the party.",
+    "options": [
+      "A) stay",
+      "B) staying",
+      "C) stayed",
+      "D) to stay"
+    ],
+    "correct_answer": "A) stay",
+    "explanation": "'Would rather' is followed by the bare infinitive (base form without 'to'). 'Would rather stay' is grammatically correct."
+  },
+  {
+    "id": 14,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The manager, along with his team members, _______ attending the conference.",
+    "options": [
+      "A) are",
+      "B) were",
+      "C) is",
+      "D) have been"
+    ],
+    "correct_answer": "C) is",
+    "explanation": "When 'along with', 'as well as', or 'together with' connects two subjects, the verb agrees with the first subject. 'Manager' is singular, so 'is' is correct."
+  },
+  {
+    "id": 15,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She is good _______ painting and often wins competitions.",
+    "options": [
+      "A) in",
+      "B) at",
+      "C) on",
+      "D) for"
+    ],
+    "correct_answer": "B) at",
+    "explanation": "'Good at' is the correct prepositional phrase when describing a skill or ability. 'Good at painting' is the standard usage."
+  },
+  {
+    "id": 16,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "By the time we reached the station, the train _______ already left.",
+    "options": [
+      "A) has",
+      "B) had",
+      "C) have",
+      "D) was"
+    ],
+    "correct_answer": "B) had",
+    "explanation": "Past perfect 'had left' is used for an action completed before another past action. 'By the time we reached' indicates the train left earlier."
+  },
+  {
+    "id": 17,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The police _______ investigating the crime scene since morning.",
+    "options": [
+      "A) is",
+      "B) was",
+      "C) are",
+      "D) has been"
+    ],
+    "correct_answer": "C) are",
+    "explanation": "'Police' is a collective noun treated as plural in British English. 'The police are' is the standard grammatical usage."
+  },
+  {
+    "id": 18,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He spoke so _______ that everyone in the room could hear him clearly.",
+    "options": [
+      "A) loud",
+      "B) loudly",
+      "C) louder",
+      "D) loudest"
+    ],
+    "correct_answer": "B) loudly",
+    "explanation": "An adverb modifies a verb. 'Spoke loudly' — 'loudly' modifies the verb 'spoke'. 'Loud' is an adjective and cannot modify a verb."
+  },
+  {
+    "id": 19,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "I am looking forward _______ meeting you at the conference next week.",
+    "options": [
+      "A) to",
+      "B) for",
+      "C) at",
+      "D) of"
+    ],
+    "correct_answer": "A) to",
+    "explanation": "'Look forward to' is a fixed phrasal verb where 'to' is a preposition, followed by a gerund (meeting). 'Looking forward to meeting' is correct."
+  },
+  {
+    "id": 20,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The students _______ their exams by the end of next month.",
+    "options": [
+      "A) will complete",
+      "B) will have completed",
+      "C) complete",
+      "D) completed"
+    ],
+    "correct_answer": "B) will have completed",
+    "explanation": "Future perfect 'will have completed' is used for an action that will be finished before a specific future time ('by the end of next month')."
+  },
+  {
+    "id": 21,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She _______ a letter when the phone rang.",
+    "options": [
+      "A) writes",
+      "B) wrote",
+      "C) was writing",
+      "D) has written"
+    ],
+    "correct_answer": "C) was writing",
+    "explanation": "Past continuous 'was writing' is used for an action in progress when another action interrupted it. 'Was writing when the phone rang' is correct."
+  },
+  {
+    "id": 22,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is _______ his best to finish the project before the deadline.",
+    "options": [
+      "A) making",
+      "B) doing",
+      "C) giving",
+      "D) putting"
+    ],
+    "correct_answer": "B) doing",
+    "explanation": "'Do one's best' is the correct idiomatic expression. 'Doing his best' is the standard phrase meaning making maximum effort."
+  },
+  {
+    "id": 23,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The price of vegetables has _______ sharply due to the drought.",
+    "options": [
+      "A) raised",
+      "B) risen",
+      "C) arose",
+      "D) arisen"
+    ],
+    "correct_answer": "B) risen",
+    "explanation": "'Rise' (rose, risen) is intransitive — it does not take an object. 'Raise' is transitive. Since no object follows, 'risen' is correct."
+  },
+  {
+    "id": 24,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "We must _______ to the rules and regulations of the organization.",
+    "options": [
+      "A) adhere",
+      "B) follow",
+      "C) obey",
+      "D) stick"
+    ],
+    "correct_answer": "A) adhere",
+    "explanation": "'Adhere to' is the correct collocation with 'rules and regulations'. While 'follow' and 'obey' are also used, 'adhere to' is the most formal and precise choice."
+  },
+  {
+    "id": 25,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The jury _______ unable to reach a unanimous verdict.",
+    "options": [
+      "A) were",
+      "B) was",
+      "C) are",
+      "D) have been"
+    ],
+    "correct_answer": "B) was",
+    "explanation": "'Jury' as a collective noun takes a singular verb in American English when acting as a unit. 'The jury was unable' treats the jury as one body."
+  },
+  {
+    "id": 26,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The athlete ran _______ than anyone else in the competition.",
+    "options": [
+      "A) fast",
+      "B) faster",
+      "C) fastest",
+      "D) more fast"
+    ],
+    "correct_answer": "B) faster",
+    "explanation": "Comparative degree 'faster' is used when comparing two or more entities. 'Than' signals a comparison, requiring the comparative form."
+  },
+  {
+    "id": 27,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He _______ to the gym every day before going to work.",
+    "options": [
+      "A) use to go",
+      "B) used to go",
+      "C) uses to go",
+      "D) using to go"
+    ],
+    "correct_answer": "B) used to go",
+    "explanation": "'Used to' expresses a past habit or state that no longer exists. The correct form is 'used to + base verb'. 'Used to go' is correct."
+  },
+  {
+    "id": 28,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The report must be submitted _______ Friday without fail.",
+    "options": [
+      "A) until",
+      "B) by",
+      "C) before",
+      "D) on"
+    ],
+    "correct_answer": "B) by",
+    "explanation": "'By Friday' means no later than Friday — it sets a deadline. 'Until' means continuously up to that point. 'By' is correct for deadlines."
+  },
+  {
+    "id": 29,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She has a _______ for classical music and attends concerts regularly.",
+    "options": [
+      "A) passion",
+      "B) passionate",
+      "C) passionately",
+      "D) passions"
+    ],
+    "correct_answer": "A) passion",
+    "explanation": "The article 'a' before the blank indicates a noun is needed. 'Passion' is the correct noun form. 'A passion for classical music' is the correct phrase."
+  },
+  {
+    "id": 30,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The doctor advised him to _______ smoking immediately.",
+    "options": [
+      "A) quit",
+      "B) quitting",
+      "C) quitted",
+      "D) quits"
+    ],
+    "correct_answer": "A) quit",
+    "explanation": "After 'advised him to', the base form of the verb is used (infinitive without 'to' after the object). 'Advised him to quit' is correct."
+  },
+  {
+    "id": 31,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "There _______ a lot of noise coming from the construction site nearby.",
+    "options": [
+      "A) are",
+      "B) were",
+      "C) is",
+      "D) have been"
+    ],
+    "correct_answer": "C) is",
+    "explanation": "'Noise' is an uncountable noun and takes a singular verb. 'There is a lot of noise' is grammatically correct."
+  },
+  {
+    "id": 32,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He was _______ to learn that he had passed the entrance examination.",
+    "options": [
+      "A) delight",
+      "B) delighted",
+      "C) delightful",
+      "D) delighting"
+    ],
+    "correct_answer": "B) delighted",
+    "explanation": "'Delighted' is a past participle used as an adjective meaning very pleased. 'Was delighted to learn' is the correct structure."
+  },
+  {
+    "id": 33,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The two brothers _______ each other very much in appearance.",
+    "options": [
+      "A) resemble",
+      "B) resembles",
+      "C) resembled to",
+      "D) are resembling"
+    ],
+    "correct_answer": "A) resemble",
+    "explanation": "'Resemble' is a stative verb and does not take a preposition. 'Resemble each other' (not 'resemble to') is correct. Stative verbs don't use continuous forms."
+  },
+  {
+    "id": 34,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She _______ her bag and found that her wallet was missing.",
+    "options": [
+      "A) opened",
+      "B) open",
+      "C) opens",
+      "D) opening"
+    ],
+    "correct_answer": "A) opened",
+    "explanation": "The sentence describes a sequence of past events. Simple past 'opened' is correct, followed by another past action 'found'."
+  },
+  {
+    "id": 35,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The company decided to _______ new employees to handle the increased workload.",
+    "options": [
+      "A) hire",
+      "B) hiring",
+      "C) hired",
+      "D) hires"
+    ],
+    "correct_answer": "A) hire",
+    "explanation": "After 'decided to', the base form (infinitive) is used. 'Decided to hire' follows the pattern: decide + to + base verb."
+  },
+  {
+    "id": 36,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He is _______ the most talented student in the entire school.",
+    "options": [
+      "A) by far",
+      "B) by long",
+      "C) by much",
+      "D) by great"
+    ],
+    "correct_answer": "A) by far",
+    "explanation": "'By far' is the correct idiomatic expression used to emphasize a superlative. 'By far the most talented' is the standard usage."
+  },
+  {
+    "id": 37,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The old man walked slowly _______ the bridge.",
+    "options": [
+      "A) across",
+      "B) through",
+      "C) along",
+      "D) over"
+    ],
+    "correct_answer": "A) across",
+    "explanation": "'Across' means from one side to the other. Walking 'across the bridge' means going from one end to the other end of the bridge."
+  },
+  {
+    "id": 38,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "She _______ her friend's advice and regretted it later.",
+    "options": [
+      "A) ignored",
+      "B) neglected",
+      "C) disregarded",
+      "D) All of these"
+    ],
+    "correct_answer": "D) All of these",
+    "explanation": "'Ignored', 'neglected', and 'disregarded' all mean to pay no attention to something. All three are grammatically and semantically correct in this context."
+  },
+  {
+    "id": 39,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The meeting was postponed _______ the heavy rainfall.",
+    "options": [
+      "A) because",
+      "B) due to",
+      "C) since",
+      "D) as"
+    ],
+    "correct_answer": "B) due to",
+    "explanation": "'Due to' is followed by a noun phrase ('the heavy rainfall'). 'Because', 'since', and 'as' are conjunctions followed by clauses with subjects and verbs."
+  },
+  {
+    "id": 40,
+    "topic": "Selecting Words",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "He has been working in this company _______ he graduated from college.",
+    "options": [
+      "A) for",
+      "B) from",
+      "C) since",
+      "D) during"
+    ],
+    "correct_answer": "C) since",
+    "explanation": "'Since' is used with a point in time or an event (since he graduated). 'For' is used with a duration of time. 'Since he graduated' is correct."
+  },
+  {
+    "id": 41,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The minister's speech was _______ with references to historical events that most people had forgotten.",
+    "options": [
+      "A) replete",
+      "B) complete",
+      "C) deplete",
+      "D) delete"
+    ],
+    "correct_answer": "A) replete",
+    "explanation": "'Replete' means filled or well-supplied with something. 'Replete with references' means the speech was full of references. 'Complete' doesn't collocate with 'with' in this sense."
+  },
+  {
+    "id": 42,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The government's new policy aims to _______ the gap between the rich and the poor.",
+    "options": [
+      "A) bridge",
+      "B) fill",
+      "C) cover",
+      "D) close"
+    ],
+    "correct_answer": "A) bridge",
+    "explanation": "'Bridge the gap' is the standard idiomatic expression meaning to reduce the difference between two things. It is the most precise and formal choice here."
+  },
+  {
+    "id": 43,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Despite several warnings, he continued to _______ the rules of the organization.",
+    "options": [
+      "A) flout",
+      "B) flaunt",
+      "C) float",
+      "D) flute"
+    ],
+    "correct_answer": "A) flout",
+    "explanation": "'Flout' means to openly disregard a rule or convention. 'Flaunt' means to display ostentatiously. 'Flouting the rules' is the correct usage here."
+  },
+  {
+    "id": 44,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The scientist's discovery was _______ as a major breakthrough in medical research.",
+    "options": [
+      "A) hailed",
+      "B) hauled",
+      "C) healed",
+      "D) handled"
+    ],
+    "correct_answer": "A) hailed",
+    "explanation": "'Hailed as' means to be praised or acclaimed as something. 'Hailed as a major breakthrough' is the correct idiomatic expression."
+  },
+  {
+    "id": 45,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The accused was _______ of all charges due to lack of evidence.",
+    "options": [
+      "A) acquitted",
+      "B) convicted",
+      "C) accused",
+      "D) indicted"
+    ],
+    "correct_answer": "A) acquitted",
+    "explanation": "'Acquitted' means formally declared not guilty. 'Convicted' means found guilty. 'Acquitted of all charges' is the correct legal terminology."
+  },
+  {
+    "id": 46,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The new regulation will _______ all citizens to carry identity proof at all times.",
+    "options": [
+      "A) mandate",
+      "B) request",
+      "C) suggest",
+      "D) advise"
+    ],
+    "correct_answer": "A) mandate",
+    "explanation": "'Mandate' means to officially require or order something. It implies legal obligation, which is appropriate for a regulation. 'Request' and 'suggest' are too weak."
+  },
+  {
+    "id": 47,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The politician tried to _______ the issue by making vague statements.",
+    "options": [
+      "A) obfuscate",
+      "B) clarify",
+      "C) elaborate",
+      "D) simplify"
+    ],
+    "correct_answer": "A) obfuscate",
+    "explanation": "'Obfuscate' means to make something unclear or confusing. Making vague statements to confuse an issue is 'obfuscating' it."
+  },
+  {
+    "id": 48,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The two countries signed a treaty to _______ their long-standing border dispute.",
+    "options": [
+      "A) resolve",
+      "B) dissolve",
+      "C) absolve",
+      "D) evolve"
+    ],
+    "correct_answer": "A) resolve",
+    "explanation": "'Resolve a dispute' means to find a solution to it. 'Dissolve' means to end or disband. 'Absolve' means to free from blame. 'Resolve' is the correct choice."
+  },
+  {
+    "id": 49,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The company's profits have been _______ steadily over the past three quarters.",
+    "options": [
+      "A) escalating",
+      "B) escaping",
+      "C) evacuating",
+      "D) evading"
+    ],
+    "correct_answer": "A) escalating",
+    "explanation": "'Escalating' means increasing rapidly or steadily. 'Profits escalating' means they are rising continuously, which fits the context perfectly."
+  },
+  {
+    "id": 50,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The judge's decision was _______ by the higher court after an appeal.",
+    "options": [
+      "A) overturned",
+      "B) overrun",
+      "C) overcome",
+      "D) overlooked"
+    ],
+    "correct_answer": "A) overturned",
+    "explanation": "'Overturned' in legal context means to reverse or annul a previous decision. 'The decision was overturned' is the standard legal expression."
+  },
+  {
+    "id": 51,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The prime minister _______ the nation on the occasion of Independence Day.",
+    "options": [
+      "A) addressed",
+      "B) spoke",
+      "C) told",
+      "D) said"
+    ],
+    "correct_answer": "A) addressed",
+    "explanation": "'Address the nation' is the correct collocation meaning to make a formal speech to the country. 'Spoke to', 'told', and 'said' are less formal and less precise."
+  },
+  {
+    "id": 52,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The new infrastructure project will _______ thousands of jobs in the region.",
+    "options": [
+      "A) generate",
+      "B) germinate",
+      "C) gestate",
+      "D) gesticulate"
+    ],
+    "correct_answer": "A) generate",
+    "explanation": "'Generate jobs' is the correct collocation meaning to create employment opportunities. The other options are unrelated to job creation."
+  },
+  {
+    "id": 53,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The opposition party _______ the government's decision to increase fuel prices.",
+    "options": [
+      "A) condemned",
+      "B) commended",
+      "C) commanded",
+      "D) commented"
+    ],
+    "correct_answer": "A) condemned",
+    "explanation": "'Condemned' means to express strong disapproval. Opposition parties typically condemn (not commend) government decisions they disagree with."
+  },
+  {
+    "id": 54,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The flood victims were provided with _______ relief by the government.",
+    "options": [
+      "A) immediate",
+      "B) imminent",
+      "C) eminent",
+      "D) immanent"
+    ],
+    "correct_answer": "A) immediate",
+    "explanation": "'Immediate relief' means relief provided without delay. 'Imminent' means about to happen. 'Eminent' means famous. 'Immediate' is the correct choice."
+  },
+  {
+    "id": 55,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The new budget _______ significant funds for education and healthcare.",
+    "options": [
+      "A) allocated",
+      "B) alleviated",
+      "C) alienated",
+      "D) alluded"
+    ],
+    "correct_answer": "A) allocated",
+    "explanation": "'Allocated funds' means to officially assign money for a specific purpose. 'Alleviated' means to reduce pain. 'Allocated' is the correct budgetary term."
+  },
+  {
+    "id": 56,
+    "topic": "Selecting Words",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "The ancient temple was _______ to its former glory after years of restoration work.",
+    "options": [
+      "A) restored",
+      "B) stored",
+      "C) explored",
+      "D) implored"
+    ],
+    "correct_answer": "A) restored",
+    "explanation": "'Restored to its former glory' is the correct idiomatic expression meaning to bring something back to its original condition."
+  }
+]

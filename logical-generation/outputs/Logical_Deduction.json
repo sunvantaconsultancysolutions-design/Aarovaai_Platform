@@ -1,0 +1,422 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All cats are animals. All animals are living beings. Which conclusion follows? A) All living beings are cats. B) All cats are living beings. C) Some living beings are not animals. D) No cats are living beings.",
+    "options": ["A) All living beings are cats.", "B) All cats are living beings.", "C) Some living beings are not animals.", "D) No cats are living beings."],
+    "correct_answer": "B) All cats are living beings.",
+    "explanation": "All cats → animals → living beings. By syllogism, all cats are living beings. The reverse (all living beings are cats) does not follow."
+  },
+  {
+    "id": 2,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All roses are flowers. Some flowers are red. Which conclusion definitely follows? A) All roses are red. B) Some roses are red. C) No roses are red. D) None of the above.",
+    "options": ["A) All roses are red.", "B) Some roses are red.", "C) No roses are red.", "D) None of the above."],
+    "correct_answer": "D) None of the above.",
+    "explanation": "We know all roses are flowers, but we cannot determine which flowers are red. So no definite conclusion about roses being red can be drawn."
+  },
+  {
+    "id": 3,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "No birds are mammals. All sparrows are birds. Which conclusion follows? A) No sparrows are mammals. B) Some sparrows are mammals. C) All mammals are sparrows. D) Some birds are mammals.",
+    "options": ["A) No sparrows are mammals.", "B) Some sparrows are mammals.", "C) All mammals are sparrows.", "D) Some birds are mammals."],
+    "correct_answer": "A) No sparrows are mammals.",
+    "explanation": "All sparrows are birds, and no birds are mammals. Therefore, no sparrows are mammals — a valid syllogism conclusion."
+  },
+  {
+    "id": 4,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Some pens are pencils. All pencils are stationery. Which conclusion follows? A) All pens are stationery. B) Some pens are stationery. C) No pens are stationery. D) All stationery are pens.",
+    "options": ["A) All pens are stationery.", "B) Some pens are stationery.", "C) No pens are stationery.", "D) All stationery are pens."],
+    "correct_answer": "B) Some pens are stationery.",
+    "explanation": "Some pens are pencils, and all pencils are stationery. So those pens that are pencils are also stationery — hence some pens are stationery."
+  },
+  {
+    "id": 5,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All doctors are educated. Ram is a doctor. Which conclusion follows? A) Ram is not educated. B) Ram is educated. C) All educated people are doctors. D) Some doctors are not educated.",
+    "options": ["A) Ram is not educated.", "B) Ram is educated.", "C) All educated people are doctors.", "D) Some doctors are not educated."],
+    "correct_answer": "B) Ram is educated.",
+    "explanation": "Since all doctors are educated and Ram is a doctor, Ram must be educated. This is a direct application of universal affirmative syllogism."
+  },
+  {
+    "id": 6,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "No students are lazy. Priya is a student. Which conclusion follows? A) Priya is lazy. B) Priya is not lazy. C) Some students are lazy. D) All lazy people are students.",
+    "options": ["A) Priya is lazy.", "B) Priya is not lazy.", "C) Some students are lazy.", "D) All lazy people are students."],
+    "correct_answer": "B) Priya is not lazy.",
+    "explanation": "No students are lazy, and Priya is a student. Therefore, Priya is not lazy — a direct deduction from the universal negative premise."
+  },
+  {
+    "id": 7,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All mangoes are fruits. All fruits are nutritious. Some nutritious things are tasty. Which conclusion definitely follows? A) All mangoes are tasty. B) All mangoes are nutritious. C) Some fruits are not nutritious. D) No mangoes are nutritious.",
+    "options": ["A) All mangoes are tasty.", "B) All mangoes are nutritious.", "C) Some fruits are not nutritious.", "D) No mangoes are nutritious."],
+    "correct_answer": "B) All mangoes are nutritious.",
+    "explanation": "All mangoes are fruits, and all fruits are nutritious. By chain syllogism, all mangoes are nutritious. The tastiness conclusion cannot be guaranteed."
+  },
+  {
+    "id": 8,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All tables are chairs. Some chairs are wooden. Conclusion I: Some tables are wooden. Conclusion II: Some wooden things are chairs. Which conclusion(s) follow?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both conclusions follow.", "D) Neither conclusion follows."],
+    "correct_answer": "B) Only Conclusion II follows.",
+    "explanation": "Some chairs are wooden → some wooden things are chairs (conversion). We cannot say some tables are wooden because the overlap of chairs and wooden may not include tables."
+  },
+  {
+    "id": 9,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If it rains, the ground gets wet. The ground is wet. Which conclusion is valid? A) It rained. B) It did not rain. C) The ground may or may not have been wet due to rain. D) None of the above.",
+    "options": ["A) It rained.", "B) It did not rain.", "C) The ground may or may not have been wet due to rain.", "D) None of the above."],
+    "correct_answer": "C) The ground may or may not have been wet due to rain.",
+    "explanation": "Wet ground doesn't confirm rain — other causes exist. This is the fallacy of affirming the consequent. We cannot conclude it rained."
+  },
+  {
+    "id": 10,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All engineers are graduates. No graduates are illiterate. Which conclusion follows? A) No engineers are illiterate. B) Some engineers are illiterate. C) All illiterates are engineers. D) Some graduates are engineers.",
+    "options": ["A) No engineers are illiterate.", "B) Some engineers are illiterate.", "C) All illiterates are engineers.", "D) Some graduates are engineers."],
+    "correct_answer": "A) No engineers are illiterate.",
+    "explanation": "All engineers are graduates, and no graduates are illiterate. Therefore, no engineers are illiterate — valid chain deduction."
+  },
+  {
+    "id": 11,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Some books are novels. All novels are interesting. Conclusion I: Some books are interesting. Conclusion II: All interesting things are novels. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "A) Only Conclusion I follows.",
+    "explanation": "Some books are novels, and all novels are interesting → some books are interesting. Conclusion II reverses the universal, which is invalid."
+  },
+  {
+    "id": 12,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All politicians are leaders. Some leaders are honest. Conclusion I: Some politicians are honest. Conclusion II: All leaders are politicians. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "D) Neither follows.",
+    "explanation": "The honest leaders may not overlap with politicians. Conclusion II reverses the universal incorrectly. Neither conclusion is guaranteed."
+  },
+  {
+    "id": 13,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "No fish can walk. Shark is a fish. Which conclusion follows? A) Shark can walk. B) Shark cannot walk. C) Some fish can walk. D) Sharks are not fish.",
+    "options": ["A) Shark can walk.", "B) Shark cannot walk.", "C) Some fish can walk.", "D) Sharks are not fish."],
+    "correct_answer": "B) Shark cannot walk.",
+    "explanation": "No fish can walk, and shark is a fish. Therefore, shark cannot walk — direct application of universal negative with a particular case."
+  },
+  {
+    "id": 14,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All squares are rectangles. All rectangles are quadrilaterals. Which conclusion follows? A) All quadrilaterals are squares. B) All squares are quadrilaterals. C) Some rectangles are not quadrilaterals. D) No squares are quadrilaterals.",
+    "options": ["A) All quadrilaterals are squares.", "B) All squares are quadrilaterals.", "C) Some rectangles are not quadrilaterals.", "D) No squares are quadrilaterals."],
+    "correct_answer": "B) All squares are quadrilaterals.",
+    "explanation": "All squares → rectangles → quadrilaterals. By chain syllogism, all squares are quadrilaterals. The reverse does not hold."
+  },
+  {
+    "id": 15,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Some apples are sweet. Some sweet things are expensive. Conclusion I: Some apples are expensive. Conclusion II: Some expensive things are sweet. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "B) Only Conclusion II follows.",
+    "explanation": "Some sweet things are expensive → some expensive things are sweet (valid conversion). We cannot link apples to expensive directly through two 'some' statements."
+  },
+  {
+    "id": 16,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All teachers are knowledgeable. Ravi is knowledgeable. Which conclusion follows? A) Ravi is a teacher. B) Ravi may or may not be a teacher. C) All knowledgeable people are teachers. D) Ravi is not a teacher.",
+    "options": ["A) Ravi is a teacher.", "B) Ravi may or may not be a teacher.", "C) All knowledgeable people are teachers.", "D) Ravi is not a teacher."],
+    "correct_answer": "B) Ravi may or may not be a teacher.",
+    "explanation": "Being knowledgeable doesn't confirm being a teacher — other knowledgeable people exist. This is the fallacy of affirming the consequent."
+  },
+  {
+    "id": 17,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All cars have engines. No engines are made of wood. Conclusion I: No cars are made of wood. Conclusion II: Some cars are made of wood. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "A) Only Conclusion I follows.",
+    "explanation": "All cars have engines, and no engines are made of wood. Therefore, no cars are made of wood. Conclusion II contradicts this."
+  },
+  {
+    "id": 18,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Some chairs are tables. All tables are furniture. Conclusion I: Some chairs are furniture. Conclusion II: All furniture are chairs. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "A) Only Conclusion I follows.",
+    "explanation": "Some chairs are tables, and all tables are furniture → some chairs are furniture. Conclusion II incorrectly reverses the universal."
+  },
+  {
+    "id": 19,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a number is divisible by 4, it is divisible by 2. 16 is divisible by 4. Which conclusion follows? A) 16 is divisible by 2. B) 16 is not divisible by 2. C) All numbers divisible by 2 are divisible by 4. D) 16 is divisible by 8.",
+    "options": ["A) 16 is divisible by 2.", "B) 16 is not divisible by 2.", "C) All numbers divisible by 2 are divisible by 4.", "D) 16 is divisible by 8."],
+    "correct_answer": "A) 16 is divisible by 2.",
+    "explanation": "16 is divisible by 4, and anything divisible by 4 is divisible by 2. So 16 is divisible by 2 — modus ponens."
+  },
+  {
+    "id": 20,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All planets revolve around the sun. Earth is a planet. Mars is a planet. Which conclusion follows? A) Earth and Mars revolve around the sun. B) Only Earth revolves around the sun. C) Mars does not revolve around the sun. D) The sun revolves around Earth.",
+    "options": ["A) Earth and Mars revolve around the sun.", "B) Only Earth revolves around the sun.", "C) Mars does not revolve around the sun.", "D) The sun revolves around Earth."],
+    "correct_answer": "A) Earth and Mars revolve around the sun.",
+    "explanation": "Both Earth and Mars are planets, and all planets revolve around the sun. Therefore, both revolve around the sun."
+  },
+  {
+    "id": 21,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "No plastic is biodegradable. All paper is biodegradable. Conclusion I: No paper is plastic. Conclusion II: Some biodegradable things are paper. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "C) Both follow.",
+    "explanation": "No plastic is biodegradable, but all paper is biodegradable → no paper is plastic (Conclusion I). All paper is biodegradable → some biodegradable things are paper (Conclusion II, by conversion)."
+  },
+  {
+    "id": 22,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All lions are fierce. Some fierce animals are dangerous. Conclusion I: Some lions are dangerous. Conclusion II: All fierce animals are lions. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "D) Neither follows.",
+    "explanation": "The dangerous fierce animals may not be lions. Conclusion II reverses the universal incorrectly. Neither conclusion is guaranteed."
+  },
+  {
+    "id": 23,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All students who study hard pass the exam. Anita did not pass the exam. Which conclusion follows? A) Anita studied hard. B) Anita did not study hard. C) Some students who study hard fail. D) Anita is not a student.",
+    "options": ["A) Anita studied hard.", "B) Anita did not study hard.", "C) Some students who study hard fail.", "D) Anita is not a student."],
+    "correct_answer": "B) Anita did not study hard.",
+    "explanation": "If study hard → pass, then not pass → not study hard (contrapositive). Anita didn't pass, so she didn't study hard."
+  },
+  {
+    "id": 24,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Some birds can swim. All penguins are birds. Conclusion I: Some penguins can swim. Conclusion II: All birds can swim. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "D) Neither follows.",
+    "explanation": "The swimming birds may not be penguins. Conclusion II overgeneralizes. Neither conclusion is guaranteed from the given statements."
+  },
+  {
+    "id": 25,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All metals conduct electricity. Copper is a metal. Iron is a metal. Which conclusion follows? A) Only copper conducts electricity. B) Both copper and iron conduct electricity. C) All conductors are metals. D) Iron does not conduct electricity.",
+    "options": ["A) Only copper conducts electricity.", "B) Both copper and iron conduct electricity.", "C) All conductors are metals.", "D) Iron does not conduct electricity."],
+    "correct_answer": "B) Both copper and iron conduct electricity.",
+    "explanation": "Both copper and iron are metals, and all metals conduct electricity. Therefore, both conduct electricity — direct syllogism."
+  },
+
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+
+  {
+    "id": 26,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All honest people are trustworthy. Some trustworthy people are leaders. Conclusion I: Some honest people are leaders. Conclusion II: Some leaders are trustworthy. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "B) Only Conclusion II follows.",
+    "explanation": "Some trustworthy people are leaders → some leaders are trustworthy (valid conversion). We cannot link honest people to leaders through two statements where the middle term is not distributed."
+  },
+  {
+    "id": 27,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "No reptiles are warm-blooded. All snakes are reptiles. Conclusion I: No snakes are warm-blooded. Conclusion II: Some reptiles are snakes. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "C) Both follow.",
+    "explanation": "No reptiles are warm-blooded + all snakes are reptiles → no snakes are warm-blooded. All snakes are reptiles → some reptiles are snakes (valid conversion of universal affirmative to particular)."
+  },
+  {
+    "id": 28,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All computers are machines. All machines need power. Conclusion I: All computers need power. Conclusion II: All machines are computers. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "A) Only Conclusion I follows.",
+    "explanation": "All computers → machines → need power. So all computers need power. Conclusion II reverses the universal incorrectly."
+  },
+  {
+    "id": 29,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Some athletes are vegetarians. All vegetarians are health-conscious. Conclusion I: Some athletes are health-conscious. Conclusion II: All health-conscious people are athletes. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "A) Only Conclusion I follows.",
+    "explanation": "Some athletes are vegetarians, and all vegetarians are health-conscious → some athletes are health-conscious. Conclusion II incorrectly reverses the universal."
+  },
+  {
+    "id": 30,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If today is Monday, tomorrow is Tuesday. Today is Monday. Which conclusion follows? A) Tomorrow is Wednesday. B) Tomorrow is Tuesday. C) Today is Tuesday. D) Yesterday was Tuesday.",
+    "options": ["A) Tomorrow is Wednesday.", "B) Tomorrow is Tuesday.", "C) Today is Tuesday.", "D) Yesterday was Tuesday."],
+    "correct_answer": "B) Tomorrow is Tuesday.",
+    "explanation": "Today is Monday (given), and if today is Monday then tomorrow is Tuesday. By modus ponens, tomorrow is Tuesday."
+  },
+  {
+    "id": 31,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All rivers flow into the sea. Ganga is a river. Nile is a river. Which conclusion follows? A) Ganga and Nile flow into the sea. B) The sea flows into rivers. C) Only Ganga flows into the sea. D) Nile does not flow into the sea.",
+    "options": ["A) Ganga and Nile flow into the sea.", "B) The sea flows into rivers.", "C) Only Ganga flows into the sea.", "D) Nile does not flow into the sea."],
+    "correct_answer": "A) Ganga and Nile flow into the sea.",
+    "explanation": "Both Ganga and Nile are rivers, and all rivers flow into the sea. Therefore, both flow into the sea."
+  },
+  {
+    "id": 32,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "No criminals are honest. All thieves are criminals. Conclusion I: No thieves are honest. Conclusion II: Some criminals are thieves. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "C) Both follow.",
+    "explanation": "No criminals are honest + all thieves are criminals → no thieves are honest. All thieves are criminals → some criminals are thieves (valid particular conversion)."
+  },
+  {
+    "id": 33,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All diamonds are precious. Some precious things are rare. Conclusion I: Some diamonds are rare. Conclusion II: All precious things are diamonds. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "D) Neither follows.",
+    "explanation": "The rare precious things may not be diamonds. Conclusion II reverses the universal incorrectly. Neither conclusion is guaranteed."
+  },
+  {
+    "id": 34,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All pilots are trained. Suresh is not trained. Which conclusion follows? A) Suresh is a pilot. B) Suresh is not a pilot. C) Some pilots are not trained. D) All trained people are pilots.",
+    "options": ["A) Suresh is a pilot.", "B) Suresh is not a pilot.", "C) Some pilots are not trained.", "D) All trained people are pilots."],
+    "correct_answer": "B) Suresh is not a pilot.",
+    "explanation": "All pilots are trained → not trained → not a pilot (contrapositive). Suresh is not trained, so Suresh is not a pilot."
+  },
+  {
+    "id": 35,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Some singers are dancers. All dancers are performers. Conclusion I: Some singers are performers. Conclusion II: All performers are dancers. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "A) Only Conclusion I follows.",
+    "explanation": "Some singers are dancers, and all dancers are performers → some singers are performers. Conclusion II incorrectly reverses the universal."
+  },
+  {
+    "id": 36,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All fruits contain vitamins. Mango is a fruit. Orange is a fruit. Which conclusion follows? A) Only mango contains vitamins. B) Mango and orange contain vitamins. C) All vitamins are in fruits. D) Orange does not contain vitamins.",
+    "options": ["A) Only mango contains vitamins.", "B) Mango and orange contain vitamins.", "C) All vitamins are in fruits.", "D) Orange does not contain vitamins."],
+    "correct_answer": "B) Mango and orange contain vitamins.",
+    "explanation": "Both mango and orange are fruits, and all fruits contain vitamins. Therefore, both contain vitamins."
+  },
+  {
+    "id": 37,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "No glass objects are unbreakable. This vase is a glass object. Which conclusion follows? A) This vase is unbreakable. B) This vase is breakable. C) Some glass objects are unbreakable. D) All unbreakable things are glass.",
+    "options": ["A) This vase is unbreakable.", "B) This vase is breakable.", "C) Some glass objects are unbreakable.", "D) All unbreakable things are glass."],
+    "correct_answer": "B) This vase is breakable.",
+    "explanation": "No glass objects are unbreakable means all glass objects are breakable. This vase is glass, so it is breakable."
+  },
+  {
+    "id": 38,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All lawyers know the law. Some people who know the law are judges. Conclusion I: Some lawyers are judges. Conclusion II: Some judges know the law. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "B) Only Conclusion II follows.",
+    "explanation": "Some people who know the law are judges → some judges know the law (valid conversion). We cannot link lawyers to judges through two statements with undistributed middle."
+  },
+  {
+    "id": 39,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "All healthy people exercise. Meena does not exercise. Which conclusion follows? A) Meena is healthy. B) Meena is not healthy. C) Some healthy people do not exercise. D) All who exercise are healthy.",
+    "options": ["A) Meena is healthy.", "B) Meena is not healthy.", "C) Some healthy people do not exercise.", "D) All who exercise are healthy."],
+    "correct_answer": "B) Meena is not healthy.",
+    "explanation": "All healthy people exercise → not exercise → not healthy (contrapositive). Meena doesn't exercise, so Meena is not healthy."
+  },
+  {
+    "id": 40,
+    "topic": "Logical Deduction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Some scientists are inventors. All inventors are creative. Conclusion I: Some scientists are creative. Conclusion II: All creative people are inventors. Which follows?",
+    "options": ["A) Only Conclusion I follows.", "B) Only Conclusion II follows.", "C) Both follow.", "D) Neither follows."],
+    "correct_answer": "A) Only Conclusion I follows.",
+    "explanation": "Some scientists are inventors, and all inventors are creative → some scientists are creative. Conclusion II incorrectly reverses the universal affirmative."
+  },
+  {
+    "id": 41,
+    "topic": "Logical Deduction",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statements: All pens are books. All books are pencils. Some pencils are erasers. Conclusions: I. Some pens are erasers. II. All pens are pencils. III. Some books are erasers. Which conclusions follow?",
+    "options": ["A) Only II follows.", "B) Only I and II follow.", "C) Only II and III follow.", "D) All follow."],
+    "correct_answer": "A) Only II follows.",
+    "explanation": "All pens → books → pencils, so all pens are pencils (II follows). The erasers among pencils may not include pens or books, so I and III don't necessarily follow."
+  },
+  {
+    "id": 42,
+    "topic": "Logical Deduction",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statements: Some mountains are rivers. All rivers are oceans. No ocean is a lake. Conclusions: I. Some mountains are oceans. II. No river is a lake. III. Some mountains are lakes. Which conclusions follow?",
+    "options": ["A) Only I and II follow.", "B

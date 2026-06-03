@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>AarovaaiAI — Practice</title>
+<meta name="description" content="Practice aptitude questions with instant answers — no timer, learn at your pace"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+<!-- Auth guard -->
+<script>
+if(!localStorage.getItem('aarovaai_token')){
+  document.documentElement.style.display='none';
+  window.location.replace('login.html');
+}
+</script>
+<script src="api.js"></script>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a0f;
+  --surface:#13131a;
+  --card:#1c1c27;
+  --border:#2a2a38;
+  --accent:#7c5cfc;
+  --accent2:#a78bfa;
+  --green:#22c55e;
+  --greenbg:#052010;
+  --greenb:#1a4028;
+  --red:#ef4444;
+  --amber:#f59e0b;
+  --text:#f0f0ff;
+  --muted:#8888aa;
+  --radius:14px;
+}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;min-height:100vh}
+.screen{display:none;padding:20px 16px;max-width:700px;margin:0 auto}
+.screen.active{display:block}
+
+/* ── TOP BAR ── */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
+.logo{font-size:18px;font-weight:700;letter-spacing:-0.5px;color:var(--text)}
+.logo span{color:var(--green)}
+.topbar-right{display:flex;align-items:center;gap:10px}
+.mode-pill{font-size:12px;font-weight:600;color:var(--green);background:var(--greenbg);border:1px solid var(--greenb);border-radius:99px;padding:5px 14px;white-space:nowrap}
+
+/* ── PROFILE CHIP ── */
+.profile-chip{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);border-radius:99px;padding:4px 12px 4px 4px;cursor:pointer;transition:.15s;position:relative;user-select:none}
+.profile-chip:hover{border-color:var(--accent);background:#1c1c2f}
+.profile-avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0}
+.profile-name{font-size:12px;font-weight:600;color:var(--text);max-width:80px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.profile-caret{font-size:10px;color:var(--muted)}
+.profile-dropdown{display:none;position:absolute;top:calc(100%+8px);right:0;background:var(--card);border:1px solid #3a3a50;border-radius:12px;padding:6px;min-width:160px;z-index:300;box-shadow:0 8px 32px #00000070}
+.profile-chip.open .profile-dropdown{display:block}
+.pd-item{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;font-size:13px;color:var(--text);cursor:pointer;transition:.1s}
+.pd-item:hover{background:#1c1c2f}
+.pd-item.danger{color:var(--red)}
+.pd-divider{height:1px;background:var(--border);margin:4px 0}
+
+/* ── HOME SCREEN ── */
+.hero{text-align:center;padding:32px 0 20px}
+.hero h1{font-size:28px;font-weight:700;line-height:1.2;margin-bottom:10px}
+.hero h1 span{color:var(--green)}
+.hero p{color:var(--muted);font-size:15px;max-width:440px;margin:0 auto 12px}
+.hero-notice{display:inline-flex;align-items:center;gap:8px;background:var(--greenbg);border:1px solid var(--greenb);border-radius:99px;padding:6px 16px;font-size:12px;font-weight:600;color:var(--green);margin-bottom:20px}
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:28px}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 12px;text-align:center}
+.stat-num{font-size:22px;font-weight:700;color:var(--green)}
+.stat-label{font-size:12px;color:var(--muted);margin-top:4px}
+.section-title{font-size:13px;font-weight:600;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.topics-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:24px}
+.topic-card{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);padding:14px 16px;cursor:pointer;transition:.18s;display:flex;align-items:center;gap:12px}
+.topic-card:hover{border-color:var(--green);background:#0d1a0f}
+.topic-card.selected{border-color:var(--green);background:#0d1a0f}
+.topic-icon{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#22c55e22,#4ade8022);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.topic-name{font-size:13px;font-weight:500;line-height:1.3}
+.topic-meta{font-size:11px;color:var(--muted);margin-top:2px}
+.config-row{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap}
+.config-btn{flex:1;min-width:60px;background:var(--card);border:1.5px solid var(--border);border-radius:10px;padding:12px 8px;cursor:pointer;text-align:center;font-size:13px;font-weight:500;color:var(--text);transition:.15s;font-family:inherit}
+.config-btn.active,.config-btn:hover{border-color:var(--green);color:var(--green);background:#0d1a0f}
+.btn-practice{width:100%;background:var(--green);color:#fff;border:none;border-radius:12px;padding:16px;font-size:16px;font-weight:600;cursor:pointer;transition:.15s;letter-spacing:.01em;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:10px}
+.btn-practice:hover{background:#16a34a;transform:translateY(-1px)}
+.btn-practice:active{transform:scale(.98)}
+
+/* ── QUIZ SCREEN ── */
+.quiz-header{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.practice-info{background:var(--greenbg);border:1px solid var(--greenb);border-radius:10px;padding:8px 16px;font-size:13px;font-weight:600;color:var(--green);white-space:nowrap}
+.progress-wrap{flex:1;background:var(--card);border-radius:99px;height:8px;overflow:hidden;border:1px solid var(--border)}
+.progress-bar{height:100%;background:linear-gradient(90deg,var(--green),#4ade80);border-radius:99px;transition:.3s}
+.qcount{font-size:13px;color:var(--muted);white-space:nowrap}
+
+.question-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-bottom:16px}
+.q-badge{display:inline-flex;align-items:center;gap:6px;background:#22c55e18;border:1px solid #22c55e44;border-radius:99px;padding:4px 12px;font-size:12px;color:#4ade80;font-weight:500;margin-bottom:16px}
+.q-text{font-size:17px;font-weight:500;line-height:1.6;color:var(--text)}
+
+.options{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.option{background:var(--card);border:1.5px solid var(--border);border-radius:12px;padding:15px 18px;cursor:pointer;transition:.15s;display:flex;align-items:center;gap:14px;font-size:15px;font-family:inherit;width:100%;text-align:left}
+.option:hover:not(.correct):not(.wrong){border-color:var(--green);background:#0d1a0f}
+.option.correct{border-color:var(--green);background:#052010;cursor:default}
+.option.correct .option-letter{background:var(--green);border-color:var(--green);color:#fff}
+.option.wrong{border-color:var(--red);background:#200505;cursor:default}
+.option.wrong .option-letter{background:var(--red);border-color:var(--red);color:#fff}
+.option-letter{width:30px;height:30px;border-radius:8px;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;flex-shrink:0;color:var(--muted);transition:.15s}
+
+/* Answer feedback banner */
+.answer-feedback{border-radius:10px;padding:12px 16px;margin-bottom:12px;font-size:13px;font-weight:600;display:none;align-items:center;gap:8px}
+.answer-feedback.correct{background:var(--greenbg);border:1px solid var(--greenb);color:var(--green);display:flex}
+.answer-feedback.wrong{background:#200505;border:1px solid #4a1010;color:var(--red);display:flex}
+
+.explanation{background:#0d1a0f;border:1px solid var(--greenb);border-radius:12px;padding:16px 18px;margin-bottom:16px;font-size:13px;line-height:1.7;color:#86efac}
+.explanation strong{color:#4ade80}
+
+.nav-row{display:flex;gap:10px}
+.btn-skip{flex:1;background:transparent;border:1.5px solid var(--border);border-radius:12px;padding:14px;font-size:14px;font-weight:500;color:var(--text);cursor:pointer;transition:.15s;font-family:inherit}
+.btn-skip:hover{border-color:var(--muted);color:var(--muted)}
+.btn-next{flex:2;background:var(--green);border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:600;color:#fff;cursor:pointer;transition:.15s;font-family:inherit}
+.btn-next:hover{background:#16a34a}
+
+.q-dots{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.q-dot{width:28px;height:28px;border-radius:8px;border:1.5px solid var(--border);background:var(--card);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:var(--muted);cursor:pointer;transition:.12s}
+.q-dot.answered{background:#0d1a0f;border-color:var(--green);color:var(--green)}
+.q-dot.current{background:var(--green);border-color:var(--green);color:#fff}
+.q-dot.skipped{background:#130202;border-color:var(--amber);color:var(--amber)}
+
+/* ── RESULT SCREEN ── */
+.result-hero{text-align:center;padding:28px 0 20px}
+.score-ring{width:120px;height:120px;margin:0 auto 16px;position:relative}
+.score-ring svg{transform:rotate(-90deg)}
+.score-ring .score-text{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.score-pct{font-size:26px;font-weight:700}
+.score-label{font-size:11px;color:var(--muted)}
+.result-title{font-size:22px;font-weight:700;margin-bottom:6px}
+.result-sub{color:var(--muted);font-size:14px}
+.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0}
+.res-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px;text-align:center}
+.res-num{font-size:20px;font-weight:700;margin-bottom:4px}
+.res-lab{font-size:11px;color:var(--muted)}
+.review-list{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.review-item{background:var(--card);border-radius:12px;padding:14px 16px;border-left:3px solid var(--border)}
+.review-item.r-correct{border-left-color:var(--green)}
+.review-item.r-wrong{border-left-color:var(--red)}
+.review-item.r-skip{border-left-color:var(--amber)}
+.review-q{font-size:13px;font-weight:500;margin-bottom:6px;line-height:1.5}
+.review-ans{font-size:12px;color:var(--muted);margin-bottom:6px}
+.review-exp{font-size:12px;color:#86efac;background:var(--greenbg);border-radius:8px;padding:8px 10px;margin-top:6px;line-height:1.6}
+.review-ans .ok{color:var(--green);font-weight:600}
+.review-ans .bad{color:var(--red);font-weight:600}
+.result-actions{display:flex;gap:10px}
+.btn-ghost{flex:1;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;font-size:14px;font-weight:500;color:var(--text);cursor:pointer;transition:.15s;font-family:inherit}
+.btn-ghost:hover{border-color:var(--green);color:var(--green)}
+
+/* ── LOADING ── */
+#quiz-loader{display:none;position:fixed;inset:0;background:var(--bg);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:16px}
+.loader-spinner{width:48px;height:48px;border:3px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loader-text{color:var(--muted);font-size:14px}
+
+/* ── ACCORDION CATEGORIES ── */
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.accordion-item {
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.22s ease, box-shadow 0.22s ease;
+}
+.accordion-item:hover {
+  border-color: var(--green);
+}
+.accordion-item.active {
+  border-color: var(--green);
+  box-shadow: 0 4px 20px rgba(34, 197, 94, 0.08);
+}
+.accordion-header {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--surface);
+  transition: background 0.15s ease;
+}
+.accordion-header:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+.accordion-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.topic-count {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 500;
+}
+.accordion-arrow {
+  font-size: 11px;
+  transition: transform 0.22s ease;
+  color: var(--muted);
+}
+.accordion-item.active .accordion-arrow {
+  transform: rotate(90deg);
+  color: var(--green);
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 20px;
+}
+.accordion-item.active .accordion-content {
+  max-height: 2000px;
+  padding: 20px;
+}
+
+/* ── SKELETON LOADERS ── */
+.skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.skeleton-card {
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 68px;
+  position: relative;
+  overflow: hidden;
+}
+.skeleton-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: #2a2a38;
+}
+.skeleton-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.skeleton-title {
+  width: 70%;
+  height: 12px;
+  background: #2a2a38;
+  border-radius: 4px;
+}
+.skeleton-subtitle {
+  width: 40%;
+  height: 8px;
+  background: #2a2a38;
+  border-radius: 3px;
+}
+.skeleton-shimmer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  transform: translateX(-100%);
+  animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+
+/* ── ERROR STATE ── */
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background: #200505;
+  border: 1px solid #4a1010;
+  border-radius: var(--radius);
+  margin-top: 10px;
+}
+.error-msg {
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.btn-retry {
+  background: transparent;
+  border: 1.5px solid var(--red);
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--red);
+  cursor: pointer;
+  transition: 0.15s;
+  font-family: inherit;
+}
+.btn-retry:hover {
+  background: var(--red);
+  color: #fff;
+}
+
+/* ── FILTER TABS (MODULE TOGGLE) ── */
+.filter-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+  overflow-x: auto;
+}
+.filter-tabs::-webkit-scrollbar { display: none; }
+.ftab {
+  padding: 8px 18px;
+  border-radius: 99px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--card);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 0.15s;
+}
+.ftab:hover { border-color: var(--muted); }
+.ftab.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+</style>
+</head>
+<body>
+
+<!-- ── TOPBAR ── -->
+<div class="topbar">
+  <div class="logo">Aarovaai <span>AI</span></div>
+  <div class="topbar-right">
+    <div class="mode-pill">🟢 Practice Mode</div>
+    <div class="profile-chip" id="profile-chip" onclick="this.classList.toggle('open')" title="Your profile">
+      <div class="profile-avatar" id="profile-avatar">?</div>
+      <span class="profile-name" id="profile-name">Me</span>
+      <span class="profile-caret">▾</span>
+      <div class="profile-dropdown" onclick="event.stopPropagation()">
+        <div class="pd-item" onclick="window.location.href='aarovaai_platform_ui.html'">🏠 Dashboard</div>
+        <div class="pd-item" id="pd-hub-link">📚 Hub</div>
+        <div class="pd-item" onclick="window.location.href='aarovaai_aptitude_test_ui.html'">📝 Test Mode</div>
+        <div class="pd-item" onclick="window.location.href='aarovaai_progress.html'">📊 My Progress</div>
+        <div class="pd-divider"></div>
+        <div class="pd-item danger" onclick="aarovaaiLogout()">🚪 Logout</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── LOADING OVERLAY ── -->
+<div id="quiz-loader">
+  <div class="loader-spinner"></div>
+  <div class="loader-text" id="loader-text">Loading questions…</div>
+</div>
+
+<!-- ── HOME SCREEN ── -->
+<div class="screen active" id="home-screen">
+  <div class="hero" style="position:relative;">
+    <div class="filter-tabs" style="position:absolute; top:0px; right:0px; margin-bottom:0;">
+      <div class="ftab active" id="btn-mod-aptitude" onclick="switchPracticeModule('aptitude')">Aptitude</div>
+      <div class="ftab" id="btn-mod-technical" onclick="switchPracticeModule('technical')">Technical</div>
+    </div>
+    <div style="text-align:center;">
+      <h1 id="hero-title" style="margin-bottom:8px;">Practice <span>Aptitude</span><br>Learn at Your Pace</h1>
+      <p id="hero-desc">Select a topic and practice with instant answers — no timer, no pressure.</p>
+      <div class="hero-notice" style="margin-top:12px; display:inline-block;">✅ No Timer &nbsp;·&nbsp; Instant Answers &nbsp;·&nbsp; Full Explanations</div>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-num" id="stat-q-num">3200+</div><div class="stat-label">Questions</div></div>
+    <div class="stat-card"><div class="stat-num" id="stat-t-num">32</div><div class="stat-label">Topics</div></div>
+    <div class="stat-card"><div class="stat-num">Learn</div><div class="stat-label">At your pace</div></div>
+  </div>
+
+  <div class="section-title">Category &amp; Topics</div>
+  <div class="accordion-container" id="category-accordion">
+    <div id="aptitude-accordions">
+      <!-- Accordion Item: Arithmetic -->
+    <div class="accordion-item" id="accordion-item-arithmetic">
+      <div class="accordion-header" onclick="toggleAccordion('arithmetic')">
+        <span class="accordion-title">🔢 Arithmetic Aptitude <span class="topic-count">(32 Topics)</span></span>
+        <span class="accordion-arrow">▶</span>
+      </div>
+      <div class="accordion-content" id="accordion-content-arithmetic"></div>
+    </div>
+    
+    <!-- Accordion Item: Verbal -->
+    <div class="accordion-item" id="accordion-item-verbal">
+      <div class="accordion-header" onclick="toggleAccordion('verbal')">
+        <span class="accordion-title">🔡 Verbal Ability <span class="topic-count">(19 Topics)</span></span>
+        <span class="accordion-arrow">▶</span>
+      </div>
+      <div class="accordion-content" id="accordion-content-verbal"></div>
+    </div>
+
+    <!-- Accordion Item: Logical -->
+    <div class="accordion-item" id="accordion-item-logical">
+      <div class="accordion-header" onclick="toggleAccordion('logical')">
+        <span class="accordion-title">💡 Logical Reasoning <span class="topic-count">(19 Topics)</span></span>
+        <span class="accordion-arrow">▶</span>
+      </div>
+      <div class="accordion-content" id="accordion-content-logical"></div>
+    </div>
+
+    <!-- Accordion Item: Reasoning -->
+    <div class="accordion-item" id="accordion-item-reasoning">
+      <div class="accordion-header" onclick="toggleAccordion('reasoning')">
+        <span class="accordion-title">🧠 Reasoning <span class="topic-count">(16 Topics)</span></span>
+        <span class="accordion-arrow">▶</span>
+      </div>
+      <div class="accordion-content" id="accordion-content-reasoning"></div>
+    </div>
+    </div> <!-- aptitude-accordions -->
+
+    <div id="technical-accordions" style="display:none">
+      <!-- Accordion Item: C Language -->
+      <div class="accordion-item" id="accordion-item-c-language">
+        <div class="accordion-header" onclick="toggleAccordion('c-language')">
+          <span class="accordion-title">💻 C Language <span class="topic-count">(19 Topics)</span></span>
+          <span class="accordion-arrow">▶</span>
+        </div>
+        <div class="accordion-content" id="accordion-content-c-language"></div>
+      </div>
+      <!-- Accordion Item: Java Language -->
+      <div class="accordion-item" id="accordion-item-java">
+        <div class="accordion-header" onclick="toggleAccordion('java')">
+          <span class="accordion-title">☕ Java Language <span class="topic-count">(11 Topics)</span></span>
+          <span class="accordion-arrow">▶</span>
+        </div>
+        <div class="accordion-content" id="accordion-content-java"></div>
+      </div>
+      <!-- Accordion Item: Database -->
+      <div class="accordion-item" id="accordion-item-database">
+        <div class="accordion-header" onclick="toggleAccordion('database')">
+          <span class="accordion-title">🗄️ Database Management <span class="topic-count">(29 Topics)</span></span>
+          <span class="accordion-arrow">▶</span>
+        </div>
+        <div class="accordion-content" id="accordion-content-database"></div>
+      </div>
+      <!-- Accordion Item: Networks -->
+      <div class="accordion-item" id="accordion-item-networks">
+        <div class="accordion-header" onclick="toggleAccordion('networks')">
+          <span class="accordion-title">🌐 Networks <span class="topic-count">(15 Topics)</span></span>
+          <span class="accordion-arrow">▶</span>
+        </div>
+        <div class="accordion-content" id="accordion-content-networks"></div>
+      </div>
+    </div> <!-- technical-accordions -->
+  </div>
+
+  <div class="section-title">Number of questions</div>
+  <div class="config-row" id="qcount-row">
+    <button class="config-btn active" data-val="10">10 Q</button>
+    <button class="config-btn" data-val="20">20 Q</button>
+    <button class="config-btn" data-val="30">30 Q</button>
+    <button class="config-btn" data-val="50">50 Q</button>
+  </div>
+
+  <div class="section-title">Difficulty</div>
+  <div class="config-row" id="diff-row">
+    <button class="config-btn active" data-val="mixed">Mixed</button>
+    <button class="config-btn" data-val="easy">Easy</button>
+    <button class="config-btn" data-val="medium">Medium</button>
+    <button class="config-btn" data-val="hard">Hard</button>
+  </div>
+
+  <button class="btn-practice" id="start-btn" onclick="startPractice()">
+    🟢 Practice Now
+  </button>
+  <div style="height:24px"></div>
+</div>
+
+<!-- ── QUIZ SCREEN ── -->
+<div class="screen" id="quiz-screen">
+  <div class="quiz-header">
+    <div class="practice-info">🟢 Practice</div>
+    <div class="progress-wrap"><div class="progress-bar" id="progress-bar" style="width:0%"></div></div>
+    <div class="qcount" id="qcount-label">1 / 10</div>
+  </div>
+
+  <div class="q-dots" id="q-dots"></div>
+
+  <div class="question-card">
+    <div class="q-badge">
+      <span id="q-topic-badge">Topic</span> &bull;
+      <span id="q-diff-badge" style="color:var(--amber)">Medium</span>
+    </div>
+    <div class="q-text" id="q-text">Loading…</div>
+  </div>
+
+  <!-- Answer feedback (shown after selecting) -->
+  <div class="answer-feedback" id="answer-feedback">
+    <span id="feedback-icon">✅</span>
+    <span id="feedback-text">Correct!</span>
+  </div>
+
+  <div class="options" id="options-container"></div>
+
+  <div class="explanation" id="explanation" style="display:none">
+    <strong>💡 Explanation:</strong> <span id="exp-text"></span>
+  </div>
+
+  <div class="nav-row">
+    <button class="btn-skip" onclick="skipQuestion()">Skip →</button>
+    <button class="btn-next" id="next-btn" onclick="nextQuestion()">Next →</button>
+  </div>
+  <div style="height:20px"></div>
+</div>
+
+<!-- ── RESULT SCREEN ── -->
+<div class="screen" id="result-screen">
+  <div class="result-hero">
+    <div class="score-ring">
+      <svg width="120" height="120" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="50" fill="none" stroke="#1c1c27" stroke-width="10"/>
+        <circle cx="60" cy="60" r="50" fill="none" stroke="url(#pg)" stroke-width="10"
+          stroke-linecap="round" stroke-dasharray="314" id="score-arc" stroke-dashoffset="314"/>
+        <defs><linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#4ade80"/>
+        </linearGradient></defs>
+      </svg>
+      <div class="score-text">
+        <div class="score-pct" id="score-pct">0%</div>
+        <div class="score-label">Score</div>
+      </div>
+    </div>
+    <div class="result-title" id="result-title">Practice Complete! 🎉</div>
+    <div class="result-sub" id="result-sub">Keep practicing to improve</div>
+  </div>
+
+  <div class="result-grid">
+    <div class="res-card"><div class="res-num" id="r-correct" style="color:var(--green)">0</div><div class="res-lab">Correct</div></div>
+    <div class="res-card"><div class="res-num" id="r-wrong" style="color:var(--red)">0</div><div class="res-lab">Wrong</div></div>
+    <div class="res-card"><div class="res-num" id="r-skip" style="color:var(--amber)">0</div><div class="res-lab">Skipped</div></div>
+  </div>
+
+  <div class="section-title">Review all answers</div>
+  <div class="review-list" id="review-list"></div>
+
+  <div class="result-actions">
+    <button class="btn-ghost" onclick="goHome()">← Back</button>
+    <button class="btn-practice" style="flex:2" onclick="retryPractice()">🔄 Practice Again</button>
+  </div>
+  <div style="height:24px"></div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════
+//  FALLBACK TOPIC LIST & QUESTIONS
+// ═══════════════════════════════════════════════
+const FALLBACK_TOPICS = [
+  {name:"Percentage",         id:"percentage",           icon:"📊"},
+  {name:"Profit & Loss",      id:"profit-loss",          icon:"💰"},
+  {name:"Simple Interest",    id:"simple-interest",      icon:"🏦"},
+  {name:"Compound Interest",  id:"compound-interest",    icon:"📈"},
+  {name:"Time & Work",        id:"time-work",            icon:"⏱️"},
+  {name:"Time & Distance",    id:"time-distance",        icon:"🚆"},
+  {name:"Average",            id:"average",              icon:"📉"},
+  {name:"Ratio & Proportion", id:"ratio-proportion",     icon:"⚖️"},
+  {name:"Probability",        id:"probability",          icon:"🎲"},
+  {name:"HCF & LCM",          id:"hcf-lcm",              icon:"🧮"},
+  {name:"Number System",      id:"number-system",        icon:"🔢"},
+  {name:"Permutation & Combination",id:"permutation-combination",icon:"🔢"},
+  {name:"Problems on Ages",   id:"ages",                 icon:"👴"},
+  {name:"Calendar",           id:"calendar",             icon:"📅"},
+  {name:"Clock",              id:"clock",                icon:"🕐"},
+  {name:"Simplification",     id:"simplification",       icon:"✏️"},
+  {name:"Partnership",        id:"partnership",          icon:"🤝"},
+  {name:"Area",               id:"area",                 icon:"📐"},
+  {name:"Pipes & Cistern",    id:"pipes-cistern",        icon:"🔧"},
+];
+
+// ═══ VERBAL FILE MAP & JSON LOADING ═══
+const VERBAL_FILE_MAP = [
+  { file: 'Comprehension.json',          name: 'Reading Comprehension',  id: 'reading-comprehension',  icon: '📖' },
+  { file: 'Cloze_Test.json',             name: 'Cloze Test',             id: 'cloze-test',             icon: '🔍' },
+  { file: 'Idioms_and_Phrases.json',     name: 'Idioms & Phrases',       id: 'idioms-phrases',         icon: '💬' },
+  { file: 'One_Word_Substitutes.json',   name: 'One Word Substitutes',   id: 'one-word-substitutes',   icon: '📝' },
+  { file: 'Ordering_of_Sentences.json',  name: 'Para Jumbles',           id: 'para-jumbles',           icon: '🔀' },
+  { file: 'Sentence_Correction.json',    name: 'Grammar & Usage',        id: 'grammar-usage',          icon: '✍️' },
+  { file: 'Spotting_Errors.json',        name: 'Spotting Errors',        id: 'spotting-errors',        icon: '🔎' },
+  { file: 'Sentence_Improvement.json',   name: 'Sentence Improvement',   id: 'sentence-improvement',   icon: '⬆️' },
+  { file: 'Synonyms.json',               name: 'Synonyms',               id: 'synonyms',               icon: '🔗' },
+  { file: 'Antonyms.json',               name: 'Antonyms',               id: 'antonyms',               icon: '↔️' },
+  { file: 'Verbal_Analogies.json',       name: 'Verbal Analogies',       id: 'verbal-analogies',       icon: '🧩' },
+  { file: 'Change_of_Voice.json',        name: 'Change of Voice',        id: 'change-of-voice',        icon: '🔄' },
+  { file: 'Change_of_Speech.json',       name: 'Change of Speech',       id: 'change-of-speech',       icon: '💭' },
+  { file: 'Paragraph_Formation.json',    name: 'Paragraph Formation',    id: 'paragraph-formation',    icon: '📄' },
+  { file: 'Ordering_of_Words.json',      name: 'Ordering of Words',      id: 'ordering-of-words',      icon: '🔤' },
+  { file: 'Selecting_Words.json',        name: 'Selecting Words',        id: 'selecting-words',        icon: '✅' },
+  { file: 'Sentence_Formation.json',     name: 'Sentence Formation',     id: 'sentence-formation',     icon: '🖊️' },
+  { file: 'Completing_Statements.json',  name: 'Sentence Completion',    id: 'sentence-completion',    icon: '✔️' },
+  { file: 'Spellings.json',              name: 'Spellings',              id: 'spellings',              icon: '🔡' },
+];
+
+const VERBAL_JSON_BASE = 'verbal-generation/outputs/';
+
+const LOGICAL_FILE_MAP = [
+  { file: 'Analogies.json',                name: 'Analogies',                id: 'analogies',             icon: '🧩' },
+  { file: 'Analyzing_Arguments.json',      name: 'Analyzing Arguments',      id: 'analyzing-arguments',   icon: '⚖️' },
+  { file: 'Artificial_Language.json',      name: 'Artificial Language',      id: 'artificial-language',   icon: '🔣' },
+  { file: 'Cause_and_Effect.json',         name: 'Cause and Effect',         id: 'cause-and-effect',      icon: '🔄' },
+  { file: 'Course_of_Action.json',         name: 'Course of Action',         id: 'course-of-action',      icon: '🛤️' },
+  { file: 'Essential_Part.json',           name: 'Essential Part',           id: 'essential-part',        icon: '🔑' },
+  { file: 'Letter_and_Symbol_Series.json', name: 'Letter & Symbol Series',   id: 'letter-symbol-series',  icon: '🔠' },
+  { file: 'Logical_Deduction.json',        name: 'Logical Deduction',        id: 'logical-deduction',     icon: '🧠' },
+  { file: 'Logical_Games.json',            name: 'Logical Games',            id: 'logical-games',         icon: '🎮' },
+  { file: 'Logical_Problems.json',         name: 'Logical Problems',         id: 'logical-problems',      icon: '❓' },
+  { file: 'Making_Judgments.json',         name: 'Making Judgments',         id: 'making-judgments',      icon: '🔨' },
+  { file: 'Matching_Definitions.json',     name: 'Matching Definitions',     id: 'matching-definitions',  icon: '📖' },
+  { file: 'Number_Series.json',            name: 'Number Series',            id: 'number-series',         icon: '🔢' },
+  { file: 'Statement_and_Argument.json',   name: 'Statement and Argument',   id: 'statement-argument',    icon: '🗣️' },
+  { file: 'Statement_and_Assumption.json', name: 'Statement and Assumption', id: 'statement-assumption',  icon: '💡' },
+  { file: 'Statement_and_Conclusion.json', name: 'Statement and Conclusion', id: 'statement-conclusion',  icon: '🎯' },
+  { file: 'Theme_Detection.json',          name: 'Theme Detection',          id: 'theme-detection',       icon: '🕵️' },
+  { file: 'Verbal_Classification.json',    name: 'Verbal Classification',    id: 'verbal-classification', icon: '📂' },
+  { file: 'Verbal_Reasoning.json',         name: 'Verbal Reasoning',         id: 'verbal-reasoning',      icon: '💬' }
+];
+
+const LOGICAL_JSON_BASE = 'logical-generation/outputs/';
+
+const REASONING_FILE_MAP = [
+  { file: 'Analogy.json', name: 'Analogy', id: 'analogy', icon: '🔄' },
+  { file: 'Arithmetic_Reasoning.json', name: 'Arithmetic Reasoning', id: 'arithmetic-reasoning', icon: '🔢' },
+  { file: 'Blood_Relation_Test.json', name: 'Blood Relation Test', id: 'blood-relation-test', icon: '🩸' },
+  { file: 'Cause_and_Effect.json', name: 'Cause and Effect', id: 'cause-and-effect', icon: '⚖️' },
+  { file: 'Character_Puzzles.json', name: 'Character Puzzles', id: 'character-puzzles', icon: '🧩' },
+  { file: 'Classification.json', name: 'Classification', id: 'classification', icon: '📂' },
+  { file: 'Cube_and_Cuboid.json', name: 'Cube and Cuboid', id: 'cube-and-cuboid', icon: '🧊' },
+  { file: 'Data_Sufficiency.json', name: 'Data Sufficiency', id: 'data-sufficiency', icon: '📊' },
+  { file: 'Dice.json', name: 'Dice', id: 'dice', icon: '🎲' },
+  { file: 'Direction_Sense_Test.json', name: 'Direction Sense Test', id: 'direction-sense-test', icon: '🧭' },
+  { file: 'Logical_Sequence_of_Words.json', name: 'Logical Sequence of Words', id: 'logical-sequence-of-words', icon: '🔡' },
+  { file: 'Seating_Arrangement.json', name: 'Seating Arrangement', id: 'seating-arrangement', icon: '🪑' },
+  { file: 'Series_Completion.json', name: 'Series Completion', id: 'series-completion', icon: '📈' },
+  { file: 'Syllogism.json', name: 'Syllogism', id: 'syllogism', icon: '🧠' },
+  { file: 'Venn_Diagrams.json', name: 'Venn Diagrams', id: 'venn-diagrams', icon: '⭕' },
+  { file: 'Verification_of_Truth.json', name: 'Verification of Truth', id: 'verification-of-truth', icon: '✅' }
+];
+
+const REASONING_JSON_BASE = 'backend/reasoning/';
+
+const C_LANGUAGE_FILE_MAP = [
+  { file: 'Arrays__in_c_language.json', name: 'Arrays', id: 'arrays', icon: '💻' },
+  { file: 'Bitwise_Operators__in_c_language.json', name: 'Bitwise Operators', id: 'bitwise-operators', icon: '💻' },
+  { file: 'C_Preprocessor__in_c_language.json', name: 'C Preprocessor', id: 'c-preprocessor', icon: '💻' },
+  { file: 'Command_Line_Arguments__in_c_language.json', name: 'Command Line Arguments', id: 'command-line-arguments', icon: '💻' },
+  { file: 'Complicated_Declarations_in_c_language.json', name: 'Complicated Declarations', id: 'complicated-declarations', icon: '💻' },
+  { file: 'Const__in_c_language.json', name: 'Const', id: 'const', icon: '💻' },
+  { file: 'Control_Instructions__in_c_language.json', name: 'Control Instructions', id: 'control-instructions', icon: '💻' },
+  { file: 'Declarations_and_Initializations__in_c_language.json', name: 'Declarations And Initializations', id: 'declarations-and-initializations', icon: '💻' },
+  { file: 'Expressions__in_c_language.json', name: 'Expressions', id: 'expressions', icon: '💻' },
+  { file: 'Floating_Point_Issues__in_c_language.json', name: 'Floating Point Issues', id: 'floating-point-issues', icon: '💻' },
+  { file: 'Functions__in_c_language.json', name: 'Functions', id: 'functions', icon: '💻' },
+  { file: 'Input_Output__in_c_language.json', name: 'Input & Output', id: 'input-output', icon: '💻' },
+  { file: 'Library_Functions__in_c_language.json', name: 'Library Functions', id: 'library-functions', icon: '💻' },
+  { file: 'Memory_Allocation__in_c_language.json', name: 'Memory Allocation', id: 'memory-allocation', icon: '💻' },
+  { file: 'Pointers__in_c_language.json', name: 'Pointers', id: 'pointers', icon: '💻' },
+  { file: 'Strings__in_c_language.json', name: 'Strings', id: 'strings', icon: '💻' },
+  { file: 'Structures__Unions_Enums__in_c_language.json', name: 'Structures Unions Enums', id: 'structures-unions-enums', icon: '💻' },
+  { file: 'Typedef__in_c_language.json', name: 'Typedef', id: 'typedef', icon: '💻' },
+  { file: 'Variable_Number_of_Arguments__in_c_language.json', name: 'Variable Number Of Arguments', id: 'variable-number-of-arguments', icon: '💻' }
+];
+
+const C_LANGUAGE_JSON_BASE = 'c-generation/outputs/';
+
+const DATABASE_FILE_MAP = [
+  { file: 'Advanced_SQL.json', name: 'Advanced SQL', id: 'advanced-sql', e: '🗄️', bg: '#020c1e' },
+  { file: 'Data_Modeling_with_ER_Model.json', name: 'Data Modeling with ER Model', id: 'data-modeling-with-er-model', e: '🗄️', bg: '#130010' },
+  { file: 'Data_Models_into_Database_Designs.json', name: 'Data Models into Database Designs', id: 'data-models-into-database-designs', e: '🗄️', bg: '#120d00' },
+  { file: 'Data_Warehousing.json', name: 'Data Warehousing', id: 'data-warehousing', e: '🗄️', bg: '#011410' },
+  { file: 'Data_and_Database_Administration.json', name: 'Data and Database Administration', id: 'data-and-database-administration', e: '🗄️', bg: '#031a09' },
+  { file: 'Database_Design_Using_Normalization.json', name: 'Database Design Using Normalization', id: 'database-design-using-normalization', e: '🗄️', bg: '#130202' },
+  { file: 'Database_Processing_for_BIS.json', name: 'Database Processing for BIS', id: 'database-processing-for-bis', e: '🗄️', bg: '#7c5cfc12' },
+  { file: 'Database_Redesign.json', name: 'Database Redesign', id: 'database-redesign', e: '🗄️', bg: '#020c1e' },
+  { file: 'Distributed_Databases.json', name: 'Distributed Databases', id: 'distributed-databases', e: '🗄️', bg: '#130010' },
+  { file: 'ER_Model_and_Business_Rules.json', name: 'ER Model and Business Rules', id: 'er-model-and-business-rules', e: '🗄️', bg: '#120d00' },
+  { file: 'Introduction_to_Database.json', name: 'Introduction to Database', id: 'introduction-to-database', e: '🗄️', bg: '#011410' },
+  { file: 'Introduction_to_SQL.json', name: 'Introduction to SQL', id: 'introduction-to-sql', e: '🗄️', bg: '#031a09' },
+  { file: 'JDBC,_Java_Server_Pages,_and_MySQL.json', name: 'JDBC, Java Server Pages, and MySQL', id: 'jdbc-java-server-pages-and-mysql', e: '🗄️', bg: '#130202' },
+  { file: 'Logical_Database_Design.json', name: 'Logical Database Design', id: 'logical-database-design', e: '🗄️', bg: '#7c5cfc12' },
+  { file: 'Managing_Databases_with_Oracle.json', name: 'Managing Databases with Oracle', id: 'managing-databases-with-oracle', e: '🗄️', bg: '#020c1e' },
+  { file: 'Managing_Multiuser_Databases.json', name: 'Managing Multiuser Databases', id: 'managing-multiuser-databases', e: '🗄️', bg: '#130010' },
+  { file: 'Modeling_Data_in_the_Organization.json', name: 'Modeling Data in the Organization', id: 'modeling-data-in-the-organization', e: '🗄️', bg: '#120d00' },
+  { file: 'ODBC,_OLE_DB,_ADO,_and_ASP.json', name: 'ODBC, OLE DB, ADO, and ASP', id: 'odbc-ole-db-ado-and-asp', e: '🗄️', bg: '#011410' },
+  { file: 'Object-Oriented_Data_Modeling.json', name: 'Object-Oriented Data Modeling', id: 'object-oriented-data-modeling', e: '🗄️', bg: '#031a09' },
+  { file: 'Object-Oriented_Database.json', name: 'Object-Oriented Database', id: 'object-oriented-database', e: '🗄️', bg: '#130202' },
+  { file: 'Physical_Database_Design.json', name: 'Physical Database Design', id: 'physical-database-design', e: '🗄️', bg: '#7c5cfc12' },
+  { file: 'SQL_Server_2000.json', name: 'SQL Server 2000', id: 'sql-server-2000', e: '🗄️', bg: '#020c1e' },
+  { file: 'SQL_for_Database_Construction.json', name: 'SQL for Database Construction', id: 'sql-for-database-construction', e: '🗄️', bg: '#130010' },
+  { file: 'The_Client-Server_Database.json', name: 'The Client-Server Database', id: 'the-client-server-database', e: '🗄️', bg: '#120d00' },
+  { file: 'The_Database_Development_Process.json', name: 'The Database Development Process', id: 'the-database-development-process', e: '🗄️', bg: '#011410' },
+  { file: 'The_Database_Environment.json', name: 'The Database Environment', id: 'the-database-environment', e: '🗄️', bg: '#031a09' },
+  { file: 'The_Internet_Database_Environment.json', name: 'The Internet Database Environment', id: 'the-internet-database-environment', e: '🗄️', bg: '#130202' },
+  { file: 'The_Relational_Model_and_Normalization.json', name: 'The Relational Model and Normalization', id: 'the-relational-model-and-normalization', e: '🗄️', bg: '#7c5cfc12' },
+  { file: 'XML_and_ADO.NET.json', name: 'XML and ADO.NET', id: 'xml-and-ado-net', e: '🗄️', bg: '#020c1e' }
+];
+
+const DATABASE_JSON_BASE = 'database-generation/outputs/';
+
+const NETWORKS_FILE_MAP = [
+  { file: 'EIGRP_and_OSPF.json', name: 'EIGRP and OSPF', id: 'eigrp-and-ospf', e: '🌐', bg: '#120d00' },
+  { file: 'IOS_and_Security_Device_Manager.json', name: 'IOS and Security Device Manager', id: 'ios-and-security-device-manager', e: '🌐', bg: '#031a09' },
+  { file: 'IP_Routing.json', name: 'IP Routing', id: 'ip-routing', e: '🌐', bg: '#130202' },
+  { file: 'IPv6.json', name: 'IPv6', id: 'ipv6', e: '🌐', bg: '#7c5cfc12' },
+  { file: 'Internetworking.json', name: 'Internetworking', id: 'internetworking', e: '🌐', bg: '#020c1e' },
+  { file: 'Managing_a_Cisco_Internetwork.json', name: 'Managing a Cisco Internetwork', id: 'managing-a-cisco-internetwork', e: '🌐', bg: '#130010' },
+  { file: 'Network_Address_Translation.json', name: 'Network Address Translation', id: 'network-address-translation', e: '🌐', bg: '#011410' },
+  { file: 'Networking_Basics.json', name: 'Networking Basics', id: 'networking-basics', e: '🌐', bg: '#7c5cfc12' },
+  { file: 'Security.json', name: 'Security', id: 'security', e: '🌐', bg: '#020c1e' },
+  { file: 'Spanning_Tree_Protocol.json', name: 'Spanning Tree Protocol', id: 'spanning-tree-protocol', e: '🌐', bg: '#130010' },
+  { file: 'Subnetting.json', name: 'Subnetting', id: 'subnetting', e: '🌐', bg: '#130202' },
+  { file: 'TCP_IP.json', name: 'TCP/IP', id: 'tcp-ip', e: '🌐', bg: '#7c5cfc12' },
+  { file: 'Virtual_LANs.json', name: 'Virtual LANs', id: 'virtual-lans', e: '🌐', bg: '#130010' },
+  { file: 'Wide_Area_Networks.json', name: 'Wide Area Networks', id: 'wide-area-networks', e: '🌐', bg: '#120d00' },
+  { file: 'Wireless_Technologies.json', name: 'Wireless Technologies', id: 'wireless-technologies', e: '🌐', bg: '#011410' }
+];
+
+const NETWORKS_JSON_BASE = 'networking-generation/outputs/';
+
+const JAVA_LANGUAGE_FILE_MAP = [
+  { file: 'Assertions_in_java.json', name: 'Assertions', id: 'assertions', icon: '☕' },
+  { file: 'Declarations_and_Access_Control_in_java.json', name: 'Declarations And Access Control', id: 'declarations-and-access-control', icon: '☕' },
+  { file: 'Exceptions_in_java.json', name: 'Exceptions', id: 'exceptions', icon: '☕' },
+  { file: 'Flow_Control_in_java.json', name: 'Flow Control', id: 'flow-control', icon: '☕' },
+  { file: 'Garbage_Collections_in_java.json', name: 'Garbage Collections', id: 'garbage-collections', icon: '☕' },
+  { file: 'Inner_Classes_in_java.json', name: 'Inner Classes', id: 'inner-classes', icon: '☕' },
+  { file: 'Java.lang_Class.json', name: 'Java.lang Class', id: 'java-lang-class', icon: '☕' },
+  { file: 'Language_Fundamentals_in_java.json', name: 'Language Fundamentals', id: 'language-fundamentals', icon: '☕' },
+  { file: 'Objects_and_Collections_in_java.json', name: 'Objects And Collections', id: 'objects-and-collections', icon: '☕' },
+  { file: 'Operators_and_Assignments_in_java.json', name: 'Operators And Assignments', id: 'operators-and-assignments', icon: '☕' },
+  { file: 'Threads_in_java.json', name: 'Threads', id: 'threads', icon: '☕' }
+];
+
+const JAVA_LANGUAGE_JSON_BASE = 'java-generation/outputs/';
+
+// Fallback topic list derived from map
+const FALLBACK_TOPICS_VERBAL = VERBAL_FILE_MAP.map(e => ({name: e.name, id: e.id, icon: e.icon, count: 0}));
+
+const FALLBACK_QUESTIONS = {
+  "percentage":[
+    {q:"If 30% of a number is 90, what is the number?",opts:["250","300","270","320"],ans:1,diff:"Easy",exp:"30% of x = 90 → x = 300."},
+    {q:"A price rose from ₹800 to ₹1000. What is the % increase?",opts:["20%","25%","15%","30%"],ans:1,diff:"Easy",exp:"(200/800)×100 = 25%."},
+    {q:"If 15% of A = 20% of B, then A:B is?",opts:["3:4","4:3","2:3","3:2"],ans:1,diff:"Medium",exp:"15A=20B → A/B=4:3."},
+    {q:"Two discounts 20% then 10% = single discount of?",opts:["28%","30%","29%","25%"],ans:0,diff:"Hard",exp:"1−(0.8×0.9)=28%."},
+    {q:"Population of 40000 grows 5% p.a. After 2 years?",opts:["44000","44100","44200","44050"],ans:1,diff:"Easy",exp:"40000×1.05²=44100."},
+  ],
+  "c-basics": [
+    {q:"Who developed the C programming language?",opts:["Dennis Ritchie","Ken Thompson","Bjarne Stroustrup","James Gosling"],ans:0,diff:"Easy",exp:"C was developed by Dennis Ritchie at Bell Labs."},
+    {q:"Which of the following is a correct way to start a single-line comment in C?",opts:["#","//","/*","--"],ans:1,diff:"Easy",exp:"In C, single-line comments start with //."}
+  ]
+};
+
+const fallbackQ = (topicId, i) => {
+  if (state.category === 'verbal') {
+    const verbalPool = [
+      {
+        q: `Choose the correct synonym for the word: "ADVERSITY"`,
+        opts: ["Prosperity", "Misfortune", "Humility", "Simplicity"],
+        ans: 1,
+        exp: "Adversity means a state of serious or continued difficulty or misfortune. Therefore, 'Misfortune' is the synonym."
+      },
+      {
+        q: `Identify the grammatical error in the sentence: "Each of the players have finished their practice."`,
+        opts: ["Each of the", "players have", "finished their", "No error"],
+        ans: 1,
+        exp: "'Each' is a singular pronoun, which requires the singular verb 'has' instead of 'have'."
+      },
+      {
+        q: `Complete the sentence: The candidate's ________ response impressed the interviewers, showing she could think on her feet.`,
+        opts: ["hesitant", "spontaneous", "rehearsed", "tardy"],
+        ans: 1,
+        exp: "A response that is 'spontaneous' represents the ability to think quickly and naturally on one's feet."
+      },
+      {
+        q: `Select the option that best expresses the meaning of the idiom: "Spill the beans"`,
+        opts: ["To reveal a secret", "To perform a task poorly", "To be extremely happy", "To cause an accident"],
+        ans: 0,
+        exp: "The idiom 'spill the beans' means to reveal secret information prematurely or unintentionally."
+      },
+      {
+        q: `Choose the word that is opposite in meaning to: "EPHEMERAL"`,
+        opts: ["Transient", "Permanent", "Fleeting", "Short-lived"],
+        ans: 1,
+        exp: "Ephemeral means lasting for a very short time. Its antonym is 'Permanent'."
+      }
+    ];
+    const qObj = verbalPool[i % verbalPool.length];
+    return {
+      q: `[${topicId}] Q${i+1}: ${qObj.q}`,
+      opts: qObj.opts,
+      ans: qObj.ans,
+      diff: ["Easy", "Medium", "Hard"][i % 3],
+      exp: qObj.exp
+    };
+  } else {
+    return {
+      q: `[${topicId}] Q${i+1}: A train travels 360 km in 4 hrs. Speed?`,
+      opts: ["80 km/h", "90 km/h", "85 km/h", "95 km/h"],
+      ans: 1,
+      diff: ["Easy", "Medium", "Hard"][i % 3],
+      exp: "Speed = Distance/Time = 360/4 = 90 km/h."
+    };
+  }
+};
+
+
+
+function parseJSONResilient(text) {
+  let cleaned = text.replace(/```json/gi, '').replace(/```/g, '');
+  cleaned = cleaned.replace(/"?===\s*CHECKPOINT.*?==="(,)?/g, '');
+  cleaned = cleaned.replace(/===\s*CHECKPOINT.*?===(,)?/g, '');
+  cleaned = cleaned.replace(/"([A-D])":\s*"([^"]+)"/g, '"$1) $2"');
+  cleaned = cleaned.replace(/,\s*\]/g, ']');
+
+  try {
+    return JSON.parse(cleaned);
+  } catch(e) {
+    let lastBrace = cleaned.lastIndexOf('}');
+    while (lastBrace !== -1) {
+      let firstBracket = cleaned.indexOf('[');
+      if (firstBracket === -1) firstBracket = 0;
+      let validPart = cleaned.substring(firstBracket, lastBrace + 1);
+      validPart = validPart.replace(/,\s*$/, '') + ']';
+      try {
+        return JSON.parse(validPart);
+      } catch(e2) {
+        lastBrace = cleaned.lastIndexOf('}', lastBrace - 1);
+      }
+    }
+    return [];
+  }
+}
+
+async function loadVerbalQuestionsFromJSON(topicId, count) {
+  const entry = VERBAL_FILE_MAP.find(e => e.id === topicId);
+  if (!entry) {
+    console.warn(`[Practice] No JSON mapping for verbal topic id: "${topicId}"`);
+    return [];
+  }
+  const url = VERBAL_JSON_BASE + entry.file;
+  console.log(`[Practice] Fetching ${url} for topic "${entry.name}" (${count} questions requested)`);
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status} fetching ${entry.file}`);
+  const rawText = await resp.text();
+  const raw = parseJSONResilient(rawText);
+  const qs = normalizeVerbalJSON(raw, count);
+  console.log(`[Practice] ✅ ${qs.length} questions loaded from ${entry.file}`);
+  return qs;
+}
+
+async function loadLogicalQuestionsFromJSON(topicId, count) {
+  const entry = LOGICAL_FILE_MAP.find(e => e.id === topicId);
+  if (!entry) {
+    console.warn(`[Practice] No JSON mapping for logical topic id: "${topicId}"`);
+    return [];
+  }
+  const url = LOGICAL_JSON_BASE + entry.file;
+  console.log(`[Practice] Fetching ${url} for topic "${entry.name}" (${count} questions requested)`);
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status} fetching ${entry.file}`);
+  const rawText = await resp.text();
+  const raw = parseJSONResilient(rawText);
+  const qs = normalizeVerbalJSON(raw, count);
+  console.log(`[Practice] ✅ ${qs.length} questions loaded from ${entry.file}`);
+  return qs;
+}
+
+async function loadReasoningQuestionsFromJSON(topicId, count) {
+  const entry = REASONING_FILE_MAP.find(e => e.id === topicId);
+  if (!entry) {
+    console.warn(`[Practice] No JSON mapping for reasoning topic id: "${topicId}"`);
+    return [];
+  }
+  const url = REASONING_JSON_BASE + entry.file;
+  console.log(`[Practice] Fetching ${url} for topic "${entry.name}" (${count} questions requested)`);
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status} fetching ${entry.file}`);
+  const rawText = await resp.text();
+  const raw = parseJSONResilient(rawText);
+  const qs = normalizeVerbalJSON(raw, count);
+  console.log(`[Practice] ✅ ${qs.length} questions loaded from ${entry.file}`);
+  return qs;
+}
+
+// ═══════════════════════════════════════════════
+//  APP STATE  (practice = always no timer)
+// ═══════════════════════════════════════════════
+let state = {
+  topic:"Percentage", topicId:"percentage", category:"arithmetic",
+  qCount:10, diff:"mixed",
+  questions:[], current:0, answers:[],
+  startTime: null
+};
+
+// ═══════════════════════════════════════════════
+//  HELPERS
+// ═══════════════════════════════════════════════
+function showScreen(id){
+  document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+  window.scrollTo(0,0);
+}
+function showLoader(msg){
+  document.getElementById("loader-text").textContent = msg||"Loading…";
+  document.getElementById("quiz-loader").style.display = "flex";
+}
+function hideLoader(){
+  document.getElementById("quiz-loader").style.display = "none";
+}
+
+// ═══════════════════════════════════════════════
+//  ACCORDION CATEGORIES LOGIC
+// ═══════════════════════════════════════════════
+async function toggleAccordion(cat) {
+  const item = document.getElementById(`accordion-item-${cat}`);
+  if (!item) return;
+
+  const isActive = item.classList.contains("active");
+
+  // Collapse all accordion items first
+  document.querySelectorAll(".accordion-item").forEach(x => {
+    x.classList.remove("active");
+  });
+
+  // If was not active, expand it, load topics, and update state
+  if (!isActive) {
+    item.classList.add("active");
+    state.category = cat;
+    
+    // Clear previously selected topic
+    state.topic = "";
+    state.topicId = "";
+
+    // Sync URL without full reload
+    const p = new URLSearchParams(window.location.search);
+    p.set("cat", cat);
+    p.delete("id");
+    p.delete("name");
+    history.replaceState(null, "", window.location.pathname + "?" + p.toString());
+
+    // Update titles based on category
+    const heroTitle = document.getElementById("hero-title");
+    const statQ = document.getElementById("stat-q-num");
+    const statT = document.getElementById("stat-t-num");
+    if (cat === "verbal") {
+      if (heroTitle) heroTitle.innerHTML = 'Practice <span>Verbal Ability</span><br>Learn at Your Pace';
+      if (statQ) statQ.textContent = '1900+';
+      if (statT) statT.textContent = '19';
+    } else if (cat === "logical") {
+      if (heroTitle) heroTitle.innerHTML = 'Practice <span>Logical Reasoning</span><br>Learn at Your Pace';
+      if (statQ) statQ.textContent = '1900+';
+      if (statT) statT.textContent = '19';
+    } else if (cat === "reasoning") {
+      if (heroTitle) heroTitle.innerHTML = 'Practice <span>Reasoning</span><br>Learn at Your Pace';
+      if (statQ) statQ.textContent = '1600+';
+      if (statT) statT.textContent = '16';
+    } else if (cat === "c-language") {
+      if (heroTitle) heroTitle.innerHTML = 'Practice <span>C Language</span><br>Learn at Your Pace';
+      if (statQ) statQ.textContent = '1500+';
+      if (statT) statT.textContent = '9';
+    } else {
+      if (heroTitle) heroTitle.innerHTML = 'Practice <span>Arithmetic</span><br>Learn at Your Pace';
+      if (statQ) statQ.textContent = '3200+';
+      if (statT) statT.textContent = '32';
+    }
+
+    const hubLink = document.getElementById('pd-hub-link');
+    if (hubLink) {
+      if (cat === 'verbal') {
+        hubLink.innerHTML = '🔡 Verbal Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_verbal.html'; };
+      } else if (cat === 'logical') {
+        hubLink.innerHTML = '💡 Logical Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_logical.html'; };
+      } else if (cat === 'reasoning') {
+        hubLink.innerHTML = '🧠 Reasoning Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_reasoning.html'; };
+      } else {
+        hubLink.innerHTML = '🔢 Arithmetic Hub';
+        hubLink.onclick = () => { window.location.href = 'aarovaai_aptitude.html'; };
+      }
+    }
+
+    // Load topics dynamically
+    await loadTopicsForCategory(cat);
+  }
+}
+
+function switchPracticeModule(mod) {
+  const btnApt = document.getElementById('btn-mod-aptitude');
+  const btnTech = document.getElementById('btn-mod-technical');
+  const aptAcc = document.getElementById('aptitude-accordions');
+  const techAcc = document.getElementById('technical-accordions');
+  
+  if (mod === 'aptitude') {
+    btnApt.classList.add('active');
+    btnTech.classList.remove('active');
+    aptAcc.style.display = 'block';
+    techAcc.style.display = 'none';
+    
+    // Default open Arithmetic
+    if (state.category === 'c-language' || state.category === 'java' || state.category === 'database' || state.category === 'networks' || !state.category) {
+      document.querySelectorAll(".accordion-item").forEach(x => x.classList.remove("active"));
+      toggleAccordion('arithmetic');
+    }
+  } else {
+    btnTech.classList.add('active');
+    btnApt.classList.remove('active');
+    techAcc.style.display = 'block';
+    aptAcc.style.display = 'none';
+    
+    // Default open C Language
+    document.querySelectorAll(".accordion-item").forEach(x => x.classList.remove("active"));
+    toggleAccordion('c-language');
+  }
+}
+
+async function loadTopicsForCategory(cat) {
+  const content = document.getElementById(`accordion-content-${cat}`);
+  if (!content) return;
+
+  // Render shimmer skeleton cards
+  content.innerHTML = `
+    <div class="skeleton-grid">
+      ${Array(6).fill().map(() => `
+        <div class="skeleton-card">
+          <div class="skeleton-icon skeleton-pulse"></div>
+          <div class="skeleton-info">
+            <div class="skeleton-title skeleton-pulse"></div>
+            <div class="skeleton-subtitle skeleton-pulse"></div>
+          </div>
+          <div class="skeleton-shimmer"></div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+
+  // ── Verbal: load directly from VERBAL_FILE_MAP (no API needed) ──
+  if (cat === 'verbal') {
+    console.log('[Practice] Loading verbal topics from VERBAL_FILE_MAP (', VERBAL_FILE_MAP.length, 'entries)');
+    // Fetch each JSON to get real question count
+    const topicsWithCounts = await Promise.all(VERBAL_FILE_MAP.map(async (entry) => {
+      try {
+        const resp = await fetch(VERBAL_JSON_BASE + entry.file);
+        if (resp.ok) {
+          const raw = await resp.json();
+          const count = Array.isArray(raw) ? raw.length : (raw.questions||[]).length;
+          console.log(`[Practice] ${entry.file}: ${count} questions`);
+          return { id: entry.id, name: entry.name, icon: entry.icon, count };
+        }
+      } catch(e) {
+        console.warn(`[Practice] Could not load ${entry.file}:`, e.message);
+      }
+      return { id: entry.id, name: entry.name, icon: entry.icon, count: 0 };
+    }));
+    buildTopicGridForAccordion(cat, topicsWithCounts, state.topicId);
+    return;
+  }
+
+  // ── Logical: load directly from LOGICAL_FILE_MAP (no API needed) ──
+  if (cat === 'logical') {
+    console.log('[Practice] Loading logical topics from LOGICAL_FILE_MAP (', LOGICAL_FILE_MAP.length, 'entries)');
+    // Fetch each JSON to get real question count
+    const topicsWithCounts = await Promise.all(LOGICAL_FILE_MAP.map(async (entry) => {
+      try {
+        const resp = await fetch(LOGICAL_JSON_BASE + entry.file);
+        if (resp.ok) {
+          const raw = await resp.json();
+          const count = Array.isArray(raw) ? raw.length : (raw.questions||[]).length;
+          console.log(`[Practice] ${entry.file}: ${count} questions`);
+          return { id: entry.id, name: entry.name, icon: entry.icon, count };
+        }
+      } catch(e) {
+        console.warn(`[Practice] Could not load ${entry.file}:`, e.message);
+      }
+      return { id: entry.id, name: entry.name, icon: entry.icon, count: 0 };
+    }));
+    buildTopicGridForAccordion(cat, topicsWithCounts, state.topicId);
+    return;
+  }
+
+  // ── Reasoning: load directly from REASONING_FILE_MAP (no API needed) ──
+  if (cat === 'reasoning') {
+    console.log('[Practice] Loading reasoning topics from REASONING_FILE_MAP (', REASONING_FILE_MAP.length, 'entries)');
+    // Fetch each JSON to get real question count
+    const topicsWithCounts = await Promise.all(REASONING_FILE_MAP.map(async (entry) => {
+      try {
+        const resp = await fetch(REASONING_JSON_BASE + entry.file);
+        if (resp.ok) {
+          const raw = await resp.json();
+          const count = Array.isArray(raw) ? raw.length : (raw.questions||[]).length;
+          console.log(`[Practice] ${entry.file}: ${count} questions`);
+          return { id: entry.id, name: entry.name, icon: entry.icon, count };
+        }
+      } catch(e) {
+        console.warn(`[Practice] Could not load ${entry.file}:`, e.message);
+      }
+      return { id: entry.id, name: entry.name, icon: entry.icon, count: 0 };
+    }));
+    buildTopicGridForAccordion(cat, topicsWithCounts, state.topicId);
+    return;
+  }
+
+  // ── C-Language: load directly from C_LANGUAGE_FILE_MAP ──
+  if (cat === 'c-language') {
+    console.log('[Practice] Loading c-language topics from C_LANGUAGE_FILE_MAP');
+    const topicsWithCounts = await Promise.all(C_LANGUAGE_FILE_MAP.map(async (entry) => {
+      try {
+        const resp = await fetch(C_LANGUAGE_JSON_BASE + entry.file);
+        if (resp.ok) {
+          const raw = await resp.json();
+          const count = Array.isArray(raw) ? raw.length : (raw.questions||[]).length;
+          return { id: entry.id, name: entry.name, icon: entry.icon || entry.e || "💻", count };
+        }
+      } catch(e) {
+        console.warn(`[Practice] Could not load ${entry.file}:`, e.message);
+      }
+      return { id: entry.id, name: entry.name, icon: entry.icon || entry.e || "💻", count: 0 };
+    }));
+    buildTopicGridForAccordion(cat, topicsWithCounts, state.topicId);
+    return;
+  }
+
+  // ── Java-Language: load directly from JAVA_LANGUAGE_FILE_MAP ──
+  if (cat === 'java') {
+    console.log('[Practice] Loading java topics from JAVA_LANGUAGE_FILE_MAP');
+    const topicsWithCounts = await Promise.all(JAVA_LANGUAGE_FILE_MAP.map(async (entry) => {
+      try {
+        const resp = await fetch(JAVA_LANGUAGE_JSON_BASE + entry.file);
+        if (resp.ok) {
+          const raw = await resp.json();
+          const count = Array.isArray(raw) ? raw.length : (raw.questions||[]).length;
+          return { id: entry.id, name: entry.name, icon: entry.icon || entry.e || "☕", count };
+        }
+      } catch(e) {
+        console.warn(`[Practice] Could not load ${entry.file}:`, e.message);
+      }
+      return { id: entry.id, name: entry.name, icon: entry.icon || entry.e || "☕", count: 0 };
+    }));
+    buildTopicGridForAccordion(cat, topicsWithCounts, state.topicId);
+    return;
+  }
+
+  // ── Database: load directly from DATABASE_FILE_MAP ──
+  if (cat === 'database') {
+    console.log('[Practice] Loading database topics from DATABASE_FILE_MAP');
+    const topicsWithCounts = await Promise.all(DATABASE_FILE_MAP.map(async (entry) => {
+      try {
+        const resp = await fetch(DATABASE_JSON_BASE + entry.file);
+        if (resp.ok) {
+          const raw = await resp.json();
+          const count = Array.isArray(raw) ? raw.length : (raw.questions||[]).length;
+          return { id: entry.id, name: entry.name, icon: entry.icon || entry.e || "🗄️", count };
+        }
+      } catch(e) {
+        console.warn(`[Practice] Could not load ${entry.file}:`, e.message);
+      }
+      return { id: entry.id, name: entry.name, icon: entry.icon || entry.e || "🗄️", count: 0 };
+    }));
+    buildTopicGridForAccordion(cat, topicsWithCounts, state.topicId);
+    return;
+  }
+
+  // ── Networks: load directly from NETWORKS_FILE_MAP ──
+  if (cat === 'networks') {
+    console.log('[Practice] Loading networks topics from NETWORKS_FILE_MAP');
+    const topicsWithCounts = await Promise.all(NETWORKS_FILE_MAP.map(async (entry) => {
+      try {
+        const resp = await fetch(NETWORKS_JSON_BASE + entry.file);
+        if (resp.ok) {
+          const raw = await resp.json();
+          const count = Array.isArray(raw) ? raw.length : (raw.questions||[]).length;
+          return { id: entry.id, name: entry.name, icon: entry.icon || entry.e || "🌐", count };
+        }
+      } catch(e) {
+        console.warn(`[Practice] Could not load ${entry.file}:`, e.message);
+      }
+      return { id: entry.id, name: entry.name, icon: entry.icon || entry.e || "🌐", count: 0 };
+    }));
+    buildTopicGridForAccordion(cat, topicsWithCounts, state.topicId);
+    return;
+  }
+
+  // ── Other categories: try API, fall back to hardcoded list ──
+  let topics = null;
+  let hasError = false;
+
+  try {
+    const res = await apiGetTopics({ category: cat });
+    if (res && res.topics && res.topics.length) {
+      topics = res.topics.map(t => ({ id: t.id, name: t.n, icon: t.e || "📊", count: t.total || 100 }));
+    } else {
+      hasError = true;
+    }
+  } catch (e) {
+    console.error("API error loading topics:", e);
+    hasError = true;
+  }
+
+  if (hasError) {
+    content.innerHTML = `
+      <div class="error-state">
+        <div class="error-msg">Unable to load topics.</div>
+        <button class="btn-retry" onclick="event.stopPropagation(); retryLoadTopics('${cat}')">Retry</button>
+      </div>
+    `;
+    return;
+  }
+
+  // Render topic cards
+  buildTopicGridForAccordion(cat, topics || FALLBACK_TOPICS, state.topicId);
+}
+
+function retryLoadTopics(cat) {
+  loadTopicsForCategory(cat);
+}
+
+function buildTopicGridForAccordion(cat, topics, selectedId = null) {
+  const content = document.getElementById(`accordion-content-${cat}`);
+  if (!content) return;
+
+  if (!topics || !topics.length) {
+    content.innerHTML = '<div style="text-align:center;color:var(--muted);padding:20px">No topics found.</div>';
+    return;
+  }
+
+  content.innerHTML = `
+    <div class="topics-grid">
+      ${topics.map((t, i) => {
+        const id = t.id || t.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        const name = t.name || t.n;
+        const icon = t.icon || t.e || "📊";
+        const cnt = t.count || t.total || 100;
+        
+        // If a topic is explicitly selected in URL or it's the first topic we render
+        const isSelected = selectedId ? id === selectedId : false;
+        
+        return `
+          <div class="topic-card${isSelected ? ' selected' : ''}" data-id="${id}" onclick="event.stopPropagation(); selectAccordionTopic('${name.replace(/'/g, "\\'")}', '${id}', this)">
+            <div class="topic-icon">${icon}</div>
+            <div>
+              <div class="topic-name">${name}</div>
+              <div class="topic-meta">${cnt} questions</div>
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+function selectAccordionTopic(name, id, el) {
+  document.querySelectorAll(".topic-card").forEach(c => c.classList.remove("selected"));
+  if (el) el.classList.add("selected");
+  state.topic = name;
+  state.topicId = id;
+  try {
+    localStorage.setItem('aarovaai_last_topic', JSON.stringify({id, name, cat: state.category, mode: state.mode}));
+  } catch(e) {
+    console.error('Failed to save last topic to local storage', e);
+  }
+}
+
+function initConfigRows(){
+  document.getElementById("qcount-row").querySelectorAll(".config-btn").forEach(btn=>{
+    btn.onclick=function(){ this.parentElement.querySelectorAll(".config-btn").forEach(b=>b.classList.remove("active")); this.classList.add("active"); state.qCount=+this.dataset.val; };
+  });
+  document.getElementById("diff-row").querySelectorAll(".config-btn").forEach(btn=>{
+    btn.onclick=function(){ this.parentElement.querySelectorAll(".config-btn").forEach(b=>b.classList.remove("active")); this.classList.add("active"); state.diff=this.dataset.val; };
+  });
+}
+
+// ═══════════════════════════════════════════════
+//  LOCAL JSON PARSING & LOADING
+// ═══════════════════════════════════════════════
+
+
+function formatTextWithCode(text) {
+  if(!text) return "";
+  text = text.replace(/```[a-z]*\s*\n([\s\S]*?)```/gi, function(m, code) {
+    let esc = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return `<pre style="background:#0f172a; color:#e2e8f0; padding:12px; border-radius:8px; overflow-x:auto; font-family:monospace; margin:10px 0; border: 1px solid #334155; text-align:left; font-size: 14px;"><code>${esc}</code></pre>`;
+  });
+  text = text.replace(/`([^`]+)`/g, '<code style="background:#1e293b; color:#fbbf24; padding:2px 6px; border-radius:4px; font-family:monospace;">$1</code>');
+  let parts = text.split(/(<pre[\s\S]*?<\/pre>)/);
+  for (let i=0; i<parts.length; i++) {
+    if (!parts[i].startsWith('<pre')) {
+      parts[i] = parts[i].replace(/\n/g, '<br>');
+    }
+  }
+  return parts.join('');
+}
+
+function normalizeVerbalJSON(dataArr, diffLevel) {
+  if(!Array.isArray(dataArr)) dataArr = dataArr.questions || [];
+  let mapped = dataArr.map(q => {
+    let opts = q.options || [];
+    let ansIdx = 0;
+    if (typeof q.correct_answer === 'string') {
+      const match = q.correct_answer.match(/^[A-D]\)/i);
+      if (match) {
+        ansIdx = q.correct_answer.charCodeAt(0) - 65;
+      } else {
+        ansIdx = opts.findIndex(o => o.trim().toLowerCase() === q.correct_answer.trim().toLowerCase());
+        if(ansIdx === -1) ansIdx = 0;
+      }
+    } else if (typeof q.correct_answer === 'number') {
+      ansIdx = q.correct_answer;
+    }
+
+    let cleanOpts = opts.map(o => o.replace(/^[A-D]\)\s*/i, '').trim());
+    let rawQ = q.question || q.q || `[No question text] (ID: ${q.id})`;
+    let rawExp = q.explanation || "No explanation provided.";
+
+    return {
+      q: formatTextWithCode(rawQ),
+      opts: cleanOpts,
+      ans: ansIdx,
+      diff: q.difficulty || "Medium",
+      exp: formatTextWithCode(rawExp)
+    };
+  });
+  
+  if (diffLevel && diffLevel !== 'mixed') {
+    const targetDiff = diffLevel.toLowerCase();
+    const filtered = mapped.filter(q => (q.diff||'').toLowerCase() === targetDiff);
+    if(filtered.length > 0) {
+       mapped = filtered;
+    } else {
+       console.warn("Difficulty filter removed all questions. Falling back to mixed difficulty.");
+    }
+  }
+  
+  for (let i = mapped.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [mapped[i], mapped[j]] = [mapped[j], mapped[i]];
+  }
+  return mapped;
+}
+
+async function loadLocalJsonArray(fileMap, baseUrl, topicId, count) {
+  const mapEntry = fileMap.find(e => e.id === topicId);
+  if (!mapEntry) return [];
+  try {
+    const res = await fetch(baseUrl + mapEntry.file);
+    if (!res.ok) return [];
+    const text = await res.text();
+    const data = parseJSONResilient(text);
+    let normalized = normalizeVerbalJSON(data, state.diff);
+    return normalized.slice(0, count);
+  } catch (err) {
+    console.error("Failed to load local JSON:", err);
+    return [];
+  }
+}
+
+// ═══════════════════════════════════════════════
+//  START PRACTICE
+// ═══════════════════════════════════════════════
+async function startPractice(){
+  if (!state.topicId) {
+    showAarovaaiToast('⚠️ Please select a topic first', 'err');
+    return;
+  }
+  console.log(`[Practice] startPractice() — topic: "${state.topic}" (${state.topicId}), category: ${state.category}, count: ${state.qCount}, diff: ${state.diff}`);
+  showLoader('Loading questions…');
+  let apiQs = [];
+
+  // 1️⃣ Try backend API first (only for arithmetic)
+  if (state.category !== 'verbal' && state.category !== 'logical' && state.category !== 'reasoning' && state.category !== 'c-language' && state.category !== 'java' && state.category !== 'database' && state.category !== 'networks') {
+    try {
+      const diff = (state.diff && state.diff !== 'mixed') ? state.diff : undefined;
+      const res = await apiGetQuestions(state.topicId, state.qCount, {difficulty: diff});
+      if (res && res.questions && res.questions.length) {
+        apiQs = res.questions.map(q => ({
+          q: q.question, opts: q.options, ans: q.answer,
+          diff: q.difficulty ? (q.difficulty.charAt(0).toUpperCase() + q.difficulty.slice(1)) : 'Medium',
+          exp: q.explanation || '', _id: q.id
+        }));
+        console.log(`[Practice] ✅ ${apiQs.length} questions loaded from API`);
+      }
+    } catch(e) {
+      console.warn('[Practice] API offline or failed:', e.message);
+    }
+  }
+
+  // 2️⃣ Local files load
+  if (!apiQs.length) {
+    if (state.category === 'verbal') {
+      apiQs = await loadLocalJsonArray(VERBAL_FILE_MAP, VERBAL_JSON_BASE, state.topicId, state.qCount);
+    } else if (state.category === 'logical') {
+      apiQs = await loadLocalJsonArray(LOGICAL_FILE_MAP, LOGICAL_JSON_BASE, state.topicId, state.qCount);
+    } else if (state.category === 'reasoning') {
+      apiQs = await loadLocalJsonArray(REASONING_FILE_MAP, REASONING_JSON_BASE, state.topicId, state.qCount);
+    } else if (state.category === 'c-language') {
+      apiQs = await loadLocalJsonArray(C_LANGUAGE_FILE_MAP, C_LANGUAGE_JSON_BASE, state.topicId, state.qCount);
+    } else if (state.category === 'java') {
+      apiQs = await loadLocalJsonArray(JAVA_LANGUAGE_FILE_MAP, JAVA_LANGUAGE_JSON_BASE, state.topicId, state.qCount);
+    } else if (state.category === 'database') {
+      apiQs = await loadLocalJsonArray(DATABASE_FILE_MAP, DATABASE_JSON_BASE, state.topicId, state.qCount);
+    } else if (state.category === 'networks') {
+      apiQs = await loadLocalJsonArray(NETWORKS_FILE_MAP, NETWORKS_JSON_BASE, state.topicId, state.qCount);
+    }
+    if (apiQs.length) showAarovaaiToast(`📂 Loaded ${apiQs.length} questions from local file`, 'ok');
+  }
+
+  // 3️⃣ Final fallback — generic questions
+  if (!apiQs.length) {
+    showAarovaaiToast('Using offline questions.', '');
+    for (let i = 0; i < state.qCount; i++) {
+        let q;
+        if (state.category === 'c-language' || state.category === 'java' || state.category === 'database' || state.category === 'networks') {
+            const techPool = FALLBACK_QUESTIONS["c-basics"] || FALLBACK_QUESTIONS.percentage;
+            q = techPool[i % techPool.length];
+        } else {
+            const pool = FALLBACK_QUESTIONS[state.topicId] || FALLBACK_QUESTIONS.percentage;
+            q = pool[i % pool.length] || fallbackQ(state.topicId, i);
+        }
+        apiQs.push(q);
+    }
+  }
+
+  if (!apiQs.length) {
+    hideLoader();
+    showAarovaaiToast('❌ No questions available for this topic', 'err');
+    return;
+  }
+
+  console.log(`[Practice] 🎯 Starting quiz with ${apiQs.length} questions for "${state.topic}"`);
+  state.questions = apiQs;
+  state.current = 0;
+  state.answers = new Array(apiQs.length).fill(null);
+  state.startTime = Date.now();
+
+  hideLoader();
+  showScreen('quiz-screen');
+  buildDots();
+  renderQuestion();
+}
+
+// ═══════════════════════════════════════════════
+//  QUESTION RENDERING
+// ═══════════════════════════════════════════════
+function buildDots(){
+  document.getElementById("q-dots").innerHTML=state.questions.map((_,i)=>
+    `<div class="q-dot${i===0?" current":""}" id="dot-${i}" onclick="jumpTo(${i})">${i+1}</div>`
+  ).join("");
+}
+
+function updateDots(){
+  state.questions.forEach((_,i)=>{
+    const d=document.getElementById("dot-"+i);
+    if(!d) return;
+    d.className="q-dot";
+    if(i===state.current) d.classList.add("current");
+    else if(state.answers[i]===-1) d.classList.add("skipped");
+    else if(state.answers[i]!==null) d.classList.add("answered");
+  });
+}
+
+function renderQuestion(){
+  const q=state.questions[state.current];
+  if(!q) return;
+  const n=state.questions.length;
+  document.getElementById("q-text").textContent=q.q;
+  document.getElementById("q-topic-badge").textContent=state.topic;
+  const diffEl=document.getElementById("q-diff-badge");
+  diffEl.textContent=q.diff||"Medium";
+  diffEl.style.color=(q.diff==="Easy"||q.diff==="easy")?"var(--green)":(q.diff==="Hard"||q.diff==="hard")?"var(--red)":"var(--amber)";
+  document.getElementById("qcount-label").textContent=`${state.current+1} / ${n}`;
+  document.getElementById("progress-bar").style.width=`${((state.current+1)/n)*100}%`;
+
+  // Hide feedback & explanation
+  document.getElementById("answer-feedback").className="answer-feedback";
+  document.getElementById("explanation").style.display="none";
+  document.getElementById("next-btn").textContent="Next →";
+
+  const letters=["A","B","C","D"];
+  document.getElementById("options-container").innerHTML=(q.opts||[]).map((o,i)=>
+    `<button class="option" id="opt-${i}" onclick="selectAnswer(${i})">
+       <div class="option-letter">${letters[i]}</div>
+       <div>${o}</div>
+     </button>`
+  ).join("");
+
+  // If already answered, restore state
+  if(state.answers[state.current]!==null&&state.answers[state.current]!==-1){
+    revealAnswer(state.answers[state.current], q.ans, q.exp, q.opts);
+  }
+  updateDots();
+}
+
+function selectAnswer(i){
+  if(state.answers[state.current]!==null) return; // already answered
+  const q=state.questions[state.current];
+  state.answers[state.current]=i;
+  revealAnswer(i, q.ans, q.exp, q.opts);
+  updateDots();
+}
+
+function revealAnswer(chosen, correct, exp, opts){
+  // Highlight options
+  document.querySelectorAll(".option").forEach((el,i)=>{
+    el.classList.remove("correct","wrong");
+    if(i===correct) el.classList.add("correct");
+    else if(i===chosen&&chosen!==correct) el.classList.add("wrong");
+    el.onclick=null; // lock options
+  });
+
+  // Feedback banner
+  const fb=document.getElementById("answer-feedback");
+  const isCorrect=(chosen===correct);
+  fb.className="answer-feedback "+(isCorrect?"correct":"wrong");
+  document.getElementById("feedback-icon").textContent=isCorrect?"✅":"❌";
+  document.getElementById("feedback-text").textContent=isCorrect?"Correct! Well done!":
+    `Wrong! Correct answer: ${opts[correct]}`;
+
+  // Explanation
+  document.getElementById("exp-text").textContent=exp||"";
+  document.getElementById("explanation").style.display="block";
+
+  // Next button
+  document.getElementById("next-btn").textContent=
+    state.current<state.questions.length-1?"Next Question →":"Finish Practice ✓";
+}
+
+function jumpTo(i){state.current=i;renderQuestion();}
+
+function skipQuestion(){
+  if(state.answers[state.current]===null) state.answers[state.current]=-1;
+  nextQuestion();
+}
+
+function nextQuestion(){
+  if(state.current<state.questions.length-1){state.current++;renderQuestion();}
+  else showResult();
+}
+
+// ═══════════════════════════════════════════════
+//  RESULT SCREEN
+// ═══════════════════════════════════════════════
+function showResult(){
+  const qs=state.questions, ans=state.answers;
+  let correct=0,wrong=0,skip=0;
+  qs.forEach((q,i)=>{
+    if(ans[i]===null||ans[i]===-1) skip++;
+    else if(ans[i]===q.ans) correct++;
+    else wrong++;
+  });
+  const pct=Math.round((correct/qs.length)*100);
+  document.getElementById("score-pct").textContent=pct+"%";
+  document.getElementById("score-arc").style.strokeDashoffset=314-(314*(pct/100));
+  document.getElementById("r-correct").textContent=correct;
+  document.getElementById("r-wrong").textContent=wrong;
+  document.getElementById("r-skip").textContent=skip;
+  const titles=["Keep Practicing! 💪","Good Effort! 👍","Getting Better! 📈","Well Done! 🎉","Outstanding! 🏆"];
+  document.getElementById("result-title").textContent=titles[Math.floor(pct/20)]||"Outstanding! 🏆";
+  document.getElementById("result-sub").textContent=`${correct} correct out of ${qs.length} — ${state.topic}`;
+
+  // Full review with explanations
+  document.getElementById("review-list").innerHTML=qs.map((q,i)=>{
+    const a=ans[i];
+    const skipped=(a===null||a===-1);
+    const ok=!skipped&&a===q.ans;
+    return `<div class="review-item ${skipped?'r-skip':ok?'r-correct':'r-wrong'}">
+      <div class="review-q">${i+1}. ${q.q}</div>
+      <div class="review-ans">
+        ${skipped
+          ? '<span style="color:var(--amber)">⏩ Skipped</span>'
+          : `Your answer: <span class="${ok?'ok':'bad'}">${(q.opts||[])[a]||'—'}</span>
+             &nbsp;|&nbsp; Correct: <span class="ok">${(q.opts||[])[q.ans]||'—'}</span>`}
+      </div>
+      ${q.exp?`<div class="review-exp">💡 ${q.exp}</div>`:''}
+    </div>`;
+  }).join("");
+
+  showScreen("result-screen");
+
+  // Save to backend as practice session
+  (async()=>{
+    try{
+      const elapsed=Math.floor((Date.now()-state.startTime)/1000);
+      const apiQs=qs.map(q=>({
+        id:q._id||q.q, question:q.q, options:q.opts,
+        answer:q.ans, correct_answer:(q.opts||[])[q.ans],
+        explanation:q.exp, difficulty:q.diff
+      }));
+      await apiSubmitTest(state.topicId, state.topic, apiQs, ans, elapsed, "practice");
+      showAarovaaiToast("✅ Practice saved!","ok");
+    }catch(e){console.warn("Could not save:",e.message);}
+  })();
+}
+
+function goHome(){
+  const cat = new URLSearchParams(window.location.search).get('cat') || 'arithmetic';
+  if(document.referrer){
+    if (document.referrer.includes('aarovaai_verbal')) {
+      window.location.href = 'aarovaai_verbal.html';
+      return;
+    }
+    if (document.referrer.includes('aarovaai_logical')) {
+      window.location.href = 'aarovaai_logical.html';
+      return;
+    }
+    if (document.referrer.includes('aarovaai_reasoning')) {
+      window.location.href = 'aarovaai_reasoning.html';
+      return;
+    }
+    if(document.referrer.includes('aarovaai_aptitude') || document.referrer.includes('aarovaai_platform_ui')){
+      window.location.href = cat === 'verbal' ? 'aarovaai_verbal.html' : cat === 'logical' ? 'aarovaai_logical.html' : cat === 'reasoning' ? 'aarovaai_reasoning.html' : 'aarovaai_aptitude.html';
+      return;
+    }
+  }
+  window.location.href = cat === 'verbal' ? 'aarovaai_verbal.html' : cat === 'logical' ? 'aarovaai_logical.html' : cat === 'reasoning' ? 'aarovaai_reasoning.html' : 'aarovaai_aptitude.html';
+}
+function retryPractice(){ startPractice(); }
+
+// ═══════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════
+async function init(){
+  const user=await requireAuth();
+  if(!user) return;
+
+  // Profile chip
+  const initials=(user.name||"U").split(" ").map(w=>w[0]).join("").toUpperCase().slice(0,2);
+  const pa=document.getElementById("profile-avatar");
+  const pn=document.getElementById("profile-name");
+  if(pa) pa.textContent=initials;
+  if(pn) pn.textContent=(user.name || "User").split(" ")[0];
+  document.addEventListener("click",e=>{
+    const chip=document.getElementById("profile-chip");
+    if(chip&&!chip.contains(e.target)) chip.classList.remove("open");
+  });
+
+  // URL params — pre-select topic but stay on home screen so user clicks Start themselves
+  const p=new URLSearchParams(window.location.search);
+  let paramId  =p.get("id");
+  let paramName=p.get("name");
+  let paramCat =p.get("cat") || p.get("category");
+
+  if (!paramId && !paramName) {
+    try {
+      const saved = JSON.parse(localStorage.getItem('aarovaai_last_topic') || 'null');
+      if (saved && saved.id) {
+        paramId = saved.id;
+        paramName = saved.name;
+        if(!paramCat) paramCat = saved.cat;
+      }
+    } catch(e) {}
+  }
+  
+  paramCat = paramCat || "arithmetic";
+  state.category = paramCat;
+
+  const btnApt = document.getElementById('btn-mod-aptitude');
+  const btnTech = document.getElementById('btn-mod-technical');
+  const aptAcc = document.getElementById('aptitude-accordions');
+  const techAcc = document.getElementById('technical-accordions');
+
+  if (paramCat === 'c-language' || paramCat === 'java' || paramCat === 'database' || paramCat === 'networks') {
+    if (btnTech) btnTech.classList.add('active');
+    if (btnApt) btnApt.classList.remove('active');
+    if (techAcc) techAcc.style.display = 'block';
+    if (aptAcc) aptAcc.style.display = 'none';
+  } else {
+    if (btnApt) btnApt.classList.add('active');
+    if (btnTech) btnTech.classList.remove('active');
+    if (aptAcc) aptAcc.style.display = 'block';
+    if (techAcc) techAcc.style.display = 'none';
+  }
+
+  if(paramId && paramName){
+    const decodedName = decodeURIComponent(paramName);
+    state.topic = decodedName;
+    state.topicId = paramId;
+  }
+
+  // Set active accordion category on load
+  const item = document.getElementById(`accordion-item-${paramCat}`);
+  if (item) {
+    item.classList.add("active");
+  }
+
+  // Update stats on initial load
+  const heroTitle = document.getElementById("hero-title");
+  const statQ = document.getElementById("stat-q-num");
+  const statT = document.getElementById("stat-t-num");
+  if (paramCat === "verbal") {
+    if (heroTitle) heroTitle.innerHTML = 'Practice <span>Verbal Ability</span><br>Learn at Your Pace';
+    if (statQ) statQ.textContent = '1900+';
+    if (statT) statT.textContent = '19';
+  } else if (paramCat === "logical") {
+    if (heroTitle) heroTitle.innerHTML = 'Practice <span>Logical Reasoning</span><br>Learn at Your Pace';
+    if (statQ) statQ.textContent = '1900+';
+    if (statT) statT.textContent = '19';
+  } else if (paramCat === "reasoning") {
+    if (heroTitle) heroTitle.innerHTML = 'Practice <span>Reasoning</span><br>Learn at Your Pace';
+    if (statQ) statQ.textContent = '1600+';
+    if (statT) statT.textContent = '16';
+  } else if (paramCat === "c-language") {
+    if (heroTitle) heroTitle.innerHTML = 'Practice <span>C Language</span><br>Learn at Your Pace';
+    if (statQ) statQ.textContent = '1900+';
+    if (statT) statT.textContent = '19';
+  } else if (paramCat === "java") {
+    if (heroTitle) heroTitle.innerHTML = 'Practice <span>Java Language</span><br>Learn at Your Pace';
+    if (statQ) statQ.textContent = '1100+';
+    if (statT) statT.textContent = '11';
+  } else if (paramCat === "database") {
+    if (heroTitle) heroTitle.innerHTML = 'Practice <span>Database Management</span><br>Learn at Your Pace';
+    if (statQ) statQ.textContent = '2900+';
+    if (statT) statT.textContent = '29';
+  } else if (paramCat === "networks") {
+    if (heroTitle) heroTitle.innerHTML = 'Practice <span>Networks</span><br>Learn at Your Pace';
+    if (statQ) statQ.textContent = '1500+';
+    if (statT) statT.textContent = '15';
+  } else {
+    if (heroTitle) heroTitle.innerHTML = 'Practice <span>Arithmetic</span><br>Learn at Your Pace';
+    if (statQ) statQ.textContent = '3200+';
+    if (statT) statT.textContent = '32';
+  }
+
+  const hubLink = document.getElementById('pd-hub-link');
+  if (hubLink) {
+    if (paramCat === 'verbal') {
+      hubLink.innerHTML = '🔡 Verbal Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_verbal.html'; };
+    } else if (paramCat === 'logical') {
+      hubLink.innerHTML = '💡 Logical Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_logical.html'; };
+    } else if (paramCat === 'reasoning') {
+      hubLink.innerHTML = '🧠 Reasoning Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_reasoning.html'; };
+    } else if (paramCat === 'c-language') {
+      hubLink.innerHTML = '💻 C Language Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_c.html'; };
+    } else if (paramCat === 'java') {
+      hubLink.innerHTML = '☕ Java Language Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_java.html'; };
+    } else if (paramCat === 'database') {
+      hubLink.innerHTML = '🗄️ Database Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_database.html'; };
+    } else if (paramCat === 'networks') {
+      hubLink.innerHTML = '🌐 Networks Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_networks.html'; };
+    } else {
+      hubLink.innerHTML = '🔢 Arithmetic Hub';
+      hubLink.onclick = () => { window.location.href = 'aarovaai_aptitude.html'; };
+    }
+  }
+
+  initConfigRows();
+
+  // Load topics dynamically for active accordion (this will synchronously select the card)
+  await loadTopicsForCategory(paramCat);
+
+  showScreen("home-screen");
+}
+
+init();
+</script>
+</body>
+</html>

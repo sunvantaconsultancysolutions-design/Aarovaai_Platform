@@ -1,0 +1,500 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security guard patrols a rectangular compound of length 120 m and breadth 80 m. How many meters does he cover in one complete round?",
+    "options": ["A) 200 m", "B) 400 m", "C) 9600 m", "D) 300 m"],
+    "correct_answer": "B) 400 m",
+    "explanation": "Perimeter of rectangle = 2(l + b) = 2(120 + 80) = 2 × 200 = 400 m."
+  },
+  {
+    "id": 2,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security agency employs 240 guards. If 25% of them are deployed at night shifts, how many guards work at night?",
+    "options": ["A) 50", "B) 60", "C) 70", "D) 80"],
+    "correct_answer": "B) 60",
+    "explanation": "25% of 240 = (25/100) × 240 = 60 guards."
+  },
+  {
+    "id": 3,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A CCTV camera covers a circular area with a radius of 14 m. What is the area covered by the camera? (π = 22/7)",
+    "options": ["A) 616 sq m", "B) 154 sq m", "C) 308 sq m", "D) 88 sq m"],
+    "correct_answer": "A) 616 sq m",
+    "explanation": "Area = πr² = (22/7) × 14 × 14 = 22 × 2 × 14 = 616 sq m."
+  },
+  {
+    "id": 4,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security password consists of 4 digits. How many different passwords can be formed using digits 0–9 if repetition is allowed?",
+    "options": ["A) 5040", "B) 10000", "C) 9000", "D) 1000"],
+    "correct_answer": "B) 10000",
+    "explanation": "Each digit has 10 choices, so total = 10 × 10 × 10 × 10 = 10,000."
+  },
+  {
+    "id": 5,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security firm charges ₹15,000 per month for guarding a building. What is the annual charge?",
+    "options": ["A) ₹1,50,000", "B) ₹1,80,000", "C) ₹1,20,000", "D) ₹2,00,000"],
+    "correct_answer": "B) ₹1,80,000",
+    "explanation": "Annual charge = 15,000 × 12 = ₹1,80,000."
+  },
+  {
+    "id": 6,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A guard walks at 5 km/h. How long will it take him to cover a distance of 20 km?",
+    "options": ["A) 2 hours", "B) 3 hours", "C) 4 hours", "D) 5 hours"],
+    "correct_answer": "C) 4 hours",
+    "explanation": "Time = Distance / Speed = 20 / 5 = 4 hours."
+  },
+  {
+    "id": 7,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security system sends an alert every 15 minutes. How many alerts are sent in 3 hours?",
+    "options": ["A) 10", "B) 12", "C) 15", "D) 18"],
+    "correct_answer": "B) 12",
+    "explanation": "3 hours = 180 minutes. Alerts = 180 / 15 = 12."
+  },
+  {
+    "id": 8,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A firewall blocks 3 out of every 10 incoming packets. If 500 packets arrive, how many are blocked?",
+    "options": ["A) 100", "B) 150", "C) 200", "D) 250"],
+    "correct_answer": "B) 150",
+    "explanation": "Blocked = (3/10) × 500 = 150 packets."
+  },
+  {
+    "id": 9,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security badge number is a 3-letter code using only A, B, C (no repetition). How many unique codes are possible?",
+    "options": ["A) 6", "B) 9", "C) 27", "D) 3"],
+    "correct_answer": "A) 6",
+    "explanation": "Permutations = 3! = 3 × 2 × 1 = 6."
+  },
+  {
+    "id": 10,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security company has 5 male and 3 female guards. What fraction of the total guards are female?",
+    "options": ["A) 3/8", "B) 5/8", "C) 3/5", "D) 1/3"],
+    "correct_answer": "A) 3/8",
+    "explanation": "Total guards = 5 + 3 = 8. Female fraction = 3/8."
+  },
+  {
+    "id": 11,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security lock opens with a 2-digit PIN using digits 1–5 (repetition allowed). How many PINs are possible?",
+    "options": ["A) 10", "B) 20", "C) 25", "D) 30"],
+    "correct_answer": "C) 25",
+    "explanation": "Each digit has 5 choices, so total = 5 × 5 = 25."
+  },
+  {
+    "id": 12,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A guard earns ₹12,000 per month. After a 10% raise, what is his new monthly salary?",
+    "options": ["A) ₹12,200", "B) ₹13,000", "C) ₹13,200", "D) ₹14,000"],
+    "correct_answer": "C) ₹13,200",
+    "explanation": "Raise = 10% of 12,000 = 1,200. New salary = 12,000 + 1,200 = ₹13,200."
+  },
+  {
+    "id": 13,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security camera records 24 hours a day. How many hours does it record in the month of April?",
+    "options": ["A) 696 hours", "B) 720 hours", "C) 744 hours", "D) 672 hours"],
+    "correct_answer": "B) 720 hours",
+    "explanation": "April has 30 days. Total hours = 30 × 24 = 720 hours."
+  },
+  {
+    "id": 14,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security team of 8 guards is to be divided equally into 2 shifts. How many guards are in each shift?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 6"],
+    "correct_answer": "C) 4",
+    "explanation": "Guards per shift = 8 / 2 = 4."
+  },
+  {
+    "id": 15,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An encryption key is 8 bits long. How many unique keys are possible?",
+    "options": ["A) 64", "B) 128", "C) 256", "D) 512"],
+    "correct_answer": "C) 256",
+    "explanation": "Each bit has 2 values, so total = 2^8 = 256."
+  },
+  {
+    "id": 16,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security guard covers 6 km in 1.5 hours. What is his speed in km/h?",
+    "options": ["A) 3 km/h", "B) 4 km/h", "C) 5 km/h", "D) 6 km/h"],
+    "correct_answer": "B) 4 km/h",
+    "explanation": "Speed = Distance / Time = 6 / 1.5 = 4 km/h."
+  },
+  {
+    "id": 17,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security agency has a budget of ₹5,00,000. They spend 40% on salaries. How much is spent on salaries?",
+    "options": ["A) ₹1,50,000", "B) ₹2,00,000", "C) ₹2,50,000", "D) ₹3,00,000"],
+    "correct_answer": "B) ₹2,00,000",
+    "explanation": "40% of 5,00,000 = (40/100) × 5,00,000 = ₹2,00,000."
+  },
+  {
+    "id": 18,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A password must contain exactly 1 uppercase letter chosen from {A, B, C} and 1 digit from {1, 2}. How many passwords are possible?",
+    "options": ["A) 5", "B) 6", "C) 8", "D) 9"],
+    "correct_answer": "B) 6",
+    "explanation": "Total = 3 × 2 = 6 combinations."
+  },
+  {
+    "id": 19,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security fence costs ₹200 per meter. What is the cost to fence a square plot of side 50 m?",
+    "options": ["A) ₹10,000", "B) ₹20,000", "C) ₹40,000", "D) ₹50,000"],
+    "correct_answer": "C) ₹40,000",
+    "explanation": "Perimeter = 4 × 50 = 200 m. Cost = 200 × 200 = ₹40,000."
+  },
+  {
+    "id": 20,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security system detects 90% of intrusions. If 200 intrusions occur, how many are detected?",
+    "options": ["A) 160", "B) 170", "C) 180", "D) 190"],
+    "correct_answer": "C) 180",
+    "explanation": "Detected = 90% of 200 = (90/100) × 200 = 180."
+  },
+  {
+    "id": 21,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A guard post is manned by 3 guards in rotation. If each guard works an 8-hour shift, how many hours is the post manned per day?",
+    "options": ["A) 8 hours", "B) 16 hours", "C) 24 hours", "D) 12 hours"],
+    "correct_answer": "C) 24 hours",
+    "explanation": "3 guards × 8 hours = 24 hours, covering the full day."
+  },
+  {
+    "id": 22,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security company increased its staff from 150 to 180. What is the percentage increase?",
+    "options": ["A) 15%", "B) 20%", "C) 25%", "D) 30%"],
+    "correct_answer": "B) 20%",
+    "explanation": "% increase = (30/150) × 100 = 20%."
+  },
+  {
+    "id": 23,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A biometric scanner takes 2 seconds to verify one person. How many people can it verify in 10 minutes?",
+    "options": ["A) 200", "B) 300", "C) 400", "D) 500"],
+    "correct_answer": "B) 300",
+    "explanation": "10 minutes = 600 seconds. People = 600 / 2 = 300."
+  },
+  {
+    "id": 24,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security guard's shift starts at 10 PM and ends at 6 AM. How many hours is the shift?",
+    "options": ["A) 6 hours", "B) 7 hours", "C) 8 hours", "D) 9 hours"],
+    "correct_answer": "C) 8 hours",
+    "explanation": "From 10 PM to 6 AM = 8 hours."
+  },
+  {
+    "id": 25,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security firm deploys guards in a ratio of 3:2 between day and night shifts. If 30 guards work the day shift, how many work the night shift?",
+    "options": ["A) 15", "B) 20", "C) 25", "D) 18"],
+    "correct_answer": "B) 20",
+    "explanation": "Ratio 3:2 means night = (2/3) × 30 = 20 guards."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security token changes its code every 30 seconds. How many times does it change in 1 hour?",
+    "options": ["A) 60", "B) 90", "C) 120", "D) 180"],
+    "correct_answer": "C) 120",
+    "explanation": "1 hour = 3600 seconds. Changes = 3600 / 30 = 120."
+  },
+  {
+    "id": 27,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security camera records at 30 frames per second. How many frames are recorded in 1 minute?",
+    "options": ["A) 900", "B) 1200", "C) 1800", "D) 3600"],
+    "correct_answer": "C) 1800",
+    "explanation": "1 minute = 60 seconds. Frames = 30 × 60 = 1800."
+  },
+  {
+    "id": 28,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security agency employs guards at ₹500 per day. What is the cost of employing 10 guards for 5 days?",
+    "options": ["A) ₹20,000", "B) ₹25,000", "C) ₹30,000", "D) ₹50,000"],
+    "correct_answer": "B) ₹25,000",
+    "explanation": "Cost = 10 × 5 × 500 = ₹25,000."
+  },
+  {
+    "id": 29,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A 6-character alphanumeric PIN uses only digits 0–9. How many unique PINs are possible?",
+    "options": ["A) 60", "B) 100000", "C) 1000000", "D) 720"],
+    "correct_answer": "C) 1000000",
+    "explanation": "Each character has 10 choices. Total = 10^6 = 1,000,000."
+  },
+  {
+    "id": 30,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A guard patrols a triangular compound with sides 50 m, 60 m, and 70 m. What is the total distance covered in one round?",
+    "options": ["A) 150 m", "B) 160 m", "C) 170 m", "D) 180 m"],
+    "correct_answer": "D) 180 m",
+    "explanation": "Perimeter = 50 + 60 + 70 = 180 m."
+  },
+  {
+    "id": 31,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security system has a false alarm rate of 5%. If it triggers 200 alarms, how many are false?",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "B) 10",
+    "explanation": "False alarms = 5% of 200 = (5/100) × 200 = 10."
+  },
+  {
+    "id": 32,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security guard is paid ₹8,000 per month. He works 25 days in a month. What is his daily wage?",
+    "options": ["A) ₹280", "B) ₹300", "C) ₹320", "D) ₹350"],
+    "correct_answer": "C) ₹320",
+    "explanation": "Daily wage = 8000 / 25 = ₹320."
+  },
+  {
+    "id": 33,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A network has 5 security layers. Each layer independently blocks 50% of threats. What percentage of threats pass through the first two layers?",
+    "options": ["A) 10%", "B) 25%", "C) 50%", "D) 75%"],
+    "correct_answer": "B) 25%",
+    "explanation": "After layer 1: 50% pass. After layer 2: 50% × 50% = 25% pass."
+  },
+  {
+    "id": 34,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security vault has a 3-digit combination lock using digits 0–9. How many combinations are possible?",
+    "options": ["A) 27", "B) 100", "C) 729", "D) 1000"],
+    "correct_answer": "D) 1000",
+    "explanation": "Total = 10 × 10 × 10 = 1000 combinations."
+  },
+  {
+    "id": 35,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security patrol covers 3 km in 45 minutes. What is the speed in km/h?",
+    "options": ["A) 3 km/h", "B) 4 km/h", "C) 5 km/h", "D) 6 km/h"],
+    "correct_answer": "B) 4 km/h",
+    "explanation": "Speed = 3 / (45/60) = 3 / 0.75 = 4 km/h."
+  },
+  {
+    "id": 36,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security company has 4 branches. Each branch has 15 guards. What is the total number of guards?",
+    "options": ["A) 45", "B) 50", "C) 60", "D) 75"],
+    "correct_answer": "C) 60",
+    "explanation": "Total = 4 × 15 = 60 guards."
+  },
+  {
+    "id": 37,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security alarm is triggered 12 times in 4 days. What is the average number of triggers per day?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 6"],
+    "correct_answer": "B) 3",
+    "explanation": "Average = 12 / 4 = 3 triggers per day."
+  },
+  {
+    "id": 38,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security guard's salary was ₹10,000. It was reduced by 15%. What is his new salary?",
+    "options": ["A) ₹8,000", "B) ₹8,500", "C) ₹9,000", "D) ₹9,500"],
+    "correct_answer": "B) ₹8,500",
+    "explanation": "Reduction = 15% of 10,000 = 1,500. New salary = 10,000 − 1,500 = ₹8,500."
+  },
+  {
+    "id": 39,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security system logs 1 GB of data per day. How many GB does it log in 2 weeks?",
+    "options": ["A) 7 GB", "B) 10 GB", "C) 14 GB", "D) 28 GB"],
+    "correct_answer": "C) 14 GB",
+    "explanation": "2 weeks = 14 days. Total = 14 × 1 = 14 GB."
+  },
+  {
+    "id": 40,
+    "topic": "Security",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A security team completes a task in 6 days working 8 hours a day. How many total hours does the task take?",
+    "options": ["A) 36 hours", "B) 40 hours", "C) 48 hours", "D) 56 hours"],
+    "correct_answer": "C) 48 hours",
+    "explanation": "Total hours = 6 × 8 = 48 hours."
+  },
+  {
+    "id": 41,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security agency has 3 types of guards: Type A earns ₹15,000/month, Type B earns ₹12,000/month, and Type C earns ₹10,000/month. The ratio of A:B:C is 2:3:5. What is the average monthly salary of a guard?",
+    "options": ["A) ₹11,600", "B) ₹12,000", "C) ₹11,900", "D) ₹12,100"],
+    "correct_answer": "A) ₹11,600",
+    "explanation": "Weighted avg = (2×15000 + 3×12000 + 5×10000)/(2+3+5) = (30000+36000+50000)/10 = 116000/10 = ₹11,600."
+  },
+  {
+    "id": 42,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security guard walks from point A to B at 4 km/h and returns at 6 km/h. What is his average speed for the entire journey?",
+    "options": ["A) 4.8 km/h", "B) 5 km/h", "C) 5.2 km/h", "D) 4.5 km/h"],
+    "correct_answer": "A) 4.8 km/h",
+    "explanation": "Average speed = 2ab/(a+b) = 2×4×6/(4+6) = 48/10 = 4.8 km/h."
+  },
+  {
+    "id": 43,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security firm's revenue increased by 20% in the first year and decreased by 10% in the second year. What is the net percentage change over two years?",
+    "options": ["A) 8% increase", "B) 10% increase", "C) 8% decrease", "D) 10% decrease"],
+    "correct_answer": "A) 8% increase",
+    "explanation": "Net change = (1.20 × 0.90 − 1) × 100 = (1.08 − 1) × 100 = 8% increase."
+  },
+  {
+    "id": 44,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security team of 12 guards can complete a patrol in 8 days. How many days will 16 guards take to complete the same patrol?",
+    "options": ["A) 4 days", "B) 5 days", "C) 6 days", "D) 7 days"],
+    "correct_answer": "C) 6 days",
+    "explanation": "Work = 12 × 8 = 96 guard-days. Days for 16 guards = 96/16 = 6 days."
+  },
+  {
+    "id": 45,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security vault's combination lock has 4 positions, each with digits 0–9. What is the probability of guessing the correct combination in one try?",
+    "options": ["A) 1/1000", "B) 1/9999", "C) 1/10000", "D) 1/5000"],
+    "correct_answer": "C) 1/10000",
+    "explanation": "Total combinations = 10^4 = 10,000. Probability = 1/10,000."
+  },
+  {
+    "id": 46,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security company invests ₹2,00,000 at 8% simple interest per annum. What is the total amount after 3 years?",
+    "options": ["A) ₹2,40,000", "B) ₹2,48,000", "C) ₹2,50,000", "D) ₹2,56,000"],
+    "correct_answer": "B) ₹2,48,000",
+    "explanation": "SI = (2,00,000 × 8 × 3)/100 = ₹48,000. Total = 2,00,000 + 48,000 = ₹2,48,000."
+  },
+  {
+    "id": 47,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In a security exam, 60% of candidates passed. If 480 candidates failed, how many appeared in the exam?",
+    "options": ["A) 800", "B) 1000", "C) 1200", "D) 1400"],
+    "correct_answer": "C) 1200",
+    "explanation": "Failed = 40%. So 40% = 480, total = 480/0.40 = 1200."
+  },
+  {
+    "id": 48,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security guard can patrol a building in 20 minutes. Another guard can do the same in 30 minutes. If both work together, how long will they take?",
+    "options": ["A) 10 min", "B) 12 min", "C) 15 min", "D) 25 min"],
+    "correct_answer": "B) 12 min",
+    "explanation": "Combined rate = 1/20 + 1/30 = 3/60 + 2/60 = 5/60. Time = 60/5 = 12 minutes."
+  },
+  {
+    "id": 49,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security firm's profit was ₹80,000 in 2022. In 2023, it increased by 25%. What was the profit in 2023?",
+    "options": ["A) ₹95,000", "B) ₹1,00,000", "C) ₹1,05,000", "D) ₹1,10,000"],
+    "correct_answer": "B) ₹1,00,000",
+    "explanation": "Profit 2023 = 80,000 × 1.25 = ₹1,00,000."
+  },
+  {
+    "id": 50,
+    "topic": "Security",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A security agency selects 2 guards from a group of 6 for a special mission. How many ways can this be done?",
+    "options": ["A) 

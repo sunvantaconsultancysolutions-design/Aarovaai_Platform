@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>AarovaaiAI — My Progress</title>
+<script>if(!localStorage.getItem('aarovaai_token')){document.documentElement.style.display='none';window.location.replace('login.html');}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet"/>
+<script src="api.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#08080e;--surf:#0f0f18;--card:#161620;--card2:#1c1c28;--card3:#222232;
+  --b1:#252538;--b2:#333348;--b3:#44445a;
+  --acc:#7c5cfc;--acc2:#a78bfa;--acc3:#c4b5fd;
+  --accbg:#7c5cfc12;--accbg2:#7c5cfc22;--accbg3:#7c5cfc33;
+  --gr:#22c55e;--grbg:#031a09;--grb:#154828;
+  --am:#f59e0b;--ambg:#120d00;--amb:#3d2a00;
+  --rd:#ef4444;--rdbg:#130202;--rdb:#4a1010;
+  --bl:#3b82f6;--blbg:#020c1e;--blb:#0c2a5a;
+  --tl:#14b8a6;--tlbg:#011410;
+  --pk:#ec4899;--pkbg:#130010;
+  --tx:#eeeeff;--tx2:#9898b8;--tx3:#5a5a7a;--tx4:#3a3a52;
+  --r:14px;--rs:9px;--rxs:6px;
+}
+html,body{background:var(--bg);color:var(--tx);font-family:'Sora',sans-serif;min-height:100vh;font-size:14px;line-height:1.5;overflow-x:hidden}
+.mono{font-family:'JetBrains Mono',monospace}
+button{cursor:pointer;font-family:inherit}
+
+/* ── LAYOUT ── */
+.layout{display:flex;min-height:100vh}
+
+/* ── SIDEBAR ── */
+.sidebar{width:228px;flex-shrink:0;background:var(--surf);border-right:1px solid var(--b1);display:flex;flex-direction:column;position:fixed;top:0;left:0;height:100vh;overflow-y:auto;overflow-x:hidden;z-index:200;transition:transform .25s ease}
+.sidebar::-webkit-scrollbar{width:3px}
+.sidebar::-webkit-scrollbar-thumb{background:var(--b2);border-radius:99px}
+.sb-head{padding:16px 14px 13px;border-bottom:1px solid var(--b1);display:flex;align-items:center;gap:10px}
+.sb-logo-box{width:36px;height:36px;background:var(--acc);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;color:#fff;flex-shrink:0}
+.sb-logo-txt{font-size:15px;font-weight:700;letter-spacing:-.4px}
+.sb-logo-txt span{color:var(--acc2)}
+.sb-close{display:none;margin-left:auto;background:none;border:none;color:var(--tx2);font-size:20px}
+.sb-search-wrap{padding:10px 12px;border-bottom:1px solid var(--b1)}
+.sb-search{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--b1);border-radius:var(--rs);padding:7px 10px}
+.sb-search svg{flex-shrink:0;color:var(--tx3)}
+.sb-search input{background:none;border:none;outline:none;font-size:12px;color:var(--tx);width:100%;font-family:inherit}
+.sb-search input::placeholder{color:var(--tx3)}
+.sb-sec{padding:10px 14px 4px;font-size:10px;font-weight:700;color:var(--tx4);letter-spacing:.1em;text-transform:uppercase}
+.sb-item{display:flex;align-items:center;gap:9px;padding:8px 10px;margin:1px 6px;border-radius:var(--rs);cursor:pointer;transition:.12s;color:var(--tx2);font-size:13px;font-weight:500;border:1px solid transparent}
+.sb-item:hover{background:var(--card);color:var(--tx)}
+.sb-item.active{background:var(--accbg2);color:var(--acc2);border-color:var(--accbg3);font-weight:600}
+.sb-icon{width:30px;height:30px;border-radius:8px;background:var(--card2);display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.sb-item.active .sb-icon{background:var(--accbg3)}
+.sb-cnt{margin-left:auto;font-size:10px;font-weight:600;background:var(--card2);color:var(--tx3);border-radius:99px;padding:2px 8px}
+.sb-item.active .sb-cnt{background:var(--accbg3);color:var(--acc2)}
+
+/* ── TOPBAR ── */
+.topbar{position:fixed;top:0;left:228px;right:0;height:54px;background:var(--surf);border-bottom:1px solid var(--b1);display:flex;align-items:center;padding:0 20px;gap:14px;z-index:100}
+.tb-ham{display:none;background:none;border:none;color:var(--tx);font-size:20px;padding:4px}
+.tb-title{font-size:15px;font-weight:700;flex:1;letter-spacing:-.2px}
+.tb-period{display:flex;align-items:center;gap:6px}
+.period-btn{background:var(--card);border:1px solid var(--b1);border-radius:8px;padding:5px 12px;font-size:12px;font-weight:600;color:var(--tx2);transition:.12s;font-family:inherit}
+.period-btn:hover{border-color:var(--b2);color:var(--tx)}
+.period-btn.active{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn-share{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--b1);border-radius:var(--rs);padding:7px 14px;font-size:12px;font-weight:600;color:var(--tx2);transition:.12s}
+.btn-share:hover{border-color:var(--b2);color:var(--tx)}
+
+/* ── PAGE ── */
+.page{margin-left:228px;padding-top:54px}
+.content{padding:22px 20px 48px;max-width:1000px;margin:0 auto}
+
+/* ── PROFILE CHIP ── */
+.profile-chip{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--b1);border-radius:99px;padding:4px 12px 4px 4px;cursor:pointer;transition:.15s;position:relative;user-select:none;flex-shrink:0}
+.profile-chip:hover{border-color:var(--b2);background:var(--card2)}
+.profile-avatar-sm{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--acc),var(--acc2));display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0}
+.profile-name-sm{font-size:12px;font-weight:600;color:var(--tx);max-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.profile-caret{font-size:10px;color:var(--tx3)}
+.profile-dropdown{display:none;position:absolute;top:calc(100% + 8px);right:0;background:var(--card);border:1px solid var(--b2);border-radius:12px;padding:6px;min-width:170px;z-index:300;box-shadow:0 8px 32px #00000070}
+.profile-chip.open .profile-dropdown{display:block}
+.pd-item{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;font-size:13px;color:var(--tx);cursor:pointer;transition:.1s}
+.pd-item:hover{background:var(--card2)}
+.pd-item.danger{color:var(--rd)}
+.pd-divider{height:1px;background:var(--b1);margin:4px 0}
+
+/* ── SUMMARY HERO ── */
+.summary-hero{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;background:linear-gradient(135deg,#161030 0%,#141428 45%,#101820 100%);border:1px solid var(--b2);border-radius:16px;padding:24px 28px;margin-bottom:20px;position:relative;overflow:hidden}
+.summary-hero::before{content:"";position:absolute;top:-50px;right:-50px;width:240px;height:240px;background:radial-gradient(circle,#7c5cfc18 0%,transparent 65%);pointer-events:none}
+.hero-avatar{width:72px;height:72px;border-radius:20px;background:linear-gradient(135deg,var(--acc),var(--acc2));display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:#fff;flex-shrink:0;letter-spacing:-.5px;position:relative}
+.hero-avatar::after{content:"";position:absolute;inset:-2px;border-radius:22px;background:linear-gradient(135deg,var(--acc),var(--acc2));z-index:-1;opacity:.4;filter:blur(8px)}
+.hero-info h2{font-size:20px;font-weight:800;letter-spacing:-.4px;margin-bottom:4px}
+.hero-info p{font-size:13px;color:var(--tx2);margin-bottom:10px}
+.hero-tags{display:flex;gap:6px;flex-wrap:wrap}
+.htag{font-size:11px;font-weight:600;border-radius:99px;padding:3px 10px;border:1px solid}
+.htag-acc{background:var(--accbg);border-color:var(--accbg3);color:var(--acc2)}
+.htag-gr{background:var(--grbg);border-color:var(--grb);color:var(--gr)}
+.htag-am{background:var(--ambg);border-color:var(--amb);color:var(--am)}
+.hero-ring-row{display:flex;gap:20px;flex-shrink:0}
+.mini-ring{display:flex;flex-direction:column;align-items:center;gap:6px}
+.mini-ring-lbl{font-size:11px;color:var(--tx2);font-weight:500}
+.ring-wrap{position:relative;width:80px;height:80px}
+.ring-wrap svg{transform:rotate(-90deg)}
+.ring-inner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ring-val{font-size:16px;font-weight:800;font-family:'JetBrains Mono',monospace;letter-spacing:-.5px}
+.ring-sub{font-size:9px;color:var(--tx3)}
+
+/* ── KEY METRICS ── */
+.metrics-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px}
+.metric{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:16px 14px;display:flex;flex-direction:column;gap:4px;cursor:default;transition:.13s;position:relative;overflow:hidden}
+.metric::after{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;border-radius:99px;opacity:0;transition:.2s}
+.metric:hover{border-color:var(--b2);transform:translateY(-2px)}
+.metric:hover::after{opacity:1}
+.metric.m-acc::after{background:var(--acc)}
+.metric.m-gr::after{background:var(--gr)}
+.metric.m-am::after{background:var(--am)}
+.metric.m-tl::after{background:var(--tl)}
+.metric.m-bl::after{background:var(--bl)}
+.metric-icon{font-size:20px;margin-bottom:4px}
+.metric-val{font-size:22px;font-weight:800;letter-spacing:-.5px;font-family:'JetBrains Mono',monospace}
+.metric-lbl{font-size:11px;color:var(--tx2);margin-top:1px}
+.metric-trend{font-size:11px;font-weight:600;margin-top:4px;display:flex;align-items:center;gap:3px}
+.trend-up{color:var(--gr)}.trend-down{color:var(--rd)}.trend-flat{color:var(--tx3)}
+
+/* ── SECTION TITLES ── */
+.sec{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.sec h3{font-size:14px;font-weight:700;letter-spacing:-.2px;display:flex;align-items:center;gap:8px}
+.sec h3 em{font-style:normal;font-size:12px;font-weight:500;color:var(--tx3)}
+.sec a{font-size:12px;color:var(--acc2);cursor:pointer;font-weight:500}
+
+/* ── ACCURACY CHART ── */
+.chart-card{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:20px;margin-bottom:20px}
+.chart-card-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+.chart-card-title{font-size:13px;font-weight:700}
+.chart-legend{display:flex;gap:14px}
+.cleg{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--tx2)}
+.cleg-dot{width:8px;height:8px;border-radius:50%}
+.chart-area{position:relative;height:160px;margin-bottom:8px}
+.chart-labels{display:flex;justify-content:space-between;font-size:10px;color:var(--tx3);font-family:'JetBrains Mono',monospace;padding:0 4px}
+.chart-y-labels{position:absolute;left:0;top:0;bottom:20px;display:flex;flex-direction:column;justify-content:space-between;font-size:10px;color:var(--tx3);font-family:'JetBrains Mono',monospace;padding-right:8px;width:32px}
+.chart-inner{position:absolute;left:36px;right:0;top:0;bottom:0}
+canvas{width:100% !important;height:100% !important}
+
+/* ── 2 COL CHARTS ── */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+
+/* ── TOPIC PROGRESS ── */
+.topic-progress-list{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.tprow{background:var(--card);border:1px solid var(--b1);border-radius:var(--rs);padding:13px 16px;display:flex;align-items:center;gap:12px;transition:.12s}
+.tprow:hover{border-color:var(--b2);background:var(--card2)}
+.tp-icon{font-size:20px;width:36px;text-align:center;flex-shrink:0}
+.tp-info{flex:1;min-width:0}
+.tp-name{font-size:13px;font-weight:600;margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tp-bar-row{display:flex;align-items:center;gap:8px}
+.tp-track{flex:1;height:6px;background:var(--b1);border-radius:99px;overflow:hidden}
+.tp-fill{height:100%;border-radius:99px;transition:width .6s ease}
+.tp-pct{font-size:11px;font-family:'JetBrains Mono',monospace;font-weight:700;min-width:34px;text-align:right}
+.tp-stats{display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0}
+.tp-score{font-size:14px;font-weight:800;font-family:'JetBrains Mono',monospace}
+.tp-qs{font-size:10px;color:var(--tx3)}
+.tp-badge{font-size:10px;font-weight:700;border-radius:99px;padding:2px 8px;border:1px solid;flex-shrink:0}
+
+/* ── WEAK / STRONG AREAS ── */
+.areas-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.area-card{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:18px}
+.area-title{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;margin-bottom:14px;display:flex;align-items:center;gap:7px}
+.area-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--b1)}
+.area-item:last-child{border:none}
+.area-rank{font-size:12px;font-weight:700;width:18px;text-align:center;flex-shrink:0;font-family:'JetBrains Mono',monospace}
+.area-name{font-size:12px;font-weight:600;flex:1}
+.area-acc{font-size:12px;font-weight:800;font-family:'JetBrains Mono',monospace}
+.area-bar-mini{width:50px;height:5px;background:var(--b1);border-radius:99px;overflow:hidden;flex-shrink:0}
+.area-bar-fill{height:100%;border-radius:99px}
+
+/* ── STREAK CALENDAR ── */
+.streak-section{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:20px;margin-bottom:20px}
+.streak-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+.streak-stats{display:flex;gap:20px}
+.sstat{text-align:center}
+.sstat b{display:block;font-size:20px;font-weight:800;font-family:'JetBrains Mono',monospace;letter-spacing:-.5px}
+.sstat span{font-size:11px;color:var(--tx2)}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.cal-day-label{font-size:10px;color:var(--tx3);text-align:center;padding:2px 0;font-family:'JetBrains Mono',monospace}
+.cal-cell{aspect-ratio:1;border-radius:4px;background:var(--b1);cursor:default;transition:.12s;position:relative}
+.cal-cell:hover{opacity:.8}
+.cal-cell.l0{background:var(--b1)}
+.cal-cell.l1{background:#1a4028}
+.cal-cell.l2{background:#154d2a}
+.cal-cell.l3{background:#0d7a3c}
+.cal-cell.l4{background:var(--gr)}
+.cal-cell.today{outline:2px solid var(--acc2);outline-offset:1px}
+.cal-cell.future{background:transparent}
+.cal-legend{display:flex;align-items:center;gap:6px;margin-top:10px;justify-content:flex-end}
+.cal-legend span{font-size:11px;color:var(--tx3)}
+.cal-swatch{width:12px;height:12px;border-radius:3px}
+
+/* ── RECENT TESTS ── */
+.test-history{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.test-row{background:var(--card);border:1px solid var(--b1);border-radius:var(--rs);padding:14px 16px;display:flex;align-items:center;gap:14px;transition:.13s;cursor:pointer}
+.test-row:hover{border-color:var(--b2);background:var(--card2)}
+.test-icon{font-size:22px;width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.test-info{flex:1;min-width:0}
+.test-name{font-size:13px;font-weight:600;margin-bottom:3px}
+.test-meta{font-size:11px;color:var(--tx2);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.test-meta span{display:flex;align-items:center;gap:4px}
+.test-score-wrap{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0}
+.test-score{font-size:18px;font-weight:800;font-family:'JetBrains Mono',monospace;letter-spacing:-.5px}
+.test-bar{width:64px;height:5px;background:var(--b1);border-radius:99px;overflow:hidden}
+.test-bar-fill{height:100%;border-radius:99px}
+
+/* ── ACHIEVEMENTS ── */
+.badges-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px}
+.badge-card{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:16px 14px;text-align:center;transition:.13s;cursor:default}
+.badge-card:hover{border-color:var(--b2);transform:translateY(-2px)}
+.badge-card.locked{opacity:.4;filter:grayscale(1)}
+.badge-icon{font-size:32px;margin-bottom:10px;display:block}
+.badge-name{font-size:12px;font-weight:700;margin-bottom:3px}
+.badge-desc{font-size:11px;color:var(--tx2);line-height:1.4}
+.badge-earned{font-size:10px;color:var(--gr);font-weight:600;margin-top:6px}
+
+/* ── DIVIDER ── */
+.divider{height:1px;background:var(--b1);margin:20px 0}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  .metrics-grid{grid-template-columns:repeat(2,1fr)}
+  .two-col{grid-template-columns:1fr}
+  .areas-grid{grid-template-columns:1fr}
+  .badges-grid{grid-template-columns:repeat(3,1fr)}
+  .summary-hero{grid-template-columns:auto 1fr;grid-template-rows:auto auto}
+  .hero-ring-row{grid-column:1/-1;justify-content:flex-start}
+}
+@media(max-width:680px){
+  .sidebar{transform:translateX(-100%)}
+  .sidebar.open{transform:none}
+  .topbar{left:0}
+  .page{margin-left:0}
+  .tb-ham{display:flex}
+  .sb-close{display:block}
+  .content{padding:14px 14px 32px}
+  .metrics-grid{grid-template-columns:repeat(2,1fr)}
+  .badges-grid{grid-template-columns:repeat(2,1fr)}
+  .summary-hero{padding:16px;gap:16px}
+  .hero-ring-row{gap:12px}
+  .tb-period{display:none}
+  .two-col{grid-template-columns:1fr}
+}
+@media(max-width:400px){
+  .badges-grid{grid-template-columns:repeat(2,1fr)}
+  .metrics-grid{grid-template-columns:1fr 1fr}
+  .hero-ring-row{flex-wrap:wrap}
+}
+.sb-overlay{display:none;position:fixed;inset:0;background:#00000060;z-index:190}
+.sb-overlay.show{display:block}
+</style>
+</head>
+<body>
+
+<div class="sb-overlay" id="overlay" onclick="closeSidebar()"></div>
+
+<!-- SIDEBAR -->
+<aside class="sidebar" id="sidebar">
+  <div class="sb-head">
+    <div class="sb-logo-box">A</div>
+    <div class="sb-logo-txt">Aarovaai<span>AI</span></div>
+    <button class="sb-close" onclick="closeSidebar()">✕</button>
+  </div>
+  <div class="sb-search-wrap">
+    <div class="sb-search">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input placeholder="Search topics…"/>
+    </div>
+  </div>
+  <div class="sb-sec">Main</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_platform_ui.html'"><div class="sb-icon">🏠</div>Dashboard</div>
+  <div class="sb-item active" onclick="navClick(this)"><div class="sb-icon">📊</div>My Progress</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_platform_ui.html#leaderboard'"><div class="sb-icon">🏆</div>Leaderboard</div>
+  <div class="sb-sec">Aptitude</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_aptitude.html'"><div class="sb-icon">🔢</div>Arithmetic<span class="sb-cnt">32</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_reasoning.html'"><div class="sb-icon">🧠</div>Reasoning<span class="sb-cnt">16</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_aptitude.html'"><div class="sb-icon">📈</div>Data Interpretation<span class="sb-cnt">12</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_logical.html'"><div class="sb-icon">💡</div>Logical Reasoning<span class="sb-cnt">19</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_verbal.html'"><div class="sb-icon">🔡</div>Verbal Ability<span class="sb-cnt">19</span></div>
+  <div class="sb-item" onclick="comingSoon('Nonverbal Reasoning')"><div class="sb-icon">🧩</div>Nonverbal Reasoning<span class="sb-cnt">14</span></div>
+
+  <div class="sb-sec">Technical Subjects</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_c.html'"><div class="sb-icon">💻</div>C Language<span class="sb-cnt">19</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_java.html'"><div class="sb-icon">☕</div>Java Language<span class="sb-cnt">11</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_database.html'"><div class="sb-icon">🗄️</div>Database Management<span class="sb-cnt">29</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_networks.html'"><div class="sb-icon">🌐</div>Networks<span class="sb-cnt">15</span></div>
+  <div class="sb-sec">Tests</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_aptitude_test_ui.html'"><div class="sb-icon">⚡</div>Online Tests</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_mock_test.html'"><div class="sb-icon">🎯</div>Mock Exams</div>
+  <div class="sb-item" onclick="navClick(this)"><div class="sb-icon">📅</div>Current Affairs</div>
+  <div class="sb-sec">More</div>
+  <div class="sb-item" onclick="navClick(this)"><div class="sb-icon">💼</div>HR Interview</div>
+  <div class="sb-item" onclick="navClick(this)"><div class="sb-icon">🌐</div>GK &amp; GS</div>
+  <div class="sb-item" onclick="navClick(this)"><div class="sb-icon">💬</div>Group Discussion</div>
+</aside>
+
+<!-- TOPBAR -->
+<header class="topbar">
+  <button class="tb-ham" onclick="openSidebar()">☰</button>
+  <div class="tb-title">My Progress</div>
+  <div class="tb-period">
+    <button class="period-btn" onclick="setPeriod('7d',this)">7 days</button>
+    <button class="period-btn active" onclick="setPeriod('30d',this)">30 days</button>
+    <button class="period-btn" onclick="setPeriod('all',this)">All time</button>
+  </div>
+  <!-- PROFILE CHIP -->
+  <div class="profile-chip" id="profile-chip" onclick="this.classList.toggle('open')" title="Your profile">
+    <div class="profile-avatar-sm" id="profile-avatar">?</div>
+    <span class="profile-name-sm" id="profile-name">Me</span>
+    <span class="profile-caret">▾</span>
+    <div class="profile-dropdown" onclick="event.stopPropagation()">
+      <div class="pd-item" onclick="window.location.href='aarovaai_platform_ui.html'">🏠 Dashboard</div>
+      <div class="pd-item" onclick="window.location.href='aarovaai_aptitude.html'">📚 Hub</div>
+      <div class="pd-item" onclick="window.location.href='aarovaai_progress.html'">📊 My Progress</div>
+      <div class="pd-divider"></div>
+      <div class="pd-item danger" onclick="aarovaaiLogout()">🚪 Logout</div>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE -->
+<div class="page">
+<div class="content">
+
+  <!-- ── HERO SUMMARY ── -->
+  <div class="summary-hero">
+    <div class="hero-avatar" id="hero-avatar">?</div>
+    <div class="hero-info">
+      <h2 id="hero-name">Your Learning Journey</h2>
+      <p id="hero-sub">Loading your stats…</p>
+      <div class="hero-tags">
+        <span class="htag htag-acc">🎯 <span id="htag-accuracy">--%</span> Avg accuracy</span>
+        <span class="htag htag-gr">🔥 <span id="htag-streak">--</span>-day streak</span>
+        <span class="htag htag-am">⚡ Rank #<span id="htag-rank">--</span></span>
+      </div>
+    </div>
+    <div class="hero-ring-row">
+      <div class="mini-ring">
+        <div class="ring-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80">
+            <circle cx="40" cy="40" r="32" fill="none" stroke="#1c1c28" stroke-width="7"/>
+            <circle cx="40" cy="40" r="32" fill="none" stroke="url(#g1)" stroke-width="7" stroke-linecap="round" stroke-dasharray="201.1" stroke-dashoffset="64.4"/>
+          </svg>
+          <defs>
+            <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7c5cfc"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient>
+            <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#16a34a"/></linearGradient>
+            <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#d97706"/></linearGradient>
+          </defs>
+          <div class="ring-inner"><div class="ring-val" style="color:var(--acc2)">68%</div><div class="ring-sub">Accuracy</div></div>
+        </div>
+        <div class="mini-ring-lbl">Accuracy</div>
+      </div>
+      <div class="mini-ring">
+        <div class="ring-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80">
+            <circle cx="40" cy="40" r="32" fill="none" stroke="#1c1c28" stroke-width="7"/>
+            <circle cx="40" cy="40" r="32" fill="none" stroke="url(#g2)" stroke-width="7" stroke-linecap="round" stroke-dasharray="201.1" stroke-dashoffset="50.3"/>
+          </svg>
+          <div class="ring-inner"><div class="ring-val" style="color:var(--gr)">75%</div><div class="ring-sub">Covered</div></div>
+        </div>
+        <div class="mini-ring-lbl">Syllabus</div>
+      </div>
+      <div class="mini-ring">
+        <div class="ring-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80">
+            <circle cx="40" cy="40" r="32" fill="none" stroke="#1c1c28" stroke-width="7"/>
+            <circle cx="40" cy="40" r="32" fill="none" stroke="url(#g3)" stroke-width="7" stroke-linecap="round" stroke-dasharray="201.1" stroke-dashoffset="80.4"/>
+          </svg>
+          <div class="ring-inner"><div class="ring-val" style="color:var(--am)">60%</div><div class="ring-sub">Target</div></div>
+        </div>
+        <div class="mini-ring-lbl">Goal</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── KEY METRICS ── -->
+  <div class="metrics-grid">
+    <div class="metric m-acc">
+      <div class="metric-icon">🎯</div>
+      <div class="metric-val" id="metric-accuracy" style="color:var(--acc2)">—</div>
+      <div class="metric-lbl">Overall accuracy</div>
+    </div>
+    <div class="metric m-gr">
+      <div class="metric-icon">📝</div>
+      <div class="metric-val" id="metric-questions" style="color:var(--gr)">—</div>
+      <div class="metric-lbl">Questions attempted</div>
+    </div>
+    <div class="metric m-am">
+      <div class="metric-icon">⚡</div>
+      <div class="metric-val" id="metric-tests" style="color:var(--am)">—</div>
+      <div class="metric-lbl">Tests completed</div>
+    </div>
+    <div class="metric m-tl">
+      <div class="metric-icon">🟢</div>
+      <div class="metric-val" id="metric-practices" style="color:var(--tl)">—</div>
+      <div class="metric-lbl">Practices done</div>
+    </div>
+    <div class="metric m-bl">
+      <div class="metric-icon">🔥</div>
+      <div class="metric-val" id="metric-streak" style="color:var(--bl)">—</div>
+      <div class="metric-lbl">Current streak</div>
+    </div>
+  </div>
+
+  <!-- ── ACCURACY OVER TIME ── -->
+  <div class="chart-card">
+    <div class="chart-card-hdr">
+      <div class="chart-card-title">Accuracy trend — last 30 days</div>
+      <div class="chart-legend">
+        <div class="cleg"><div class="cleg-dot" style="background:var(--acc)"></div>Accuracy %</div>
+        <div class="cleg"><div class="cleg-dot" style="background:var(--am)"></div>Questions / day</div>
+      </div>
+    </div>
+    <div class="chart-area">
+      <canvas id="acc-chart"></canvas>
+    </div>
+    <div class="chart-labels" id="acc-labels"></div>
+  </div>
+
+  <!-- ── TOPIC PROGRESS ── -->
+  <div class="sec"><h3>Topic-wise progress <em>12 topics</em></h3><a onclick="toggleAll()">Show all</a></div>
+  <div class="topic-progress-list" id="topic-list"></div>
+
+  <!-- ── 2 COL: WEAK + STRONG ── -->
+  <div class="areas-grid">
+    <div class="area-card">
+      <div class="area-title" style="color:var(--rd)">⚠ Weak areas</div>
+      <div id="weak-list"></div>
+    </div>
+    <div class="area-card">
+      <div class="area-title" style="color:var(--gr)">✓ Strong areas</div>
+      <div id="strong-list"></div>
+    </div>
+  </div>
+
+  <!-- ── ACCURACY BY DIFFICULTY ── -->
+  <div class="two-col">
+    <div class="chart-card" style="margin:0">
+      <div class="chart-card-hdr"><div class="chart-card-title">Accuracy by difficulty</div></div>
+      <div style="display:flex;flex-direction:column;gap:14px;padding-top:4px">
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;font-size:12px"><span style="color:var(--gr)">Easy</span><span class="mono" style="color:var(--gr);font-weight:700">84%</span></div>
+          <div style="height:8px;background:var(--b1);border-radius:99px;overflow:hidden"><div style="width:84%;height:100%;background:var(--gr);border-radius:99px"></div></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;font-size:12px"><span style="color:var(--am)">Medium</span><span class="mono" style="color:var(--am);font-weight:700">64%</span></div>
+          <div style="height:8px;background:var(--b1);border-radius:99px;overflow:hidden"><div style="width:64%;height:100%;background:var(--am);border-radius:99px"></div></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;font-size:12px"><span style="color:var(--rd)">Hard</span><span class="mono" style="color:var(--rd);font-weight:700">41%</span></div>
+          <div style="height:8px;background:var(--b1);border-radius:99px;overflow:hidden"><div style="width:41%;height:100%;background:var(--rd);border-radius:99px"></div></div>
+        </div>
+      </div>
+      <div class="divider" style="margin:16px 0 12px"></div>
+      <div style="display:flex;gap:10px">
+        <div style="flex:1;background:var(--grbg);border:1px solid var(--grb);border-radius:var(--rs);padding:10px;text-align:center">
+          <div class="mono" style="font-size:16px;font-weight:800;color:var(--gr)">848</div>
+          <div style="font-size:10px;color:var(--tx2);margin-top:2px">Correct</div>
+        </div>
+        <div style="flex:1;background:var(--rdbg);border:1px solid var(--rdb);border-radius:var(--rs);padding:10px;text-align:center">
+          <div class="mono" style="font-size:16px;font-weight:800;color:var(--rd)">282</div>
+          <div style="font-size:10px;color:var(--tx2);margin-top:2px">Wrong</div>
+        </div>
+        <div style="flex:1;background:var(--ambg);border:1px solid var(--amb);border-radius:var(--rs);padding:10px;text-align:center">
+          <div class="mono" style="font-size:16px;font-weight:800;color:var(--am)">118</div>
+          <div style="font-size:10px;color:var(--tx2);margin-top:2px">Skipped</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-card" style="margin:0">
+      <div class="chart-card-hdr"><div class="chart-card-title">Questions by exam type</div></div>
+      <div style="position:relative;width:160px;height:160px;margin:0 auto 14px">
+        <canvas id="exam-donut"></canvas>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div style="display:flex;align-items:center;justify-content:space-between;font-size:12px">
+          <div style="display:flex;align-items:center;gap:8px"><div style="width:10px;height:10px;border-radius:50%;background:var(--acc)"></div>Campus Placements</div>
+          <span class="mono" style="font-weight:700;color:var(--acc2)">52%</span>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;font-size:12px">
+          <div style="display:flex;align-items:center;gap:8px"><div style="width:10px;height:10px;border-radius:50%;background:var(--gr)"></div>Govt Exams</div>
+          <span class="mono" style="font-weight:700;color:var(--gr)">30%</span>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;font-size:12px">
+          <div style="display:flex;align-items:center;gap:8px"><div style="width:10px;height:10px;border-radius:50%;background:var(--am)"></div>MBA / CAT</div>
+          <span class="mono" style="font-weight:700;color:var(--am)">18%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── STREAK CALENDAR ── -->
+  <div class="streak-section">
+    <div class="streak-hdr">
+      <div>
+        <div style="font-size:14px;font-weight:700;margin-bottom:4px">Activity heatmap</div>
+        <div style="font-size:12px;color:var(--tx2)">Questions practiced each day</div>
+      </div>
+      <div class="streak-stats">
+        <div class="sstat"><b style="color:var(--am)">🔥 7</b><span>Current streak</span></div>
+        <div class="sstat"><b style="color:var(--acc2)">14</b><span>Best streak</span></div>
+        <div class="sstat"><b style="color:var(--gr)">34</b><span>Active days</span></div>
+      </div>
+    </div>
+    <div class="cal-grid" id="cal-grid"></div>
+    <div class="cal-legend">
+      <span>Less</span>
+      <div class="cal-swatch" style="background:var(--b1)"></div>
+      <div class="cal-swatch" style="background:#1a4028"></div>
+      <div class="cal-swatch" style="background:#154d2a"></div>
+      <div class="cal-swatch" style="background:#0d7a3c"></div>
+      <div class="cal-swatch" style="background:var(--gr)"></div>
+      <span>More</span>
+    </div>
+  </div>
+
+  <!-- ── RECENT TEST HISTORY ── -->
+  <div class="sec">
+    <h3>Recent tests <em id="recent-period-label">last 30 days</em></h3>
+    <a id="view-all-link" onclick="viewAllTests()">View all →</a>
+  </div>
+  <div class="test-history" id="test-history"></div>
+
+  <!-- ── ACHIEVEMENTS ── -->
+  <div class="sec" style="margin-top:4px"><h3>Achievements <em id="badge-count">5 / 12 earned</em></h3></div>
+  <div class="badges-grid" id="badges-grid"></div>
+
+</div>
+</div>
+
+<script>
+// ── NAV ──
+function openSidebar(){document.getElementById("sidebar").classList.add("open");document.getElementById("overlay").classList.add("show")}
+function closeSidebar(){document.getElementById("sidebar").classList.remove("open");document.getElementById("overlay").classList.remove("show")}
+function navClick(el){document.querySelectorAll(".sb-item").forEach(i=>i.classList.remove("active"));el.classList.add("active");closeSidebar()}
+
+// ── PERIOD ──
+let currentPeriod = '30d';
+let showingAll = false;
+
+function setPeriod(p, el) {
+  document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  currentPeriod = p;
+  showingAll = false;
+
+  // Update "Recent tests" label
+  const lbl = document.getElementById('recent-period-label');
+  if (lbl) lbl.textContent = p==='7d' ? 'last 7 days' : p==='30d' ? 'last 30 days' : 'all time';
+
+  // Update accuracy chart title
+  const chartTitle = document.querySelector('.chart-card-title');
+  if (chartTitle) chartTitle.textContent = `Accuracy trend — ${p==='7d'?'last 7 days':p==='30d'?'last 30 days':'all time'}`;
+
+  // Re-draw accuracy chart with period-filtered fake data
+  drawAccChart(p);
+
+  // Re-fetch test history for the selected period
+  (async () => {
+    try {
+      const limit  = p === '7d' ? 20 : p === '30d' ? 50 : 200;
+      const period = p === 'all' ? undefined : p;
+      const hist   = await apiGetTestHistory(limit, period);
+      renderTests(hist.tests || [], false);
+    } catch(_) { renderTests([], false); }
+  })();
+
+  // Re-build heatmap to match period
+  buildCalendar(p);
+}
+
+function viewAllTests() {
+  showingAll = !showingAll;
+  const link = document.getElementById('view-all-link');
+  if (showingAll) {
+    // Show all — re-fetch without limit
+    (async () => {
+      try {
+        const period = currentPeriod === 'all' ? undefined : currentPeriod;
+        const hist   = await apiGetTestHistory(200, period);
+        renderTests(hist.tests || [], true);
+        if (link) link.textContent = 'Show less ↑';
+      } catch(_) {}
+    })();
+  } else {
+    // Back to limited
+    (async () => {
+      try {
+        const period = currentPeriod === 'all' ? undefined : currentPeriod;
+        const hist   = await apiGetTestHistory(10, period);
+        renderTests(hist.tests || [], false);
+        if (link) link.textContent = 'View all →';
+      } catch(_) {}
+    })();
+  }
+}
+
+// ── DATA ──
+const TOPICS=[
+  {n:"Percentage",e:"📊",acc:88,done:100,total:100,status:"done",color:"var(--acc)"},
+  {n:"Profit & Loss",e:"💰",acc:54,done:62,total:100,status:"prog",color:"var(--rd)"},
+  {n:"Time & Work",e:"⏱️",acc:80,done:100,total:100,status:"done",color:"var(--gr)"},
+  {n:"Time & Distance",e:"🚆",acc:72,done:35,total:100,status:"prog",color:"var(--am)"},
+  {n:"Simple Interest",e:"🏦",acc:0,done:0,total:100,status:"new",color:"var(--b3)"},
+  {n:"Average",e:"📉",acc:91,done:40,total:100,status:"prog",color:"var(--gr)"},
+  {n:"Ratio & Proportion",e:"⚖️",acc:45,done:20,total:100,status:"prog",color:"var(--rd)"},
+  {n:"Compound Interest",e:"📈",acc:0,done:0,total:100,status:"new",color:"var(--b3)"},
+  {n:"Probability",e:"🎲",acc:61,done:30,total:100,status:"prog",color:"var(--am)"},
+  {n:"HCF & LCM",e:"🧮",acc:77,done:50,total:100,status:"prog",color:"var(--acc)"},
+  {n:"Permutation",e:"🔢",acc:38,done:25,total:100,status:"prog",color:"var(--rd)"},
+  {n:"Number System",e:"🔣",acc:0,done:0,total:100,status:"new",color:"var(--b3)"},
+];
+
+const TESTS=[
+  {n:"Percentage — Full Test",e:"📊",bg:"#7c5cfc18",score:88,qs:10,time:"45 min",date:"Today",diff:"Mixed"},
+  {n:"Time & Work — Quick Test",e:"⏱️",bg:"var(--grbg)",score:80,qs:10,time:"22 min",date:"Yesterday",diff:"Easy"},
+  {n:"Profit & Loss — Practice",e:"💰",bg:"var(--rdbg)",score:54,qs:20,time:"38 min",date:"2 days ago",diff:"Medium"},
+  {n:"Average — Quick Test",e:"📉",bg:"var(--grbg)",score:91,qs:10,time:"18 min",date:"3 days ago",diff:"Easy"},
+  {n:"Time & Distance — Test",e:"🚆",bg:"var(--pkbg)",score:72,qs:10,time:"28 min",date:"4 days ago",diff:"Medium"},
+  {n:"Ratio & Proportion",e:"⚖️",bg:"#7c5cfc12",score:45,qs:10,time:"20 min",date:"5 days ago",diff:"Hard"},
+];
+
+const BADGES=[
+  {icon:"🔥",name:"On Fire",desc:"7-day streak",earned:"May 2026",locked:false},
+  {icon:"🎯",name:"Sharpshooter",desc:"90%+ in any test",earned:"Apr 2026",locked:false},
+  {icon:"⚡",name:"Speed Demon",desc:"Finish 10Q in 5 min",earned:"Apr 2026",locked:false},
+  {icon:"💯",name:"Perfect Score",desc:"100% in a test",earned:"May 2026",locked:false},
+  {icon:"🏆",name:"Top 100",desc:"Weekly leaderboard",earned:"May 2026",locked:false},
+  {icon:"📚",name:"Scholar",desc:"1000 questions done",earned:null,locked:false},
+  {icon:"🌟",name:"All-Rounder",desc:"Complete 10 topics",earned:null,locked:true},
+  {icon:"🎓",name:"Graduated",desc:"Complete all topics",earned:null,locked:true},
+  {icon:"🚀",name:"Launchpad",desc:"14-day streak",earned:null,locked:true},
+  {icon:"💎",name:"Diamond",desc:"80%+ accuracy overall",earned:null,locked:true},
+  {icon:"🧠",name:"Brainiac",desc:"100% hard accuracy",earned:null,locked:true},
+  {icon:"👑",name:"Champion",desc:"Rank #1 in a week",earned:null,locked:true},
+];
+
+const WEAK=[
+  {n:"Permutation",acc:38},{n:"Profit & Loss",acc:54},{n:"Ratio & Proportion",acc:45},{n:"Probability",acc:61},
+];
+const STRONG=[
+  {n:"Average",acc:91},{n:"Percentage",acc:88},{n:"Time & Work",acc:80},{n:"HCF & LCM",acc:77},
+];
+
+// ── RENDER TOPIC LIST ──
+let showAll=false;
+function renderTopics(){
+  const list=document.getElementById("topic-list");
+  if (!list) return;
+  const shown=showAll?TOPICS:TOPICS.slice(0,6);
+  if (!shown.length) {
+    list.innerHTML = '<div style="text-align:center;color:var(--tx3);padding:28px;font-size:13px">No topic progress yet. Start practicing!</div>';
+    return;
+  }
+  list.innerHTML=shown.map(t=>{
+    const pct=t.done || 0;
+    const fillColor=(t.acc||0)>=75?"var(--gr)":(t.acc||0)>=55?"var(--am)":"var(--rd)";
+    const badge=t.status==="done"?`<span class="tp-badge" style="background:var(--grbg);border-color:var(--grb);color:var(--gr)">✓ Done</span>`:
+      t.status==="prog"?`<span class="tp-badge" style="background:var(--ambg);border-color:var(--amb);color:var(--am)">In Progress</span>`:
+      `<span class="tp-badge" style="background:var(--card2);border-color:var(--b2);color:var(--tx3)">Not started</span>`;
+    const accColor=(t.acc||0)>=75?"var(--gr)":(t.acc||0)>=55?"var(--am)":"var(--rd)";
+    const accVal = t.acc !== undefined && t.acc !== null ? `${t.acc}%` : '—';
+    return `<div class="tprow">
+      <div class="tp-icon">${t.e || '📊'}</div>
+      <div class="tp-info">
+        <div class="tp-name">${t.n || ''}</div>
+        <div class="tp-bar-row">
+          <div class="tp-track"><div class="tp-fill" style="width:${pct}%;background:${fillColor}"></div></div>
+          <div class="tp-pct" style="color:${fillColor}">${pct}%</div>
+        </div>
+      </div>
+      ${badge}
+      <div class="tp-stats">
+        <div class="tp-score" style="color:${accColor}">${accVal}</div>
+        <div class="tp-qs">${t.done || 0}/${t.total || 100} Q</div>
+      </div>
+    </div>`;
+  }).join("");
+}
+function toggleAll(){showAll=!showAll;renderTopics();document.querySelector(".sec a").textContent=showAll?"Show less":"Show all";}
+
+// ── WEAK / STRONG ──
+function renderAreas(){
+  const wl = document.getElementById("weak-list");
+  const sl = document.getElementById("strong-list");
+  if (wl) {
+    if (WEAK.length > 0) {
+      wl.innerHTML = WEAK.map((w,i)=>`
+        <div class="area-item">
+          <div class="area-rank" style="color:var(--rd)">${i+1}</div>
+          <div class="area-name">${w.n || ''}</div>
+          <div class="area-bar-mini"><div class="area-bar-fill" style="width:${w.acc || 0}%;background:var(--rd)"></div></div>
+          <div class="area-acc" style="color:var(--rd)">${w.acc || 0}%</div>
+        </div>`).join("");
+    } else {
+      wl.innerHTML = '<div style="color:var(--tx3);font-size:12px;padding:12px 0">Take more tests to see weak areas.</div>';
+    }
+  }
+  if (sl) {
+    if (STRONG.length > 0) {
+      sl.innerHTML = STRONG.map((s,i)=>`
+        <div class="area-item">
+          <div class="area-rank" style="color:var(--gr)">${i+1}</div>
+          <div class="area-name">${s.n || ''}</div>
+          <div class="area-bar-mini"><div class="area-bar-fill" style="width:${s.acc || 0}%;background:var(--gr)"></div></div>
+          <div class="area-acc" style="color:var(--gr)">${s.acc || 0}%</div>
+        </div>`).join("");
+    } else {
+      sl.innerHTML = '<div style="color:var(--tx3);font-size:12px;padding:12px 0">Take more tests to see strong areas.</div>';
+    }
+  }
+}
+
+// ── ACCURACY CHART (period-aware) ──
+function drawAccChart(period) {
+  const canvas = document.getElementById('acc-chart');
+  const ctx    = canvas.getContext('2d');
+  const W = canvas.offsetWidth || 600, H = canvas.offsetHeight || 160;
+  canvas.width = W; canvas.height = H;
+  ctx.clearRect(0, 0, W, H);
+
+  // Generate data points based on period
+  let labels, acc, qs;
+  if (period === '7d') {
+    labels = ['Day-7','Day-6','Day-5','Day-4','Day-3','Day-2','Today'];
+    acc    = [60, 65, 62, 70, 68, 74, 72];
+    qs     = [8, 10, 7, 15, 12, 18, 14];
+  } else if (period === 'all') {
+    labels = ['Jan','Feb','Mar','Apr','May','Jun','Jul'];
+    acc    = [45, 52, 58, 63, 70, 74, 80];
+    qs     = [20, 30, 25, 40, 55, 60, 72];
+  } else {
+    // 30d (default)
+    labels = ['Apr 25','Apr 28','May 1','May 4','May 7','May 10','May 13','May 16','May 19','May 22','May 24'];
+    acc    = [52, 61, 58, 65, 63, 70, 68, 74, 72, 78, 80];
+    qs     = [8, 12, 6, 15, 10, 20, 18, 22, 14, 25, 30];
+  }
+
+  const maxQ = Math.max(...qs);
+  const n    = acc.length;
+  const pad  = {l:6, r:6, t:10, b:6};
+  const W2 = W-pad.l-pad.r, H2 = H-pad.t-pad.b;
+
+  // Grid lines
+  [0,25,50,75,100].forEach(v => {
+    const y = pad.t + H2*(1-v/100);
+    ctx.strokeStyle = '#252538'; ctx.lineWidth = .7;
+    ctx.beginPath(); ctx.moveTo(pad.l,y); ctx.lineTo(W-pad.r,y); ctx.stroke();
+  });
+
+  // Q bars
+  const bw = Math.max(4, (W2/n)*0.3);
+  qs.forEach((q,i) => {
+    const x = pad.l + i*(W2/(n-1));
+    const bh = (q/maxQ)*H2*0.6;
+    ctx.fillStyle = '#f59e0b18';
+    ctx.fillRect(x-bw/2, pad.t+H2-bh, bw, bh);
+  });
+
+  // Accuracy area fill
+  ctx.beginPath();
+  acc.forEach((v,i) => {
+    const x = pad.l + i*(W2/(n-1));
+    const y = pad.t + H2*(1-v/100);
+    i===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
+  });
+  const grad = ctx.createLinearGradient(0, pad.t, 0, H-pad.b);
+  grad.addColorStop(0, '#7c5cfc40'); grad.addColorStop(1, '#7c5cfc00');
+  const lastX = pad.l+(n-1)*(W2/(n-1));
+  ctx.lineTo(lastX, H-pad.b); ctx.lineTo(pad.l, H-pad.b); ctx.closePath();
+  ctx.fillStyle = grad; ctx.fill();
+
+  // Accuracy line
+  ctx.beginPath();
+  acc.forEach((v,i) => {
+    const x = pad.l + i*(W2/(n-1));
+    const y = pad.t + H2*(1-v/100);
+    i===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
+  });
+  ctx.strokeStyle = '#7c5cfc'; ctx.lineWidth = 2; ctx.lineJoin = 'round'; ctx.stroke();
+
+  // Dots
+  acc.forEach((v,i) => {
+    const x = pad.l + i*(W2/(n-1));
+    const y = pad.t + H2*(1-v/100);
+    ctx.beginPath(); ctx.arc(x,y,3.5,0,Math.PI*2);
+    ctx.fillStyle = '#7c5cfc'; ctx.fill();
+    ctx.strokeStyle = '#08080e'; ctx.lineWidth = 1.5; ctx.stroke();
+  });
+
+  // X labels
+  const lrow = document.getElementById('acc-labels');
+  if (lrow) lrow.innerHTML = labels
+    .filter((_,i) => n<=7 || i%Math.ceil(n/5)===0 || i===n-1)
+    .map(l => `<span>${l}</span>`).join('');
+}
+
+// ── DONUT CHART ──
+function drawExamDonut(){
+  const cv=document.getElementById("exam-donut");
+  if (!cv) return;
+  const ctx=cv.getContext("2d");
+  cv.width=160;cv.height=160;
+  const segs=[{v:.52,col:"#7c5cfc"},{v:.30,col:"#22c55e"},{v:.18,col:"#f59e0b"}];
+  let start=-Math.PI/2;
+  segs.forEach(s=>{
+    const angle=s.v*2*Math.PI;
+    ctx.beginPath();ctx.arc(80,80,64,start,start+angle);ctx.arc(80,80,36,start+angle,start,true);
+    ctx.closePath();ctx.fillStyle=s.col;ctx.fill();
+    start+=angle;
+  });
+}
+
+// ── CALENDAR HEATMAP (period-aware) ──
+async function buildCalendar(period) {
+  const grid = document.getElementById('cal-grid');
+  if (!grid) return;
+
+  const days = ['S','M','T','W','T','F','S'];
+  let html   = days.map(d => `<div class="cal-day-label">${d}</div>`).join('');
+
+  // Fetch heatmap data from API
+  let heatmapData = {};
+  try {
+    const res  = await apiGetHeatmap();
+    heatmapData = res.heatmap || {};
+  } catch(_) {}
+
+  const today  = new Date();
+
+  // Determine how many days back to show based on period
+  const lookback = period === '7d' ? 7 : period === 'all' ? 365 : 55;
+
+  const start = new Date(today);
+  start.setDate(today.getDate() - lookback);
+  // Align to Sunday
+  while (start.getDay() !== 0) start.setDate(start.getDate() - 1);
+
+  // Count weeks to know total cells
+  const end = new Date(today);
+  while (end.getDay() !== 6) end.setDate(end.getDate() + 1); // go to Saturday
+  const totalDays = Math.round((end - start) / 86400000) + 1;
+  const totalCells = Math.min(totalDays, period === '7d' ? 14 : period === 'all' ? 378 : 63);
+
+  let d = new Date(start);
+  for (let i = 0; i < totalCells; i++) {
+    const isToday  = d.toDateString() === today.toDateString();
+    const isFuture = d > today;
+    const key      = d.toISOString().slice(0, 10);
+    const count    = heatmapData[key] || 0;
+
+    let level = 'l0';
+    if (isFuture)    level = 'future';
+    else if (count >= 20) level = 'l4';
+    else if (count >= 10) level = 'l3';
+    else if (count >= 5)  level = 'l2';
+    else if (count > 0)   level = 'l1';
+
+    const tc = isToday ? ' today' : '';
+    html += `<div class="cal-cell ${level}${tc}" title="${d.toDateString()}${count ? ' · '+count+' questions' : ''}"></div>`;
+    d.setDate(d.getDate() + 1);
+  }
+
+  grid.innerHTML = html;
+
+  // Update streak stats
+  try {
+    const sr = await apiGetStreak();
+    const cur = document.querySelector('.sstat:nth-child(1) b');
+    const best= document.querySelector('.sstat:nth-child(2) b');
+    const act = document.querySelector('.sstat:nth-child(3) b');
+    if (cur  && sr.current  !== undefined) cur.textContent  = '🔥 ' + sr.current;
+    if (best && sr.best     !== undefined) best.textContent = sr.best;
+    if (act  && sr.activeDays!== undefined) act.textContent = sr.activeDays;
+  } catch(_) {}
+}
+
+// ── TESTS (from API) ──
+function renderTests(tests, showViewAll) {
+  const link = document.getElementById('view-all-link');
+  if (!tests || !tests.length) {
+    document.getElementById('test-history').innerHTML = '<div style="text-align:center;color:var(--tx3);padding:28px 0;font-size:13px">No tests yet. Start practicing!</div>';
+    if (link) link.style.display = 'none';
+    return;
+  }
+  // Show max 5 by default; all if showViewAll=true
+  const shown = showViewAll ? tests : tests.slice(0, 5);
+  if (link) {
+    link.style.display = '';
+    link.textContent = (showViewAll || tests.length <= 5) ? 'Show less ↑' : `View all ${tests.length} →`;
+    if (tests.length <= 5) link.style.display = 'none';
+  }
+  document.getElementById('test-history').innerHTML = shown.map(t => {
+    const sc  = t.score || 0;
+    const col = sc>=75 ? 'var(--gr)' : sc>=55 ? 'var(--am)' : 'var(--rd)';
+    const date = formatRelativeTime(t.createdAt);
+    const mins = Math.round((t.timeTaken||0)/60);
+    return `<div class="test-row">
+      <div class="test-icon" style="background:var(--accbg)">📝</div>
+      <div class="test-info">
+        <div class="test-name">${t.topicName||t.topicId}</div>
+        <div class="test-meta">
+          <span>📅 ${date}</span>
+          <span>📝 ${t.total||10} questions</span>
+          <span>⏱ ${mins}m</span>
+          <span style="color:${t.score>=75?'var(--gr)':t.score>=55?'var(--am)':'var(--rd)'}">● ${t.mode||'Test'}</span>
+        </div>
+      </div>
+      <div class="test-score-wrap">
+        <div class="test-score" style="color:${col}">${sc}%</div>
+        <div class="test-bar"><div class="test-bar-fill" style="width:${sc}%;background:${col}"></div></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── BADGES (from API) ──
+function renderBadges(badges){
+  if (!badges || !badges.length) return;
+  const earned=badges.filter(b=>b.earned&&!b.locked).length;
+  document.getElementById("badge-count").textContent=`${earned} / ${badges.length} earned`;
+  document.getElementById("badges-grid").innerHTML=badges.map(b=>`
+    <div class="badge-card${b.locked?' locked':''}">
+      <span class="badge-icon">${b.icon}</span>
+      <div class="badge-name">${b.name}</div>
+      <div class="badge-desc">${b.desc}</div>
+      ${b.earned?`<div class="badge-earned">✓ Earned</div>`:b.locked?`<div style="font-size:10px;color:var(--tx4);margin-top:6px">🔒 Locked</div>`:`<div style="font-size:10px;color:var(--am);margin-top:6px">Almost there!</div>`}
+    </div>`).join("");
+}
+
+// ── INIT with real API data ──
+document.addEventListener('DOMContentLoaded', async () => {
+  const user = await requireAuth();
+  if (!user) return;
+
+  // Set user avatar/name in profile chip + hero
+  const initials = (user.name||'U').split(' ').map(w=>w[0]).join('').toUpperCase().slice(0,2);
+  const avatarEl = document.getElementById('hero-avatar');
+  const nameEl   = document.getElementById('hero-name');
+  const subEl    = document.getElementById('hero-sub');
+  if (avatarEl) avatarEl.textContent = initials;
+  if (nameEl)   nameEl.textContent   = user.name || "User";
+  if (subEl)    subEl.textContent    = user.email || '';
+
+  // Profile chip in topbar
+  const pa = document.getElementById('profile-avatar');
+  const pn = document.getElementById('profile-name');
+  if (pa) pa.textContent = initials;
+  if (pn) pn.textContent = (user.name || "User").split(' ')[0];
+
+  // Close dropdown on outside click
+  document.addEventListener('click', e => {
+    const chip = document.getElementById('profile-chip');
+    if (chip && !chip.contains(e.target)) chip.classList.remove('open');
+  });
+
+  // ── Load dashboard summary stats ──
+  try {
+    const dash = await apiGetDashboard();
+    if (dash && dash.stats) {
+      const s = dash.stats;
+      const m = {
+        'metric-accuracy':  (s.avgAccuracy||0)+'%',
+        'metric-tests':     s.totalTests||0,
+        'metric-practices': s.totalPractices||0,
+        'metric-streak':    (s.currentStreak||0)+' days',
+        'metric-questions': (s.questionsAttempted||0).toLocaleString()
+      };
+      Object.entries(m).forEach(([id,val])=>{
+        const el = document.getElementById(id);
+        if (el) el.textContent = val;
+      });
+      // Update hero tags
+      const ha = document.getElementById('htag-accuracy');
+      const hs = document.getElementById('htag-streak');
+      const hr = document.getElementById('htag-rank');
+      if (ha) ha.textContent = (s.avgAccuracy||0)+'%';
+      if (hs) hs.textContent = s.currentStreak||0;
+      if (hr) hr.textContent = s.weeklyRank||'—';
+      // Update hero sub text
+      const sub = document.getElementById('hero-sub');
+      if (sub) sub.textContent = `${s.activeDays||0} active days · ${s.totalTests||0} tests completed`;
+    }
+  } catch(_) {}
+
+  // ── Load topic progress ──
+  try {
+    const res = await apiGetProgressTopics();
+    if (res && res.topics && res.topics.length) {
+      TOPICS.length = 0;
+      res.topics.forEach(t => {
+        TOPICS.push({
+          n: t.name,
+          e: t.icon || '📊',
+          acc: t.accuracy,
+          done: t.done || 0,
+          total: t.total || 100,
+          status: t.status || 'new',
+          color: t.color || 'var(--acc)'
+        });
+      });
+      renderTopics();
+    } else {
+      renderTopics();
+    }
+  } catch(_) {
+    renderTopics();
+  }
+
+  // ── Load weak/strong areas ──
+  try {
+    const ar = await apiGetAreas();
+    if (ar && (ar.weak || ar.strong)) {
+      WEAK.length = 0;
+      STRONG.length = 0;
+      if (ar.weak) {
+        ar.weak.forEach(w => {
+          WEAK.push({ n: w.name, acc: w.accuracy });
+        });
+      }
+      if (ar.strong) {
+        ar.strong.forEach(s => {
+          STRONG.push({ n: s.name, acc: s.accuracy });
+        });
+      }
+      renderAreas();
+    } else {
+      renderAreas();
+    }
+  } catch(_) {
+    renderAreas();
+  }
+
+  // ── Load test history ──
+  try {
+    const hist = await apiGetTestHistory(10, '30d');
+    renderTests(hist.tests || [], false);
+  } catch(_) {
+    renderTests([], false);
+  }
+
+  // ── Load badges ──
+  try {
+    const b = await apiGetBadges();
+    renderBadges(b.badges || []);
+  } catch(_) {}
+
+  // ── Build calendar heatmap ──
+  buildCalendar('30d');
+
+  // ── Draw charts ──
+  requestAnimationFrame(() => {
+    drawAccChart('30d');
+    drawExamDonut();
+  });
+});
+window.addEventListener('resize', () => drawAccChart(currentPeriod));
+</script>
+</body>
+</html>

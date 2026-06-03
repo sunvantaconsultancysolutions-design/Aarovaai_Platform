@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences to form a coherent paragraph:\nP: He then went to the market to buy vegetables.\nQ: In the morning, Ravi woke up early.\nR: After cooking, he had a hearty breakfast.\nS: He washed his face and brushed his teeth.\nWhich is the correct order?",
+    "options": [
+      "A) QSPR",
+      "B) QPSR",
+      "C) SQPR",
+      "D) PQSR"
+    ],
+    "correct_answer": "A) QSPR",
+    "explanation": "The sequence starts with Ravi waking up (Q), then his morning routine (S), then going to market (P), and finally cooking and eating (R). QSPR is the logical order."
+  },
+  {
+    "id": 2,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: She submitted the report to her manager.\nQ: Priya received an assignment from her team lead.\nR: She spent two days researching the topic.\nS: Finally, she compiled all the data into a report.\nWhich is the correct order?",
+    "options": [
+      "A) QRSP",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRSP",
+    "explanation": "Priya first received the assignment (Q), then researched (R), compiled the report (S), and finally submitted it (P). QRSP is the logical sequence."
+  },
+  {
+    "id": 3,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the sentence that best fits the blank in the paragraph:\n'The sun was setting over the horizon. The sky turned shades of orange and pink. ______. It was a beautiful end to the day.'\nWhich sentence fits best?",
+    "options": [
+      "A) Birds flew back to their nests as dusk approached.",
+      "B) The market was crowded with shoppers.",
+      "C) Children were doing their homework.",
+      "D) The factory was running at full capacity."
+    ],
+    "correct_answer": "A) Birds flew back to their nests as dusk approached.",
+    "explanation": "The paragraph describes a sunset scene. Birds returning to nests at dusk fits perfectly with the evening theme, maintaining coherence."
+  },
+  {
+    "id": 4,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the following sentences:\nP: The doctor prescribed medicine and advised rest.\nQ: He felt better after a week.\nR: Amit had a high fever last Monday.\nS: His mother took him to the doctor immediately.\nWhich is the correct order?",
+    "options": [
+      "A) RSPQ",
+      "B) RSQP",
+      "C) SRQP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) RSPQ",
+    "explanation": "Amit got fever (R), mother took him to doctor (S), doctor prescribed medicine (P), and he recovered (Q). RSPQ is the correct chronological order."
+  },
+  {
+    "id": 5,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence does NOT belong in the following paragraph?\n'Exercise is essential for good health. Regular workouts improve cardiovascular fitness. A balanced diet also contributes to well-being. The stock market crashed last Tuesday. Yoga and meditation reduce stress levels.'",
+    "options": [
+      "A) Exercise is essential for good health.",
+      "B) The stock market crashed last Tuesday.",
+      "C) Yoga and meditation reduce stress levels.",
+      "D) A balanced diet also contributes to well-being."
+    ],
+    "correct_answer": "B) The stock market crashed last Tuesday.",
+    "explanation": "The paragraph is about health and fitness. The sentence about the stock market is completely unrelated and disrupts the coherence of the paragraph."
+  },
+  {
+    "id": 6,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The train arrived at the station on time.\nQ: Passengers boarded quickly with their luggage.\nR: Meena reached the railway station an hour early.\nS: The journey to Mumbai began smoothly.\nWhich is the correct order?",
+    "options": [
+      "A) RPQS",
+      "B) RQPS",
+      "C) PRQS",
+      "D) QRPS"
+    ],
+    "correct_answer": "A) RPQS",
+    "explanation": "Meena arrived early (R), train arrived (P), passengers boarded (Q), journey began (S). RPQS follows the natural sequence of events."
+  },
+  {
+    "id": 7,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the opening sentence of the paragraph:\nP: This makes it one of the most spoken languages in the world.\nQ: It has over a billion speakers across the globe.\nR: Hindi is the official language of India.\nS: It is also widely spoken in Nepal and Fiji.",
+    "options": [
+      "A) R",
+      "B) Q",
+      "C) P",
+      "D) S"
+    ],
+    "correct_answer": "A) R",
+    "explanation": "R introduces the topic (Hindi as India's official language), making it the ideal opening sentence. The other sentences provide supporting details."
+  },
+  {
+    "id": 8,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: He scored the highest marks in the class.\nQ: Suresh studied hard for his final exams.\nR: His parents were very proud of him.\nS: He revised all chapters thoroughly.\nWhich is the correct order?",
+    "options": [
+      "A) QSPR",
+      "B) QPSR",
+      "C) SQPR",
+      "D) PQSR"
+    ],
+    "correct_answer": "A) QSPR",
+    "explanation": "Suresh decided to study hard (Q), revised chapters (S), scored highest (P), and parents were proud (R). QSPR is the logical order."
+  },
+  {
+    "id": 9,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the best concluding sentence for the paragraph:\n'Water is a precious natural resource. It is essential for all living beings. Many regions face severe water scarcity. Governments are implementing water conservation policies. ______.'",
+    "options": [
+      "A) Therefore, every individual must use water responsibly.",
+      "B) Cars run on petrol and diesel.",
+      "C) The internet has changed communication.",
+      "D) Mountains are covered with snow."
+    ],
+    "correct_answer": "A) Therefore, every individual must use water responsibly.",
+    "explanation": "The paragraph discusses water conservation. The concluding sentence should reinforce the message, making option A the most appropriate conclusion."
+  },
+  {
+    "id": 10,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: She watered them every morning.\nQ: Neha planted seeds in her garden.\nR: Within a month, beautiful flowers bloomed.\nS: She also added fertilizer to the soil.\nWhich is the correct order?",
+    "options": [
+      "A) QPSR",
+      "B) QSPR",
+      "C) PQSR",
+      "D) QRSP"
+    ],
+    "correct_answer": "B) QSPR",
+    "explanation": "Neha planted seeds (Q), added fertilizer (S), watered them (P), and flowers bloomed (R). QSPR is the correct logical sequence."
+  },
+  {
+    "id": 11,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence is the best introduction for the following paragraph?\n'______ . It was built over 20 years by thousands of workers. The structure stands 73 meters tall. It is considered one of the seven wonders of the medieval world.'\nOptions:",
+    "options": [
+      "A) The Taj Mahal is a magnificent monument in Agra.",
+      "B) India has many rivers and mountains.",
+      "C) Cricket is the most popular sport in India.",
+      "D) The monsoon season brings heavy rainfall."
+    ],
+    "correct_answer": "A) The Taj Mahal is a magnificent monument in Agra.",
+    "explanation": "The paragraph describes a tall structure built by thousands of workers and considered a wonder. The Taj Mahal introduction fits perfectly as the opening sentence."
+  },
+  {
+    "id": 12,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The firefighters arrived within minutes.\nQ: A fire broke out in a building downtown.\nR: They successfully extinguished the flames.\nS: Residents were evacuated safely.\nWhich is the correct order?",
+    "options": [
+      "A) QPSR",
+      "B) QPRS",
+      "C) PQRS",
+      "D) QRSP"
+    ],
+    "correct_answer": "A) QPSR",
+    "explanation": "Fire broke out (Q), firefighters arrived (P), residents evacuated (S), flames extinguished (R). QPSR is the correct chronological order."
+  },
+  {
+    "id": 13,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the sentence that best fills the blank:\n'Technology has transformed modern education. Students can now access information instantly. ______. This has made learning more interactive and engaging.'\nWhich sentence fits best?",
+    "options": [
+      "A) Online platforms offer courses from top universities worldwide.",
+      "B) Farmers use tractors for plowing fields.",
+      "C) The price of gold has increased significantly.",
+      "D) Traffic jams are common in metropolitan cities."
+    ],
+    "correct_answer": "A) Online platforms offer courses from top universities worldwide.",
+    "explanation": "The paragraph is about technology in education. Online platforms offering courses directly supports the theme of accessible, interactive learning."
+  },
+  {
+    "id": 14,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: He practiced daily for three months.\nQ: Arjun wanted to learn to play the guitar.\nR: He performed at the school concert.\nS: He enrolled in a music class.\nWhich is the correct order?",
+    "options": [
+      "A) QSPR",
+      "B) QPSR",
+      "C) SQPR",
+      "D) PQSR"
+    ],
+    "correct_answer": "A) QSPR",
+    "explanation": "Arjun wanted to learn (Q), enrolled in class (S), practiced daily (P), and performed at concert (R). QSPR is the logical sequence."
+  },
+  {
+    "id": 15,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence does NOT belong in the paragraph?\n'The Amazon rainforest is the world's largest tropical rainforest. It covers over 5.5 million square kilometers. It is home to millions of species of plants and animals. The Eiffel Tower is located in Paris. It plays a crucial role in regulating the Earth's climate.'",
+    "options": [
+      "A) It covers over 5.5 million square kilometers.",
+      "B) The Eiffel Tower is located in Paris.",
+      "C) It plays a crucial role in regulating the Earth's climate.",
+      "D) It is home to millions of species of plants and animals."
+    ],
+    "correct_answer": "B) The Eiffel Tower is located in Paris.",
+    "explanation": "The paragraph is about the Amazon rainforest. The sentence about the Eiffel Tower is completely irrelevant and breaks the coherence."
+  },
+  {
+    "id": 16,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The audience applauded loudly.\nQ: The curtains rose on the stage.\nR: The actors took their final bow.\nS: The play began with a dramatic scene.\nWhich is the correct order?",
+    "options": [
+      "A) QSPR",
+      "B) QSRP",
+      "C) SQPR",
+      "D) PQSR"
+    ],
+    "correct_answer": "A) QSPR",
+    "explanation": "Curtains rose (Q), play began (S), audience applauded (P), actors bowed (R). QSPR follows the natural sequence of a theatrical performance."
+  },
+  {
+    "id": 17,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the sentence that best fits the blank:\n'Reading books is a wonderful habit. It enhances vocabulary and improves concentration. ______. People who read regularly tend to be more knowledgeable.'\nWhich sentence fits best?",
+    "options": [
+      "A) Books expose readers to diverse ideas and perspectives.",
+      "B) Swimming is an excellent form of exercise.",
+      "C) The price of petrol has risen sharply.",
+      "D) Computers were invented in the 20th century."
+    ],
+    "correct_answer": "A) Books expose readers to diverse ideas and perspectives.",
+    "explanation": "The paragraph is about the benefits of reading. Exposure to diverse ideas directly supports the theme and connects vocabulary improvement to broader knowledge."
+  },
+  {
+    "id": 18,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: She packed her bags the night before.\nQ: Kavya was excited about her trip to Shimla.\nR: The journey was long but enjoyable.\nS: She boarded the train early in the morning.\nWhich is the correct order?",
+    "options": [
+      "A) QPSR",
+      "B) QPRS",
+      "C) PQSR",
+      "D) QRSP"
+    ],
+    "correct_answer": "A) QPSR",
+    "explanation": "Kavya was excited (Q), packed bags (P), boarded train (S), journey was enjoyable (R). QPSR is the correct chronological order."
+  },
+  {
+    "id": 19,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the concluding sentence for the paragraph:\nP: Pollution is a major global concern.\nQ: Industries release harmful chemicals into rivers.\nR: Vehicle emissions contribute to air pollution.\nS: Therefore, strict environmental laws must be enforced.\nWhich sentence is the conclusion?",
+    "options": [
+      "A) S",
+      "B) P",
+      "C) Q",
+      "D) R"
+    ],
+    "correct_answer": "A) S",
+    "explanation": "S uses 'Therefore' which signals a conclusion. It summarizes the need for action based on the problems described in P, Q, and R."
+  },
+  {
+    "id": 20,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: He was declared the winner of the competition.\nQ: Rahul participated in the state-level debate competition.\nR: He prepared his arguments carefully for weeks.\nS: He delivered a confident and well-structured speech.\nWhich is the correct order?",
+    "options": [
+      "A) QRSP",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRSP",
+    "explanation": "Rahul participated (Q), prepared arguments (R), delivered speech (S), and won (P). QRSP is the logical chronological sequence."
+  },
+  {
+    "id": 21,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence best introduces the following paragraph?\n'______. It is made from fermented grapes and has been produced for thousands of years. Different regions produce wines with distinct flavors. France and Italy are among the top wine-producing countries.'",
+    "options": [
+      "A) Wine is one of the oldest alcoholic beverages in the world.",
+      "B) Coffee is a popular morning beverage.",
+      "C) Tea is widely consumed in Asia.",
+      "D) Milk is an important source of calcium."
+    ],
+    "correct_answer": "A) Wine is one of the oldest alcoholic beverages in the world.",
+    "explanation": "The paragraph discusses wine's history and production. The introduction about wine being an ancient beverage sets the context perfectly."
+  },
+  {
+    "id": 22,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The match ended in a thrilling victory for India.\nQ: The cricket match between India and Australia began.\nR: India needed 20 runs off the last over.\nS: MS Dhoni hit a six on the final ball.\nWhich is the correct order?",
+    "options": [
+      "A) QRSP",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRSP",
+    "explanation": "Match began (Q), India needed 20 runs (R), Dhoni hit six (S), India won (P). QRSP is the correct narrative sequence."
+  },
+  {
+    "id": 23,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the sentence that does NOT belong:\n'Mahatma Gandhi was a great leader. He led India's independence movement. He believed in non-violence and truth. The Himalayas are the highest mountain range in the world. He is called the Father of the Nation.'",
+    "options": [
+      "A) He led India's independence movement.",
+      "B) The Himalayas are the highest mountain range in the world.",
+      "C) He believed in non-violence and truth.",
+      "D) He is called the Father of the Nation."
+    ],
+    "correct_answer": "B) The Himalayas are the highest mountain range in the world.",
+    "explanation": "The paragraph is about Mahatma Gandhi. The sentence about the Himalayas is completely unrelated and disrupts the paragraph's coherence."
+  },
+  {
+    "id": 24,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The baby smiled and clapped her hands.\nQ: The mother played a lullaby on her phone.\nR: The room was filled with soft music.\nS: The baby slowly drifted off to sleep.\nWhich is the correct order?",
+    "options": [
+      "A) QRPS",
+      "B) QPRS",
+      "C) RQPS",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRPS",
+    "explanation": "Mother played lullaby (Q), room filled with music (R), baby smiled (P), baby slept (S). QRPS is the logical sequence of events."
+  },
+  {
+    "id": 25,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: He thanked the librarian and left.\nQ: Vikram visited the library to find a book on history.\nR: He found the book on the third shelf.\nS: He browsed through several aisles.\nWhich is the correct order?",
+    "options": [
+      "A) QSRP",
+      "B) QRSP",
+      "C) SQRP",
+      "D) PQSR"
+    ],
+    "correct_answer": "A) QSRP",
+    "explanation": "Vikram visited library (Q), browsed aisles (S), found book (R), thanked librarian (P). QSRP is the correct chronological order."
+  },
+  {
+    "id": 26,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: She received a standing ovation from the crowd.\nQ: Ananya had been practicing her dance for six months.\nR: She performed flawlessly on stage.\nS: The judges awarded her the first prize.\nWhich is the correct order?",
+    "options": [
+      "A) QRPS",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRPS",
+    "explanation": "Ananya practiced (Q), performed flawlessly (R), received ovation (P), won first prize (S). QRPS is the logical sequence."
+  },
+  {
+    "id": 27,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence best fills the blank?\n'The Internet has revolutionized communication. Emails replaced traditional letters. ______. Today, people can connect with anyone across the globe instantly.'\nWhich sentence fits best?",
+    "options": [
+      "A) Social media platforms enabled real-time interaction.",
+      "B) Trains were invented in the 19th century.",
+      "C) Agriculture is the backbone of the Indian economy.",
+      "D) The moon orbits the Earth every 27 days."
+    ],
+    "correct_answer": "A) Social media platforms enabled real-time interaction.",
+    "explanation": "The paragraph traces the evolution of internet communication. Social media enabling real-time interaction logically follows emails replacing letters."
+  },
+  {
+    "id": 28,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The chef garnished it with fresh herbs.\nQ: The restaurant received a five-star review.\nR: The chef prepared a special dish for the guests.\nS: The guests were delighted by the presentation.\nWhich is the correct order?",
+    "options": [
+      "A) RPQS",
+      "B) RPSQ",
+      "C) PRQS",
+      "D) QRPS"
+    ],
+    "correct_answer": "B) RPSQ",
+    "explanation": "Chef prepared dish (R), garnished it (P), guests were delighted (S), restaurant got five-star review (Q). RPSQ is the correct sequence."
+  },
+  {
+    "id": 29,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the sentence that does NOT belong:\n'Solar energy is a renewable source of power. Solar panels convert sunlight into electricity. They are installed on rooftops and open fields. The Ganges is a sacred river in India. Solar energy reduces dependence on fossil fuels.'",
+    "options": [
+      "A) Solar panels convert sunlight into electricity.",
+      "B) The Ganges is a sacred river in India.",
+      "C) Solar energy reduces dependence on fossil fuels.",
+      "D) They are installed on rooftops and open fields."
+    ],
+    "correct_answer": "B) The Ganges is a sacred river in India.",
+    "explanation": "The paragraph is about solar energy. The sentence about the Ganges river is completely unrelated and disrupts the paragraph's coherence."
+  },
+  {
+    "id": 30,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: He submitted the application before the deadline.\nQ: Mohan decided to apply for a government job.\nR: He gathered all the required documents.\nS: He filled out the application form carefully.\nWhich is the correct order?",
+    "options": [
+      "A) QRSP",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRSP",
+    "explanation": "Mohan decided to apply (Q), gathered documents (R), filled form (S), submitted application (P). QRSP is the correct logical sequence."
+  },
+  {
+    "id": 31,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the best opening sentence for the paragraph:\n'______. It is the process by which plants make their own food using sunlight. Chlorophyll in the leaves absorbs sunlight. Carbon dioxide and water are converted into glucose and oxygen.'",
+    "options": [
+      "A) Photosynthesis is one of the most important biological processes.",
+      "B) Respiration is essential for all living organisms.",
+      "C) Digestion breaks down food into nutrients.",
+      "D) Reproduction ensures the survival of species."
+    ],
+    "correct_answer": "A) Photosynthesis is one of the most important biological processes.",
+    "explanation": "The paragraph explains photosynthesis. The opening sentence must introduce the topic, making option A the most appropriate choice."
+  },
+  {
+    "id": 32,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The students cheered as the results were announced.\nQ: The annual science fair was held at the school.\nR: Teams presented their innovative projects.\nS: The judges evaluated each project carefully.\nWhich is the correct order?",
+    "options": [
+      "A) QRSP",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRSP",
+    "explanation": "Science fair was held (Q), teams presented projects (R), judges evaluated (S), students cheered at results (P). QRSP is the logical sequence."
+  },
+  {
+    "id": 33,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which sentence best fills the blank?\n'Forests are vital for our planet. They provide habitat for countless species. ______. They also help prevent soil erosion and flooding.'\nWhich sentence fits best?",
+    "options": [
+      "A) Trees absorb carbon dioxide and release oxygen.",
+      "B) Deserts receive very little rainfall annually.",
+      "C) Oceans cover about 71% of the Earth's surface.",
+      "D) Volcanoes erupt due to tectonic plate movements."
+    ],
+    "correct_answer": "A) Trees absorb carbon dioxide and release oxygen.",
+    "explanation": "The paragraph discusses the importance of forests. Trees absorbing CO2 and releasing oxygen directly supports the theme of forests being vital for the planet."
+  },
+  {
+    "id": 34,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The mechanic repaired the engine within an hour.\nQ: Rohan's car broke down on the highway.\nR: He called a mechanic for help.\nS: Rohan drove home safely after the repair.\nWhich is the correct order?",
+    "options": [
+      "A) QRPS",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRPS",
+    "explanation": "Car broke down (Q), Rohan called mechanic (R), mechanic repaired (P), Rohan drove home (S). QRPS is the correct chronological order."
+  },
+  {
+    "id": 35,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the sentence that does NOT belong:\n'Yoga has numerous health benefits. It improves flexibility and strength. Regular practice reduces anxiety and stress. The Indian Railways is the largest employer in India. Yoga also promotes mental clarity and focus.'",
+    "options": [
+      "A) It improves flexibility and strength.",
+      "B) The Indian Railways is the largest employer in India.",
+      "C) Regular practice reduces anxiety and stress.",
+      "D) Yoga also promotes mental clarity and focus."
+    ],
+    "correct_answer": "B) The Indian Railways is the largest employer in India.",
+    "explanation": "The paragraph is about yoga's health benefits. The sentence about Indian Railways is completely unrelated and disrupts the paragraph's coherence."
+  },
+  {
+    "id": 36,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: The volunteers distributed food packets to the needy.\nQ: A charity organization organized a food drive.\nR: Hundreds of people donated food items.\nS: The event was considered a great success.\nWhich is the correct order?",
+    "options": [
+      "A) QRPS",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QRPS",
+    "explanation": "Organization organized drive (Q), people donated (R), volunteers distributed (P), event was success (S). QRPS is the logical sequence."
+  },
+  {
+    "id": 37,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the best concluding sentence for the paragraph:\n'Climate change is one of the greatest challenges of our time. Rising temperatures are melting glaciers. Sea levels are rising, threatening coastal cities. Extreme weather events are becoming more frequent. ______.'",
+    "options": [
+      "A) Immediate global action is needed to combat climate change.",
+      "B) The population of India is over 1.4 billion.",
+      "C) Football is the most popular sport in the world.",
+      "D) The Great Wall of China is visible from space."
+    ],
+    "correct_answer": "A) Immediate global action is needed to combat climate change.",
+    "explanation": "The paragraph describes the impacts of climate change. The conclusion should call for action, making option A the most appropriate concluding sentence."
+  },
+  {
+    "id": 38,
+    "topic": "Paragraph Formation",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arrange the sentences to form a coherent paragraph:\nP: She was awarded a scholarship to study abroad.\nQ: Divya worked hard throughout her college years.\nR: She applied to several international universities.\nS: She maintained a perfect GPA every semester.\nWhich is the correct order?",
+    "options": [
+      "A) QSRP",
+      "B) QPRS",
+      "C) RQSP",
+      "D) PQRS"
+    ],
+    "correct_answer": "A) QSRP",
+    "explanation": "Divya worked hard (Q), maintained GPA (S), applied to universities (R), received scholarship (P). QSRP is the correct logical sequence."
+  }
+]

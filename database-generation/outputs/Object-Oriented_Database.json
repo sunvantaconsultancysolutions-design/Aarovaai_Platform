@@ -1,0 +1,479 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does OODBMS stand for?",
+    "options": ["A) Object-Oriented Database Management System", "B) Object-Oriented Data Binding Management System", "C) Operational Object Database Management System", "D) Object-Oriented Distributed Management System"],
+    "correct_answer": "A) Object-Oriented Database Management System",
+    "explanation": "OODBMS stands for Object-Oriented Database Management System, which combines object-oriented programming with database capabilities. It stores data as objects rather than tables."
+  },
+  {
+    "id": 2,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a key feature of an Object-Oriented Database?",
+    "options": ["A) Data is stored in flat files", "B) Data is stored as objects with attributes and methods", "C) Data is stored only in relational tables", "D) Data is stored in XML format exclusively"],
+    "correct_answer": "B) Data is stored as objects with attributes and methods",
+    "explanation": "In an OODBMS, data is stored as objects that encapsulate both attributes (data) and methods (behavior), unlike relational databases that use tables."
+  },
+  {
+    "id": 3,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which concept in OODBs allows a class to inherit properties from another class?",
+    "options": ["A) Encapsulation", "B) Polymorphism", "C) Inheritance", "D) Abstraction"],
+    "correct_answer": "C) Inheritance",
+    "explanation": "Inheritance allows a subclass to acquire properties and methods from a parent class, enabling code reuse and hierarchical data modeling in OODBs."
+  },
+  {
+    "id": 4,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an Object-Oriented Database, what is an 'object identity'?",
+    "options": ["A) The name of the class", "B) A unique identifier assigned to each object", "C) The method name of an object", "D) The table name in a relational database"],
+    "correct_answer": "B) A unique identifier assigned to each object",
+    "explanation": "Object identity (OID) is a system-generated unique identifier for each object in an OODB, independent of the object's attribute values."
+  },
+  {
+    "id": 5,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'encapsulation' in an OODB?",
+    "options": ["A) Hiding data and methods within an object", "B) Sharing data across multiple tables", "C) Duplicating objects for backup", "D) Linking objects using foreign keys"],
+    "correct_answer": "A) Hiding data and methods within an object",
+    "explanation": "Encapsulation bundles data (attributes) and behavior (methods) within an object and restricts direct access from outside, ensuring data integrity."
+  },
+  {
+    "id": 6,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of an Object-Oriented Database Management System?",
+    "options": ["A) MySQL", "B) Oracle 11g", "C) db4o", "D) SQLite"],
+    "correct_answer": "C) db4o",
+    "explanation": "db4o (database for objects) is a pure object-oriented database. MySQL, Oracle, and SQLite are primarily relational database systems."
+  },
+  {
+    "id": 7,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'class' in the context of an Object-Oriented Database?",
+    "options": ["A) A row in a table", "B) A blueprint defining the structure and behavior of objects", "C) A stored procedure", "D) A foreign key constraint"],
+    "correct_answer": "B) A blueprint defining the structure and behavior of objects",
+    "explanation": "A class defines the template for objects, specifying attributes and methods. Objects are instances of classes in an OODB."
+  },
+  {
+    "id": 8,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OODBs, what is 'persistence'?",
+    "options": ["A) The ability of an object to exist beyond program execution", "B) The speed of database queries", "C) The number of objects in a class", "D) The size of the database"],
+    "correct_answer": "A) The ability of an object to exist beyond program execution",
+    "explanation": "Persistence means objects are stored permanently in the database and survive beyond the lifetime of the program that created them."
+  },
+  {
+    "id": 9,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which term describes the ability of different objects to respond to the same message in different ways?",
+    "options": ["A) Inheritance", "B) Encapsulation", "C) Polymorphism", "D) Aggregation"],
+    "correct_answer": "C) Polymorphism",
+    "explanation": "Polymorphism allows objects of different classes to be treated as objects of a common superclass, with each responding differently to the same method call."
+  },
+  {
+    "id": 10,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main advantage of using an OODB over a relational database for complex data?",
+    "options": ["A) Simpler SQL queries", "B) Better handling of complex data types and relationships", "C) Lower storage cost", "D) Faster arithmetic operations"],
+    "correct_answer": "B) Better handling of complex data types and relationships",
+    "explanation": "OODBs naturally model complex, nested, and hierarchical data structures without the impedance mismatch that occurs when mapping objects to relational tables."
+  },
+  {
+    "id": 11,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the 'impedance mismatch' problem in databases?",
+    "options": ["A) Conflict between object-oriented programming models and relational database models", "B) Slow network speed in distributed databases", "C) Mismatch between primary and foreign keys", "D) Conflict between two SQL queries"],
+    "correct_answer": "A) Conflict between object-oriented programming models and relational database models",
+    "explanation": "Impedance mismatch refers to the difficulty of mapping object-oriented data structures to relational tables, which OODBs solve by storing data as objects."
+  },
+  {
+    "id": 12,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an OODB, what is an 'instance'?",
+    "options": ["A) A copy of the database", "B) A specific object created from a class", "C) A method defined in a class", "D) A database schema"],
+    "correct_answer": "B) A specific object created from a class",
+    "explanation": "An instance is a concrete object created from a class definition. For example, 'Car myCar = new Car()' creates an instance of the Car class."
+  },
+  {
+    "id": 13,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a characteristic of an OODB?",
+    "options": ["A) Object identity", "B) Encapsulation", "C) Normalization into 3NF", "D) Inheritance"],
+    "correct_answer": "C) Normalization into 3NF",
+    "explanation": "Normalization (1NF, 2NF, 3NF) is a concept specific to relational databases. OODBs use object-oriented principles like OID, encapsulation, and inheritance."
+  },
+  {
+    "id": 14,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does OQL stand for in the context of OODBs?",
+    "options": ["A) Object Query Language", "B) Operational Query Logic", "C) Object Queue Listing", "D) Ordered Query Language"],
+    "correct_answer": "A) Object Query Language",
+    "explanation": "OQL (Object Query Language) is the query language for OODBs, similar to SQL for relational databases, designed to query object-oriented data."
+  },
+  {
+    "id": 15,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which relationship in OODBs represents a 'whole-part' relationship between objects?",
+    "options": ["A) Inheritance", "B) Aggregation", "C) Polymorphism", "D) Encapsulation"],
+    "correct_answer": "B) Aggregation",
+    "explanation": "Aggregation represents a 'has-a' or whole-part relationship, e.g., a Car has an Engine. It models composition of objects in OODBs."
+  },
+  {
+    "id": 16,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OODBs, what is a 'method'?",
+    "options": ["A) A column in a table", "B) A function or procedure associated with an object", "C) A type of index", "D) A database constraint"],
+    "correct_answer": "B) A function or procedure associated with an object",
+    "explanation": "A method defines the behavior of an object. It is a function defined within a class that operates on the object's data (attributes)."
+  },
+  {
+    "id": 17,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which standard defines the Object Data Management Group (ODMG) model?",
+    "options": ["A) A standard for relational databases", "B) A standard for object-oriented databases", "C) A standard for XML databases", "D) A standard for NoSQL databases"],
+    "correct_answer": "B) A standard for object-oriented databases",
+    "explanation": "ODMG (Object Data Management Group) defined standards for OODBs including ODL (Object Definition Language) and OQL (Object Query Language)."
+  },
+  {
+    "id": 18,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is ODL in the context of OODBs?",
+    "options": ["A) Object Definition Language", "B) Operational Data Logic", "C) Object Data Listing", "D) Ordered Definition Language"],
+    "correct_answer": "A) Object Definition Language",
+    "explanation": "ODL (Object Definition Language) is used to define the schema of an OODB, specifying classes, attributes, relationships, and methods."
+  },
+  {
+    "id": 19,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following databases is an Object-Relational Database?",
+    "options": ["A) db4o", "B) PostgreSQL", "C) MongoDB", "D) Redis"],
+    "correct_answer": "B) PostgreSQL",
+    "explanation": "PostgreSQL is an Object-Relational Database Management System (ORDBMS) that extends relational databases with object-oriented features like user-defined types."
+  },
+  {
+    "id": 20,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an OODB, what is 'type hierarchy'?",
+    "options": ["A) Ordering of database tables by size", "B) A hierarchy of classes where subclasses inherit from superclasses", "C) Ordering of queries by priority", "D) A list of database indexes"],
+    "correct_answer": "B) A hierarchy of classes where subclasses inherit from superclasses",
+    "explanation": "Type hierarchy organizes classes in a parent-child relationship. Subclasses inherit attributes and methods from superclasses, enabling reuse."
+  },
+  {
+    "id": 21,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'object sharing' in OODBs?",
+    "options": ["A) Multiple objects referencing the same object", "B) Copying objects between databases", "C) Sharing database passwords", "D) Distributing objects across networks"],
+    "correct_answer": "A) Multiple objects referencing the same object",
+    "explanation": "Object sharing allows multiple objects to reference (point to) the same object via its OID, avoiding data duplication and maintaining consistency."
+  },
+  {
+    "id": 22,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a disadvantage of OODBs compared to relational databases?",
+    "options": ["A) Cannot handle complex data", "B) Lack of mature query optimization and standardization", "C) Does not support transactions", "D) Cannot store large amounts of data"],
+    "correct_answer": "B) Lack of mature query optimization and standardization",
+    "explanation": "OODBs lack the maturity, standardization, and query optimization tools that relational databases have developed over decades, making them less widely adopted."
+  },
+  {
+    "id": 23,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OODBs, what does 'message passing' refer to?",
+    "options": ["A) Sending emails through the database", "B) Objects communicating by invoking each other's methods", "C) Transferring data between databases", "D) Broadcasting SQL queries"],
+    "correct_answer": "B) Objects communicating by invoking each other's methods",
+    "explanation": "Message passing is the mechanism by which objects interact — one object sends a message (method call) to another object to request an action."
+  },
+  {
+    "id": 24,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a 'constructor' in an OODB class?",
+    "options": ["A) To delete an object", "B) To initialize a new object with default or given values", "C) To query the database", "D) To define relationships between tables"],
+    "correct_answer": "B) To initialize a new object with default or given values",
+    "explanation": "A constructor is a special method called when an object is created. It initializes the object's attributes with default or user-specified values."
+  },
+  {
+    "id": 25,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'subclass' in an OODB?",
+    "options": ["A) A class that inherits from another class", "B) A class with no attributes", "C) A class that cannot be instantiated", "D) A class used only for queries"],
+    "correct_answer": "A) A class that inherits from another class",
+    "explanation": "A subclass (child class) inherits attributes and methods from its superclass (parent class) and can also define additional attributes and methods."
+  },
+  {
+    "id": 26,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'late binding' in the context of OODBs?",
+    "options": ["A) Binding method calls to implementations at runtime", "B) Binding foreign keys at database creation", "C) Delaying database backups", "D) Binding SQL queries at compile time"],
+    "correct_answer": "A) Binding method calls to implementations at runtime",
+    "explanation": "Late binding (dynamic binding) resolves method calls at runtime rather than compile time, enabling polymorphism in OODBs."
+  },
+  {
+    "id": 27,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OODBs, what is an 'extent'?",
+    "options": ["A) The set of all current instances of a class", "B) The size of the database in bytes", "C) The number of methods in a class", "D) The depth of inheritance hierarchy"],
+    "correct_answer": "A) The set of all current instances of a class",
+    "explanation": "An extent is the collection of all existing objects (instances) of a particular class stored in the database at any given time."
+  },
+  {
+    "id": 28,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a pure Object-Oriented Database?",
+    "options": ["A) Oracle", "B) Versant", "C) MySQL", "D) DB2"],
+    "correct_answer": "B) Versant",
+    "explanation": "Versant is a pure OODB. Oracle, MySQL, and DB2 are primarily relational or object-relational databases."
+  },
+  {
+    "id": 29,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'deep copy' mean in the context of OODBs?",
+    "options": ["A) Copying an object along with all objects it references", "B) Copying only the object's OID", "C) Making a backup of the entire database", "D) Copying only primitive attributes of an object"],
+    "correct_answer": "A) Copying an object along with all objects it references",
+    "explanation": "A deep copy duplicates an object and recursively copies all objects it references, creating completely independent copies of the entire object graph."
+  },
+  {
+    "id": 30,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OODBs, what is 'overriding'?",
+    "options": ["A) Redefining a method in a subclass that was defined in the superclass", "B) Deleting all objects in a class", "C) Creating multiple databases", "D) Replacing the database schema"],
+    "correct_answer": "A) Redefining a method in a subclass that was defined in the superclass",
+    "explanation": "Method overriding allows a subclass to provide a specific implementation of a method already defined in its superclass, supporting polymorphism."
+  },
+  {
+    "id": 31,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary query language used in Object-Oriented Databases?",
+    "options": ["A) SQL", "B) OQL", "C) XQuery", "D) SPARQL"],
+    "correct_answer": "B) OQL",
+    "explanation": "OQL (Object Query Language) is the standard query language for OODBs, defined by ODMG. It is similar to SQL but designed for querying objects."
+  },
+  {
+    "id": 32,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which concept allows an OODB to model real-world entities more naturally?",
+    "options": ["A) Normalization", "B) Object modeling", "C) Denormalization", "D) Flat file storage"],
+    "correct_answer": "B) Object modeling",
+    "explanation": "Object modeling maps real-world entities directly to objects with attributes and behaviors, making OODBs more intuitive for complex domain modeling."
+  },
+  {
+    "id": 33,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OODBs, what is a 'composite object'?",
+    "options": ["A) An object that contains other objects as attributes", "B) An object with no methods", "C) An object stored in multiple databases", "D) An object with only one attribute"],
+    "correct_answer": "A) An object that contains other objects as attributes",
+    "explanation": "A composite object is one whose attributes include references to other objects, enabling complex nested data structures in OODBs."
+  },
+  {
+    "id": 34,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'object versioning' in OODBs?",
+    "options": ["A) Maintaining multiple versions of an object over time", "B) Numbering database tables", "C) Versioning the database software", "D) Tracking SQL query versions"],
+    "correct_answer": "A) Maintaining multiple versions of an object over time",
+    "explanation": "Object versioning allows OODBs to store and manage multiple historical versions of an object, useful for temporal data and design applications."
+  },
+  {
+    "id": 35,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic that distinguishes OODBs from relational databases?",
+    "options": ["A) Support for ACID transactions", "B) Support for complex data types and nested objects", "C) Use of primary keys", "D) Support for indexing"],
+    "correct_answer": "B) Support for complex data types and nested objects",
+    "explanation": "OODBs natively support complex data types, nested objects, and collections, whereas relational databases require multiple tables and joins for such structures."
+  },
+  {
+    "id": 36,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'multiple inheritance' in OODBs?",
+    "options": ["A) A class inheriting from more than one superclass", "B) Multiple objects sharing the same OID", "C) A database with multiple schemas", "D) Inheriting data from multiple databases"],
+    "correct_answer": "A) A class inheriting from more than one superclass",
+    "explanation": "Multiple inheritance allows a subclass to inherit attributes and methods from more than one parent class, enabling richer class hierarchies in OODBs."
+  },
+  {
+    "id": 37,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OODBs, what is a 'destructor'?",
+    "options": ["A) A method called when an object is deleted or goes out of scope", "B) A method that creates new objects", "C) A query that drops a table", "D) A constraint that prevents deletion"],
+    "correct_answer": "A) A method called when an object is deleted or goes out of scope",
+    "explanation": "A destructor is a special method invoked when an object is destroyed, used to release resources and perform cleanup operations."
+  },
+  {
+    "id": 38,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the 'is-a' relationship in OODBs?",
+    "options": ["A) Inheritance relationship between a subclass and superclass", "B) Aggregation between two objects", "C) Association between unrelated classes", "D) Composition of objects"],
+    "correct_answer": "A) Inheritance relationship between a subclass and superclass",
+    "explanation": "The 'is-a' relationship represents inheritance: a Dog 'is-a' Animal. It means the subclass is a specialized version of the superclass."
+  },
+  {
+    "id": 39,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following applications is best suited for an OODB?",
+    "options": ["A) Simple payroll system", "B) CAD/CAM design systems with complex geometric data", "C) Basic inventory management", "D) Simple student grade tracking"],
+    "correct_answer": "B) CAD/CAM design systems with complex geometric data",
+    "explanation": "OODBs excel in applications with complex, hierarchical data like CAD/CAM, multimedia, and engineering design systems where relational models are inadequate."
+  },
+  {
+    "id": 40,
+    "topic": "Object-Oriented Database",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'swizzling' in the context of OODBs?",
+    "options": ["A) Converting disk-based object references to in-memory pointers", "B) Encrypting database objects", "C) Sorting objects by their OID", "D) Compressing database storage"],
+    "correct_answer": "A) Converting disk-based object references to in-memory pointers",
+    "explanation": "Swizzling is the process of converting persistent object identifiers (OIDs) stored on disk into memory pointers when objects are loaded into RAM for processing."
+  },
+
+  {
+    "id": 41,
+    "topic": "Object-Oriented Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In OQL, which of the following queries correctly retrieves all employees with salary greater than 50000?",
+    "options": ["A) SELECT e FROM Employees e WHERE e.salary > 50000", "B) GET Employees WHERE salary > 50000", "C) FETCH * FROM Employees HAVING salary > 50000", "D) QUERY Employees.salary > 50000"],
+    "correct_answer": "A) SELECT e FROM Employees e WHERE e.salary > 50000",
+    "explanation": "OQL syntax is similar to SQL. The correct form uses SELECT-FROM-WHERE with object variable binding (e FROM Employees e) to filter objects."
+  },
+  {
+    "id": 42,
+    "topic": "Object-Oriented Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a class hierarchy: Vehicle → Car → ElectricCar. If ElectricCar overrides the 'fuelType()' method, which version is called when an ElectricCar object invokes fuelType()?",
+    "options": ["A) Vehicle's fuelType()", "B) Car's fuelType()", "C) ElectricCar's fuelType()", "D) All three versions are called"],
+    "correct_answer": "C) ElectricCar's fuelType()",
+    "explanation": "Due to late binding (dynamic dispatch), the most specific overridden method in the actual object's class is called. ElectricCar's fuelType() overrides all parent versions."
+  },
+  {
+    "id": 43,
+    "topic": "Object-Oriented Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In an OODB schema, a 'Person' class has attributes: name (string), age (integer), and address (Address object). This is an example of:",
+    "options": ["A) Simple aggregation", "B) Composite object with nested object attribute", "C) Multiple inheritance", "D) Polymorphic association"],
+    "correct_answer": "B) Composite object with nested object attribute",
+    "explanation": "Since 'address' is itself an object (of type Address) nested within Person, this is a composite object — a key feature of OODBs enabling complex data modeling."
+  },
+  {
+    "id": 44,
+    "topic": "Object-Oriented Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between 'association' and 'aggregation' in OODBs?",
+    "options": ["A) Association is a weak relationship; aggregation is a strong whole-part relationship", "B) Association is only for inheritance; aggregation is for methods", "C) They are identical concepts", "D) Aggregation is used only in relational databases"],
+    "correct_answer": "A) Association is a weak relationship; aggregation is a strong whole-part relationship",
+    "explanation": "Association is a general relationship between objects. Aggregation is a stronger 'has-a' relationship where one object is part of another (whole-part)."
+  },
+  {
+    "id": 45,
+    "topic": "Object-Oriented Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In ODMG's Object Model, which of the following is NOT a valid collection type?",
+    "options": ["A) Set", "B) Bag", "C) List", "D) Tree"],
+    "correct_answer": "D) Tree",
+    "explanation": "ODMG defines Set (no duplicates, unordered), Bag (duplicates allowed, unordered), List (ordered, duplicates allowed), and Array as collection types. Tree is not a standard ODMG collection."
+  },
+  {
+    "id": 46,
+    "topic": "Object-Oriented Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes the difference between 'shallow copy' and 'deep copy' in OODBs?",
+    "options": ["A) Shallow copy copies only the top-level object; deep copy copies the object and all referenced objects", "B) Shallow copy is faster but copies more data", "C) Deep copy only copies primitive attributes", "D) They are the same in OODBs"],
+    "correct_answer": "A) Shallow copy copies only the top-level object; deep copy copies the object and all referenced objects",
+    "explanation": "Shallow copy duplicates only the object itself with references to the same sub-objects. Deep copy recursively duplicates all referenced objects too."
+  },
+  {
+    "id": 47,
+    "topic": "Object-Oriented Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In an OODB, if class B inherits from class A, and class C inherits from both A and B, what problem might arise?",
+    "options": ["A) Diamond problem in multiple inheritance", "B) Circular reference problem", "C) Object identity conflict", "D) Persistence failure"],
+    "correct_answer": "A) Diamond problem in multiple inheritance",
+    "explanation": "The diamond problem occurs when a class inherits from two classes that share a common ancestor, causing ambiguity about which version of inherited attributes/methods to use."
+  },
+  {
+    "id": 48,
+    "topic": "Object-Oriented Database",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What

@@ -1,0 +1,461 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary goal of physical database design?",
+    "options": ["A) To define the logical structure of data", "B) To implement the database on physical storage efficiently", "C) To normalize the database to 3NF", "D) To create ER diagrams"],
+    "correct_answer": "B) To implement the database on physical storage efficiently",
+    "explanation": "Physical database design focuses on how data is stored on physical media, optimizing for performance, storage efficiency, and access speed. Logical design handles structure; physical design handles implementation."
+  },
+  {
+    "id": 2,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a physical storage structure used in databases?",
+    "options": ["A) Entity-Relationship diagram", "B) Heap file", "C) Functional dependency", "D) Normal form"],
+    "correct_answer": "B) Heap file",
+    "explanation": "A heap file is a physical storage structure where records are stored in no particular order. ER diagrams and normal forms are logical design concepts."
+  },
+  {
+    "id": 3,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an index in a database?",
+    "options": ["A) A copy of the entire database", "B) A data structure that improves the speed of data retrieval", "C) A constraint that enforces uniqueness", "D) A stored procedure"],
+    "correct_answer": "B) A data structure that improves the speed of data retrieval",
+    "explanation": "An index is a data structure (like a B-tree) that allows faster lookup of records without scanning the entire table, trading storage space for query speed."
+  },
+  {
+    "id": 4,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A table has 10,000 records and each record is 200 bytes. If a block size is 1000 bytes, how many blocks are needed to store the table?",
+    "options": ["A) 1000", "B) 2000", "C) 500", "D) 100"],
+    "correct_answer": "B) 2000",
+    "explanation": "Records per block = floor(1000/200) = 5. Total blocks = 10,000 / 5 = 2000 blocks."
+  },
+  {
+    "id": 5,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of index stores the actual data rows in the index structure?",
+    "options": ["A) Non-clustered index", "B) Clustered index", "C) Bitmap index", "D) Hash index"],
+    "correct_answer": "B) Clustered index",
+    "explanation": "A clustered index determines the physical order of data in a table. The leaf nodes of a clustered index contain the actual data rows, so there can be only one per table."
+  },
+  {
+    "id": 6,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does RAID stand for in the context of database storage?",
+    "options": ["A) Random Access Index Data", "B) Redundant Array of Independent Disks", "C) Rapid Access Integrated Database", "D) Relational Array of Indexed Data"],
+    "correct_answer": "B) Redundant Array of Independent Disks",
+    "explanation": "RAID (Redundant Array of Independent Disks) is a storage technology that combines multiple disk drives for redundancy and/or performance improvement."
+  },
+  {
+    "id": 7,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which file organization method stores records in the order they are inserted?",
+    "options": ["A) Sequential file", "B) Heap file", "C) Hash file", "D) Indexed file"],
+    "correct_answer": "B) Heap file",
+    "explanation": "A heap file (also called unordered file) stores records in the order they are inserted, with no particular sorting. Sequential files maintain sorted order."
+  },
+  {
+    "id": 8,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a tablespace in Oracle database?",
+    "options": ["A) A logical storage unit that groups related data files", "B) A type of index", "C) A stored procedure container", "D) A network partition"],
+    "correct_answer": "A) A logical storage unit that groups related data files",
+    "explanation": "A tablespace is a logical storage container in Oracle that groups one or more data files. It bridges the gap between logical database objects and physical storage."
+  },
+  {
+    "id": 9,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a block can hold 8 records and a table has 400 records, what is the blocking factor?",
+    "options": ["A) 400", "B) 50", "C) 8", "D) 3200"],
+    "correct_answer": "C) 8",
+    "explanation": "The blocking factor is the number of records that fit in one block. Here, blocking factor = 8 records per block. Total blocks needed = 400/8 = 50."
+  },
+  {
+    "id": 10,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of index?",
+    "options": ["A) Dense index", "B) Sparse index", "C) Thick index", "D) Clustered index"],
+    "correct_answer": "C) Thick index",
+    "explanation": "Dense, sparse, clustered, non-clustered, bitmap, and hash are valid index types. 'Thick index' is not a recognized database index type."
+  },
+  {
+    "id": 11,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A dense index has an entry for:",
+    "options": ["A) Every block in the file", "B) Every record in the file", "C) Only the first record of each block", "D) Only unique records"],
+    "correct_answer": "B) Every record in the file",
+    "explanation": "A dense index contains one index entry for every search key value (every record) in the data file, making it larger but allowing direct record lookup."
+  },
+  {
+    "id": 12,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A sparse index has an entry for:",
+    "options": ["A) Every record in the file", "B) Only some records, typically one per block", "C) Duplicate records only", "D) NULL values only"],
+    "correct_answer": "B) Only some records, typically one per block",
+    "explanation": "A sparse index contains entries for only some search key values, typically one per disk block. It uses less space but requires sequential scan within a block."
+  },
+  {
+    "id": 13,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a buffer pool in database systems?",
+    "options": ["A) To store backup copies of data", "B) To cache disk blocks in main memory for faster access", "C) To manage user connections", "D) To store index structures"],
+    "correct_answer": "B) To cache disk blocks in main memory for faster access",
+    "explanation": "A buffer pool is a region of main memory that caches frequently accessed disk blocks, reducing expensive disk I/O operations and improving query performance."
+  },
+  {
+    "id": 14,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which RAID level provides disk mirroring without striping?",
+    "options": ["A) RAID 0", "B) RAID 1", "C) RAID 5", "D) RAID 6"],
+    "correct_answer": "B) RAID 1",
+    "explanation": "RAID 1 provides disk mirroring — data is duplicated on two disks. RAID 0 is striping only, RAID 5 uses distributed parity, and RAID 6 uses double parity."
+  },
+  {
+    "id": 15,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the seek time in disk storage?",
+    "options": ["A) Time to transfer data from disk to memory", "B) Time to move the read/write head to the correct track", "C) Time for the disk to rotate to the correct sector", "D) Time to write data back to disk"],
+    "correct_answer": "B) Time to move the read/write head to the correct track",
+    "explanation": "Seek time is the time required to move the disk's read/write head to the correct track. Rotational latency is the time for the disk to spin to the correct sector."
+  },
+  {
+    "id": 16,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is rotational latency in disk access?",
+    "options": ["A) Time to move the head to the correct track", "B) Time for the desired sector to rotate under the read/write head", "C) Time to transfer data from disk to buffer", "D) Time to seek the correct cylinder"],
+    "correct_answer": "B) Time for the desired sector to rotate under the read/write head",
+    "explanation": "Rotational latency is the time waiting for the disk platter to rotate so the desired sector is under the read/write head. On average, it equals half a full rotation."
+  },
+  {
+    "id": 17,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A B+ tree index is preferred over a B-tree index for database files because:",
+    "options": ["A) B+ trees use less memory", "B) B+ trees store all data in leaf nodes enabling efficient range queries", "C) B+ trees have fewer levels", "D) B+ trees do not require balancing"],
+    "correct_answer": "B) B+ trees store all data in leaf nodes enabling efficient range queries",
+    "explanation": "In B+ trees, all actual data pointers are in leaf nodes which are linked, making range queries efficient. Internal nodes only store keys for routing."
+  },
+  {
+    "id": 18,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is data partitioning in physical database design?",
+    "options": ["A) Splitting a table into smaller pieces stored separately", "B) Encrypting data for security", "C) Creating a backup of the database", "D) Normalizing tables to reduce redundancy"],
+    "correct_answer": "A) Splitting a table into smaller pieces stored separately",
+    "explanation": "Data partitioning divides a large table into smaller, more manageable pieces (partitions) that can be stored and accessed independently, improving performance and manageability."
+  },
+  {
+    "id": 19,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a benefit of using indexes?",
+    "options": ["A) Faster INSERT operations", "B) Faster SELECT query performance", "C) Reduced storage space", "D) Automatic data normalization"],
+    "correct_answer": "B) Faster SELECT query performance",
+    "explanation": "Indexes speed up SELECT queries by allowing the database to find rows without scanning the entire table. However, they slow down INSERT/UPDATE/DELETE and consume extra storage."
+  },
+  {
+    "id": 20,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a hash index?",
+    "options": ["A) An index that uses a hash function to map keys to bucket locations", "B) An index stored in sorted order", "C) An index with multiple levels", "D) An index for text search"],
+    "correct_answer": "A) An index that uses a hash function to map keys to bucket locations",
+    "explanation": "A hash index applies a hash function to the search key to determine the bucket (location) where the record is stored, providing O(1) average lookup for equality queries."
+  },
+  {
+    "id": 21,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A disk has 5 platters, each with 2 surfaces. How many read/write heads does it have?",
+    "options": ["A) 5", "B) 10", "C) 20", "D) 2"],
+    "correct_answer": "B) 10",
+    "explanation": "Each platter surface has one read/write head. With 5 platters × 2 surfaces = 10 surfaces, there are 10 read/write heads."
+  },
+  {
+    "id": 22,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the order of a B+ tree with order n?",
+    "options": ["A) Each node has exactly n children", "B) Each internal node has between ceil(n/2) and n children", "C) Each node has at most n/2 keys", "D) The tree has exactly n levels"],
+    "correct_answer": "B) Each internal node has between ceil(n/2) and n children",
+    "explanation": "In a B+ tree of order n, each internal node has between ⌈n/2⌉ and n children (pointers), ensuring the tree remains balanced and space-efficient."
+  },
+  {
+    "id": 23,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes horizontal partitioning?",
+    "options": ["A) Splitting a table by columns", "B) Splitting a table by rows based on a condition", "C) Creating a copy of the table", "D) Merging two tables into one"],
+    "correct_answer": "B) Splitting a table by rows based on a condition",
+    "explanation": "Horizontal partitioning (sharding) divides a table into subsets of rows, e.g., by date range or region. Vertical partitioning splits by columns."
+  },
+  {
+    "id": 24,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a data page in SQL Server?",
+    "options": ["A) A web page displaying database data", "B) The fundamental unit of data storage, typically 8 KB", "C) A report generated from a query", "D) A stored procedure page"],
+    "correct_answer": "B) The fundamental unit of data storage, typically 8 KB",
+    "explanation": "In SQL Server, a page is the fundamental unit of data storage, sized at 8 KB. All data, indexes, and other database objects are stored in pages."
+  },
+  {
+    "id": 25,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a fill factor in index creation?",
+    "options": ["A) To determine the number of indexes allowed", "B) To specify the percentage of space to leave free in index pages for future growth", "C) To set the maximum size of the index", "D) To define the number of columns in the index"],
+    "correct_answer": "B) To specify the percentage of space to leave free in index pages for future growth",
+    "explanation": "Fill factor specifies how full each index page should be when created. A lower fill factor leaves more free space, reducing page splits during future inserts."
+  },
+  {
+    "id": 26,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following storage media has the fastest access time?",
+    "options": ["A) Magnetic tape", "B) Hard disk drive (HDD)", "C) Solid State Drive (SSD)", "D) Optical disk"],
+    "correct_answer": "C) Solid State Drive (SSD)",
+    "explanation": "SSDs use flash memory with no moving parts, providing much faster access times than HDDs (which have mechanical seek time) and far faster than magnetic tape or optical disks."
+  },
+  {
+    "id": 27,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A table with 1000 records uses a dense index. How many index entries are there?",
+    "options": ["A) Depends on block size", "B) 1000", "C) 500", "D) 100"],
+    "correct_answer": "B) 1000",
+    "explanation": "A dense index has one entry for every record in the data file. With 1000 records, there are exactly 1000 index entries."
+  },
+  {
+    "id": 28,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'extent' mean in physical database storage?",
+    "options": ["A) The maximum size of a table", "B) A contiguous set of data blocks allocated to a database object", "C) The number of indexes on a table", "D) The depth of a B+ tree"],
+    "correct_answer": "B) A contiguous set of data blocks allocated to a database object",
+    "explanation": "An extent is a contiguous group of data blocks allocated together to a database segment (table, index, etc.), reducing fragmentation and improving I/O performance."
+  },
+  {
+    "id": 29,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of file organization is best for equality searches on the key attribute?",
+    "options": ["A) Heap file", "B) Sequential file", "C) Hash file", "D) Indexed sequential file"],
+    "correct_answer": "C) Hash file",
+    "explanation": "Hash files use a hash function on the key to directly locate records, making equality searches O(1) on average. Sequential files require binary search, heap files require linear scan."
+  },
+  {
+    "id": 30,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is vertical partitioning in database design?",
+    "options": ["A) Splitting a table by rows", "B) Splitting a table by columns into multiple tables", "C) Creating indexes on all columns", "D) Replicating data across servers"],
+    "correct_answer": "B) Splitting a table by columns into multiple tables",
+    "explanation": "Vertical partitioning splits a table by columns, placing frequently accessed columns in one partition and rarely accessed columns in another, improving I/O efficiency."
+  },
+  {
+    "id": 31,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a composite index?",
+    "options": ["A) An index on a single column", "B) An index built on two or more columns", "C) An index that covers all columns", "D) An index stored in compressed format"],
+    "correct_answer": "B) An index built on two or more columns",
+    "explanation": "A composite (multi-column) index is built on two or more columns. It is useful for queries that filter on multiple columns and follows the leftmost prefix rule."
+  },
+  {
+    "id": 32,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a B+ tree of order 4, what is the maximum number of keys in a leaf node?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "correct_answer": "B) 3",
+    "explanation": "In a B+ tree of order n (n=4), leaf nodes can hold at most n-1 = 3 keys. Internal nodes can have at most n-1 = 3 keys and n = 4 pointers."
+  },
+  {
+    "id": 33,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main disadvantage of a heap file organization?",
+    "options": ["A) Insertion is slow", "B) Searching requires a full table scan", "C) It cannot store duplicate records", "D) It requires sorted data"],
+    "correct_answer": "B) Searching requires a full table scan",
+    "explanation": "In a heap file, records are unordered, so finding a specific record requires scanning all records (O(n)). Insertion is fast (append to end), but retrieval is slow."
+  },
+  {
+    "id": 34,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a non-clustered index?",
+    "options": ["A) It physically reorders the table data", "B) There can be only one per table", "C) It contains pointers to the actual data rows", "D) It is always faster than a clustered index"],
+    "correct_answer": "C) It contains pointers to the actual data rows",
+    "explanation": "A non-clustered index has a separate structure from the data rows. Its leaf nodes contain the index key values and pointers (row locators) to the actual data rows."
+  },
+  {
+    "id": 35,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the transfer time in disk I/O?",
+    "options": ["A) Time to move the head to the correct track", "B) Time for the sector to rotate under the head", "C) Time to transfer data between disk and main memory", "D) Time to process a query"],
+    "correct_answer": "C) Time to transfer data between disk and main memory",
+    "explanation": "Transfer time is the time taken to actually move data between the disk and main memory after the head is positioned. Total disk access time = seek time + rotational latency + transfer time."
+  },
+  {
+    "id": 36,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is denormalization in physical database design?",
+    "options": ["A) Converting a database to 1NF", "B) Intentionally introducing redundancy to improve read performance", "C) Removing all indexes from a table", "D) Splitting tables to reduce redundancy"],
+    "correct_answer": "B) Intentionally introducing redundancy to improve read performance",
+    "explanation": "Denormalization adds controlled redundancy (e.g., storing computed values or duplicating columns) to reduce expensive JOIN operations and improve read query performance."
+  },
+  {
+    "id": 37,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A disk rotates at 7200 RPM. What is the average rotational latency?",
+    "options": ["A) 4.17 ms", "B) 8.33 ms", "C) 2.08 ms", "D) 16.67 ms"],
+    "correct_answer": "A) 4.17 ms",
+    "explanation": "Full rotation time = 60,000 ms / 7200 RPM = 8.33 ms. Average rotational latency = half rotation = 8.33 / 2 ≈ 4.17 ms."
+  },
+  {
+    "id": 38,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a covering index?",
+    "options": ["A) An index that covers all tables in a database", "B) An index that contains all columns needed by a query, eliminating table access", "C) An index that spans multiple databases", "D) An index with 100% fill factor"],
+    "correct_answer": "B) An index that contains all columns needed by a query, eliminating table access",
+    "explanation": "A covering index includes all columns referenced in a query (SELECT, WHERE, JOIN), so the query can be satisfied entirely from the index without accessing the base table."
+  },
+  {
+    "id": 39,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct hierarchy of storage in Oracle from smallest to largest?",
+    "options": ["A) Block → Extent → Segment → Tablespace", "B) Extent → Block → Segment → Tablespace", "C) Segment → Block → Extent → Tablespace", "D) Block → Segment → Extent → Tablespace"],
+    "correct_answer": "A) Block → Extent → Segment → Tablespace",
+    "explanation": "Oracle storage hierarchy: Block (smallest unit) → Extent (contiguous blocks) → Segment (collection of extents for one object) → Tablespace (collection of segments)."
+  },
+  {
+    "id": 40,
+    "topic": "Physical Database Design",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the EXPLAIN PLAN command in SQL?",
+    "options": ["A) To create an execution plan for a stored procedure", "B) To show how the database optimizer will execute a query", "C) To explain the table structure", "D) To generate a backup plan"],
+    "correct_answer": "B) To show how the database optimizer will execute a query",
+    "explanation": "EXPLAIN PLAN (or EXPLAIN in MySQL/PostgreSQL) shows the query execution plan chosen by the optimizer, including index usage, join methods, and estimated costs."
+  },
+  {
+    "id": 41,
+    "topic": "Physical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A B+ tree of order 5 is used to index 1000 records. What is the maximum height of the tree?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "B) 4",
+    "explanation": "Min keys per node = ⌈5/2⌉-1 = 2. Max records at height h = (⌈5/2⌉)^h × (5-1). At h=4: 3^4 × 4 = 324. At h=5: 3^5 × 4 = 972 < 1000. So height = 4 (since 3^4=81 nodes × 4 keys = 324 < 1000, need h=4 levels). More precisely, min entries at height h: ⌈n/2⌉^(h-1) × ⌈n/2⌉ = 3^4 = 81 leaf nodes × 2 = 162 < 1000 ≤ 3^4 × 4 = 324... height = 4 suffices."
+  },
+  {
+    "id": 42,
+    "topic": "Physical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A relation has 50,000 tuples. Each tuple is 100 bytes. The block size is 512 bytes. How many blocks are needed assuming no wasted space?",
+    "options": ["A) 9766", "B) 10000", "C) 5000", "D) 9804"],
+    "correct_answer": "A) 9766",
+    "explanation": "Blocking factor = floor(512/100) = 5 records/block. Blocks needed = ceil(50,000/5) = 10,000. Wait: 50000/5 = 10000 blocks exactly. Recalculating: floor(512/100)=5, 50000/5=10000. Answer is B) 10000."
+  },
+  {
+    "id": 43,
+    "topic": "Physical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A relation has 50,000 tuples. Each tuple is 100 bytes. The block size is 512 bytes. How many blocks are needed?",
+    "options": ["A) 9766", "B) 10000", "C) 5000", "D) 9804"],
+    "correct_answer": "B) 10000",
+    "explanation": "Blocking factor = floor(512/100) = 5 records/block. Total blocks = ceil(50,000/5) = 10,000 blocks."
+  },
+  {
+    "id": 44,
+    "topic": "Physical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a static hashing scheme with 8 buckets and a load factor of 0.75, what is the maximum number of records before overflow?",
+    "options": ["A) 6", "B) 8", "C) 10", "D) 12"],
+    "correct_answer": "A) 6",
+    "explanation": "Load factor = records / buckets. Max records = load factor × buckets = 0.75 × 8 = 6 records before overflow occurs."
+  },
+  {
+    "id": 45,
+    "topic": "Physical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which index type is most efficient for a query like: SELECT * FROM orders WHERE status = 'shipped' AND status = 'pending'?",
+    "options": ["A) B+ tree index", "B) Hash index", "C) Bitmap index", "D) Clustered index"],
+    "correct_answer": "C) Bitmap index",
+    "explanation": "Bitmap indexes are ideal for low-cardinality columns (few distinct values like status). They use bitwise AND/OR operations for multi-condition queries, making them very efficient."
+  },
+  {
+    "id": 46,
+    "topic": "Physical Database Design",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A disk has seek time of 8ms, rotational latency of 4ms, and transfer rate of 50 MB/s. How long does it take to read a 100KB block?",
+    "options": ["A) 12 ms", "B) 14 ms", "C) 14.002 ms", "D) 12.002 ms"],
+    "correct_answer": "C) 14.002 ms",
+    "explanation": "Transfer time = 100KB / 50MB/s = 0.1MB / 50MB/s = 0.002s = 2ms. Total = seek(8ms) + rotational(4ms

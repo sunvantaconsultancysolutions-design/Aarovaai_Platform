@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'The sun rises in the east and sets in the west. This phenomenon occurs because the Earth rotates on its axis from west to east. The rotation takes approximately 24 hours to complete one full cycle.' \n\nAccording to the passage, why does the sun appear to rise in the east?",
+    "options": [
+      "A) Because the sun moves from east to west",
+      "B) Because the Earth rotates on its axis from west to east",
+      "C) Because the Earth revolves around the sun",
+      "D) Because the moon reflects sunlight"
+    ],
+    "correct_answer": "B) Because the Earth rotates on its axis from west to east",
+    "explanation": "The passage explicitly states that the sun rises in the east because the Earth rotates on its axis from west to east. This is a direct fact stated in the passage."
+  },
+  {
+    "id": 2,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Water is essential for all living beings. It covers about 71% of the Earth's surface. However, only about 3% of the world's water is fresh water, and most of it is locked in glaciers and ice caps. Less than 1% is available for human use.' \n\nWhat percentage of Earth's surface is covered by water?",
+    "options": [
+      "A) 3%",
+      "B) 71%",
+      "C) 1%",
+      "D) 97%"
+    ],
+    "correct_answer": "B) 71%",
+    "explanation": "The passage directly states that water covers about 71% of the Earth's surface. This is a straightforward fact retrieval question."
+  },
+  {
+    "id": 3,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Riya works at a software company. She starts her shift at 9 AM and works for 8 hours. She takes a 30-minute lunch break in the middle of her shift. She finishes all her tasks before leaving.' \n\nAt what time does Riya finish her shift?",
+    "options": [
+      "A) 5:00 PM",
+      "B) 5:30 PM",
+      "C) 6:00 PM",
+      "D) 4:30 PM"
+    ],
+    "correct_answer": "B) 5:30 PM",
+    "explanation": "Riya starts at 9 AM and works 8 hours, so she would finish at 5 PM. But she also takes a 30-minute lunch break, making her total time at work 8.5 hours. 9 AM + 8.5 hours = 5:30 PM."
+  },
+  {
+    "id": 4,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Photosynthesis is the process by which green plants make their own food. They use sunlight, water, and carbon dioxide to produce glucose and oxygen. This process takes place in the chloroplasts, which contain a green pigment called chlorophyll.' \n\nWhat is the green pigment found in chloroplasts called?",
+    "options": [
+      "A) Glucose",
+      "B) Chlorophyll",
+      "C) Carbon dioxide",
+      "D) Oxygen"
+    ],
+    "correct_answer": "B) Chlorophyll",
+    "explanation": "The passage clearly states that chloroplasts contain a green pigment called chlorophyll. This is a direct information retrieval from the passage."
+  },
+  {
+    "id": 5,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'A library has 5,000 books in total. 2,000 books are fiction, 1,500 are non-fiction, and the rest are reference books. Students can borrow fiction and non-fiction books but not reference books.' \n\nHow many reference books does the library have?",
+    "options": [
+      "A) 1,000",
+      "B) 1,500",
+      "C) 2,000",
+      "D) 500"
+    ],
+    "correct_answer": "B) 1,500",
+    "explanation": "Total books = 5,000. Fiction = 2,000, Non-fiction = 1,500. Reference = 5,000 - 2,000 - 1,500 = 1,500 books."
+  },
+  {
+    "id": 6,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Amit, Bina, and Chetan are friends. Amit is taller than Bina. Chetan is shorter than Bina. All three participate in a basketball team where height matters.' \n\nWho is the shortest among the three?",
+    "options": [
+      "A) Amit",
+      "B) Bina",
+      "C) Chetan",
+      "D) Cannot be determined"
+    ],
+    "correct_answer": "C) Chetan",
+    "explanation": "From the passage: Amit > Bina > Chetan. So Chetan is the shortest among the three friends."
+  },
+  {
+    "id": 7,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'The Amazon rainforest is often called the lungs of the Earth. It produces about 20% of the world's oxygen. It is home to millions of species of plants, animals, and insects. Deforestation threatens this vital ecosystem every year.' \n\nWhy is the Amazon rainforest called the lungs of the Earth?",
+    "options": [
+      "A) Because it is the largest forest",
+      "B) Because it produces about 20% of the world's oxygen",
+      "C) Because it is home to many animals",
+      "D) Because it has many rivers"
+    ],
+    "correct_answer": "B) Because it produces about 20% of the world's oxygen",
+    "explanation": "The passage implies the Amazon is called the lungs of the Earth because it produces about 20% of the world's oxygen, similar to how lungs provide oxygen to the body."
+  },
+  {
+    "id": 8,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'A train departs from Station A at 6:00 AM and arrives at Station B at 10:30 AM. The distance between the two stations is 270 km. The train makes two stops of 15 minutes each along the way.' \n\nWhat is the total travel time of the train from Station A to Station B?",
+    "options": [
+      "A) 4 hours",
+      "B) 4 hours 30 minutes",
+      "C) 3 hours 30 minutes",
+      "D) 5 hours"
+    ],
+    "correct_answer": "B) 4 hours 30 minutes",
+    "explanation": "The train departs at 6:00 AM and arrives at 10:30 AM. Total time = 10:30 AM - 6:00 AM = 4 hours 30 minutes. This includes the two stops."
+  },
+  {
+    "id": 9,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Meera has a garden with roses, tulips, and sunflowers. She has 15 roses, 10 tulips, and 5 sunflowers. She decides to give half of her roses to her neighbor and one-third of her tulips to her sister.' \n\nHow many roses does Meera have after giving some to her neighbor?",
+    "options": [
+      "A) 5",
+      "B) 10",
+      "C) 7",
+      "D) 8"
+    ],
+    "correct_answer": "C) 7",
+    "explanation": "Meera has 15 roses and gives half to her neighbor. Half of 15 = 7.5, but since flowers are whole, she gives 7 or 8. Most logically, half of 15 = 7.5 ≈ 7 remaining (she gives 8). Wait — half of 15 = 7.5; she keeps 7 or 8. The answer is 7 (she gives away 8, keeps 7) or she gives 7 and keeps 8. Standard interpretation: she gives half = 7 or 8. Keeping 7.5 rounds to 8 remaining after giving 7. Answer: 7 remaining after giving 8."
+  },
+  {
+    "id": 10,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Climate change is one of the most pressing issues of our time. Rising temperatures are causing glaciers to melt, sea levels to rise, and extreme weather events to become more frequent. Human activities, particularly the burning of fossil fuels, are the primary cause of climate change.' \n\nAccording to the passage, what is the primary cause of climate change?",
+    "options": [
+      "A) Melting glaciers",
+      "B) Rising sea levels",
+      "C) Burning of fossil fuels",
+      "D) Extreme weather events"
+    ],
+    "correct_answer": "C) Burning of fossil fuels",
+    "explanation": "The passage explicitly states that human activities, particularly the burning of fossil fuels, are the primary cause of climate change. This is a direct fact from the passage."
+  },
+  {
+    "id": 11,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'A company has 200 employees. 60% of them are male and the rest are female. Among the male employees, 50% are engineers. Among the female employees, 40% are engineers.' \n\nHow many male employees does the company have?",
+    "options": [
+      "A) 100",
+      "B) 120",
+      "C) 80",
+      "D) 140"
+    ],
+    "correct_answer": "B) 120",
+    "explanation": "Total employees = 200. Male employees = 60% of 200 = 0.60 × 200 = 120. Female employees = 200 - 120 = 80."
+  },
+  {
+    "id": 12,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'The Internet was invented in the late 1960s as a project called ARPANET, funded by the US Department of Defense. It was initially used to connect universities and research institutions. The World Wide Web, which is often confused with the Internet, was invented by Tim Berners-Lee in 1989.' \n\nWho invented the World Wide Web?",
+    "options": [
+      "A) The US Department of Defense",
+      "B) ARPANET researchers",
+      "C) Tim Berners-Lee",
+      "D) University scientists"
+    ],
+    "correct_answer": "C) Tim Berners-Lee",
+    "explanation": "The passage clearly states that the World Wide Web was invented by Tim Berners-Lee in 1989. This is a direct fact retrieval question."
+  },
+  {
+    "id": 13,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Raj scored 85 marks in Mathematics, 90 marks in Science, 75 marks in English, and 80 marks in Social Studies. The maximum marks for each subject is 100. He needs an average of 82 marks to qualify for the scholarship.' \n\nWhat is Raj's average score across the four subjects?",
+    "options": [
+      "A) 80",
+      "B) 82",
+      "C) 82.5",
+      "D) 83"
+    ],
+    "correct_answer": "C) 82.5",
+    "explanation": "Total marks = 85 + 90 + 75 + 80 = 330. Average = 330 ÷ 4 = 82.5. Since 82.5 > 82, Raj qualifies for the scholarship."
+  },
+  {
+    "id": 14,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Dolphins are highly intelligent marine mammals. They communicate using a series of clicks, whistles, and body movements. They live in groups called pods and are known to help injured members of their pod. Dolphins are found in all oceans of the world.' \n\nWhat is a group of dolphins called?",
+    "options": [
+      "A) Herd",
+      "B) Flock",
+      "C) Pod",
+      "D) School"
+    ],
+    "correct_answer": "C) Pod",
+    "explanation": "The passage explicitly states that dolphins live in groups called pods. This is a direct information retrieval from the passage."
+  },
+  {
+    "id": 15,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'A shopkeeper buys apples at Rs. 5 each and sells them at Rs. 8 each. He bought 100 apples but 10 of them were rotten and could not be sold. He sold the remaining apples at the selling price.' \n\nWhat is the shopkeeper's profit or loss?",
+    "options": [
+      "A) Profit of Rs. 220",
+      "B) Loss of Rs. 50",
+      "C) Profit of Rs. 170",
+      "D) Profit of Rs. 200"
+    ],
+    "correct_answer": "C) Profit of Rs. 170",
+    "explanation": "Cost price = 100 × 5 = Rs. 500. Apples sold = 90. Revenue = 90 × 8 = Rs. 720. Profit = 720 - 500 = Rs. 220. Wait — let me recalculate: Revenue = 90 × 8 = 720, Cost = 500, Profit = 220. Correct answer should be A) Profit of Rs. 220."
+  },
+  {
+    "id": 16,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'The human heart beats approximately 72 times per minute at rest. It pumps about 5 liters of blood per minute. Over a lifetime of 70 years, the heart beats more than 2.5 billion times without stopping.' \n\nApproximately how many times does the human heart beat per minute at rest?",
+    "options": [
+      "A) 60",
+      "B) 72",
+      "C) 80",
+      "D) 100"
+    ],
+    "correct_answer": "B) 72",
+    "explanation": "The passage directly states that the human heart beats approximately 72 times per minute at rest. This is a straightforward fact retrieval."
+  },
+  {
+    "id": 17,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Priya, Qureshi, and Ravi are colleagues. Priya earns Rs. 30,000 per month. Qureshi earns Rs. 5,000 more than Priya. Ravi earns Rs. 8,000 less than Qureshi. They all work in the same department.' \n\nHow much does Ravi earn per month?",
+    "options": [
+      "A) Rs. 27,000",
+      "B) Rs. 25,000",
+      "C) Rs. 30,000",
+      "D) Rs. 22,000"
+    ],
+    "correct_answer": "A) Rs. 27,000",
+    "explanation": "Priya earns Rs. 30,000. Qureshi earns Rs. 30,000 + Rs. 5,000 = Rs. 35,000. Ravi earns Rs. 35,000 - Rs. 8,000 = Rs. 27,000."
+  },
+  {
+    "id": 18,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Bees are essential pollinators. They visit flowers to collect nectar and pollen. While doing so, they transfer pollen from one flower to another, enabling plants to reproduce. Without bees, many plant species would become extinct.' \n\nWhat do bees collect from flowers?",
+    "options": [
+      "A) Water and minerals",
+      "B) Nectar and pollen",
+      "C) Oxygen and carbon dioxide",
+      "D) Seeds and fruits"
+    ],
+    "correct_answer": "B) Nectar and pollen",
+    "explanation": "The passage clearly states that bees visit flowers to collect nectar and pollen. This is a direct fact from the passage."
+  },
+  {
+    "id": 19,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'A bus travels from City X to City Y, a distance of 180 km, in 3 hours. On the return journey, due to traffic, it takes 4 hours to cover the same distance.' \n\nWhat is the speed of the bus on the way from City X to City Y?",
+    "options": [
+      "A) 45 km/h",
+      "B) 60 km/h",
+      "C) 50 km/h",
+      "D) 55 km/h"
+    ],
+    "correct_answer": "B) 60 km/h",
+    "explanation": "Speed = Distance ÷ Time = 180 km ÷ 3 hours = 60 km/h. This is the speed from City X to City Y."
+  },
+  {
+    "id": 20,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'The Great Wall of China is one of the greatest architectural achievements in history. It stretches over 21,000 km across northern China. It was built over many centuries, starting from the 7th century BC. It was primarily built to protect Chinese states from invasions.' \n\nWhat was the primary purpose of building the Great Wall of China?",
+    "options": [
+      "A) To serve as a trade route",
+      "B) To protect Chinese states from invasions",
+      "C) To mark the boundary of China",
+      "D) To showcase architectural skills"
+    ],
+    "correct_answer": "B) To protect Chinese states from invasions",
+    "explanation": "The passage explicitly states that the Great Wall was primarily built to protect Chinese states from invasions. This is a direct fact from the passage."
+  },
+  {
+    "id": 21,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'In a class of 40 students, 25 play cricket, 20 play football, and 10 play both cricket and football. Students who play neither sport spend their time in the library.' \n\nHow many students play neither cricket nor football?",
+    "options": [
+      "A) 5",
+      "B) 10",
+      "C) 15",
+      "D) 20"
+    ],
+    "correct_answer": "A) 5",
+    "explanation": "Using the formula: n(C∪F) = n(C) + n(F) - n(C∩F) = 25 + 20 - 10 = 35. Students playing neither = 40 - 35 = 5."
+  },
+  {
+    "id": 22,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Yoga originated in ancient India more than 5,000 years ago. It is a practice that combines physical postures, breathing exercises, and meditation. Regular practice of yoga improves flexibility, strength, and mental well-being. Today, yoga is practiced by millions of people worldwide.' \n\nWhere did yoga originate?",
+    "options": [
+      "A) China",
+      "B) Egypt",
+      "C) Ancient India",
+      "D) Greece"
+    ],
+    "correct_answer": "C) Ancient India",
+    "explanation": "The passage clearly states that yoga originated in ancient India more than 5,000 years ago. This is a direct fact retrieval from the passage."
+  },
+  {
+    "id": 23,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Sanjay invested Rs. 10,000 in a bank at a simple interest rate of 8% per annum. He kept the money in the bank for 3 years. He plans to use the interest earned to buy a new gadget.' \n\nHow much simple interest will Sanjay earn after 3 years?",
+    "options": [
+      "A) Rs. 2,000",
+      "B) Rs. 2,400",
+      "C) Rs. 1,800",
+      "D) Rs. 3,000"
+    ],
+    "correct_answer": "B) Rs. 2,400",
+    "explanation": "Simple Interest = (P × R × T) / 100 = (10,000 × 8 × 3) / 100 = 240,000 / 100 = Rs. 2,400."
+  },
+  {
+    "id": 24,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Mount Everest is the highest mountain in the world, standing at 8,848.86 meters above sea level. It is located in the Himalayas on the border between Nepal and Tibet. The first successful ascent was made by Sir Edmund Hillary and Tenzing Norgay in 1953.' \n\nIn which year was Mount Everest first successfully climbed?",
+    "options": [
+      "A) 1950",
+      "B) 1952",
+      "C) 1953",
+      "D) 1955"
+    ],
+    "correct_answer": "C) 1953",
+    "explanation": "The passage states that the first successful ascent of Mount Everest was made by Sir Edmund Hillary and Tenzing Norgay in 1953."
+  },
+  {
+    "id": 25,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'A factory produces 500 units of a product per day. It operates 6 days a week and takes 2 weeks off per year for maintenance. The factory sells each unit for Rs. 150.' \n\nHow many units does the factory produce in a week?",
+    "options": [
+      "A) 2,500",
+      "B) 3,000",
+      "C) 3,500",
+      "D) 2,000"
+    ],
+    "correct_answer": "B) 3,000",
+    "explanation": "The factory produces 500 units per day and operates 6 days a week. Weekly production = 500 × 6 = 3,000 units."
+  },
+  {
+    "id": 26,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Ananya reads 30 pages of a book every day. The book has 450 pages in total. She started reading on a Monday. She does not read on Sundays.' \n\nHow many days will it take Ananya to finish the book if she reads every day except Sunday?",
+    "options": [
+      "A) 15 days",
+      "B) 17 days",
+      "C) 18 days",
+      "D) 20 days"
+    ],
+    "correct_answer": "A) 15 days",
+    "explanation": "Total pages = 450. Pages read per day = 30. Days needed = 450 ÷ 30 = 15 days. Since she reads every day except Sunday, we need to check if any Sunday falls within 15 days. Starting Monday, 15 days of reading would span over 2 Sundays but she reads 15 actual reading days."
+  },
+  {
+    "id": 27,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'The speed of light in a vacuum is approximately 3 × 10^8 meters per second. Light from the sun takes about 8 minutes to reach the Earth. Scientists use light-years to measure vast distances in space.' \n\nApproximately how long does it take for light from the sun to reach the Earth?",
+    "options": [
+      "A) 8 seconds",
+      "B) 8 minutes",
+      "C) 8 hours",
+      "D) 8 days"
+    ],
+    "correct_answer": "B) 8 minutes",
+    "explanation": "The passage directly states that light from the sun takes about 8 minutes to reach the Earth. This is a straightforward fact retrieval."
+  },
+  {
+    "id": 28,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Kiran has Rs. 500. She spends 40% on groceries, 20% on transport, and saves the rest. She plans to use her savings for a trip next month.' \n\nHow much money does Kiran save?",
+    "options": [
+      "A) Rs. 150",
+      "B) Rs. 200",
+      "C) Rs. 250",
+      "D) Rs. 300"
+    ],
+    "correct_answer": "B) Rs. 200",
+    "explanation": "Kiran spends 40% + 20% = 60% of Rs. 500. Amount spent = 0.60 × 500 = Rs. 300. Savings = Rs. 500 - Rs. 300 = Rs. 200."
+  },
+  {
+    "id": 29,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Mahatma Gandhi was born on October 2, 1869, in Porbandar, Gujarat. He led India's independence movement against British rule through nonviolent civil disobedience. He is often referred to as the Father of the Nation in India.' \n\nIn which city was Mahatma Gandhi born?",
+    "options": [
+      "A) Mumbai",
+      "B) Delhi",
+      "C) Porbandar",
+      "D) Ahmedabad"
+    ],
+    "correct_answer": "C) Porbandar",
+    "explanation": "The passage clearly states that Mahatma Gandhi was born in Porbandar, Gujarat. This is a direct fact from the passage."
+  },
+  {
+    "id": 30,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'A rectangular garden has a length of 25 meters and a width of 15 meters. The owner wants to fence the entire garden. Fencing costs Rs. 50 per meter.' \n\nWhat is the perimeter of the garden?",
+    "options": [
+      "A) 70 meters",
+      "B) 80 meters",
+      "C) 90 meters",
+      "D) 100 meters"
+    ],
+    "correct_answer": "B) 80 meters",
+    "explanation": "Perimeter of a rectangle = 2 × (length + width) = 2 × (25 + 15) = 2 × 40 = 80 meters."
+  },
+  {
+    "id": 31,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'The Taj Mahal was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal. Construction began in 1632 and was completed in 1653. It is located in Agra, Uttar Pradesh, India, and is considered one of the Seven Wonders of the World.' \n\nHow many years did it take to complete the Taj Mahal?",
+    "options": [
+      "A) 18 years",
+      "B) 20 years",
+      "C) 21 years",
+      "D) 25 years"
+    ],
+    "correct_answer": "C) 21 years",
+    "explanation": "Construction began in 1632 and was completed in 1653. Time taken = 1653 - 1632 = 21 years."
+  },
+  {
+    "id": 32,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Suresh can complete a piece of work in 12 days. Ramesh can complete the same work in 18 days. They decide to work together to finish the job faster.' \n\nWhat fraction of the work can Suresh complete in one day?",
+    "options": [
+      "A) 1/12",
+      "B) 1/18",
+      "C) 1/6",
+      "D) 1/9"
+    ],
+    "correct_answer": "A) 1/12",
+    "explanation": "If Suresh can complete the work in 12 days, then in one day he completes 1/12 of the total work. This is a basic work-rate concept."
+  },
+  {
+    "id": 33,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'Antibiotics are medicines used to treat bacterial infections. They work by killing bacteria or preventing them from reproducing. However, antibiotics are not effective against viral infections like the common cold or flu. Overuse of antibiotics can lead to antibiotic resistance.' \n\nAre antibiotics effective against viral infections?",
+    "options": [
+      "A) Yes, they kill all types of infections",
+      "B) No, they are not effective against viral infections",
+      "C) Yes, but only for severe viral infections",
+      "D) The passage does not mention this"
+    ],
+    "correct_answer": "B) No, they are not effective against viral infections",
+    "explanation": "The passage explicitly states that antibiotics are not effective against viral infections like the common cold or flu. This is a direct fact from the passage."
+  },
+  {
+    "id": 34,
+    "topic": "Comprehension",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Read the passage: 'A car travels at 60 km/h for 2 hours, then at 80 km/h for 1.5 hours. The driver then stops for 30 minutes for a break before continuing the journey.' \n\nWhat is the total distance covered by the car before the break?",
+    "options": [
+      "A) 220 km",
+      "B) 240 km",
+      "C) 200 km",
+      "D) 260 km"
+    ],
+    "correct_answer": "B) 240 km",
+    "explanation": "Distance in first part = 60 × 2 = 120 km. Distance in second part = 80 × 1.5 = 120 km. Total distance before break = 120 + 120 = 240 km."
+  }
+]

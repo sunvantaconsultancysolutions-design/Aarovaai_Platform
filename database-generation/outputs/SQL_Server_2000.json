@@ -1,0 +1,511 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which company developed SQL Server 2000?",
+    "options": ["A) Oracle", "B) Microsoft", "C) IBM", "D) Sybase"],
+    "correct_answer": "B) Microsoft",
+    "explanation": "SQL Server 2000 was developed by Microsoft Corporation. It was released in 2000 as version 8.0 of Microsoft SQL Server."
+  },
+  {
+    "id": 2,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default port number used by SQL Server 2000?",
+    "options": ["A) 1433", "B) 3306", "C) 5432", "D) 1521"],
+    "correct_answer": "A) 1433",
+    "explanation": "SQL Server 2000 uses TCP port 1433 by default for client connections. Port 3306 is MySQL, 5432 is PostgreSQL, and 1521 is Oracle."
+  },
+  {
+    "id": 3,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to retrieve all columns from a table named 'Employees' in SQL Server 2000?",
+    "options": ["A) SELECT ALL FROM Employees", "B) SELECT * FROM Employees", "C) GET * FROM Employees", "D) FETCH * FROM Employees"],
+    "correct_answer": "B) SELECT * FROM Employees",
+    "explanation": "The SELECT * FROM TableName statement retrieves all columns and rows from the specified table. The asterisk (*) is a wildcard for all columns."
+  },
+  {
+    "id": 4,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 data type is used to store Unicode character strings of variable length?",
+    "options": ["A) VARCHAR", "B) NVARCHAR", "C) CHAR", "D) TEXT"],
+    "correct_answer": "B) NVARCHAR",
+    "explanation": "NVARCHAR stores variable-length Unicode data. The 'N' prefix stands for National, indicating Unicode support, allowing storage of international characters."
+  },
+  {
+    "id": 5,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DDL stand for in SQL Server 2000?",
+    "options": ["A) Data Definition Language", "B) Data Display Language", "C) Database Design Language", "D) Data Deployment Language"],
+    "correct_answer": "A) Data Definition Language",
+    "explanation": "DDL stands for Data Definition Language. It includes commands like CREATE, ALTER, DROP, and TRUNCATE used to define and modify database structures."
+  },
+  {
+    "id": 6,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 command is used to add a new row to a table?",
+    "options": ["A) ADD", "B) INSERT INTO", "C) UPDATE", "D) APPEND"],
+    "correct_answer": "B) INSERT INTO",
+    "explanation": "The INSERT INTO statement is used to add new rows to a table. Syntax: INSERT INTO TableName (col1, col2) VALUES (val1, val2)."
+  },
+  {
+    "id": 7,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which constraint in SQL Server 2000 ensures that a column cannot have NULL values?",
+    "options": ["A) UNIQUE", "B) PRIMARY KEY", "C) NOT NULL", "D) CHECK"],
+    "correct_answer": "C) NOT NULL",
+    "explanation": "The NOT NULL constraint ensures a column must always have a value and cannot store NULL. PRIMARY KEY also implies NOT NULL but serves a different purpose."
+  },
+  {
+    "id": 8,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the version number of SQL Server 2000?",
+    "options": ["A) 7.0", "B) 8.0", "C) 9.0", "D) 6.5"],
+    "correct_answer": "B) 8.0",
+    "explanation": "SQL Server 2000 is internally version 8.0. SQL Server 7.0 was version 7.0, and SQL Server 2005 was version 9.0."
+  },
+  {
+    "id": 9,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 function returns the current date and time?",
+    "options": ["A) NOW()", "B) GETDATE()", "C) SYSDATE()", "D) CURDATE()"],
+    "correct_answer": "B) GETDATE()",
+    "explanation": "GETDATE() is the SQL Server function that returns the current system date and time. NOW() and SYSDATE() are MySQL/Oracle equivalents."
+  },
+  {
+    "id": 10,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command removes all rows from a table without logging individual row deletions in SQL Server 2000?",
+    "options": ["A) DELETE", "B) DROP", "C) TRUNCATE", "D) REMOVE"],
+    "correct_answer": "C) TRUNCATE",
+    "explanation": "TRUNCATE TABLE removes all rows quickly without logging each deletion, making it faster than DELETE. DROP removes the entire table structure."
+  },
+  {
+    "id": 11,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DML stand for in SQL Server 2000?",
+    "options": ["A) Data Manipulation Language", "B) Data Management Language", "C) Database Modification Language", "D) Data Merging Language"],
+    "correct_answer": "A) Data Manipulation Language",
+    "explanation": "DML stands for Data Manipulation Language. It includes SELECT, INSERT, UPDATE, and DELETE commands used to manipulate data in tables."
+  },
+  {
+    "id": 12,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 clause is used to filter rows based on a condition?",
+    "options": ["A) HAVING", "B) WHERE", "C) GROUP BY", "D) ORDER BY"],
+    "correct_answer": "B) WHERE",
+    "explanation": "The WHERE clause filters rows based on a specified condition before grouping. HAVING filters after GROUP BY aggregation."
+  },
+  {
+    "id": 13,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which aggregate function in SQL Server 2000 returns the total number of rows?",
+    "options": ["A) SUM()", "B) TOTAL()", "C) COUNT()", "D) AVG()"],
+    "correct_answer": "C) COUNT()",
+    "explanation": "COUNT() returns the number of rows that match a specified condition. COUNT(*) counts all rows including NULLs."
+  },
+  {
+    "id": 14,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 keyword is used to eliminate duplicate rows in a SELECT result?",
+    "options": ["A) UNIQUE", "B) DISTINCT", "C) DIFFERENT", "D) NODUPLICATE"],
+    "correct_answer": "B) DISTINCT",
+    "explanation": "The DISTINCT keyword in a SELECT statement removes duplicate rows from the result set, returning only unique values."
+  },
+  {
+    "id": 15,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 statement is used to modify existing data in a table?",
+    "options": ["A) MODIFY", "B) ALTER", "C) UPDATE", "D) CHANGE"],
+    "correct_answer": "C) UPDATE",
+    "explanation": "The UPDATE statement modifies existing records in a table. Syntax: UPDATE TableName SET col=value WHERE condition."
+  },
+  {
+    "id": 16,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a stored procedure in SQL Server 2000?",
+    "options": ["A) A saved SELECT query", "B) A precompiled set of SQL statements stored in the database", "C) A temporary table", "D) A database backup file"],
+    "correct_answer": "B) A precompiled set of SQL statements stored in the database",
+    "explanation": "A stored procedure is a precompiled collection of SQL statements stored in the database. It improves performance and promotes code reuse."
+  },
+  {
+    "id": 17,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 data type stores whole numbers between -2,147,483,648 and 2,147,483,647?",
+    "options": ["A) SMALLINT", "B) BIGINT", "C) INT", "D) TINYINT"],
+    "correct_answer": "C) INT",
+    "explanation": "INT (integer) stores whole numbers from -2,147,483,648 to 2,147,483,647 (4 bytes). SMALLINT uses 2 bytes and BIGINT uses 8 bytes."
+  },
+  {
+    "id": 18,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 clause sorts the result set in ascending or descending order?",
+    "options": ["A) GROUP BY", "B) SORT BY", "C) ORDER BY", "D) ARRANGE BY"],
+    "correct_answer": "C) ORDER BY",
+    "explanation": "ORDER BY sorts the result set. ASC is the default (ascending). Use DESC for descending order. Example: ORDER BY Salary DESC."
+  },
+  {
+    "id": 19,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a PRIMARY KEY in SQL Server 2000?",
+    "options": ["A) A key that allows duplicate values", "B) A column that uniquely identifies each row in a table", "C) A foreign reference to another table", "D) An index on multiple columns"],
+    "correct_answer": "B) A column that uniquely identifies each row in a table",
+    "explanation": "A PRIMARY KEY uniquely identifies each record in a table. It cannot contain NULL values and each table can have only one PRIMARY KEY."
+  },
+  {
+    "id": 20,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 function converts a string to uppercase?",
+    "options": ["A) TOUPPER()", "B) UPPER()", "C) UCASE()", "D) CAPS()"],
+    "correct_answer": "B) UPPER()",
+    "explanation": "UPPER() converts all characters in a string to uppercase. Example: UPPER('hello') returns 'HELLO'. LOWER() does the reverse."
+  },
+  {
+    "id": 21,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 join returns only the rows that have matching values in both tables?",
+    "options": ["A) LEFT JOIN", "B) RIGHT JOIN", "C) INNER JOIN", "D) FULL JOIN"],
+    "correct_answer": "C) INNER JOIN",
+    "explanation": "INNER JOIN returns only rows where there is a match in both tables based on the join condition. Non-matching rows are excluded."
+  },
+  {
+    "id": 22,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 system database stores information about all other databases on the server?",
+    "options": ["A) tempdb", "B) model", "C) master", "D) msdb"],
+    "correct_answer": "C) master",
+    "explanation": "The master database stores all system-level information including logins, linked servers, and configuration settings for SQL Server."
+  },
+  {
+    "id": 23,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the SQL Server 2000 LIKE operator do?",
+    "options": ["A) Compares exact values", "B) Searches for a specified pattern in a column", "C) Joins two tables", "D) Sorts data alphabetically"],
+    "correct_answer": "B) Searches for a specified pattern in a column",
+    "explanation": "LIKE is used in WHERE clauses to search for patterns. '%' matches any sequence of characters, '_' matches any single character."
+  },
+  {
+    "id": 24,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 function returns the length of a string?",
+    "options": ["A) SIZE()", "B) LENGTH()", "C) LEN()", "D) STRLEN()"],
+    "correct_answer": "C) LEN()",
+    "explanation": "LEN() returns the number of characters in a string, excluding trailing spaces. Example: LEN('Hello') returns 5."
+  },
+  {
+    "id": 25,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 command is used to create a new database?",
+    "options": ["A) MAKE DATABASE", "B) NEW DATABASE", "C) CREATE DATABASE", "D) BUILD DATABASE"],
+    "correct_answer": "C) CREATE DATABASE",
+    "explanation": "CREATE DATABASE statement creates a new database. Syntax: CREATE DATABASE DatabaseName. It creates the necessary files on disk."
+  },
+  {
+    "id": 26,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a FOREIGN KEY in SQL Server 2000?",
+    "options": ["A) A key from another country's database", "B) A column that references the PRIMARY KEY of another table", "C) A key that allows NULL values only", "D) An encrypted primary key"],
+    "correct_answer": "B) A column that references the PRIMARY KEY of another table",
+    "explanation": "A FOREIGN KEY establishes a referential integrity link between two tables. It references the PRIMARY KEY of another (parent) table."
+  },
+  {
+    "id": 27,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 aggregate function returns the highest value in a column?",
+    "options": ["A) HIGHEST()", "B) TOP()", "C) MAX()", "D) GREATEST()"],
+    "correct_answer": "C) MAX()",
+    "explanation": "MAX() returns the maximum (highest) value in a specified column. It works with numeric, date, and string data types."
+  },
+  {
+    "id": 28,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 clause groups rows that have the same values into summary rows?",
+    "options": ["A) ORDER BY", "B) GROUP BY", "C) HAVING", "D) PARTITION BY"],
+    "correct_answer": "B) GROUP BY",
+    "explanation": "GROUP BY groups rows with the same values in specified columns. It is often used with aggregate functions like COUNT, SUM, AVG, MAX, MIN."
+  },
+  {
+    "id": 29,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the SQL Server 2000 ROLLBACK command?",
+    "options": ["A) Saves all changes permanently", "B) Undoes all changes made in the current transaction", "C) Deletes the entire database", "D) Creates a backup"],
+    "correct_answer": "B) Undoes all changes made in the current transaction",
+    "explanation": "ROLLBACK undoes all changes made during the current transaction, restoring the database to its state before the transaction began."
+  },
+  {
+    "id": 30,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 data type is used to store TRUE/FALSE values?",
+    "options": ["A) BOOLEAN", "B) BIT", "C) BOOL", "D) LOGICAL"],
+    "correct_answer": "B) BIT",
+    "explanation": "BIT is the SQL Server data type for Boolean values. It stores 0 (false), 1 (true), or NULL. SQL Server does not have a BOOLEAN type."
+  },
+  {
+    "id": 31,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 tool provides a graphical interface to manage databases?",
+    "options": ["A) SQL Server Profiler", "B) Enterprise Manager", "C) Query Analyzer", "D) Service Manager"],
+    "correct_answer": "B) Enterprise Manager",
+    "explanation": "Enterprise Manager is the primary GUI tool in SQL Server 2000 for managing databases, tables, users, and other server objects."
+  },
+  {
+    "id": 32,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the SQL Server 2000 COMMIT command do?",
+    "options": ["A) Cancels all changes in a transaction", "B) Permanently saves all changes made in the current transaction", "C) Creates a new transaction", "D) Locks a table"],
+    "correct_answer": "B) Permanently saves all changes made in the current transaction",
+    "explanation": "COMMIT permanently saves all changes made during the current transaction to the database. After COMMIT, changes cannot be rolled back."
+  },
+  {
+    "id": 33,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 function returns the smallest value in a column?",
+    "options": ["A) LEAST()", "B) LOWEST()", "C) MIN()", "D) BOTTOM()"],
+    "correct_answer": "C) MIN()",
+    "explanation": "MIN() returns the minimum (smallest) value in a specified column. It works with numeric, date, and string data types."
+  },
+  {
+    "id": 34,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 statement is used to delete a table from the database?",
+    "options": ["A) DELETE TABLE", "B) REMOVE TABLE", "C) DROP TABLE", "D) ERASE TABLE"],
+    "correct_answer": "C) DROP TABLE",
+    "explanation": "DROP TABLE permanently removes a table and all its data from the database. Unlike TRUNCATE, it also removes the table structure."
+  },
+  {
+    "id": 35,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a VIEW in SQL Server 2000?",
+    "options": ["A) A physical copy of a table", "B) A virtual table based on a SELECT query", "C) A stored procedure", "D) A database backup"],
+    "correct_answer": "B) A virtual table based on a SELECT query",
+    "explanation": "A VIEW is a virtual table defined by a SELECT query. It does not store data physically but provides a way to simplify complex queries."
+  },
+  {
+    "id": 36,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 function calculates the sum of values in a column?",
+    "options": ["A) TOTAL()", "B) ADD()", "C) SUM()", "D) PLUS()"],
+    "correct_answer": "C) SUM()",
+    "explanation": "SUM() returns the total sum of a numeric column. Example: SELECT SUM(Salary) FROM Employees returns the total of all salaries."
+  },
+  {
+    "id": 37,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 keyword is used to check if a value is NULL?",
+    "options": ["A) = NULL", "B) IS NULL", "C) EQUALS NULL", "D) NULL CHECK"],
+    "correct_answer": "B) IS NULL",
+    "explanation": "IS NULL is used to check for NULL values. You cannot use = NULL because NULL is not equal to anything, including itself."
+  },
+  {
+    "id": 38,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of an INDEX in SQL Server 2000?",
+    "options": ["A) To store backup data", "B) To speed up data retrieval operations", "C) To enforce data integrity", "D) To encrypt table data"],
+    "correct_answer": "B) To speed up data retrieval operations",
+    "explanation": "An INDEX improves the speed of data retrieval. It creates a separate data structure that allows SQL Server to find rows faster without scanning the entire table."
+  },
+  {
+    "id": 39,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 data type stores fixed-length character strings up to 8,000 characters?",
+    "options": ["A) VARCHAR", "B) NCHAR", "C) CHAR", "D) TEXT"],
+    "correct_answer": "C) CHAR",
+    "explanation": "CHAR stores fixed-length non-Unicode character data up to 8,000 characters. If the stored value is shorter, it is padded with spaces."
+  },
+  {
+    "id": 40,
+    "topic": "SQL Server 2000",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 system database is used as a template for creating new databases?",
+    "options": ["A) master", "B) tempdb", "C) model", "D) msdb"],
+    "correct_answer": "C) model",
+    "explanation": "The model database serves as a template for all new databases created in SQL Server. Any objects in model are copied to new databases."
+  },
+  {
+    "id": 41,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In SQL Server 2000, what is the difference between a clustered and a non-clustered index?",
+    "options": ["A) Clustered index sorts data physically; non-clustered creates a separate structure", "B) Clustered index is faster to create; non-clustered is slower", "C) Clustered index allows duplicates; non-clustered does not", "D) There is no difference between them"],
+    "correct_answer": "A) Clustered index sorts data physically; non-clustered creates a separate structure",
+    "explanation": "A clustered index physically reorders table data. Only one clustered index per table is allowed. Non-clustered indexes create a separate B-tree structure with pointers to data rows."
+  },
+  {
+    "id": 42,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the maximum number of clustered indexes allowed per table in SQL Server 2000?",
+    "options": ["A) 249", "B) 1", "C) 16", "D) Unlimited"],
+    "correct_answer": "B) 1",
+    "explanation": "Only ONE clustered index is allowed per table because it physically sorts the data rows. However, up to 249 non-clustered indexes are allowed per table."
+  },
+  {
+    "id": 43,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 feature automatically generates a unique numeric value for a column?",
+    "options": ["A) SEQUENCE", "B) AUTO_INCREMENT", "C) IDENTITY", "D) ROWNUM"],
+    "correct_answer": "C) IDENTITY",
+    "explanation": "IDENTITY property automatically generates sequential numeric values. Syntax: ColumnName INT IDENTITY(seed, increment). AUTO_INCREMENT is MySQL syntax."
+  },
+  {
+    "id": 44,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does the SQL Server 2000 @@IDENTITY global variable return?",
+    "options": ["A) The current user's ID", "B) The last identity value inserted in the current session", "C) The server's unique identifier", "D) The database ID"],
+    "correct_answer": "B) The last identity value inserted in the current session",
+    "explanation": "@@IDENTITY returns the last identity value generated in the current session across all tables. SCOPE_IDENTITY() is safer as it returns value only from current scope."
+  },
+  {
+    "id": 45,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In SQL Server 2000, what is a TRIGGER?",
+    "options": ["A) A scheduled job that runs at specific times", "B) A special stored procedure that automatically executes in response to table events", "C) A constraint that validates data", "D) A function that returns a table"],
+    "correct_answer": "B) A special stored procedure that automatically executes in response to table events",
+    "explanation": "A TRIGGER is a special stored procedure that fires automatically when INSERT, UPDATE, or DELETE operations occur on a table. It enforces business rules automatically."
+  },
+  {
+    "id": 46,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the purpose of the SQL Server 2000 tempdb system database?",
+    "options": ["A) Stores permanent user data", "B) Stores temporary tables, work tables, and intermediate results", "C) Stores system configuration", "D) Stores scheduled jobs"],
+    "correct_answer": "B) Stores temporary tables, work tables, and intermediate results",
+    "explanation": "tempdb is a global resource that stores temporary tables (prefixed with #), table variables, intermediate sort results, and other temporary work objects."
+  },
+  {
+    "id": 47,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 function replaces NULL with a specified replacement value?",
+    "options": ["A) NULLIF()", "B) COALESCE()", "C) ISNULL()", "D) NVL()"],
+    "correct_answer": "C) ISNULL()",
+    "explanation": "ISNULL(expression, replacement) returns the replacement value if the expression is NULL. Example: ISNULL(Salary, 0) returns 0 if Salary is NULL."
+  },
+  {
+    "id": 48,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between DELETE and TRUNCATE in SQL Server 2000?",
+    "options": ["A) DELETE is DDL; TRUNCATE is DML", "B) DELETE logs each row deletion and can use WHERE; TRUNCATE removes all rows without row-level logging", "C) TRUNCATE can use WHERE clause; DELETE cannot", "D) There is no difference"],
+    "correct_answer": "B) DELETE logs each row deletion and can use WHERE; TRUNCATE removes all rows without row-level logging",
+    "explanation": "DELETE is DML, logs each row, can use WHERE, and fires triggers. TRUNCATE is DDL, minimally logged, removes all rows, cannot use WHERE, and doesn't fire row-level triggers."
+  },
+  {
+    "id": 49,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In SQL Server 2000, what are the INSERTED and DELETED logical tables used for?",
+    "options": ["A) They are system tables storing all database changes", "B) They are special tables available inside triggers to access old and new row values", "C) They are backup tables created automatically", "D) They store transaction logs"],
+    "correct_answer": "B) They are special tables available inside triggers to access old and new row values",
+    "explanation": "INSERTED holds new row values (for INSERT/UPDATE triggers) and DELETED holds old row values (for DELETE/UPDATE triggers). They exist only within trigger scope."
+  },
+  {
+    "id": 50,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which SQL Server 2000 isolation level prevents dirty reads but allows non-repeatable reads?",
+    "options": ["A) READ UNCOMMITTED", "B) READ COMMITTED", "C) REPEATABLE READ", "D) SERIALIZABLE"],
+    "correct_answer": "B) READ COMMITTED",
+    "explanation": "READ COMMITTED (default in SQL Server) prevents dirty reads by only reading committed data. However, non-repeatable reads can still occur if data changes between reads."
+  },
+  {
+    "id": 51,
+    "topic": "SQL Server 2000",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a cursor in SQL Server 2000?",
+    "options": ["A) A mouse pointer in the GUI", "B) A database object that allows row-by-row processing of result sets", "C) A type of index", "D) A backup mechanism"],
+    "correct_answer": "B) A database object that allows row-by-row processing of result sets",
+    

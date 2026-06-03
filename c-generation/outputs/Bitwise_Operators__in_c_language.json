@@ -1,0 +1,528 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 5 & 3 in C?",
+    "options": ["A) 1", "B) 7", "C) 6", "D) 0"],
+    "correct_answer": "A) 1",
+    "explanation": "5 = 101, 3 = 011. AND operation: 101 & 011 = 001 = 1."
+  },
+  {
+    "id": 2,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 5 | 3 in C?",
+    "options": ["A) 6", "B) 7", "C) 1", "D) 8"],
+    "correct_answer": "B) 7",
+    "explanation": "5 = 101, 3 = 011. OR operation: 101 | 011 = 111 = 7."
+  },
+  {
+    "id": 3,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 5 ^ 3 in C?",
+    "options": ["A) 8", "B) 1", "C) 6", "D) 7"],
+    "correct_answer": "C) 6",
+    "explanation": "5 = 101, 3 = 011. XOR operation: 101 ^ 011 = 110 = 6."
+  },
+  {
+    "id": 4,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of ~5 in C (assuming 8-bit representation)?",
+    "options": ["A) -5", "B) -6", "C) 4", "D) 250"],
+    "correct_answer": "B) -6",
+    "explanation": "~5 flips all bits. In two's complement, ~n = -(n+1), so ~5 = -6."
+  },
+  {
+    "id": 5,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the left shift operator << do in C?",
+    "options": ["A) Divides by 2", "B) Multiplies by 2 for each shift", "C) Flips bits", "D) Performs XOR"],
+    "correct_answer": "B) Multiplies by 2 for each shift",
+    "explanation": "Left shifting by n positions multiplies the number by 2^n."
+  },
+  {
+    "id": 6,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 4 << 1 in C?",
+    "options": ["A) 2", "B) 4", "C) 8", "D) 16"],
+    "correct_answer": "C) 8",
+    "explanation": "4 << 1 = 4 * 2^1 = 8. Binary: 0100 becomes 1000."
+  },
+  {
+    "id": 7,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 16 >> 2 in C?",
+    "options": ["A) 4", "B) 8", "C) 2", "D) 64"],
+    "correct_answer": "A) 4",
+    "explanation": "16 >> 2 = 16 / 2^2 = 16 / 4 = 4. Binary: 10000 becomes 00100."
+  },
+  {
+    "id": 8,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which bitwise operator is used to check if a number is even or odd?",
+    "options": ["A) |", "B) ^", "C) &", "D) ~"],
+    "correct_answer": "C) &",
+    "explanation": "n & 1 gives 0 for even and 1 for odd numbers by checking the last bit."
+  },
+  {
+    "id": 9,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 7 & 0 in C?",
+    "options": ["A) 7", "B) 1", "C) 0", "D) -1"],
+    "correct_answer": "C) 0",
+    "explanation": "Any number ANDed with 0 gives 0, since 0 has all bits as 0."
+  },
+  {
+    "id": 10,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 7 | 0 in C?",
+    "options": ["A) 0", "B) 7", "C) 1", "D) -7"],
+    "correct_answer": "B) 7",
+    "explanation": "Any number ORed with 0 gives the number itself, since 0 has all bits as 0."
+  },
+  {
+    "id": 11,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 9 ^ 9 in C?",
+    "options": ["A) 18", "B) 9", "C) 0", "D) 1"],
+    "correct_answer": "C) 0",
+    "explanation": "XOR of a number with itself is always 0. Each bit XORed with itself gives 0."
+  },
+  {
+    "id": 12,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 6 ^ 0 in C?",
+    "options": ["A) 0", "B) 1", "C) 6", "D) -6"],
+    "correct_answer": "C) 6",
+    "explanation": "XOR of any number with 0 gives the number itself."
+  },
+  {
+    "id": 13,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", 2 << 3);",
+    "options": ["A) 6", "B) 8", "C) 16", "D) 5"],
+    "correct_answer": "C) 16",
+    "explanation": "2 << 3 = 2 * 2^3 = 2 * 8 = 16."
+  },
+  {
+    "id": 14,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator among the following is a bitwise operator in C?",
+    "options": ["A) &&", "B) ||", "C) !", "D) &"],
+    "correct_answer": "D) &",
+    "explanation": "& is the bitwise AND operator. && is logical AND, || is logical OR, ! is logical NOT."
+  },
+  {
+    "id": 15,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 12 & 10 in C?",
+    "options": ["A) 8", "B) 14", "C) 2", "D) 6"],
+    "correct_answer": "A) 8",
+    "explanation": "12 = 1100, 10 = 1010. AND: 1100 & 1010 = 1000 = 8."
+  },
+  {
+    "id": 16,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 12 | 10 in C?",
+    "options": ["A) 8", "B) 14", "C) 2", "D) 22"],
+    "correct_answer": "B) 14",
+    "explanation": "12 = 1100, 10 = 1010. OR: 1100 | 1010 = 1110 = 14."
+  },
+  {
+    "id": 17,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 12 ^ 10 in C?",
+    "options": ["A) 8", "B) 6", "C) 14", "D) 2"],
+    "correct_answer": "B) 6",
+    "explanation": "12 = 1100, 10 = 1010. XOR: 1100 ^ 1010 = 0110 = 6."
+  },
+  {
+    "id": 18,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 1 << 0 in C?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) -1"],
+    "correct_answer": "B) 1",
+    "explanation": "1 << 0 = 1 * 2^0 = 1 * 1 = 1. Shifting by 0 doesn't change the value."
+  },
+  {
+    "id": 19,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 8 >> 1 in C?",
+    "options": ["A) 16", "B) 2", "C) 4", "D) 1"],
+    "correct_answer": "C) 4",
+    "explanation": "8 >> 1 = 8 / 2^1 = 8 / 2 = 4. Binary: 1000 becomes 0100."
+  },
+  {
+    "id": 20,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bitwise operators are there in C?",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 3"],
+    "correct_answer": "C) 6",
+    "explanation": "C has 6 bitwise operators: & (AND), | (OR), ^ (XOR), ~ (NOT), << (left shift), >> (right shift)."
+  },
+  {
+    "id": 21,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of ~0 in C?",
+    "options": ["A) 0", "B) 1", "C) -1", "D) 255"],
+    "correct_answer": "C) -1",
+    "explanation": "~0 flips all bits of 0 (all zeros become all ones), which represents -1 in two's complement."
+  },
+  {
+    "id": 22,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 15 & 9 in C?",
+    "options": ["A) 9", "B) 15", "C) 6", "D) 24"],
+    "correct_answer": "A) 9",
+    "explanation": "15 = 1111, 9 = 1001. AND: 1111 & 1001 = 1001 = 9."
+  },
+  {
+    "id": 23,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 3 << 2 in C?",
+    "options": ["A) 6", "B) 9", "C) 12", "D) 8"],
+    "correct_answer": "C) 12",
+    "explanation": "3 << 2 = 3 * 2^2 = 3 * 4 = 12. Binary: 011 becomes 1100."
+  },
+  {
+    "id": 24,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 20 >> 2 in C?",
+    "options": ["A) 10", "B) 5", "C) 80", "D) 4"],
+    "correct_answer": "B) 5",
+    "explanation": "20 >> 2 = 20 / 2^2 = 20 / 4 = 5. Binary: 10100 becomes 00101."
+  },
+  {
+    "id": 25,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which bitwise operator can be used to swap two numbers without a temporary variable?",
+    "options": ["A) & (AND)", "B) | (OR)", "C) ^ (XOR)", "D) ~ (NOT)"],
+    "correct_answer": "C) ^ (XOR)",
+    "explanation": "XOR swap: a=a^b; b=a^b; a=a^b; swaps a and b without a temp variable."
+  },
+  {
+    "id": 26,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 255 & 15 in C?",
+    "options": ["A) 255", "B) 15", "C) 240", "D) 0"],
+    "correct_answer": "B) 15",
+    "explanation": "255 = 11111111, 15 = 00001111. AND: 11111111 & 00001111 = 00001111 = 15."
+  },
+  {
+    "id": 27,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 1 | 0 in C?",
+    "options": ["A) 0", "B) 1", "C) -1", "D) 2"],
+    "correct_answer": "B) 1",
+    "explanation": "1 = 01, 0 = 00. OR: 01 | 00 = 01 = 1."
+  },
+  {
+    "id": 28,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 0 & 0 in C?",
+    "options": ["A) 1", "B) -1", "C) 0", "D) undefined"],
+    "correct_answer": "C) 0",
+    "explanation": "0 & 0 = 0. AND of two zeros is zero."
+  },
+  {
+    "id": 29,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 0 | 0 in C?",
+    "options": ["A) 1", "B) 0", "C) -1", "D) undefined"],
+    "correct_answer": "B) 0",
+    "explanation": "0 | 0 = 0. OR of two zeros is zero."
+  },
+  {
+    "id": 30,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 0 ^ 0 in C?",
+    "options": ["A) 1", "B) -1", "C) 0", "D) undefined"],
+    "correct_answer": "C) 0",
+    "explanation": "0 ^ 0 = 0. XOR of two zeros is zero."
+  },
+  {
+    "id": 31,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 1 ^ 1 in C?",
+    "options": ["A) 2", "B) 1", "C) 0", "D) -1"],
+    "correct_answer": "C) 0",
+    "explanation": "1 ^ 1 = 0. XOR of identical bits gives 0."
+  },
+  {
+    "id": 32,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 1 & 1 in C?",
+    "options": ["A) 0", "B) 2", "C) 1", "D) -1"],
+    "correct_answer": "C) 1",
+    "explanation": "1 & 1 = 1. AND of two 1-bits gives 1."
+  },
+  {
+    "id": 33,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 1 | 1 in C?",
+    "options": ["A) 2", "B) 0", "C) 1", "D) -1"],
+    "correct_answer": "C) 1",
+    "explanation": "1 | 1 = 1. OR of two 1-bits gives 1."
+  },
+  {
+    "id": 34,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 32 >> 3 in C?",
+    "options": ["A) 4", "B) 8", "C) 256", "D) 2"],
+    "correct_answer": "A) 4",
+    "explanation": "32 >> 3 = 32 / 2^3 = 32 / 8 = 4."
+  },
+  {
+    "id": 35,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 7 | 8 in C?",
+    "options": ["A) 15", "B) 1", "C) 56", "D) 0"],
+    "correct_answer": "A) 15",
+    "explanation": "7 = 0111, 8 = 1000. OR: 0111 | 1000 = 1111 = 15."
+  },
+  {
+    "id": 36,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 7 & 8 in C?",
+    "options": ["A) 15", "B) 0", "C) 1", "D) 56"],
+    "correct_answer": "B) 0",
+    "explanation": "7 = 0111, 8 = 1000. AND: 0111 & 1000 = 0000 = 0."
+  },
+  {
+    "id": 37,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 10 << 1 in C?",
+    "options": ["A) 5", "B) 20", "C) 40", "D) 10"],
+    "correct_answer": "B) 20",
+    "explanation": "10 << 1 = 10 * 2 = 20. Binary: 1010 becomes 10100."
+  },
+  {
+    "id": 38,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of ~1 in C?",
+    "options": ["A) 0", "B) -1", "C) -2", "D) 1"],
+    "correct_answer": "C) -2",
+    "explanation": "~n = -(n+1) in two's complement. ~1 = -(1+1) = -2."
+  },
+  {
+    "id": 39,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 6 & 4 in C?",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 0"],
+    "correct_answer": "B) 4",
+    "explanation": "6 = 110, 4 = 100. AND: 110 & 100 = 100 = 4."
+  },
+  {
+    "id": 40,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the result of 6 | 4 in C?",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 10"],
+    "correct_answer": "C) 6",
+    "explanation": "6 = 110, 4 = 100. OR: 110 | 100 = 110 = 6."
+  },
+  {
+    "id": 41,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int x = 5; x = x & (x-1); printf(\"%d\", x);",
+    "options": ["A) 5", "B) 4", "C) 0", "D) 1"],
+    "correct_answer": "B) 4",
+    "explanation": "x=5=101, x-1=4=100. 101 & 100 = 100 = 4. This trick clears the lowest set bit."
+  },
+  {
+    "id": 42,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int a=3, b=5; a=a^b; b=a^b; a=a^b; printf(\"%d %d\", a, b);",
+    "options": ["A) 3 5", "B) 5 3", "C) 8 8", "D) 0 0"],
+    "correct_answer": "B) 5 3",
+    "explanation": "XOR swap: a becomes 3^5=6, b becomes 6^5=3, a becomes 6^3=5. Result: a=5, b=3."
+  },
+  {
+    "id": 43,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the result of (13 >> 1) & 1 in C?",
+    "options": ["A) 0", "B) 1", "C) 6", "D) 13"],
+    "correct_answer": "B) 1",
+    "explanation": "13 = 1101. 13 >> 1 = 0110 = 6. 6 & 1 = 0110 & 0001 = 0001 = 1 (checks bit 1 of 13)."
+  },
+  {
+    "id": 44,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: printf(\"%d\", (1 << 4) - 1);",
+    "options": ["A) 15", "B) 16", "C) 14", "D) 31"],
+    "correct_answer": "A) 15",
+    "explanation": "1 << 4 = 16. 16 - 1 = 15 = 1111 in binary. This is a common mask generation trick."
+  },
+  {
+    "id": 45,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the result of 0xFF & 0x0F in C?",
+    "options": ["A) 0xFF", "B) 0x0F", "C) 0xF0", "D) 0x00"],
+    "correct_answer": "B) 0x0F",
+    "explanation": "0xFF = 11111111, 0x0F = 00001111. AND: 11111111 & 00001111 = 00001111 = 0x0F = 15."
+  },
+  {
+    "id": 46,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int n=6; printf(\"%d\", n & (n-1));",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 0"],
+    "correct_answer": "A) 4",
+    "explanation": "6 = 110, 5 = 101. 110 & 101 = 100 = 4. n & (n-1) clears the lowest set bit."
+  },
+  {
+    "id": 47,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which expression sets the kth bit (0-indexed) of integer n?",
+    "options": ["A) n & (1 << k)", "B) n | (1 << k)", "C) n ^ (1 << k)", "D) n >> k"],
+    "correct_answer": "B) n | (1 << k)",
+    "explanation": "To set bit k, OR n with a mask that has only bit k set: n | (1 << k)."
+  },
+  {
+    "id": 48,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which expression clears the kth bit (0-indexed) of integer n?",
+    "options": ["A) n & ~(1 << k)", "B) n | (1 << k)", "C) n ^ (1 << k)", "D) n & (1 << k)"],
+    "correct_answer": "A) n & ~(1 << k)",
+    "explanation": "To clear bit k, AND n with a mask that has all bits set except bit k: n & ~(1 << k)."
+  },
+  {
+    "id": 49,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which expression toggles the kth bit (0-indexed) of integer n?",
+    "options": ["A) n & (1 << k)", "B) n | (1 << k)", "C) n ^ (1 << k)", "D) n ~ (1 << k)"],
+    "correct_answer": "C) n ^ (1 << k)",
+    "explanation": "XOR with a mask that has only bit k set toggles that bit: n ^ (1 << k)."
+  },
+  {
+    "id": 50,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int x=12; printf(\"%d\", x | (1<<1));",
+    "options": ["A) 12", "B) 14", "C) 10", "D) 13"],
+    "correct_answer": "B) 14",
+    "explanation": "12 = 1100. 1<<1 = 0010. 1100 | 0010 = 1110 = 14. Sets bit 1 of 12."
+  },
+  {
+    "id": 51,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int x=15; printf(\"%d\", x & ~(1<<2));",
+    "options": ["A) 11", "B) 15", "C) 4", "D) 19"],
+    "correct_answer": "A) 11",
+    "explanation": "15 = 1111. 1<<2 = 0100. ~(0100) = 1011. 1111 & 1011 = 1011 = 11. Clears bit 2."
+  },
+  {
+    "id": 52,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of: int x=10; printf(\"%d\", x ^ (1<<1));",
+    "options": ["A) 8", "B) 12", "C) 10", "D) 11"],
+    "correct_answer": "A) 8",
+    "explanation": "10 = 1010. 1<<1 = 0010. 1010 ^ 0010 = 1000 = 8. Toggles bit 1 of 10."
+  },
+  {
+    "id": 53,
+    "topic": "Bitwise Operators in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "How do you check if the

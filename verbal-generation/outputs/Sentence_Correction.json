@@ -1,0 +1,677 @@
+[
+  {
+    "id": 1,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correct version of the sentence: 'She don't know the answer to the question.'",
+    "options": [
+      "A) She doesn't know the answer to the question.",
+      "B) She didn't knew the answer to the question.",
+      "C) She not know the answer to the question.",
+      "D) She doesn't knew the answer to the question."
+    ],
+    "correct_answer": "A) She doesn't know the answer to the question.",
+    "explanation": "With third-person singular subjects (she/he/it), we use 'doesn't' + base verb. 'Don't' is used with I/you/we/they. So 'doesn't know' is correct."
+  },
+  {
+    "id": 2,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the grammatically correct sentence: 'He go to school every day.'",
+    "options": [
+      "A) He goes to school every day.",
+      "B) He going to school every day.",
+      "C) He gone to school every day.",
+      "D) He goed to school every day."
+    ],
+    "correct_answer": "A) He goes to school every day.",
+    "explanation": "In simple present tense, third-person singular subjects require the verb to take an '-s' or '-es' ending. 'He goes' is the correct form."
+  },
+  {
+    "id": 3,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the correct sentence: 'The team are playing well today.'",
+    "options": [
+      "A) The team is playing well today.",
+      "B) The team were playing well today.",
+      "C) The team have playing well today.",
+      "D) The team be playing well today."
+    ],
+    "correct_answer": "A) The team is playing well today.",
+    "explanation": "Collective nouns like 'team' are treated as singular in American English and take singular verbs. 'The team is' is correct."
+  },
+  {
+    "id": 4,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error and correct: 'I have went to the market yesterday.'",
+    "options": [
+      "A) I went to the market yesterday.",
+      "B) I have go to the market yesterday.",
+      "C) I had went to the market yesterday.",
+      "D) I was went to the market yesterday."
+    ],
+    "correct_answer": "A) I went to the market yesterday.",
+    "explanation": "With a specific past time reference like 'yesterday', simple past tense is used. 'I went' is correct; present perfect cannot be used with definite past time expressions."
+  },
+  {
+    "id": 5,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence: 'Neither of the students have submitted their assignment.'",
+    "options": [
+      "A) Neither of the students has submitted his assignment.",
+      "B) Neither of the students have submitted his assignment.",
+      "C) Neither of the students has submitted their assignment.",
+      "D) Neither of the students had submitted their assignment."
+    ],
+    "correct_answer": "A) Neither of the students has submitted his assignment.",
+    "explanation": "'Neither' is singular and takes a singular verb 'has'. The pronoun should also be singular 'his/her'. Option A is the most grammatically precise."
+  },
+  {
+    "id": 6,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'She is more smarter than her brother.'",
+    "options": [
+      "A) She is smarter than her brother.",
+      "B) She is more smart than her brother.",
+      "C) She is most smarter than her brother.",
+      "D) She is smartest than her brother."
+    ],
+    "correct_answer": "A) She is smarter than her brother.",
+    "explanation": "Double comparatives are incorrect. 'Smarter' is already the comparative form of 'smart', so 'more' should not be added. 'She is smarter' is correct."
+  },
+  {
+    "id": 7,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correct sentence: 'The news are very shocking.'",
+    "options": [
+      "A) The news is very shocking.",
+      "B) The news were very shocking.",
+      "C) The news have been very shocking.",
+      "D) The news are shocking very much."
+    ],
+    "correct_answer": "A) The news is very shocking.",
+    "explanation": "'News' is an uncountable noun and always takes a singular verb. 'The news is' is the correct form."
+  },
+  {
+    "id": 8,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the correct version: 'He has been working here since three years.'",
+    "options": [
+      "A) He has been working here for three years.",
+      "B) He has been working here since three years ago.",
+      "C) He had been working here since three years.",
+      "D) He was working here for three years."
+    ],
+    "correct_answer": "A) He has been working here for three years.",
+    "explanation": "'Since' is used with a point in time (since 2020), while 'for' is used with a duration (for three years). The correct preposition here is 'for'."
+  },
+  {
+    "id": 9,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the grammatically correct option: 'Each of the boys were given a prize.'",
+    "options": [
+      "A) Each of the boys was given a prize.",
+      "B) Each of the boys have been given a prize.",
+      "C) Each of the boys are given a prize.",
+      "D) Each of the boys were giving a prize."
+    ],
+    "correct_answer": "A) Each of the boys was given a prize.",
+    "explanation": "'Each' is always singular and takes a singular verb. 'Each of the boys was' is the correct form."
+  },
+  {
+    "id": 10,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the error: 'She laid down on the bed and slept.'",
+    "options": [
+      "A) She lay down on the bed and slept.",
+      "B) She lied down on the bed and slept.",
+      "C) She lain down on the bed and slept.",
+      "D) She laying down on the bed and slept."
+    ],
+    "correct_answer": "A) She lay down on the bed and slept.",
+    "explanation": "The past tense of 'lie' (to recline) is 'lay'. 'Laid' is the past tense of 'lay' (to place something). So 'she lay down' is correct."
+  },
+  {
+    "id": 11,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'The furniture's are very expensive.'",
+    "options": [
+      "A) The furniture is very expensive.",
+      "B) The furnitures are very expensive.",
+      "C) The furniture are very expensive.",
+      "D) The furnitures is very expensive."
+    ],
+    "correct_answer": "A) The furniture is very expensive.",
+    "explanation": "'Furniture' is an uncountable noun; it has no plural form and takes a singular verb. 'The furniture is' is correct."
+  },
+  {
+    "id": 12,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correct sentence: 'He is one of the student who has passed.'",
+    "options": [
+      "A) He is one of the students who have passed.",
+      "B) He is one of the students who has passed.",
+      "C) He is one of the student who have passed.",
+      "D) He is one of the students who had passed."
+    ],
+    "correct_answer": "A) He is one of the students who have passed.",
+    "explanation": "In 'one of the students who...', the relative clause refers to 'students' (plural), so the verb should be 'have'. 'One of the students who have passed' is correct."
+  },
+  {
+    "id": 13,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the correct version: 'I am knowing the answer.'",
+    "options": [
+      "A) I know the answer.",
+      "B) I am known the answer.",
+      "C) I have been knowing the answer.",
+      "D) I was knowing the answer."
+    ],
+    "correct_answer": "A) I know the answer.",
+    "explanation": "'Know' is a stative verb and cannot be used in continuous tenses. Simple present 'I know' is the correct form."
+  },
+  {
+    "id": 14,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence: 'He told me that he will come tomorrow.'",
+    "options": [
+      "A) He told me that he would come the next day.",
+      "B) He told me that he will come the next day.",
+      "C) He told me that he shall come tomorrow.",
+      "D) He told me that he comes tomorrow."
+    ],
+    "correct_answer": "A) He told me that he would come the next day.",
+    "explanation": "In reported speech, 'will' changes to 'would' and 'tomorrow' changes to 'the next day' when the reporting verb is in past tense."
+  },
+  {
+    "id": 15,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'Between you and I, this is a secret.'",
+    "options": [
+      "A) Between you and me, this is a secret.",
+      "B) Between you and myself, this is a secret.",
+      "C) Among you and me, this is a secret.",
+      "D) Between you and I, this is a secret."
+    ],
+    "correct_answer": "A) Between you and me, this is a secret.",
+    "explanation": "Prepositions like 'between' are followed by object pronouns. 'Me' is the object form of 'I', so 'between you and me' is correct."
+  },
+  {
+    "id": 16,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the correct sentence: 'The police has arrested the thief.'",
+    "options": [
+      "A) The police have arrested the thief.",
+      "B) The police has been arrested the thief.",
+      "C) The police is arresting the thief yesterday.",
+      "D) The police were arresting the thief."
+    ],
+    "correct_answer": "A) The police have arrested the thief.",
+    "explanation": "'Police' is a plural noun and always takes a plural verb. 'The police have' is the correct form."
+  },
+  {
+    "id": 17,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correct version: 'She is elder than her sister.'",
+    "options": [
+      "A) She is older than her sister.",
+      "B) She is eldest than her sister.",
+      "C) She is more elder than her sister.",
+      "D) She is the elder than her sister."
+    ],
+    "correct_answer": "A) She is older than her sister.",
+    "explanation": "'Elder' is not used with 'than' in comparisons. 'Older than' is the correct comparative form when comparing ages."
+  },
+  {
+    "id": 18,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'He could not help but to laugh.'",
+    "options": [
+      "A) He could not help laughing.",
+      "B) He could not help but laughing.",
+      "C) He could not help to laugh.",
+      "D) He could not help but laugh at."
+    ],
+    "correct_answer": "A) He could not help laughing.",
+    "explanation": "The idiom 'cannot help' is followed by a gerund (-ing form). 'He could not help laughing' is the correct structure."
+  },
+  {
+    "id": 19,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error: 'The scissors is on the table.'",
+    "options": [
+      "A) The scissors are on the table.",
+      "B) The scissor is on the table.",
+      "C) The scissors was on the table.",
+      "D) The scissors has been on the table."
+    ],
+    "correct_answer": "A) The scissors are on the table.",
+    "explanation": "'Scissors' is a plural noun (always used in plural form) and takes a plural verb. 'The scissors are' is correct."
+  },
+  {
+    "id": 20,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence: 'I have seen him yesterday.'",
+    "options": [
+      "A) I saw him yesterday.",
+      "B) I have saw him yesterday.",
+      "C) I had seen him yesterday.",
+      "D) I was seeing him yesterday."
+    ],
+    "correct_answer": "A) I saw him yesterday.",
+    "explanation": "Present perfect cannot be used with specific past time expressions like 'yesterday'. Simple past 'I saw' is correct."
+  },
+  {
+    "id": 21,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'She is more prettier than her friend.'",
+    "options": [
+      "A) She is prettier than her friend.",
+      "B) She is more pretty than her friend.",
+      "C) She is prettiest than her friend.",
+      "D) She is most prettier than her friend."
+    ],
+    "correct_answer": "A) She is prettier than her friend.",
+    "explanation": "Double comparatives are incorrect. 'Prettier' is already the comparative form of 'pretty', so 'more' should not be added."
+  },
+  {
+    "id": 22,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the correct sentence: 'He is working in this company since 2018.'",
+    "options": [
+      "A) He has been working in this company since 2018.",
+      "B) He is working in this company for 2018.",
+      "C) He was working in this company since 2018.",
+      "D) He had been working in this company since 2018."
+    ],
+    "correct_answer": "A) He has been working in this company since 2018.",
+    "explanation": "For an action that started in the past and continues to the present, present perfect continuous is used with 'since' + point in time."
+  },
+  {
+    "id": 23,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correct version: 'The boy as well as his friends are going.'",
+    "options": [
+      "A) The boy as well as his friends is going.",
+      "B) The boy as well as his friends were going.",
+      "C) The boy as well as his friends have gone.",
+      "D) The boy as well as his friends are going."
+    ],
+    "correct_answer": "A) The boy as well as his friends is going.",
+    "explanation": "When 'as well as' connects two subjects, the verb agrees with the first subject. 'The boy' is singular, so 'is going' is correct."
+  },
+  {
+    "id": 24,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'I prefer tea over coffee.'",
+    "options": [
+      "A) I prefer tea to coffee.",
+      "B) I prefer tea than coffee.",
+      "C) I prefer tea above coffee.",
+      "D) I prefer tea from coffee."
+    ],
+    "correct_answer": "A) I prefer tea to coffee.",
+    "explanation": "The verb 'prefer' is followed by 'to', not 'over', 'than', or 'above'. 'I prefer tea to coffee' is the correct structure."
+  },
+  {
+    "id": 25,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the correct sentence: 'He is too weak that he cannot walk.'",
+    "options": [
+      "A) He is too weak to walk.",
+      "B) He is so weak that he cannot walk.",
+      "C) He is very weak that he cannot walk.",
+      "D) Both A and B are correct."
+    ],
+    "correct_answer": "D) Both A and B are correct.",
+    "explanation": "'Too...to' and 'so...that' are both correct structures. 'Too weak to walk' and 'so weak that he cannot walk' are both grammatically correct."
+  },
+  {
+    "id": 26,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence: 'Neither Ram nor his brothers was present.'",
+    "options": [
+      "A) Neither Ram nor his brothers were present.",
+      "B) Neither Ram nor his brothers has been present.",
+      "C) Neither Ram nor his brothers is present.",
+      "D) Neither Ram nor his brothers are been present."
+    ],
+    "correct_answer": "A) Neither Ram nor his brothers were present.",
+    "explanation": "With 'neither...nor', the verb agrees with the subject closest to it. 'Brothers' is plural, so 'were' is correct."
+  },
+  {
+    "id": 27,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the error: 'He has a lot of informations about the topic.'",
+    "options": [
+      "A) He has a lot of information about the topic.",
+      "B) He has a lot of informations on the topic.",
+      "C) He has many informations about the topic.",
+      "D) He has much informations about the topic."
+    ],
+    "correct_answer": "A) He has a lot of information about the topic.",
+    "explanation": "'Information' is an uncountable noun and has no plural form. 'A lot of information' is the correct usage."
+  },
+  {
+    "id": 28,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correct version: 'She suggested me to take rest.'",
+    "options": [
+      "A) She suggested that I should take rest.",
+      "B) She suggested me taking rest.",
+      "C) She suggested to me to take rest.",
+      "D) She suggested me for taking rest."
+    ],
+    "correct_answer": "A) She suggested that I should take rest.",
+    "explanation": "'Suggest' cannot be followed by an object + infinitive. The correct structure is 'suggest + that clause' or 'suggest + gerund'."
+  },
+  {
+    "id": 29,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'The number of students are increasing.'",
+    "options": [
+      "A) The number of students is increasing.",
+      "B) The number of students were increasing.",
+      "C) A number of students is increasing.",
+      "D) The number of students have increased."
+    ],
+    "correct_answer": "A) The number of students is increasing.",
+    "explanation": "'The number of' takes a singular verb, while 'a number of' takes a plural verb. 'The number of students is' is correct."
+  },
+  {
+    "id": 30,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the correct sentence: 'He is good in mathematics.'",
+    "options": [
+      "A) He is good at mathematics.",
+      "B) He is good with mathematics.",
+      "C) He is good for mathematics.",
+      "D) He is good on mathematics."
+    ],
+    "correct_answer": "A) He is good at mathematics.",
+    "explanation": "The correct preposition after 'good' when referring to a skill or subject is 'at'. 'Good at mathematics' is the correct phrase."
+  },
+  {
+    "id": 31,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence: 'She has many luggages with her.'",
+    "options": [
+      "A) She has a lot of luggage with her.",
+      "B) She has many luggage with her.",
+      "C) She has much luggages with her.",
+      "D) She has several luggages with her."
+    ],
+    "correct_answer": "A) She has a lot of luggage with her.",
+    "explanation": "'Luggage' is an uncountable noun and cannot be pluralized. 'A lot of luggage' is the correct expression."
+  },
+  {
+    "id": 32,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the correct sentence: 'He is married with a doctor.'",
+    "options": [
+      "A) He is married to a doctor.",
+      "B) He is married with doctor.",
+      "C) He is married by a doctor.",
+      "D) He is married for a doctor."
+    ],
+    "correct_answer": "A) He is married to a doctor.",
+    "explanation": "The correct preposition after 'married' is 'to'. 'Married to' is the standard English expression."
+  },
+  {
+    "id": 33,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'I am having a headache.'",
+    "options": [
+      "A) I have a headache.",
+      "B) I am having headache.",
+      "C) I have been having a headache.",
+      "D) I had been having a headache."
+    ],
+    "correct_answer": "A) I have a headache.",
+    "explanation": "'Have' when used to express possession or a state (like having a headache) is a stative verb and cannot be used in continuous form."
+  },
+  {
+    "id": 34,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correct version: 'The teacher, along with students, are going on a trip.'",
+    "options": [
+      "A) The teacher, along with students, is going on a trip.",
+      "B) The teacher, along with students, were going on a trip.",
+      "C) The teacher, along with students, have gone on a trip.",
+      "D) The teacher, along with students, are going on a trip."
+    ],
+    "correct_answer": "A) The teacher, along with students, is going on a trip.",
+    "explanation": "When 'along with' connects two subjects, the verb agrees with the first subject. 'The teacher' is singular, so 'is going' is correct."
+  },
+  {
+    "id": 35,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the error: 'She is looking forward to meet you.'",
+    "options": [
+      "A) She is looking forward to meeting you.",
+      "B) She is looking forward to met you.",
+      "C) She is looking forward for meeting you.",
+      "D) She is looking forward to have met you."
+    ],
+    "correct_answer": "A) She is looking forward to meeting you.",
+    "explanation": "In 'look forward to', the 'to' is a preposition, not part of an infinitive. It must be followed by a gerund (-ing form)."
+  },
+  {
+    "id": 36,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Choose the correct sentence: 'He denied to have stolen the money.'",
+    "options": [
+      "A) He denied having stolen the money.",
+      "B) He denied to steal the money.",
+      "C) He denied for stealing the money.",
+      "D) He denied that he stole the money."
+    ],
+    "correct_answer": "A) He denied having stolen the money.",
+    "explanation": "'Deny' is followed by a gerund, not an infinitive. 'Denied having stolen' is the correct structure."
+  },
+  {
+    "id": 37,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Identify the correct sentence: 'He is used to work late at night.'",
+    "options": [
+      "A) He is used to working late at night.",
+      "B) He is used to worked late at night.",
+      "C) He used to working late at night.",
+      "D) He is use to work late at night."
+    ],
+    "correct_answer": "A) He is used to working late at night.",
+    "explanation": "'Be used to' means 'be accustomed to' and is followed by a gerund. 'Is used to working' is correct."
+  },
+  {
+    "id": 38,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Correct the sentence: 'She has less friends than I expected.'",
+    "options": [
+      "A) She has fewer friends than I expected.",
+      "B) She has lesser friends than I expected.",
+      "C) She has less friend than I expected.",
+      "D) She has fewest friends than I expected."
+    ],
+    "correct_answer": "A) She has fewer friends than I expected.",
+    "explanation": "'Fewer' is used with countable nouns (friends), while 'less' is used with uncountable nouns. 'Fewer friends' is correct."
+  },
+  {
+    "id": 39,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Select the correct version: 'He is the most tallest player in the team.'",
+    "options": [
+      "A) He is the tallest player in the team.",
+      "B) He is the most tall player in the team.",
+      "C) He is the more tallest player in the team.",
+      "D) He is the taller player in the team."
+    ],
+    "correct_answer": "A) He is the tallest player in the team.",
+    "explanation": "Double superlatives are incorrect. 'Tallest' is already the superlative form of 'tall', so 'most' should not be added."
+  },
+  {
+    "id": 40,
+    "topic": "Sentence Correction",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the correct sentence: 'I am tired. I want to lay down.'",
+    "options": [
+      "A) I am tired. I want to lie down.",
+      "B) I am tired. I want to laid down.",
+      "C) I am tired. I want to lain down.",
+      "D) I am tired. I want to lying down."
+    ],
+    "correct_answer": "A) I am tired. I want to lie down.",
+    "explanation": "'Lie down' means to recline. The infinitive form is 'to lie'. 'Lay' means to place something, which is incorrect here."
+  },
+  {
+    "id": 41,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Choose the correct sentence: 'The committee have decided to postpone the meeting.'",
+    "options": [
+      "A) The committee has decided to postpone the meeting.",
+      "B) The committee had decided to postpone the meeting.",
+      "C) The committee have been decided to postpone the meeting.",
+      "D) The committee decides to postpone the meeting."
+    ],
+    "correct_answer": "A) The committee has decided to postpone the meeting.",
+    "explanation": "In formal/American English, collective nouns like 'committee' take singular verbs. 'The committee has decided' is correct."
+  },
+  {
+    "id": 42,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Identify the error: 'No sooner did he arrive than the meeting was started.'",
+    "options": [
+      "A) No sooner did he arrive than the meeting started.",
+      "B) No sooner had he arrived than the meeting started.",
+      "C) No sooner he arrived than the meeting started.",
+      "D) No sooner did he arrive when the meeting started."
+    ],
+    "correct_answer": "B) No sooner had he arrived than the meeting started.",
+    "explanation": "'No sooner...than' uses past perfect in the first clause. 'No sooner had he arrived than the meeting started' is the correct structure."
+  },
+  {
+    "id": 43,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Select the correct version: 'Scarcely had she left when he arrived.'",
+    "options": [
+      "A) Scarcely had she left when he arrived.",
+      "B) Scarcely she had left when he arrived.",
+      "C) Scarcely had she left than he arrived.",
+      "D) Scarcely did she leave when he arrived."
+    ],
+    "correct_answer": "A) Scarcely had she left when he arrived.",
+    "explanation": "'Scarcely...when' is the correct correlative conjunction pair. The sentence is already correct as given in option A."
+  },
+  {
+    "id": 44,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Correct the sentence: 'He is one of those men who believes in hard work.'",
+    "options": [
+      "A) He is one of those men who believe in hard work.",
+      "B) He is one of those men who has believed in hard work.",
+      "C) He is one of those men who is believing in hard work.",
+      "D) He is one of those men who believed in hard work."
+    ],
+    "correct_answer": "A) He is one of those men who believe in hard work.",
+    "explanation": "The relative clause 'who believe' refers to 'those men' (plural), so the verb must be plural 'believe'."
+  },
+  {
+    "id": 45,
+    "topic": "Sentence Correction",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Find the correct sentence: 'The data shows that crime rates are falling.'",
+    "options": [
+      "A) The data show that crime rates are falling.",
+      "B) The data is showing that crime rates are falling.",
+      "C) The data shows that crime rates are falling.",
+      "D) The data were showing that crime rates are falling."
+    ],
+    "correct_answer": "A) The data show that crime rates are falling.",
+    "explanation": "'Data' is the plural of 'datum' and traditionally takes a plural verb in formal writing. 'The data show' is grammatically correct."
+  }
+]

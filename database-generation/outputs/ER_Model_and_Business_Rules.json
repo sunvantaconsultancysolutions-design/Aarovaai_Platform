@@ -1,0 +1,500 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, which shape is used to represent an entity?",
+    "options": ["A) Diamond", "B) Rectangle", "C) Ellipse", "D) Triangle"],
+    "correct_answer": "B) Rectangle",
+    "explanation": "In ER diagrams, entities are represented by rectangles. Diamonds represent relationships, ellipses represent attributes, and lines connect components."
+  },
+  {
+    "id": 2,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which shape represents a relationship in an ER diagram?",
+    "options": ["A) Rectangle", "B) Ellipse", "C) Diamond", "D) Circle"],
+    "correct_answer": "C) Diamond",
+    "explanation": "Relationships between entities are represented by diamond shapes in ER diagrams. This is a fundamental notation rule in the ER model."
+  },
+  {
+    "id": 3,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'ER' stand for in ER Model?",
+    "options": ["A) Entity Relationship", "B) Entity Record", "C) Element Relation", "D) Entity Retrieval"],
+    "correct_answer": "A) Entity Relationship",
+    "explanation": "ER stands for Entity-Relationship. The ER model was introduced by Peter Chen in 1976 to represent data conceptually."
+  },
+  {
+    "id": 4,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An attribute that uniquely identifies each entity in an entity set is called a:",
+    "options": ["A) Foreign key", "B) Composite attribute", "C) Key attribute", "D) Derived attribute"],
+    "correct_answer": "C) Key attribute",
+    "explanation": "A key attribute uniquely identifies each entity in an entity set. It is underlined in ER diagrams to distinguish it from other attributes."
+  },
+  {
+    "id": 5,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a derived attribute?",
+    "options": ["A) Employee Name", "B) Employee Age (calculated from Date of Birth)", "C) Employee ID", "D) Employee Department"],
+    "correct_answer": "B) Employee Age (calculated from Date of Birth)",
+    "explanation": "A derived attribute is one whose value can be computed from other attributes. Age derived from Date of Birth is the classic example. It is shown with a dashed ellipse."
+  },
+  {
+    "id": 6,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, a multivalued attribute is represented by:",
+    "options": ["A) Single ellipse", "B) Dashed ellipse", "C) Double ellipse", "D) Rectangle"],
+    "correct_answer": "C) Double ellipse",
+    "explanation": "Multivalued attributes (e.g., phone numbers) are represented by double ellipses in ER diagrams. A single ellipse represents a simple attribute."
+  },
+  {
+    "id": 7,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A weak entity is one that:",
+    "options": ["A) Has no attributes", "B) Cannot exist without a related entity", "C) Has multiple primary keys", "D) Has no relationships"],
+    "correct_answer": "B) Cannot exist without a related entity",
+    "explanation": "A weak entity does not have a primary key of its own and depends on a strong (owner) entity for its existence. It is represented by a double rectangle."
+  },
+  {
+    "id": 8,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, what is the term for the number of entity instances that can participate in a relationship?",
+    "options": ["A) Degree", "B) Cardinality", "C) Participation", "D) Multiplicity"],
+    "correct_answer": "B) Cardinality",
+    "explanation": "Cardinality defines the number of entity instances that can participate in a relationship (e.g., one-to-one, one-to-many, many-to-many)."
+  },
+  {
+    "id": 9,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which cardinality ratio means one entity in set A is associated with at most one entity in set B?",
+    "options": ["A) One-to-Many", "B) Many-to-Many", "C) One-to-One", "D) Many-to-One"],
+    "correct_answer": "C) One-to-One",
+    "explanation": "In a one-to-one (1:1) relationship, each entity in set A is associated with at most one entity in set B and vice versa. Example: Person and Passport."
+  },
+  {
+    "id": 10,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A relationship between three entity types is called a:",
+    "options": ["A) Binary relationship", "B) Unary relationship", "C) Ternary relationship", "D) Quaternary relationship"],
+    "correct_answer": "C) Ternary relationship",
+    "explanation": "A ternary relationship involves three entity types. Binary involves two, unary involves one (recursive), and quaternary involves four entity types."
+  },
+  {
+    "id": 11,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Total participation of an entity set in a relationship means:",
+    "options": ["A) Some entities may not participate", "B) Every entity must participate in at least one relationship instance", "C) No entity participates", "D) Only key entities participate"],
+    "correct_answer": "B) Every entity must participate in at least one relationship instance",
+    "explanation": "Total participation (mandatory) means every entity in the set must be involved in at least one relationship instance. It is shown by a double line in ER diagrams."
+  },
+  {
+    "id": 12,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Partial participation in an ER diagram is represented by:",
+    "options": ["A) Double line", "B) Dashed line", "C) Single line", "D) Bold line"],
+    "correct_answer": "C) Single line",
+    "explanation": "Partial participation (optional) is represented by a single line connecting the entity to the relationship. Total participation uses a double line."
+  },
+  {
+    "id": 13,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a composite attribute?",
+    "options": ["A) An attribute with a single value", "B) An attribute that can be divided into smaller sub-attributes", "C) An attribute derived from other attributes", "D) An attribute with multiple values"],
+    "correct_answer": "B) An attribute that can be divided into smaller sub-attributes",
+    "explanation": "A composite attribute can be subdivided into smaller parts. For example, 'Full Name' can be divided into 'First Name' and 'Last Name'."
+  },
+  {
+    "id": 14,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER model, a weak entity set is represented by:",
+    "options": ["A) Single rectangle", "B) Double rectangle", "C) Dashed rectangle", "D) Diamond"],
+    "correct_answer": "B) Double rectangle",
+    "explanation": "Weak entities are represented by double rectangles in ER diagrams. Their identifying relationship is shown by a double diamond."
+  },
+  {
+    "id": 15,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The partial key of a weak entity is also known as:",
+    "options": ["A) Primary key", "B) Foreign key", "C) Discriminator", "D) Candidate key"],
+    "correct_answer": "C) Discriminator",
+    "explanation": "The partial key (discriminator) of a weak entity distinguishes weak entities related to the same owner entity. It is shown with a dashed underline in ER diagrams."
+  },
+  {
+    "id": 16,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a correct example of a one-to-many relationship?",
+    "options": ["A) Student and Passport", "B) Employee and Department (many employees in one department)", "C) Student and Course (many-to-many)", "D) Person and SSN"],
+    "correct_answer": "B) Employee and Department (many employees in one department)",
+    "explanation": "One department can have many employees, but each employee belongs to one department — this is a classic one-to-many (1:N) relationship."
+  },
+  {
+    "id": 17,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, the degree of a relationship refers to:",
+    "options": ["A) Number of attributes in the relationship", "B) Number of entity sets participating in the relationship", "C) Number of instances in the relationship", "D) Number of keys in the entity"],
+    "correct_answer": "B) Number of entity sets participating in the relationship",
+    "explanation": "The degree of a relationship is the number of entity sets involved. Unary = 1, Binary = 2, Ternary = 3, etc."
+  },
+  {
+    "id": 18,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A recursive relationship in ER modeling is also called:",
+    "options": ["A) Binary relationship", "B) Unary relationship", "C) Ternary relationship", "D) Composite relationship"],
+    "correct_answer": "B) Unary relationship",
+    "explanation": "A unary (recursive) relationship is one where an entity is related to itself. Example: An employee who manages other employees."
+  },
+  {
+    "id": 19,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of attribute in ER modeling?",
+    "options": ["A) Simple attribute", "B) Composite attribute", "C) Derived attribute", "D) Relational attribute"],
+    "correct_answer": "D) Relational attribute",
+    "explanation": "ER model attributes include simple, composite, multivalued, derived, and key attributes. 'Relational attribute' is not a standard ER model attribute type."
+  },
+  {
+    "id": 20,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER diagrams, attributes are represented by:",
+    "options": ["A) Rectangles", "B) Diamonds", "C) Ellipses", "D) Triangles"],
+    "correct_answer": "C) Ellipses",
+    "explanation": "Attributes in ER diagrams are represented by ellipses (ovals). Rectangles = entities, Diamonds = relationships, Lines = connections."
+  },
+  {
+    "id": 21,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a many-to-many relationship?",
+    "options": ["A) Person and Passport", "B) Employee and Department", "C) Student and Course", "D) Employee and Manager"],
+    "correct_answer": "C) Student and Course",
+    "explanation": "A student can enroll in many courses, and a course can have many students — this is a many-to-many (M:N) relationship."
+  },
+  {
+    "id": 22,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an entity in the context of ER modeling?",
+    "options": ["A) A relationship between tables", "B) A real-world object or concept that can be distinctly identified", "C) A column in a database table", "D) A constraint on data"],
+    "correct_answer": "B) A real-world object or concept that can be distinctly identified",
+    "explanation": "An entity is a real-world object or concept (e.g., Student, Employee, Product) that can be distinctly identified and has attributes describing it."
+  },
+  {
+    "id": 23,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The ER model was originally proposed by:",
+    "options": ["A) E.F. Codd", "B) Peter Chen", "C) Edgar Dijkstra", "D) James Martin"],
+    "correct_answer": "B) Peter Chen",
+    "explanation": "The Entity-Relationship model was proposed by Peter Pin-Shan Chen in 1976 in his landmark paper on the ER model."
+  },
+  {
+    "id": 24,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes a business rule in database design?",
+    "options": ["A) A SQL query that retrieves data", "B) A statement that defines or constrains some aspect of the business", "C) A physical storage constraint", "D) A network protocol for data transfer"],
+    "correct_answer": "B) A statement that defines or constrains some aspect of the business",
+    "explanation": "Business rules are statements that define or constrain aspects of the business. They are used to derive ER model constraints like cardinality and participation."
+  },
+  {
+    "id": 25,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, an entity set is:",
+    "options": ["A) A single entity instance", "B) A collection of similar entities", "C) A relationship between entities", "D) An attribute of an entity"],
+    "correct_answer": "B) A collection of similar entities",
+    "explanation": "An entity set is a collection of entities of the same type that share the same properties. For example, all employees form the EMPLOYEE entity set."
+  },
+
+  {
+    "id": 26,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which notation uses 'crow's foot' symbols to represent cardinality?",
+    "options": ["A) Chen notation", "B) UML notation", "C) Crow's Foot notation", "D) IDEF1X notation"],
+    "correct_answer": "C) Crow's Foot notation",
+    "explanation": "Crow's Foot notation uses symbols resembling a crow's foot to indicate 'many' and a single line for 'one' in cardinality representation."
+  },
+  {
+    "id": 27,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A key attribute in an ER diagram is shown with:",
+    "options": ["A) Dashed underline", "B) Bold text", "C) Solid underline", "D) Double ellipse"],
+    "correct_answer": "C) Solid underline",
+    "explanation": "Key attributes are underlined with a solid line in ER diagrams. Partial keys (discriminators) of weak entities use a dashed underline."
+  },
+  {
+    "id": 28,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a one-to-one relationship?",
+    "options": ["A) Student and Course", "B) Employee and Department", "C) Person and Passport", "D) Author and Book"],
+    "correct_answer": "C) Person and Passport",
+    "explanation": "Each person has exactly one passport and each passport belongs to exactly one person — a classic one-to-one (1:1) relationship."
+  },
+  {
+    "id": 29,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, 'participation constraint' is also known as:",
+    "options": ["A) Cardinality constraint", "B) Existence dependency", "C) Referential integrity", "D) Domain constraint"],
+    "correct_answer": "B) Existence dependency",
+    "explanation": "Participation constraint (total or partial) is also called existence dependency. Total participation means an entity cannot exist without participating in the relationship."
+  },
+  {
+    "id": 30,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a component of an ER diagram?",
+    "options": ["A) Entity", "B) Attribute", "C) Relationship", "D) Index"],
+    "correct_answer": "D) Index",
+    "explanation": "The three main components of an ER diagram are entities, attributes, and relationships. Indexes are a physical database implementation concept, not part of ER modeling."
+  },
+  {
+    "id": 31,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A relationship set is:",
+    "options": ["A) A set of attributes", "B) A collection of similar relationship instances", "C) A set of entity types", "D) A set of primary keys"],
+    "correct_answer": "B) A collection of similar relationship instances",
+    "explanation": "A relationship set is a collection of relationships of the same type. Just as entity sets group similar entities, relationship sets group similar relationship instances."
+  },
+  {
+    "id": 32,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, what does 'min-max notation' represent?",
+    "options": ["A) Minimum and maximum number of attributes", "B) Minimum and maximum number of relationship instances an entity can participate in", "C) Minimum and maximum data values", "D) Minimum and maximum table size"],
+    "correct_answer": "B) Minimum and maximum number of relationship instances an entity can participate in",
+    "explanation": "Min-max notation (min, max) specifies the minimum and maximum number of relationship instances an entity can participate in, providing more precise cardinality information."
+  },
+  {
+    "id": 33,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following business rules translates to a mandatory participation constraint?",
+    "options": ["A) An employee may manage a department", "B) Every employee must belong to a department", "C) A student can optionally enroll in a course", "D) A product may have a supplier"],
+    "correct_answer": "B) Every employee must belong to a department",
+    "explanation": "The word 'must' in a business rule indicates mandatory (total) participation. 'May' or 'can' indicates optional (partial) participation."
+  },
+  {
+    "id": 34,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An ER diagram is primarily used for:",
+    "options": ["A) Physical database design", "B) Conceptual database design", "C) Query optimization", "D) Network design"],
+    "correct_answer": "B) Conceptual database design",
+    "explanation": "ER diagrams are used in the conceptual design phase of database development to model the data requirements before physical implementation."
+  },
+  {
+    "id": 35,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a strong entity?",
+    "options": ["A) It has no primary key", "B) It depends on another entity for existence", "C) It has its own primary key", "D) It is represented by a double rectangle"],
+    "correct_answer": "C) It has its own primary key",
+    "explanation": "A strong entity has its own primary key and can exist independently. It is represented by a single rectangle, unlike weak entities which use double rectangles."
+  },
+  {
+    "id": 36,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, 'Address' with sub-components like Street, City, and Zip is an example of:",
+    "options": ["A) Simple attribute", "B) Multivalued attribute", "C) Composite attribute", "D) Derived attribute"],
+    "correct_answer": "C) Composite attribute",
+    "explanation": "Address is a composite attribute because it can be broken down into sub-components: Street, City, State, and Zip Code."
+  },
+  {
+    "id": 37,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a multivalued attribute?",
+    "options": ["A) Employee ID", "B) Employee Name", "C) Employee Phone Numbers", "D) Employee Date of Birth"],
+    "correct_answer": "C) Employee Phone Numbers",
+    "explanation": "An employee can have multiple phone numbers, making it a multivalued attribute. It is represented by a double ellipse in ER diagrams."
+  },
+  {
+    "id": 38,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The identifying relationship of a weak entity is represented by:",
+    "options": ["A) Single diamond", "B) Double diamond", "C) Single rectangle", "D) Dashed ellipse"],
+    "correct_answer": "B) Double diamond",
+    "explanation": "The identifying relationship that connects a weak entity to its owner (strong) entity is represented by a double diamond in ER diagrams."
+  },
+  {
+    "id": 39,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly maps a many-to-many relationship in a relational database?",
+    "options": ["A) Add a foreign key to one of the tables", "B) Create a new junction/bridge table", "C) Merge both tables into one", "D) Add a primary key to both tables"],
+    "correct_answer": "B) Create a new junction/bridge table",
+    "explanation": "Many-to-many relationships are implemented using a junction (bridge/associative) table that contains foreign keys referencing both participating entities."
+  },
+  {
+    "id": 40,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, which of the following is a correct business rule for a 1:N relationship between Department and Employee?",
+    "options": ["A) One employee can belong to many departments", "B) One department can have many employees, but each employee belongs to exactly one department", "C) Many departments can have many employees", "D) One employee manages one department"],
+    "correct_answer": "B) One department can have many employees, but each employee belongs to exactly one department",
+    "explanation": "A 1:N relationship means one entity on the '1' side relates to many on the 'N' side. One department has many employees, but each employee has one department."
+  },
+
+  {
+    "id": 41,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A company has the following business rule: 'Each project must be supervised by exactly one employee, and each employee may supervise zero or more projects.' What is the correct cardinality and participation?",
+    "options": ["A) M:N, both total", "B) 1:N, total participation of Project, partial of Employee", "C) 1:1, both partial", "D) 1:N, partial participation of Project, total of Employee"],
+    "correct_answer": "B) 1:N, total participation of Project, partial of Employee",
+    "explanation": "Each project MUST have a supervisor (total participation of Project). Each employee MAY supervise projects (partial participation of Employee). One employee supervises many projects = 1:N."
+  },
+  {
+    "id": 42,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In an Enhanced ER (EER) model, which concept allows an entity type to be a subtype of multiple supertypes?",
+    "options": ["A) Specialization", "B) Generalization", "C) Multiple inheritance", "D) Aggregation"],
+    "correct_answer": "C) Multiple inheritance",
+    "explanation": "In EER models, multiple inheritance allows a subtype to inherit attributes from more than one supertype. This is more complex than single inheritance."
+  },
+  {
+    "id": 43,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes 'aggregation' in ER modeling?",
+    "options": ["A) Breaking an entity into sub-entities", "B) Treating a relationship as a higher-level entity", "C) Combining multiple attributes into one", "D) Removing redundant relationships"],
+    "correct_answer": "B) Treating a relationship as a higher-level entity",
+    "explanation": "Aggregation is an abstraction where a relationship set is treated as a higher-level entity set, allowing relationships to participate in other relationships."
+  },
+  {
+    "id": 44,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Given the business rule: 'A loan can be taken by one or more customers, and a customer can take one or more loans.' How should this be modeled?",
+    "options": ["A) 1:1 relationship", "B) 1:N relationship", "C) M:N relationship", "D) Unary relationship"],
+    "correct_answer": "C) M:N relationship",
+    "explanation": "Since both customers and loans can have multiple associations with each other, this is a many-to-many (M:N) relationship requiring a junction table."
+  },
+  {
+    "id": 45,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In EER modeling, 'specialization' is defined as:",
+    "options": ["A) Combining multiple entity types into a generic supertype", "B) Defining subtypes of an entity type based on distinguishing characteristics", "C) Removing attributes from an entity", "D) Creating a new relationship between existing entities"],
+    "correct_answer": "B) Defining subtypes of an entity type based on distinguishing characteristics",
+    "explanation": "Specialization is a top-down process where a supertype is divided into subtypes based on distinguishing characteristics. It is the opposite of generalization."
+  },
+  {
+    "id": 46,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which constraint in EER modeling specifies that an entity can belong to at most one subtype?",
+    "options": ["A) Completeness constraint", "B) Disjointness constraint", "C) Overlap constraint", "D) Participation constraint"],
+    "correct_answer": "B) Disjointness constraint",
+    "explanation": "The disjointness constraint specifies that an entity can be a member of at most one subtype. The overlap constraint allows membership in multiple subtypes."
+  },
+  {
+    "id": 47,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A business rule states: 'Every employee is either a full-time or part-time employee, but not both.' This represents which EER constraint?",
+    "options": ["A) Partial specialization with overlap", "B) Total specialization with disjoint", "C) Partial specialization with disjoint", "D) Total specialization with overlap"],
+    "correct_answer": "B) Total specialization with disjoint",
+    "explanation": "Every employee MUST be classified (total specialization) and cannot be both full-time and part-time (disjoint). Total = every entity in supertype must be in a subtype."
+  },
+  {
+    "id": 48,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "When converting a ternary relationship to binary relationships, how many binary relationships are typically needed?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "correct_answer": "C) 3",
+    "explanation": "A ternary relationship involving entities A, B, C can be converted to 3 binary relationships: A-B, B-C, and A-C, though an associative entity may be needed to preserve semantics."
+  },
+  {
+    "id": 49,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In min-max notation, (1,N) on the Employee side of an Employee-Department relationship means:",
+    "options": ["A) An employee can belong to zero departments", "B) An employee must belong to at least one department and can belong to many", "C) An employee belongs to exactly one department", "D) An employee can belong to at most N departments"],
+    "correct_answer": "B) An employee must belong to at least one department and can belong to many",
+    "explanation": "Min-max notation (1,N) means minimum 1 and maximum N. So an employee must participate in at least 1 relationship instance and can participate in many."
+  },
+  {
+    "id": 50,
+    "topic": "ER Model and Business Rules",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to handle a many-to-many relationship when converting an ER diagram to

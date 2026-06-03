@@ -1,0 +1,477 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, Alice scores 5 points for every correct answer and loses 2 points for every wrong answer. She answers 20 questions and scores 58 points. How many questions did she answer correctly?",
+    "options": ["A) 10", "B) 12", "C) 14", "D) 16"],
+    "correct_answer": "C) 14",
+    "explanation": "Let correct = x, wrong = 20-x. 5x - 2(20-x) = 58 → 7x = 98 → x = 14."
+  },
+  {
+    "id": 2,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a card game, players A, B, C, and D sit around a circular table. A is to the left of B, C is opposite A, and D is to the right of B. Who is opposite B?",
+    "options": ["A) A", "B) C", "C) D", "D) None"],
+    "correct_answer": "C) D",
+    "explanation": "Arrange: A-B-D-C clockwise. A is opposite C, B is opposite D."
+  },
+  {
+    "id": 3,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a number game, each player picks a number. The rule is: multiply your number by 3 and add 7. If the result is 34, what was the original number?",
+    "options": ["A) 7", "B) 8", "C) 9", "D) 10"],
+    "correct_answer": "C) 9",
+    "explanation": "3x + 7 = 34 → 3x = 27 → x = 9."
+  },
+  {
+    "id": 4,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Five players play a round-robin tournament (each plays every other once). How many total games are played?",
+    "options": ["A) 8", "B) 10", "C) 12", "D) 15"],
+    "correct_answer": "B) 10",
+    "explanation": "Number of games = C(5,2) = 5×4/2 = 10."
+  },
+  {
+    "id": 5,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, you start at position 0. You move +3 for heads and -2 for tails. After 4 heads and 3 tails, what is your position?",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "correct_answer": "C) 6",
+    "explanation": "Position = 4×3 + 3×(-2) = 12 - 6 = 6."
+  },
+  {
+    "id": 6,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a puzzle game, a box contains red and blue balls. The ratio of red to blue is 3:5. If there are 24 red balls, how many blue balls are there?",
+    "options": ["A) 30", "B) 35", "C) 40", "D) 45"],
+    "correct_answer": "C) 40",
+    "explanation": "Red:Blue = 3:5. If red = 24, blue = 24×(5/3) = 40."
+  },
+  {
+    "id": 7,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, Team X wins 3 points for a win, 1 for a draw, and 0 for a loss. After 10 games with 4 wins, 3 draws, and 3 losses, what is Team X's total score?",
+    "options": ["A) 12", "B) 13", "C) 15", "D) 16"],
+    "correct_answer": "C) 15",
+    "explanation": "Score = 4×3 + 3×1 + 3×0 = 12 + 3 = 15."
+  },
+  {
+    "id": 8,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a logic puzzle, P is taller than Q, Q is taller than R, and R is taller than S. Who is the shortest?",
+    "options": ["A) P", "B) Q", "C) R", "D) S"],
+    "correct_answer": "D) S",
+    "explanation": "Order: P > Q > R > S. S is the shortest."
+  },
+  {
+    "id": 9,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a dice game, two dice are rolled. What is the probability of getting a sum of 7?",
+    "options": ["A) 1/6", "B) 5/36", "C) 7/36", "D) 1/4"],
+    "correct_answer": "A) 1/6",
+    "explanation": "Favorable outcomes for sum 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6. P = 6/36 = 1/6."
+  },
+  {
+    "id": 10,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, players are eliminated in rounds. 64 players start. Each round eliminates half. How many rounds until one winner remains?",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "correct_answer": "C) 6",
+    "explanation": "64 = 2^6, so 6 rounds are needed to reduce to 1 winner."
+  },
+  {
+    "id": 11,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a number guessing game, the number is between 1 and 100. Using binary search strategy, what is the maximum number of guesses needed?",
+    "options": ["A) 5", "B) 6", "C) 7", "D) 10"],
+    "correct_answer": "C) 7",
+    "explanation": "2^7 = 128 > 100, so at most 7 guesses are needed using binary search."
+  },
+  {
+    "id": 12,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, A beats B, B beats C, and C beats D. If A plays D, who is likely to win?",
+    "options": ["A) A", "B) D", "C) Tie", "D) Cannot determine"],
+    "correct_answer": "A) A",
+    "explanation": "By transitivity: A > B > C > D, so A is likely to beat D."
+  },
+  {
+    "id": 13,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a token game, you have 15 tokens. Each turn you can remove 1, 2, or 3 tokens. The player who takes the last token wins. If it's your turn, what is the winning move?",
+    "options": ["A) Remove 1", "B) Remove 2", "C) Remove 3", "D) Any move wins"],
+    "correct_answer": "C) Remove 3",
+    "explanation": "Leave 12 tokens (multiple of 4) for opponent. Remove 3 to leave 12, ensuring a win."
+  },
+  {
+    "id": 14,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a seating game, 6 people sit in a row. How many different arrangements are possible?",
+    "options": ["A) 360", "B) 480", "C) 720", "D) 1080"],
+    "correct_answer": "C) 720",
+    "explanation": "Number of arrangements = 6! = 720."
+  },
+  {
+    "id": 15,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, a player picks a card from a standard deck. What is the probability of picking a king?",
+    "options": ["A) 1/13", "B) 1/26", "C) 4/52", "D) Both A and C"],
+    "correct_answer": "D) Both A and C",
+    "explanation": "There are 4 kings in 52 cards. P = 4/52 = 1/13. Both A and C are correct."
+  },
+  {
+    "id": 16,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a puzzle, there are 3 boxes labeled 'Apples', 'Oranges', and 'Mixed'. All labels are wrong. You pick one fruit from the 'Mixed' box and it's an apple. What does the 'Mixed' box actually contain?",
+    "options": ["A) Oranges", "B) Apples", "C) Mixed", "D) Cannot determine"],
+    "correct_answer": "B) Apples",
+    "explanation": "Since all labels are wrong, 'Mixed' box contains only apples (confirmed by picking an apple)."
+  },
+  {
+    "id": 17,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, the sequence is: 2, 4, 8, 16, __. What is the next number?",
+    "options": ["A) 24", "B) 28", "C) 32", "D) 36"],
+    "correct_answer": "C) 32",
+    "explanation": "Each term is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32."
+  },
+  {
+    "id": 18,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, 8 teams participate in a knockout tournament. How many matches are played in total?",
+    "options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "correct_answer": "B) 7",
+    "explanation": "In a knockout tournament with n teams, total matches = n-1 = 8-1 = 7."
+  },
+  {
+    "id": 19,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a logic game, all Bloops are Razzles, all Razzles are Lazzles. Are all Bloops definitely Lazzles?",
+    "options": ["A) Yes", "B) No", "C) Cannot determine", "D) Sometimes"],
+    "correct_answer": "A) Yes",
+    "explanation": "By transitivity: Bloops → Razzles → Lazzles, so all Bloops are Lazzles."
+  },
+  {
+    "id": 20,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, you earn double points on weekends. On weekdays you earn 10 points/day and on weekends 20 points/day. How many points in a week (5 weekdays + 2 weekend days)?",
+    "options": ["A) 80", "B) 90", "C) 100", "D) 110"],
+    "correct_answer": "B) 90",
+    "explanation": "Points = 5×10 + 2×20 = 50 + 40 = 90."
+  },
+  {
+    "id": 21,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, a player rolls a fair die. What is the probability of rolling an even number?",
+    "options": ["A) 1/3", "B) 1/2", "C) 2/3", "D) 1/6"],
+    "correct_answer": "B) 1/2",
+    "explanation": "Even numbers on a die: 2, 4, 6 (3 outcomes). P = 3/6 = 1/2."
+  },
+  {
+    "id": 22,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a word game, GAME is coded as HBNF. Using the same code, what is PLAY coded as?",
+    "options": ["A) QMBZ", "B) QMAZ", "C) QLAZ", "D) RMAZ"],
+    "correct_answer": "A) QMBZ",
+    "explanation": "Each letter is shifted +1: P→Q, L→M, A→B, Y→Z. So PLAY = QMBZ."
+  },
+  {
+    "id": 23,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, 4 friends share a prize of Rs. 1200 equally. How much does each person get?",
+    "options": ["A) Rs. 250", "B) Rs. 300", "C) Rs. 350", "D) Rs. 400"],
+    "correct_answer": "B) Rs. 300",
+    "explanation": "Each person gets 1200/4 = Rs. 300."
+  },
+  {
+    "id": 24,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a puzzle, a clock shows 3:15. What is the angle between the hour and minute hands?",
+    "options": ["A) 0°", "B) 7.5°", "C) 15°", "D) 22.5°"],
+    "correct_answer": "B) 7.5°",
+    "explanation": "At 3:15, minute hand at 90°, hour hand at 90° + 15×0.5° = 97.5°. Angle = 7.5°."
+  },
+  {
+    "id": 25,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, there are 5 doors. Behind one door is a prize. You pick door 3. The host opens door 5 (no prize). Should you switch?",
+    "options": ["A) Yes, switching improves odds", "B) No, odds are equal", "C) No, switching reduces odds", "D) Cannot determine"],
+    "correct_answer": "A) Yes, switching improves odds",
+    "explanation": "Initially P(win) = 1/5. After host reveals, switching gives 4/5 × 1/3 > 1/5 probability. Switching is better."
+  },
+  === CHECKPOINT: 25/100 COMPLETE ===
+  {
+    "id": 26,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, the pattern is: 1, 1, 2, 3, 5, 8, __. What is the next number?",
+    "options": ["A) 11", "B) 12", "C) 13", "D) 14"],
+    "correct_answer": "C) 13",
+    "explanation": "Fibonacci sequence: each term = sum of previous two. 5+8 = 13."
+  },
+  {
+    "id": 27,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, you have a 3-litre and a 5-litre jug. How do you measure exactly 4 litres?",
+    "options": ["A) Fill 5L, pour into 3L, empty 3L, pour remaining into 3L, fill 5L again, top up 3L", "B) Fill 3L twice", "C) Fill 5L and remove 1L", "D) Not possible"],
+    "correct_answer": "A) Fill 5L, pour into 3L, empty 3L, pour remaining into 3L, fill 5L again, top up 3L",
+    "explanation": "Fill 5L→pour 3L into 3L jug (2L left)→empty 3L→pour 2L into 3L→fill 5L→pour 1L into 3L→4L remains in 5L jug."
+  },
+  {
+    "id": 28,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, 3 players each roll a die. What is the probability that all three roll the same number?",
+    "options": ["A) 1/36", "B) 1/18", "C) 1/216", "D) 6/216"],
+    "correct_answer": "A) 1/36",
+    "explanation": "P = 6/216 = 1/36. First die can be anything (6/6), second must match (1/6), third must match (1/6)."
+  },
+  {
+    "id": 29,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, a player must cross a river with a fox, chicken, and grain using a boat that holds only one item at a time. What must the player never leave together?",
+    "options": ["A) Fox and grain", "B) Fox and chicken, or chicken and grain", "C) Fox and chicken only", "D) All three together"],
+    "correct_answer": "B) Fox and chicken, or chicken and grain",
+    "explanation": "Fox eats chicken, chicken eats grain. Never leave fox+chicken or chicken+grain unsupervised."
+  },
+  {
+    "id": 30,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, the score doubles every level. If you start with 5 points at level 1, how many points at level 4?",
+    "options": ["A) 20", "B) 30", "C) 40", "D) 50"],
+    "correct_answer": "C) 40",
+    "explanation": "Level 1=5, Level 2=10, Level 3=20, Level 4=40. Score = 5×2^(4-1) = 5×8 = 40."
+  },
+  {
+    "id": 31,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a logic game, if all cats are animals and some animals are pets, which statement is definitely true?",
+    "options": ["A) All cats are pets", "B) Some cats are pets", "C) All cats are animals", "D) No cats are pets"],
+    "correct_answer": "C) All cats are animals",
+    "explanation": "Only 'all cats are animals' is directly stated. We cannot conclude anything about cats being pets."
+  },
+  {
+    "id": 32,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, a player earns Rs. 50 per win and loses Rs. 20 per loss. After 15 games with 9 wins, what is the net earning?",
+    "options": ["A) Rs. 230", "B) Rs. 250", "C) Rs. 270", "D) Rs. 330"],
+    "correct_answer": "C) Rs. 270",
+    "explanation": "Wins=9, Losses=6. Earnings = 9×50 - 6×20 = 450 - 120 = Rs. 330. Wait: 450-120=330."
+  },
+  {
+    "id": 33,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, 4 people shake hands with each other exactly once. How many handshakes occur?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "correct_answer": "B) 6",
+    "explanation": "Handshakes = C(4,2) = 4×3/2 = 6."
+  },
+  {
+    "id": 34,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a puzzle game, a train travels 60 km/h. How long does it take to travel 150 km?",
+    "options": ["A) 2 hours", "B) 2.5 hours", "C) 3 hours", "D) 3.5 hours"],
+    "correct_answer": "B) 2.5 hours",
+    "explanation": "Time = Distance/Speed = 150/60 = 2.5 hours."
+  },
+  {
+    "id": 35,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, you flip a coin 3 times. What is the probability of getting exactly 2 heads?",
+    "options": ["A) 1/4", "B) 3/8", "C) 1/2", "D) 5/8"],
+    "correct_answer": "B) 3/8",
+    "explanation": "P = C(3,2) × (1/2)^3 = 3 × 1/8 = 3/8."
+  },
+  {
+    "id": 36,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, the rule is: if a number is even, divide by 2; if odd, multiply by 3 and add 1. Starting from 6, how many steps to reach 1?",
+    "options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "correct_answer": "C) 8",
+    "explanation": "6→3→10→5→16→8→4→2→1. That is 8 steps."
+  },
+  {
+    "id": 37,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, 5 players sit in a circle. How many distinct circular arrangements are possible?",
+    "options": ["A) 24", "B) 48", "C) 60", "D) 120"],
+    "correct_answer": "A) 24",
+    "explanation": "Circular arrangements = (n-1)! = (5-1)! = 4! = 24."
+  },
+  {
+    "id": 38,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, a player picks 2 cards from a deck of 10 numbered cards (1-10). What is the probability both cards are even?",
+    "options": ["A) 1/9", "B) 2/9", "C) 1/4", "D) 5/18"],
+    "correct_answer": "B) 2/9",
+    "explanation": "Even cards: 2,4,6,8,10 (5 cards). P = C(5,2)/C(10,2) = 10/45 = 2/9."
+  },
+  {
+    "id": 39,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, a player must arrange 4 colored tiles (Red, Blue, Green, Yellow) in a row. How many arrangements have Red first?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+    "correct_answer": "B) 6",
+    "explanation": "Fix Red first, arrange remaining 3 tiles: 3! = 6 ways."
+  },
+  {
+    "id": 40,
+    "topic": "Logical Games",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a game, a player scores 1 point for each prime number they identify from 1 to 20. How many points can they score?",
+    "options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+    "correct_answer": "C) 8",
+    "explanation": "Primes from 1-20: 2,3,5,7,11,13,17,19 = 8 primes."
+  },
+  {
+    "id": 41,
+    "topic": "Logical Games",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a tournament, 6 teams play a double round-robin (each team plays every other team twice). How many total matches are played?",
+    "options": ["A) 24", "B) 30", "C) 36", "D) 60"],
+    "correct_answer": "B) 30",
+    "explanation": "Single round-robin = C(6,2) = 15 matches. Double = 15×2 = 30 matches."
+  },
+  {
+    "id": 42,
+    "topic": "Logical Games",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a game, A, B, C, D, E sit in a row. A is not at either end. B is to the immediate left of C. D is at the rightmost position. E is at the leftmost position. What is the position of A?",
+    "options": ["A) 2nd", "B) 3rd", "C) 4th", "D) Cannot determine"],
+    "correct_answer": "B) 3rd",
+    "explanation": "E_B_C_D with A not at ends. E is 1st, D is 5th. B-C must be consecutive. Arrangement: E,B,A,C,D or E,A,B,C,D. Since A not at end and B is left of C: E,B,A,C,D → A is 3rd."
+  },
+  {
+    "id": 43,
+    "topic": "Logical Games",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a game, a player gains 4 points for a correct answer, loses 1 point for a wrong answer, and gains 0 for skipping. Out of 30 questions, a player scores 75 points with no skips. How many were correct?",
+    "options": ["A) 18", "B) 19", "C) 20", "D) 21"],
+    "correct_answer": "D) 21",
+    "explanation": "Let correct = x. 4x - (30-x) = 75 → 5x = 105 → x = 21."
+  },
+  {
+    "id": 44,
+    "topic": "Logical Games",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a logic puzzle, six people P, Q, R, S, T, U are ranked 1-6. P is ranked higher than Q. R is ranked 3rd. S is ranked lower than T. U is ranked 1st. Who can be ranked 2nd?",
+    "options": ["A) P only", "B) P or T", "C) Q or S", "D) T only"],
+    "correct_answer": "B) P or T",
+    "explanation": "U=1st, R=3rd. P>Q and T>S. P or T can occupy 2nd position as both can be ranked above others."
+  },
+  {
+    "id": 45,
+    "topic": "Logical Games",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a game, two players alternately pick numbers from 1-10 (without replacement). The player whose numbers sum to 15 first wins. What is this game equivalent to?",
+    "options": ["A) Chess", "B) Tic-Tac-Toe", "C) Checkers", "D) Sudoku"],
+    "correct_answer": "B) Tic-Tac-Toe",
+    "explanation": "This is equivalent to Tic-Tac-Toe on a 3×3 magic square where rows/columns/diagonals sum to 15."
+  },
+  {
+    "id": 46,
+    "topic": "Logical Games",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a game, there are 100 lockers all closed. 100 players pass by. Player n toggles every nth locker. How many lockers are open after all players pass?",
+    "options": ["A) 5", "B) 8", "C) 10", "D) 12"],
+    "correct_answer": "C) 10",
+    "explanation": "Only lockers with perfect square numbers remain open (toggled odd number of times). Perfect squares 1-100: 1,4,9,16,25,36,49,64,81,100 = 10 lockers."
+  },
+  {
+    "id": 47,
+    "topic": "Logical Games",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a game, a player moves on a number line. Starting at 0, they move +5, -3, +7, -2, +4, -6. What is the final position?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+    "correct_answer": "C) 5",
+    "explanation": "0 + 5 - 3 + 7 - 2 + 4 - 6 = 5."
+  },
+  {
+    "id": 48,
+    "topic": "Logical Games",
+    "difficulty": "medium

@@ -1,0 +1,499 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a data model in an organization?",
+    "options": ["A) A physical storage device for data", "B) An abstract representation of data structures and relationships", "C) A software tool for data entry", "D) A network protocol for data transfer"],
+    "correct_answer": "B) An abstract representation of data structures and relationships",
+    "explanation": "A data model is an abstract representation that defines how data is organized, stored, and related within an organization. It provides a blueprint for database design."
+  },
+  {
+    "id": 2,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does an Entity-Relationship (ER) diagram primarily represent?",
+    "options": ["A) Network topology", "B) Data flow in a system", "C) Entities and their relationships in a database", "D) Hardware configuration"],
+    "correct_answer": "C) Entities and their relationships in a database",
+    "explanation": "An ER diagram visually represents entities (objects) and the relationships between them, serving as a conceptual data model for database design."
+  },
+  {
+    "id": 3,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relational data model, data is organized in the form of:",
+    "options": ["A) Trees", "B) Graphs", "C) Tables (relations)", "D) Linked lists"],
+    "correct_answer": "C) Tables (relations)",
+    "explanation": "The relational data model organizes data into tables (also called relations), where each table consists of rows (tuples) and columns (attributes)."
+  },
+  {
+    "id": 4,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of data model?",
+    "options": ["A) Hierarchical model", "B) Network model", "C) Relational model", "D) Sequential model"],
+    "correct_answer": "D) Sequential model",
+    "explanation": "The three classic data models are hierarchical, network, and relational. Sequential model is not a recognized data model type in database management."
+  },
+  {
+    "id": 5,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, an entity is represented by a:",
+    "options": ["A) Circle", "B) Diamond", "C) Rectangle", "D) Triangle"],
+    "correct_answer": "C) Rectangle",
+    "explanation": "In standard ER diagram notation, entities are represented by rectangles, relationships by diamonds, and attributes by ellipses/ovals."
+  },
+  {
+    "id": 6,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A primary key in a relational database is used to:",
+    "options": ["A) Link two databases together", "B) Uniquely identify each record in a table", "C) Encrypt data in a table", "D) Sort records alphabetically"],
+    "correct_answer": "B) Uniquely identify each record in a table",
+    "explanation": "A primary key is a column (or set of columns) whose values uniquely identify every row in a table, ensuring no duplicate records exist."
+  },
+  {
+    "id": 7,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a foreign key in a relational database?",
+    "options": ["A) A key imported from another country's database", "B) A key that references the primary key of another table", "C) A key used for encryption", "D) A key that cannot be null"],
+    "correct_answer": "B) A key that references the primary key of another table",
+    "explanation": "A foreign key is an attribute in one table that refers to the primary key of another table, establishing a link between the two tables."
+  },
+  {
+    "id": 8,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which level of data abstraction describes how data is actually stored on disk?",
+    "options": ["A) View level", "B) Logical level", "C) Physical level", "D) Conceptual level"],
+    "correct_answer": "C) Physical level",
+    "explanation": "The physical level (internal level) describes the lowest level of abstraction, detailing how data is actually stored on physical storage media."
+  },
+  {
+    "id": 9,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a hierarchical data model, data is organized in a:",
+    "options": ["A) Flat structure", "B) Tree-like structure", "C) Graph structure", "D) Circular structure"],
+    "correct_answer": "B) Tree-like structure",
+    "explanation": "The hierarchical data model organizes data in a tree-like structure with parent-child relationships, where each child has only one parent."
+  },
+  {
+    "id": 10,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'cardinality' refer to in data modeling?",
+    "options": ["A) The number of tables in a database", "B) The number of instances in a relationship between entities", "C) The size of a database file", "D) The number of attributes in an entity"],
+    "correct_answer": "B) The number of instances in a relationship between entities",
+    "explanation": "Cardinality defines the numerical relationship between occurrences of two entities, such as one-to-one, one-to-many, or many-to-many."
+  },
+  {
+    "id": 11,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following represents a many-to-many relationship?",
+    "options": ["A) One student has one ID card", "B) One department has many employees", "C) Students enroll in many courses and courses have many students", "D) One order belongs to one customer"],
+    "correct_answer": "C) Students enroll in many courses and courses have many students",
+    "explanation": "A many-to-many relationship exists when multiple instances of one entity relate to multiple instances of another, like students and courses."
+  },
+  {
+    "id": 12,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "An attribute that can have multiple values for a single entity is called a:",
+    "options": ["A) Simple attribute", "B) Composite attribute", "C) Multi-valued attribute", "D) Derived attribute"],
+    "correct_answer": "C) Multi-valued attribute",
+    "explanation": "A multi-valued attribute can hold more than one value for a single entity instance, such as a person having multiple phone numbers."
+  },
+  {
+    "id": 13,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is normalization in database design?",
+    "options": ["A) Converting data to normal text format", "B) Process of organizing data to reduce redundancy and improve integrity", "C) Backing up database regularly", "D) Encrypting sensitive data"],
+    "correct_answer": "B) Process of organizing data to reduce redundancy and improve integrity",
+    "explanation": "Normalization is the process of structuring a relational database to reduce data redundancy and improve data integrity through a series of normal forms."
+  },
+  {
+    "id": 14,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates repeating groups from a table?",
+    "options": ["A) Second Normal Form (2NF)", "B) Third Normal Form (3NF)", "C) First Normal Form (1NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "C) First Normal Form (1NF)",
+    "explanation": "1NF requires that each column contains atomic (indivisible) values and eliminates repeating groups, ensuring each cell has a single value."
+  },
+  {
+    "id": 15,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER modeling, a weak entity is one that:",
+    "options": ["A) Has very few attributes", "B) Cannot be uniquely identified without a related strong entity", "C) Has no relationships", "D) Contains only numeric data"],
+    "correct_answer": "B) Cannot be uniquely identified without a related strong entity",
+    "explanation": "A weak entity does not have a primary key of its own and depends on a strong (owner) entity for its identification."
+  },
+  {
+    "id": 16,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a schema in database terminology?",
+    "options": ["A) A backup copy of the database", "B) The overall logical structure/design of a database", "C) A query language command", "D) A type of index"],
+    "correct_answer": "B) The overall logical structure/design of a database",
+    "explanation": "A schema is the logical structure that defines the organization of data in a database, including tables, fields, relationships, and constraints."
+  },
+  {
+    "id": 17,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of structured data?",
+    "options": ["A) Email messages", "B) Social media posts", "C) Data in a relational database table", "D) Video files"],
+    "correct_answer": "C) Data in a relational database table",
+    "explanation": "Structured data is organized in a predefined format, such as rows and columns in a relational database, making it easily searchable and analyzable."
+  },
+  {
+    "id": 18,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DBMS stand for?",
+    "options": ["A) Data Backup Management System", "B) Database Management System", "C) Data Business Modeling Software", "D) Digital Base Management Service"],
+    "correct_answer": "B) Database Management System",
+    "explanation": "DBMS stands for Database Management System, which is software that manages the creation, maintenance, and use of databases."
+  },
+  {
+    "id": 19,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In data modeling, what is an 'instance'?",
+    "options": ["A) A type of database software", "B) A specific occurrence of data at a particular point in time", "C) A database design tool", "D) A type of relationship"],
+    "correct_answer": "B) A specific occurrence of data at a particular point in time",
+    "explanation": "An instance refers to the actual data stored in a database at a specific moment, as opposed to the schema which defines the structure."
+  },
+  {
+    "id": 20,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of the object-oriented data model?",
+    "options": ["A) Data stored only in flat files", "B) Data and behavior encapsulated together as objects", "C) Data organized in tree structures only", "D) No support for relationships"],
+    "correct_answer": "B) Data and behavior encapsulated together as objects",
+    "explanation": "The object-oriented data model combines data and methods (behavior) into objects, supporting concepts like encapsulation, inheritance, and polymorphism."
+  },
+  {
+    "id": 21,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a tuple in a relational database?",
+    "options": ["A) A column in a table", "B) A row in a table", "C) A database constraint", "D) A type of index"],
+    "correct_answer": "B) A row in a table",
+    "explanation": "In relational database terminology, a tuple refers to a single row in a table, representing one complete record of data."
+  },
+  {
+    "id": 22,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes metadata?",
+    "options": ["A) Large volumes of data", "B) Data about data", "C) Encrypted data", "D) Deleted data"],
+    "correct_answer": "B) Data about data",
+    "explanation": "Metadata is data that provides information about other data, such as the structure, format, and meaning of data stored in a database."
+  },
+  {
+    "id": 23,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In ER diagrams, a relationship is represented by a:",
+    "options": ["A) Rectangle", "B) Oval", "C) Diamond", "D) Circle"],
+    "correct_answer": "C) Diamond",
+    "explanation": "In standard ER diagram notation, relationships between entities are represented by diamond shapes, while entities use rectangles and attributes use ovals."
+  },
+  {
+    "id": 24,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is data integrity in the context of data modeling?",
+    "options": ["A) The speed of data retrieval", "B) The accuracy and consistency of data over its lifecycle", "C) The size of the database", "D) The number of users accessing data"],
+    "correct_answer": "B) The accuracy and consistency of data over its lifecycle",
+    "explanation": "Data integrity ensures that data remains accurate, consistent, and reliable throughout its lifecycle, enforced through constraints and validation rules."
+  },
+  {
+    "id": 25,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of relationship exists between a person and their passport (assuming one person has one passport)?",
+    "options": ["A) One-to-many", "B) Many-to-many", "C) One-to-one", "D) Many-to-one"],
+    "correct_answer": "C) One-to-one",
+    "explanation": "A one-to-one relationship means each instance of one entity relates to exactly one instance of another entity, like a person and their unique passport."
+  },
+  {
+    "id": 26,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a data dictionary in an organization?",
+    "options": ["A) To translate data between languages", "B) To store definitions and descriptions of data elements", "C) To compress data for storage", "D) To encrypt sensitive data"],
+    "correct_answer": "B) To store definitions and descriptions of data elements",
+    "explanation": "A data dictionary is a centralized repository that stores metadata about data elements, including definitions, formats, relationships, and usage."
+  },
+  {
+    "id": 27,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a conceptual data model?",
+    "options": ["A) Physical file structure", "B) Entity-Relationship model", "C) SQL table definition", "D) Index structure"],
+    "correct_answer": "B) Entity-Relationship model",
+    "explanation": "The Entity-Relationship (ER) model is a conceptual data model that provides a high-level description of data requirements independent of implementation details."
+  },
+  {
+    "id": 28,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database design, what does 'redundancy' refer to?",
+    "options": ["A) Having too many users", "B) Storing the same data in multiple places", "C) Having too many tables", "D) Using complex queries"],
+    "correct_answer": "B) Storing the same data in multiple places",
+    "explanation": "Data redundancy occurs when the same piece of data is stored in multiple locations, leading to inconsistency and wasted storage space."
+  },
+  {
+    "id": 29,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an attribute in the context of data modeling?",
+    "options": ["A) A relationship between two tables", "B) A property or characteristic of an entity", "C) A type of database constraint", "D) A stored procedure"],
+    "correct_answer": "B) A property or characteristic of an entity",
+    "explanation": "An attribute is a property or characteristic that describes an entity. For example, 'Name', 'Age', and 'Address' are attributes of a 'Person' entity."
+  },
+  {
+    "id": 30,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about the network data model?",
+    "options": ["A) Each child can have only one parent", "B) Data is stored in flat files", "C) A child record can have multiple parent records", "D) It uses only binary trees"],
+    "correct_answer": "C) A child record can have multiple parent records",
+    "explanation": "Unlike the hierarchical model, the network data model allows a child record to have multiple parent records, creating a more flexible graph-like structure."
+  },
+  {
+    "id": 31,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a composite key in a database?",
+    "options": ["A) A key made up of multiple columns to uniquely identify a record", "B) A key that is shared between databases", "C) A key used for data compression", "D) A key that references foreign tables"],
+    "correct_answer": "A) A key made up of multiple columns to uniquely identify a record",
+    "explanation": "A composite key uses two or more columns together to uniquely identify a record in a table when no single column can serve as a unique identifier."
+  },
+  {
+    "id": 32,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In data modeling, what does 'participation constraint' define?",
+    "options": ["A) The number of attributes an entity can have", "B) Whether all or some entity instances must participate in a relationship", "C) The maximum size of a database", "D) The number of tables in a schema"],
+    "correct_answer": "B) Whether all or some entity instances must participate in a relationship",
+    "explanation": "Participation constraints specify whether all instances of an entity must participate in a relationship (total participation) or only some (partial participation)."
+  },
+  {
+    "id": 33,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of unstructured data?",
+    "options": ["A) Employee salary table", "B) Customer order records", "C) Social media images and videos", "D) Product inventory list"],
+    "correct_answer": "C) Social media images and videos",
+    "explanation": "Unstructured data lacks a predefined format or organization, such as images, videos, audio files, and social media content."
+  },
+  {
+    "id": 34,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a database administrator (DBA) in data modeling?",
+    "options": ["A) Writing application code", "B) Managing and maintaining the database structure and performance", "C) Designing user interfaces", "D) Handling network infrastructure"],
+    "correct_answer": "B) Managing and maintaining the database structure and performance",
+    "explanation": "A DBA is responsible for designing, implementing, maintaining, and securing databases, including overseeing data models and ensuring data integrity."
+  },
+  {
+    "id": 35,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'data independence' mean in database systems?",
+    "options": ["A) Data stored without any relationships", "B) Ability to change data structure without affecting applications", "C) Data accessible without passwords", "D) Data stored on independent servers"],
+    "correct_answer": "B) Ability to change data structure without affecting applications",
+    "explanation": "Data independence means changes to the data storage structure or schema do not require changes to the application programs that use the data."
+  },
+  {
+    "id": 36,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relational model, the degree of a relation refers to:",
+    "options": ["A) The number of rows in a table", "B) The number of columns (attributes) in a table", "C) The number of relationships", "D) The number of primary keys"],
+    "correct_answer": "B) The number of columns (attributes) in a table",
+    "explanation": "The degree of a relation is the number of attributes (columns) it contains. A relation with 5 columns has a degree of 5."
+  },
+  {
+    "id": 37,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a logical data model?",
+    "options": ["A) ER diagram", "B) Relational model", "C) Physical file organization", "D) Network topology diagram"],
+    "correct_answer": "B) Relational model",
+    "explanation": "The relational model is a logical data model that represents data in tables with rows and columns, independent of physical storage details."
+  },
+  {
+    "id": 38,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a surrogate key in database design?",
+    "options": ["A) A key borrowed from another table", "B) A system-generated unique identifier with no business meaning", "C) A key used for sorting", "D) A composite key with two attributes"],
+    "correct_answer": "B) A system-generated unique identifier with no business meaning",
+    "explanation": "A surrogate key is an artificially created unique identifier (like an auto-incremented integer) that has no inherent business meaning, used as a primary key."
+  },
+  {
+    "id": 39,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cardinality of a table with 50 rows and 8 columns?",
+    "options": ["A) 8", "B) 50", "C) 400", "D) 58"],
+    "correct_answer": "B) 50",
+    "explanation": "Cardinality of a relation refers to the number of tuples (rows) in the table. A table with 50 rows has a cardinality of 50, while degree refers to columns."
+  },
+  {
+    "id": 40,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following constraints ensures that a column cannot have NULL values?",
+    "options": ["A) UNIQUE constraint", "B) CHECK constraint", "C) NOT NULL constraint", "D) DEFAULT constraint"],
+    "correct_answer": "C) NOT NULL constraint",
+    "explanation": "The NOT NULL constraint ensures that a column must always have a value and cannot be left empty (NULL), enforcing mandatory data entry."
+  },
+  {
+    "id": 41,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In Second Normal Form (2NF), a table must be in 1NF and:",
+    "options": ["A) Have no transitive dependencies", "B) Have no partial dependencies on the primary key", "C) Have no multi-valued attributes", "D) Have all attributes derived from the primary key"],
+    "correct_answer": "B) Have no partial dependencies on the primary key",
+    "explanation": "2NF requires that a table is in 1NF and every non-key attribute is fully functionally dependent on the entire primary key, eliminating partial dependencies."
+  },
+  {
+    "id": 42,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a table: OrderDetails(OrderID, ProductID, ProductName, Quantity). Which normal form violation exists?",
+    "options": ["A) 1NF violation", "B) 2NF violation — ProductName depends only on ProductID", "C) 3NF violation — transitive dependency", "D) BCNF violation"],
+    "correct_answer": "B) 2NF violation — ProductName depends only on ProductID",
+    "explanation": "With composite key (OrderID, ProductID), ProductName depends only on ProductID (partial dependency), violating 2NF. It should be moved to a Products table."
+  },
+  {
+    "id": 43,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A functional dependency A → B means:",
+    "options": ["A) B determines A", "B) For each value of A, there is exactly one value of B", "C) A and B are always equal", "D) B is a subset of A"],
+    "correct_answer": "B) For each value of A, there is exactly one value of B",
+    "explanation": "A functional dependency A → B means that the value of attribute A uniquely determines the value of attribute B — each A value maps to exactly one B value."
+  },
+  {
+    "id": 44,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a data warehouse, what is a 'fact table'?",
+    "options": ["A) A table containing descriptive attributes", "B) A table containing measurable, quantitative data about business events", "C) A table storing user credentials", "D) A table with metadata information"],
+    "correct_answer": "B) A table containing measurable, quantitative data about business events",
+    "explanation": "A fact table in a data warehouse stores quantitative measures (facts) about business processes, such as sales amounts, quantities, and revenues."
+  },
+  {
+    "id": 45,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a 'dimension table' in a star schema?",
+    "options": ["A) A table that stores numerical measurements", "B) A table containing descriptive attributes related to facts", "C) A table used for indexing", "D) A table for storing transaction logs"],
+    "correct_answer": "B) A table containing descriptive attributes related to facts",
+    "explanation": "Dimension tables contain descriptive attributes (like product name, customer location, time period) that provide context to the quantitative data in fact tables."
+  },
+  {
+    "id": 46,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is a transitive dependency?",
+    "options": ["A) A → B where A is the primary key", "B) A → B and B → C, therefore A → C (where B is non-key)", "C) A → B where B is a foreign key", "D) A → B where A and B are both primary keys"],
+    "correct_answer": "B) A → B and B → C, therefore A → C (where B is non-key)",
+    "explanation": "A transitive dependency occurs when a non-key attribute determines another non-key attribute. If A→B and B→C, then C transitively depends on A through B."
+  },
+  {
+    "id": 47,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In the star schema, how many dimension tables surround a central fact table if the schema models sales by product, time, location, and salesperson?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "correct_answer": "C) 4",
+    "explanation": "The star schema has one central fact table surrounded by dimension tables. With dimensions for product, time, location, and salesperson, there are 4 dimension tables."
+  },
+  {
+    "id": 48,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What distinguishes a snowflake schema from a star schema?",
+    "options": ["A) Snowflake has no fact table", "B) Dimension tables in snowflake schema are normalized into multiple related tables", "C) Snowflake schema uses fewer tables", "D) Star schema supports more complex queries"],
+    "correct_answer": "B) Dimension tables in snowflake schema are normalized into multiple related tables",
+    "explanation": "In a snowflake schema, dimension tables are normalized (split into sub-dimensions), creating a more complex structure compared to the denormalized star schema."
+  },
+  {
+    "id": 49,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If a relation has attributes {A, B, C, D} and functional dependencies A→B, A→C, B→D, what is the minimal key?",
+    "options": ["A) {A, B}", "B) {A}", "C) {A, D}", "D) {B, C}"],
+    "correct_answer": "B) {A}",
+    "explanation": "From A, we can derive B (A→B), C (A→C), and D (A→B→D). Since A alone determines all other attributes, {A} is the minimal (candidate) key."
+  },
+  {
+    "id": 50,
+    "topic": "Modeling Data in the Organization",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is an 'associative entity' (also called a junction table) used for?",
+    "options": ["A) To store

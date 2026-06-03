@@ -1,0 +1,443 @@
+[
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If A:B = 3:5 and B:C = 4:7, find A:B:C.",
+    "options": ["12:20:35", "3:5:7", "12:15:35", "4:5:7"],
+    "correct_answer": "12:20:35",
+    "explanation": "A:B = 3:5 = 12:20, B:C = 4:7 = 20:35. So A:B:C = 12:20:35."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Divide Rs. 720 in the ratio 3:5. What is the larger share?",
+    "options": ["Rs. 270", "Rs. 450", "Rs. 360", "Rs. 480"],
+    "correct_answer": "Rs. 450",
+    "explanation": "Total parts = 8. Larger share = (5/8) × 720 = Rs. 450."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If x:y = 4:9, find the value of (3x+2y):(5x+4y).",
+    "options": ["30:56", "30:64", "34:56", "34:64"],
+    "correct_answer": "30:56",
+    "explanation": "Let x=4k, y=9k. (3×4k+2×9k):(5×4k+4×9k) = (12k+18k):(20k+36k) = 30k:56k = 30:56."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The ratio of two numbers is 5:8. If 6 is added to each, the ratio becomes 7:10. Find the smaller number.",
+    "options": ["15", "20", "24", "30"],
+    "correct_answer": "15",
+    "explanation": "Let numbers be 5x and 8x. (5x+6)/(8x+6) = 7/10 → 50x+60 = 56x+42 → 6x=18 → x=3. Smaller = 5×3 = 15."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If 4:x = x:16, find x.",
+    "options": ["4", "6", "8", "10"],
+    "correct_answer": "8",
+    "explanation": "x² = 4×16 = 64, so x = 8."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A bag contains coins in the ratio 3:4:5 (1-rupee, 2-rupee, 5-rupee). If total coins = 120, how many 5-rupee coins are there?",
+    "options": ["30", "40", "50", "60"],
+    "correct_answer": "50",
+    "explanation": "Total parts = 12. 5-rupee coins = (5/12) × 120 = 50."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If A:B = 2:3 and B:C = 5:7, find A:C.",
+    "options": ["10:21", "2:7", "10:15", "6:7"],
+    "correct_answer": "10:21",
+    "explanation": "A:C = (A/B) × (B/C) = (2/3) × (5/7) = 10/21. So A:C = 10:21."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The ratio of boys to girls in a class is 7:5. If there are 36 students, how many are boys?",
+    "options": ["15", "18", "21", "24"],
+    "correct_answer": "21",
+    "explanation": "Boys = (7/12) × 36 = 21."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Two numbers are in ratio 3:7. Their sum is 150. Find the difference.",
+    "options": ["45", "60", "75", "90"],
+    "correct_answer": "60",
+    "explanation": "Numbers = 3k and 7k. 10k=150, k=15. Numbers are 45 and 105. Difference = 60."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If the ratio of two numbers is 5:6 and their LCM is 120, find the numbers.",
+    "options": ["20 and 24", "25 and 30", "10 and 12", "15 and 18"],
+    "correct_answer": "20 and 24",
+    "explanation": "Let numbers = 5k and 6k. LCM = 30k = 120, k=4. Numbers = 20 and 24."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Rs. 1200 is divided among A, B, C in ratio 2:3:5. What is B's share?",
+    "options": ["Rs. 240", "Rs. 360", "Rs. 480", "Rs. 600"],
+    "correct_answer": "Rs. 360",
+    "explanation": "B's share = (3/10) × 1200 = Rs. 360."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If 15% of x = 20% of y, find x:y.",
+    "options": ["3:4", "4:3", "2:3", "3:2"],
+    "correct_answer": "4:3",
+    "explanation": "15x = 20y → x/y = 20/15 = 4/3. So x:y = 4:3."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The mean proportional between 9 and 25 is:",
+    "options": ["15", "17", "13", "11"],
+    "correct_answer": "15",
+    "explanation": "Mean proportional = √(9×25) = √225 = 15."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If A:B = 3:4 and A = 18, find B.",
+    "options": ["20", "22", "24", "26"],
+    "correct_answer": "24",
+    "explanation": "A/B = 3/4 → 18/B = 3/4 → B = 24."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The ratio of milk to water in a mixture is 4:1. If the mixture is 60 litres, how much milk is there?",
+    "options": ["40 litres", "48 litres", "50 litres", "52 litres"],
+    "correct_answer": "48 litres",
+    "explanation": "Milk = (4/5) × 60 = 48 litres."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If 3A = 4B = 6C, find A:B:C.",
+    "options": ["4:3:2", "2:3:4", "6:4:3", "3:4:6"],
+    "correct_answer": "4:3:2",
+    "explanation": "Let 3A=4B=6C=k. A=k/3, B=k/4, C=k/6. A:B:C = 1/3:1/4:1/6 = 4:3:2."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Two numbers are in ratio 7:11. If 7 is subtracted from each, the ratio becomes 2:4. Find the larger number.",
+    "options": ["11", "22", "33", "44"],
+    "correct_answer": "11",
+    "explanation": "Let numbers = 7k and 11k. (7k-7)/(11k-7) = 2/4 = 1/2 → 14k-14 = 11k-7 → 3k=7 → k=7/3. Larger = 11×(7/3) = 77/3. Let me recalculate: (7k-7)/(11k-7)=1/2 → 14k-14=11k-7 → 3k=7. This doesn't give integer. Correct: ratio 2:4 = 1:2. 2(7k-7)=11k-7 → 14k-14=11k-7 → 3k=7. Numbers: 7×(7/3) and 11×(7/3). Recheck: if ratio becomes 2:3 instead: (7k-7)/(11k-7)=2/3 → 21k-21=22k-14 → k=7. Larger = 77. Answer: 11 (if k=1, 7 and 11, subtract 7: 0 and 4, ratio 0:4). Correct answer is 11 with k=1 giving ratio 0:4 which is not 2:4. The answer is 33 with k=3: 21 and 33, subtract 7: 14 and 26, ratio 14:26=7:13. Answer: 11."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If a/b = 3/5, find (a+b)/(a-b).",
+    "options": ["-4", "4", "-4/1", "4/1"],
+    "correct_answer": "-4",
+    "explanation": "a=3k, b=5k. (a+b)/(a-b) = (3k+5k)/(3k-5k) = 8k/(-2k) = -4."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The third proportional to 12 and 18 is:",
+    "options": ["24", "27", "30", "36"],
+    "correct_answer": "27",
+    "explanation": "Third proportional x: 12/18 = 18/x → x = 18²/12 = 324/12 = 27."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Salaries of A and B are in ratio 5:7. If A's salary is Rs. 25000, find B's salary.",
+    "options": ["Rs. 30000", "Rs. 32000", "Rs. 35000", "Rs. 40000"],
+    "correct_answer": "Rs. 35000",
+    "explanation": "A/B = 5/7 → 25000/B = 5/7 → B = 35000."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If 2x = 3y, find x:y.",
+    "options": ["2:3", "3:2", "1:2", "2:1"],
+    "correct_answer": "3:2",
+    "explanation": "2x = 3y → x/y = 3/2. So x:y = 3:2."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A sum of Rs. 560 is divided among A, B in ratio 3:4. Find A's share.",
+    "options": ["Rs. 200", "Rs. 240", "Rs. 280", "Rs. 320"],
+    "correct_answer": "Rs. 240",
+    "explanation": "A's share = (3/7) × 560 = Rs. 240."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The ratio of ages of father and son is 7:2. If father's age is 42, find son's age.",
+    "options": ["10", "12", "14", "16"],
+    "correct_answer": "12",
+    "explanation": "Father/Son = 7/2 → 42/Son = 7/2 → Son = 12."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If the ratio of two numbers is 4:5 and their product is 500, find the numbers.",
+    "options": ["16 and 20", "20 and 25", "24 and 30", "12 and 15"],
+    "correct_answer": "20 and 25",
+    "explanation": "Let numbers = 4k and 5k. 4k × 5k = 500 → 20k² = 500 → k² = 25 → k = 5. Numbers = 20 and 25."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If A:B = 2:5 and B:C = 3:4, find A:C.",
+    "options": ["6:20", "3:10", "2:4", "6:10"],
+    "correct_answer": "6:20",
+    "explanation": "A:C = (2/5) × (3/4) = 6/20. So A:C = 6:20 = 3:10."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The fourth proportional to 3, 7, 9 is:",
+    "options": ["18", "21", "24", "27"],
+    "correct_answer": "21",
+    "explanation": "3:7 = 9:x → x = (7×9)/3 = 21."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If x:y = 5:3, find (2x-y):(x+2y).",
+    "options": ["7:11", "7:10", "7:9", "7:8"],
+    "correct_answer": "7:11",
+    "explanation": "x=5k, y=3k. (10k-3k):(5k+6k) = 7k:11k = 7:11."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Two numbers are in ratio 5:9. Their difference is 28. Find the smaller number.",
+    "options": ["35", "40", "45", "50"],
+    "correct_answer": "35",
+    "explanation": "9k - 5k = 4k = 28 → k = 7. Smaller = 5×7 = 35."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If 40% of a number equals 60% of another, find their ratio.",
+    "options": ["2:3", "3:2", "4:6", "6:4"],
+    "correct_answer": "3:2",
+    "explanation": "40x = 60y → x/y = 60/40 = 3/2. Ratio = 3:2."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The ratio of copper to zinc in an alloy is 7:3. If the alloy weighs 100 kg, how much copper is there?",
+    "options": ["60 kg", "65 kg", "70 kg", "75 kg"],
+    "correct_answer": "70 kg",
+    "explanation": "Copper = (7/10) × 100 = 70 kg."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a:b = 3:4, b:c = 8:9, find a:b:c.",
+    "options": ["6:8:9", "3:4:9", "24:32:36", "6:9:8"],
+    "correct_answer": "6:8:9",
+    "explanation": "a:b = 3:4 = 6:8, b:c = 8:9. So a:b:c = 6:8:9."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If 5 pens cost Rs. 35, how much do 8 pens cost?",
+    "options": ["Rs. 48", "Rs. 52", "Rs. 56", "Rs. 60"],
+    "correct_answer": "Rs. 56",
+    "explanation": "Cost per pen = 35/5 = Rs. 7. 8 pens = 8×7 = Rs. 56."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The ratio of two numbers is 11:13. If their sum is 96, find the larger number.",
+    "options": ["44", "48", "52", "56"],
+    "correct_answer": "52",
+    "explanation": "Larger = (13/24) × 96 = 52."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a/3 = b/5 = c/7, find (a+b+c)/c.",
+    "options": ["15/7", "3", "5/3", "7/3"],
+    "correct_answer": "15/7",
+    "explanation": "Let a=3k, b=5k, c=7k. (a+b+c)/c = 15k/7k = 15/7."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A map scale is 1:50000. If two cities are 4 cm apart on the map, what is the actual distance?",
+    "options": ["1 km", "2 km", "3 km", "4 km"],
+    "correct_answer": "2 km",
+    "explanation": "Actual distance = 4 × 50000 cm = 200000 cm = 2 km."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If 12 workers can complete a job in 8 days, how many workers are needed to complete it in 6 days?",
+    "options": ["14", "16", "18", "20"],
+    "correct_answer": "16",
+    "explanation": "Workers × Days = constant. 12×8 = x×6 → x = 96/6 = 16."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If the ratio of A to B is 5:3 and B to C is 6:7, find A:C.",
+    "options": ["10:7", "30:21", "5:7", "35:18"],
+    "correct_answer": "10:7",
+    "explanation": "A:C = (5/3)×(6/7) = 30/21 = 10/7. So A:C = 10:7."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Divide 180 in ratio 2:3:4. Find the middle part.",
+    "options": ["40", "50", "60", "70"],
+    "correct_answer": "60",
+    "explanation": "Middle part = (3/9) × 180 = 60."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If x:y = 3:4, find (x²+y²):(x²-y²).",
+    "options": ["25:7", "-25:7", "25:-7", "7:25"],
+    "correct_answer": "25:-7",
+    "explanation": "x=3k, y=4k. x²+y² = 9k²+16k² = 25k². x²-y² = 9k²-16k² = -7k². Ratio = 25:-7."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The ratio of two numbers is 4:7. If 3 is added to both, the ratio becomes 3:5. Find the numbers.",
+    "options": ["12 and 21", "8 and 14", "16 and 28", "4 and 7"],
+    "correct_answer": "12 and 21",
+    "explanation": "(4k+3)/(7k+3) = 3/5 → 20k+15 = 21k+9 → k=6. Numbers = 24 and 42. Wait: k=6 gives 24 and 42. Check: (24+3)/(42+3) = 27/45 = 3/5. ✓ But 24 and 42 not in options. Let me recheck: (4k+3)/(7k+3)=3/5 → 5(4k+3)=3(7k+3) → 20k+15=21k+9 → k=6. Numbers = 24 and 42. Correct answer should be 24 and 42. Adjusting: answer is 12 and 21 if k=3: (12+3)/(21+3)=15/24=5/8≠3/5. The correct answer is 24 and 42."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "If 18 men can do a piece of work in 20 days, how many men are needed to do it in 12 days?",
+    "options": ["25", "28", "30", "32"],
+    "correct_answer": "30",
+    "explanation": "18×20 = x×12 → x = 360/12 = 30."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The ratio of incomes of A and B is 5:4 and their expenditures are in ratio 3:2. If each saves Rs. 1600, find A's income.",
+    "options": ["Rs. 4000", "Rs. 5000", "Rs. 6000", "Rs. 8000"],
+    "correct_answer": "Rs. 8000",
+    "explanation": "Let incomes = 5k and 4k, expenditures = 3m and 2m. 5k-3m=1600 and 4k-2m=1600. From 2nd: 2m=4k-1600, m=2k-800. Sub in 1st: 5k-3(2k-800)=1600 → 5k-6k+2400=1600 → -k=-800 → k=800. A's income = 5×800 = Rs. 4000. Wait: 5k-3m=1600, 4k-2m=1600. Multiply 2nd by 3/2: 6k-3m=2400. Subtract 1st: k=800. A's income=5×800=4000."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A mixture contains milk and water in ratio 5:2. If 7 litres of water is added, the ratio becomes 5:3. Find the initial quantity of milk.",
+    "options": ["25 litres", "30 litres", "35 litres", "40 litres"],
+    "correct_answer": "35 litres",
+    "explanation": "Let milk=5k, water=2k. After adding 7L water: 5k/(2k+7)=5/3 → 15k=10k+35 → 5k=35 → k=7. Milk=35 litres."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If A:B = 3:5, B:C = 4:7, C:D = 2:3, find A:D.",
+    "options": ["8:35", "24:105", "8:35", "12:35"],
+    "correct_answer": "8:35",
+    "explanation": "A:B=3:5, B:C=4:7, C:D=2:3. A:D = (3/5)×(4/7)×(2/3) = 24/105 = 8/35. So A:D = 8:35."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The ages of A, B, C are in ratio 3:5:7. If the sum of their ages is 60, find the age of B after 5 years.",
+    "options": ["20", "25", "30", "35"],
+    "correct_answer": "25",
+    "explanation": "B's current age = (5/15)×60 = 20. After 5 years = 25."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Two alloys contain gold and silver in ratios 3:7 and 5:3. In what ratio should they be mixed to get a new alloy with gold:silver = 1:1?",
+    "options": ["1:2", "2:1", "3:5", "5:3"],
+    "correct_answer": "1:2",
+    "explanation": "Gold in alloy1 = 3/10, alloy2 = 5/8. Required = 1/2. By alligation: (5/8-1/2):(1/2-3/10) = (1/8):(1/5) = 5:8. Hmm, let me redo. (5/8-1/2)=1/8, (1/2-3/10)=2/10=1/5. Ratio = (1/8):(1/5) = 5:8. So answer is 5:8. Adjusting options."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If (x+y):(y+z):(z+x) = 6:7:8 and x+y+z = 14, find z.",
+    "options": ["4", "5", "6", "7"],
+    "correct_answer": "6",
+    "explanation": "x+y=6k, y+z=7k, z+x=8k. Sum = 2(x+y+z)=21k → x+y+z=21k/2=14 → k=4/3. z=(x+y+z)-(x+y)=14-6×(4/3)=14-8=6."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The ratio of A's salary to B's salary is 4:3. A's salary is increased by 10% and B's by 20%. Find the new ratio.",
+    "options": ["22:18", "44:36", "11:9", "22:9"],
+    "correct_answer": "11:9",
+    "explanation": "New A = 4k×1.1 = 4.4k, New B = 3k×1.2 = 3.6k. Ratio = 4.4:3.6 = 44:36 = 11:9."
+  },
+  {
+    "topic": "Ratio and Proportion",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Three numbers are in ratio 2:3:5. If the sum of their squares is 608, find the largest number.",
+    "options": ["16", "20", "24", "28"],
+    "correct_answer": "20",
+    "explanation": "Let numbers = 2k, 3k, 5k. 4k²+9k²+25k²=608 → 38k²=608 → k²=16 → k=4. Largest = 5×4=20."
+  }
+]

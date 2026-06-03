@@ -1,0 +1,499 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares a string in C?",
+    "options": ["A) char str = \"hello\";", "B) char str[] = \"hello\";", "C) string str = \"hello\";", "D) char str = 'hello';"],
+    "correct_answer": "B) char str[] = \"hello\";",
+    "explanation": "In C, strings are character arrays. 'char str[] = \"hello\";' correctly declares a string. 'string' is not a built-in type in C, and single quotes are for single characters."
+  },
+  {
+    "id": 2,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the null character used to terminate a string in C?",
+    "options": ["A) '\\n'", "B) '\\0'", "C) '\\t'", "D) '\\r'"],
+    "correct_answer": "B) '\\0'",
+    "explanation": "'\\0' is the null character (ASCII value 0) used to mark the end of a string in C. Without it, string functions won't know where the string ends."
+  },
+  {
+    "id": 3,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will strlen(\"hello\") return?",
+    "options": ["A) 6", "B) 5", "C) 4", "D) 0"],
+    "correct_answer": "B) 5",
+    "explanation": "strlen() counts characters excluding the null terminator. \"hello\" has 5 characters: h, e, l, l, o. So strlen returns 5."
+  },
+  {
+    "id": 4,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file must be included to use string functions like strlen(), strcpy()?",
+    "options": ["A) <stdio.h>", "B) <stdlib.h>", "C) <string.h>", "D) <ctype.h>"],
+    "correct_answer": "C) <string.h>",
+    "explanation": "String manipulation functions like strlen(), strcpy(), strcat() are declared in <string.h>. This header must be included to use them."
+  },
+  {
+    "id": 5,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following code print?\nchar str[] = \"World\";\nprintf(\"%d\", strlen(str));",
+    "options": ["A) 6", "B) 5", "C) 4", "D) 7"],
+    "correct_answer": "B) 5",
+    "explanation": "\"World\" has 5 characters: W, o, r, l, d. strlen() returns 5, not counting the null terminator."
+  },
+  {
+    "id": 6,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to copy one string to another in C?",
+    "options": ["A) strcat()", "B) strcmp()", "C) strcpy()", "D) strncpy()"],
+    "correct_answer": "C) strcpy()",
+    "explanation": "strcpy(dest, src) copies the string from src to dest including the null terminator. It is the standard function for string copying in C."
+  },
+  {
+    "id": 7,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nchar str[10];\nstrcpy(str, \"Hi\");\nprintf(\"%s\", str);",
+    "options": ["A) Hi", "B) H", "C) i", "D) Compilation error"],
+    "correct_answer": "A) Hi",
+    "explanation": "strcpy copies \"Hi\" into str. printf with %s prints the string until null terminator. Output is 'Hi'."
+  },
+  {
+    "id": 8,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does strcmp(\"abc\", \"abc\") return?",
+    "options": ["A) 1", "B) -1", "C) 0", "D) 2"],
+    "correct_answer": "C) 0",
+    "explanation": "strcmp() returns 0 when both strings are equal. It compares character by character and returns 0 if all characters match."
+  },
+  {
+    "id": 9,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of the array needed to store the string \"Hello\"?",
+    "options": ["A) 5", "B) 4", "C) 6", "D) 7"],
+    "correct_answer": "C) 6",
+    "explanation": "\"Hello\" has 5 characters plus 1 null terminator '\\0', so the array must be at least size 6."
+  },
+  {
+    "id": 10,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function concatenates two strings in C?",
+    "options": ["A) strcpy()", "B) strcat()", "C) strcmp()", "D) strlen()"],
+    "correct_answer": "B) strcat()",
+    "explanation": "strcat(dest, src) appends the src string to the end of dest string. It is used for string concatenation in C."
+  },
+  {
+    "id": 11,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output?\nchar s[] = \"C Programming\";\nprintf(\"%c\", s[0]);",
+    "options": ["A) C Programming", "B) C", "C) P", "D) c"],
+    "correct_answer": "B) C",
+    "explanation": "s[0] accesses the first character of the string. The first character of \"C Programming\" is 'C'."
+  },
+  {
+    "id": 12,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to read a string with spaces using scanf?",
+    "options": ["A) scanf(\"%s\", str);", "B) scanf(\"%c\", str);", "C) gets(str);", "D) scanf(\"%d\", str);"],
+    "correct_answer": "C) gets(str);",
+    "explanation": "scanf(\"%s\") stops at whitespace. gets() reads the entire line including spaces. Note: gets() is deprecated in modern C but was the traditional way."
+  },
+  {
+    "id": 13,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following declaration mean?\nchar *str = \"hello\";",
+    "options": ["A) str is a character variable", "B) str is a pointer to a string literal", "C) str is an array of characters", "D) Compilation error"],
+    "correct_answer": "B) str is a pointer to a string literal",
+    "explanation": "char *str = \"hello\" declares a pointer to a string literal stored in read-only memory. str points to the first character 'h'."
+  },
+  {
+    "id": 14,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of printf(\"%s\", \"Hello\" + 2)?",
+    "options": ["A) Hello", "B) He", "C) llo", "D) Compilation error"],
+    "correct_answer": "C) llo",
+    "explanation": "\"Hello\" + 2 moves the pointer 2 positions forward, pointing to 'l'. printf prints from that position to null terminator: 'llo'."
+  },
+  {
+    "id": 15,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid string initialization in C?",
+    "options": ["A) char s[] = \"test\";", "B) char s[5] = \"test\";", "C) char s[3] = \"test\";", "D) char *s = \"test\";"],
+    "correct_answer": "C) char s[3] = \"test\";",
+    "explanation": "\"test\" needs 5 bytes (4 chars + null). char s[3] is too small to hold it, making this invalid (causes buffer overflow or compile warning/error)."
+  },
+  {
+    "id": 16,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar str[] = \"abcde\";\nprintf(\"%d\", strlen(str));",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 3"],
+    "correct_answer": "B) 5",
+    "explanation": "\"abcde\" has 5 characters. strlen() returns 5, not counting the null terminator '\\0'."
+  },
+  {
+    "id": 17,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does strcat(\"Hello\", \" World\") do?",
+    "options": ["A) Returns \"Hello World\"", "B) Appends \" World\" to \"Hello\"", "C) Copies \" World\" to \"Hello\"", "D) Compares \"Hello\" and \" World\""],
+    "correct_answer": "B) Appends \" World\" to \"Hello\"",
+    "explanation": "strcat appends the second string to the first. It modifies the destination string by adding the source string at the end."
+  },
+  {
+    "id": 18,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the ASCII value of '\\0'?",
+    "options": ["A) 32", "B) 48", "C) 0", "D) 255"],
+    "correct_answer": "C) 0",
+    "explanation": "The null character '\\0' has ASCII value 0. It is used as the string terminator in C."
+  },
+  {
+    "id": 19,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will the following code output?\nchar str[] = \"Hello\";\nstr[0] = 'J';\nprintf(\"%s\", str);",
+    "options": ["A) Hello", "B) Jello", "C) J", "D) Compilation error"],
+    "correct_answer": "B) Jello",
+    "explanation": "str is a character array (modifiable). str[0] = 'J' changes 'H' to 'J'. printf prints \"Jello\"."
+  },
+  {
+    "id": 20,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function converts a string to uppercase in C?",
+    "options": ["A) strupr()", "B) toupper()", "C) strtoupper()", "D) uppercase()"],
+    "correct_answer": "A) strupr()",
+    "explanation": "strupr() converts all characters of a string to uppercase. toupper() works on individual characters, not entire strings."
+  },
+  {
+    "id": 21,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nprintf(\"%d\", strcmp(\"apple\", \"banana\"));",
+    "options": ["A) 0", "B) Positive value", "C) Negative value", "D) 1"],
+    "correct_answer": "C) Negative value",
+    "explanation": "strcmp compares lexicographically. 'a' < 'b', so \"apple\" < \"banana\", and strcmp returns a negative value."
+  },
+  {
+    "id": 22,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the %s format specifier do in printf?",
+    "options": ["A) Prints a single character", "B) Prints an integer", "C) Prints a string", "D) Prints a float"],
+    "correct_answer": "C) Prints a string",
+    "explanation": "%s in printf is used to print a null-terminated string. It prints characters until it encounters '\\0'."
+  },
+  {
+    "id": 23,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nchar s[6] = \"Hello\";\nprintf(\"%c\", s[5]);",
+    "options": ["A) o", "B) \\0", "C) Nothing printed", "D) Garbage value"],
+    "correct_answer": "C) Nothing printed",
+    "explanation": "s[5] is '\\0' (null terminator). When printed with %c, the null character is not visible, so nothing appears on screen."
+  },
+  {
+    "id": 24,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function finds the first occurrence of a character in a string?",
+    "options": ["A) strstr()", "B) strchr()", "C) strfind()", "D) strsearch()"],
+    "correct_answer": "B) strchr()",
+    "explanation": "strchr(str, ch) returns a pointer to the first occurrence of character ch in string str. It returns NULL if not found."
+  },
+  {
+    "id": 25,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar a[] = \"cat\";\nchar b[] = \"cat\";\nprintf(\"%d\", strcmp(a, b));",
+    "options": ["A) 1", "B) -1", "C) 0", "D) 2"],
+    "correct_answer": "C) 0",
+    "explanation": "strcmp returns 0 when both strings are identical. \"cat\" == \"cat\", so the result is 0."
+  },
+  {
+    "id": 26,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will sizeof(\"Hello\") return?",
+    "options": ["A) 5", "B) 6", "C) 4", "D) 7"],
+    "correct_answer": "B) 6",
+    "explanation": "sizeof() on a string literal includes the null terminator. \"Hello\" has 5 chars + 1 null = 6 bytes."
+  },
+  {
+    "id": 27,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following reads a string safely with a limit?",
+    "options": ["A) scanf(\"%s\", str);", "B) gets(str);", "C) fgets(str, size, stdin);", "D) getchar(str);"],
+    "correct_answer": "C) fgets(str, size, stdin);",
+    "explanation": "fgets() reads at most size-1 characters, preventing buffer overflow. It is the safe alternative to gets()."
+  },
+  {
+    "id": 28,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output?\nchar str[] = \"Hello\";\nprintf(\"%s\", str + 1);",
+    "options": ["A) Hello", "B) ello", "C) H", "D) ello\\0"],
+    "correct_answer": "B) ello",
+    "explanation": "str + 1 moves the pointer to the second character 'e'. printf prints from 'e' to null terminator: \"ello\"."
+  },
+  {
+    "id": 29,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does strrev() do in C?",
+    "options": ["A) Reverses a string", "B) Returns the length of a string", "C) Compares two strings", "D) Copies a string"],
+    "correct_answer": "A) Reverses a string",
+    "explanation": "strrev() reverses the characters of a string in place. For example, strrev(\"hello\") gives \"olleh\"."
+  },
+  {
+    "id": 30,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar str[] = \"12345\";\nprintf(\"%d\", strlen(str));",
+    "options": ["A) 4", "B) 5", "C) 6", "D) 0"],
+    "correct_answer": "B) 5",
+    "explanation": "\"12345\" contains 5 digit characters. strlen() counts characters until null terminator and returns 5."
+  },
+  {
+    "id": 31,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function converts a string to an integer in C?",
+    "options": ["A) itoa()", "B) atoi()", "C) strtoint()", "D) toint()"],
+    "correct_answer": "B) atoi()",
+    "explanation": "atoi() (ASCII to Integer) converts a string like \"123\" to integer 123. It is declared in <stdlib.h>."
+  },
+  {
+    "id": 32,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar s[] = \"Hello World\";\nprintf(\"%c\", s[6]);",
+    "options": ["A) W", "B) o", "C) r", "D) Space"],
+    "correct_answer": "A) W",
+    "explanation": "Indexing: H(0) e(1) l(2) l(3) o(4) (5) W(6). s[6] is 'W'."
+  },
+  {
+    "id": 33,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you try to modify a string literal in C?\nchar *str = \"hello\";\nstr[0] = 'H';",
+    "options": ["A) str becomes \"Hello\"", "B) Undefined behavior / runtime error", "C) Compilation error", "D) Nothing happens"],
+    "correct_answer": "B) Undefined behavior / runtime error",
+    "explanation": "String literals are stored in read-only memory. Modifying them via a pointer causes undefined behavior, often a segmentation fault."
+  },
+  {
+    "id": 34,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does strncpy(dest, src, n) do?",
+    "options": ["A) Copies entire src to dest", "B) Copies at most n characters from src to dest", "C) Compares n characters", "D) Concatenates n characters"],
+    "correct_answer": "B) Copies at most n characters from src to dest",
+    "explanation": "strncpy copies at most n characters from src to dest. If src is shorter than n, dest is padded with null characters."
+  },
+  {
+    "id": 35,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar str[] = \"\";\nprintf(\"%d\", strlen(str));",
+    "options": ["A) 1", "B) 0", "C) -1", "D) Undefined"],
+    "correct_answer": "B) 0",
+    "explanation": "An empty string \"\" contains only the null terminator. strlen() returns 0 for an empty string."
+  },
+  {
+    "id": 36,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function searches for a substring within a string?",
+    "options": ["A) strchr()", "B) strstr()", "C) strsub()", "D) strfind()"],
+    "correct_answer": "B) strstr()",
+    "explanation": "strstr(haystack, needle) returns a pointer to the first occurrence of needle in haystack, or NULL if not found."
+  },
+  {
+    "id": 37,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar a[20] = \"Hello\";\nstrcat(a, \" World\");\nprintf(\"%s\", a);",
+    "options": ["A) Hello", "B) World", "C) Hello World", "D) HelloWorld"],
+    "correct_answer": "C) Hello World",
+    "explanation": "strcat appends \" World\" to \"Hello\". The result is \"Hello World\" stored in array a."
+  },
+  {
+    "id": 38,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the return type of strlen()?",
+    "options": ["A) int", "B) char", "C) size_t (unsigned int)", "D) long"],
+    "correct_answer": "C) size_t (unsigned int)",
+    "explanation": "strlen() returns a value of type size_t, which is an unsigned integer type. It represents the length of the string."
+  },
+  {
+    "id": 39,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar str[5] = {'H','i','\\0','!','?'};\nprintf(\"%s\", str);",
+    "options": ["A) Hi!?", "B) Hi", "C) H", "D) Hi\\0!?"],
+    "correct_answer": "B) Hi",
+    "explanation": "printf with %s prints until null terminator. '\\0' is at index 2, so only 'H' and 'i' are printed."
+  },
+  {
+    "id": 40,
+    "topic": "Strings in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly compares two strings in C?",
+    "options": ["A) if(str1 == str2)", "B) if(strcmp(str1, str2) == 0)", "C) if(str1 = str2)", "D) if(*str1 == *str2)"],
+    "correct_answer": "B) if(strcmp(str1, str2) == 0)",
+    "explanation": "In C, == compares pointers (addresses), not string content. strcmp() must be used to compare string contents. Returns 0 if equal."
+  },
+  {
+    "id": 41,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\n#include<string.h>\nint main(){\n  char s[] = \"Hello\";\n  printf(\"%d %d\", strlen(s), sizeof(s));\n  return 0;\n}",
+    "options": ["A) 5 5", "B) 5 6", "C) 6 6", "D) 6 5"],
+    "correct_answer": "B) 5 6",
+    "explanation": "strlen(\"Hello\") = 5 (excludes null). sizeof(s) = 6 (includes null terminator). These are different measurements."
+  },
+  {
+    "id": 42,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar str[] = \"abcdef\";\nstr[3] = '\\0';\nprintf(\"%s\", str);",
+    "options": ["A) abcdef", "B) abc", "C) abcd", "D) def"],
+    "correct_answer": "B) abc",
+    "explanation": "Setting str[3] = '\\0' inserts a null terminator at position 3. printf stops at the first null, printing only 'a', 'b', 'c'."
+  },
+  {
+    "id": 43,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nchar *p = \"Hello\";\nprintf(\"%c\", *(p+4));",
+    "options": ["A) H", "B) e", "C) o", "D) \\0"],
+    "correct_answer": "C) o",
+    "explanation": "p points to 'H'. *(p+4) dereferences the pointer at offset 4. H(0) e(1) l(2) l(3) o(4). So *(p+4) = 'o'."
+  },
+  {
+    "id": 44,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What does the following function do?\nint mystery(char *s) {\n  int i = 0;\n  while(s[i] != '\\0') i++;\n  return i;\n}",
+    "options": ["A) Reverses the string", "B) Counts vowels", "C) Returns string length", "D) Copies the string"],
+    "correct_answer": "C) Returns string length",
+    "explanation": "The function iterates through the string until null terminator, incrementing i. This is a manual implementation of strlen()."
+  },
+  {
+    "id": 45,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar s1[20] = \"Good\";\nchar s2[] = \"Morning\";\nstrcpy(s1, s2);\nprintf(\"%s\", s1);",
+    "options": ["A) Good", "B) Morning", "C) GoodMorning", "D) Good Morning"],
+    "correct_answer": "B) Morning",
+    "explanation": "strcpy(s1, s2) overwrites s1 with the content of s2. s1 becomes \"Morning\"."
+  },
+  {
+    "id": 46,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar str[] = \"programming\";\nprintf(\"%s\", strstr(str, \"gram\"));",
+    "options": ["A) gram", "B) gramming", "C) programming", "D) NULL"],
+    "correct_answer": "B) gramming",
+    "explanation": "strstr returns a pointer to the first occurrence of \"gram\" in \"programming\". Printing from that pointer gives \"gramming\"."
+  },
+  {
+    "id": 47,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nchar s[] = \"Hello\";\nchar *p = s;\nwhile(*p) {\n  printf(\"%c\", *p);\n  p++;\n}",
+    "options": ["A) Hello", "B) H", "C) ello", "D) Infinite loop"],
+    "correct_answer": "A) Hello",
+    "explanation": "The loop prints each character while *p is non-zero (not null). It prints all characters of \"Hello\" one by one."
+  },
+  {
+    "id": 48,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nprintf(\"%d\", strcmp(\"Z\", \"a\"));",
+    "options": ["A) Positive value", "B) Negative value", "C) 0", "D) 1"],
+    "correct_answer": "B) Negative value",
+    "explanation": "ASCII of 'Z' is 90, ASCII of 'a' is 97. 'Z' < 'a', so strcmp(\"Z\", \"a\") returns a negative value."
+  },
+  {
+    "id": 49,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar str[10];\nsprintf(str, \"%d\", 2024);\nprintf(\"%s\", str);",
+    "options": ["A) 2024", "B) Compilation error", "C) Garbage", "D) 0"],
+    "correct_answer": "A) 2024",
+    "explanation": "sprintf formats data into a string. sprintf(str, \"%d\", 2024) stores \"2024\" in str. printf then prints \"2024\"."
+  },
+  {
+    "id": 50,
+    "topic": "Strings in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following?\nchar s[] = \"abcabc\";\nprintf(\"%s\", strchr(s, 'b'));",
+    "options":

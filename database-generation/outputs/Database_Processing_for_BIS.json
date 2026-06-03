@@ -1,0 +1,506 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DBMS stand for in the context of Business Information Systems?",
+    "options": ["A) Database Management System", "B) Data Backup Management System", "C) Digital Business Management Software", "D) Database Monitoring and Security"],
+    "correct_answer": "A) Database Management System",
+    "explanation": "DBMS stands for Database Management System, which is software that manages databases by providing an interface for users and applications to interact with data."
+  },
+  {
+    "id": 2,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of database model?",
+    "options": ["A) Relational Model", "B) Hierarchical Model", "C) Sequential Model", "D) Network Model"],
+    "correct_answer": "C) Sequential Model",
+    "explanation": "The main database models are Relational, Hierarchical, Network, and Object-Oriented. Sequential Model is not a standard database model."
+  },
+  {
+    "id": 3,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relational database, a table is also referred to as a:",
+    "options": ["A) Tuple", "B) Relation", "C) Attribute", "D) Domain"],
+    "correct_answer": "B) Relation",
+    "explanation": "In relational database terminology, a table is called a Relation. Rows are called tuples and columns are called attributes."
+  },
+  {
+    "id": 4,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL command is used to retrieve data from a database table?",
+    "options": ["A) INSERT", "B) UPDATE", "C) SELECT", "D) DELETE"],
+    "correct_answer": "C) SELECT",
+    "explanation": "The SELECT statement is used to retrieve data from one or more tables in a relational database. It is the most commonly used SQL command."
+  },
+  {
+    "id": 5,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A primary key in a database table must be:",
+    "options": ["A) Numeric only", "B) Unique and Not Null", "C) Alphabetic only", "D) Shared across multiple tables"],
+    "correct_answer": "B) Unique and Not Null",
+    "explanation": "A primary key uniquely identifies each record in a table. It must be unique (no duplicates) and cannot contain NULL values."
+  },
+  {
+    "id": 6,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands is used to add a new record to a table?",
+    "options": ["A) ADD", "B) INSERT INTO", "C) APPEND", "D) CREATE"],
+    "correct_answer": "B) INSERT INTO",
+    "explanation": "The INSERT INTO statement is used to add new rows/records to a database table. Syntax: INSERT INTO table_name VALUES (...)."
+  },
+  {
+    "id": 7,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a foreign key in a relational database?",
+    "options": ["A) A key imported from another database", "B) A field that links to the primary key of another table", "C) A key used for encryption", "D) A key that cannot be null"],
+    "correct_answer": "B) A field that links to the primary key of another table",
+    "explanation": "A foreign key is a column in one table that references the primary key of another table, establishing a relationship between the two tables."
+  },
+  {
+    "id": 8,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates partial dependencies?",
+    "options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "B) Second Normal Form (2NF)",
+    "explanation": "2NF eliminates partial dependencies, meaning every non-key attribute must be fully functionally dependent on the entire primary key, not just part of it."
+  },
+  {
+    "id": 9,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does SQL stand for?",
+    "options": ["A) Structured Query Language", "B) Simple Query Language", "C) Standard Question Language", "D) Sequential Query Logic"],
+    "correct_answer": "A) Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language. It is the standard language used to communicate with relational database management systems."
+  },
+  {
+    "id": 10,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a DDL (Data Definition Language) command?",
+    "options": ["A) SELECT", "B) INSERT", "C) CREATE", "D) UPDATE"],
+    "correct_answer": "C) CREATE",
+    "explanation": "DDL commands define the database structure. CREATE, ALTER, and DROP are DDL commands. SELECT, INSERT, and UPDATE are DML commands."
+  },
+  {
+    "id": 11,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an Entity-Relationship (ER) diagram, what shape represents an entity?",
+    "options": ["A) Diamond", "B) Circle/Ellipse", "C) Rectangle", "D) Triangle"],
+    "correct_answer": "C) Rectangle",
+    "explanation": "In ER diagrams, rectangles represent entities, ellipses represent attributes, and diamonds represent relationships between entities."
+  },
+  {
+    "id": 12,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used to filter records based on a condition?",
+    "options": ["A) ORDER BY", "B) GROUP BY", "C) WHERE", "D) HAVING"],
+    "correct_answer": "C) WHERE",
+    "explanation": "The WHERE clause filters records that meet a specified condition. It is used with SELECT, UPDATE, and DELETE statements."
+  },
+  {
+    "id": 13,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the COMMIT command in SQL?",
+    "options": ["A) To delete all records", "B) To save all changes made in a transaction permanently", "C) To undo the last operation", "D) To lock a table"],
+    "correct_answer": "B) To save all changes made in a transaction permanently",
+    "explanation": "COMMIT permanently saves all changes made during the current transaction to the database. It ends the transaction successfully."
+  },
+  {
+    "id": 14,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a NoSQL database?",
+    "options": ["A) MySQL", "B) Oracle", "C) MongoDB", "D) PostgreSQL"],
+    "correct_answer": "C) MongoDB",
+    "explanation": "MongoDB is a NoSQL document-oriented database. MySQL, Oracle, and PostgreSQL are relational (SQL) databases."
+  },
+  {
+    "id": 15,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ACID stand for in database transactions?",
+    "options": ["A) Atomicity, Consistency, Isolation, Durability", "B) Accuracy, Completeness, Integrity, Data", "C) Atomicity, Concurrency, Integrity, Durability", "D) Access, Control, Isolation, Distribution"],
+    "correct_answer": "A) Atomicity, Consistency, Isolation, Durability",
+    "explanation": "ACID properties ensure reliable database transactions: Atomicity (all or nothing), Consistency (valid state), Isolation (independent transactions), Durability (permanent changes)."
+  },
+  {
+    "id": 16,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL function returns the total number of rows in a table?",
+    "options": ["A) SUM()", "B) TOTAL()", "C) COUNT()", "D) NUMBER()"],
+    "correct_answer": "C) COUNT()",
+    "explanation": "COUNT() is an aggregate function that returns the number of rows matching a specified condition. Example: SELECT COUNT(*) FROM table_name."
+  },
+  {
+    "id": 17,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a database, what is a 'view'?",
+    "options": ["A) A physical copy of a table", "B) A virtual table based on a SQL query", "C) A backup of the database", "D) A type of index"],
+    "correct_answer": "B) A virtual table based on a SQL query",
+    "explanation": "A view is a virtual table created by a stored SQL query. It does not store data physically but presents data from one or more tables."
+  },
+  {
+    "id": 18,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to sort the result set in ascending or descending order?",
+    "options": ["A) SORT BY", "B) ORDER BY", "C) ARRANGE BY", "D) GROUP BY"],
+    "correct_answer": "B) ORDER BY",
+    "explanation": "ORDER BY sorts the result set. By default it sorts in ascending order (ASC). Use DESC for descending order."
+  },
+  {
+    "id": 19,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is data redundancy in a database?",
+    "options": ["A) Storing data in encrypted form", "B) Storing the same data in multiple places unnecessarily", "C) Backing up data regularly", "D) Compressing data to save space"],
+    "correct_answer": "B) Storing the same data in multiple places unnecessarily",
+    "explanation": "Data redundancy occurs when the same data is stored in multiple locations, leading to inconsistency and wasted storage. Normalization helps reduce redundancy."
+  },
+  {
+    "id": 20,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands removes all records from a table without deleting the table structure?",
+    "options": ["A) DROP TABLE", "B) DELETE FROM", "C) TRUNCATE TABLE", "D) REMOVE TABLE"],
+    "correct_answer": "C) TRUNCATE TABLE",
+    "explanation": "TRUNCATE TABLE removes all rows from a table quickly without logging individual row deletions, but keeps the table structure intact. DELETE removes rows one by one."
+  },
+  {
+    "id": 21,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a relational database, a row in a table is called a:",
+    "options": ["A) Attribute", "B) Field", "C) Tuple", "D) Schema"],
+    "correct_answer": "C) Tuple",
+    "explanation": "In relational database terminology, a row is called a tuple. A column is called an attribute, and the table is called a relation."
+  },
+  {
+    "id": 22,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL aggregate function returns the highest value in a column?",
+    "options": ["A) HIGHEST()", "B) MAX()", "C) TOP()", "D) UPPER()"],
+    "correct_answer": "B) MAX()",
+    "explanation": "MAX() is an aggregate function that returns the maximum (highest) value in a specified column. Similarly, MIN() returns the minimum value."
+  },
+  {
+    "id": 23,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of an index in a database?",
+    "options": ["A) To encrypt data", "B) To speed up data retrieval operations", "C) To compress the database", "D) To create backups automatically"],
+    "correct_answer": "B) To speed up data retrieval operations",
+    "explanation": "An index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional storage space."
+  },
+  {
+    "id": 24,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following represents a one-to-many relationship in a database?",
+    "options": ["A) One student has one ID card", "B) One department has many employees", "C) Many students enroll in many courses", "D) One product belongs to one category only"],
+    "correct_answer": "B) One department has many employees",
+    "explanation": "A one-to-many relationship means one record in a table can relate to multiple records in another table. One department can have many employees."
+  },
+  {
+    "id": 25,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DML stand for in SQL?",
+    "options": ["A) Data Manipulation Language", "B) Data Management Logic", "C) Database Modeling Language", "D) Data Merging Language"],
+    "correct_answer": "A) Data Manipulation Language",
+    "explanation": "DML stands for Data Manipulation Language. It includes commands like SELECT, INSERT, UPDATE, and DELETE used to manipulate data in tables."
+  },
+  {
+    "id": 26,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL clause is used with aggregate functions to filter groups of records?",
+    "options": ["A) WHERE", "B) FILTER", "C) HAVING", "D) GROUP FILTER"],
+    "correct_answer": "C) HAVING",
+    "explanation": "HAVING clause filters groups created by GROUP BY. WHERE filters individual rows before grouping; HAVING filters after grouping with aggregate functions."
+  },
+  {
+    "id": 27,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database normalization, what does 1NF (First Normal Form) require?",
+    "options": ["A) No partial dependencies", "B) No transitive dependencies", "C) All attributes must be atomic (indivisible)", "D) All tables must have a composite key"],
+    "correct_answer": "C) All attributes must be atomic (indivisible)",
+    "explanation": "1NF requires that each column contains atomic (indivisible) values and each row is unique. No repeating groups or arrays are allowed."
+  },
+  {
+    "id": 28,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid SQL data type?",
+    "options": ["A) FLOAT", "B) DECIMAL_NUMBER", "C) WHOLE_NUMBER", "D) TEXT_STRING"],
+    "correct_answer": "A) FLOAT",
+    "explanation": "FLOAT is a valid SQL data type for storing floating-point numbers. Other valid types include INT, VARCHAR, DATE, CHAR, etc."
+  },
+  {
+    "id": 29,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a stored procedure in a database?",
+    "options": ["A) A method to store large files", "B) A precompiled set of SQL statements stored in the database", "C) A backup procedure for the database", "D) A way to encrypt stored data"],
+    "correct_answer": "B) A precompiled set of SQL statements stored in the database",
+    "explanation": "A stored procedure is a precompiled collection of SQL statements that can be executed as a unit. It improves performance and code reusability."
+  },
+  {
+    "id": 30,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL JOIN returns all records from the left table and matched records from the right table?",
+    "options": ["A) INNER JOIN", "B) RIGHT JOIN", "C) LEFT JOIN", "D) FULL JOIN"],
+    "correct_answer": "C) LEFT JOIN",
+    "explanation": "LEFT JOIN returns all records from the left table and matching records from the right table. Non-matching right table records show NULL."
+  },
+  {
+    "id": 31,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a Database Administrator (DBA) in BIS?",
+    "options": ["A) Writing business reports only", "B) Managing, maintaining, and securing the database system", "C) Designing user interfaces", "D) Developing mobile applications"],
+    "correct_answer": "B) Managing, maintaining, and securing the database system",
+    "explanation": "A DBA is responsible for installing, configuring, upgrading, administering, monitoring, and maintaining databases to ensure availability and performance."
+  },
+  {
+    "id": 32,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands is used to modify existing records in a table?",
+    "options": ["A) MODIFY", "B) ALTER", "C) UPDATE", "D) CHANGE"],
+    "correct_answer": "C) UPDATE",
+    "explanation": "The UPDATE statement modifies existing records in a table. Syntax: UPDATE table_name SET column = value WHERE condition."
+  },
+  {
+    "id": 33,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a database, what is a 'schema'?",
+    "options": ["A) A type of query", "B) The logical structure/blueprint of the database", "C) A backup file", "D) A type of join operation"],
+    "correct_answer": "B) The logical structure/blueprint of the database",
+    "explanation": "A database schema defines the logical structure of the database, including tables, fields, relationships, views, and constraints."
+  },
+  {
+    "id": 34,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which SQL keyword is used to avoid duplicate values in query results?",
+    "options": ["A) UNIQUE", "B) DISTINCT", "C) DIFFERENT", "D) NODUPLICATE"],
+    "correct_answer": "B) DISTINCT",
+    "explanation": "The DISTINCT keyword in SELECT eliminates duplicate rows from the result set. Example: SELECT DISTINCT city FROM customers."
+  },
+  {
+    "id": 35,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What type of relationship exists between a student and their student ID card?",
+    "options": ["A) One-to-Many", "B) Many-to-Many", "C) One-to-One", "D) Many-to-One"],
+    "correct_answer": "C) One-to-One",
+    "explanation": "A one-to-one relationship means each record in one table corresponds to exactly one record in another table. Each student has exactly one ID card."
+  },
+  {
+    "id": 36,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to undo uncommitted changes in a database transaction?",
+    "options": ["A) COMMIT", "B) ROLLBACK", "C) UNDO", "D) REVERT"],
+    "correct_answer": "B) ROLLBACK",
+    "explanation": "ROLLBACK undoes all changes made in the current transaction that have not been committed. It restores the database to its previous state."
+  },
+  {
+    "id": 37,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": ["A) To sort records alphabetically", "B) To group rows with the same values for aggregate functions", "C) To join multiple tables", "D) To filter records based on conditions"],
+    "correct_answer": "B) To group rows with the same values for aggregate functions",
+    "explanation": "GROUP BY groups rows that have the same values in specified columns, allowing aggregate functions (COUNT, SUM, AVG) to be applied to each group."
+  },
+  {
+    "id": 38,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'candidate key'?",
+    "options": ["A) A key used for encryption", "B) Any column that could serve as a primary key", "C) A foreign key from another table", "D) A key that allows NULL values"],
+    "correct_answer": "B) Any column that could serve as a primary key",
+    "explanation": "A candidate key is any column or combination of columns that can uniquely identify a row. One candidate key is chosen as the primary key."
+  },
+  {
+    "id": 39,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In SQL, which operator is used to search for a pattern in a column?",
+    "options": ["A) MATCH", "B) FIND", "C) LIKE", "D) SEARCH"],
+    "correct_answer": "C) LIKE",
+    "explanation": "The LIKE operator is used in WHERE clauses to search for a specified pattern. % represents zero or more characters, _ represents a single character."
+  },
+  {
+    "id": 40,
+    "topic": "Database Processing for BIS",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the function of the AVG() aggregate function in SQL?",
+    "options": ["A) Returns the maximum value", "B) Returns the total sum of values", "C) Returns the average value of a numeric column", "D) Returns the count of rows"],
+    "correct_answer": "C) Returns the average value of a numeric column",
+    "explanation": "AVG() calculates the arithmetic mean of values in a numeric column. Example: SELECT AVG(salary) FROM employees returns the average salary."
+  },
+  {
+    "id": 41,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a table 'Orders' with columns: OrderID, CustomerID, Amount, OrderDate. Which query correctly retrieves customers who have placed more than 3 orders?",
+    "options": ["A) SELECT CustomerID FROM Orders WHERE COUNT(OrderID) > 3", "B) SELECT CustomerID FROM Orders GROUP BY CustomerID HAVING COUNT(OrderID) > 3", "C) SELECT CustomerID FROM Orders HAVING COUNT(OrderID) > 3", "D) SELECT CustomerID FROM Orders GROUP BY CustomerID WHERE COUNT(OrderID) > 3"],
+    "correct_answer": "B) SELECT CustomerID FROM Orders GROUP BY CustomerID HAVING COUNT(OrderID) > 3",
+    "explanation": "GROUP BY groups records by CustomerID, COUNT(OrderID) counts orders per customer, and HAVING filters groups with more than 3 orders. WHERE cannot use aggregate functions."
+  },
+  {
+    "id": 42,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A relation R(A, B, C, D) has functional dependencies: A→B, B→C, C→D. What is the highest normal form this relation is in if A is the primary key?",
+    "options": ["A) 1NF", "B) 2NF", "C) 3NF", "D) BCNF"],
+    "correct_answer": "A) 1NF",
+    "explanation": "With A as primary key, B→C and C→D are transitive dependencies (non-key attributes determining other non-key attributes), violating 3NF. It's only in 1NF if all attributes are atomic."
+  },
+  {
+    "id": 43,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a database with 5 tables, each having an average of 1000 rows, a Cartesian product (CROSS JOIN) of all 5 tables would produce how many rows?",
+    "options": ["A) 5,000", "B) 100,000", "C) 1,000,000,000,000,000", "D) 1,000,000,000,000"],
+    "correct_answer": "C) 1,000,000,000,000,000",
+    "explanation": "Cartesian product multiplies all rows: 1000 × 1000 × 1000 × 1000 × 1000 = 1000^5 = 10^15 = 1,000,000,000,000,000 rows."
+  },
+  {
+    "id": 44,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which isolation level in SQL prevents dirty reads but allows non-repeatable reads?",
+    "options": ["A) READ UNCOMMITTED", "B) READ COMMITTED", "C) REPEATABLE READ", "D) SERIALIZABLE"],
+    "correct_answer": "B) READ COMMITTED",
+    "explanation": "READ COMMITTED prevents dirty reads (reading uncommitted data) but allows non-repeatable reads (same query returning different results within a transaction)."
+  },
+  {
+    "id": 45,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A table 'Employees' has 500 rows. After executing DELETE FROM Employees WHERE dept='HR', 50 rows are deleted. If ROLLBACK is then executed, how many rows does the table have?",
+    "options": ["A) 450", "B) 500", "C) 550", "D) 0"],
+    "correct_answer": "B) 500",
+    "explanation": "ROLLBACK undoes all uncommitted changes. Since DELETE was not committed before ROLLBACK, all 50 deleted rows are restored, returning the table to 500 rows."
+  },
+  {
+    "id": 46,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In an ER diagram, a weak entity is represented by:",
+    "options": ["A) A single rectangle", "B) A double rectangle", "C) A diamond shape", "D) An ellipse with double border"],
+    "correct_answer": "B) A double rectangle",
+    "explanation": "A weak entity (one that cannot be uniquely identified by its own attributes alone) is represented by a double rectangle in ER diagrams."
+  },
+  {
+    "id": 47,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following SQL queries finds the second highest salary from an 'Employees' table?",
+    "options": ["A) SELECT MAX(salary) FROM Employees WHERE salary < (SELECT MAX(salary) FROM Employees)", "B) SELECT TOP 2 salary FROM Employees ORDER BY salary DESC", "C) SELECT salary FROM Employees ORDER BY salary DESC LIMIT 1,1", "D) Both A and C are correct"],
+    "correct_answer": "D) Both A and C are correct",
+    "explanation": "Option A uses a subquery to find max salary less than the overall max. Option C uses LIMIT with offset to skip the first row and get the second. Both are valid approaches."
+  },
+  {
+    "id": 48,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a deadlock in database processing?",
+    "options": ["A) A situation where a query takes too long to execute", "B) A situation where two transactions wait indefinitely for each other to release locks", "C) A database crash due to hardware failure", "D) A condition where the database runs out of storage"],
+    "correct_answer": "B) A situation where two transactions wait indefinitely for each other to release locks",
+    "explanation": "Deadlock occurs when Transaction T1 holds a lock on resource A and waits for B, while T2 holds B and waits for A — creating a circular wait."
+  },
+  {
+    "id": 49,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In a B-tree index of order 3 (maximum 3 keys per node), what is the minimum number of keys in a non-root internal node?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "correct_answer": "A) 1",
+    "explanation": "In a B-tree of order m, non-root internal nodes must have at least ⌈m/2⌉ - 1 keys. For order 3: ⌈3/2⌉ - 1 = 2 - 1 = 1 minimum key."
+  },
+  {
+    "id": 50,
+    "topic": "Database Processing for BIS",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which type of JOIN returns only the rows that have matching values in both tables?",
+    "options": ["A) LEFT JOIN", "B) RIGHT JOIN", "C) INNER JOIN", "D) FULL OUTER JOIN"],
+    "correct_answer": "C) INNER JOIN",
+    "explanation": "INNER JOIN returns only rows where there is a match in both tables based on the join condition. Non-matching rows from either table are excluded."
+  },
+  {
+    "id": 51,
+    "topic": "Database Processing for BIS",
+    "

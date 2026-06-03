@@ -1,0 +1,489 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'internetworking' refer to?",
+    "options": ["A) Connecting multiple networks together to form a larger network", "B) Connecting a single computer to the internet", "C) Installing network cables in a building", "D) Configuring a single LAN"],
+    "correct_answer": "A) Connecting multiple networks together to form a larger network",
+    "explanation": "Internetworking refers to the practice of connecting two or more distinct networks using devices like routers to enable communication between them. It forms the basis of the modern internet."
+  },
+  {
+    "id": 2,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which device operates at the Network Layer (Layer 3) of the OSI model and is primarily used for internetworking?",
+    "options": ["A) Hub", "B) Switch", "C) Router", "D) Repeater"],
+    "correct_answer": "C) Router",
+    "explanation": "Routers operate at Layer 3 (Network Layer) of the OSI model. They forward packets between different networks using IP addresses, making them the primary internetworking device."
+  },
+  {
+    "id": 3,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of IP in networking?",
+    "options": ["A) Internet Protocol", "B) Internal Process", "C) Integrated Port", "D) Interface Program"],
+    "correct_answer": "A) Internet Protocol",
+    "explanation": "IP stands for Internet Protocol. It is the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries."
+  },
+  {
+    "id": 4,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits are in an IPv4 address?",
+    "options": ["A) 16 bits", "B) 32 bits", "C) 64 bits", "D) 128 bits"],
+    "correct_answer": "B) 32 bits",
+    "explanation": "An IPv4 address is 32 bits long, typically written as four octets in dotted-decimal notation (e.g., 192.168.1.1). IPv6 uses 128 bits."
+  },
+  {
+    "id": 5,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid IPv4 address?",
+    "options": ["A) 192.168.1.256", "B) 172.16.0.1", "C) 300.1.1.1", "D) 10.0.0.999"],
+    "correct_answer": "B) 172.16.0.1",
+    "explanation": "Each octet in an IPv4 address must be between 0 and 255. 172.16.0.1 is valid. The others contain values exceeding 255, making them invalid."
+  },
+  {
+    "id": 6,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default subnet mask for a Class C IP address?",
+    "options": ["A) 255.0.0.0", "B) 255.255.0.0", "C) 255.255.255.0", "D) 255.255.255.255"],
+    "correct_answer": "C) 255.255.255.0",
+    "explanation": "Class C addresses (192.0.0.0 to 223.255.255.255) have a default subnet mask of 255.255.255.0, providing 254 usable host addresses per network."
+  },
+  {
+    "id": 7,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to map an IP address to a MAC address?",
+    "options": ["A) DNS", "B) DHCP", "C) ARP", "D) RARP"],
+    "correct_answer": "C) ARP",
+    "explanation": "ARP (Address Resolution Protocol) maps a known IP address to a MAC address. It broadcasts a request on the local network and the device with that IP responds with its MAC address."
+  },
+  {
+    "id": 8,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DNS stand for in networking?",
+    "options": ["A) Dynamic Network System", "B) Domain Name System", "C) Data Network Service", "D) Distributed Node Server"],
+    "correct_answer": "B) Domain Name System",
+    "explanation": "DNS (Domain Name System) translates human-readable domain names (like www.google.com) into IP addresses that computers use to identify each other on the network."
+  },
+  {
+    "id": 9,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the OSI model is responsible for logical addressing and routing?",
+    "options": ["A) Data Link Layer", "B) Transport Layer", "C) Network Layer", "D) Session Layer"],
+    "correct_answer": "C) Network Layer",
+    "explanation": "The Network Layer (Layer 3) handles logical addressing (IP addresses) and routing of packets from source to destination across multiple networks."
+  },
+  {
+    "id": 10,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum number of hosts in a Class B network?",
+    "options": ["A) 254", "B) 65,534", "C) 16,777,214", "D) 2,097,152"],
+    "correct_answer": "B) 65,534",
+    "explanation": "Class B uses 16 bits for host addressing. Total addresses = 2^16 = 65,536. Subtracting network and broadcast addresses: 65,536 - 2 = 65,534 usable hosts."
+  },
+  {
+    "id": 11,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a private IP address range?",
+    "options": ["A) 11.0.0.0 – 11.255.255.255", "B) 172.16.0.0 – 172.31.255.255", "C) 200.0.0.0 – 200.255.255.255", "D) 150.0.0.0 – 150.255.255.255"],
+    "correct_answer": "B) 172.16.0.0 – 172.31.255.255",
+    "explanation": "Private IP ranges defined by RFC 1918 are: 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. The range 172.16.0.0–172.31.255.255 falls in the /12 private block."
+  },
+  {
+    "id": 12,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DHCP stand for?",
+    "options": ["A) Dynamic Host Configuration Protocol", "B) Data Host Control Program", "C) Distributed Host Connection Protocol", "D) Dynamic Hardware Configuration Process"],
+    "correct_answer": "A) Dynamic Host Configuration Protocol",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network configuration parameters to devices on a network."
+  },
+  {
+    "id": 13,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many bits are in an IPv6 address?",
+    "options": ["A) 32 bits", "B) 64 bits", "C) 128 bits", "D) 256 bits"],
+    "correct_answer": "C) 128 bits",
+    "explanation": "IPv6 addresses are 128 bits long, written as eight groups of four hexadecimal digits separated by colons. This provides approximately 3.4 × 10^38 unique addresses."
+  },
+  {
+    "id": 14,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to send email over the internet?",
+    "options": ["A) FTP", "B) HTTP", "C) SMTP", "D) SNMP"],
+    "correct_answer": "C) SMTP",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending emails between servers. It operates on port 25 and is the standard protocol for email transmission."
+  },
+  {
+    "id": 15,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the loopback IP address in IPv4?",
+    "options": ["A) 0.0.0.0", "B) 127.0.0.1", "C) 192.168.0.1", "D) 255.255.255.255"],
+    "correct_answer": "B) 127.0.0.1",
+    "explanation": "127.0.0.1 is the loopback address used to test network software on the local machine without sending packets over the network. It always refers to 'this computer'."
+  },
+  {
+    "id": 16,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following operates at the Data Link Layer and connects devices within the same network?",
+    "options": ["A) Router", "B) Switch", "C) Gateway", "D) Firewall"],
+    "correct_answer": "B) Switch",
+    "explanation": "A switch operates at Layer 2 (Data Link Layer) and uses MAC addresses to forward frames within the same network segment, unlike routers which connect different networks."
+  },
+  {
+    "id": 17,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number used by HTTP?",
+    "options": ["A) 21", "B) 23", "C) 80", "D) 443"],
+    "correct_answer": "C) 80",
+    "explanation": "HTTP (HyperText Transfer Protocol) uses port 80 by default. HTTPS uses port 443, FTP uses port 21, and Telnet uses port 23."
+  },
+  {
+    "id": 18,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does NAT stand for in networking?",
+    "options": ["A) Network Address Translation", "B) Node Access Terminal", "C) Network Allocation Table", "D) Node Authentication Token"],
+    "correct_answer": "A) Network Address Translation",
+    "explanation": "NAT (Network Address Translation) allows multiple devices on a private network to share a single public IP address, conserving IPv4 address space."
+  },
+  {
+    "id": 19,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which class of IP address has the first octet range of 1 to 126?",
+    "options": ["A) Class A", "B) Class B", "C) Class C", "D) Class D"],
+    "correct_answer": "A) Class A",
+    "explanation": "Class A addresses range from 1.0.0.0 to 126.255.255.255. Note: 127.x.x.x is reserved for loopback. Class A supports large networks with millions of hosts."
+  },
+  {
+    "id": 20,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the broadcast address for the network 192.168.1.0/24?",
+    "options": ["A) 192.168.1.0", "B) 192.168.1.1", "C) 192.168.1.254", "D) 192.168.1.255"],
+    "correct_answer": "D) 192.168.1.255",
+    "explanation": "For a /24 network (255.255.255.0), the broadcast address is the last address in the range. For 192.168.1.0/24, the broadcast is 192.168.1.255."
+  },
+  {
+    "id": 21,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol provides reliable, connection-oriented communication?",
+    "options": ["A) UDP", "B) ICMP", "C) TCP", "D) ARP"],
+    "correct_answer": "C) TCP",
+    "explanation": "TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of data between applications. It establishes a connection using a three-way handshake."
+  },
+  {
+    "id": 22,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What command is used to test connectivity between two hosts in a network?",
+    "options": ["A) tracert", "B) ping", "C) netstat", "D) ipconfig"],
+    "correct_answer": "B) ping",
+    "explanation": "The 'ping' command sends ICMP Echo Request packets to a target host and waits for Echo Reply packets to test network connectivity and measure round-trip time."
+  },
+  {
+    "id": 23,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the acronym OSI stand for?",
+    "options": ["A) Open System Interconnection", "B) Operating System Interface", "C) Open Software Integration", "D) Optical Signal Interface"],
+    "correct_answer": "A) Open System Interconnection",
+    "explanation": "OSI stands for Open System Interconnection. It is a conceptual framework with 7 layers that standardizes how different network systems communicate with each other."
+  },
+  {
+    "id": 24,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which device regenerates signals to extend the range of a network without interpreting data?",
+    "options": ["A) Router", "B) Switch", "C) Repeater", "D) Gateway"],
+    "correct_answer": "C) Repeater",
+    "explanation": "A repeater operates at Layer 1 (Physical Layer) and simply amplifies or regenerates signals to extend the transmission distance without examining the data content."
+  },
+  {
+    "id": 25,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number for HTTPS?",
+    "options": ["A) 80", "B) 8080", "C) 443", "D) 8443"],
+    "correct_answer": "C) 443",
+    "explanation": "HTTPS (HTTP Secure) uses port 443 by default. It encrypts communication using TLS/SSL, providing secure data transfer over the internet."
+  },
+  {
+    "id": 26,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which routing protocol uses hop count as its metric?",
+    "options": ["A) OSPF", "B) BGP", "C) RIP", "D) EIGRP"],
+    "correct_answer": "C) RIP",
+    "explanation": "RIP (Routing Information Protocol) uses hop count as its routing metric, with a maximum of 15 hops. A hop count of 16 is considered unreachable."
+  },
+  {
+    "id": 27,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum hop count allowed in RIP?",
+    "options": ["A) 10", "B) 15", "C) 16", "D) 255"],
+    "correct_answer": "B) 15",
+    "explanation": "RIP allows a maximum of 15 hops. A route with 16 hops is considered unreachable/infinite. This limits RIP to smaller networks."
+  },
+  {
+    "id": 28,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a connectionless protocol?",
+    "options": ["A) TCP", "B) FTP", "C) UDP", "D) Telnet"],
+    "correct_answer": "C) UDP",
+    "explanation": "UDP (User Datagram Protocol) is connectionless — it sends data without establishing a connection first. It is faster but less reliable than TCP."
+  },
+  {
+    "id": 29,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does TTL stand for in networking?",
+    "options": ["A) Time To Live", "B) Transfer To Link", "C) Total Transmission Length", "D) Token Transfer Level"],
+    "correct_answer": "A) Time To Live",
+    "explanation": "TTL (Time To Live) is a field in IP packets that limits the packet's lifetime. Each router decrements TTL by 1; when it reaches 0, the packet is discarded to prevent infinite loops."
+  },
+  {
+    "id": 30,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is used to transfer files between computers over a network?",
+    "options": ["A) HTTP", "B) FTP", "C) SMTP", "D) SNMP"],
+    "correct_answer": "B) FTP",
+    "explanation": "FTP (File Transfer Protocol) is used to transfer files between a client and server over a TCP/IP network. It uses port 21 for control and port 20 for data transfer."
+  },
+  {
+    "id": 31,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default subnet mask for a Class A network?",
+    "options": ["A) 255.0.0.0", "B) 255.255.0.0", "C) 255.255.255.0", "D) 255.255.255.255"],
+    "correct_answer": "A) 255.0.0.0",
+    "explanation": "Class A networks use 8 bits for the network portion and 24 bits for hosts, giving a default subnet mask of 255.0.0.0 (or /8 in CIDR notation)."
+  },
+  {
+    "id": 32,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a function of a router?",
+    "options": ["A) Packet forwarding", "B) Path determination", "C) Amplifying signals", "D) Connecting different networks"],
+    "correct_answer": "C) Amplifying signals",
+    "explanation": "Routers forward packets and determine paths between networks. Amplifying signals is the function of a repeater (Layer 1 device), not a router."
+  },
+  {
+    "id": 33,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a gateway in internetworking?",
+    "options": ["A) To connect networks using different protocols", "B) To amplify network signals", "C) To assign IP addresses dynamically", "D) To filter MAC addresses"],
+    "correct_answer": "A) To connect networks using different protocols",
+    "explanation": "A gateway connects networks that use different communication protocols. It performs protocol translation, allowing dissimilar networks to communicate with each other."
+  },
+  {
+    "id": 34,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the TCP/IP model corresponds to the Network Layer of the OSI model?",
+    "options": ["A) Application Layer", "B) Transport Layer", "C) Internet Layer", "D) Network Access Layer"],
+    "correct_answer": "C) Internet Layer",
+    "explanation": "The Internet Layer of the TCP/IP model corresponds to the Network Layer (Layer 3) of the OSI model. Both handle logical addressing and routing of packets."
+  },
+  {
+    "id": 35,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ICMP stand for?",
+    "options": ["A) Internet Control Message Protocol", "B) Internal Communication Management Protocol", "C) Integrated Circuit Message Protocol", "D) Internet Connection Monitoring Program"],
+    "correct_answer": "A) Internet Control Message Protocol",
+    "explanation": "ICMP (Internet Control Message Protocol) is used for sending error messages and operational information. The 'ping' command uses ICMP Echo Request/Reply messages."
+  },
+  {
+    "id": 36,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many usable host addresses are available in a /30 subnet?",
+    "options": ["A) 2", "B) 4", "C) 6", "D) 8"],
+    "correct_answer": "A) 2",
+    "explanation": "A /30 subnet has 2 bits for hosts: 2^2 = 4 total addresses. Subtracting network and broadcast: 4 - 2 = 2 usable host addresses. Commonly used for point-to-point links."
+  },
+  {
+    "id": 37,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a link-state routing protocol?",
+    "options": ["A) RIP", "B) OSPF", "C) IGRP", "D) BGP"],
+    "correct_answer": "B) OSPF",
+    "explanation": "OSPF (Open Shortest Path First) is a link-state routing protocol. It builds a complete topology map of the network and uses Dijkstra's algorithm to find the shortest path."
+  },
+  {
+    "id": 38,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the port number used by Telnet?",
+    "options": ["A) 21", "B) 22", "C) 23", "D) 25"],
+    "correct_answer": "C) 23",
+    "explanation": "Telnet uses port 23 for remote terminal access. It transmits data in plaintext, making it insecure. SSH (port 22) is the secure alternative to Telnet."
+  },
+  {
+    "id": 39,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a WAN?",
+    "options": ["A) A network within a single building", "B) A network spanning a city", "C) A network spanning large geographical areas like countries", "D) A network connecting devices in a single room"],
+    "correct_answer": "C) A network spanning large geographical areas like countries",
+    "explanation": "A WAN (Wide Area Network) spans large geographical areas, potentially worldwide. The internet is the largest WAN. LANs cover buildings, MANs cover cities."
+  },
+  {
+    "id": 40,
+    "topic": "Internetworking",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the network address for the IP 192.168.10.50 with subnet mask 255.255.255.0?",
+    "options": ["A) 192.168.10.0", "B) 192.168.10.1", "C) 192.168.10.50", "D) 192.168.10.255"],
+    "correct_answer": "A) 192.168.10.0",
+    "explanation": "Performing AND operation: 192.168.10.50 AND 255.255.255.0 = 192.168.10.0. The network address is obtained by ANDing the IP address with the subnet mask."
+  },
+  {
+    "id": 41,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A network administrator subnets the 172.16.0.0/16 network into /24 subnets. How many subnets are created?",
+    "options": ["A) 128", "B) 256", "C) 512", "D) 1024"],
+    "correct_answer": "B) 256",
+    "explanation": "Going from /16 to /24 adds 8 bits for subnetting. Number of subnets = 2^8 = 256. Each subnet has 254 usable host addresses."
+  },
+  {
+    "id": 42,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which of the following CIDR notations represents the subnet mask 255.255.252.0?",
+    "options": ["A) /20", "B) /21", "C) /22", "D) /23"],
+    "correct_answer": "C) /22",
+    "explanation": "255.255.252.0 in binary: 11111111.11111111.11111100.00000000. Counting the 1s: 8+8+6+0 = 22. So the CIDR notation is /22."
+  },
+  {
+    "id": 43,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "How many usable host addresses are available in a /22 subnet?",
+    "options": ["A) 510", "B) 1022", "C) 1024", "D) 2046"],
+    "correct_answer": "B) 1022",
+    "explanation": "A /22 subnet has 32-22 = 10 host bits. Total addresses = 2^10 = 1024. Usable hosts = 1024 - 2 = 1022 (subtracting network and broadcast addresses)."
+  },
+  {
+    "id": 44,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the subnet mask in dotted decimal for /19?",
+    "options": ["A) 255.255.224.0", "B) 255.255.240.0", "C) 255.255.248.0", "D) 255.255.252.0"],
+    "correct_answer": "A) 255.255.224.0",
+    "explanation": "/19 means 19 bits are 1s. First two octets: 255.255. Third octet: 11100000 = 224. Fourth octet: 0. So the mask is 255.255.224.0."
+  },
+  {
+    "id": 45,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which routing protocol uses the Bellman-Ford algorithm?",
+    "options": ["A) OSPF", "B) IS-IS", "C) RIP", "D) EIGRP"],
+    "correct_answer": "C) RIP",
+    "explanation": "RIP (Routing Information Protocol) uses the Bellman-Ford (distance-vector) algorithm. OSPF uses Dijkstra's algorithm. EIGRP uses the DUAL algorithm."
+  },
+  {
+    "id": 46,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the range of Class D IP addresses?",
+    "options": ["A) 192.0.0.0 – 223.255.255.255", "B) 224.0.0.0 – 239.255.255.255", "C) 240.0.0.0 – 254.255.255.255", "D) 128.0.0.0 – 191.255.255.255"],
+    "correct_answer": "B) 224.0.0.0 – 239.255.255.255",
+    "explanation": "Class D addresses (224.0.0.0 to 239.255.255.255) are reserved for multicast groups. They are not assigned to individual hosts but to multicast group addresses."
+  },
+  {
+    "id": 47,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A packet arrives at a router with TTL=1. What does the router do?",
+    "options": ["A) Forwards the packet normally", "B) Discards the packet and sends an ICMP Time Exceeded message", "C) Resets TTL to 64 and forwards", "D) Sends the packet back to the source"],
+    "correct_answer": "B) Discards the packet and sends an ICMP Time Exceeded message",
+    "explanation": "When a router receives a packet with TTL=1, it decrements TTL to 0, discards the packet, and sends an ICMP Type 11 (Time Exceeded) message back to the source."
+  },
+  {
+    "id": 48,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which of the following is an exterior gateway protocol used between autonomous systems?",
+    "options": ["A) OSPF", "B) RIP", "C) BGP", "D) EIGRP"],
+    "correct_answer": "C) BGP",
+    "explanation": "BGP (Border Gateway Protocol) is the standard exterior gateway protocol used to exchange routing information between autonomous systems on the internet. It is the protocol of the internet."
+  },
+  {
+    "id": 49,
+    "topic": "Internetworking",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the network address and broadcast address for 10.0.0.0/8?",
+    "options": ["A) Network: 10.0.0.0, Broadcast:

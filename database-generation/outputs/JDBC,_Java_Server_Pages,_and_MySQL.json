@@ -1,0 +1,480 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JDBC driver type is also known as the 'Thin Driver' and communicates directly with the database using a database-specific protocol?",
+    "options": ["A) Type 1", "B) Type 2", "C) Type 3", "D) Type 4"],
+    "correct_answer": "D) Type 4",
+    "explanation": "Type 4 JDBC driver is a pure Java driver that communicates directly with the database using its native protocol, hence called the 'Thin Driver'. It requires no additional software on the client side."
+  },
+  {
+    "id": 2,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to establish a connection to a database in JDBC?",
+    "options": ["A) DriverManager.openConnection()", "B) DriverManager.getConnection()", "C) Connection.connect()", "D) Driver.connect()"],
+    "correct_answer": "B) DriverManager.getConnection()",
+    "explanation": "DriverManager.getConnection(url, username, password) is the standard JDBC method used to establish a database connection. It returns a Connection object."
+  },
+  {
+    "id": 3,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct JDBC URL format for connecting to a MySQL database named 'testdb' on localhost at port 3306?",
+    "options": ["A) jdbc:mysql://localhost:3306/testdb", "B) mysql://localhost:3306/testdb", "C) jdbc:mysql:localhost/testdb:3306", "D) jdbc://mysql/localhost:3306/testdb"],
+    "correct_answer": "A) jdbc:mysql://localhost:3306/testdb",
+    "explanation": "The standard JDBC URL format for MySQL is jdbc:mysql://host:port/databasename. Port 3306 is the default MySQL port."
+  },
+  {
+    "id": 4,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which interface in JDBC is used to execute a simple SQL query without parameters?",
+    "options": ["A) PreparedStatement", "B) CallableStatement", "C) Statement", "D) ResultSet"],
+    "correct_answer": "C) Statement",
+    "explanation": "The Statement interface is used to execute simple SQL queries without input parameters. PreparedStatement is used for parameterized queries and CallableStatement for stored procedures."
+  },
+  {
+    "id": 5,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In JSP, which tag is used to declare variables and methods that become part of the servlet class?",
+    "options": ["A) <% %>", "B) <%= %>", "C) <%! %>", "D) <%@ %>"],
+    "correct_answer": "C) <%! %>",
+    "explanation": "<%! %> is the JSP declaration tag used to declare variables and methods at the class level. <% %> is for scriptlets, <%= %> for expressions, and <%@ %> for directives."
+  },
+  {
+    "id": 6,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JSP directive is used to import Java packages into a JSP page?",
+    "options": ["A) <%@ page import='...' %>", "B) <%@ include import='...' %>", "C) <%@ taglib import='...' %>", "D) <% import '...' %>"],
+    "correct_answer": "A) <%@ page import='...' %>",
+    "explanation": "The <%@ page import='packagename' %> directive is used to import Java packages in JSP, similar to the import statement in Java classes."
+  },
+  {
+    "id": 7,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the executeQuery() method in JDBC return?",
+    "options": ["A) int", "B) boolean", "C) ResultSet", "D) String"],
+    "correct_answer": "C) ResultSet",
+    "explanation": "executeQuery() is used for SELECT statements and returns a ResultSet object containing the query results. executeUpdate() returns an int for DML operations."
+  },
+  {
+    "id": 8,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which MySQL command is used to display all databases available on the server?",
+    "options": ["A) SHOW DATABASES;", "B) LIST DATABASES;", "C) DISPLAY DATABASES;", "D) SELECT DATABASES;"],
+    "correct_answer": "A) SHOW DATABASES;",
+    "explanation": "SHOW DATABASES; is the MySQL command to list all databases on the server. SHOW TABLES; is used to list tables within a selected database."
+  },
+  {
+    "id": 9,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In JSP, which implicit object represents the HTTP request sent by the client?",
+    "options": ["A) response", "B) session", "C) request", "D) application"],
+    "correct_answer": "C) request",
+    "explanation": "The 'request' implicit object in JSP represents the HttpServletRequest and provides access to request parameters, headers, and attributes sent by the client."
+  },
+  {
+    "id": 10,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of ResultSet is used to move the cursor to the next row?",
+    "options": ["A) ResultSet.forward()", "B) ResultSet.next()", "C) ResultSet.move()", "D) ResultSet.advance()"],
+    "correct_answer": "B) ResultSet.next()",
+    "explanation": "ResultSet.next() moves the cursor to the next row and returns true if there is a next row, false otherwise. It is commonly used in a while loop to iterate through results."
+  },
+  {
+    "id": 11,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default port number for MySQL database server?",
+    "options": ["A) 1521", "B) 5432", "C) 3306", "D) 8080"],
+    "correct_answer": "C) 3306",
+    "explanation": "MySQL uses port 3306 by default. Port 1521 is for Oracle, 5432 for PostgreSQL, and 8080 is commonly used for HTTP servers."
+  },
+  {
+    "id": 12,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JSP implicit object is used to send output to the client browser?",
+    "options": ["A) request", "B) out", "C) response", "D) session"],
+    "correct_answer": "B) out",
+    "explanation": "The 'out' implicit object in JSP is of type JspWriter and is used to write output to the client browser. It is similar to PrintWriter in servlets."
+  },
+  {
+    "id": 13,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JDBC class is responsible for loading and registering database drivers?",
+    "options": ["A) Connection", "B) Statement", "C) DriverManager", "D) ResultSet"],
+    "correct_answer": "C) DriverManager",
+    "explanation": "DriverManager is the JDBC class that manages database drivers. It is used to register drivers and establish connections via getConnection() method."
+  },
+  {
+    "id": 14,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In MySQL, which command is used to select a specific database to work with?",
+    "options": ["A) SELECT DATABASE name;", "B) OPEN DATABASE name;", "C) USE name;", "D) CONNECT name;"],
+    "correct_answer": "C) USE name;",
+    "explanation": "The USE statement in MySQL selects a specific database to be used for subsequent SQL operations. Example: USE mydb; selects the database named 'mydb'."
+  },
+  {
+    "id": 15,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JSP tag is used to output the value of a Java expression directly to the page?",
+    "options": ["A) <% %>", "B) <%! %>", "C) <%@ %>", "D) <%= %>"],
+    "correct_answer": "D) <%= %>",
+    "explanation": "The <%= %> expression tag evaluates the Java expression inside it and outputs the result directly to the HTML page. It is equivalent to out.print() in a scriptlet."
+  },
+  {
+    "id": 16,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to execute INSERT, UPDATE, or DELETE SQL statements in JDBC?",
+    "options": ["A) executeQuery()", "B) execute()", "C) executeUpdate()", "D) executeDML()"],
+    "correct_answer": "C) executeUpdate()",
+    "explanation": "executeUpdate() is used for DML statements (INSERT, UPDATE, DELETE) and DDL statements. It returns an int representing the number of rows affected."
+  },
+  {
+    "id": 17,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the file extension for a Java Server Pages file?",
+    "options": ["A) .java", "B) .html", "C) .jsp", "D) .jspx"],
+    "correct_answer": "C) .jsp",
+    "explanation": "JSP files have the .jsp extension. When deployed, the web server compiles them into Java servlets. .jspx is used for XML-based JSP documents."
+  },
+  {
+    "id": 18,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In MySQL, which data type is used to store variable-length character strings up to 255 characters?",
+    "options": ["A) CHAR", "B) VARCHAR", "C) TEXT", "D) STRING"],
+    "correct_answer": "B) VARCHAR",
+    "explanation": "VARCHAR stores variable-length strings and is more storage-efficient than CHAR for varying-length data. CHAR stores fixed-length strings. TEXT is for larger text data."
+  },
+  {
+    "id": 19,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JSP implicit object is used to maintain user session information across multiple requests?",
+    "options": ["A) application", "B) config", "C) session", "D) context"],
+    "correct_answer": "C) session",
+    "explanation": "The 'session' implicit object in JSP represents the HttpSession and is used to store and retrieve user-specific data across multiple HTTP requests."
+  },
+  {
+    "id": 20,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JDBC interface is used to execute parameterized SQL queries to prevent SQL injection?",
+    "options": ["A) Statement", "B) PreparedStatement", "C) CallableStatement", "D) SafeStatement"],
+    "correct_answer": "B) PreparedStatement",
+    "explanation": "PreparedStatement uses placeholders (?) for parameters, which are set using setter methods. This prevents SQL injection by separating SQL code from data."
+  },
+  {
+    "id": 21,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In MySQL, which clause is used to filter rows based on a condition in a SELECT statement?",
+    "options": ["A) HAVING", "B) WHERE", "C) FILTER", "D) CONDITION"],
+    "correct_answer": "B) WHERE",
+    "explanation": "The WHERE clause filters rows based on a specified condition in SELECT, UPDATE, and DELETE statements. HAVING is used to filter groups after GROUP BY."
+  },
+  {
+    "id": 22,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does JSP stand for?",
+    "options": ["A) Java Standard Pages", "B) Java Server Pages", "C) Java Simple Pages", "D) Java Servlet Pages"],
+    "correct_answer": "B) Java Server Pages",
+    "explanation": "JSP stands for Java Server Pages. It is a server-side technology that allows embedding Java code in HTML pages to create dynamic web content."
+  },
+  {
+    "id": 23,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method of the Connection interface is used to disable auto-commit mode in JDBC?",
+    "options": ["A) connection.setAutoCommit(false)", "B) connection.disableAutoCommit()", "C) connection.commit(false)", "D) connection.setManualCommit(true)"],
+    "correct_answer": "A) connection.setAutoCommit(false)",
+    "explanation": "connection.setAutoCommit(false) disables auto-commit mode, allowing multiple SQL statements to be grouped into a transaction that can be committed or rolled back."
+  },
+  {
+    "id": 24,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In MySQL, which aggregate function returns the total number of rows in a result set?",
+    "options": ["A) SUM()", "B) TOTAL()", "C) COUNT()", "D) NUMBER()"],
+    "correct_answer": "C) COUNT()",
+    "explanation": "COUNT() is an aggregate function that returns the number of rows matching a condition. COUNT(*) counts all rows, while COUNT(column) counts non-NULL values."
+  },
+  {
+    "id": 25,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JSP directive is used to include the content of another file at translation time?",
+    "options": ["A) <%@ page include='file' %>", "B) <%@ include file='file' %>", "C) <jsp:include page='file' />", "D) <%@ import file='file' %>"],
+    "correct_answer": "B) <%@ include file='file' %>",
+    "explanation": "<%@ include file='filename' %> is a static include directive that includes file content at translation time. <jsp:include> is a dynamic include that happens at request time."
+  },
+  {
+    "id": 26,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does JDBC stand for?",
+    "options": ["A) Java Database Connectivity", "B) Java Data Base Connection", "C) Java Direct Base Connectivity", "D) Java Database Communication"],
+    "correct_answer": "A) Java Database Connectivity",
+    "explanation": "JDBC stands for Java Database Connectivity. It is a Java API that provides a standard interface for connecting Java applications to relational databases."
+  },
+  {
+    "id": 27,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In MySQL, which keyword is used to sort query results in descending order?",
+    "options": ["A) ORDER BY column ASC", "B) SORT BY column DESC", "C) ORDER BY column DESC", "D) ARRANGE BY column DESC"],
+    "correct_answer": "C) ORDER BY column DESC",
+    "explanation": "ORDER BY column DESC sorts the result set in descending order. ASC is the default sort order (ascending). SORT BY is not a valid MySQL clause."
+  },
+  {
+    "id": 28,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JSP implicit object provides access to servlet configuration parameters?",
+    "options": ["A) application", "B) config", "C) context", "D) pageContext"],
+    "correct_answer": "B) config",
+    "explanation": "The 'config' implicit object in JSP is of type ServletConfig and provides access to initialization parameters defined in the web.xml deployment descriptor."
+  },
+  {
+    "id": 29,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to retrieve a String value from a ResultSet by column name in JDBC?",
+    "options": ["A) ResultSet.readString()", "B) ResultSet.fetchString()", "C) ResultSet.getString()", "D) ResultSet.getColumn()"],
+    "correct_answer": "C) ResultSet.getString()",
+    "explanation": "ResultSet.getString(columnName) or getString(columnIndex) retrieves a String value from the current row. Similar methods exist for other types: getInt(), getDouble(), etc."
+  },
+  {
+    "id": 30,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In MySQL, which command creates a new database named 'school'?",
+    "options": ["A) NEW DATABASE school;", "B) CREATE DATABASE school;", "C) MAKE DATABASE school;", "D) BUILD DATABASE school;"],
+    "correct_answer": "B) CREATE DATABASE school;",
+    "explanation": "CREATE DATABASE is the SQL command to create a new database. CREATE TABLE is used to create tables within a database."
+  },
+  {
+    "id": 31,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JSP action tag is used to forward a request to another resource?",
+    "options": ["A) <jsp:include>", "B) <jsp:redirect>", "C) <jsp:forward>", "D) <jsp:transfer>"],
+    "correct_answer": "C) <jsp:forward>",
+    "explanation": "<jsp:forward page='url' /> forwards the request to another JSP, servlet, or HTML page. The URL in the browser does not change, unlike sendRedirect()."
+  },
+  {
+    "id": 32,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which MySQL data type is best suited for storing whole numbers without decimal points?",
+    "options": ["A) FLOAT", "B) DECIMAL", "C) INT", "D) DOUBLE"],
+    "correct_answer": "C) INT",
+    "explanation": "INT (Integer) stores whole numbers without decimal points. FLOAT and DOUBLE store floating-point numbers, and DECIMAL stores exact numeric values with decimals."
+  },
+  {
+    "id": 33,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In JDBC, which package contains the core JDBC classes and interfaces?",
+    "options": ["A) java.sql", "B) java.jdbc", "C) javax.sql", "D) java.database"],
+    "correct_answer": "A) java.sql",
+    "explanation": "The java.sql package contains the core JDBC interfaces like Connection, Statement, PreparedStatement, and ResultSet. javax.sql provides extended functionality like DataSource."
+  },
+  {
+    "id": 34,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JSP implicit object represents the entire web application and is shared across all users?",
+    "options": ["A) session", "B) request", "C) application", "D) config"],
+    "correct_answer": "C) application",
+    "explanation": "The 'application' implicit object represents the ServletContext and is shared across all users and sessions of the web application. It stores application-wide attributes."
+  },
+  {
+    "id": 35,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In MySQL, which constraint ensures that a column cannot have NULL values?",
+    "options": ["A) UNIQUE", "B) NOT NULL", "C) PRIMARY KEY", "D) DEFAULT"],
+    "correct_answer": "B) NOT NULL",
+    "explanation": "NOT NULL constraint ensures that a column must always have a value and cannot be left empty. PRIMARY KEY also implies NOT NULL but additionally requires uniqueness."
+  },
+  {
+    "id": 36,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is called to commit a transaction in JDBC?",
+    "options": ["A) connection.save()", "B) connection.commit()", "C) connection.finalize()", "D) connection.end()"],
+    "correct_answer": "B) connection.commit()",
+    "explanation": "connection.commit() permanently saves all changes made during the current transaction. If an error occurs, connection.rollback() can undo the changes."
+  },
+  {
+    "id": 37,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In JSP, what is the scope of a variable declared inside a scriptlet <% %>?",
+    "options": ["A) Class level", "B) Application level", "C) Local to the _jspService() method", "D) Session level"],
+    "correct_answer": "C) Local to the _jspService() method",
+    "explanation": "Variables declared in scriptlets are local to the _jspService() method generated by the JSP container. Variables declared with <%! %> are class-level members."
+  },
+  {
+    "id": 38,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which MySQL clause is used to limit the number of rows returned by a query?",
+    "options": ["A) TOP", "B) ROWNUM", "C) LIMIT", "D) FETCH"],
+    "correct_answer": "C) LIMIT",
+    "explanation": "MySQL uses LIMIT to restrict the number of rows returned. Example: SELECT * FROM table LIMIT 10; returns only 10 rows. Oracle uses ROWNUM and SQL Server uses TOP."
+  },
+  {
+    "id": 39,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JDBC method is used to close a database connection and release resources?",
+    "options": ["A) connection.terminate()", "B) connection.disconnect()", "C) connection.close()", "D) connection.release()"],
+    "correct_answer": "C) connection.close()",
+    "explanation": "connection.close() closes the database connection and releases all associated resources. It should always be called in a finally block or using try-with-resources."
+  },
+  {
+    "id": 40,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In MySQL, which function returns the current date and time?",
+    "options": ["A) GETDATE()", "B) SYSDATE()", "C) NOW()", "D) CURRENT()"],
+    "correct_answer": "C) NOW()",
+    "explanation": "NOW() returns the current date and time in MySQL. SYSDATE() also returns current datetime but differs slightly in behavior within stored procedures. GETDATE() is SQL Server syntax."
+  },
+  {
+    "id": 41,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In JDBC, what is the difference between execute(), executeQuery(), and executeUpdate() methods of Statement?",
+    "options": ["A) execute() returns boolean, executeQuery() returns ResultSet, executeUpdate() returns int", "B) All three return ResultSet", "C) execute() returns int, executeQuery() returns boolean, executeUpdate() returns ResultSet", "D) execute() returns ResultSet, executeQuery() returns int, executeUpdate() returns boolean"],
+    "correct_answer": "A) execute() returns boolean, executeQuery() returns ResultSet, executeUpdate() returns int",
+    "explanation": "execute() can run any SQL and returns true if result is a ResultSet. executeQuery() is for SELECT and returns ResultSet. executeUpdate() is for DML/DDL and returns row count as int."
+  },
+  {
+    "id": 42,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which JSP EL (Expression Language) syntax is used to access a session attribute named 'username'?",
+    "options": ["A) ${session.username}", "B) ${sessionScope.username}", "C) <%=session.getAttribute('username')%>", "D) Both A and B are correct"],
+    "correct_answer": "B) ${sessionScope.username}",
+    "explanation": "In JSP EL, ${sessionScope.username} accesses session attributes. ${username} also works but searches all scopes. The explicit scope syntax is ${sessionScope.attributeName}."
+  },
+  {
+    "id": 43,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In MySQL, what is the output of: SELECT 5 DIV 2, 5 MOD 2;",
+    "options": ["A) 2.5, 1", "B) 2, 1", "C) 2, 0", "D) 3, 1"],
+    "correct_answer": "B) 2, 1",
+    "explanation": "DIV performs integer division: 5 DIV 2 = 2 (quotient). MOD returns the remainder: 5 MOD 2 = 1. These are equivalent to 5/2 (integer) and 5%2 in programming."
+  },
+  {
+    "id": 44,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which type of JDBC ResultSet allows scrolling both forward and backward through the result set?",
+    "options": ["A) ResultSet.TYPE_FORWARD_ONLY", "B) ResultSet.TYPE_SCROLL_INSENSITIVE", "C) ResultSet.TYPE_STATIC", "D) ResultSet.TYPE_BIDIRECTIONAL"],
+    "correct_answer": "B) ResultSet.TYPE_SCROLL_INSENSITIVE",
+    "explanation": "TYPE_SCROLL_INSENSITIVE allows both forward and backward scrolling but does not reflect changes made to the database. TYPE_SCROLL_SENSITIVE reflects changes. TYPE_FORWARD_ONLY is default."
+  },
+  {
+    "id": 45,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In JSP, what is the purpose of the <jsp:useBean> action tag?",
+    "options": ["A) To create a new Java class", "B) To instantiate or locate a JavaBean and make it available in the JSP page", "C) To import a Java package", "D) To define a new JSP tag"],
+    "correct_answer": "B) To instantiate or locate a JavaBean and make it available in the JSP page",
+    "explanation": "<jsp:useBean id='name' class='ClassName' scope='...' /> creates or retrieves a JavaBean instance. It checks if the bean exists in the specified scope before creating a new one."
+  },
+  {
+    "id": 46,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In MySQL, what will the following query return? SELECT COUNT(*) FROM employees WHERE salary > 50000 AND department = 'IT'; (Assume 15 employees in IT earn > 50000)",
+    "options": ["A) 0", "B) 15", "C) Total employees in IT", "D) Total employees earning > 50000"],
+    "correct_answer": "B) 15",
+    "explanation": "COUNT(*) counts all rows satisfying both conditions: salary > 50000 AND department = 'IT'. Both conditions must be true simultaneously, so the result is 15."
+  },
+  {
+    "id": 47,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which JDBC method in PreparedStatement is used to set a String parameter at position 2?",
+    "options": ["A) setString(2, value)", "B) setParameter(2, value)", "C) setValue(2, value)", "D) setColumn(2, value)"],
+    "correct_answer": "A) setString(2, value)",
+    "explanation": "PreparedStatement uses setXxx(parameterIndex, value) methods where parameterIndex starts at 1. setString(2, value) sets the second ? placeholder to the given String value."
+  },
+  {
+    "id": 48,
+    "topic": "JDBC, Java Server Pages, and MySQL",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In MySQL, what is the difference between TRUNCATE and DELETE without a WHERE clause?",
+    "options": ["A) No difference, both are identical", "B) TRUNCATE is DDL and faster; DELETE is DML and can be rolled back", "C) DELETE is DDL; TRUNCATE is DML", "D) TRUNCATE can be rolled back; DELETE cannot"],
+    "correct_answer": "B) TRUNCATE is DD

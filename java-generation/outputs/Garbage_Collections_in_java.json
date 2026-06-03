@@ -1,0 +1,465 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is Garbage Collection in Java?",
+    "options": ["A) A process to collect unused memory", "B) A process to allocate memory to objects", "C) A process to delete files from disk", "D) A process to manage threads"],
+    "correct_answer": "A) A process to collect unused memory",
+    "explanation": "Garbage Collection in Java is an automatic memory management process that identifies and removes objects that are no longer reachable or needed by the program, freeing up heap memory."
+  },
+  {
+    "id": 2,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which part of memory does the Java Garbage Collector primarily manage?",
+    "options": ["A) Stack memory", "B) Heap memory", "C) Register memory", "D) Cache memory"],
+    "correct_answer": "B) Heap memory",
+    "explanation": "The Java Garbage Collector manages the Heap memory, where all objects are allocated. Stack memory is managed automatically by the JVM through method call/return mechanisms."
+  },
+  {
+    "id": 3,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is used to request Garbage Collection in Java?",
+    "options": ["A) System.gc()", "B) Runtime.gc()", "C) Both A and B", "D) GarbageCollector.collect()"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "Both System.gc() and Runtime.getRuntime().gc() can be used to request garbage collection. However, calling these methods does not guarantee immediate GC execution."
+  },
+  {
+    "id": 4,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which method is called by the Garbage Collector before reclaiming an object's memory?",
+    "options": ["A) destroy()", "B) finalize()", "C) dispose()", "D) cleanup()"],
+    "correct_answer": "B) finalize()",
+    "explanation": "The finalize() method defined in the Object class is called by the Garbage Collector before reclaiming the memory of an unreachable object, allowing it to perform cleanup operations."
+  },
+  {
+    "id": 5,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "When does an object become eligible for Garbage Collection?",
+    "options": ["A) When it is declared", "B) When it is no longer referenced", "C) When the program ends", "D) When System.gc() is called"],
+    "correct_answer": "B) When it is no longer referenced",
+    "explanation": "An object becomes eligible for GC when there are no more live references pointing to it. The GC identifies such unreachable objects and reclaims their memory."
+  },
+  {
+    "id": 6,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Is it guaranteed that the Garbage Collector will run when System.gc() is called?",
+    "options": ["A) Yes, always", "B) No, it is just a request", "C) Yes, but only in multithreaded programs", "D) No, System.gc() does not exist"],
+    "correct_answer": "B) No, it is just a request",
+    "explanation": "System.gc() is merely a suggestion to the JVM to run the Garbage Collector. The JVM may choose to ignore this request based on its internal state and GC algorithm."
+  },
+  {
+    "id": 7,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a benefit of Java's Garbage Collection?",
+    "options": ["A) Automatic memory management", "B) Prevention of memory leaks", "C) Faster execution than manual memory management", "D) Reduced programmer burden"],
+    "correct_answer": "C) Faster execution than manual memory management",
+    "explanation": "GC can introduce pauses (stop-the-world events) that may slow execution compared to carefully written manual memory management. The other options are genuine benefits of GC."
+  },
+  {
+    "id": 8,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens to an object's memory after it is garbage collected?",
+    "options": ["A) It is written to disk", "B) It is returned to the heap for reuse", "C) It is moved to stack", "D) It is archived"],
+    "correct_answer": "B) It is returned to the heap for reuse",
+    "explanation": "After an object is garbage collected, its memory on the heap is freed and made available for future object allocations by the JVM."
+  },
+  {
+    "id": 9,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following makes an object eligible for Garbage Collection?",
+    "options": ["A) obj = new Object();", "B) obj = null;", "C) obj.toString();", "D) obj.hashCode();"],
+    "correct_answer": "B) obj = null;",
+    "explanation": "Setting a reference variable to null removes the reference to the object. If no other references exist, the object becomes unreachable and eligible for GC."
+  },
+  {
+    "id": 10,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In Java, who is responsible for Garbage Collection?",
+    "options": ["A) The programmer", "B) The operating system", "C) The JVM", "D) The compiler"],
+    "correct_answer": "C) The JVM",
+    "explanation": "The JVM (Java Virtual Machine) is responsible for automatic garbage collection. Programmers do not need to manually free memory as in C/C++."
+  },
+  {
+    "id": 11,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default Garbage Collector used in Java 8?",
+    "options": ["A) G1 GC", "B) Parallel GC", "C) Serial GC", "D) ZGC"],
+    "correct_answer": "B) Parallel GC",
+    "explanation": "Java 8 uses the Parallel GC (also called Throughput Collector) as the default garbage collector for server-class machines. G1 GC became the default from Java 9 onwards."
+  },
+  {
+    "id": 12,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default Garbage Collector in Java 9 and later?",
+    "options": ["A) Serial GC", "B) Parallel GC", "C) G1 GC", "D) CMS GC"],
+    "correct_answer": "C) G1 GC",
+    "explanation": "From Java 9 onwards, the G1 (Garbage First) GC became the default garbage collector, replacing the Parallel GC that was default in Java 8."
+  },
+  {
+    "id": 13,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which generation in the Java heap stores newly created objects?",
+    "options": ["A) Old Generation", "B) Young Generation", "C) Permanent Generation", "D) Metaspace"],
+    "correct_answer": "B) Young Generation",
+    "explanation": "Newly created objects are allocated in the Young Generation (also called the New Generation). Objects that survive multiple GC cycles are promoted to the Old Generation."
+  },
+  {
+    "id": 14,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Minor GC' in Java?",
+    "options": ["A) GC that collects the Old Generation", "B) GC that collects the Young Generation", "C) GC that collects the entire heap", "D) GC that runs only once"],
+    "correct_answer": "B) GC that collects the Young Generation",
+    "explanation": "Minor GC refers to garbage collection that occurs in the Young Generation. It is typically fast and frequent compared to Major GC which collects the Old Generation."
+  },
+  {
+    "id": 15,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Major GC' or 'Full GC' in Java?",
+    "options": ["A) GC that collects only Eden space", "B) GC that collects the Old Generation or entire heap", "C) GC that runs every second", "D) GC that collects stack memory"],
+    "correct_answer": "B) GC that collects the Old Generation or entire heap",
+    "explanation": "Major GC (or Full GC) collects the Old Generation and sometimes the entire heap including Young Generation. It is slower and less frequent than Minor GC."
+  },
+  {
+    "id": 16,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following areas is part of the Young Generation?",
+    "options": ["A) Old space and Survivor space", "B) Eden space and Survivor spaces", "C) Metaspace and Eden space", "D) Permanent Generation and Eden space"],
+    "correct_answer": "B) Eden space and Survivor spaces",
+    "explanation": "The Young Generation consists of Eden space and two Survivor spaces (S0 and S1). New objects are created in Eden and moved to Survivor spaces after surviving Minor GC."
+  },
+  {
+    "id": 17,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'Stop-the-World' mean in the context of Garbage Collection?",
+    "options": ["A) The GC stops collecting garbage", "B) All application threads are paused during GC", "C) The JVM shuts down", "D) The GC runs in parallel with the application"],
+    "correct_answer": "B) All application threads are paused during GC",
+    "explanation": "Stop-the-World (STW) events occur when the GC pauses all application threads to perform garbage collection. This ensures consistency but can cause latency issues."
+  },
+  {
+    "id": 18,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword in Java is used to suggest the JVM to perform garbage collection?",
+    "options": ["A) gc", "B) collect", "C) System.gc()", "D) free"],
+    "correct_answer": "C) System.gc()",
+    "explanation": "System.gc() is the method call used to suggest the JVM to run the garbage collector. It is not a keyword but a static method of the System class."
+  },
+  {
+    "id": 19,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the finalize() method in Java?",
+    "options": ["A) To initialize an object", "B) To perform cleanup before GC reclaims memory", "C) To prevent GC from collecting an object", "D) To allocate memory to an object"],
+    "correct_answer": "B) To perform cleanup before GC reclaims memory",
+    "explanation": "The finalize() method is called by the GC before reclaiming an object's memory, allowing the object to release resources like file handles or database connections."
+  },
+  {
+    "id": 20,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many times can the finalize() method be called for a single object?",
+    "options": ["A) Multiple times", "B) Only once", "C) Twice", "D) It depends on the GC algorithm"],
+    "correct_answer": "B) Only once",
+    "explanation": "The finalize() method is guaranteed to be called at most once per object by the JVM before the object is garbage collected."
+  },
+  {
+    "id": 21,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a type of Garbage Collector in Java?",
+    "options": ["A) Serial GC", "B) Sequential GC", "C) Linear GC", "D) Binary GC"],
+    "correct_answer": "A) Serial GC",
+    "explanation": "Serial GC is one of the garbage collectors available in Java. It uses a single thread for garbage collection and is suitable for small applications with small data sets."
+  },
+  {
+    "id": 22,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'memory leak' mean in the context of Java?",
+    "options": ["A) Memory that is freed too early", "B) Objects that are no longer needed but still referenced", "C) Memory that overflows the stack", "D) Memory allocated to the wrong object"],
+    "correct_answer": "B) Objects that are no longer needed but still referenced",
+    "explanation": "A memory leak in Java occurs when objects that are no longer needed are still referenced, preventing the GC from collecting them and causing gradual memory exhaustion."
+  },
+  {
+    "id": 23,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What exception is thrown when the JVM runs out of heap memory?",
+    "options": ["A) StackOverflowError", "B) OutOfMemoryError", "C) NullPointerException", "D) HeapException"],
+    "correct_answer": "B) OutOfMemoryError",
+    "explanation": "When the JVM cannot allocate memory for a new object because the heap is full and GC cannot free enough space, it throws java.lang.OutOfMemoryError."
+  },
+  {
+    "id": 24,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which JVM flag is used to set the maximum heap size?",
+    "options": ["A) -Xms", "B) -Xmx", "C) -Xss", "D) -Xmn"],
+    "correct_answer": "B) -Xmx",
+    "explanation": "-Xmx sets the maximum heap size for the JVM. For example, -Xmx512m sets the maximum heap to 512 MB. -Xms sets the initial heap size."
+  },
+  {
+    "id": 25,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of the 'Eden Space' in Java's heap memory?",
+    "options": ["A) It stores long-lived objects", "B) It is where new objects are initially allocated", "C) It stores class metadata", "D) It is used for thread stacks"],
+    "correct_answer": "B) It is where new objects are initially allocated",
+    "explanation": "Eden Space is part of the Young Generation where all new objects are initially created. When Eden fills up, a Minor GC is triggered to clean it up."
+  },
+  {
+    "id": 26,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'Object Promotion' in Java Garbage Collection?",
+    "options": ["A) Moving objects from Old to Young Generation", "B) Moving objects from Young to Old Generation", "C) Deleting objects from heap", "D) Copying objects to disk"],
+    "correct_answer": "B) Moving objects from Young to Old Generation",
+    "explanation": "Object Promotion refers to moving objects that have survived a certain number of Minor GC cycles from the Young Generation to the Old (Tenured) Generation."
+  },
+  {
+    "id": 27,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about Java's Garbage Collection is TRUE?",
+    "options": ["A) Programmers must explicitly free memory", "B) GC runs on a separate daemon thread", "C) GC only runs when the program ends", "D) GC cannot be controlled in any way"],
+    "correct_answer": "B) GC runs on a separate daemon thread",
+    "explanation": "The Garbage Collector runs as a low-priority daemon thread in the JVM. It runs in the background and does not prevent the JVM from exiting when all user threads finish."
+  },
+  {
+    "id": 28,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'Metaspace' in Java 8 and later?",
+    "options": ["A) A replacement for the Young Generation", "B) A replacement for PermGen that stores class metadata", "C) A new type of heap memory", "D) A memory area for thread stacks"],
+    "correct_answer": "B) A replacement for PermGen that stores class metadata",
+    "explanation": "Metaspace was introduced in Java 8 to replace the Permanent Generation (PermGen). It stores class metadata and grows dynamically in native memory, avoiding PermGen OutOfMemoryErrors."
+  },
+  {
+    "id": 29,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes a 'Weak Reference' in Java?",
+    "options": ["A) An object that cannot be garbage collected", "B) An object that is collected when only weak references exist", "C) A reference that is stronger than a soft reference", "D) A reference stored in the stack"],
+    "correct_answer": "B) An object that is collected when only weak references exist",
+    "explanation": "A WeakReference allows the GC to collect the referenced object when no strong references exist. It is weaker than SoftReference and is used in WeakHashMap implementations."
+  },
+  {
+    "id": 30,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a 'Strong Reference' in Java?",
+    "options": ["A) A reference that prevents GC from collecting the object", "B) A reference that allows GC to collect the object", "C) A reference stored in Metaspace", "D) A reference created using WeakReference class"],
+    "correct_answer": "A) A reference that prevents GC from collecting the object",
+    "explanation": "A Strong Reference is the default type of reference in Java (e.g., Object obj = new Object()). As long as a strong reference exists, the GC will not collect the object."
+  },
+  {
+    "id": 31,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the JVM flag to enable the G1 Garbage Collector?",
+    "options": ["A) -XX:+UseSerialGC", "B) -XX:+UseG1GC", "C) -XX:+UseParallelGC", "D) -XX:+UseCMSGC"],
+    "correct_answer": "B) -XX:+UseG1GC",
+    "explanation": "The JVM flag -XX:+UseG1GC enables the G1 (Garbage First) Garbage Collector. This is the default from Java 9 onwards but can be explicitly set in earlier versions."
+  },
+  {
+    "id": 32,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about the finalize() method?",
+    "options": ["A) It is called before object creation", "B) It is deprecated in Java 9", "C) It guarantees resource cleanup", "D) It is called by the programmer explicitly"],
+    "correct_answer": "B) It is deprecated in Java 9",
+    "explanation": "The finalize() method was deprecated in Java 9 due to its unpredictable behavior and performance issues. Java developers are encouraged to use try-with-resources or Cleaner instead."
+  },
+  {
+    "id": 33,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does GC stand for in Java?",
+    "options": ["A) General Computing", "B) Garbage Collection", "C) Global Cache", "D) Generic Class"],
+    "correct_answer": "B) Garbage Collection",
+    "explanation": "GC stands for Garbage Collection, which is Java's automatic memory management mechanism that reclaims memory occupied by objects that are no longer in use."
+  },
+  {
+    "id": 34,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following reference types is collected by GC only when JVM is about to throw OutOfMemoryError?",
+    "options": ["A) Strong Reference", "B) Weak Reference", "C) Soft Reference", "D) Phantom Reference"],
+    "correct_answer": "C) Soft Reference",
+    "explanation": "Soft References are collected by the GC only when the JVM is running low on memory and about to throw OutOfMemoryError. They are useful for implementing memory-sensitive caches."
+  },
+  {
+    "id": 35,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the initial heap size JVM flag?",
+    "options": ["A) -Xmx", "B) -Xms", "C) -Xss", "D) -Xmn"],
+    "correct_answer": "B) -Xms",
+    "explanation": "-Xms sets the initial heap size when the JVM starts. For example, -Xms256m sets the initial heap to 256 MB. The heap can grow up to the -Xmx limit."
+  },
+  {
+    "id": 36,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'Heap Fragmentation' in the context of Java GC?",
+    "options": ["A) Splitting the heap into Young and Old generations", "B) Non-contiguous free memory blocks making allocation difficult", "C) Dividing the heap among multiple threads", "D) Compressing the heap to save space"],
+    "correct_answer": "B) Non-contiguous free memory blocks making allocation difficult",
+    "explanation": "Heap fragmentation occurs when free memory is scattered in small non-contiguous blocks, making it difficult to allocate large objects even when total free memory is sufficient."
+  },
+  {
+    "id": 37,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of Garbage Collector in Java?",
+    "options": ["A) Serial GC", "B) Parallel GC", "C) Concurrent GC", "D) Recursive GC"],
+    "correct_answer": "D) Recursive GC",
+    "explanation": "Recursive GC is not a real Java garbage collector. The actual GC types include Serial GC, Parallel GC, CMS (Concurrent Mark Sweep), G1 GC, ZGC, and Shenandoah GC."
+  },
+  {
+    "id": 38,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'Tenured Generation' in Java heap?",
+    "options": ["A) Another name for Young Generation", "B) Another name for Old Generation", "C) Another name for Metaspace", "D) Another name for Eden Space"],
+    "correct_answer": "B) Another name for Old Generation",
+    "explanation": "The Tenured Generation is another name for the Old Generation in Java's heap. It stores objects that have survived multiple Minor GC cycles in the Young Generation."
+  },
+  {
+    "id": 39,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many Survivor spaces are there in the Young Generation?",
+    "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+    "correct_answer": "B) 2",
+    "explanation": "The Young Generation has two Survivor spaces: S0 (Survivor 0) and S1 (Survivor 1). Objects that survive Eden GC are moved to one of these spaces alternately."
+  },
+  {
+    "id": 40,
+    "topic": "Garbage Collections in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'Garbage Collection Roots' in Java?",
+    "options": ["A) Objects in the Old Generation", "B) Starting points from which object reachability is determined", "C) Objects in the Eden space", "D) Objects created by the GC itself"],
+    "correct_answer": "B) Starting points from which object reachability is determined",
+    "explanation": "GC Roots are the starting points for the GC's reachability analysis. They include local variables, static fields, active threads, and JNI references. Objects reachable from GC roots are not collected."
+  },
+  {
+    "id": 41,
+    "topic": "Garbage Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider the following code. How many objects are eligible for GC after line 5?\n```java\nString s1 = new String(\"Hello\"); // line 1\nString s2 = new String(\"World\"); // line 2\nString s3 = s1; // line 3\ns1 = null; // line 4\ns2 = s1; // line 5\n```",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "correct_answer": "B) 1",
+    "explanation": "After line 4, s1 is null but s3 still references 'Hello'. After line 5, s2 becomes null (s1 is null), so 'World' object has no references. Only 'World' is eligible for GC. Answer: 1 object."
+  },
+  {
+    "id": 42,
+    "topic": "Garbage Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between CMS (Concurrent Mark Sweep) GC and Parallel GC?",
+    "options": ["A) CMS minimizes pause times; Parallel GC maximizes throughput", "B) Parallel GC minimizes pause times; CMS maximizes throughput", "C) Both have the same pause characteristics", "D) CMS is only for Young Generation; Parallel GC is for Old Generation"],
+    "correct_answer": "A) CMS minimizes pause times; Parallel GC maximizes throughput",
+    "explanation": "CMS GC performs most of its work concurrently with the application to minimize pause times. Parallel GC uses multiple threads but stops the world, maximizing overall throughput."
+  },
+  {
+    "id": 43,
+    "topic": "Garbage Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is 'Island of Isolation' in Java Garbage Collection?",
+    "options": ["A) Objects in the Old Generation that cannot be promoted", "B) A group of objects that reference each other but are unreachable from GC roots", "C) Objects in Survivor space that cannot be moved", "D) A single object with no references"],
+    "correct_answer": "B) A group of objects that reference each other but are unreachable from GC roots",
+    "explanation": "Island of Isolation occurs when a group of objects reference each other cyclically but none of them is reachable from GC roots. Java's GC can collect such islands since it uses reachability analysis, not reference counting."
+  },
+  {
+    "id": 44,
+    "topic": "Garbage Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the 'Mark and Sweep' algorithm in Garbage Collection?",
+    "options": ["A) Mark live objects, then sweep (delete) unmarked objects", "B) Mark dead objects, then sweep live objects to new location", "C) Mark all objects, then sweep the entire heap", "D) Mark objects by age, then sweep old objects"],
+    "correct_answer": "A) Mark live objects, then sweep (delete) unmarked objects",
+    "explanation": "Mark and Sweep has two phases: Mark phase traverses from GC roots and marks all reachable (live) objects. Sweep phase reclaims memory of all unmarked (dead) objects."
+  },
+  {
+    "id": 45,
+    "topic": "Garbage Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is 'Compaction' in the context of Garbage Collection?",
+    "options": ["A) Compressing class files", "B) Moving live objects together to eliminate fragmentation", "C) Reducing the heap size", "D) Combining Young and Old generations"],
+    "correct_answer": "B) Moving live objects together to eliminate fragmentation",
+    "explanation": "Compaction is a GC phase where live objects are moved together to one end of the heap, eliminating fragmentation and creating a large contiguous free memory block for new allocations."
+  },
+  {
+    "id": 46,
+    "topic": "Garbage Collections in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the 'Copying' GC algorithm used in the Young Generation?",
+    "options": ["A) Objects are copied from Old to Young Generation", "B) Live objects are copied from one space to another, leaving dead objects behind", "C) All objects are copied to disk during GC", "D) Objects are copied to Metaspace"],
+    "correct_answer": "B) Live objects are copied from one space to another, leaving dead objects behind",
+    "explanation": "The Copying algorithm copies all live objects from one semi-space (e.g., Eden + S0) to another (S1), effectively collecting dead objects. It eliminates fragmentation but requires double the memory."
+  },
+  {
+    "id": 47,
+    "topic": "

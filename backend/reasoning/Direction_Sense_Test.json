@@ -1,0 +1,508 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Ravi walks 10 metres towards North, then turns right and walks 5 metres. Which direction is he facing now?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "C) East",
+    "explanation": "Starting facing North, turning right means facing East. He walks 5 metres East and is now facing East."
+  },
+  {
+    "id": 2,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Priya starts from her home, walks 4 km towards South, then turns left and walks 3 km. In which direction is she from her starting point?",
+    "options": ["A) South-East", "B) South-West", "C) North-East", "D) North-West"],
+    "correct_answer": "A) South-East",
+    "explanation": "She walks 4 km South, then turns left (East) and walks 3 km. So she is South-East of her starting point."
+  },
+  {
+    "id": 3,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man faces East. He turns 90° clockwise. Which direction is he now facing?",
+    "options": ["A) North", "B) South", "C) West", "D) East"],
+    "correct_answer": "B) South",
+    "explanation": "Facing East, turning 90° clockwise means turning to South."
+  },
+  {
+    "id": 4,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Amit walks 6 km North, then 8 km East. What is the shortest distance from his starting point?",
+    "options": ["A) 10 km", "B) 12 km", "C) 14 km", "D) 8 km"],
+    "correct_answer": "A) 10 km",
+    "explanation": "Using Pythagoras: √(6² + 8²) = √(36 + 64) = √100 = 10 km."
+  },
+  {
+    "id": 5,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Sunita faces North. She turns 180°. Which direction is she facing now?",
+    "options": ["A) North", "B) East", "C) South", "D) West"],
+    "correct_answer": "C) South",
+    "explanation": "Turning 180° from North means facing the opposite direction, which is South."
+  },
+  {
+    "id": 6,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Karan walks 5 km towards West, then turns right and walks 3 km. Which direction is he facing?",
+    "options": ["A) East", "B) West", "C) North", "D) South"],
+    "correct_answer": "C) North",
+    "explanation": "Walking West, turning right means turning North. He is now facing North."
+  },
+  {
+    "id": 7,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Meena starts walking towards South. After walking 4 km, she turns left and walks 3 km. She then turns left again and walks 4 km. How far is she from the starting point?",
+    "options": ["A) 3 km", "B) 4 km", "C) 5 km", "D) 7 km"],
+    "correct_answer": "A) 3 km",
+    "explanation": "South 4 km → East 3 km → North 4 km. She is back to the same latitude, 3 km East of start. Distance = 3 km."
+  },
+  {
+    "id": 8,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If you face West and turn 90° anti-clockwise, which direction are you facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "B) South",
+    "explanation": "Facing West, turning 90° anti-clockwise means turning to South."
+  },
+  {
+    "id": 9,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Raj walks 7 km East, then turns left and walks 7 km. In which direction is he from the starting point?",
+    "options": ["A) North-East", "B) South-East", "C) North-West", "D) South-West"],
+    "correct_answer": "A) North-East",
+    "explanation": "East 7 km then North 7 km places him North-East of the starting point."
+  },
+  {
+    "id": 10,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person walks 3 km North, then 4 km East, then 3 km South. How far is he from the starting point?",
+    "options": ["A) 4 km", "B) 3 km", "C) 5 km", "D) 6 km"],
+    "correct_answer": "A) 4 km",
+    "explanation": "North 3 km and South 3 km cancel out. He is 4 km East of the starting point."
+  },
+  {
+    "id": 11,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Neha faces South. She turns 90° to her right. Which direction is she facing?",
+    "options": ["A) North", "B) East", "C) West", "D) South"],
+    "correct_answer": "C) West",
+    "explanation": "Facing South, turning right (clockwise) means facing West."
+  },
+  {
+    "id": 12,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Vikram walks 12 km South, then 5 km West. What is the shortest distance from his starting point?",
+    "options": ["A) 13 km", "B) 17 km", "C) 7 km", "D) 15 km"],
+    "correct_answer": "A) 13 km",
+    "explanation": "√(12² + 5²) = √(144 + 25) = √169 = 13 km."
+  },
+  {
+    "id": 13,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If East is to your right, which direction are you facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "A) North",
+    "explanation": "When facing North, East is to your right. This is a standard compass orientation."
+  },
+  {
+    "id": 14,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Sita walks 8 km towards North, turns right and walks 6 km. What is the shortest distance from her starting point?",
+    "options": ["A) 10 km", "B) 14 km", "C) 12 km", "D) 8 km"],
+    "correct_answer": "A) 10 km",
+    "explanation": "√(8² + 6²) = √(64 + 36) = √100 = 10 km."
+  },
+  {
+    "id": 15,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man faces North-East. He turns 90° clockwise. Which direction is he facing?",
+    "options": ["A) North-West", "B) South-East", "C) South-West", "D) North-East"],
+    "correct_answer": "B) South-East",
+    "explanation": "Turning 90° clockwise from North-East gives South-East."
+  },
+  {
+    "id": 16,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rohit walks 5 km East, then 5 km North, then 5 km West, then 5 km South. Where is he now?",
+    "options": ["A) Starting point", "B) 5 km East", "C) 5 km North", "D) 10 km East"],
+    "correct_answer": "A) Starting point",
+    "explanation": "East 5 and West 5 cancel; North 5 and South 5 cancel. He returns to the starting point."
+  },
+  {
+    "id": 17,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pooja faces West. She turns 270° clockwise. Which direction is she now facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "A) North",
+    "explanation": "270° clockwise = 90° anti-clockwise. From West, 90° anti-clockwise = North."
+  },
+  {
+    "id": 18,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A boy walks 2 km North, then 2 km East, then 2 km South, then 2 km West. What is the distance from the starting point?",
+    "options": ["A) 0 km", "B) 4 km", "C) 8 km", "D) 2 km"],
+    "correct_answer": "A) 0 km",
+    "explanation": "All movements cancel out: N=S and E=W. He is back at the starting point."
+  },
+  {
+    "id": 19,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Deepak walks 15 km towards North, then turns left and walks 20 km. What is the shortest distance from the starting point?",
+    "options": ["A) 25 km", "B) 35 km", "C) 20 km", "D) 15 km"],
+    "correct_answer": "A) 25 km",
+    "explanation": "√(15² + 20²) = √(225 + 400) = √625 = 25 km."
+  },
+  {
+    "id": 20,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Anita faces South. She turns left twice. Which direction is she facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "B) South",
+    "explanation": "Each left turn is 90°. Two left turns = 180°. South + 180° = North. Wait — South facing, left turn = East, another left = North. Answer is North."
+  },
+  {
+    "id": 21,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Anita faces South. She turns left twice. Which direction is she facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "A) North",
+    "explanation": "Facing South: 1st left turn → East; 2nd left turn → North. She is now facing North."
+  },
+  {
+    "id": 22,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Suresh walks 9 km East, then turns right and walks 12 km. What is the shortest distance from the starting point?",
+    "options": ["A) 15 km", "B) 21 km", "C) 13 km", "D) 17 km"],
+    "correct_answer": "A) 15 km",
+    "explanation": "√(9² + 12²) = √(81 + 144) = √225 = 15 km."
+  },
+  {
+    "id": 23,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If you are facing North and turn 45° to your right, which direction are you facing?",
+    "options": ["A) North-East", "B) North-West", "C) South-East", "D) East"],
+    "correct_answer": "A) North-East",
+    "explanation": "Turning 45° clockwise from North gives North-East."
+  },
+  {
+    "id": 24,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Mohan walks 6 km towards East, then turns North and walks 8 km. He then turns West and walks 6 km. How far is he from the starting point?",
+    "options": ["A) 8 km", "B) 6 km", "C) 10 km", "D) 14 km"],
+    "correct_answer": "A) 8 km",
+    "explanation": "East 6 and West 6 cancel. He is 8 km North of the starting point."
+  },
+  {
+    "id": 25,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A woman faces East. She turns 90° anti-clockwise, then 180° clockwise. Which direction is she facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "B) South",
+    "explanation": "East → 90° anti-clockwise = North → 180° clockwise = South."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Ramesh walks 10 km South, then turns right and walks 10 km. In which direction is he from the starting point?",
+    "options": ["A) South-East", "B) South-West", "C) North-East", "D) North-West"],
+    "correct_answer": "B) South-West",
+    "explanation": "South 10 km, then right from South = West, walks 10 km West. He is South-West of start."
+  },
+  {
+    "id": 27,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Kavya faces North-West. She turns 180°. Which direction is she facing?",
+    "options": ["A) South-East", "B) North-East", "C) South-West", "D) North-West"],
+    "correct_answer": "A) South-East",
+    "explanation": "Turning 180° from North-West gives the opposite direction, South-East."
+  },
+  {
+    "id": 28,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Arun walks 4 km North, 3 km East, 4 km South. What is the distance from the starting point?",
+    "options": ["A) 3 km", "B) 4 km", "C) 5 km", "D) 7 km"],
+    "correct_answer": "A) 3 km",
+    "explanation": "North 4 and South 4 cancel. He is 3 km East of the starting point."
+  },
+  {
+    "id": 29,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man is facing West. He turns 90° to his left. Which direction is he facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "B) South",
+    "explanation": "Facing West, turning left (anti-clockwise) = South."
+  },
+  {
+    "id": 30,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Tina walks 5 km East, then 12 km North. What is the shortest distance from her starting point?",
+    "options": ["A) 13 km", "B) 17 km", "C) 15 km", "D) 11 km"],
+    "correct_answer": "A) 13 km",
+    "explanation": "√(5² + 12²) = √(25 + 144) = √169 = 13 km."
+  },
+  {
+    "id": 31,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Ritu faces East. She turns right three times. Which direction is she facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "A) North",
+    "explanation": "Each right turn = 90° clockwise. East → South → West → North after 3 right turns."
+  },
+  {
+    "id": 32,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Shyam walks 7 km West, then turns right and walks 7 km. In which direction is he from the starting point?",
+    "options": ["A) North-West", "B) South-West", "C) North-East", "D) South-East"],
+    "correct_answer": "A) North-West",
+    "explanation": "West 7 km, then right from West = North, walks 7 km North. He is North-West of start."
+  },
+  {
+    "id": 33,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person walks 20 m North, then 20 m East, then 20 m South, then 20 m West. Where does he end up?",
+    "options": ["A) Starting point", "B) 20 m North", "C) 20 m East", "D) 40 m East"],
+    "correct_answer": "A) Starting point",
+    "explanation": "All four movements cancel each other out. He returns to the starting point."
+  },
+  {
+    "id": 34,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Geeta faces South-West. She turns 90° anti-clockwise. Which direction is she facing?",
+    "options": ["A) North-West", "B) South-East", "C) North-East", "D) South-West"],
+    "correct_answer": "B) South-East",
+    "explanation": "90° anti-clockwise from South-West = South-East."
+  },
+  {
+    "id": 35,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rahul walks 3 km North, then 4 km West. What is the shortest distance from the starting point?",
+    "options": ["A) 5 km", "B) 7 km", "C) 6 km", "D) 4 km"],
+    "correct_answer": "A) 5 km",
+    "explanation": "√(3² + 4²) = √(9 + 16) = √25 = 5 km."
+  },
+  {
+    "id": 36,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man faces North. He turns 135° clockwise. Which direction is he facing?",
+    "options": ["A) South-East", "B) South-West", "C) North-East", "D) North-West"],
+    "correct_answer": "A) South-East",
+    "explanation": "North + 90° = East, + 45° more = South-East. So 135° clockwise from North = South-East."
+  },
+  {
+    "id": 37,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Priti walks 6 km East, then 8 km South. What is the shortest distance from the starting point?",
+    "options": ["A) 10 km", "B) 14 km", "C) 12 km", "D) 8 km"],
+    "correct_answer": "A) 10 km",
+    "explanation": "√(6² + 8²) = √(36 + 64) = √100 = 10 km."
+  },
+  {
+    "id": 38,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Hari faces East. He turns left. Then turns right. Which direction is he facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "C) East",
+    "explanation": "East → left = North → right = East. He is back to facing East."
+  },
+  {
+    "id": 39,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Nisha walks 10 m towards North, then 10 m towards East, then 10 m towards South. In which direction is she from the starting point?",
+    "options": ["A) East", "B) West", "C) North", "D) South"],
+    "correct_answer": "A) East",
+    "explanation": "North 10 and South 10 cancel. She is 10 m East of the starting point."
+  },
+  {
+    "id": 40,
+    "topic": "Direction Sense Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Vijay faces South. He turns 90° clockwise. Which direction is he facing?",
+    "options": ["A) North", "B) East", "C) West", "D) South"],
+    "correct_answer": "C) West",
+    "explanation": "Facing South, turning 90° clockwise = West."
+  },
+  {
+    "id": 41,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Rajan starts from point A, walks 5 km North, then turns right and walks 3 km, then turns right and walks 5 km, then turns left and walks 2 km. How far is he from point A and in which direction?",
+    "options": ["A) 5 km East", "B) 3 km East", "C) 5 km West", "D) 5 km East"],
+    "correct_answer": "A) 5 km East",
+    "explanation": "N5→E3→S5→E2. North and South cancel. Total East = 3+2 = 5 km. He is 5 km East of A."
+  },
+  {
+    "id": 42,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Seema walks 8 km South, then turns left and walks 6 km, then turns left and walks 8 km. What is the shortest distance from the starting point?",
+    "options": ["A) 6 km", "B) 8 km", "C) 10 km", "D) 14 km"],
+    "correct_answer": "A) 6 km",
+    "explanation": "S8→E6→N8. South 8 and North 8 cancel. She is 6 km East of start. Distance = 6 km."
+  },
+  {
+    "id": 43,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Mohan starts facing North. He turns right, walks 4 km, turns right again, walks 4 km, turns right again, walks 4 km. How far is he from the starting point?",
+    "options": ["A) 4 km", "B) 0 km", "C) 8 km", "D) 12 km"],
+    "correct_answer": "A) 4 km",
+    "explanation": "N→E4→S4→W4. Net position: 4E - 4W = 0 East/West, 0 - 4 = -4 South. Wait: starts N, turns right=E, walks 4; turns right=S, walks 4; turns right=W, walks 4. Net: E4, S4, W4 → East-West: 0, North-South: -4 (South). Distance = 4 km South."
+  },
+  {
+    "id": 44,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Kavitha walks 12 km North, then 5 km East, then 12 km South, then 3 km West. How far is she from the starting point?",
+    "options": ["A) 2 km", "B) 3 km", "C) 5 km", "D) 4 km"],
+    "correct_answer": "A) 2 km",
+    "explanation": "N12 and S12 cancel. East 5 - West 3 = 2 km East. She is 2 km East of start."
+  },
+  {
+    "id": 45,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Anil starts from his house, goes 6 km South, then 8 km East, then 6 km North, then 4 km West. In which direction and how far is he from his house?",
+    "options": ["A) 4 km East", "B) 4 km West", "C) 8 km East", "D) 2 km East"],
+    "correct_answer": "A) 4 km East",
+    "explanation": "S6 and N6 cancel. East 8 - West 4 = 4 km East. He is 4 km East of his house."
+  },
+  {
+    "id": 46,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Pradeep faces North. He turns 45° clockwise, then 90° anti-clockwise. Which direction is he facing?",
+    "options": ["A) North-West", "B) North-East", "C) South-East", "D) South-West"],
+    "correct_answer": "A) North-West",
+    "explanation": "North + 45° CW = NE. NE - 90° (ACW) = NW. He is facing North-West."
+  },
+  {
+    "id": 47,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Sundar walks 10 km East, then turns South and walks 10 km, then turns West and walks 10 km, then turns North and walks 5 km. How far is he from the starting point?",
+    "options": ["A) 5 km", "B) 10 km", "C) 15 km", "D) 0 km"],
+    "correct_answer": "A) 5 km",
+    "explanation": "E10, S10, W10, N5. East-West: 10-10=0. North-South: 5-10=-5 (South). Distance = 5 km South."
+  },
+  {
+    "id": 48,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Rekha starts from point P, walks 7 km North, then 24 km East. What is the shortest distance from P?",
+    "options": ["A) 25 km", "B) 31 km", "C) 17 km", "D) 20 km"],
+    "correct_answer": "A) 25 km",
+    "explanation": "√(7² + 24²) = √(49 + 576) = √625 = 25 km."
+  },
+  {
+    "id": 49,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Sunil faces South-East. He turns 135° anti-clockwise. Which direction is he facing?",
+    "options": ["A) North", "B) South", "C) East", "D) West"],
+    "correct_answer": "A) North",
+    "explanation": "SE - 135° ACW: SE→E(45°)→NE(90°)→N(135°). He is facing North."
+  },
+  {
+    "id": 50,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Lata walks 4 km North, 3 km East, 4 km South, 3 km West, and then 2 km North. How far is she from the starting point?",
+    "options": ["A) 2 km", "B) 4 km", "C) 6 km", "D) 0 km"],
+    "correct_answer": "A) 2 km",
+    "explanation": "N4+N2-S4=N2; E3-W3=0. She is 2 km North of the starting point."
+  },
+  {
+    "id": 51,
+    "topic": "Direction Sense Test",
+    "difficulty": "medium",
+    "exam_type": "government

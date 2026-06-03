@@ -1,0 +1,412 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain artificial language, 'mop sir kil' means 'flowers are beautiful', 'sir kil dan' means 'flowers are fresh', and 'mop dan pir' means 'beautiful fresh roses'. What does 'mop' mean?",
+    "options": ["A) flowers", "B) are", "C) beautiful", "D) fresh"],
+    "correct_answer": "C) beautiful",
+    "explanation": "'mop sir kil' = flowers are beautiful; 'sir kil dan' = flowers are fresh. Common words: sir, kil = flowers, are. So 'mop' = beautiful. 'mop dan pir' confirms mop = beautiful."
+  },
+  {
+    "id": 2,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'tic pic nic' means 'sky is blue', 'nic bic dic' means 'blue sea water', and 'pic bic ric' means 'is sea deep'. What does 'tic' mean?",
+    "options": ["A) blue", "B) sky", "C) is", "D) deep"],
+    "correct_answer": "B) sky",
+    "explanation": "From sentences 1 and 2: 'nic' = blue. From sentences 1 and 3: 'pic' = is. So in sentence 1, 'tic' = sky."
+  },
+  {
+    "id": 3,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'la fa ta' means 'eat fresh mango', 'fa da na' means 'mango is sweet', and 'ta da ka' means 'fresh is good'. What does 'la' mean?",
+    "options": ["A) mango", "B) fresh", "C) eat", "D) sweet"],
+    "correct_answer": "C) eat",
+    "explanation": "From sentences 1 and 2: 'fa' = mango. From sentences 1 and 3: 'ta' = fresh. So 'la' = eat."
+  },
+  {
+    "id": 4,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'zo po lo' means 'dog is black', 'po mo no' means 'black cat runs', and 'zo no ko' means 'dog runs fast'. What does 'lo' mean?",
+    "options": ["A) dog", "B) is", "C) black", "D) fast"],
+    "correct_answer": "B) is",
+    "explanation": "From sentences 1 and 2: 'po' = black. From sentences 1 and 3: 'zo' = dog. So 'lo' = is."
+  },
+  {
+    "id": 5,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'ab cd ef' means 'red rose blooms', 'cd gh ij' means 'rose is fragrant', and 'ef ij kl' means 'blooms is wonderful'. What does 'ab' mean?",
+    "options": ["A) rose", "B) blooms", "C) red", "D) fragrant"],
+    "correct_answer": "C) red",
+    "explanation": "From sentences 1 and 2: 'cd' = rose. From sentences 1 and 3: 'ef' = blooms. So 'ab' = red."
+  },
+  {
+    "id": 6,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'ka ba ra' means 'sun rises east', 'ba da ma' means 'east wind blows', and 'ra ma pa' means 'east rises north'. What does 'ka' mean?",
+    "options": ["A) east", "B) rises", "C) sun", "D) north"],
+    "correct_answer": "C) sun",
+    "explanation": "From sentences 1 and 2: 'ba' = east. From sentences 1 and 3: 'ra' = rises. So 'ka' = sun."
+  },
+  {
+    "id": 7,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'xi yi zi' means 'water flows down', 'yi ai bi' means 'flows river fast', and 'zi bi ci' means 'down fast hill'. What does 'xi' mean?",
+    "options": ["A) flows", "B) down", "C) fast", "D) water"],
+    "correct_answer": "D) water",
+    "explanation": "From sentences 1 and 2: 'yi' = flows. From sentences 1 and 3: 'zi' = down. So 'xi' = water."
+  },
+  {
+    "id": 8,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'nip tip rip' means 'cold wind blows', 'tip sip dip' means 'wind rain falls', and 'rip dip hip' means 'blows falls heavy'. What does 'nip' mean?",
+    "options": ["A) wind", "B) blows", "C) cold", "D) heavy"],
+    "correct_answer": "C) cold",
+    "explanation": "From sentences 1 and 2: 'tip' = wind. From sentences 1 and 3: 'rip' = blows. So 'nip' = cold."
+  },
+  {
+    "id": 9,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'pq rs tu' means 'birds fly high', 'rs vw xy' means 'fly clouds white', and 'tu xy za' means 'high white sky'. What does 'pq' mean?",
+    "options": ["A) fly", "B) high", "C) birds", "D) sky"],
+    "correct_answer": "C) birds",
+    "explanation": "From sentences 1 and 2: 'rs' = fly. From sentences 1 and 3: 'tu' = high. So 'pq' = birds."
+  },
+  {
+    "id": 10,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'ma na pa' means 'tree gives shade', 'na qa ra' means 'gives fruit daily', and 'pa ra sa' means 'shade daily cool'. What does 'ma' mean?",
+    "options": ["A) gives", "B) shade", "C) tree", "D) cool"],
+    "correct_answer": "C) tree",
+    "explanation": "From sentences 1 and 2: 'na' = gives. From sentences 1 and 3: 'pa' = shade. So 'ma' = tree."
+  },
+  {
+    "id": 11,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'ax bx cx' means 'lion is fierce', 'bx dx ex' means 'is tiger dangerous', and 'cx ex fx' means 'fierce dangerous animal'. What does 'ax' mean?",
+    "options": ["A) is", "B) fierce", "C) lion", "D) dangerous"],
+    "correct_answer": "C) lion",
+    "explanation": "From sentences 1 and 2: 'bx' = is. From sentences 1 and 3: 'cx' = fierce. So 'ax' = lion."
+  },
+  {
+    "id": 12,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'sim dim rim' means 'book is heavy', 'dim tim vim' means 'is pen light', and 'rim vim wim' means 'heavy light object'. What does 'sim' mean?",
+    "options": ["A) is", "B) heavy", "C) book", "D) light"],
+    "correct_answer": "C) book",
+    "explanation": "From sentences 1 and 2: 'dim' = is. From sentences 1 and 3: 'rim' = heavy. So 'sim' = book."
+  },
+  {
+    "id": 13,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'col mol fol' means 'rain makes mud', 'mol pol rol' means 'makes road slippery', and 'fol rol sol' means 'mud slippery wet'. What does 'col' mean?",
+    "options": ["A) makes", "B) mud", "C) rain", "D) wet"],
+    "correct_answer": "C) rain",
+    "explanation": "From sentences 1 and 2: 'mol' = makes. From sentences 1 and 3: 'fol' = mud. So 'col' = rain."
+  },
+  {
+    "id": 14,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'gar bar tar' means 'fish swim deep', 'bar war nar' means 'swim ocean wide', and 'tar nar par' means 'deep wide blue'. What does 'gar' mean?",
+    "options": ["A) swim", "B) deep", "C) fish", "D) blue"],
+    "correct_answer": "C) fish",
+    "explanation": "From sentences 1 and 2: 'bar' = swim. From sentences 1 and 3: 'tar' = deep. So 'gar' = fish."
+  },
+  {
+    "id": 15,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'hop cop top' means 'night is dark', 'cop lop mop' means 'is moon bright', and 'top mop nop' means 'dark bright sky'. What does 'hop' mean?",
+    "options": ["A) is", "B) dark", "C) night", "D) bright"],
+    "correct_answer": "C) night",
+    "explanation": "From sentences 1 and 2: 'cop' = is. From sentences 1 and 3: 'top' = dark. So 'hop' = night."
+  },
+  {
+    "id": 16,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'fen hen len' means 'gold is precious', 'hen men nen' means 'is silver rare', and 'len nen oen' means 'precious rare metal'. What does 'fen' mean?",
+    "options": ["A) is", "B) precious", "C) gold", "D) rare"],
+    "correct_answer": "C) gold",
+    "explanation": "From sentences 1 and 2: 'hen' = is. From sentences 1 and 3: 'len' = precious. So 'fen' = gold."
+  },
+  {
+    "id": 17,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'jab kab lab' means 'horse runs fast', 'kab mab nab' means 'runs field wide', and 'lab nab oab' means 'fast wide open'. What does 'jab' mean?",
+    "options": ["A) runs", "B) fast", "C) horse", "D) open"],
+    "correct_answer": "C) horse",
+    "explanation": "From sentences 1 and 2: 'kab' = runs. From sentences 1 and 3: 'lab' = fast. So 'jab' = horse."
+  },
+  {
+    "id": 18,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'vik bik cik' means 'star shines bright', 'bik dik eik' means 'shines moon night', and 'cik eik fik' means 'bright night sky'. What does 'vik' mean?",
+    "options": ["A) shines", "B) bright", "C) star", "D) sky"],
+    "correct_answer": "C) star",
+    "explanation": "From sentences 1 and 2: 'bik' = shines. From sentences 1 and 3: 'cik' = bright. So 'vik' = star."
+  },
+  {
+    "id": 19,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'pul bul cul' means 'fire burns hot', 'bul dul eul' means 'burns wood fast', and 'cul eul ful' means 'hot fast smoke'. What does 'pul' mean?",
+    "options": ["A) burns", "B) hot", "C) fire", "D) smoke"],
+    "correct_answer": "C) fire",
+    "explanation": "From sentences 1 and 2: 'bul' = burns. From sentences 1 and 3: 'cul' = hot. So 'pul' = fire."
+  },
+  {
+    "id": 20,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'rop sop top' means 'child plays happily', 'sop vop wop' means 'plays game outdoor', and 'top wop xop' means 'happily outdoor fun'. What does 'rop' mean?",
+    "options": ["A) plays", "B) happily", "C) child", "D) fun"],
+    "correct_answer": "C) child",
+    "explanation": "From sentences 1 and 2: 'sop' = plays. From sentences 1 and 3: 'top' = happily. So 'rop' = child."
+  },
+  {
+    "id": 21,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'zan ban can' means 'river flows calm', 'ban dan ean' means 'flows water clear', and 'can ean fan' means 'calm clear cool'. What does 'zan' mean?",
+    "options": ["A) flows", "B) calm", "C) river", "D) cool"],
+    "correct_answer": "C) river",
+    "explanation": "From sentences 1 and 2: 'ban' = flows. From sentences 1 and 3: 'can' = calm. So 'zan' = river."
+  },
+  {
+    "id": 22,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'lim nim pim' means 'apple tastes sweet', 'nim qim rim' means 'tastes orange sour', and 'pim rim sim' means 'sweet sour fruit'. What does 'lim' mean?",
+    "options": ["A) tastes", "B) sweet", "C) apple", "D) sour"],
+    "correct_answer": "C) apple",
+    "explanation": "From sentences 1 and 2: 'nim' = tastes. From sentences 1 and 3: 'pim' = sweet. So 'lim' = apple."
+  },
+  {
+    "id": 23,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'wax tax max' means 'cloud brings rain', 'tax fax gax' means 'brings thunder storm', and 'max gax hax' means 'rain storm flood'. What does 'wax' mean?",
+    "options": ["A) brings", "B) rain", "C) cloud", "D) flood"],
+    "correct_answer": "C) cloud",
+    "explanation": "From sentences 1 and 2: 'tax' = brings. From sentences 1 and 3: 'max' = rain. So 'wax' = cloud."
+  },
+  {
+    "id": 24,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'dul mul rul' means 'sand is soft', 'mul sul tul' means 'is stone hard', and 'rul tul vul' means 'soft hard ground'. What does 'dul' mean?",
+    "options": ["A) is", "B) soft", "C) sand", "D) hard"],
+    "correct_answer": "C) sand",
+    "explanation": "From sentences 1 and 2: 'mul' = is. From sentences 1 and 3: 'rul' = soft. So 'dul' = sand."
+  },
+  {
+    "id": 25,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'kel mel nel' means 'bird sings sweet', 'mel oel pel' means 'sings tune loud', and 'nel pel qel' means 'sweet loud music'. What does 'kel' mean?",
+    "options": ["A) sings", "B) sweet", "C) bird", "D) music"],
+    "correct_answer": "C) bird",
+    "explanation": "From sentences 1 and 2: 'mel' = sings. From sentences 1 and 3: 'nel' = sweet. So 'kel' = bird."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'fro gro hro' means 'market sells vegetables', 'gro iro jro' means 'sells fresh daily', and 'hro jro kro' means 'vegetables daily cheap'. What does 'fro' mean?",
+    "options": ["A) sells", "B) vegetables", "C) market", "D) cheap"],
+    "correct_answer": "C) market",
+    "explanation": "From sentences 1 and 2: 'gro' = sells. From sentences 1 and 3: 'hro' = vegetables. So 'fro' = market."
+  },
+  {
+    "id": 27,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'pal qal ral' means 'doctor treats patient', 'qal sal tal' means 'treats fever quickly', and 'ral tal ual' means 'patient quickly recovers'. What does 'pal' mean?",
+    "options": ["A) treats", "B) patient", "C) doctor", "D) recovers"],
+    "correct_answer": "C) doctor",
+    "explanation": "From sentences 1 and 2: 'qal' = treats. From sentences 1 and 3: 'ral' = patient. So 'pal' = doctor."
+  },
+  {
+    "id": 28,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'tic tac toe' means 'game is fun', 'tac bac cac' means 'is sport exciting', and 'toe cac dac' means 'fun exciting activity'. What does 'tic' mean?",
+    "options": ["A) is", "B) fun", "C) game", "D) exciting"],
+    "correct_answer": "C) game",
+    "explanation": "From sentences 1 and 2: 'tac' = is. From sentences 1 and 3: 'toe' = fun. So 'tic' = game."
+  },
+  {
+    "id": 29,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'vin bin cin' means 'teacher teaches well', 'bin din ein' means 'teaches students daily', and 'cin ein fin' means 'well daily good'. What does 'vin' mean?",
+    "options": ["A) teaches", "B) well", "C) teacher", "D) good"],
+    "correct_answer": "C) teacher",
+    "explanation": "From sentences 1 and 2: 'bin' = teaches. From sentences 1 and 3: 'cin' = well. So 'vin' = teacher."
+  },
+  {
+    "id": 30,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'ola bla cla' means 'sun gives warmth', 'bla dla ela' means 'gives energy life', and 'cla ela fla' means 'warmth life good'. What does 'ola' mean?",
+    "options": ["A) gives", "B) warmth", "C) sun", "D) life"],
+    "correct_answer": "C) sun",
+    "explanation": "From sentences 1 and 2: 'bla' = gives. From sentences 1 and 3: 'cla' = warmth. So 'ola' = sun."
+  },
+  {
+    "id": 31,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'rup sup tup' means 'music soothes mind', 'sup vup wup' means 'soothes tired soul', and 'tup wup xup' means 'mind soul calm'. What does 'rup' mean?",
+    "options": ["A) soothes", "B) mind", "C) music", "D) calm"],
+    "correct_answer": "C) music",
+    "explanation": "From sentences 1 and 2: 'sup' = soothes. From sentences 1 and 3: 'tup' = mind. So 'rup' = music."
+  },
+  {
+    "id": 32,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'jem kem lem' means 'winter brings cold', 'kem mem nem' means 'brings snow frost', and 'lem nem oem' means 'cold frost chill'. What does 'jem' mean?",
+    "options": ["A) brings", "B) cold", "C) winter", "D) chill"],
+    "correct_answer": "C) winter",
+    "explanation": "From sentences 1 and 2: 'kem' = brings. From sentences 1 and 3: 'lem' = cold. So 'jem' = winter."
+  },
+  {
+    "id": 33,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'abo cbo dbo' means 'farmer grows crops', 'cbo ebo fbo' means 'grows wheat rice', and 'dbo fbo gbo' means 'crops rice harvest'. What does 'abo' mean?",
+    "options": ["A) grows", "B) crops", "C) farmer", "D) harvest"],
+    "correct_answer": "C) farmer",
+    "explanation": "From sentences 1 and 2: 'cbo' = grows. From sentences 1 and 3: 'dbo' = crops. So 'abo' = farmer."
+  },
+  {
+    "id": 34,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'lix mix nix' means 'computer works fast', 'mix oix pix' means 'works program code', and 'nix pix qix' means 'fast code output'. What does 'lix' mean?",
+    "options": ["A) works", "B) fast", "C) computer", "D) output"],
+    "correct_answer": "C) computer",
+    "explanation": "From sentences 1 and 2: 'mix' = works. From sentences 1 and 3: 'nix' = fast. So 'lix' = computer."
+  },
+  {
+    "id": 35,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'ful gul hul' means 'ocean is vast', 'gul iul jul' means 'is lake deep', and 'hul jul kul' means 'vast deep water'. What does 'ful' mean?",
+    "options": ["A) is", "B) vast", "C) ocean", "D) deep"],
+    "correct_answer": "C) ocean",
+    "explanation": "From sentences 1 and 2: 'gul' = is. From sentences 1 and 3: 'hul' = vast. So 'ful' = ocean."
+  },
+  {
+    "id": 36,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'pon qon ron' means 'spring brings flowers', 'qon son ton' means 'brings color joy', and 'ron ton uon' means 'flowers joy beauty'. What does 'pon' mean?",
+    "options": ["A) brings", "B) flowers", "C) spring", "D) beauty"],
+    "correct_answer": "C) spring",
+    "explanation": "From sentences 1 and 2: 'qon' = brings. From sentences 1 and 3: 'ron' = flowers. So 'pon' = spring."
+  },
+  {
+    "id": 37,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a certain language, 'wal xal yal' means 'train moves quickly', 'xal zal aal' means 'moves track smooth', and 'yal aal bal' means 'quickly smooth journey'. What does 'wal' mean?",
+    "options": ["A) moves", "B) quickly", "C) train", "D) journey"],
+    "correct_answer": "C) train",
+    "explanation": "From sentences 1 and 2: 'xal' = moves. From sentences 1 and 3: 'yal' = quickly. So 'wal' = train."
+  },
+  {
+    "id": 38,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'dum rum sum' means 'cat sleeps quietly', 'rum tum vum' means 'sleeps mat soft', and 'sum vum wum' means 'quietly soft cozy'. What does 'dum' mean?",
+    "options": ["A) sleeps", "B) quietly", "C) cat", "D) cozy"],
+    "correct_answer": "C) cat",
+    "explanation": "From sentences 1 and 2: 'rum' = sleeps. From sentences 1 and 3: 'sum' = quietly. So 'dum' = cat."
+  },
+  {
+    "id": 39,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a coded language, 'elo flo glo' means 'plane flies high', 'flo hlo ilo' means 'flies cloud above', and 'glo ilo jlo' means 'high above sky'. What does 'elo' mean?",
+    "options": ["A) flies", "B) high", "C) plane", "D) sky"],
+    "correct_answer": "C) plane",
+    "explanation": "From sentences 1 and 2: 'flo' = flies. From sentences 1 and 3: 'glo' = high. So 'elo' = plane."
+  },
+  {
+    "id": 40,
+    "topic": "Artificial Language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an artificial language, 'anu bnu cnu' means 'garden looks green', 'bnu dnu enu' means 'looks fresh clean', and 'cnu enu fnu' means 'green clean nature'. What does 'anu' mean?",
+    "options": ["A) looks", "B) green", "C) garden", "D) nature"],
+    "correct_answer": "C) garden",
+    "explanation": "From sentences 1 and 2: 'bnu' = looks. From sentences 1 and 3: 'cnu' = green. So 'anu' = garden."
+  },
+  {
+    "id": 41,
+    "topic": "Artificial Language",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In an artificial language, 'mik nik pik' means 'honest people succeed', 'nik qik rik' means 'people work hard', 'pik rik sik' means 'succeed hard always', and 'mik tik uik' means 'honest effort wins'. What does 'tik' mean?",
+    "options": ["A) honest", "B) effort", "C) wins", "D) always"],
+    "correct_answer": "B) effort",
+    "explanation": "From sentence 1: mik=honest, nik=people, pik=succeed. From sentence 4: mik=honest, so tik and uik = effort and wins. From sentence

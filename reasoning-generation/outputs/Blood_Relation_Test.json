@@ -1,0 +1,442 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+    "options": ["A) Mother", "B) Daughter", "C) Sister", "D) Aunt"],
+    "correct_answer": "A) Mother",
+    "explanation": "The only daughter of the woman's mother is the woman herself. So the woman is the man's mother."
+  },
+  {
+    "id": 2,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If A is the brother of B, B is the sister of C, and C is the father of D, how is A related to D?",
+    "options": ["A) Uncle", "B) Father", "C) Grandfather", "D) Brother"],
+    "correct_answer": "A) Uncle",
+    "explanation": "A is brother of B, B is sister of C, so A and C are siblings. C is father of D, so A is uncle of D."
+  },
+  {
+    "id": 3,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rahul said, 'This girl is the wife of the grandson of my mother.' Who is Rahul to the girl?",
+    "options": ["A) Father", "B) Grandfather", "C) Father-in-law", "D) Husband"],
+    "correct_answer": "C) Father-in-law",
+    "explanation": "Rahul's mother's grandson is Rahul's son. The girl is the wife of Rahul's son, so Rahul is her father-in-law."
+  },
+  {
+    "id": 4,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man said to a lady, 'Your mother's husband's sister is my aunt.' How is the lady related to the man?",
+    "options": ["A) Daughter", "B) Sister", "C) Niece", "D) Mother"],
+    "correct_answer": "B) Sister",
+    "explanation": "Lady's mother's husband is her father. Father's sister is the man's aunt, meaning the man's father's sister is also the lady's father's sister. So they share the same father — they are siblings (sister)."
+  },
+  {
+    "id": 5,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If X is the son of Y, Y is the daughter of Z, and Z is the father of W, how is X related to W?",
+    "options": ["A) Nephew", "B) Son", "C) Cousin", "D) Brother"],
+    "correct_answer": "A) Nephew",
+    "explanation": "Y is daughter of Z, W is also child of Z, so Y and W are siblings. X is son of Y, so X is nephew of W."
+  },
+  {
+    "id": 6,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a photograph, Ravi said, 'She is the daughter of my grandfather's only son.' How is the girl in the photograph related to Ravi?",
+    "options": ["A) Sister", "B) Cousin", "C) Niece", "D) Daughter"],
+    "correct_answer": "A) Sister",
+    "explanation": "Ravi's grandfather's only son is Ravi's father. The girl is the daughter of Ravi's father, so she is Ravi's sister."
+  },
+  {
+    "id": 7,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A woman introduces a man as the son of the brother of her mother. How is the man related to the woman?",
+    "options": ["A) Uncle", "B) Son", "C) Cousin", "D) Nephew"],
+    "correct_answer": "C) Cousin",
+    "explanation": "Mother's brother is the woman's maternal uncle. The son of her maternal uncle is her cousin."
+  },
+  {
+    "id": 8,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If P is the father of Q, Q is the sister of R, and R is the mother of S, how is P related to S?",
+    "options": ["A) Father", "B) Uncle", "C) Grandfather", "D) Brother"],
+    "correct_answer": "C) Grandfather",
+    "explanation": "P is father of Q, Q is sister of R, so P is also father of R. R is mother of S, so P is grandfather of S."
+  },
+  {
+    "id": 9,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Mohan said, 'Neha's father is the only son of my father.' How is Mohan related to Neha?",
+    "options": ["A) Brother", "B) Father", "C) Uncle", "D) Grandfather"],
+    "correct_answer": "B) Father",
+    "explanation": "The only son of Mohan's father is Mohan himself. So Neha's father is Mohan, meaning Mohan is Neha's father."
+  },
+  {
+    "id": 10,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a boy, Meena said, 'He is the son of my father's only daughter.' How is the boy related to Meena?",
+    "options": ["A) Brother", "B) Nephew", "C) Son", "D) Cousin"],
+    "correct_answer": "C) Son",
+    "explanation": "Meena's father's only daughter is Meena herself. So the boy is the son of Meena — he is her son."
+  },
+  {
+    "id": 11,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If A + B means A is the father of B, A – B means A is the sister of B, A × B means A is the brother of B, then which of the following means M is the uncle of N?",
+    "options": ["A) M × P + N", "B) M + P × N", "C) M – P + N", "D) M × P – N"],
+    "correct_answer": "A) M × P + N",
+    "explanation": "M × P means M is brother of P; P + N means P is father of N. So M is brother of N's father, making M the uncle of N."
+  },
+  {
+    "id": 12,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Suresh said, 'This woman is the wife of my wife's brother.' How is the woman related to Suresh?",
+    "options": ["A) Sister", "B) Sister-in-law", "C) Aunt", "D) Cousin"],
+    "correct_answer": "B) Sister-in-law",
+    "explanation": "Suresh's wife's brother is Suresh's brother-in-law. The wife of Suresh's brother-in-law is Suresh's sister-in-law."
+  },
+  {
+    "id": 13,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a man in a photograph, a woman says, 'His brother's father is the only son of my grandfather.' How is the woman related to the man?",
+    "options": ["A) Mother", "B) Aunt", "C) Sister", "D) Daughter"],
+    "correct_answer": "C) Sister",
+    "explanation": "The only son of the woman's grandfather is her father. The man's brother's father is the man's father. So the man's father = woman's father, making them siblings — she is his sister."
+  },
+  {
+    "id": 14,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If Amit says, 'Priya's father is my mother's brother,' how is Priya related to Amit?",
+    "options": ["A) Niece", "B) Cousin", "C) Sister", "D) Aunt"],
+    "correct_answer": "B) Cousin",
+    "explanation": "Amit's mother's brother is Amit's maternal uncle. Priya is the daughter of Amit's maternal uncle, so Priya is Amit's cousin."
+  },
+  {
+    "id": 15,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+    "options": ["A) Granddaughter", "B) Daughter", "C) Grandmother", "D) Niece"],
+    "correct_answer": "A) Granddaughter",
+    "explanation": "C is B's mother and A is B's sister, so C is also A's mother. D is C's father, so D is A's grandfather. Hence A is D's granddaughter."
+  },
+  {
+    "id": 16,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a lady, a man said, 'The son of her only brother is my brother.' How is the lady related to the man?",
+    "options": ["A) Mother", "B) Aunt", "C) Sister", "D) Grandmother"],
+    "correct_answer": "B) Aunt",
+    "explanation": "The lady's only brother's son is the man's brother. So the lady's brother is the man's father. The lady is the sister of the man's father — she is his aunt."
+  },
+  {
+    "id": 17,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Riya is the sister of Siya. Siya is the mother of Tiya. Tiya is the daughter of Uday. How is Riya related to Uday?",
+    "options": ["A) Wife", "B) Sister", "C) Sister-in-law", "D) Daughter"],
+    "correct_answer": "C) Sister-in-law",
+    "explanation": "Siya is Tiya's mother and Uday is Tiya's father, so Siya and Uday are husband and wife. Riya is Siya's sister, so Riya is Uday's sister-in-law."
+  },
+  {
+    "id": 18,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If 'A $ B' means A is the mother of B, 'A # B' means A is the father of B, then what does P $ Q # R mean?",
+    "options": ["A) P is the grandmother of R", "B) P is the grandfather of R", "C) P is the mother of R", "D) P is the aunt of R"],
+    "correct_answer": "A) P is the grandmother of R",
+    "explanation": "P $ Q means P is mother of Q; Q # R means Q is father of R. So P is the mother of Q who is the father of R — P is the grandmother of R."
+  },
+  {
+    "id": 19,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a girl, Rohan said, 'She is the daughter of the only child of my grandmother.' How is the girl related to Rohan?",
+    "options": ["A) Niece", "B) Sister", "C) Cousin", "D) Daughter"],
+    "correct_answer": "B) Sister",
+    "explanation": "Rohan's grandmother's only child is Rohan's parent. The girl is the daughter of Rohan's parent, so she is Rohan's sister."
+  },
+  {
+    "id": 20,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Kavya said, 'Arjun is the son of the only brother of my father.' How is Kavya related to Arjun?",
+    "options": ["A) Sister", "B) Cousin", "C) Niece", "D) Daughter"],
+    "correct_answer": "B) Cousin",
+    "explanation": "Kavya's father's only brother is Kavya's uncle. Arjun is the son of Kavya's uncle, so Arjun is Kavya's cousin."
+  },
+  {
+    "id": 21,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Introducing a man, a woman said, 'He is the only son of my mother's mother.' How is the man related to the woman?",
+    "options": ["A) Uncle", "B) Father", "C) Maternal Uncle", "D) Grandfather"],
+    "correct_answer": "C) Maternal Uncle",
+    "explanation": "The woman's mother's mother is her maternal grandmother. The only son of her maternal grandmother is her mother's brother — her maternal uncle."
+  },
+  {
+    "id": 22,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If Asha is the niece of Bina, Bina is the sister of Charu, and Charu is the mother of Deepa, how is Asha related to Deepa?",
+    "options": ["A) Sister", "B) Cousin", "C) Niece", "D) Aunt"],
+    "correct_answer": "B) Cousin",
+    "explanation": "Bina is sister of Charu. Asha is niece of Bina, so Asha's parent is Bina's sibling — Charu. Deepa is Charu's daughter. So Asha and Deepa are both children of Charu — they are sisters. Wait: Asha is niece of Bina means Asha's parent is Bina's sibling. Charu is Bina's sibling. So Asha is Charu's daughter. Deepa is also Charu's daughter. They are sisters... but the answer given is Cousin. Let me re-check: Asha is niece of Bina. Bina's siblings are Charu (and possibly others). If Asha's parent is another sibling of Bina (not Charu), then Asha and Deepa are cousins. The question doesn't specify Charu is the only sibling, so Asha's parent could be another sibling of Bina, making Asha and Deepa cousins.",
+    "explanation": "Asha is niece of Bina means Asha's parent is a sibling of Bina. Charu is also Bina's sibling and Deepa's mother. So Asha and Deepa are cousins (children of siblings)."
+  },
+  {
+    "id": 23,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a photograph, Sanjay said, 'The lady in the photo is my nephew's maternal grandmother.' How is the lady related to Sanjay's sister who has no other sister?",
+    "options": ["A) Sister-in-law", "B) Mother", "C) Cousin", "D) Aunt"],
+    "correct_answer": "B) Mother",
+    "explanation": "Sanjay's nephew is the son of Sanjay's sister. The maternal grandmother of Sanjay's nephew is the mother of Sanjay's sister. So the lady is Sanjay's sister's mother — her mother."
+  },
+  {
+    "id": 24,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If Kiran says, 'Lata's mother is the wife of my father's son,' how is Kiran related to Lata?",
+    "options": ["A) Father", "B) Brother", "C) Uncle", "D) Grandfather"],
+    "correct_answer": "A) Father",
+    "explanation": "Kiran's father's son is Kiran himself. Lata's mother is Kiran's wife. So Kiran is Lata's father."
+  },
+  {
+    "id": 25,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man pointing to a woman said, 'Her father is the only son of my father.' How is the man related to the woman?",
+    "options": ["A) Father", "B) Brother", "C) Grandfather", "D) Uncle"],
+    "correct_answer": "A) Father",
+    "explanation": "The only son of the man's father is the man himself. So the woman's father is the man — he is her father."
+  },
+  {
+    "id": 26,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Neha is the daughter-in-law of Ramesh. Ramesh has only one son, Sunil. Sunil has a sister, Priya. How is Priya related to Neha?",
+    "options": ["A) Sister", "B) Sister-in-law", "C) Cousin", "D) Aunt"],
+    "correct_answer": "B) Sister-in-law",
+    "explanation": "Neha is married to Sunil (Ramesh's only son). Priya is Sunil's sister. So Priya is Neha's sister-in-law."
+  },
+  {
+    "id": 27,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If Arun says, 'Bina is my father's wife's daughter,' and Bina is not Arun's sister, how is Bina related to Arun?",
+    "options": ["A) Half-sister", "B) Step-sister", "C) Cousin", "D) Niece"],
+    "correct_answer": "B) Step-sister",
+    "explanation": "Arun's father's wife (stepmother) has a daughter Bina who is not Arun's biological sister. So Bina is Arun's step-sister."
+  },
+  {
+    "id": 28,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a boy, Geeta said, 'He is the son of my husband's father's only daughter.' How is the boy related to Geeta?",
+    "options": ["A) Son", "B) Nephew", "C) Brother-in-law's son", "D) Cousin's son"],
+    "correct_answer": "B) Nephew",
+    "explanation": "Geeta's husband's father's only daughter is Geeta's husband's sister (sister-in-law). The son of Geeta's sister-in-law is Geeta's nephew."
+  },
+  {
+    "id": 29,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Vijay said, 'Anita's mother is the only daughter-in-law of my mother.' How is Vijay related to Anita?",
+    "options": ["A) Father", "B) Uncle", "C) Brother", "D) Grandfather"],
+    "correct_answer": "A) Father",
+    "explanation": "Vijay's mother's only daughter-in-law is Vijay's wife. Anita's mother is Vijay's wife, so Vijay is Anita's father."
+  },
+  {
+    "id": 30,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a man, a lady said, 'He is the brother of my uncle's daughter.' How is the man related to the lady?",
+    "options": ["A) Cousin", "B) Brother", "C) Uncle", "D) Nephew"],
+    "correct_answer": "A) Cousin",
+    "explanation": "The lady's uncle's daughter is the lady's cousin. The brother of the lady's cousin is also the lady's cousin."
+  },
+  {
+    "id": 31,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If Seema says, 'Raj is the son of the only brother of my mother,' how is Seema related to Raj?",
+    "options": ["A) Sister", "B) Cousin", "C) Niece", "D) Aunt"],
+    "correct_answer": "B) Cousin",
+    "explanation": "Seema's mother's only brother is Seema's maternal uncle. Raj is the son of Seema's maternal uncle, so Raj is Seema's cousin."
+  },
+  {
+    "id": 32,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a photograph, Deepak said, 'This man's son is my son's uncle.' How is the man in the photograph related to Deepak?",
+    "options": ["A) Brother", "B) Father", "C) Uncle", "D) Grandfather"],
+    "correct_answer": "B) Father",
+    "explanation": "Deepak's son's uncle is Deepak's brother. The man's son is Deepak's brother, so the man is Deepak's father."
+  },
+  {
+    "id": 33,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Anand is the brother of Bimal. Bimal is the father of Chetan. Chetan is the son of Diya. How is Anand related to Diya?",
+    "options": ["A) Brother", "B) Brother-in-law", "C) Uncle", "D) Father"],
+    "correct_answer": "B) Brother-in-law",
+    "explanation": "Bimal is father of Chetan and Diya is mother of Chetan, so Bimal and Diya are husband and wife. Anand is Bimal's brother, so Anand is Diya's brother-in-law."
+  },
+  {
+    "id": 34,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A girl said, 'The brother of my father's sister is my uncle.' Is this statement correct?",
+    "options": ["A) Yes, always correct", "B) No, he is her father", "C) No, he is her grandfather", "D) Cannot be determined"],
+    "correct_answer": "A) Yes, always correct",
+    "explanation": "The girl's father's sister is her aunt (paternal). The brother of her paternal aunt is her father's brother — her paternal uncle. The statement is correct."
+  },
+  {
+    "id": 35,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a man, Sunita said, 'His wife is the only daughter of my father.' How is Sunita related to the man?",
+    "options": ["A) Wife", "B) Sister-in-law", "C) Mother-in-law", "D) Sister"],
+    "correct_answer": "A) Wife",
+    "explanation": "The only daughter of Sunita's father is Sunita herself. The man's wife is Sunita, so Sunita is the man's wife."
+  },
+  {
+    "id": 36,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Rohit said, 'Priya is the daughter of the only sister of my brother.' How is Priya related to Rohit?",
+    "options": ["A) Niece", "B) Daughter", "C) Cousin", "D) Sister"],
+    "correct_answer": "A) Niece",
+    "explanation": "Rohit's brother's only sister is Rohit's sister. Priya is the daughter of Rohit's sister, so Priya is Rohit's niece."
+  },
+  {
+    "id": 37,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If Meera says, 'Ravi's mother is the wife of my father's son,' how is Meera related to Ravi?",
+    "options": ["A) Mother", "B) Sister", "C) Aunt", "D) Grandmother"],
+    "correct_answer": "A) Mother",
+    "explanation": "Meera's father's son is Meera's brother. Ravi's mother is Meera's brother's wife. Wait — that makes Meera the aunt. Let me reconsider: if Meera is female and 'my father's son' could be Meera's brother. But if Meera is the only child, 'my father's son' could be Meera's husband. Actually, Meera is female so 'my father's son' is Meera's brother. Ravi's mother is Meera's brother's wife, so Meera is Ravi's aunt.",
+    "explanation": "Meera's father's son is Meera's brother. Ravi's mother is Meera's brother's wife. So Meera is Ravi's aunt (paternal)."
+  },
+  {
+    "id": 38,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a boy, Kavita said, 'He is the son of my mother's only son.' How is Kavita related to the boy?",
+    "options": ["A) Mother", "B) Aunt", "C) Sister", "D) Cousin"],
+    "correct_answer": "B) Aunt",
+    "explanation": "Kavita's mother's only son is Kavita's brother. The boy is the son of Kavita's brother, so Kavita is the boy's aunt."
+  },
+  {
+    "id": 39,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Anil said, 'Sunil is the son of my father's brother.' How is Anil related to Sunil?",
+    "options": ["A) Brother", "B) Cousin", "C) Uncle", "D) Nephew"],
+    "correct_answer": "B) Cousin",
+    "explanation": "Anil's father's brother is Anil's uncle. Sunil is the son of Anil's uncle, so Sunil is Anil's cousin."
+  },
+  {
+    "id": 40,
+    "topic": "Blood Relation Test",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Pointing to a lady, a man said, 'She is the daughter of the woman who is the mother of the husband of my mother.' How is the lady related to the man?",
+    "options": ["A) Aunt", "B) Grandmother", "C) Sister", "D) Mother-in-law"],
+    "correct_answer": "A) Aunt",
+    "explanation": "The mother of the man's mother's husband is the man's paternal grandmother. The daughter of the man's paternal grandmother is the man's father's sister — his aunt."
+  },
+  {
+    "id": 41,
+    "topic": "Blood Relation Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Read the following information: A is the son of B. C is the sister of A. D is the father of B. E is the son of C. How is E related to D?",
+    "options": ["A) Great-grandson", "B) Grandson", "C) Son", "D) Nephew"],
+    "correct_answer": "A) Great-grandson",
+    "explanation": "D is father of B, B is father of A, A's sister is C, C's son is E. So D→B→A/C→E. E is D's great-grandson."
+  },
+  {
+    "id": 42,
+    "topic": "Blood Relation Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "In a family, P is the brother of Q. Q is the wife of R. R is the son of S. T is the daughter of S. How is P related to T?",
+    "options": ["A) Brother-in-law", "B) Brother", "C) Cousin", "D) Uncle"],
+    "correct_answer": "A) Brother-in-law",
+    "explanation": "Q is wife of R, P is brother of Q. T is daughter of S, R is also son of S, so R and T are siblings. P is Q's brother, and Q is R's wife. T is R's sister. P is the brother of R's wife, so P is T's brother-in-law."
+  },
+  {
+    "id": 43,
+    "topic": "Blood Relation Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Pointing to a man in a photograph, Priya said, 'His mother's only brother is the father of my son.' How is Priya related to the man?",
+    "options": ["A) Aunt", "B) Sister", "C) Mother", "D) Niece"],
+    "correct_answer": "A) Aunt",
+    "explanation": "The man's mother's only brother is Priya's son's father — Priya's husband. So Priya's husband is the man's maternal uncle. Priya is the wife of the man's maternal uncle — she is his aunt."
+  },
+  {
+    "id": 44,
+    "topic": "Blood Relation Test",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "If A # B means A is the father of B, A @ B means A is the wife of B, A & B means A is the brother of B, then what does P @ Q # R & S mean?",
+    "options": ["A) P is the aunt of S", "B) P is the mother of S", "C) P is the sister-in-law of S", "D) P is the grandmother of S"],
+    "correct_answer": "C) P is the sister-

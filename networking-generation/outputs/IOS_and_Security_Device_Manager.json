@@ -1,0 +1,501 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does IOS stand for in the context of Cisco networking?",
+    "options": ["A) Internetwork Operating System", "B) Internet Operating Software", "C) Integrated Operating System", "D) Internal Operating Service"],
+    "correct_answer": "A) Internetwork Operating System",
+    "explanation": "IOS stands for Internetwork Operating System, which is the software used on Cisco routers and switches to manage network operations."
+  },
+  {
+    "id": 2,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary purpose of Cisco Security Device Manager (SDM)?",
+    "options": ["A) To configure Cisco routers via a web-based GUI", "B) To monitor network traffic only", "C) To manage physical hardware components", "D) To update firmware on switches"],
+    "correct_answer": "A) To configure Cisco routers via a web-based GUI",
+    "explanation": "Cisco SDM is a web-based device management tool that allows administrators to configure Cisco routers through a graphical user interface without using CLI commands."
+  },
+  {
+    "id": 3,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to enter privileged EXEC mode in Cisco IOS?",
+    "options": ["A) enable", "B) configure terminal", "C) login", "D) sudo"],
+    "correct_answer": "A) enable",
+    "explanation": "The 'enable' command is used to enter privileged EXEC mode (also called enable mode) from user EXEC mode in Cisco IOS."
+  },
+  {
+    "id": 4,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What symbol indicates that a Cisco router is in privileged EXEC mode?",
+    "options": ["A) #", "B) >", "C) $", "D) @"],
+    "correct_answer": "A) #",
+    "explanation": "The '#' symbol at the command prompt indicates privileged EXEC mode (e.g., Router#), while '>' indicates user EXEC mode."
+  },
+  {
+    "id": 5,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS command displays the current running configuration of a router?",
+    "options": ["A) show running-config", "B) show startup-config", "C) display config", "D) view config"],
+    "correct_answer": "A) show running-config",
+    "explanation": "'show running-config' displays the active configuration currently running in RAM, while 'show startup-config' shows the saved configuration in NVRAM."
+  },
+  {
+    "id": 6,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Where is the startup configuration stored in a Cisco router?",
+    "options": ["A) NVRAM", "B) RAM", "C) Flash memory", "D) ROM"],
+    "correct_answer": "A) NVRAM",
+    "explanation": "The startup configuration is stored in NVRAM (Non-Volatile RAM), which retains data even when the router is powered off."
+  },
+  {
+    "id": 7,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which memory type in a Cisco router stores the IOS image?",
+    "options": ["A) Flash memory", "B) RAM", "C) NVRAM", "D) ROM"],
+    "correct_answer": "A) Flash memory",
+    "explanation": "Flash memory stores the Cisco IOS image. It is non-volatile and retains the IOS even after power loss."
+  },
+  {
+    "id": 8,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default port used by Cisco SDM to access the router's web interface?",
+    "options": ["A) 443 (HTTPS)", "B) 80 (HTTP)", "C) 22 (SSH)", "D) 23 (Telnet)"],
+    "correct_answer": "A) 443 (HTTPS)",
+    "explanation": "Cisco SDM uses HTTPS (port 443) by default for secure web-based access to the router's management interface."
+  },
+  {
+    "id": 9,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command saves the running configuration to NVRAM in Cisco IOS?",
+    "options": ["A) copy running-config startup-config", "B) save config", "C) write memory only", "D) store running-config"],
+    "correct_answer": "A) copy running-config startup-config",
+    "explanation": "'copy running-config startup-config' saves the current running configuration from RAM to NVRAM so it persists after reboot."
+  },
+  {
+    "id": 10,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'show version' command display in Cisco IOS?",
+    "options": ["A) IOS version, hardware details, and uptime", "B) Only the IOS version number", "C) Network interface status", "D) Routing table information"],
+    "correct_answer": "A) IOS version, hardware details, and uptime",
+    "explanation": "'show version' displays comprehensive information including IOS version, hardware model, RAM/Flash sizes, and system uptime."
+  },
+  {
+    "id": 11,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which mode must you be in to use the 'configure terminal' command in Cisco IOS?",
+    "options": ["A) Privileged EXEC mode", "B) User EXEC mode", "C) Global configuration mode", "D) Interface configuration mode"],
+    "correct_answer": "A) Privileged EXEC mode",
+    "explanation": "'configure terminal' is entered from privileged EXEC mode (#) to enter global configuration mode where router settings can be changed."
+  },
+  {
+    "id": 12,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'no shutdown' command in Cisco IOS?",
+    "options": ["A) To enable a network interface", "B) To disable a network interface", "C) To restart the router", "D) To clear the configuration"],
+    "correct_answer": "A) To enable a network interface",
+    "explanation": "By default, router interfaces are administratively down. 'no shutdown' enables the interface and brings it up."
+  },
+  {
+    "id": 13,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS command is used to set a hostname for a router?",
+    "options": ["A) hostname [name]", "B) set hostname [name]", "C) name [hostname]", "D) router-name [name]"],
+    "correct_answer": "A) hostname [name]",
+    "explanation": "The 'hostname' command in global configuration mode sets the name of the router, which appears in the command prompt."
+  },
+  {
+    "id": 14,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ACL stand for in Cisco IOS security?",
+    "options": ["A) Access Control List", "B) Authenticated Connection Layer", "C) Advanced Configuration Logic", "D) Access Command Line"],
+    "correct_answer": "A) Access Control List",
+    "explanation": "ACL stands for Access Control List, which is used in Cisco IOS to filter network traffic based on defined rules."
+  },
+  {
+    "id": 15,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command displays all interfaces and their IP addresses on a Cisco router?",
+    "options": ["A) show ip interface brief", "B) show interfaces all", "C) display ip addresses", "D) list interfaces"],
+    "correct_answer": "A) show ip interface brief",
+    "explanation": "'show ip interface brief' provides a concise summary of all interfaces, their IP addresses, and their status (up/down)."
+  },
+  {
+    "id": 16,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the function of the 'ping' command in Cisco IOS?",
+    "options": ["A) To test network connectivity to a destination", "B) To configure routing protocols", "C) To display routing tables", "D) To reset interface counters"],
+    "correct_answer": "A) To test network connectivity to a destination",
+    "explanation": "'ping' sends ICMP echo requests to test whether a destination host is reachable and measures round-trip time."
+  },
+  {
+    "id": 17,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol does Cisco SDM use for secure communication?",
+    "options": ["A) HTTPS", "B) HTTP", "C) FTP", "D) SMTP"],
+    "correct_answer": "A) HTTPS",
+    "explanation": "Cisco SDM uses HTTPS (HTTP over SSL/TLS) to ensure encrypted and secure communication between the browser and the router."
+  },
+  {
+    "id": 18,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'traceroute' command in Cisco IOS?",
+    "options": ["A) To trace the path packets take to a destination", "B) To configure static routes", "C) To display the routing table", "D) To test DNS resolution"],
+    "correct_answer": "A) To trace the path packets take to a destination",
+    "explanation": "'traceroute' identifies each hop (router) along the path to a destination, helping diagnose routing issues."
+  },
+  {
+    "id": 19,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS command erases the startup configuration?",
+    "options": ["A) erase startup-config", "B) delete startup-config", "C) clear startup-config", "D) remove startup-config"],
+    "correct_answer": "A) erase startup-config",
+    "explanation": "'erase startup-config' removes the saved configuration from NVRAM, causing the router to start with a blank configuration on next boot."
+  },
+  {
+    "id": 20,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'show ip route' command display?",
+    "options": ["A) The IP routing table", "B) Interface IP addresses", "C) ARP cache entries", "D) DHCP leases"],
+    "correct_answer": "A) The IP routing table",
+    "explanation": "'show ip route' displays the router's routing table, showing all known networks and the paths to reach them."
+  },
+  {
+    "id": 21,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of ACL filters traffic based only on source IP address?",
+    "options": ["A) Standard ACL", "B) Extended ACL", "C) Named ACL", "D) Dynamic ACL"],
+    "correct_answer": "A) Standard ACL",
+    "explanation": "Standard ACLs (numbered 1-99) filter traffic based only on the source IP address, while Extended ACLs can filter on source, destination, protocol, and port."
+  },
+  {
+    "id": 22,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the number range for standard IP ACLs in Cisco IOS?",
+    "options": ["A) 1-99", "B) 100-199", "C) 1-199", "D) 200-299"],
+    "correct_answer": "A) 1-99",
+    "explanation": "Standard IP ACLs use numbers 1-99 (and 1300-1999 for extended range). Extended ACLs use numbers 100-199."
+  },
+  {
+    "id": 23,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command is used to configure an IP address on a router interface?",
+    "options": ["A) ip address [IP] [subnet mask]", "B) set ip [IP] [subnet mask]", "C) assign ip [IP] [subnet mask]", "D) interface ip [IP] [subnet mask]"],
+    "correct_answer": "A) ip address [IP] [subnet mask]",
+    "explanation": "In interface configuration mode, 'ip address [IP] [subnet mask]' assigns an IP address to the interface."
+  },
+  {
+    "id": 24,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does SSH stand for in network security?",
+    "options": ["A) Secure Shell", "B) Secure Socket Handler", "C) System Security Host", "D) Secure Service Hub"],
+    "correct_answer": "A) Secure Shell",
+    "explanation": "SSH (Secure Shell) is a cryptographic network protocol used for secure remote login and command execution, replacing insecure Telnet."
+  },
+  {
+    "id": 25,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS command displays the ARP table?",
+    "options": ["A) show arp", "B) display arp-table", "C) show ip arp-cache", "D) list arp"],
+    "correct_answer": "A) show arp",
+    "explanation": "'show arp' displays the ARP (Address Resolution Protocol) table, mapping IP addresses to MAC addresses known by the router."
+  },
+  
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+
+  {
+    "id": 26,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default administrative distance of a static route in Cisco IOS?",
+    "options": ["A) 1", "B) 0", "C) 90", "D) 110"],
+    "correct_answer": "A) 1",
+    "explanation": "Static routes have an administrative distance of 1 by default. Connected routes have 0, making static routes the second most trusted."
+  },
+  {
+    "id": 27,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command enters interface configuration mode for FastEthernet 0/0?",
+    "options": ["A) interface fastethernet 0/0", "B) configure interface fa0/0", "C) set interface fastethernet 0/0", "D) enter interface 0/0"],
+    "correct_answer": "A) interface fastethernet 0/0",
+    "explanation": "From global configuration mode, 'interface fastethernet 0/0' (or 'interface fa0/0') enters the configuration mode for that specific interface."
+  },
+  {
+    "id": 28,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does NAT stand for in Cisco IOS networking?",
+    "options": ["A) Network Address Translation", "B) Network Access Terminal", "C) Node Authentication Table", "D) Network Allocation Table"],
+    "correct_answer": "A) Network Address Translation",
+    "explanation": "NAT (Network Address Translation) translates private IP addresses to public IP addresses, allowing multiple devices to share a single public IP."
+  },
+  {
+    "id": 29,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS feature provides firewall functionality on a router?",
+    "options": ["A) Cisco IOS Firewall (CBAC)", "B) Cisco IOS NAT", "C) Cisco IOS OSPF", "D) Cisco IOS DHCP"],
+    "correct_answer": "A) Cisco IOS Firewall (CBAC)",
+    "explanation": "Cisco IOS Firewall uses Context-Based Access Control (CBAC) to provide stateful inspection firewall capabilities directly on the router."
+  },
+  {
+    "id": 30,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'enable secret' command in Cisco IOS?",
+    "options": ["A) To set an encrypted password for privileged EXEC mode", "B) To set a plain-text password for user mode", "C) To enable SSH on the router", "D) To configure VPN access"],
+    "correct_answer": "A) To set an encrypted password for privileged EXEC mode",
+    "explanation": "'enable secret' sets an MD5-encrypted password for privileged EXEC mode, which is more secure than 'enable password' which stores in plain text."
+  },
+  {
+    "id": 31,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command displays the current CDP neighbors in Cisco IOS?",
+    "options": ["A) show cdp neighbors", "B) display cdp", "C) list cdp neighbors", "D) show neighbors cdp"],
+    "correct_answer": "A) show cdp neighbors",
+    "explanation": "CDP (Cisco Discovery Protocol) 'show cdp neighbors' displays directly connected Cisco devices including their device ID, interface, and platform."
+  },
+  {
+    "id": 32,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does VPN stand for?",
+    "options": ["A) Virtual Private Network", "B) Virtual Public Network", "C) Verified Private Node", "D) Virtual Protocol Network"],
+    "correct_answer": "A) Virtual Private Network",
+    "explanation": "VPN (Virtual Private Network) creates an encrypted tunnel over a public network, allowing secure communication between remote sites or users."
+  },
+  {
+    "id": 33,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS command is used to configure a default gateway on a router?",
+    "options": ["A) ip route 0.0.0.0 0.0.0.0 [next-hop]", "B) default-gateway [IP]", "C) set gateway [IP]", "D) ip default-route [IP]"],
+    "correct_answer": "A) ip route 0.0.0.0 0.0.0.0 [next-hop]",
+    "explanation": "A default route (gateway of last resort) is configured with 'ip route 0.0.0.0 0.0.0.0 [next-hop IP]', matching all destinations not in the routing table."
+  },
+  {
+    "id": 34,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of DHCP in a network?",
+    "options": ["A) To automatically assign IP addresses to devices", "B) To encrypt network traffic", "C) To route packets between networks", "D) To resolve domain names to IP addresses"],
+    "correct_answer": "A) To automatically assign IP addresses to devices",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses, subnet masks, gateways, and DNS servers to network devices."
+  },
+  {
+    "id": 35,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which command in Cisco IOS shows the OSPF routing protocol neighbors?",
+    "options": ["A) show ip ospf neighbor", "B) display ospf peers", "C) show ospf adjacency", "D) list ospf neighbors"],
+    "correct_answer": "A) show ip ospf neighbor",
+    "explanation": "'show ip ospf neighbor' displays OSPF neighbor relationships, their state, and the interface through which they are connected."
+  },
+  {
+    "id": 36,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does IDS stand for in network security?",
+    "options": ["A) Intrusion Detection System", "B) Internet Defense System", "C) Integrated Data Security", "D) Internal Detection Service"],
+    "correct_answer": "A) Intrusion Detection System",
+    "explanation": "IDS (Intrusion Detection System) monitors network traffic for suspicious activity and alerts administrators but does not actively block threats."
+  },
+  {
+    "id": 37,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS command is used to reload (restart) a router?",
+    "options": ["A) reload", "B) restart", "C) reboot", "D) reset"],
+    "correct_answer": "A) reload",
+    "explanation": "The 'reload' command in privileged EXEC mode restarts the Cisco router, loading the startup configuration from NVRAM."
+  },
+  {
+    "id": 38,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the 'service password-encryption' command in Cisco IOS?",
+    "options": ["A) To encrypt all plain-text passwords in the configuration", "B) To enable SSH encryption", "C) To configure IPSec VPN", "D) To encrypt routing protocol updates"],
+    "correct_answer": "A) To encrypt all plain-text passwords in the configuration",
+    "explanation": "'service password-encryption' applies weak Type 7 encryption to all plain-text passwords in the running configuration, preventing casual viewing."
+  },
+  {
+    "id": 39,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which Cisco IOS command configures a console password?",
+    "options": ["A) line console 0, then password [pwd], then login", "B) console password [pwd]", "C) set console-password [pwd]", "D) configure console [pwd]"],
+    "correct_answer": "A) line console 0, then password [pwd], then login",
+    "explanation": "To set a console password: enter 'line console 0', then 'password [pwd]', then 'login' to require the password for console access."
+  },
+  {
+    "id": 40,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the '?' character do in Cisco IOS CLI?",
+    "options": ["A) Displays context-sensitive help and available commands", "B) Enters a comment in the configuration", "C) Clears the current command line", "D) Exits the current mode"],
+    "correct_answer": "A) Displays context-sensitive help and available commands",
+    "explanation": "Typing '?' in Cisco IOS CLI displays available commands or options at that point, providing context-sensitive help to the administrator."
+  },
+  {
+    "id": 41,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A network administrator applies an extended ACL numbered 110 to filter traffic. Which of the following correctly describes where extended ACLs should be placed for optimal performance?",
+    "options": ["A) As close to the source as possible", "B) As close to the destination as possible", "C) On the core router only", "D) On all routers in the network"],
+    "correct_answer": "A) As close to the source as possible",
+    "explanation": "Extended ACLs should be placed close to the source to prevent unwanted traffic from traversing the network unnecessarily, saving bandwidth."
+  },
+  {
+    "id": 42,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In Cisco IOS, what is the administrative distance of OSPF?",
+    "options": ["A) 110", "B) 90", "C) 120", "D) 100"],
+    "correct_answer": "A) 110",
+    "explanation": "OSPF has an administrative distance of 110. EIGRP is 90, RIP is 120, and IS-IS is 115. Lower AD values are preferred."
+  },
+  {
+    "id": 43,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which Cisco IOS command enables SSH version 2 on a router?",
+    "options": ["A) ip ssh version 2", "B) ssh version 2", "C) enable ssh v2", "D) set ssh version 2"],
+    "correct_answer": "A) ip ssh version 2",
+    "explanation": "'ip ssh version 2' in global configuration mode enables SSH version 2, which is more secure than version 1 due to improved encryption."
+  },
+  {
+    "id": 44,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the wildcard mask equivalent to a subnet mask of 255.255.255.0?",
+    "options": ["A) 0.0.0.255", "B) 255.255.255.0", "C) 0.0.255.255", "D) 255.0.0.0"],
+    "correct_answer": "A) 0.0.0.255",
+    "explanation": "Wildcard mask is the inverse of subnet mask. 255.255.255.0 inverted = 0.0.0.255. Wildcard masks are used in ACLs and routing protocols."
+  },
+  {
+    "id": 45,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In Cisco SDM, which wizard is used to configure a basic firewall on a router?",
+    "options": ["A) Firewall and ACL Wizard", "B) Security Audit Wizard", "C) VPN Wizard", "D) Interface Wizard"],
+    "correct_answer": "A) Firewall and ACL Wizard",
+    "explanation": "Cisco SDM's Firewall and ACL Wizard guides administrators through configuring firewall rules and ACLs using a step-by-step graphical interface."
+  },
+  {
+    "id": 46,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which Cisco IOS command configures EIGRP with autonomous system number 100?",
+    "options": ["A) router eigrp 100", "B) eigrp 100", "C) enable eigrp 100", "D) routing eigrp as 100"],
+    "correct_answer": "A) router eigrp 100",
+    "explanation": "'router eigrp 100' in global configuration mode enables EIGRP routing with autonomous system number 100 on the router."
+  },
+  {
+    "id": 47,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the purpose of the 'ip inspect' command in Cisco IOS Firewall?",
+    "options": ["A) To enable stateful packet inspection (CBAC)", "B) To configure ACL rules", "C) To enable NAT inspection", "D) To monitor SNMP traffic"],
+    "correct_answer": "A) To enable stateful packet inspection (CBAC)",
+    "explanation": "'ip inspect' enables Context-Based Access Control (CBAC), which performs stateful inspection by tracking connection states for return traffic."
+  },
+  {
+    "id": 48,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A router has the following route entries: 192.168.1.0/24 via OSPF and 192.168.1.0/24 via RIP. Which route will be preferred?",
+    "options": ["A) OSPF route (AD=110)", "B) RIP route (AD=120)", "C) Both routes will be load-balanced", "D) Neither, the router will drop packets"],
+    "correct_answer": "A) OSPF route (AD=110)",
+    "explanation": "When two routes to the same destination exist, the one with lower Administrative Distance is preferred. OSPF (110) < RIP (120), so OSPF wins."
+  },
+  {
+    "id": 49,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which Cisco IOS command is used to configure a VTY line password for Telnet access?",
+    "options": ["A) line vty 0 4, password [pwd], login", "B) telnet password [pwd]", "C) vty password [pwd]", "D) remote access password [pwd]"],
+    "correct_answer": "A) line vty 0 4, password [pwd], login",
+    "explanation": "VTY lines (0-4) handle remote access. 'line vty 0 4' selects all 5 VTY lines, 'password' sets the password, and 'login' requires authentication."
+  },
+  {
+    "id": 50,
+    "topic": "IOS and Security Device Manager",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What does the 'ip nat inside source' command accomplish in

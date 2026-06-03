@@ -1,0 +1,439 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Join our weekend coding bootcamp to land your dream job.' Assumptions: I. People want to get better jobs. II. Coding skills are required for dream jobs. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The advertisement assumes people aspire to better jobs (I is implicit). However, it does not assume coding is required for ALL dream jobs — it merely offers coding as a path. So II is not necessarily implicit."
+  },
+  {
+    "id": 2,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Eat more fruits and vegetables to stay healthy.' Assumptions: I. Fruits and vegetables improve health. II. People currently do not eat enough fruits and vegetables. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes fruits/vegetables are beneficial (I) and that people need to increase their intake (II). Both are necessary for the statement to make sense."
+  },
+  {
+    "id": 3,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Please carry an umbrella today.' Assumptions: I. It may rain today. II. The person being addressed does not own an umbrella. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The advice to carry an umbrella implies rain is expected (I is implicit). It does not assume the person lacks an umbrella — they may already own one but need reminding."
+  },
+  {
+    "id": 4,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'If you want to pass the exam, start studying from today.' Assumptions: I. The person wants to pass the exam. II. Starting early improves chances of passing. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The conditional statement assumes the person desires to pass (I) and that early preparation helps (II). Both are embedded in the advice."
+  },
+  {
+    "id": 5,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The government should build more hospitals in rural areas.' Assumptions: I. Rural areas currently lack adequate hospitals. II. Building hospitals will improve rural healthcare. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The recommendation implies a shortage of hospitals in rural areas (I) and that more hospitals will help (II). Both assumptions underlie the suggestion."
+  },
+  {
+    "id": 6,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Buy one get one free on all shoes this weekend.' Assumptions: I. People are interested in buying shoes. II. The offer will attract more customers. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The offer assumes customers want shoes (I) and that the deal will draw them in (II). Both are necessary for the advertisement to have purpose."
+  },
+  {
+    "id": 7,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Wear a helmet while riding a motorcycle.' Assumptions: I. Helmets protect riders from injuries. II. All motorcycle riders are reckless. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The advice assumes helmets provide protection (I is implicit). It does not assume all riders are reckless — safety advice applies universally regardless of riding behavior."
+  },
+  {
+    "id": 8,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Download our app to get exclusive discounts.' Assumptions: I. People like discounts. II. The app is easy to download. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The statement assumes people are motivated by discounts (I is implicit). The ease of downloading is not assumed — it is not mentioned or required for the statement to hold."
+  },
+  {
+    "id": 9,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Students who read newspapers daily perform better in general knowledge tests.' Assumptions: I. Newspapers contain general knowledge information. II. All students read newspapers. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The statement assumes newspapers are a source of general knowledge (I is implicit). It does not claim all students read newspapers — in fact, it implies only some do."
+  },
+  {
+    "id": 10,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Take the highway to reach the airport faster.' Assumptions: I. The highway is a quicker route to the airport. II. The person needs to reach the airport. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes the highway is faster (I) and that the person is going to the airport (II). Both are necessary for the advice to be relevant."
+  },
+  {
+    "id": 11,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Switch off lights when not in use to save electricity.' Assumptions: I. Lights consume electricity. II. People often forget to switch off lights. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes lights use electricity (I) and that people leave them on unnecessarily (II). Both are embedded in the conservation message."
+  },
+  {
+    "id": 12,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Enroll in our online course to master data science in 3 months.' Assumptions: I. Data science can be learned online. II. Three months is sufficient to master data science. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advertisement assumes online learning is effective for data science (I) and that 3 months is adequate (II). Both claims are implicit in the offer."
+  },
+  {
+    "id": 13,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Drink at least 8 glasses of water daily for good health.' Assumptions: I. Water is essential for health. II. Most people drink fewer than 8 glasses daily. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes water benefits health (I) and that people need to be reminded to drink more (II), implying current intake is insufficient."
+  },
+  {
+    "id": 14,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Vote for Candidate A — he will bring development to our city.' Assumptions: I. Development is desirable for the city. II. Candidate A has the ability to bring development. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The campaign slogan assumes voters want development (I) and that the candidate can deliver it (II). Both are necessary for the appeal to be meaningful."
+  },
+  {
+    "id": 15,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Use sunscreen before going outdoors to protect your skin.' Assumptions: I. Sun exposure can harm the skin. II. Sunscreen is effective in protecting skin. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes sun can damage skin (I) and that sunscreen provides protection (II). Both are required for the recommendation to be valid."
+  },
+  {
+    "id": 16,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The company should hire more women engineers to promote diversity.' Assumptions: I. The company currently has fewer women engineers. II. Diversity improves company performance. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The suggestion implies a current gender imbalance (I is implicit). Whether diversity improves performance is not necessarily assumed — the goal stated is diversity itself."
+  },
+  {
+    "id": 17,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Book your train tickets in advance to avoid last-minute rush.' Assumptions: I. Train tickets may not be available at the last minute. II. People prefer to travel by train. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The advice assumes tickets may run out (I is implicit). It does not assume train is the preferred mode — the advice is directed at those who have already chosen to travel by train."
+  },
+  {
+    "id": 18,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Parents should spend quality time with their children.' Assumptions: I. Quality time benefits children's development. II. Parents currently do not spend enough time with children. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The recommendation assumes time with parents is beneficial (I) and that there is a current deficit (II). Both are embedded in the suggestion."
+  },
+  {
+    "id": 19,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Install antivirus software to keep your computer safe.' Assumptions: I. Computers can be affected by viruses. II. Antivirus software can protect computers from viruses. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes computers are vulnerable to viruses (I) and that antivirus software is effective (II). Both are necessary for the recommendation to be logical."
+  },
+  {
+    "id": 20,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Reduce sugar intake to lower the risk of diabetes.' Assumptions: I. High sugar intake increases diabetes risk. II. People consume too much sugar. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes sugar is linked to diabetes (I) and that current consumption is excessive (II). Both underlie the health recommendation."
+  },
+  {
+    "id": 21,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Learn a second language to boost your career prospects.' Assumptions: I. Knowing a second language improves career opportunities. II. Most people know only one language. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The advice assumes bilingualism helps careers (I is implicit). It does not assume most people are monolingual — the advice is general and not dependent on that fact."
+  },
+  {
+    "id": 22,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The school has decided to introduce yoga classes to improve students' concentration.' Assumptions: I. Yoga improves concentration. II. Students currently lack concentration. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The decision assumes yoga enhances concentration (I) and that students need improvement in this area (II). Both are implicit in the school's action."
+  },
+  {
+    "id": 23,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Always back up your data to prevent loss.' Assumptions: I. Data can be lost unexpectedly. II. Backing up data prevents its loss. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes data loss is possible (I) and that backups are an effective safeguard (II). Both are necessary for the advice to be meaningful."
+  },
+  {
+    "id": 24,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Exercise regularly to maintain a healthy weight.' Assumptions: I. Regular exercise helps control weight. II. People who exercise are always healthy. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The advice assumes exercise aids weight management (I is implicit). It does not claim exercising people are always healthy — that is an overstatement not implied."
+  },
+  {
+    "id": 25,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Read the instructions carefully before assembling the furniture.' Assumptions: I. The furniture requires assembly. II. Not reading instructions may lead to incorrect assembly. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The instruction assumes the furniture needs to be assembled (I) and that instructions help avoid errors (II). Both are implicit in the directive."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The city council has decided to plant more trees along the main road.' Assumptions: I. Trees improve the environment. II. The main road currently has very few trees. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The decision assumes trees are beneficial (I) and that the road lacks sufficient greenery (II). Both are embedded in the council's action."
+  },
+  {
+    "id": 27,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Use public transport to reduce traffic congestion.' Assumptions: I. Public transport reduces the number of private vehicles on roads. II. Traffic congestion is a problem. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes public transport eases congestion (I) and that congestion is indeed a problem worth solving (II). Both are necessary for the suggestion."
+  },
+  {
+    "id": 28,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Attend the career fair to explore job opportunities.' Assumptions: I. The career fair will have job opportunities. II. The person is looking for a job. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes the fair offers jobs (I) and that the person is job-seeking (II). Both are required for the recommendation to be relevant."
+  },
+  {
+    "id": 29,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Avoid junk food to maintain a healthy lifestyle.' Assumptions: I. Junk food is harmful to health. II. People who eat junk food cannot be healthy. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The advice assumes junk food is unhealthy (I is implicit). It does not claim junk food consumers can never be healthy — that is an extreme interpretation not implied."
+  },
+  {
+    "id": 30,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The manager asked employees to submit their reports by Friday.' Assumptions: I. Employees are capable of completing reports by Friday. II. The manager needs the reports for a purpose. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The request assumes employees can meet the deadline (I) and that the reports serve a purpose (II). Both are implicit in any reasonable managerial request."
+  },
+  {
+    "id": 31,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Carry a first-aid kit when going on a trek.' Assumptions: I. Injuries can occur during trekking. II. A first-aid kit can help treat minor injuries. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes trekking poses injury risks (I) and that a first-aid kit provides useful treatment (II). Both are necessary for the advice to be logical."
+  },
+  {
+    "id": 32,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The hospital has launched a free health check-up camp for senior citizens.' Assumptions: I. Senior citizens need regular health check-ups. II. Senior citizens may not be able to afford health check-ups. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The camp assumes senior citizens benefit from health check-ups (I is implicit). The free aspect may suggest affordability concerns, but it could also be a promotional gesture — II is not necessarily implicit."
+  },
+  {
+    "id": 33,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Practice mock tests regularly to improve your exam performance.' Assumptions: I. Mock tests are similar to actual exams. II. Regular practice improves performance. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes mock tests reflect real exams (I) and that practice leads to improvement (II). Both are embedded in the recommendation."
+  },
+  {
+    "id": 34,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The new traffic signal at the intersection will reduce accidents.' Assumptions: I. The intersection currently has a high accident rate. II. Traffic signals help prevent accidents. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The statement assumes the intersection is accident-prone (I) and that signals are effective safety measures (II). Both are necessary for the claim to be valid."
+  },
+  {
+    "id": 35,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Subscribe to our newsletter to stay updated on industry trends.' Assumptions: I. The newsletter contains relevant industry information. II. People want to stay updated on industry trends. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The offer assumes the newsletter is informative (I) and that the target audience values staying current (II). Both are implicit in the subscription pitch."
+  },
+  {
+    "id": 36,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Wash your hands frequently to prevent the spread of germs.' Assumptions: I. Germs can spread through hands. II. Washing hands eliminates germs. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes hands are a transmission route for germs (I) and that washing is an effective countermeasure (II). Both are necessary for the advice to be sound."
+  },
+  {
+    "id": 37,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The principal announced that students with full attendance will receive a certificate.' Assumptions: I. Students value certificates. II. Some students have full attendance. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The announcement assumes students are motivated by certificates (I is implicit). Whether any student actually has full attendance is not assumed — the announcement is forward-looking."
+  },
+  {
+    "id": 38,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Avoid driving during heavy rain to stay safe.' Assumptions: I. Driving in heavy rain is dangerous. II. People drive even during heavy rain. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The advice assumes rain makes driving risky (I) and that people need to be warned because they do drive in such conditions (II). Both are implicit."
+  },
+  {
+    "id": 39,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'The company offers free lunch to all employees to boost productivity.' Assumptions: I. Free lunch will motivate employees. II. Hungry employees are less productive. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The policy assumes free meals motivate staff (I) and that food security affects work output (II). Both are embedded in the company's rationale."
+  },
+  {
+    "id": 40,
+    "topic": "Statement and Assumption",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: 'Install CCTV cameras in the office to improve security.' Assumptions: I. CCTV cameras deter criminal activity. II. The office currently has security concerns. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The recommendation assumes cameras enhance security (I) and that there is a need for improved security (II). Both are necessary for the suggestion to be relevant."
+  },
+  {
+    "id": 41,
+    "topic": "Statement and Assumption",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: 'The government has decided to provide free textbooks to all students up to Class 8 in government schools.' Assumptions: I. Students in government schools cannot afford textbooks. II. Free textbooks will improve enrollment in government schools. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The policy assumes affordability is a barrier for government school students (I is implicit). Whether this improves enrollment is a possible outcome but not necessarily assumed by the policy."
+  },
+  {
+    "id": 42,
+    "topic": "Statement and Assumption",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: 'The railway ministry has announced a 10% concession in fares for senior citizens.' Assumptions: I. Senior citizens travel by train. II. The concession will encourage more senior citizens to travel by train. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "A) Only I",
+    "explanation": "The concession assumes senior citizens are train passengers (I is implicit). Whether it increases their travel frequency is a possible effect, not a necessary assumption."
+  },
+  {
+    "id": 43,
+    "topic": "Statement and Assumption",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: 'Despite repeated warnings, the factory continued to discharge waste into the river.' Assumptions: I. The factory was aware of the warnings. II. Discharging waste into the river is harmful. Which assumption(s) is/are implicit?",
+    "options": ["A) Only I", "B) Only II", "C) Both I and II", "D) Neither I nor II"],
+    "correct_answer": "C) Both I and II",
+    "explanation": "The word 'repeated warnings' implies the factory knew (I) and warnings about waste discharge assume it is harmful (II). Both are implicit."
+  },
+  {
+    "id": 44,
+    "topic": "Statement and Assumption",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: 'The state government has set up skill development centers in

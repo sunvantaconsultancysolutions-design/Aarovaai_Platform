@@ -1,0 +1,434 @@
+[
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the volume of a cube whose side is 5 cm.",
+    "options": ["100 cm³", "125 cm³", "150 cm³", "75 cm³"],
+    "correct_answer": "125 cm³",
+    "explanation": "Volume of cube = side³ = 5³ = 125 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The total surface area of a cube with side 4 cm is:",
+    "options": ["64 cm²", "96 cm²", "48 cm²", "80 cm²"],
+    "correct_answer": "96 cm²",
+    "explanation": "Total surface area of cube = 6 × side² = 6 × 16 = 96 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The volume of a cuboid with length 6 cm, breadth 4 cm, and height 3 cm is:",
+    "options": ["72 cm³", "60 cm³", "48 cm³", "84 cm³"],
+    "correct_answer": "72 cm³",
+    "explanation": "Volume of cuboid = l × b × h = 6 × 4 × 3 = 72 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The lateral surface area of a cube with side 7 cm is:",
+    "options": ["196 cm²", "294 cm²", "168 cm²", "98 cm²"],
+    "correct_answer": "196 cm²",
+    "explanation": "Lateral surface area of cube = 4 × side² = 4 × 49 = 196 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Find the volume of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7)",
+    "options": ["1540 cm³", "1440 cm³", "1640 cm³", "1340 cm³"],
+    "correct_answer": "1540 cm³",
+    "explanation": "Volume = πr²h = (22/7) × 7² × 10 = (22/7) × 49 × 10 = 22 × 7 × 10 = 1540 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The curved surface area of a cylinder with radius 3.5 cm and height 10 cm is: (Use π = 22/7)",
+    "options": ["220 cm²", "110 cm²", "440 cm²", "330 cm²"],
+    "correct_answer": "220 cm²",
+    "explanation": "CSA = 2πrh = 2 × (22/7) × 3.5 × 10 = 2 × 22 × 0.5 × 10 = 220 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The volume of a sphere with radius 3 cm is: (Use π = 22/7)",
+    "options": ["113.14 cm³", "113.04 cm³", "112.04 cm³", "114.04 cm³"],
+    "correct_answer": "113.14 cm³",
+    "explanation": "Volume = (4/3)πr³ = (4/3) × (22/7) × 27 = (4 × 22 × 27)/(3 × 7) = 2376/21 ≈ 113.14 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The surface area of a sphere with radius 7 cm is: (Use π = 22/7)",
+    "options": ["616 cm²", "616 cm²", "308 cm²", "1232 cm²"],
+    "correct_answer": "616 cm²",
+    "explanation": "Surface area = 4πr² = 4 × (22/7) × 49 = 4 × 22 × 7 = 616 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Find the total surface area of a cuboid with l = 5 cm, b = 4 cm, h = 3 cm.",
+    "options": ["94 cm²", "84 cm²", "74 cm²", "104 cm²"],
+    "correct_answer": "94 cm²",
+    "explanation": "TSA = 2(lb + bh + hl) = 2(20 + 12 + 15) = 2 × 47 = 94 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The volume of a cone with radius 7 cm and height 6 cm is: (Use π = 22/7)",
+    "options": ["308 cm³", "616 cm³", "154 cm³", "462 cm³"],
+    "correct_answer": "308 cm³",
+    "explanation": "Volume = (1/3)πr²h = (1/3) × (22/7) × 49 × 6 = (1/3) × 22 × 7 × 6 = 308 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The diagonal of a cube with side 6 cm is:",
+    "options": ["6√2 cm", "6√3 cm", "12 cm", "6 cm"],
+    "correct_answer": "6√3 cm",
+    "explanation": "Diagonal of cube = side × √3 = 6√3 cm."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If the side of a cube is doubled, its volume becomes:",
+    "options": ["2 times", "4 times", "6 times", "8 times"],
+    "correct_answer": "8 times",
+    "explanation": "Volume = s³. If s becomes 2s, volume = (2s)³ = 8s³, which is 8 times the original."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The volume of a hemisphere with radius 6 cm is: (Use π = 3.14)",
+    "options": ["452.16 cm³", "904.32 cm³", "226.08 cm³", "678.24 cm³"],
+    "correct_answer": "452.16 cm³",
+    "explanation": "Volume of hemisphere = (2/3)πr³ = (2/3) × 3.14 × 216 = (2/3) × 678.24 = 452.16 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The number of bricks each measuring 25 cm × 12.5 cm × 7.5 cm required to build a wall 6 m × 5 m × 0.5 m is:",
+    "options": ["6400", "3200", "4800", "5600"],
+    "correct_answer": "6400",
+    "explanation": "Volume of wall = 600 × 500 × 50 = 15,000,000 cm³. Volume of brick = 25 × 12.5 × 7.5 = 2343.75 cm³. Number = 15,000,000 / 2343.75 = 6400."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The total surface area of a cylinder with radius 7 cm and height 5 cm is: (Use π = 22/7)",
+    "options": ["528 cm²", "264 cm²", "440 cm²", "352 cm²"],
+    "correct_answer": "528 cm²",
+    "explanation": "TSA = 2πr(r + h) = 2 × (22/7) × 7 × (7 + 5) = 2 × 22 × 12 = 528 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The slant height of a cone with radius 5 cm and height 12 cm is:",
+    "options": ["13 cm", "11 cm", "15 cm", "17 cm"],
+    "correct_answer": "13 cm",
+    "explanation": "Slant height l = √(r² + h²) = √(25 + 144) = √169 = 13 cm."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The curved surface area of a cone with radius 6 cm and slant height 10 cm is: (Use π = 3.14)",
+    "options": ["188.4 cm²", "376.8 cm²", "94.2 cm²", "282.6 cm²"],
+    "correct_answer": "188.4 cm²",
+    "explanation": "CSA of cone = πrl = 3.14 × 6 × 10 = 188.4 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A room is 8 m long, 6 m wide, and 4 m high. The volume of the room is:",
+    "options": ["192 m³", "168 m³", "144 m³", "216 m³"],
+    "correct_answer": "192 m³",
+    "explanation": "Volume = l × b × h = 8 × 6 × 4 = 192 m³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "The volume of a cube is 216 cm³. What is the length of its side?",
+    "options": ["4 cm", "5 cm", "6 cm", "7 cm"],
+    "correct_answer": "6 cm",
+    "explanation": "Volume = side³ = 216, so side = ∛216 = 6 cm."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "The radius of a sphere is 4 cm. Its volume is: (Use π = 22/7)",
+    "options": ["268.19 cm³", "201.14 cm³", "301.71 cm³", "150.86 cm³"],
+    "correct_answer": "268.19 cm³",
+    "explanation": "Volume = (4/3)πr³ = (4/3) × (22/7) × 64 = 5632/21 ≈ 268.19 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A metallic sphere of radius 6 cm is melted and recast into a cylinder of radius 6 cm. Find the height of the cylinder.",
+    "options": ["6 cm", "8 cm", "10 cm", "12 cm"],
+    "correct_answer": "8 cm",
+    "explanation": "Volume of sphere = (4/3)πr³ = (4/3)π(216) = 288π. Volume of cylinder = πr²h = 36πh. So 36πh = 288π → h = 8 cm."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The ratio of the volumes of two cubes is 8:27. The ratio of their surface areas is:",
+    "options": ["2:3", "4:9", "8:27", "16:81"],
+    "correct_answer": "4:9",
+    "explanation": "Ratio of sides = ∛(8/27) = 2/3. Ratio of surface areas = (2/3)² = 4:9."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A cylindrical tank of radius 10 m and height 7 m is to be painted on the curved surface. If the cost is ₹5 per m², find the total cost. (Use π = 22/7)",
+    "options": ["₹2200", "₹4400", "₹1100", "₹3300"],
+    "correct_answer": "₹2200",
+    "explanation": "CSA = 2πrh = 2 × (22/7) × 10 × 7 = 440 m². Cost = 440 × 5 = ₹2200."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A cone and a cylinder have the same base radius and height. The ratio of their volumes is:",
+    "options": ["1:2", "1:3", "2:3", "3:1"],
+    "correct_answer": "1:3",
+    "explanation": "Volume of cone = (1/3)πr²h, Volume of cylinder = πr²h. Ratio = 1:3."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The length, breadth, and height of a cuboid are in the ratio 3:2:1. If the volume is 48 cm³, find the total surface area.",
+    "options": ["88 cm²", "72 cm²", "96 cm²", "64 cm²"],
+    "correct_answer": "88 cm²",
+    "explanation": "Let dimensions be 3x, 2x, x. Volume = 6x³ = 48 → x³ = 8 → x = 2. Dimensions: 6, 4, 2. TSA = 2(24 + 8 + 12) = 2 × 44 = 88 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "How many spheres of radius 1 cm can be made from a sphere of radius 8 cm?",
+    "options": ["256", "512", "128", "64"],
+    "correct_answer": "512",
+    "explanation": "Volume of large sphere = (4/3)π(8³) = (4/3)π × 512. Volume of small sphere = (4/3)π(1). Number = 512/1 = 512."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The radius of a cylinder is doubled and height is halved. What is the ratio of new volume to original volume?",
+    "options": ["1:1", "2:1", "4:1", "1:2"],
+    "correct_answer": "2:1",
+    "explanation": "Original V = πr²h. New V = π(2r)²(h/2) = π × 4r² × h/2 = 2πr²h. Ratio = 2:1."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A hollow cylinder has outer radius 8 cm, inner radius 6 cm, and height 14 cm. Find its volume. (Use π = 22/7)",
+    "options": ["1232 cm³", "1540 cm³", "1848 cm³", "924 cm³"],
+    "correct_answer": "1232 cm³",
+    "explanation": "Volume = π(R² - r²)h = (22/7)(64 - 36)(14) = (22/7)(28)(14) = 22 × 4 × 14 = 1232 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A sphere and a cube have equal surface areas. The ratio of the volume of the sphere to the volume of the cube is:",
+    "options": ["√π : √6", "√6 : √π", "π : 6", "6 : π"],
+    "correct_answer": "√6 : √π",
+    "explanation": "Let SA = S. For sphere: 4πr² = S → r² = S/4π. For cube: 6a² = S → a² = S/6. V_sphere/V_cube = [(4/3)πr³]/a³ = √(6/π) = √6/√π."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A well of diameter 3 m is dug 14 m deep. The earth taken out is spread evenly to form an embankment of width 4 m around the well. Find the height of the embankment. (Use π = 22/7)",
+    "options": ["1.125 m", "2.25 m", "0.5625 m", "3 m"],
+    "correct_answer": "1.125 m",
+    "explanation": "Volume of earth = π(1.5)²(14) = (22/7)(2.25)(14) = 99 m³. Area of embankment = π[(1.5+4)² - 1.5²] = π[30.25 - 2.25] = 28π. Height = 99/(28π) = 99/(88) = 1.125 m."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The volume of a right circular cone is 1232 cm³ and its height is 24 cm. Find the slant height. (Use π = 22/7)",
+    "options": ["25 cm", "26 cm", "24 cm", "28 cm"],
+    "correct_answer": "25 cm",
+    "explanation": "V = (1/3)πr²h → 1232 = (1/3)(22/7)r²(24) → r² = 1232 × 7/(22 × 8) = 49 → r = 7. l = √(7² + 24²) = √(49 + 576) = √625 = 25 cm."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "The surface area of a sphere is 616 cm². Find its volume. (Use π = 22/7)",
+    "options": ["1437.33 cm³", "1234.67 cm³", "1540 cm³", "1078 cm³"],
+    "correct_answer": "1437.33 cm³",
+    "explanation": "4πr² = 616 → r² = 616 × 7/(4 × 22) = 49 → r = 7. Volume = (4/3)(22/7)(343) = (4 × 22 × 49)/3 = 4312/3 ≈ 1437.33 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A rectangular sheet of paper 44 cm × 18 cm is rolled along its length to form a cylinder. Find the volume. (Use π = 22/7)",
+    "options": ["2772 cm³", "1386 cm³", "5544 cm³", "3465 cm³"],
+    "correct_answer": "2772 cm³",
+    "explanation": "Circumference = 44 → 2πr = 44 → r = 7 cm. Height = 18 cm. Volume = πr²h = (22/7)(49)(18) = 22 × 7 × 18 = 2772 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A cube of side 4 cm is cut into cubes of side 1 cm. How many small cubes are formed?",
+    "options": ["16", "32", "64", "48"],
+    "correct_answer": "64",
+    "explanation": "Number of small cubes = (4/1)³ = 64."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "The diameter of a sphere is equal to the edge of a cube. The ratio of their volumes is:",
+    "options": ["π:6", "6:π", "π:3", "3:π"],
+    "correct_answer": "π:6",
+    "explanation": "Let diameter = edge = a, so r = a/2. V_sphere = (4/3)π(a/2)³ = πa³/6. V_cube = a³. Ratio = π/6 : 1 = π:6."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A tank is 8 m long, 5 m wide, and 3 m deep. How many liters of water can it hold? (1 m³ = 1000 liters)",
+    "options": ["120000 L", "100000 L", "80000 L", "150000 L"],
+    "correct_answer": "120000 L",
+    "explanation": "Volume = 8 × 5 × 3 = 120 m³ = 120 × 1000 = 120000 liters."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The total surface area of a hemisphere with radius 7 cm is: (Use π = 22/7)",
+    "options": ["462 cm²", "308 cm²", "616 cm²", "154 cm²"],
+    "correct_answer": "462 cm²",
+    "explanation": "TSA of hemisphere = 3πr² = 3 × (22/7) × 49 = 3 × 22 × 7 = 462 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A cylindrical pipe has inner diameter 4 cm and outer diameter 6 cm. If the length is 10 cm, find the volume of metal used. (Use π = 3.14)",
+    "options": ["157 cm³", "314 cm³", "628 cm³", "78.5 cm³"],
+    "correct_answer": "157 cm³",
+    "explanation": "Volume = π(R² - r²)h = 3.14(9 - 4)(10) = 3.14 × 5 × 10 = 157 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "If the radius of a sphere is increased by 50%, by what percent does its volume increase?",
+    "options": ["125%", "150%", "237.5%", "200%"],
+    "correct_answer": "237.5%",
+    "explanation": "New volume = (4/3)π(1.5r)³ = 3.375 × (4/3)πr³. Increase = (3.375 - 1)/1 × 100 = 237.5%."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A conical tent has base radius 7 m and slant height 25 m. Find the area of canvas required. (Use π = 22/7)",
+    "options": ["550 m²", "1100 m²", "275 m²", "825 m²"],
+    "correct_answer": "550 m²",
+    "explanation": "Canvas required = CSA of cone = πrl = (22/7) × 7 × 25 = 22 × 25 = 550 m²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Three cubes of sides 3 cm, 4 cm, and 5 cm are melted to form a single cube. Find the side of the new cube.",
+    "options": ["6 cm", "7 cm", "8 cm", "9 cm"],
+    "correct_answer": "6 cm",
+    "explanation": "Total volume = 27 + 64 + 125 = 216 cm³. Side = ∛216 = 6 cm."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The volume of a right circular cylinder is 1540 cm³ and its height is 10 cm. Find the curved surface area. (Use π = 22/7)",
+    "options": ["440 cm²", "220 cm²", "880 cm²", "660 cm²"],
+    "correct_answer": "440 cm²",
+    "explanation": "V = πr²h → 1540 = (22/7)r²(10) → r² = 1540 × 7/220 = 49 → r = 7. CSA = 2πrh = 2(22/7)(7)(10) = 440 cm²."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A sphere of radius 3 cm is dropped into a cylindrical vessel of radius 6 cm. By how much does the water level rise? (Use π = 22/7)",
+    "options": ["1 cm", "2 cm", "0.5 cm", "1.5 cm"],
+    "correct_answer": "1 cm",
+    "explanation": "Volume of sphere = (4/3)π(27) = 36π. Rise in water = 36π/(π × 36) = 1 cm."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "The ratio of the radii of two cylinders is 2:3 and their heights are in the ratio 5:3. Find the ratio of their volumes.",
+    "options": ["20:27", "4:9", "10:9", "40:27"],
+    "correct_answer": "20:27",
+    "explanation": "V₁/V₂ = (r₁/r₂)² × (h₁/h₂) = (4/9) × (5/3) = 20/27."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A solid metallic sphere of radius 6 cm is melted and recast into small spheres of radius 2 cm. How many small spheres are formed?",
+    "options": ["18", "27", "36", "9"],
+    "correct_answer": "27",
+    "explanation": "Volume of large sphere = (4/3)π(216). Volume of small sphere = (4/3)π(8). Number = 216/8 = 27."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "The perimeter of one face of a cube is 20 cm. Find the volume of the cube.",
+    "options": ["100 cm³", "125 cm³", "150 cm³", "75 cm³"],
+    "correct_answer": "125 cm³",
+    "explanation": "Perimeter of face = 4 × side = 20 → side = 5 cm. Volume = 5³ = 125 cm³."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A swimming pool is 50 m long, 25 m wide, and 2 m deep. Find the volume of water it can hold in kiloliters.",
+    "options": ["2500 kL", "1250 kL", "5000 kL", "3750 kL"],
+    "correct_answer": "2500 kL",
+    "explanation": "Volume = 50 × 25 × 2 = 2500 m³ = 2500 kL (since 1 m³ = 1 kL)."
+  },
+  {
+    "topic": "Volume and Surface Area",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "The height of a cone is 30 cm. A small cone is cut off at the top by a plane parallel to the base. If its volume is 1/27 of the volume of the original cone, at what height from the base is the cut made?",
+    "options": ["10 cm", "20 cm", "15 cm", "25 cm"],
+    "correct_answer": "20 cm",
+    "explanation": "Volume ratio = (h'/h)³ = 1/27 → h'/h = 1/3 → h' = 10 cm from apex. Height from base = 30 - 10 = 20 cm."
+  }
+]

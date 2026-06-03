@@ -1,0 +1,469 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a function in C language?",
+    "options": ["A) A block of code that performs a specific task", "B) A variable that stores data", "C) A loop construct", "D) A data type"],
+    "correct_answer": "A) A block of code that performs a specific task",
+    "explanation": "A function in C is a self-contained block of code designed to perform a specific task. It can be called multiple times from different parts of the program."
+  },
+  {
+    "id": 2,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to return a value from a function in C?",
+    "options": ["A) exit", "B) return", "C) break", "D) yield"],
+    "correct_answer": "B) return",
+    "explanation": "The 'return' keyword is used to exit a function and optionally return a value to the calling function. It terminates function execution immediately."
+  },
+  {
+    "id": 3,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the return type of the main() function in C?",
+    "options": ["A) void", "B) float", "C) int", "D) char"],
+    "correct_answer": "C) int",
+    "explanation": "The standard return type of main() in C is int. It returns 0 to indicate successful execution and non-zero for errors."
+  },
+  {
+    "id": 4,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a function prototype in C?",
+    "options": ["A) The definition of a function", "B) A declaration of a function before its actual definition", "C) A call to a function", "D) A recursive function"],
+    "correct_answer": "B) A declaration of a function before its actual definition",
+    "explanation": "A function prototype declares the function's name, return type, and parameters before the actual definition. It helps the compiler validate function calls."
+  },
+  {
+    "id": 5,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\n#include<stdio.h>\nvoid greet() { printf(\"Hello\"); }\nint main() { greet(); return 0; }",
+    "options": ["A) Hello", "B) greet", "C) No output", "D) Error"],
+    "correct_answer": "A) Hello",
+    "explanation": "The function greet() is defined to print 'Hello'. When called from main(), it executes and prints 'Hello' to the console."
+  },
+  {
+    "id": 6,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid function declaration in C?",
+    "options": ["A) int add(int a, int b);", "B) add(int, int);", "C) function add(int a, int b);", "D) def add(int a, int b);"],
+    "correct_answer": "A) int add(int a, int b);",
+    "explanation": "A valid C function declaration includes the return type, function name, and parameter types. Option A follows the correct syntax."
+  },
+  {
+    "id": 7,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does a void function return?",
+    "options": ["A) 0", "B) -1", "C) Nothing", "D) NULL"],
+    "correct_answer": "C) Nothing",
+    "explanation": "A void function does not return any value. The keyword 'void' indicates that the function has no return value."
+  },
+  {
+    "id": 8,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint square(int x) { return x*x; }\nint main() { printf(\"%d\", square(5)); return 0; }",
+    "options": ["A) 5", "B) 10", "C) 25", "D) 55"],
+    "correct_answer": "C) 25",
+    "explanation": "The function square(5) computes 5*5 = 25 and returns it. printf prints 25."
+  },
+  {
+    "id": 9,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many times can a function be called in a C program?",
+    "options": ["A) Only once", "B) Twice", "C) Any number of times", "D) Maximum 10 times"],
+    "correct_answer": "C) Any number of times",
+    "explanation": "A function in C can be called any number of times from anywhere in the program. This is one of the key advantages of using functions."
+  },
+  {
+    "id": 10,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What are actual parameters in a function call?",
+    "options": ["A) Parameters in the function definition", "B) Parameters passed during the function call", "C) Global variables", "D) Local variables inside the function"],
+    "correct_answer": "B) Parameters passed during the function call",
+    "explanation": "Actual parameters (arguments) are the values passed to a function when it is called. They correspond to the formal parameters in the function definition."
+  },
+  {
+    "id": 11,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What are formal parameters in C?",
+    "options": ["A) Parameters used in the function call", "B) Parameters listed in the function definition", "C) Global variables", "D) Static variables"],
+    "correct_answer": "B) Parameters listed in the function definition",
+    "explanation": "Formal parameters are the variables listed in the function definition. They receive the values of actual parameters when the function is called."
+  },
+  {
+    "id": 12,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to call a function named 'display' with no arguments?",
+    "options": ["A) display;", "B) display()", "C) call display()", "D) display[];"],
+    "correct_answer": "B) display()",
+    "explanation": "To call a function in C, you write the function name followed by parentheses. For no arguments, the parentheses are empty: display()."
+  },
+  {
+    "id": 13,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint add(int a, int b) { return a+b; }\nint main() { printf(\"%d\", add(3,4)); return 0; }",
+    "options": ["A) 34", "B) 7", "C) 3", "D) 4"],
+    "correct_answer": "B) 7",
+    "explanation": "The function add(3,4) returns 3+4 = 7. printf prints the returned value 7."
+  },
+  {
+    "id": 14,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a benefit of using functions in C?",
+    "options": ["A) Code reusability", "B) Easier debugging", "C) Increases code length unnecessarily", "D) Modular programming"],
+    "correct_answer": "C) Increases code length unnecessarily",
+    "explanation": "Functions promote code reusability, easier debugging, and modular programming. They actually reduce code length by avoiding repetition."
+  },
+  {
+    "id": 15,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a library function in C?",
+    "options": ["A) A function defined by the user", "B) A pre-defined function available in C libraries", "C) A function that uses global variables", "D) A recursive function"],
+    "correct_answer": "B) A pre-defined function available in C libraries",
+    "explanation": "Library functions are pre-defined functions provided by C standard libraries (e.g., printf, scanf, strlen). They are available via header files."
+  },
+  {
+    "id": 16,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What header file is needed to use the printf() function?",
+    "options": ["A) stdlib.h", "B) string.h", "C) stdio.h", "D) math.h"],
+    "correct_answer": "C) stdio.h",
+    "explanation": "printf() is declared in the stdio.h (standard input/output) header file. It must be included to use printf() in a C program."
+  },
+  {
+    "id": 17,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the scope of a local variable declared inside a function?",
+    "options": ["A) Entire program", "B) Only within that function", "C) All functions in the file", "D) Only in main()"],
+    "correct_answer": "B) Only within that function",
+    "explanation": "Local variables are declared inside a function and are accessible only within that function. They are created when the function is called and destroyed when it returns."
+  },
+  {
+    "id": 18,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nvoid show(int n) { printf(\"%d\", n*2); }\nint main() { show(6); return 0; }",
+    "options": ["A) 6", "B) 12", "C) 36", "D) 3"],
+    "correct_answer": "B) 12",
+    "explanation": "show(6) passes 6 as argument. Inside the function, n*2 = 6*2 = 12 is printed."
+  },
+  {
+    "id": 19,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a function in C call itself?",
+    "options": ["A) No, it causes an error", "B) Yes, it is called recursion", "C) Only if it is a void function", "D) Only in main()"],
+    "correct_answer": "B) Yes, it is called recursion",
+    "explanation": "A function calling itself is called recursion. C supports recursive functions, which are useful for problems like factorial, Fibonacci, etc."
+  },
+  {
+    "id": 20,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default return type of a function in C if not specified (in older C standards)?",
+    "options": ["A) void", "B) float", "C) int", "D) char"],
+    "correct_answer": "C) int",
+    "explanation": "In older C standards (C89/C90), if no return type is specified, the default return type is int. Modern C (C99 and later) requires explicit return types."
+  },
+  {
+    "id": 21,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint main() { printf(\"%d\", 10+20); return 0; }",
+    "options": ["A) 1020", "B) 30", "C) 10", "D) 20"],
+    "correct_answer": "B) 30",
+    "explanation": "printf(\"%d\", 10+20) evaluates 10+20=30 and prints it. The %d format specifier prints an integer."
+  },
+  {
+    "id": 22,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly defines a function that takes no arguments and returns no value?",
+    "options": ["A) int func(void) { }", "B) void func(void) { }", "C) void func(int) { }", "D) func() { }"],
+    "correct_answer": "B) void func(void) { }",
+    "explanation": "void func(void) specifies that the function takes no arguments (void parameter) and returns no value (void return type)."
+  },
+  {
+    "id": 23,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when a return statement is executed in a function?",
+    "options": ["A) The program terminates", "B) The function execution stops and control returns to the caller", "C) The next function is called", "D) The loop continues"],
+    "correct_answer": "B) The function execution stops and control returns to the caller",
+    "explanation": "When return is executed, the function stops executing and control is transferred back to the calling function along with the return value (if any)."
+  },
+  {
+    "id": 24,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint max(int a, int b) { return (a>b)?a:b; }\nint main() { printf(\"%d\", max(8,5)); return 0; }",
+    "options": ["A) 5", "B) 8", "C) 13", "D) 3"],
+    "correct_answer": "B) 8",
+    "explanation": "max(8,5) checks if 8>5 which is true, so it returns 8. printf prints 8."
+  },
+  {
+    "id": 25,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a user-defined function?",
+    "options": ["A) printf()", "B) scanf()", "C) int add(int a, int b) { return a+b; }", "D) strlen()"],
+    "correct_answer": "C) int add(int a, int b) { return a+b; }",
+    "explanation": "User-defined functions are created by the programmer. printf(), scanf(), and strlen() are library functions provided by C standard libraries."
+  },
+  {
+    "id": 26,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nvoid fun() { printf(\"C \"); printf(\"Language\"); }\nint main() { fun(); return 0; }",
+    "options": ["A) C", "B) Language", "C) C Language", "D) Error"],
+    "correct_answer": "C) C Language",
+    "explanation": "fun() executes two printf statements sequentially, printing 'C ' followed by 'Language', resulting in 'C Language'."
+  },
+  {
+    "id": 27,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a C function return multiple values directly?",
+    "options": ["A) Yes, using multiple return statements", "B) No, a function can return only one value", "C) Yes, using return(a,b)", "D) Yes, using printf"],
+    "correct_answer": "B) No, a function can return only one value",
+    "explanation": "A C function can return only one value using the return statement. To return multiple values, pointers or structures are used."
+  },
+  {
+    "id": 28,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint cube(int n) { return n*n*n; }\nint main() { printf(\"%d\", cube(3)); return 0; }",
+    "options": ["A) 9", "B) 27", "C) 6", "D) 3"],
+    "correct_answer": "B) 27",
+    "explanation": "cube(3) computes 3*3*3 = 27 and returns it. printf prints 27."
+  },
+  {
+    "id": 29,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about function arguments in C is true?",
+    "options": ["A) Arguments are always passed by reference", "B) Arguments are passed by value by default", "C) Arguments cannot be integers", "D) Arguments must be global variables"],
+    "correct_answer": "B) Arguments are passed by value by default",
+    "explanation": "In C, function arguments are passed by value by default. A copy of the argument is made, so changes inside the function don't affect the original variable."
+  },
+  {
+    "id": 30,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nvoid swap(int a, int b) { int t=a; a=b; b=t; }\nint main() { int x=5, y=10; swap(x,y); printf(\"%d %d\",x,y); return 0; }",
+    "options": ["A) 10 5", "B) 5 10", "C) 0 0", "D) Error"],
+    "correct_answer": "B) 5 10",
+    "explanation": "Since C passes arguments by value, swap() works on copies of x and y. The original values of x and y remain unchanged: 5 and 10."
+  },
+  {
+    "id": 31,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following function do?\nint check(int n) { return (n%2==0)?1:0; }",
+    "options": ["A) Checks if n is odd", "B) Checks if n is even", "C) Returns n/2", "D) Returns n*2"],
+    "correct_answer": "B) Checks if n is even",
+    "explanation": "The function returns 1 if n%2==0 (n is even) and 0 otherwise. It checks whether the number is even."
+  },
+  {
+    "id": 32,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint sum(int n) { return n*(n+1)/2; }\nint main() { printf(\"%d\", sum(5)); return 0; }",
+    "options": ["A) 10", "B) 15", "C) 20", "D) 5"],
+    "correct_answer": "B) 15",
+    "explanation": "sum(5) computes 5*(5+1)/2 = 5*6/2 = 30/2 = 15. This is the formula for sum of first n natural numbers."
+  },
+  {
+    "id": 33,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the entry point of a C program?",
+    "options": ["A) start()", "B) begin()", "C) main()", "D) init()"],
+    "correct_answer": "C) main()",
+    "explanation": "The main() function is the entry point of every C program. Execution always begins from main()."
+  },
+  {
+    "id": 34,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint double_val(int x) { return 2*x; }\nint main() { int r = double_val(7); printf(\"%d\",r); return 0; }",
+    "options": ["A) 7", "B) 14", "C) 49", "D) 2"],
+    "correct_answer": "B) 14",
+    "explanation": "double_val(7) returns 2*7=14. The result is stored in r and printed as 14."
+  },
+  {
+    "id": 35,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a global variable in the context of C functions?",
+    "options": ["A) A variable declared inside a function", "B) A variable declared outside all functions", "C) A variable passed as argument", "D) A variable declared with static keyword"],
+    "correct_answer": "B) A variable declared outside all functions",
+    "explanation": "Global variables are declared outside all functions and are accessible from any function in the program throughout its lifetime."
+  },
+  {
+    "id": 36,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint g = 10;\nvoid show() { printf(\"%d\", g); }\nint main() { show(); return 0; }",
+    "options": ["A) 0", "B) 10", "C) Error", "D) Garbage value"],
+    "correct_answer": "B) 10",
+    "explanation": "g is a global variable with value 10. The show() function can access it directly and prints 10."
+  },
+  {
+    "id": 37,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about function overloading in C?",
+    "options": ["A) C supports function overloading", "B) C does not support function overloading", "C) C supports overloading only for math functions", "D) C supports overloading with different return types"],
+    "correct_answer": "B) C does not support function overloading",
+    "explanation": "C does not support function overloading. Function overloading is a feature of C++. In C, each function must have a unique name."
+  },
+  {
+    "id": 38,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nvoid print_star() { printf(\"*\"); }\nint main() { int i; for(i=0;i<4;i++) print_star(); return 0; }",
+    "options": ["A) *", "B) **", "C) ***", "D) ****"],
+    "correct_answer": "D) ****",
+    "explanation": "print_star() is called 4 times in the loop (i=0,1,2,3). Each call prints one '*', resulting in '****'."
+  },
+  {
+    "id": 39,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of the return type in a function declaration?",
+    "options": ["A) To specify the number of parameters", "B) To specify the type of value the function returns", "C) To specify the function name", "D) To specify the function body"],
+    "correct_answer": "B) To specify the type of value the function returns",
+    "explanation": "The return type in a function declaration tells the compiler what type of value the function will return (e.g., int, float, void, char)."
+  },
+  {
+    "id": 40,
+    "topic": "Functions in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nfloat half(float x) { return x/2; }\nint main() { printf(\"%.1f\", half(9.0)); return 0; }",
+    "options": ["A) 9.0", "B) 4.5", "C) 4.0", "D) 18.0"],
+    "correct_answer": "B) 4.5",
+    "explanation": "half(9.0) computes 9.0/2 = 4.5 and returns it. printf with %.1f prints 4.5."
+  },
+  {
+    "id": 41,
+    "topic": "Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint fun(int x) { if(x==0) return 0; return x + fun(x-1); }\nint main() { printf(\"%d\", fun(4)); return 0; }",
+    "options": ["A) 4", "B) 10", "C) 6", "D) 24"],
+    "correct_answer": "B) 10",
+    "explanation": "fun(4) = 4+fun(3) = 4+3+fun(2) = 4+3+2+fun(1) = 4+3+2+1+fun(0) = 4+3+2+1+0 = 10. This computes sum of first n numbers recursively."
+  },
+  {
+    "id": 42,
+    "topic": "Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nvoid fun(int *p) { *p = *p + 10; }\nint main() { int x=5; fun(&x); printf(\"%d\",x); return 0; }",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 50"],
+    "correct_answer": "C) 15",
+    "explanation": "fun() receives the address of x. *p = *p + 10 modifies the original value: 5+10=15. Since it's pass by reference (pointer), x becomes 15."
+  },
+  {
+    "id": 43,
+    "topic": "Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint fact(int n) { return (n<=1)?1:n*fact(n-1); }\nint main() { printf(\"%d\", fact(5)); return 0; }",
+    "options": ["A) 25", "B) 60", "C) 120", "D) 15"],
+    "correct_answer": "C) 120",
+    "explanation": "fact(5) = 5*fact(4) = 5*4*fact(3) = 5*4*3*fact(2) = 5*4*3*2*fact(1) = 5*4*3*2*1 = 120."
+  },
+  {
+    "id": 44,
+    "topic": "Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint a=5;\nvoid change() { int a=10; printf(\"%d \",a); }\nint main() { change(); printf(\"%d\",a); return 0; }",
+    "options": ["A) 5 5", "B) 10 10", "C) 10 5", "D) 5 10"],
+    "correct_answer": "C) 10 5",
+    "explanation": "Inside change(), local variable a=10 shadows the global a=5. change() prints 10. In main(), global a=5 is printed. Output: 10 5."
+  },
+  {
+    "id": 45,
+    "topic": "Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nvoid fun(int n) { if(n>0) { fun(n-1); printf(\"%d \",n); } }\nint main() { fun(3); return 0; }",
+    "options": ["A) 3 2 1", "B) 1 2 3", "C) 3 3 3", "D) 1 1 1"],
+    "correct_answer": "B) 1 2 3",
+    "explanation": "The recursive call happens before printf, so the function unwinds printing values in ascending order: 1 2 3."
+  },
+  {
+    "id": 46,
+    "topic": "Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n#include<stdio.h>\nint fun(int n) { static int count=0; count++; return count; }\nint main() { printf(\"%d %d %d\", fun(1), fun(2), fun(3)); return 0; }",
+    "options": ["A) 1 1 1", "B) 1 2 3", "C) 3 2 1", "D) 0 1 2"],
+    "correct_answer": "C) 3 2 1",
+    "explanation": "Static variable count persists across calls. However, printf evaluates arguments right-to-left in most implementations: fun(3)=3, fun(2)=2, fun(1)=1, printed as 3 2 1."
+  },
+  {
+    "id": 47,
+    "topic": "Functions in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a static variable inside a function?",
+    "options": ["A) A variable that cannot be modified", "B) A variable that retains its value between function calls", "C) A global variable", "D) A variable allocated on heap"],

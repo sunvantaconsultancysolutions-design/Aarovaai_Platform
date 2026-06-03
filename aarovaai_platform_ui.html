@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>AarovaaiAI — Dashboard</title>
+<meta name="description" content="AarovaaiAI — Your aptitude learning dashboard"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<script>if(!localStorage.getItem('aarovaai_token')){document.documentElement.style.display='none';window.location.replace('login.html');}</script>
+<script src="api.js"></script>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#09090f;--surf:#111118;--card:#18181f;--card2:#1d1d26;
+  --border:#25253a;--border2:#333348;
+  --acc:#7c5cfc;--acc2:#a78bfa;--accbg:#7c5cfc14;--accbg2:#7c5cfc22;
+  --green:#22c55e;--gbg:#052010;--gbrd:#1a4028;
+  --amber:#f59e0b;--abg:#120d00;
+  --red:#ef4444;--rbg:#120202;
+  --blue:#3b82f6;--bbg:#020d20;
+  --teal:#14b8a6;--tbg:#021410;
+  --pink:#ec4899;--pbg:#150210;
+  --text:#ededff;--muted:#7878a0;--muted2:#4a4a6a;
+  --r:12px;--rs:8px;
+}
+html,body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;font-size:14px;min-height:100vh}
+
+.layout{display:flex;min-height:100vh}
+
+/* SIDEBAR */
+.sidebar{width:220px;background:var(--surf);border-right:1px solid var(--border);display:flex;flex-direction:column;flex-shrink:0;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sb-logo{padding:18px 16px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.sb-logo-icon{width:34px;height:34px;background:var(--acc);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;color:#fff;flex-shrink:0;letter-spacing:-.5px}
+.sb-logo-text{font-size:15px;font-weight:700;letter-spacing:-.3px}
+.sb-logo-text em{color:var(--acc2);font-style:normal}
+
+.sb-search{padding:12px 12px 8px;border-bottom:1px solid var(--border)}
+.sb-search input{width:100%;background:var(--card);border:1px solid var(--border2);border-radius:8px;padding:7px 10px 7px 30px;font-size:12px;color:var(--text);outline:none}
+.sb-search input::placeholder{color:var(--muted2)}
+.sb-search-wrap{position:relative}
+.sb-search-wrap svg{position:absolute;left:9px;top:50%;transform:translateY(-50%);color:var(--muted)}
+
+.sb-section{padding:10px 12px 4px;font-size:10px;font-weight:700;color:var(--muted2);letter-spacing:.08em;text-transform:uppercase}
+.sb-item{display:flex;align-items:center;gap:9px;padding:8px 12px;cursor:pointer;border-radius:var(--rs);margin:1px 6px;transition:.12s;font-size:13px;color:var(--muted)}
+.sb-item:hover{background:var(--card);color:var(--text)}
+.sb-item.active{background:var(--accbg2);color:var(--acc2);font-weight:600}
+.sb-item .icon{width:28px;height:28px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0;background:var(--card2)}
+.sb-item.active .icon{background:var(--accbg);color:var(--acc)}
+.sb-count{margin-left:auto;font-size:10px;background:var(--card2);border-radius:99px;padding:2px 7px;color:var(--muted)}
+.sb-item.active .sb-count{background:var(--accbg);color:var(--acc2)}
+
+/* MAIN */
+.main{flex:1;display:flex;flex-direction:column;min-width:0}
+.topbar{background:var(--surf);border-bottom:1px solid var(--border);padding:0 20px;height:52px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:10}
+.topbar-title{font-size:15px;font-weight:600;flex:1}
+.topbar-actions{display:flex;align-items:center;gap:8px}
+.tb-btn{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:6px 14px;font-size:12px;font-weight:500;color:var(--muted);cursor:pointer;transition:.12s}
+.tb-btn:hover{border-color:var(--border2);color:var(--text)}
+.tb-btn.primary{background:var(--acc);border-color:var(--acc);color:#fff}
+.tb-btn.primary:hover{background:#6d4ef0}
+
+/* PROFILE CHIP */
+.profile-chip{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);border-radius:99px;padding:4px 12px 4px 4px;cursor:pointer;transition:.15s;position:relative;user-select:none}
+.profile-chip:hover{border-color:var(--border2);background:var(--card2)}
+.profile-avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,var(--acc),var(--accent2,#a78bfa));display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;flex-shrink:0;letter-spacing:-.3px}
+.profile-name{font-size:12px;font-weight:600;color:var(--text);max-width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.profile-caret{font-size:10px;color:var(--muted)}
+.profile-dropdown{display:none;position:absolute;top:calc(100% + 8px);right:0;background:var(--card);border:1px solid var(--border2);border-radius:12px;padding:6px;min-width:160px;z-index:200;box-shadow:0 8px 32px #00000060}
+.profile-chip.open .profile-dropdown{display:block}
+.pd-item{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;font-size:13px;color:var(--text);cursor:pointer;transition:.1s}
+.pd-item:hover{background:var(--card2)}
+.pd-item.danger{color:var(--red)}
+.pd-divider{height:1px;background:var(--border);margin:4px 0}
+
+.content{padding:20px;max-width:900px}
+
+/* HERO BANNER */
+.hero-banner{background:linear-gradient(135deg,#1a1030 0%,#1a1a2a 50%,#0f1a20 100%);border:1px solid var(--border2);border-radius:16px;padding:24px 28px;margin-bottom:22px;display:flex;align-items:center;justify-content:space-between;gap:20px;position:relative;overflow:hidden}
+.hero-banner::before{content:"";position:absolute;top:-40px;right:-40px;width:200px;height:200px;background:radial-gradient(circle,#7c5cfc18 0%,transparent 70%);pointer-events:none}
+.hero-text h2{font-size:20px;font-weight:700;margin-bottom:6px;line-height:1.3}
+.hero-text h2 em{color:var(--acc2);font-style:normal}
+.hero-text p{font-size:13px;color:var(--muted);max-width:340px;line-height:1.6}
+.hero-stats{display:flex;gap:16px;flex-shrink:0}
+.hstat{text-align:center}
+.hstat b{display:block;font-size:22px;font-weight:700;color:var(--acc2)}
+.hstat span{font-size:11px;color:var(--muted)}
+
+/* STATS ROW */
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:22px}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px;display:flex;align-items:center;gap:12px;cursor:pointer;transition:.13s}
+.stat-card:hover{border-color:var(--border2)}
+.stat-icon{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.stat-info b{font-size:17px;font-weight:700;display:block}
+.stat-info span{font-size:11px;color:var(--muted)}
+
+/* SECTION HEADER */
+.sec-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.sec-hdr h3{font-size:14px;font-weight:600}
+.sec-hdr a{font-size:12px;color:var(--acc2);cursor:pointer;text-decoration:none}
+
+/* TOPIC GRID */
+.topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:24px}
+.topic-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 14px;cursor:pointer;transition:.15s;position:relative;overflow:hidden}
+.topic-card::after{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--acc),var(--acc2));transform:scaleX(0);transition:.2s;transform-origin:left}
+.topic-card:hover{border-color:var(--border2);background:var(--card2)}
+.topic-card:hover::after{transform:scaleX(1)}
+.topic-card.featured{border-color:#7c5cfc44;background:#16162a}
+.topic-card.featured::after{transform:scaleX(1)}
+.tc-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:12px;font-size:22px;position:relative}
+.tc-name{font-size:13px;font-weight:600;margin-bottom:4px;color:var(--text)}
+.tc-meta{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:8px}
+.tc-badge{font-size:10px;border-radius:99px;padding:2px 7px;font-weight:500}
+.tc-diff{display:flex;gap:3px;margin-top:8px}
+.tc-diff-bar{height:3px;flex:1;border-radius:99px;background:var(--border)}
+.tc-diff-bar.e{background:var(--green)}
+.tc-diff-bar.m{background:var(--amber)}
+.tc-diff-bar.h{background:var(--red)}
+.tc-progress{margin-top:10px;display:flex;align-items:center;gap:8px;font-size:10px;color:var(--muted)}
+.tc-prog-bar{flex:1;height:3px;background:var(--border);border-radius:99px;overflow:hidden}
+.tc-prog-fill{height:100%;border-radius:99px;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+.tc-actions{display:flex;gap:6px;margin-top:12px}
+.tc-btn{flex:1;padding:7px 0;border-radius:7px;font-size:11px;font-weight:600;cursor:pointer;text-align:center;transition:.12s;border:1px solid}
+.tc-btn-prac{background:var(--accbg);border-color:#7c5cfc44;color:var(--acc2)}
+.tc-btn-prac:hover{background:var(--accbg2)}
+.tc-btn-test{background:var(--card2);border-color:var(--border2);color:var(--muted)}
+.tc-btn-test:hover{color:var(--text);border-color:var(--border)}
+
+/* RECENT / LEADERBOARD */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px}
+.panel{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px}
+.panel-title{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+.activity-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border)}
+.activity-item:last-child{border:none}
+.act-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.act-name{font-size:12px;font-weight:500;flex:1}
+.act-sub{font-size:11px;color:var(--muted)}
+.act-score{font-size:12px;font-weight:700}
+.rank-item{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--border)}
+.rank-item:last-child{border:none}
+.rank-num{width:20px;font-size:12px;font-weight:700;color:var(--muted);flex-shrink:0;text-align:center}
+.rank-num.gold{color:#f59e0b}
+.rank-num.silver{color:#94a3b8}
+.rank-num.bronze{color:#cd7c3c}
+.rank-avatar{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0}
+.rank-name{font-size:12px;flex:1;font-weight:500}
+.rank-score{font-size:12px;font-weight:700;color:var(--acc2)}
+
+/* BREADCRUMB */
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted);margin-bottom:18px;flex-wrap:wrap}
+.bc-sep{color:var(--muted2)}
+.bc-link{color:var(--muted);cursor:pointer}
+.bc-link:hover{color:var(--acc2)}
+.bc-curr{color:var(--text);font-weight:500}
+
+/* TABS */
+.filter-tabs{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap}
+.ftab{background:var(--card);border:1px solid var(--border);border-radius:99px;padding:5px 14px;font-size:12px;font-weight:500;color:var(--muted);cursor:pointer;transition:.12s}
+.ftab:hover{border-color:var(--border2);color:var(--text)}
+.ftab.active{background:var(--acc);border-color:var(--acc);color:#fff}
+
+/* ── SKELETON LOADERS ── */
+.skeleton-pulse {
+  background: linear-gradient(90deg, #1c1c27 25%, #2a2a3c 50%, #1c1c27 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.skeleton-stat {
+  width: 50px;
+  height: 20px;
+  margin-top: 4px;
+  display: inline-block;
+}
+.skeleton-topic {
+  height: 180px;
+  border-radius: var(--r);
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 16px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skeleton-act-item {
+  height: 48px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.skeleton-rank-item {
+  height: 42px;
+  border-radius: 6px;
+  margin-bottom: 7px;
+}
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sb-logo">
+    <div class="sb-logo-icon">A</div>
+    <div class="sb-logo-text">Aarovaai<em>AI</em></div>
+  </div>
+
+  <div class="sb-search">
+    <div class="sb-search-wrap">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input placeholder="Search topics..." />
+    </div>
+  </div>
+
+  <div class="sb-section">Main</div>
+  <div class="sb-item active" onclick="window.location.href='aarovaai_platform_ui.html'"><div class="icon">🏠</div>Dashboard<span class="sb-count"></span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_progress.html'"><div class="icon">📊</div>My Progress</div>
+  <div class="sb-item" onclick="scrollToLeaderboard()"><div class="icon">🏆</div>Leaderboard</div>
+
+  <div class="sb-section">Aptitude</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_aptitude.html'"><div class="icon">🔢</div>Arithmetic<span class="sb-count">32</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_reasoning.html'"><div class="icon">🧠</div>Reasoning<span class="sb-count">16</span></div>
+  <div class="sb-item" onclick="comingSoon('Data Interpretation')"><div class="icon">📈</div>Data Interpretation<span class="sb-count">12</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_logical.html'"><div class="icon">💡</div>Logical Reasoning<span class="sb-count">19</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_verbal.html'"><div class="icon">🔡</div>Verbal Ability<span class="sb-count">19</span></div>
+  <div class="sb-item" onclick="comingSoon('Nonverbal Reasoning')"><div class="icon">🧩</div>Nonverbal Reasoning<span class="sb-count">14</span></div>
+
+  <div class="sb-section">Technical Subjects</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_c.html'"><div class="icon">💻</div>C Language<span class="sb-count">19</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_java.html'"><div class="icon">☕</div>Java Language<span class="sb-count">11</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_database.html'"><div class="icon">🗄️</div>Database<span class="sb-count">29</span></div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_networks.html'"><div class="icon">🌐</div>Networks<span class="sb-count">15</span></div>
+
+  <div class="sb-section">Tests</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_aptitude_test_ui.html'"><div class="icon">⚡</div>Online Tests</div>
+  <div class="sb-item" onclick="window.location.href='aarovaai_aptitude_test_ui.html'"><div class="icon">🎯</div>Mock Exams</div>
+  <div class="sb-item" onclick="comingSoon('Current Affairs')"><div class="icon">📅</div>Current Affairs</div>
+
+  <div class="sb-section">More</div>
+  <div class="sb-item" onclick="comingSoon('HR Interview')"><div class="icon">💼</div>HR Interview</div>
+  <div class="sb-item" onclick="comingSoon('GK & GS')"><div class="icon">🌐</div>GK &amp; GS</div>
+  <div class="sb-item" onclick="comingSoon('Group Discussion')"><div class="icon">💬</div>Group Discussion</div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+  <div class="topbar">
+    <div class="topbar-title">Dashboard</div>
+    <div class="topbar-actions">
+      <button class="tb-btn" onclick="window.location.href='aarovaai_progress.html'">📊 My Progress</button>
+      <!-- PROFILE CHIP -->
+      <div class="profile-chip" id="profile-chip" onclick="this.classList.toggle('open')" title="Your profile">
+        <div class="profile-avatar" id="profile-avatar">?</div>
+        <span class="profile-name" id="profile-name">Loading…</span>
+        <span class="profile-caret">▾</span>
+        <div class="profile-dropdown" onclick="event.stopPropagation()">
+          <div class="pd-item" onclick="window.location.href='aarovaai_platform_ui.html'">🏠 Dashboard</div>
+          <div class="pd-item" onclick="window.location.href='aarovaai_aptitude.html'">📚 Hub</div>
+          <div class="pd-item" onclick="window.location.href='aarovaai_progress.html'">📊 My Progress</div>
+          <div class="pd-divider"></div>
+          <div class="pd-item danger" onclick="aarovaaiLogout()">🚪 Logout</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+      <div class="breadcrumb" style="margin-bottom:0;">
+        <span class="bc-link" onclick="window.location.href='aarovaai_platform_ui.html'">Home</span><span class="bc-sep">›</span>
+        <span class="bc-curr">Dashboard</span>
+      </div>
+      <div class="filter-tabs" style="margin-bottom:0;">
+        <div class="ftab active" id="btn-mod-aptitude" onclick="switchDashboardModule('aptitude')">Aptitude</div>
+        <div class="ftab" id="btn-mod-technical" onclick="switchDashboardModule('technical')">Technical</div>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero-banner">
+      <div class="hero-text">
+        <h2>Master <em>Aptitude</em><br>for Campus & Govt Exams</h2>
+        <p>Thousands of questions across Arithmetic, Verbal, and Logical Reasoning topics with step-by-step explanations and AI-powered analysis.</p>
+        <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap">
+          <button class="tb-btn primary" style="font-size:12px;padding:7px 16px" onclick="window.location.href='aarovaai_aptitude.html'">🔢 Arithmetic</button>
+          <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_verbal.html'">🔡 Verbal Ability</button>
+          <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_logical.html'">💡 Logical Reasoning</button>
+          <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_reasoning.html'">🧠 Reasoning</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-icon" style="background:#7c5cfc18">🎯</div><div class="stat-info"><b id="stat-accuracy" style="color:var(--acc2)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Avg accuracy</span></div></div>
+      <div class="stat-card"><div class="stat-icon" style="background:#052010">⚡</div><div class="stat-info"><b id="stat-tests" style="color:var(--green)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Tests taken</span></div></div>
+      <div class="stat-card"><div class="stat-icon" style="background:#011410">🟢</div><div class="stat-info"><b id="stat-practices" style="color:var(--teal)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Practices</span></div></div>
+      <div class="stat-card"><div class="stat-icon" style="background:#120d00">🔥</div><div class="stat-info"><b id="stat-streak" style="color:var(--amber)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Streak</span></div></div>
+      <div class="stat-card"><div class="stat-icon" style="background:#020d20">🏅</div><div class="stat-info"><b id="stat-rank" style="color:var(--blue)"><div class="skeleton-pulse skeleton-stat"></div></b><span>This week</span></div></div>
+    </div>
+
+    <!-- FILTER TABS -->
+    <div class="filter-tabs" id="filter-tabs">
+      <div class="ftab active" data-filter="all">All Topics</div>
+      <div class="ftab" data-filter="arithmetic">Arithmetic</div>
+      <div class="ftab" data-filter="verbal">Verbal Ability</div>
+      <div class="ftab" data-filter="logical">Logical Reasoning</div>
+      <div class="ftab" data-filter="reasoning">Reasoning</div>
+    </div>
+
+    <!-- TOPICS GRID -->
+    <div class="sec-hdr"><h3>Topics</h3><a id="topic-count-lnk" style="cursor:pointer" onclick="document.querySelector('.ftab[data-filter=\'all\']').click(); return false;">View all 32 →</a></div>
+    <div class="topic-grid" id="topic-grid">
+      <div class="skeleton-topic"><div class="skeleton-pulse" style="width:44px;height:44px;border-radius:12px"></div><div class="skeleton-pulse" style="width:70%;height:14px;margin:10px 0 4px"></div><div class="skeleton-pulse" style="width:40%;height:8px;margin-bottom:10px"></div><div class="skeleton-pulse" style="width:100%;height:3px;margin-bottom:8px"></div><div style="display:flex;gap:6px"><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div></div></div>
+      <div class="skeleton-topic"><div class="skeleton-pulse" style="width:44px;height:44px;border-radius:12px"></div><div class="skeleton-pulse" style="width:70%;height:14px;margin:10px 0 4px"></div><div class="skeleton-pulse" style="width:40%;height:8px;margin-bottom:10px"></div><div class="skeleton-pulse" style="width:100%;height:3px;margin-bottom:8px"></div><div style="display:flex;gap:6px"><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div></div></div>
+      <div class="skeleton-topic"><div class="skeleton-pulse" style="width:44px;height:44px;border-radius:12px"></div><div class="skeleton-pulse" style="width:70%;height:14px;margin:10px 0 4px"></div><div class="skeleton-pulse" style="width:40%;height:8px;margin-bottom:10px"></div><div class="skeleton-pulse" style="width:100%;height:3px;margin-bottom:8px"></div><div style="display:flex;gap:6px"><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div></div></div>
+      <div class="skeleton-topic"><div class="skeleton-pulse" style="width:44px;height:44px;border-radius:12px"></div><div class="skeleton-pulse" style="width:70%;height:14px;margin:10px 0 4px"></div><div class="skeleton-pulse" style="width:40%;height:8px;margin-bottom:10px"></div><div class="skeleton-pulse" style="width:100%;height:3px;margin-bottom:8px"></div><div style="display:flex;gap:6px"><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div></div></div>
+      <div class="skeleton-topic"><div class="skeleton-pulse" style="width:44px;height:44px;border-radius:12px"></div><div class="skeleton-pulse" style="width:70%;height:14px;margin:10px 0 4px"></div><div class="skeleton-pulse" style="width:40%;height:8px;margin-bottom:10px"></div><div class="skeleton-pulse" style="width:100%;height:3px;margin-bottom:8px"></div><div style="display:flex;gap:6px"><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div></div></div>
+      <div class="skeleton-topic"><div class="skeleton-pulse" style="width:44px;height:44px;border-radius:12px"></div><div class="skeleton-pulse" style="width:70%;height:14px;margin:10px 0 4px"></div><div class="skeleton-pulse" style="width:40%;height:8px;margin-bottom:10px"></div><div class="skeleton-pulse" style="width:100%;height:3px;margin-bottom:8px"></div><div style="display:flex;gap:6px"><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div><div class="skeleton-pulse" style="flex:1;height:24px;border-radius:7px"></div></div></div>
+    </div>
+
+    <!-- BOTTOM TWO-COL -->
+    <div class="two-col">
+      <div class="panel">
+        <div class="panel-title">Recent activity</div>
+        <div id="act-list">
+          <div class="skeleton-pulse skeleton-act-item"></div>
+          <div class="skeleton-pulse skeleton-act-item"></div>
+          <div class="skeleton-pulse skeleton-act-item"></div>
+          <div class="skeleton-pulse skeleton-act-item"></div>
+        </div>
+      </div>
+
+      <div class="panel" id="leaderboard-panel">
+        <div class="panel-title">Leaderboard — This week</div>
+        <div id="rank-list">
+          <div class="skeleton-pulse skeleton-rank-item"></div>
+          <div class="skeleton-pulse skeleton-rank-item"></div>
+          <div class="skeleton-pulse skeleton-rank-item"></div>
+          <div class="skeleton-pulse skeleton-rank-item"></div>
+          <div class="skeleton-pulse skeleton-rank-item"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<script>
+function setNav(el){document.querySelectorAll(".sb-item").forEach(i=>i.classList.remove("active"));el.classList.add("active");}
+
+// ── Navigation helpers ──
+function goToPractice(id, name, cat){
+  window.location.href = 'aarovaai_practice.html?id=' + id + '&name=' + encodeURIComponent(name) + '&cat=' + (cat||'arithmetic');
+}
+function goToTest(id, name, cat){
+  window.location.href = 'aarovaai_aptitude_test_ui.html?id=' + id + '&name=' + encodeURIComponent(name) + '&cat=' + (cat||'arithmetic');
+}
+
+// ── Dynamic topic grid ──
+let PLATFORM_TOPICS = [];
+let platformFilter = 'all';
+
+// ══════ VERBAL TOPICS DATA ══════
+const VERBAL_TOPICS = [
+  {id:'reading-comprehension', n:'Reading Comprehension', e:'📖', bg:'#130010', total:34, done:0, status:'new'},
+  {id:'cloze-test',            n:'Cloze Test',            e:'🔍', bg:'#120d00', total:30, done:0, status:'new'},
+  {id:'idioms-phrases',        n:'Idioms & Phrases',      e:'💬', bg:'#130202', total:50, done:0, status:'new'},
+  {id:'one-word-substitutes',  n:'One Word Substitutes',  e:'📝', bg:'#020c1e', total:50, done:0, status:'new'},
+  {id:'para-jumbles',          n:'Para Jumbles',          e:'🔀', bg:'#011410', total:40, done:0, status:'new'},
+  {id:'grammar-usage',         n:'Grammar & Usage',       e:'✍️', bg:'#7c5cfc12', total:50, done:0, status:'new'},
+  {id:'spotting-errors',       n:'Spotting Errors',       e:'🔎', bg:'#130010', total:50, done:0, status:'new'},
+  {id:'sentence-improvement',  n:'Sentence Improvement',  e:'⬆️', bg:'#120d00', total:50, done:0, status:'new'},
+  {id:'synonyms',              n:'Synonyms',              e:'🔗', bg:'#031a09', total:50, done:0, status:'new'},
+  {id:'antonyms',              n:'Antonyms',              e:'↔️', bg:'#130202', total:51, done:0, status:'new'},
+  {id:'verbal-analogies',      n:'Verbal Analogies',      e:'🧩', bg:'#020c1e', total:40, done:0, status:'new'},
+  {id:'change-of-voice',       n:'Change of Voice',       e:'🔄', bg:'#011410', total:50, done:0, status:'new'},
+  {id:'change-of-speech',      n:'Change of Speech',      e:'💭', bg:'#130010', total:100, done:0, status:'new'},
+  {id:'paragraph-formation',   n:'Paragraph Formation',   e:'📄', bg:'#120d00', total:50, done:0, status:'new'},
+  {id:'ordering-of-words',     n:'Ordering of Words',     e:'🔤', bg:'#031a09', total:40, done:0, status:'new'},
+  {id:'selecting-words',       n:'Selecting Words',       e:'✅', bg:'#7c5cfc12', total:50, done:0, status:'new'},
+  {id:'sentence-formation',    n:'Sentence Formation',    e:'🖊️', bg:'#130202', total:50, done:0, status:'new'},
+  {id:'sentence-completion',   n:'Sentence Completion',   e:'✔️', bg:'#020c1e', total:40, done:0, status:'new'},
+  {id:'spellings',             n:'Spellings',             e:'🔡', bg:'#011410', total:12, done:0, status:'new'}
+].map(t => ({...t, cat: 'verbal'}));
+
+// ══════ LOGICAL TOPICS DATA ══════
+const LOGICAL_TOPICS = [
+  {id:'analogies',             n:'Analogies',                e:'🧩', bg:'#020c1e', total:50, done:0, status:'new'},
+  {id:'analyzing-arguments',   n:'Analyzing Arguments',      e:'⚖️', bg:'#130010', total:50, done:0, status:'new'},
+  {id:'artificial-language',   n:'Artificial Language',      e:'🔣', bg:'#120d00', total:50, done:0, status:'new'},
+  {id:'cause-and-effect',      n:'Cause and Effect',         e:'🔄', bg:'#011410', total:50, done:0, status:'new'},
+  {id:'course-of-action',      n:'Course of Action',         e:'🛤️', bg:'#031a09', total:50, done:0, status:'new'},
+  {id:'essential-part',        n:'Essential Part',           e:'🔑', bg:'#130202', total:50, done:0, status:'new'},
+  {id:'letter-symbol-series',  n:'Letter & Symbol Series',   e:'🔠', bg:'#7c5cfc12', total:50, done:0, status:'new'},
+  {id:'logical-deduction',     n:'Logical Deduction',        e:'🧠', bg:'#020c1e', total:50, done:0, status:'new'},
+  {id:'logical-games',         n:'Logical Games',            e:'🎮', bg:'#130010', total:50, done:0, status:'new'},
+  {id:'logical-problems',      n:'Logical Problems',         e:'❓', bg:'#120d00', total:50, done:0, status:'new'},
+  {id:'making-judgments',      n:'Making Judgments',         e:'🔨', bg:'#011410', total:50, done:0, status:'new'},
+  {id:'matching-definitions',  n:'Matching Definitions',     e:'📖', bg:'#031a09', total:50, done:0, status:'new'},
+  {id:'number-series',         n:'Number Series',            e:'🔢', bg:'#130202', total:50, done:0, status:'new'},
+  {id:'statement-argument',    n:'Statement and Argument',   e:'🗣️', bg:'#7c5cfc12', total:50, done:0, status:'new'},
+  {id:'statement-assumption',  n:'Statement and Assumption', e:'💡', bg:'#020c1e', total:50, done:0, status:'new'},
+  {id:'statement-conclusion',  n:'Statement and Conclusion', e:'🎯', bg:'#130010', total:50, done:0, status:'new'},
+  {id:'theme-detection',       n:'Theme Detection',          e:'🕵️', bg:'#120d00', total:50, done:0, status:'new'},
+  {id:'verbal-classification', n:'Verbal Classification',    e:'📂', bg:'#011410', total:50, done:0, status:'new'},
+  {id:'verbal-reasoning',      n:'Verbal Reasoning',         e:'💬', bg:'#031a09', total:50, done:0, status:'new'}
+].map(t => ({...t, cat: 'logical'}));
+
+// ══════ REASONING TOPICS DATA ══════
+const REASONING_TOPICS = [
+  {id:'analogy',                   n:'Analogy',                   e:'🔄', bg:'#020c1e', total:100, done:0, status:'new'},
+  {id:'arithmetic-reasoning',      n:'Arithmetic Reasoning',      e:'🔢', bg:'#130010', total:100, done:0, status:'new'},
+  {id:'blood-relation-test',       n:'Blood Relation Test',       e:'🩸', bg:'#120d00', total:100, done:0, status:'new'},
+  {id:'cause-and-effect',          n:'Cause and Effect',          e:'⚖️', bg:'#011410', total:100, done:0, status:'new'},
+  {id:'character-puzzles',         n:'Character Puzzles',         e:'🧩', bg:'#031a09', total:100, done:0, status:'new'},
+  {id:'classification',            n:'Classification',            e:'📂', bg:'#130202', total:100, done:0, status:'new'},
+  {id:'cube-and-cuboid',           n:'Cube and Cuboid',           e:'🧊', bg:'#7c5cfc12', total:100, done:0, status:'new'},
+  {id:'data-sufficiency',          n:'Data Sufficiency',          e:'📊', bg:'#020c1e', total:100, done:0, status:'new'},
+  {id:'dice',                      n:'Dice',                      e:'🎲', bg:'#130010', total:100, done:0, status:'new'},
+  {id:'direction-sense-test',      n:'Direction Sense Test',      e:'🧭', bg:'#120d00', total:100, done:0, status:'new'},
+  {id:'logical-sequence-of-words', n:'Logical Sequence of Words', e:'🔡', bg:'#011410', total:100, done:0, status:'new'},
+  {id:'seating-arrangement',       n:'Seating Arrangement',       e:'🪑', bg:'#031a09', total:100, done:0, status:'new'},
+  {id:'series-completion',         n:'Series Completion',         e:'📈', bg:'#130202', total:100, done:0, status:'new'},
+  {id:'syllogism',                 n:'Syllogism',                 e:'🧠', bg:'#7c5cfc12', total:100, done:0, status:'new'},
+  {id:'venn-diagrams',             n:'Venn Diagrams',             e:'⭕', bg:'#020c1e', total:100, done:0, status:'new'},
+  {id:'verification-of-truth',     n:'Verification of Truth',     e:'✅', bg:'#130010', total:100, done:0, status:'new'}
+].map(t => ({...t, cat: 'reasoning'}));
+
+async function loadDashboardTopics() {
+  try {
+    const arithRes = await apiGetTopics({ category: 'arithmetic' }).catch(() => null);
+    
+    let topics = [];
+    if (arithRes && arithRes.topics) {
+      topics = topics.concat(arithRes.topics.map(t => ({...t, cat: 'arithmetic'})));
+    } else {
+      topics = topics.concat([
+        {id:'percentage',       n:'Percentage',        e:'📊', bg:'#7c5cfc18', total:100, done:100, status:'done',  bookmarked:false, cat:'arithmetic'},
+        {id:'profit-loss',      n:'Profit & Loss',     e:'💰', bg:'#052010',   total:100, done:62,  status:'prog',  bookmarked:false, cat:'arithmetic'},
+        {id:'simple-interest',  n:'Simple Interest',   e:'🏦', bg:'#020d20',   total:100, done:0,   status:'new',   bookmarked:false, cat:'arithmetic'}
+      ]);
+    }
+
+    // Bypass API for verbal, logical and reasoning topics
+    let aptTopics = [];
+    aptTopics = aptTopics.concat(topics);
+    aptTopics = aptTopics.concat(VERBAL_TOPICS);
+    aptTopics = aptTopics.concat(LOGICAL_TOPICS);
+    aptTopics = aptTopics.concat(REASONING_TOPICS);
+    
+    window.APTITUDE_TOPICS = aptTopics;
+    
+    // Technical Topics
+    window.TECHNICAL_TOPICS = [
+      {id:'c-language', n:'C Language', e:'💻', bg:'#020c1e', total:19, done:0, status:'new', cat:'c-language'},
+      {id:'java', n:'Java Language', e:'☕', bg:'#130010', total:11, done:0, status:'new', cat:'java'},
+      {id:'database', n:'Database Management', e:'🗄️', bg:'#1a103c', total:29, done:0, status:'new', cat:'database'},
+      {id:'networks', n:'Networks', e:'🌐', bg:'#020c1e', total:15, done:0, status:'new', cat:'networks'}
+    ];
+    
+    // Default load
+    switchDashboardModule('aptitude');
+  } catch (e) {
+    console.warn("Failed to load dashboard topics", e);
+  }
+}
+
+
+
+function loadPlatformBookmarks() {
+  try { return JSON.parse(localStorage.getItem('aarovaai_bookmarks') || '{}'); } catch(e){ return {}; }
+}
+function savePlatformBookmarks(bm) {
+  localStorage.setItem('aarovaai_bookmarks', JSON.stringify(bm));
+}
+
+function togglePlatformBookmark(id) {
+  const bm = loadPlatformBookmarks();
+  bm[id] = !bm[id];
+  savePlatformBookmarks(bm);
+  renderTopicGrid();
+}
+
+function switchDashboardModule(mod) {
+  const btnApt = document.getElementById('btn-mod-aptitude');
+  const btnTech = document.getElementById('btn-mod-technical');
+  const heroText = document.querySelector('.hero-text h2');
+  const heroP = document.querySelector('.hero-text p');
+  const heroBtns = document.querySelector('.hero-text div');
+  const filterTabs = document.getElementById('filter-tabs');
+  
+  if (mod === 'aptitude') {
+    btnApt.classList.add('active');
+    btnTech.classList.remove('active');
+    
+    heroText.innerHTML = "Master <em>Aptitude</em><br>for Campus & Govt Exams";
+    heroP.innerText = "Thousands of questions across Arithmetic, Verbal, and Logical Reasoning topics with step-by-step explanations and AI-powered analysis.";
+    heroBtns.innerHTML = `
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px" onclick="window.location.href='aarovaai_aptitude.html'">🔢 Arithmetic</button>
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_verbal.html'">🔡 Verbal Ability</button>
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_logical.html'">💡 Logical Reasoning</button>
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_reasoning.html'">🧠 Reasoning</button>
+    `;
+    
+    filterTabs.innerHTML = `
+      <div class="ftab active" data-filter="all">All Topics</div>
+      <div class="ftab" data-filter="arithmetic">Arithmetic</div>
+      <div class="ftab" data-filter="verbal">Verbal Ability</div>
+      <div class="ftab" data-filter="logical">Logical Reasoning</div>
+      <div class="ftab" data-filter="reasoning">Reasoning</div>
+    `;
+    
+    PLATFORM_TOPICS = window.APTITUDE_TOPICS || [];
+    
+    document.getElementById('stat-accuracy').innerHTML = '78<span style="font-size:14px">%</span>';
+    document.getElementById('stat-tests').innerText = '12';
+    document.getElementById('stat-practices').innerText = '34';
+  } else {
+    btnTech.classList.add('active');
+    btnApt.classList.remove('active');
+    
+    heroText.innerHTML = "Master <em>Technical Subjects</em><br>for Campus & Tech Interviews";
+    heroP.innerText = "Master core computer science topics like C Language with hands-on practice, quizzes, and code execution.";
+    heroBtns.innerHTML = `
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px" onclick="window.location.href='aarovaai_c.html'">💻 C Language</button>
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_java.html'">☕ Java Language</button>
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_database.html'">🗄️ Database Management</button>
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_networks.html'">🌐 Networks</button>
+    `;
+    
+    filterTabs.innerHTML = `
+      <div class="ftab active" data-filter="all">All Topics</div>
+      <div class="ftab" data-filter="c-language">C Language</div>
+      <div class="ftab" data-filter="java">Java Language</div>
+      <div class="ftab" data-filter="database">Database</div>
+      <div class="ftab" data-filter="networks">Networks</div>
+    `;
+    
+    PLATFORM_TOPICS = window.TECHNICAL_TOPICS || [];
+    
+    document.getElementById('stat-accuracy').innerHTML = '0<span style="font-size:14px">%</span>';
+    document.getElementById('stat-tests').innerText = '0';
+    document.getElementById('stat-practices').innerText = '0';
+  }
+  
+  // Rebind filters
+  document.querySelectorAll('#filter-tabs .ftab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('#filter-tabs .ftab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      platformFilter = tab.dataset.filter;
+      renderTopicGrid();
+    });
+  });
+  
+  platformFilter = 'all';
+  renderTopicGrid();
+  loadRecentActivity(mod);
+}
+
+async function loadRecentActivity(mod) {
+  const actList = document.getElementById('act-list');
+  if (!actList) return;
+  actList.innerHTML = `
+    <div class="skeleton-pulse skeleton-act-item"></div>
+    <div class="skeleton-pulse skeleton-act-item"></div>
+    <div class="skeleton-pulse skeleton-act-item"></div>
+  `;
+  try {
+    const actRes = await apiGetActivity(5, mod === 'technical' ? 'technical' : '');
+    if (actRes && actRes.activity && actRes.activity.length) {
+      actList.innerHTML = actRes.activity.map(a => `
+        <div class="activity-item">
+          <div class="act-icon" style="background:var(--card2);font-size:16px">${a.icon||'📊'}</div>
+          <div>
+            <div class="act-name">${a.name}</div>
+            <div class="act-sub">${a.date} · ${a.time}</div>
+          </div>
+          <div class="act-score" style="color:${a.scoreColor||'var(--acc2)'}">${a.score}%</div>
+        </div>`).join('');
+    } else {
+      actList.innerHTML = '<div style="text-align:center;color:var(--muted);font-size:12px;padding:24px 0">No activity yet.<br>Start your first test!</div>';
+    }
+  } catch(e) {
+    actList.innerHTML = '<div style="text-align:center;color:var(--muted);font-size:12px;padding:24px 0">No activity yet.<br>Start your first test!</div>';
+  }
+}
+
+function renderTopicGrid() {
+  const bm = loadPlatformBookmarks();
+  const grid = document.getElementById('topic-grid');
+  if (!grid) return;
+  const filtered = PLATFORM_TOPICS.filter(t => {
+    if (platformFilter === 'all') return true;
+    return t.cat === platformFilter;
+  });
+  const countLnk = document.getElementById('topic-count-lnk');
+  if (countLnk) countLnk.textContent = 'View all ' + PLATFORM_TOPICS.length + ' →';
+  if (!filtered.length) {
+    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:32px;color:var(--muted);font-size:13px">No topics match this filter.</div>';
+    return;
+  }
+  grid.innerHTML = filtered.map((t, i) => {
+    const isBookmarked = !!bm[t.id];
+    const pct = Math.round((t.done / t.total) * 100);
+    let badgeStyle, badgeLabel;
+    if (t.status === 'done') {
+      badgeStyle = 'background:#052010;color:var(--green);border:1px solid #1a4028';
+      badgeLabel = 'Completed';
+    } else if (t.status === 'prog') {
+      badgeStyle = 'background:#120d00;color:var(--amber);border:1px solid #3d2a00';
+      badgeLabel = 'In Progress';
+    } else {
+      badgeStyle = 'background:var(--card2);color:var(--muted);border:1px solid var(--border)';
+      badgeLabel = 'Not started';
+    }
+    const pracLabel = t.status === 'done' ? 'Revise' : t.status === 'prog' ? 'Continue' : 'Practice';
+    const testLabel = t.status === 'done' ? 'Retest' : 'Test';
+    const diffBars = t.status === 'done'
+      ? '<div class="tc-diff-bar e"></div><div class="tc-diff-bar m"></div><div class="tc-diff-bar h"></div>'
+      : t.status === 'prog'
+      ? '<div class="tc-diff-bar e"></div><div class="tc-diff-bar m"></div><div class="tc-diff-bar" style="background:var(--border)"></div>'
+      : '<div class="tc-diff-bar" style="background:var(--border)"></div><div class="tc-diff-bar" style="background:var(--border)"></div><div class="tc-diff-bar" style="background:var(--border)"></div>';
+    return `<div class="topic-card${i===0&&platformFilter==='all'?' featured':''}">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between">
+        <div class="tc-icon" style="background:${t.bg}">${t.e}</div>
+        <button onclick="togglePlatformBookmark('${t.id}')" title="Bookmark" style="background:none;border:none;cursor:pointer;font-size:15px;color:${isBookmarked?'var(--amber)':'var(--muted)'};padding:2px 4px;line-height:1">${isBookmarked?'⚑':'⚐'}</button>
+      </div>
+      <div class="tc-name">${t.n}</div>
+      <div class="tc-meta"><span>${t.total} questions</span><span class="tc-badge" style="${badgeStyle}">${badgeLabel}</span></div>
+      <div class="tc-diff">${diffBars}</div>
+      <div class="tc-progress">
+        <div class="tc-prog-bar"><div class="tc-prog-fill" style="width:${pct}%"></div></div>
+        <span>${t.done}/${t.total}</span>
+      </div>
+      <div class="tc-actions">
+        <div class="tc-btn tc-btn-prac" onclick="goToPractice('${t.id}','${encodeURIComponent(t.n)}','${t.cat}')">${pracLabel}</div>
+        <div class="tc-btn tc-btn-test" onclick="goToTest('${t.id}','${encodeURIComponent(t.n)}','${t.cat}')">${testLabel}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// Wire filter tabs
+document.querySelectorAll('#filter-tabs .ftab').forEach(tab => {
+  tab.onclick = function() {
+    document.querySelectorAll('#filter-tabs .ftab').forEach(x => x.classList.remove('active'));
+    this.classList.add('active');
+    platformFilter = this.dataset.filter;
+    renderTopicGrid();
+  };
+});
+
+loadDashboardTopics();
+
+async function init() {
+  const user = await requireAuth();
+  if (!user) return;
+
+  // Update user name + profile chip
+  const sbUser = document.querySelector('.sb-user-name, .sb-user');
+  if (sbUser) sbUser.textContent = user.name || "User";
+  const initials = (user.name||'U').split(' ').map(w=>w[0]).join('').toUpperCase().slice(0,2);
+  const avatarEl = document.getElementById('profile-avatar');
+  const nameEl   = document.getElementById('profile-name');
+  if (avatarEl) avatarEl.textContent = initials;
+  if (nameEl)   nameEl.textContent   = (user.name || "User").split(' ')[0]; // first name only
+
+  // Close dropdown on outside click
+  document.addEventListener('click', e => {
+    const chip = document.getElementById('profile-chip');
+    if (chip && !chip.contains(e.target)) chip.classList.remove('open');
+  });
+
+  // ── Load dashboard stats ──
+  try {
+    const dash = await apiGetDashboard();
+    if (dash && dash.stats) {
+      const s = dash.stats;
+      const statMap = {
+        'stat-accuracy':  (s.avgAccuracy||0)+'%',
+        'stat-tests':     s.totalTests||0,
+        'stat-practices': s.totalPractices||0,
+        'stat-streak':    (s.currentStreak||0)+' days',
+        'stat-rank':      '#'+(s.weeklyRank||'—')
+      };
+      Object.entries(statMap).forEach(([id,val])=>{
+        const el = document.getElementById(id);
+        if (el) el.textContent = val;
+      });
+    }
+  } catch(_) {}
+
+  // ── Load leaderboard ──
+  try {
+    const lbRes = await apiGetLeaderboard('week', 8);
+    const rankList = document.getElementById('rank-list');
+    if (rankList) {
+      if (lbRes.leaderboard && lbRes.leaderboard.length) {
+        const medals = ['🥇','🥈','🥉'];
+        const avatarBgs = ['#120d00','#052010','#020d20','#150210','#021410','#200505','#0d1a0f'];
+        const avatarColors = ['var(--amber)','var(--green)','var(--blue)','var(--pink)','var(--teal)','var(--red)','var(--green)'];
+        rankList.innerHTML = lbRes.leaderboard.map((u, i) => `
+          <div class="rank-item">
+            <div class="rank-num ${i===0?'gold':i===1?'silver':i===2?'bronze':''}" style="${i>2?'color:var(--muted)':''}">${medals[i]||i+1}</div>
+            <div class="rank-avatar" style="background:${avatarBgs[i%avatarBgs.length]};color:${avatarColors[i%avatarColors.length]}">${u.initials}</div>
+            <div class="rank-name">${u.name}</div>
+            <div class="rank-score">${u.points.toLocaleString()}</div>
+          </div>`).join('') +
+          (lbRes.myRank && lbRes.myRank !== '—' ? `
+          <div class="rank-item" style="background:var(--accbg);border-radius:8px;padding:7px 8px;border:1px solid var(--accbg2)">
+            <div class="rank-num" style="color:var(--acc2)">${lbRes.myRank}</div>
+            <div class="rank-avatar" style="background:var(--accbg2);color:var(--acc2)">${(user.name||'U').slice(0,2).toUpperCase()}</div>
+            <div class="rank-name" style="color:var(--acc2);font-weight:600">${user.name}</div>
+            <div class="rank-score" style="color:var(--acc2)">${(lbRes.myPoints||0).toLocaleString()}</div>
+          </div>` : '');
+      } else {
+        rankList.innerHTML = '<div style="text-align:center;color:var(--muted);font-size:12px;padding:24px 0">No leaderboard data yet.<br>Take a test to appear here!</div>';
+      }
+    }
+  } catch(e) {
+    const rankList = document.getElementById('rank-list');
+    if (rankList) rankList.innerHTML = '<div style="text-align:center;color:var(--muted);font-size:12px;padding:24px 0">No leaderboard data yet.</div>';
+  }
+
+  // ── Load recent activity ──
+  loadRecentActivity('aptitude');
+
+  if (window.location.hash === '#leaderboard') {
+    setTimeout(scrollToLeaderboard, 300);
+  }
+}
+
+function scrollToLeaderboard() {
+  const el = document.getElementById('leaderboard-panel');
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function comingSoon(name) {
+  showAarovaaiToast('🚧 ' + name + ' — Coming Soon!', '');
+}
+
+init();
+</script>
+</body>
+</html>

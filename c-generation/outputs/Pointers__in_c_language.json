@@ -1,0 +1,467 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a pointer in C?",
+    "options": ["A) A variable that stores the address of another variable", "B) A variable that stores a floating point value", "C) A function that returns an integer", "D) A keyword used for memory allocation"],
+    "correct_answer": "A) A variable that stores the address of another variable",
+    "explanation": "A pointer is a special variable in C that holds the memory address of another variable. It is declared using the '*' operator."
+  },
+  {
+    "id": 2,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator is used to declare a pointer variable in C?",
+    "options": ["A) &", "B) *", "C) ->", "D) ."],
+    "correct_answer": "B) *",
+    "explanation": "The '*' (asterisk) operator is used to declare a pointer variable. For example, int *p; declares p as a pointer to an integer."
+  },
+  {
+    "id": 3,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which operator is used to get the address of a variable in C?",
+    "options": ["A) *", "B) ->", "C) &", "D) %"],
+    "correct_answer": "C) &",
+    "explanation": "The '&' (address-of) operator returns the memory address of a variable. For example, &x gives the address of variable x."
+  },
+  {
+    "id": 4,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\nint x = 10;\nint *p = &x;\nprintf(\"%d\", *p);",
+    "options": ["A) Address of x", "B) 10", "C) 0", "D) Garbage value"],
+    "correct_answer": "B) 10",
+    "explanation": "*p dereferences the pointer p, which means it accesses the value stored at the address p points to. Since p points to x and x = 10, *p gives 10."
+  },
+  {
+    "id": 5,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of a pointer variable on a 32-bit system?",
+    "options": ["A) 1 byte", "B) 2 bytes", "C) 4 bytes", "D) 8 bytes"],
+    "correct_answer": "C) 4 bytes",
+    "explanation": "On a 32-bit system, all pointer variables occupy 4 bytes regardless of the data type they point to, because they store memory addresses which are 32-bit wide."
+  },
+  {
+    "id": 6,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of a pointer variable on a 64-bit system?",
+    "options": ["A) 4 bytes", "B) 8 bytes", "C) 2 bytes", "D) 16 bytes"],
+    "correct_answer": "B) 8 bytes",
+    "explanation": "On a 64-bit system, all pointer variables occupy 8 bytes because memory addresses are 64-bit wide, regardless of the type they point to."
+  },
+  {
+    "id": 7,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a NULL pointer in C?",
+    "options": ["A) A pointer pointing to address 0", "B) A pointer with no type", "C) A pointer pointing to a string", "D) A pointer that is not initialized"],
+    "correct_answer": "A) A pointer pointing to address 0",
+    "explanation": "A NULL pointer is a pointer that is assigned the value NULL (which is 0). It does not point to any valid memory location and is used to indicate that the pointer is not in use."
+  },
+  {
+    "id": 8,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint a = 5;\nint *ptr = &a;\n*ptr = 20;\nprintf(\"%d\", a);",
+    "options": ["A) 5", "B) 20", "C) Address of a", "D) Compilation error"],
+    "correct_answer": "B) 20",
+    "explanation": "*ptr = 20 modifies the value at the address ptr points to, which is variable a. So a becomes 20 and printf prints 20."
+  },
+  {
+    "id": 9,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct way to declare a pointer to an integer?",
+    "options": ["A) int ptr;", "B) int *ptr;", "C) *int ptr;", "D) pointer int ptr;"],
+    "correct_answer": "B) int *ptr;",
+    "explanation": "The correct syntax to declare a pointer to an integer is 'int *ptr;'. The asterisk (*) before the variable name indicates it is a pointer."
+  },
+  {
+    "id": 10,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the following declaration mean?\nchar *p;",
+    "options": ["A) p is a character variable", "B) p is a pointer to a character", "C) p is an array of characters", "D) p is a pointer to an integer"],
+    "correct_answer": "B) p is a pointer to a character",
+    "explanation": "'char *p;' declares p as a pointer to a character. It can store the address of a char variable or point to a character in memory."
+  },
+  {
+    "id": 11,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is pointer arithmetic? If int *p points to address 1000, what is p+1 on a system where int is 4 bytes?",
+    "options": ["A) 1001", "B) 1002", "C) 1004", "D) 1008"],
+    "correct_answer": "C) 1004",
+    "explanation": "Pointer arithmetic increments the pointer by the size of the data type it points to. Since int is 4 bytes, p+1 = 1000 + 4 = 1004."
+  },
+  {
+    "id": 12,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a void pointer in C?",
+    "options": ["A) A pointer that points to nothing", "B) A pointer that can point to any data type", "C) A pointer that stores NULL", "D) A pointer used only in functions"],
+    "correct_answer": "B) A pointer that can point to any data type",
+    "explanation": "A void pointer (void *) is a generic pointer that can hold the address of any data type. It must be cast to the appropriate type before dereferencing."
+  },
+  {
+    "id": 13,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be printed?\nint arr[] = {10, 20, 30};\nprintf(\"%d\", *arr);",
+    "options": ["A) 30", "B) 20", "C) 10", "D) Address of arr"],
+    "correct_answer": "C) 10",
+    "explanation": "The array name 'arr' acts as a pointer to its first element. *arr dereferences this pointer, giving the value of arr[0] which is 10."
+  },
+  {
+    "id": 14,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly initializes a pointer to NULL?",
+    "options": ["A) int *p = 0;", "B) int *p = NULL;", "C) int *p = (int*)0;", "D) All of the above"],
+    "correct_answer": "D) All of the above",
+    "explanation": "All three methods correctly initialize a pointer to NULL. NULL is defined as 0 or (void*)0, so assigning 0 or NULL or casting 0 to the pointer type all result in a null pointer."
+  },
+  {
+    "id": 15,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a dangling pointer?",
+    "options": ["A) A pointer that points to a valid memory location", "B) A pointer that points to a memory location that has been freed or gone out of scope", "C) A pointer initialized to NULL", "D) A pointer to a constant variable"],
+    "correct_answer": "B) A pointer that points to a memory location that has been freed or gone out of scope",
+    "explanation": "A dangling pointer points to memory that has been deallocated (freed) or a variable that has gone out of scope. Accessing it leads to undefined behavior."
+  },
+  {
+    "id": 16,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint x = 7;\nint *p = &x;\nprintf(\"%d\", *p + 3);",
+    "options": ["A) 7", "B) 3", "C) 10", "D) Address of x + 3"],
+    "correct_answer": "C) 10",
+    "explanation": "*p gives the value at the address p points to, which is 7. Then *p + 3 = 7 + 3 = 10."
+  },
+  {
+    "id": 17,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\nint a = 10, b = 20;\nint *p = &a;\np = &b;\nprintf(\"%d\", *p);",
+    "options": ["A) 10", "B) 20", "C) Address of b", "D) Compilation error"],
+    "correct_answer": "B) 20",
+    "explanation": "Initially p points to a, but then p is reassigned to point to b. So *p gives the value of b, which is 20."
+  },
+  {
+    "id": 18,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which function is used to allocate memory dynamically in C?",
+    "options": ["A) alloc()", "B) malloc()", "C) new()", "D) memalloc()"],
+    "correct_answer": "B) malloc()",
+    "explanation": "malloc() (memory allocation) is used to dynamically allocate a specified number of bytes of memory at runtime. It returns a void pointer to the allocated memory."
+  },
+  {
+    "id": 19,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does malloc() return if memory allocation fails?",
+    "options": ["A) 0", "B) -1", "C) NULL", "D) Garbage value"],
+    "correct_answer": "C) NULL",
+    "explanation": "If malloc() fails to allocate the requested memory (e.g., insufficient memory), it returns NULL. Always check the return value of malloc() before using the pointer."
+  },
+  {
+    "id": 20,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to free dynamically allocated memory in C?",
+    "options": ["A) delete(ptr);", "B) free(ptr);", "C) release(ptr);", "D) dealloc(ptr);"],
+    "correct_answer": "B) free(ptr);",
+    "explanation": "The free() function is used to deallocate memory that was previously allocated using malloc(), calloc(), or realloc(). It takes a pointer to the memory block as argument."
+  },
+  {
+    "id": 21,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint arr[] = {5, 10, 15, 20};\nint *p = arr;\nprintf(\"%d\", *(p+2));",
+    "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+    "correct_answer": "C) 15",
+    "explanation": "p points to arr[0]. p+2 points to arr[2]. *(p+2) dereferences arr[2] which has value 15."
+  },
+  {
+    "id": 22,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a pointer to a pointer in C?",
+    "options": ["A) A pointer that stores the address of another pointer", "B) A pointer that stores two addresses", "C) A double data type pointer", "D) A pointer used in nested loops"],
+    "correct_answer": "A) A pointer that stores the address of another pointer",
+    "explanation": "A pointer to a pointer (double pointer) stores the address of another pointer variable. It is declared using '**', e.g., int **pp;"
+  },
+  {
+    "id": 23,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint x = 100;\nint *p = &x;\nint **pp = &p;\nprintf(\"%d\", **pp);",
+    "options": ["A) Address of p", "B) Address of x", "C) 100", "D) Garbage value"],
+    "correct_answer": "C) 100",
+    "explanation": "pp points to p, and p points to x. **pp first dereferences pp to get p, then dereferences p to get x's value, which is 100."
+  },
+  {
+    "id": 24,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the relationship between arrays and pointers in C?",
+    "options": ["A) Arrays and pointers are completely different", "B) Array name acts as a constant pointer to its first element", "C) Pointers cannot be used with arrays", "D) Arrays are a type of pointer variable"],
+    "correct_answer": "B) Array name acts as a constant pointer to its first element",
+    "explanation": "In C, the array name is a constant pointer that holds the address of the first element. So arr and &arr[0] are equivalent."
+  },
+  {
+    "id": 25,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint a = 15;\nint *p = &a;\nprintf(\"%d %d\", a, *p);",
+    "options": ["A) 15 15", "B) 15 Address of a", "C) Address of a 15", "D) Compilation error"],
+    "correct_answer": "A) 15 15",
+    "explanation": "a holds the value 15. *p dereferences the pointer p which points to a, so *p also gives 15. Both print 15."
+  },
+  {
+    "id": 26,
+    "topic": "Pointers in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\nint arr[] = {1, 2, 3, 4, 5};\nint *p = arr;\np++;\nprintf(\"%d\", *p);",
+    "options": ["A) 1", "B) 2", "C) 3", "D) Address of arr[1]"],
+    "correct_answer": "B) 2",
+    "explanation": "p initially points to arr[0]. After p++, p points to arr[1]. *p gives the value at arr[1] which is 2."
+  },
+  {
+    "id": 27,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output?\nchar ch = 'A';\nchar *p = &ch;\nprintf(\"%c\", *p);",
+    "options": ["A) A", "B) 65", "C) Address of ch", "D) Garbage value"],
+    "correct_answer": "A) A",
+    "explanation": "*p dereferences the pointer p which points to ch. Since ch = 'A' and we use %c format specifier, it prints the character 'A'."
+  },
+  {
+    "id": 28,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which header file must be included to use NULL in C?",
+    "options": ["A) stdio.h", "B) stdlib.h", "C) Both A and B", "D) string.h"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "NULL is defined in multiple standard header files including stdio.h and stdlib.h. Including either one allows you to use NULL in your program."
+  },
+  {
+    "id": 29,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output?\nint x = 5;\nint *p = &x;\nprintf(\"%d\", p == &x);",
+    "options": ["A) 0", "B) 1", "C) Address of x", "D) Compilation error"],
+    "correct_answer": "B) 1",
+    "explanation": "p is assigned &x, so p == &x is true (1). The printf with %d prints 1 for true."
+  },
+  {
+    "id": 30,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does calloc() do differently from malloc()?",
+    "options": ["A) calloc() allocates memory and initializes it to zero", "B) calloc() allocates memory without initialization", "C) calloc() is used only for character arrays", "D) calloc() takes only one argument"],
+    "correct_answer": "A) calloc() allocates memory and initializes it to zero",
+    "explanation": "calloc(n, size) allocates memory for n elements of given size and initializes all bytes to zero. malloc() allocates memory but does not initialize it."
+  },
+  {
+    "id": 31,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a wild pointer in C?",
+    "options": ["A) A pointer initialized to NULL", "B) A pointer that is declared but not initialized", "C) A pointer to a freed memory", "D) A pointer to a constant"],
+    "correct_answer": "B) A pointer that is declared but not initialized",
+    "explanation": "A wild pointer is an uninitialized pointer that points to some arbitrary memory location. Using it can cause undefined behavior or program crashes."
+  },
+  {
+    "id": 32,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint a = 10;\nint *p = &a;\nprintf(\"%u\", p);",
+    "options": ["A) 10", "B) Address of a", "C) 0", "D) Compilation error"],
+    "correct_answer": "B) Address of a",
+    "explanation": "%u prints an unsigned integer. Since p holds the address of a, it prints the memory address of variable a."
+  },
+  {
+    "id": 33,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is used to print the address stored in a pointer?",
+    "options": ["A) %d", "B) %f", "C) %p", "D) %s"],
+    "correct_answer": "C) %p",
+    "explanation": "The %p format specifier is used to print the value of a pointer (memory address) in hexadecimal format. It is the standard way to print pointer values."
+  },
+  {
+    "id": 34,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output?\nint arr[3] = {10, 20, 30};\nprintf(\"%d\", *(arr+1));",
+    "options": ["A) 10", "B) 20", "C) 30", "D) Address of arr[1]"],
+    "correct_answer": "B) 20",
+    "explanation": "arr is a pointer to arr[0]. arr+1 points to arr[1]. *(arr+1) dereferences arr[1] giving value 20."
+  },
+  {
+    "id": 35,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a function pointer in C?",
+    "options": ["A) A pointer that points to the return value of a function", "B) A pointer that stores the address of a function", "C) A pointer used inside a function", "D) A pointer returned by a function"],
+    "correct_answer": "B) A pointer that stores the address of a function",
+    "explanation": "A function pointer stores the memory address of a function. It can be used to call the function indirectly and is useful for callbacks and dynamic dispatch."
+  },
+  {
+    "id": 36,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to declare a function pointer for a function int add(int, int)?",
+    "options": ["A) int *fp(int, int);", "B) int (*fp)(int, int);", "C) int fp*(int, int);", "D) (*int fp)(int, int);"],
+    "correct_answer": "B) int (*fp)(int, int);",
+    "explanation": "The correct syntax for a function pointer is 'int (*fp)(int, int);'. The parentheses around *fp are necessary to distinguish it from a function returning a pointer."
+  },
+  {
+    "id": 37,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint x = 10, y = 20;\nint *p = &x;\n*p = *p + y;\nprintf(\"%d\", x);",
+    "options": ["A) 10", "B) 20", "C) 30", "D) 200"],
+    "correct_answer": "C) 30",
+    "explanation": "*p refers to x. *p + y = 10 + 20 = 30. Assigning this to *p changes x to 30. printf prints x which is 30."
+  },
+  {
+    "id": 38,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can you perform addition of two pointer variables in C?",
+    "options": ["A) Yes, always", "B) No, addition of two pointers is not allowed", "C) Yes, but only for char pointers", "D) Yes, only for void pointers"],
+    "correct_answer": "B) No, addition of two pointers is not allowed",
+    "explanation": "Adding two pointers is not a valid operation in C. You can add an integer to a pointer or subtract two pointers (to find the distance between them), but not add two pointers."
+  },
+  {
+    "id": 39,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the output?\nint a = 3, b = 4;\nint *p1 = &a, *p2 = &b;\nprintf(\"%d\", *p1 * *p2);",
+    "options": ["A) 7", "B) 12", "C) 34", "D) Compilation error"],
+    "correct_answer": "B) 12",
+    "explanation": "*p1 gives value of a = 3, *p2 gives value of b = 4. *p1 * *p2 = 3 * 4 = 12."
+  },
+  {
+    "id": 40,
+    "topic": "Pointers in c language",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does realloc() do in C?",
+    "options": ["A) Allocates new memory and frees old memory automatically", "B) Resizes previously allocated memory block", "C) Reallocates memory to zero", "D) Allocates memory for arrays only"],
+    "correct_answer": "B) Resizes previously allocated memory block",
+    "explanation": "realloc(ptr, new_size) resizes the memory block pointed to by ptr to new_size bytes. It may move the block to a new location if needed, returning the new pointer."
+  },
+  {
+    "id": 41,
+    "topic": "Pointers in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint arr[] = {10, 20, 30, 40, 50};\nint *p = arr + 2;\nprintf(\"%d %d\", *p, *(p-1));",
+    "options": ["A) 30 20", "B) 20 30", "C) 30 10", "D) 40 30"],
+    "correct_answer": "A) 30 20",
+    "explanation": "p = arr + 2 points to arr[2] = 30. *p = 30. p-1 points to arr[1] = 20. *(p-1) = 20. Output: 30 20."
+  },
+  {
+    "id": 42,
+    "topic": "Pointers in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\nint a = 5;\nint *p = &a;\n(*p)++;\nprintf(\"%d\", a);",
+    "options": ["A) 5", "B) 6", "C) Address of a + 1", "D) Compilation error"],
+    "correct_answer": "B) 6",
+    "explanation": "(*p)++ increments the value at the address p points to (which is a). So a becomes 5+1 = 6. The parentheses ensure the value is incremented, not the pointer."
+  },
+  {
+    "id": 43,
+    "topic": "Pointers in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between *p++ and (*p)++?",
+    "options": ["A) Both are the same", "B) *p++ increments the pointer; (*p)++ increments the value at the pointer", "C) *p++ increments the value; (*p)++ increments the pointer", "D) Both cause compilation errors"],
+    "correct_answer": "B) *p++ increments the pointer; (*p)++ increments the value at the pointer",
+    "explanation": "In *p++, ++ has higher precedence than *, so the pointer p is incremented. In (*p)++, the parentheses force dereferencing first, then the value is incremented."
+  },
+  {
+    "id": 44,
+    "topic": "Pointers in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output?\nint arr[] = {2, 4, 6, 8};\nint *p = arr;\nprintf(\"%d\", *p++);",
+    "options": ["A) 4", "B) 2", "C) Address of arr[1]", "D) 6"],
+    "correct_answer": "B) 2",
+    "explanation": "*p++ uses post-increment. The current value *p (which is arr[0] = 2) is returned first, then p is incremented to point to arr[1]. So it prints 2."
+  },
+  {
+    "id": 45,
+    "topic": "Pointers in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output?\nint x = 10;\nconst int *p = &x;\n*p = 20;\nprintf(\"%d\", x);",
+    "options": ["A) 10", "B) 20", "C) Compilation error", "D) Runtime error"],
+    "correct_answer": "C) Compilation error",
+    "explanation": "'const int *p' means p is a pointer to a constant integer. You cannot modify the value through p. *p = 20 causes a compilation error."
+  },
+  {
+    "id": 46,
+    "topic": "Pointers in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the difference between 'const int *p' and 'int * const p'?",
+    "options": ["A) Both are the same", "B) const int *p: pointer is constant; int * const p: value is constant", "C) const int *p: value is constant; int * const p: pointer is constant", "D) Neither can be modified"],
+    "correct_answer": "C) const int *p: value is constant; int * const p: pointer is constant",
+    "explanation": "'const int *p' means the value pointed to cannot be changed. 'int * const p' means the pointer itself cannot be changed (cannot point to another address)."
+  },
+  {
+    "id": 47,
+    "topic": "Pointers in c language",
+    "difficulty": "medium",
+    "exam_type": "campus",

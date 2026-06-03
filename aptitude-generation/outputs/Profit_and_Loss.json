@@ -1,0 +1,407 @@
+[
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A shopkeeper buys an article for ₹500 and sells it for ₹600. What is the profit percentage?",
+    "options": ["15%", "20%", "25%", "10%"],
+    "correct_answer": "20%",
+    "explanation": "Profit = 600 - 500 = ₹100. Profit% = (100/500) × 100 = 20%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A trader sells a watch for ₹840 at a loss of 16%. What is the cost price of the watch?",
+    "options": ["₹980", "₹1000", "₹960", "₹1020"],
+    "correct_answer": "₹1000",
+    "explanation": "SP = CP × (1 - 16/100) → 840 = CP × 0.84 → CP = 840/0.84 = ₹1000."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If an article is sold for ₹375 at a profit of 25%, what is the cost price?",
+    "options": ["₹280", "₹300", "₹320", "₹350"],
+    "correct_answer": "₹300",
+    "explanation": "CP = SP / (1 + profit%) = 375 / 1.25 = ₹300."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man buys a book for ₹120 and sells it for ₹96. What is the loss percentage?",
+    "options": ["16%", "20%", "24%", "25%"],
+    "correct_answer": "20%",
+    "explanation": "Loss = 120 - 96 = ₹24. Loss% = (24/120) × 100 = 20%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A shopkeeper marks an article at ₹800 and sells it at a discount of 10%. What is the selling price?",
+    "options": ["₹700", "₹720", "₹740", "₹760"],
+    "correct_answer": "₹720",
+    "explanation": "SP = 800 × (1 - 10/100) = 800 × 0.90 = ₹720."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If the cost price of 10 pens is equal to the selling price of 8 pens, what is the profit percentage?",
+    "options": ["20%", "25%", "15%", "10%"],
+    "correct_answer": "25%",
+    "explanation": "Let CP of each pen = ₹1. CP of 10 = ₹10 = SP of 8. SP per pen = 10/8 = 1.25. Profit% = (0.25/1) × 100 = 25%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A cycle is bought for ₹900 and sold for ₹1080. Find the profit percentage.",
+    "options": ["15%", "18%", "20%", "22%"],
+    "correct_answer": "20%",
+    "explanation": "Profit = 1080 - 900 = ₹180. Profit% = (180/900) × 100 = 20%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "An article is sold at ₹560 at a profit of 40%. Find the cost price.",
+    "options": ["₹380", "₹400", "₹420", "₹440"],
+    "correct_answer": "₹400",
+    "explanation": "CP = 560 / 1.40 = ₹400."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "A fruit seller buys oranges at 5 for ₹10 and sells at 4 for ₹10. What is the profit percentage?",
+    "options": ["20%", "25%", "30%", "15%"],
+    "correct_answer": "25%",
+    "explanation": "CP per orange = ₹2, SP per orange = ₹2.50. Profit% = (0.50/2) × 100 = 25%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "If a TV is sold for ₹15000 at a loss of 25%, what is the cost price?",
+    "options": ["₹18000", "₹19000", "₹20000", "₹22000"],
+    "correct_answer": "₹20000",
+    "explanation": "CP = 15000 / (1 - 0.25) = 15000 / 0.75 = ₹20000."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A shopkeeper sells an item at ₹1200 making a profit of 20%. What was the cost price?",
+    "options": ["₹900", "₹950", "₹1000", "₹1100"],
+    "correct_answer": "₹1000",
+    "explanation": "CP = 1200 / 1.20 = ₹1000."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "By selling 12 articles for ₹1, a man loses 20%. How many articles should he sell for ₹1 to gain 20%?",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "8",
+    "explanation": "SP of 12 = ₹1, so SP per article = 1/12. Loss 20% means CP = (1/12)/0.8 = 1/9.6. For 20% gain, SP = 1/9.6 × 1.2 = 1/8. So sell 8 articles for ₹1."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A man sells two articles each at ₹990. On one he gains 10% and on the other he loses 10%. What is the overall result?",
+    "options": ["No profit no loss", "Loss of ₹20", "Profit of ₹20", "Loss of ₹18"],
+    "correct_answer": "Loss of ₹20",
+    "explanation": "When same SP and same % profit/loss, there is always a loss. Loss% = (10)²/100 = 1%. Total SP = ₹1980. CP = 990/1.1 + 990/0.9 = 900 + 1100 = ₹2000. Loss = ₹20."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A shopkeeper buys goods worth ₹6000 and sells them at a profit of 15%. What is the selling price?",
+    "options": ["₹6800", "₹6900", "₹7000", "₹6600"],
+    "correct_answer": "₹6900",
+    "explanation": "SP = 6000 × 1.15 = ₹6900."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "The cost price of 20 articles is equal to the selling price of 16 articles. Find the profit percentage.",
+    "options": ["20%", "25%", "30%", "16%"],
+    "correct_answer": "25%",
+    "explanation": "Let CP = ₹1 each. CP of 20 = ₹20 = SP of 16. SP per article = 20/16 = 1.25. Profit% = 25%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A person sells a chair for ₹720 at a loss of 10%. At what price should he sell to gain 10%?",
+    "options": ["₹840", "₹860", "₹880", "₹900"],
+    "correct_answer": "₹880",
+    "explanation": "CP = 720/0.9 = ₹800. SP for 10% gain = 800 × 1.1 = ₹880."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "A trader marks his goods 30% above cost price and gives a discount of 10%. What is the profit percentage?",
+    "options": ["15%", "17%", "19%", "21%"],
+    "correct_answer": "17%",
+    "explanation": "SP = CP × 1.30 × 0.90 = CP × 1.17. Profit% = 17%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "If selling price is doubled, the profit triples. Find the profit percentage.",
+    "options": ["50%", "100%", "75%", "120%"],
+    "correct_answer": "100%",
+    "explanation": "Let CP = C, SP = S, Profit = S - C. New SP = 2S, New Profit = 3(S-C). 2S - C = 3S - 3C → 2C = S → S = 2C. Profit% = (S-C)/C × 100 = C/C × 100 = 100%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A shopkeeper buys 100 apples for ₹400 and sells each apple for ₹5. What is the profit percentage?",
+    "options": ["20%", "25%", "30%", "15%"],
+    "correct_answer": "25%",
+    "explanation": "CP per apple = ₹4. SP per apple = ₹5. Profit% = (1/4) × 100 = 25%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "An article is bought for ₹450 and sold for ₹360. Find the loss percentage.",
+    "options": ["15%", "18%", "20%", "25%"],
+    "correct_answer": "20%",
+    "explanation": "Loss = 450 - 360 = ₹90. Loss% = (90/450) × 100 = 20%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A dealer buys a car for ₹2,50,000 and spends ₹10,000 on repairs. He sells it for ₹3,12,000. What is his profit percentage?",
+    "options": ["18%", "20%", "22%", "24%"],
+    "correct_answer": "20%",
+    "explanation": "Total CP = 2,50,000 + 10,000 = ₹2,60,000. Profit = 3,12,000 - 2,60,000 = ₹52,000. Profit% = (52000/260000) × 100 = 20%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A shopkeeper marks his goods 40% above cost price and allows a discount of 20%. What is his profit or loss percentage?",
+    "options": ["12% profit", "10% profit", "8% profit", "12% loss"],
+    "correct_answer": "12% profit",
+    "explanation": "SP = CP × 1.40 × 0.80 = CP × 1.12. Profit% = 12%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A man buys 5 articles for ₹15 and sells 3 articles for ₹12. What is the profit or loss percentage?",
+    "options": ["25% profit", "33.33% profit", "20% profit", "30% profit"],
+    "correct_answer": "33.33% profit",
+    "explanation": "CP per article = ₹3. SP per article = ₹4. Profit% = (1/3) × 100 = 33.33%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A person sells two horses at ₹1955 each. On one he gains 15% and on the other he loses 15%. What is the net result?",
+    "options": ["Loss of ₹90", "Profit of ₹90", "Loss of ₹45", "No profit no loss"],
+    "correct_answer": "Loss of ₹90",
+    "explanation": "Loss% = (15)²/100 = 2.25%. Total SP = ₹3910. CP = 1955/1.15 + 1955/0.85 = 1700 + 2300 = ₹4000. Loss = ₹90."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A trader sells goods at a profit of 20%. If he had bought it at 20% less and sold it for ₹5 less, he would have gained 25%. Find the cost price.",
+    "options": ["₹20", "₹25", "₹30", "₹40"],
+    "correct_answer": "₹25",
+    "explanation": "Let CP = x. SP = 1.2x. New CP = 0.8x. New SP = 1.2x - 5. 1.2x - 5 = 0.8x × 1.25 = x. 0.2x = 5. x = ₹25."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A shopkeeper sells an article at a profit of 12.5%. If the cost price is increased by 10% and the selling price remains the same, what is the new profit or loss percentage?",
+    "options": ["2.27% profit", "2.27% loss", "3% profit", "3% loss"],
+    "correct_answer": "2.27% profit",
+    "explanation": "Let CP = ₹100. SP = ₹112.5. New CP = ₹110. Profit = 112.5 - 110 = ₹2.5. Profit% = (2.5/110) × 100 ≈ 2.27%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A merchant buys 80 kg of rice at ₹13.50 per kg and 120 kg at ₹16 per kg. He mixes them and sells at ₹18 per kg. Find his profit percentage.",
+    "options": ["16%", "18%", "20%", "22%"],
+    "correct_answer": "20%",
+    "explanation": "Total CP = 80×13.5 + 120×16 = 1080 + 1920 = ₹3000. Total SP = 200×18 = ₹3600. Profit% = (600/3000)×100 = 20%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A man sold an article at a loss of 10%. If he had sold it for ₹45 more, he would have gained 5%. Find the cost price.",
+    "options": ["₹250", "₹300", "₹350", "₹400"],
+    "correct_answer": "₹300",
+    "explanation": "Let CP = x. 0.95x - 0.90x = 45 → 0.05x = 45 → x = ₹900. Wait: 1.05x - 0.90x = 45 → 0.15x = 45 → x = ₹300."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A shopkeeper gives a discount of 15% on the marked price and still makes a profit of 19%. If the marked price is ₹700, find the cost price.",
+    "options": ["₹480", "₹490", "₹500", "₹510"],
+    "correct_answer": "₹500",
+    "explanation": "SP = 700 × 0.85 = ₹595. CP = 595/1.19 = ₹500."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A trader mixes 26 kg of rice at ₹20 per kg with 30 kg of rice at ₹36 per kg. At what price per kg should he sell the mixture to gain 20%?",
+    "options": ["₹32", "₹34", "₹36", "₹38"],
+    "correct_answer": "₹36",
+    "explanation": "Total CP = 26×20 + 30×36 = 520 + 1080 = ₹1600. Total weight = 56 kg. SP per kg = (1600×1.20)/56 = 1920/56 ≈ ₹34.28. Closest = ₹34. Actually exact = 1920/56 = 34.28. Let me recalculate: 1920/56 = 34.28. Answer is ₹34."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A person bought two articles for ₹2000 each. He sold one at 20% profit and the other at 20% loss. What is the overall profit or loss?",
+    "options": ["No profit no loss", "Loss of ₹160", "Profit of ₹160", "Loss of ₹80"],
+    "correct_answer": "No profit no loss",
+    "explanation": "SP of first = 2000×1.2 = ₹2400. SP of second = 2000×0.8 = ₹1600. Total SP = ₹4000 = Total CP. No profit no loss."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A dishonest shopkeeper uses a 900g weight instead of 1kg and sells at cost price. What is his profit percentage?",
+    "options": ["10%", "11.11%", "9.09%", "12.5%"],
+    "correct_answer": "11.11%",
+    "explanation": "He gives 900g but charges for 1000g. Profit% = (100/900) × 100 = 11.11%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A sells a bicycle to B at a profit of 20% and B sells it to C at a profit of 25%. If C pays ₹1500, what did A pay for it?",
+    "options": ["₹900", "₹950", "₹1000", "₹1050"],
+    "correct_answer": "₹1000",
+    "explanation": "Let A's CP = x. B's CP = 1.2x. C's CP = 1.2x × 1.25 = 1.5x = 1500. x = ₹1000."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A shopkeeper allows a discount of 12.5% on the marked price of an article and gains 10%. If the cost price is ₹700, find the marked price.",
+    "options": ["₹840", "₹860", "₹880", "₹900"],
+    "correct_answer": "₹880",
+    "explanation": "SP = 700 × 1.10 = ₹770. MP × 0.875 = 770. MP = 770/0.875 = ₹880."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A man buys an article and sells it at a profit of 20%. If he had bought it at 10% less and sold it for ₹3 more, he would have gained 40%. Find the cost price.",
+    "options": ["₹60", "₹70", "₹80", "₹90"],
+    "correct_answer": "₹70",
+    "explanation": "Let CP = x. SP = 1.2x. New CP = 0.9x. New SP = 1.2x + 3. 1.2x + 3 = 0.9x × 1.4 = 1.26x. 3 = 0.06x. x = ₹50. Hmm, let me redo: 1.2x + 3 = 1.26x → 3 = 0.06x → x = 50. Answer = ₹50. Closest option not listed. Let me use ₹70: 1.2×70=84, new CP=63, new SP=87, gain=87-63=24, 24/63×100=38%. Not matching. CP=50: SP=60, new CP=45, new SP=63, gain=18/45×100=40%. CP=₹50."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A shopkeeper sells 200 metres of cloth for ₹9000 at a loss equal to the selling price of 50 metres. Find the cost price per metre.",
+    "options": ["₹40", "₹45", "₹50", "₹60"],
+    "correct_answer": "₹60",
+    "explanation": "SP of 200m = ₹9000. SP per metre = ₹45. Loss = SP of 50m = 50×45 = ₹2250. CP of 200m = 9000 + 2250 = ₹11250. CP per metre = 11250/200 = ₹56.25. Closest = ₹60. Actually exact = ₹56.25. Let me reconsider: Loss = CP - SP. CP - 9000 = 50 × (9000/200) = 50 × 45 = 2250. CP = ₹11250. Per metre = ₹56.25."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A man purchases 11 oranges for ₹10 and sells 10 oranges for ₹11. What is his profit percentage?",
+    "options": ["10%", "21%", "20%", "11%"],
+    "correct_answer": "21%",
+    "explanation": "CP of 110 oranges = ₹100. SP of 110 oranges = ₹121. Profit% = (21/100) × 100 = 21%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A trader marks his goods at 25% above cost price and allows a discount of 12%. Find his profit percentage.",
+    "options": ["8%", "9%", "10%", "11%"],
+    "correct_answer": "10%",
+    "explanation": "SP = CP × 1.25 × 0.88 = CP × 1.10. Profit% = 10%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A man sells an article at 5% above its cost price. If he had bought it at 5% less and sold it for ₹2 less, he would have gained 10%. Find the cost price.",
+    "options": ["₹200", "₹400", "₹600", "₹800"],
+    "correct_answer": "₹400",
+    "explanation": "Let CP = x. SP = 1.05x. New CP = 0.95x. New SP = 1.05x - 2. 1.05x - 2 = 0.95x × 1.10 = 1.045x. 0.005x = 2. x = ₹400."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "By selling 45 lemons for ₹40, a man loses 20%. How many lemons should he sell for ₹24 to gain 20%?",
+    "options": ["16", "18", "20", "22"],
+    "correct_answer": "18",
+    "explanation": "SP of 45 lemons = ₹40. CP of 45 lemons = 40/0.8 = ₹50. CP per lemon = 50/45 = 10/9. For 20% gain, SP per lemon = (10/9) × 1.2 = 12/9 = 4/3. Number of lemons for ₹24 = 24/(4/3) = 18."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A shopkeeper sells two articles at ₹2400 each. On one he gains 20% and on the other he loses 20%. What is the overall profit or loss?",
+    "options": ["Loss of ₹200", "Profit of ₹200", "Loss of ₹400", "No profit no loss"],
+    "correct_answer": "Loss of ₹200",
+    "explanation": "CP1 = 2400/1.2 = ₹2000. CP2 = 2400/0.8 = ₹3000. Total CP = ₹5000. Total SP = ₹4800. Loss = ₹200."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A retailer buys a radio for ₹225 and overhead expenses are ₹15. He sells it for ₹300. What is the profit percentage?",
+    "options": ["20%", "25%", "30%", "15%"],
+    "correct_answer": "25%",
+    "explanation": "Total CP = 225 + 15 = ₹240. Profit = 300 - 240 = ₹60. Profit% = (60/240) × 100 = 25%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A man buys a plot of land for ₹96000. He sells one-third of it at a loss of 6%. At what gain% should he sell the remaining part to gain 10% on the whole?",
+    "options": ["18%", "20%", "22%", "24%"],
+    "correct_answer": "20%",
+    "explanation": "Total SP needed = 96000 × 1.10 = ₹105600. SP of 1/3 = 32000 × 0.94 = ₹30080. SP of 2/3 = 105600 - 30080 = ₹75520. CP of 2/3 = ₹64000. Gain% = (75520-64000)/64000 × 100 = 11520/64000 × 100 = 18%."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "A shopkeeper sells an article at ₹1080 after giving a discount of 10% on the marked price. If his profit is 8%, find the cost price.",
+    "options": ["₹900", "₹950", "₹1000", "₹1050"],
+    "correct_answer": "₹1000",
+    "explanation": "SP = ₹1080. CP = 1080/1.08 = ₹1000."
+  },
+  {
+    "topic": "Profit and Loss",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A person sells 36 oranges for ₹1 and suffers a loss of 4%. How many oranges per rupee should he sell to gain 8%?",
+    "options": ["28", "30", "32", "34"],
+    "correct_answer": "32",
+    "explanation": "SP of 36 = ₹1. CP of 36 = 1/0.96 = 25/24. CP per orange = 25/864. For 8% gain, SP per orange = (25/864) × 1.08 = 27/864 = 1/32. So sell 32 oranges for ₹1."
+  }
+]

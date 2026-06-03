@@ -1,0 +1,506 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does WAN stand for in networking?",
+    "options": ["A) Wide Area Network", "B) Wireless Access Node", "C) Wide Access Node", "D) Wired Area Network"],
+    "correct_answer": "A) Wide Area Network",
+    "explanation": "WAN stands for Wide Area Network, which is a telecommunications network that extends over a large geographic area."
+  },
+  {
+    "id": 2,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the best example of a WAN?",
+    "options": ["A) A network connecting computers in a single office", "B) The Internet", "C) A Bluetooth connection between two phones", "D) A network within a university campus"],
+    "correct_answer": "B) The Internet",
+    "explanation": "The Internet is the largest and most well-known example of a WAN, connecting millions of networks across the globe."
+  },
+  {
+    "id": 3,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which device is primarily used to connect a LAN to a WAN?",
+    "options": ["A) Hub", "B) Switch", "C) Router", "D) Repeater"],
+    "correct_answer": "C) Router",
+    "explanation": "A router is used to connect different networks, including connecting a local LAN to a wide area WAN by routing packets between them."
+  },
+  {
+    "id": 4,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the typical geographic coverage of a WAN?",
+    "options": ["A) A single building", "B) A campus or city block", "C) A city, country, or continent", "D) A single room"],
+    "correct_answer": "C) A city, country, or continent",
+    "explanation": "WANs cover large geographic areas such as cities, countries, or even continents, unlike LANs which are limited to smaller areas."
+  },
+  {
+    "id": 5,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which transmission medium is commonly used in WANs for long-distance communication?",
+    "options": ["A) Coaxial cable only", "B) Fiber optic cables and satellite links", "C) Ethernet cables", "D) USB cables"],
+    "correct_answer": "B) Fiber optic cables and satellite links",
+    "explanation": "WANs use fiber optic cables and satellite links for long-distance communication due to their high bandwidth and long-range capabilities."
+  },
+  {
+    "id": 6,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'bandwidth' refer to in a WAN context?",
+    "options": ["A) The physical width of the cable", "B) The maximum data transfer rate of a network", "C) The number of connected devices", "D) The geographic size of the network"],
+    "correct_answer": "B) The maximum data transfer rate of a network",
+    "explanation": "Bandwidth refers to the maximum rate at which data can be transferred over a network connection, typically measured in bits per second (bps)."
+  },
+  {
+    "id": 7,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which WAN technology uses packet switching to transmit data?",
+    "options": ["A) PSTN", "B) Frame Relay", "C) Leased Line", "D) ISDN"],
+    "correct_answer": "B) Frame Relay",
+    "explanation": "Frame Relay is a WAN technology that uses packet switching, where data is broken into frames and transmitted across the network."
+  },
+  {
+    "id": 8,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the full form of PSTN?",
+    "options": ["A) Public Switched Telephone Network", "B) Private Switched Transmission Node", "C) Public Standard Transmission Network", "D) Private Switched Telephone Node"],
+    "correct_answer": "A) Public Switched Telephone Network",
+    "explanation": "PSTN stands for Public Switched Telephone Network, which is the traditional circuit-switched telephone network used for voice and data communication."
+  },
+  {
+    "id": 9,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which protocol is most commonly used at the WAN layer for data link communication?",
+    "options": ["A) HTTP", "B) PPP (Point-to-Point Protocol)", "C) FTP", "D) SMTP"],
+    "correct_answer": "B) PPP (Point-to-Point Protocol)",
+    "explanation": "PPP (Point-to-Point Protocol) is a data link layer protocol commonly used in WAN connections to establish direct connections between two nodes."
+  },
+  {
+    "id": 10,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A leased line provides which type of connection?",
+    "options": ["A) Shared connection with variable bandwidth", "B) Dedicated point-to-point connection", "C) Wireless connection only", "D) Dial-up connection"],
+    "correct_answer": "B) Dedicated point-to-point connection",
+    "explanation": "A leased line provides a dedicated, permanent point-to-point connection between two locations with guaranteed bandwidth."
+  },
+  {
+    "id": 11,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ISP stand for?",
+    "options": ["A) Internet Service Provider", "B) Internal Switch Protocol", "C) Integrated Service Platform", "D) Internet Security Protocol"],
+    "correct_answer": "A) Internet Service Provider",
+    "explanation": "ISP stands for Internet Service Provider, a company that provides customers with access to the Internet and other related services."
+  },
+  {
+    "id": 12,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a WAN technology?",
+    "options": ["A) DSL", "B) MPLS", "C) Ethernet LAN", "D) ATM"],
+    "correct_answer": "C) Ethernet LAN",
+    "explanation": "Ethernet LAN is a Local Area Network technology, not a WAN technology. DSL, MPLS, and ATM are all WAN technologies."
+  },
+  {
+    "id": 13,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DSL stand for?",
+    "options": ["A) Digital Subscriber Line", "B) Data Switching Layer", "C) Direct Signal Link", "D) Dynamic Service Loop"],
+    "correct_answer": "A) Digital Subscriber Line",
+    "explanation": "DSL stands for Digital Subscriber Line, a technology that transmits digital data over telephone lines for broadband internet access."
+  },
+  {
+    "id": 14,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In WAN terminology, what is a 'node'?",
+    "options": ["A) A type of cable", "B) A connection point in the network", "C) A type of protocol", "D) A measurement of bandwidth"],
+    "correct_answer": "B) A connection point in the network",
+    "explanation": "A node in a WAN is any connection point in the network, such as a router, switch, or computer that can send, receive, or forward data."
+  },
+  {
+    "id": 15,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which layer of the OSI model do WAN protocols primarily operate at?",
+    "options": ["A) Application Layer", "B) Transport Layer", "C) Physical and Data Link Layer", "D) Session Layer"],
+    "correct_answer": "C) Physical and Data Link Layer",
+    "explanation": "WAN protocols primarily operate at the Physical Layer (Layer 1) and Data Link Layer (Layer 2) of the OSI model."
+  },
+  {
+    "id": 16,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the speed of a T1 line?",
+    "options": ["A) 1.544 Mbps", "B) 44.736 Mbps", "C) 100 Mbps", "D) 10 Mbps"],
+    "correct_answer": "A) 1.544 Mbps",
+    "explanation": "A T1 line has a data transfer rate of 1.544 Mbps and consists of 24 DS0 channels, each carrying 64 Kbps."
+  },
+  {
+    "id": 17,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the speed of a T3 line?",
+    "options": ["A) 1.544 Mbps", "B) 44.736 Mbps", "C) 100 Mbps", "D) 6.312 Mbps"],
+    "correct_answer": "B) 44.736 Mbps",
+    "explanation": "A T3 line (also called DS3) has a data transfer rate of 44.736 Mbps and is equivalent to 28 T1 lines."
+  },
+  {
+    "id": 18,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does VPN stand for in networking?",
+    "options": ["A) Virtual Private Network", "B) Very Public Node", "C) Virtual Protocol Node", "D) Variable Packet Network"],
+    "correct_answer": "A) Virtual Private Network",
+    "explanation": "VPN stands for Virtual Private Network, which creates a secure, encrypted connection over a public network like the Internet."
+  },
+  {
+    "id": 19,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which switching technique is used in traditional telephone networks?",
+    "options": ["A) Packet switching", "B) Circuit switching", "C) Message switching", "D) Cell switching"],
+    "correct_answer": "B) Circuit switching",
+    "explanation": "Traditional telephone networks use circuit switching, where a dedicated communication path is established between two parties for the duration of the call."
+  },
+  {
+    "id": 20,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does MPLS stand for?",
+    "options": ["A) Multi-Protocol Label Switching", "B) Multiple Packet Link System", "C) Managed Private Line Service", "D) Multi-Path Link Switching"],
+    "correct_answer": "A) Multi-Protocol Label Switching",
+    "explanation": "MPLS stands for Multi-Protocol Label Switching, a routing technique that directs data from one node to the next based on short path labels."
+  },
+  {
+    "id": 21,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes latency in a WAN?",
+    "options": ["A) The amount of data that can be transferred", "B) The delay in data transmission across the network", "C) The number of connected devices", "D) The physical distance of the network"],
+    "correct_answer": "B) The delay in data transmission across the network",
+    "explanation": "Latency refers to the time delay experienced in data transmission across a network, typically measured in milliseconds (ms)."
+  },
+  {
+    "id": 22,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary advantage of using fiber optic cables in WANs?",
+    "options": ["A) Low cost", "B) High bandwidth and low signal loss over long distances", "C) Easy installation", "D) Resistance to water damage only"],
+    "correct_answer": "B) High bandwidth and low signal loss over long distances",
+    "explanation": "Fiber optic cables offer very high bandwidth and minimal signal attenuation over long distances, making them ideal for WAN backbone connections."
+  },
+  {
+    "id": 23,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does ATM stand for in networking?",
+    "options": ["A) Automated Teller Machine", "B) Asynchronous Transfer Mode", "C) Advanced Transmission Method", "D) Asynchronous Transmission Module"],
+    "correct_answer": "B) Asynchronous Transfer Mode",
+    "explanation": "In networking, ATM stands for Asynchronous Transfer Mode, a high-speed networking standard that uses fixed-size cells of 53 bytes."
+  },
+  {
+    "id": 24,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "How many DS0 channels does a T1 line contain?",
+    "options": ["A) 12", "B) 24", "C) 48", "D) 30"],
+    "correct_answer": "B) 24",
+    "explanation": "A T1 line contains 24 DS0 channels, each with a capacity of 64 Kbps, giving a total bandwidth of 24 × 64 Kbps = 1.536 Mbps (plus framing = 1.544 Mbps)."
+  },
+  {
+    "id": 25,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which WAN connection type requires a modem to connect to the Internet via telephone lines?",
+    "options": ["A) Fiber optic", "B) Dial-up connection", "C) Leased line", "D) Satellite"],
+    "correct_answer": "B) Dial-up connection",
+    "explanation": "A dial-up connection uses a modem to connect to the Internet via standard telephone lines by dialing an ISP's phone number."
+  },
+  "=== CHECKPOINT: 25/100 COMPLETE ===",
+  {
+    "id": 26,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the maximum speed of a standard dial-up connection?",
+    "options": ["A) 56 Kbps", "B) 1 Mbps", "C) 128 Kbps", "D) 512 Kbps"],
+    "correct_answer": "A) 56 Kbps",
+    "explanation": "Standard dial-up connections have a maximum speed of 56 Kbps, which is very slow compared to modern broadband connections."
+  },
+  {
+    "id": 27,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'packet switching' mean?",
+    "options": ["A) Data is sent as a continuous stream", "B) Data is broken into packets and sent independently", "C) A dedicated circuit is established before data transfer", "D) Data is sent only during off-peak hours"],
+    "correct_answer": "B) Data is broken into packets and sent independently",
+    "explanation": "In packet switching, data is divided into small packets that are sent independently across the network and reassembled at the destination."
+  },
+  {
+    "id": 28,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which organization is responsible for assigning IP addresses globally?",
+    "options": ["A) IEEE", "B) IANA (Internet Assigned Numbers Authority)", "C) ISO", "D) ITU"],
+    "correct_answer": "B) IANA (Internet Assigned Numbers Authority)",
+    "explanation": "IANA (Internet Assigned Numbers Authority) is responsible for global coordination of IP addresses, DNS root, and other Internet protocol resources."
+  },
+  {
+    "id": 29,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a WAN link?",
+    "options": ["A) To connect devices within the same room", "B) To connect geographically separated networks", "C) To provide wireless access within a building", "D) To increase the speed of a single computer"],
+    "correct_answer": "B) To connect geographically separated networks",
+    "explanation": "A WAN link connects networks that are geographically separated, enabling communication between distant locations."
+  },
+  {
+    "id": 30,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of a WAN compared to a LAN?",
+    "options": ["A) Higher speed", "B) Lower cost", "C) Larger geographic coverage", "D) Simpler topology"],
+    "correct_answer": "C) Larger geographic coverage",
+    "explanation": "WANs cover larger geographic areas than LANs. WANs typically have lower speeds and higher costs compared to LANs."
+  },
+  {
+    "id": 31,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does SONET stand for?",
+    "options": ["A) Synchronous Optical Network", "B) Standard Optical Node Ethernet Technology", "C) Switched Optical Network Ethernet", "D) Synchronous Online Network Technology"],
+    "correct_answer": "A) Synchronous Optical Network",
+    "explanation": "SONET stands for Synchronous Optical Network, a standard for data transmission over optical fiber at high speeds."
+  },
+  {
+    "id": 32,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a WAN, what is a 'backbone'?",
+    "options": ["A) The slowest part of the network", "B) The central high-speed network that connects smaller networks", "C) A type of cable connector", "D) A backup network path"],
+    "correct_answer": "B) The central high-speed network that connects smaller networks",
+    "explanation": "A WAN backbone is the central, high-capacity data routes that carry aggregated traffic from multiple smaller networks."
+  },
+  {
+    "id": 33,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following protocols is used for secure remote access over a WAN?",
+    "options": ["A) HTTP", "B) FTP", "C) SSH (Secure Shell)", "D) SMTP"],
+    "correct_answer": "C) SSH (Secure Shell)",
+    "explanation": "SSH (Secure Shell) provides encrypted remote access and secure data communication over unsecured networks like WANs."
+  },
+  {
+    "id": 34,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the E1 line speed used in European WAN connections?",
+    "options": ["A) 1.544 Mbps", "B) 2.048 Mbps", "C) 34.368 Mbps", "D) 8.448 Mbps"],
+    "correct_answer": "B) 2.048 Mbps",
+    "explanation": "An E1 line, used in European and international WAN connections, has a data rate of 2.048 Mbps and consists of 32 channels of 64 Kbps each."
+  },
+  {
+    "id": 35,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the acronym 'CPE' stand for in WAN terminology?",
+    "options": ["A) Central Processing Equipment", "B) Customer Premises Equipment", "C) Core Protocol Engine", "D) Circuit Path Endpoint"],
+    "correct_answer": "B) Customer Premises Equipment",
+    "explanation": "CPE stands for Customer Premises Equipment, which refers to networking equipment located at the customer's site, such as routers and modems."
+  },
+  {
+    "id": 36,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which type of WAN connection uses the existing cable TV infrastructure?",
+    "options": ["A) DSL", "B) Cable Internet", "C) Satellite", "D) Dial-up"],
+    "correct_answer": "B) Cable Internet",
+    "explanation": "Cable Internet uses the existing cable TV (CATV) infrastructure with coaxial cables to provide broadband Internet access."
+  },
+  {
+    "id": 37,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the main disadvantage of satellite WAN connections?",
+    "options": ["A) Low bandwidth", "B) High latency due to signal travel distance", "C) Limited geographic coverage", "D) High installation cost only"],
+    "correct_answer": "B) High latency due to signal travel distance",
+    "explanation": "Satellite connections have high latency (typically 500-600ms) because signals must travel to a satellite approximately 35,000 km away and back."
+  },
+  {
+    "id": 38,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'throughput' mean in WAN performance?",
+    "options": ["A) The maximum theoretical bandwidth", "B) The actual data transfer rate achieved in practice", "C) The number of packets lost", "D) The physical cable capacity"],
+    "correct_answer": "B) The actual data transfer rate achieved in practice",
+    "explanation": "Throughput is the actual amount of data successfully transferred over a network in a given time, which is often less than the theoretical bandwidth."
+  },
+  {
+    "id": 39,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which WAN protocol is used to encapsulate data over serial links?",
+    "options": ["A) TCP/IP", "B) HDLC (High-Level Data Link Control)", "C) HTTP", "D) DNS"],
+    "correct_answer": "B) HDLC (High-Level Data Link Control)",
+    "explanation": "HDLC (High-Level Data Link Control) is a bit-oriented protocol used to encapsulate data over synchronous serial WAN links."
+  },
+  {
+    "id": 40,
+    "topic": "Wide Area Networks",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a CSU/DSU in WAN connections?",
+    "options": ["A) To amplify wireless signals", "B) To connect digital equipment to digital telephone lines", "C) To provide wireless access", "D) To manage IP addresses"],
+    "correct_answer": "B) To connect digital equipment to digital telephone lines",
+    "explanation": "A CSU/DSU (Channel Service Unit/Data Service Unit) connects digital equipment (like routers) to digital telephone lines used in WAN connections."
+  },
+  {
+    "id": 41,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A company has a WAN link with a bandwidth of 2 Mbps. If the link is 60% utilized, how much bandwidth is currently being used?",
+    "options": ["A) 1.0 Mbps", "B) 1.2 Mbps", "C) 1.4 Mbps", "D) 0.8 Mbps"],
+    "correct_answer": "B) 1.2 Mbps",
+    "explanation": "Bandwidth used = 60% of 2 Mbps = 0.60 × 2 = 1.2 Mbps. The remaining 0.8 Mbps is available."
+  },
+  {
+    "id": 42,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "How long will it take to transfer a 360 MB file over a WAN link with a bandwidth of 4 Mbps? (Assume 1 MB = 8 Mb)",
+    "options": ["A) 90 seconds", "B) 720 seconds", "C) 45 seconds", "D) 180 seconds"],
+    "correct_answer": "B) 720 seconds",
+    "explanation": "File size = 360 MB × 8 = 2880 Mb. Time = 2880 Mb ÷ 4 Mbps = 720 seconds. Always convert MB to Mb before dividing by Mbps."
+  },
+  {
+    "id": 43,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In MPLS, what is a 'Label Edge Router' (LER)?",
+    "options": ["A) A router that only forwards labeled packets", "B) A router that adds or removes MPLS labels at the edge of the MPLS network", "C) A router that manages IP addresses", "D) A router used only in LANs"],
+    "correct_answer": "B) A router that adds or removes MPLS labels at the edge of the MPLS network",
+    "explanation": "An LER (Label Edge Router) sits at the boundary of an MPLS network and is responsible for adding MPLS labels to incoming packets and removing them from outgoing packets."
+  },
+  {
+    "id": 44,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which WAN technology uses 53-byte fixed-size cells for data transmission?",
+    "options": ["A) Frame Relay", "B) MPLS", "C) ATM (Asynchronous Transfer Mode)", "D) SONET"],
+    "correct_answer": "C) ATM (Asynchronous Transfer Mode)",
+    "explanation": "ATM uses fixed-size cells of 53 bytes (5-byte header + 48-byte payload), which allows for predictable and efficient switching."
+  },
+  {
+    "id": 45,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the propagation delay for a signal traveling 6000 km over a fiber optic cable, given the speed of light in fiber is 2 × 10^8 m/s?",
+    "options": ["A) 30 ms", "B) 60 ms", "C) 15 ms", "D) 120 ms"],
+    "correct_answer": "A) 30 ms",
+    "explanation": "Distance = 6000 km = 6 × 10^6 m. Time = Distance/Speed = (6 × 10^6) / (2 × 10^8) = 0.03 seconds = 30 ms."
+  },
+  {
+    "id": 46,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In Frame Relay, what does CIR stand for?",
+    "options": ["A) Circuit Interface Rate", "B) Committed Information Rate", "C) Core Internet Routing", "D) Channel Identification Register"],
+    "correct_answer": "B) Committed Information Rate",
+    "explanation": "CIR (Committed Information Rate) is the guaranteed minimum bandwidth that a Frame Relay service provider commits to deliver to a customer."
+  },
+  {
+    "id": 47,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "A T3 line is equivalent to how many T1 lines?",
+    "options": ["A) 12", "B) 24", "C) 28", "D) 48"],
+    "correct_answer": "C) 28",
+    "explanation": "A T3 line (44.736 Mbps) is equivalent to 28 T1 lines (28 × 1.544 Mbps ≈ 44.736 Mbps), making it suitable for high-bandwidth WAN connections."
+  },
+  {
+    "id": 48,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Which routing protocol is commonly used in WAN environments for inter-domain routing?",
+    "options": ["A) RIP", "B) OSPF", "C) BGP (Border Gateway Protocol)", "D) EIGRP"],
+    "correct_answer": "C) BGP (Border Gateway Protocol)",
+    "explanation": "BGP (Border Gateway Protocol) is the standard inter-domain routing protocol used on the Internet to exchange routing information between different autonomous systems."
+  },
+  {
+    "id": 49,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the cell size breakdown in ATM? (Header + Payload)",
+    "options": ["A) 8 bytes header + 45 bytes payload", "B) 5 bytes header + 48 bytes payload", "C) 10 bytes header + 43 bytes payload", "D) 4 bytes header + 49 bytes payload"],
+    "correct_answer": "B) 5 bytes header + 48 bytes payload",
+    "explanation": "ATM cells are 53 bytes total: 5 bytes for the header (containing addressing and control info) and 48 bytes for the payload (user data)."
+  },
+  {
+    "id": 50,
+    "topic": "Wide Area Networks",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "In a WAN with packet switching, if a packet of 1000 bits is sent over a link with a transmission rate of 500 bps, what is the transmission delay?",
+    "options": ["A) 0.5 seconds", "B) 2 seconds", "C) 1 second", "D) 5 seconds"],
+    "correct_answer": "B) 2 seconds",
+    "explanation": "Transmission delay = Packet size / Transmission rate = 1000 bits / 500 bps = 2 seconds."
+  },
+  {
+    "id": 51,
+    "topic": "Wide

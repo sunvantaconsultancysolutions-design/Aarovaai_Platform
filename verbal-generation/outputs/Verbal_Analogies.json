@@ -1,0 +1,857 @@
+[
+  {
+    "id": 1,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "BIRD : NEST :: LION : ?",
+    "options": [
+      "A) Den",
+      "B) Stable",
+      "C) Kennel",
+      "D) Burrow"
+    ],
+    "correct_answer": "A) Den",
+    "explanation": "A Bird lives in a Nest. Similarly, a Lion lives in a Den. The relationship is animal to its dwelling place."
+  },
+  {
+    "id": 2,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "DOCTOR : HOSPITAL :: TEACHER : ?",
+    "options": [
+      "A) Library",
+      "B) School",
+      "C) Office",
+      "D) College"
+    ],
+    "correct_answer": "B) School",
+    "explanation": "A Doctor works in a Hospital. Similarly, a Teacher works in a School. The relationship is profession to workplace."
+  },
+  {
+    "id": 3,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "KNIFE : CUT :: PEN : ?",
+    "options": [
+      "A) Draw",
+      "B) Write",
+      "C) Paint",
+      "D) Sketch"
+    ],
+    "correct_answer": "B) Write",
+    "explanation": "A Knife is used to Cut. Similarly, a Pen is used to Write. The relationship is tool to its function."
+  },
+  {
+    "id": 4,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "FISH : WATER :: BIRD : ?",
+    "options": [
+      "A) Tree",
+      "B) Sky",
+      "C) Air",
+      "D) Nest"
+    ],
+    "correct_answer": "C) Air",
+    "explanation": "Fish lives/moves in Water. Similarly, a Bird moves/lives in Air. The relationship is creature to its natural habitat medium."
+  },
+  {
+    "id": 5,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "BOOK : LIBRARY :: PAINTING : ?",
+    "options": [
+      "A) Museum",
+      "B) Gallery",
+      "C) Studio",
+      "D) Exhibition"
+    ],
+    "correct_answer": "B) Gallery",
+    "explanation": "Books are stored/displayed in a Library. Similarly, Paintings are displayed in a Gallery. The relationship is object to its display place."
+  },
+  {
+    "id": 6,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "COLD : ICE :: HOT : ?",
+    "options": [
+      "A) Water",
+      "B) Steam",
+      "C) Fire",
+      "D) Heat"
+    ],
+    "correct_answer": "C) Fire",
+    "explanation": "Cold is associated with Ice. Similarly, Hot is associated with Fire. The relationship is temperature extreme to its associated element."
+  },
+  {
+    "id": 7,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "CARPENTER : WOOD :: BLACKSMITH : ?",
+    "options": [
+      "A) Coal",
+      "B) Iron",
+      "C) Gold",
+      "D) Stone"
+    ],
+    "correct_answer": "B) Iron",
+    "explanation": "A Carpenter works with Wood. Similarly, a Blacksmith works with Iron. The relationship is craftsman to the material they work with."
+  },
+  {
+    "id": 8,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "EYE : SEE :: EAR : ?",
+    "options": [
+      "A) Smell",
+      "B) Touch",
+      "C) Hear",
+      "D) Taste"
+    ],
+    "correct_answer": "C) Hear",
+    "explanation": "The Eye is used to See. Similarly, the Ear is used to Hear. The relationship is sense organ to its function."
+  },
+  {
+    "id": 9,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "ROSE : FLOWER :: MANGO : ?",
+    "options": [
+      "A) Tree",
+      "B) Vegetable",
+      "C) Fruit",
+      "D) Plant"
+    ],
+    "correct_answer": "C) Fruit",
+    "explanation": "Rose is a type of Flower. Similarly, Mango is a type of Fruit. The relationship is specific to general category."
+  },
+  {
+    "id": 10,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "SOLDIER : ARMY :: PLAYER : ?",
+    "options": [
+      "A) Ground",
+      "B) Team",
+      "C) Coach",
+      "D) Sport"
+    ],
+    "correct_answer": "B) Team",
+    "explanation": "A Soldier is a member of an Army. Similarly, a Player is a member of a Team. The relationship is individual to the group they belong to."
+  },
+  {
+    "id": 11,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "CLOCK : TIME :: THERMOMETER : ?",
+    "options": [
+      "A) Heat",
+      "B) Weather",
+      "C) Temperature",
+      "D) Pressure"
+    ],
+    "correct_answer": "C) Temperature",
+    "explanation": "A Clock measures Time. Similarly, a Thermometer measures Temperature. The relationship is instrument to what it measures."
+  },
+  {
+    "id": 12,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "LION : CUB :: CAT : ?",
+    "options": [
+      "A) Kitten",
+      "B) Puppy",
+      "C) Calf",
+      "D) Foal"
+    ],
+    "correct_answer": "A) Kitten",
+    "explanation": "The young one of a Lion is called a Cub. Similarly, the young one of a Cat is called a Kitten."
+  },
+  {
+    "id": 13,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "HAPPY : SAD :: FAST : ?",
+    "options": [
+      "A) Quick",
+      "B) Slow",
+      "C) Speed",
+      "D) Run"
+    ],
+    "correct_answer": "B) Slow",
+    "explanation": "Happy and Sad are antonyms (opposites). Similarly, Fast and Slow are antonyms. The relationship is word to its opposite."
+  },
+  {
+    "id": 14,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "INDIA : RUPEE :: JAPAN : ?",
+    "options": [
+      "A) Dollar",
+      "B) Yen",
+      "C) Euro",
+      "D) Pound"
+    ],
+    "correct_answer": "B) Yen",
+    "explanation": "The currency of India is Rupee. Similarly, the currency of Japan is Yen. The relationship is country to its currency."
+  },
+  {
+    "id": 15,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "AUTHOR : BOOK :: SCULPTOR : ?",
+    "options": [
+      "A) Canvas",
+      "B) Chisel",
+      "C) Statue",
+      "D) Paint"
+    ],
+    "correct_answer": "C) Statue",
+    "explanation": "An Author creates a Book. Similarly, a Sculptor creates a Statue. The relationship is creator to their creation."
+  },
+  {
+    "id": 16,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "WHEAT : BREAD :: GRAPE : ?",
+    "options": [
+      "A) Juice",
+      "B) Wine",
+      "C) Raisin",
+      "D) Jam"
+    ],
+    "correct_answer": "B) Wine",
+    "explanation": "Wheat is the raw material used to make Bread. Similarly, Grape is the raw material used to make Wine."
+  },
+  {
+    "id": 17,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "MOUNTAIN : HILL :: OCEAN : ?",
+    "options": [
+      "A) River",
+      "B) Lake",
+      "C) Stream",
+      "D) Pond"
+    ],
+    "correct_answer": "B) Lake",
+    "explanation": "A Mountain is a larger version of a Hill. Similarly, an Ocean is a larger version of a Lake. The relationship is large to small equivalent."
+  },
+  {
+    "id": 18,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "PILOT : AIRCRAFT :: CAPTAIN : ?",
+    "options": [
+      "A) Army",
+      "B) Ship",
+      "C) Train",
+      "D) Submarine"
+    ],
+    "correct_answer": "B) Ship",
+    "explanation": "A Pilot operates/commands an Aircraft. Similarly, a Captain commands a Ship. The relationship is operator to the vehicle they command."
+  },
+  {
+    "id": 19,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "IRON : RUST :: WOOD : ?",
+    "options": [
+      "A) Burn",
+      "B) Rot",
+      "C) Break",
+      "D) Decay"
+    ],
+    "correct_answer": "B) Rot",
+    "explanation": "Iron deteriorates by forming Rust. Similarly, Wood deteriorates by Rotting. The relationship is material to its form of deterioration."
+  },
+  {
+    "id": 20,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "PARIS : FRANCE :: TOKYO : ?",
+    "options": [
+      "A) China",
+      "B) Korea",
+      "C) Japan",
+      "D) Thailand"
+    ],
+    "correct_answer": "C) Japan",
+    "explanation": "Paris is the capital of France. Similarly, Tokyo is the capital of Japan. The relationship is capital city to its country."
+  },
+  {
+    "id": 21,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "GLOVES : HANDS :: HELMET : ?",
+    "options": [
+      "A) Neck",
+      "B) Head",
+      "C) Face",
+      "D) Shoulder"
+    ],
+    "correct_answer": "B) Head",
+    "explanation": "Gloves are worn to protect Hands. Similarly, a Helmet is worn to protect the Head. The relationship is protective gear to the body part it protects."
+  },
+  {
+    "id": 22,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "WATER : THIRST :: FOOD : ?",
+    "options": [
+      "A) Taste",
+      "B) Hunger",
+      "C) Appetite",
+      "D) Nutrition"
+    ],
+    "correct_answer": "B) Hunger",
+    "explanation": "Water satisfies Thirst. Similarly, Food satisfies Hunger. The relationship is substance to the need it satisfies."
+  },
+  {
+    "id": 23,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "COW : MILK :: HEN : ?",
+    "options": [
+      "A) Meat",
+      "B) Feather",
+      "C) Egg",
+      "D) Chick"
+    ],
+    "correct_answer": "C) Egg",
+    "explanation": "A Cow produces Milk. Similarly, a Hen produces Eggs. The relationship is animal to the product it produces."
+  },
+  {
+    "id": 24,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "TEACHER : CHALK :: PAINTER : ?",
+    "options": [
+      "A) Canvas",
+      "B) Brush",
+      "C) Color",
+      "D) Easel"
+    ],
+    "correct_answer": "B) Brush",
+    "explanation": "A Teacher uses Chalk as their primary tool. Similarly, a Painter uses a Brush as their primary tool. The relationship is professional to their primary tool."
+  },
+  {
+    "id": 25,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "CRICKET : BAT :: HOCKEY : ?",
+    "options": [
+      "A) Ball",
+      "B) Stick",
+      "C) Puck",
+      "D) Net"
+    ],
+    "correct_answer": "B) Stick",
+    "explanation": "In Cricket, the primary equipment used is a Bat. Similarly, in Hockey, the primary equipment used is a Stick."
+  },
+  {
+    "id": 26,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "MOON : SATELLITE :: EARTH : ?",
+    "options": [
+      "A) Star",
+      "B) Planet",
+      "C) Comet",
+      "D) Asteroid"
+    ],
+    "correct_answer": "B) Planet",
+    "explanation": "Moon is a Satellite (of Earth). Similarly, Earth is a Planet (of the Solar System). The relationship is specific celestial body to its classification."
+  },
+  {
+    "id": 27,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "SHOE : FOOT :: HAT : ?",
+    "options": [
+      "A) Hair",
+      "B) Head",
+      "C) Neck",
+      "D) Face"
+    ],
+    "correct_answer": "B) Head",
+    "explanation": "A Shoe is worn on the Foot. Similarly, a Hat is worn on the Head. The relationship is clothing item to the body part it covers."
+  },
+  {
+    "id": 28,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "SNAKE : SLITHER :: FROG : ?",
+    "options": [
+      "A) Swim",
+      "B) Crawl",
+      "C) Hop",
+      "D) Run"
+    ],
+    "correct_answer": "C) Hop",
+    "explanation": "A Snake moves by Slithering. Similarly, a Frog moves by Hopping. The relationship is animal to its mode of movement."
+  },
+  {
+    "id": 29,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "SUGAR : SWEET :: LEMON : ?",
+    "options": [
+      "A) Bitter",
+      "B) Sour",
+      "C) Salty",
+      "D) Spicy"
+    ],
+    "correct_answer": "B) Sour",
+    "explanation": "Sugar tastes Sweet. Similarly, Lemon tastes Sour. The relationship is food item to its taste."
+  },
+  {
+    "id": 30,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "NEWSPAPER : EDITOR :: FILM : ?",
+    "options": [
+      "A) Actor",
+      "B) Producer",
+      "C) Director",
+      "D) Writer"
+    ],
+    "correct_answer": "C) Director",
+    "explanation": "A Newspaper is headed/managed by an Editor. Similarly, a Film is headed/managed by a Director. The relationship is product to its head creator."
+  },
+  {
+    "id": 31,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "TREE : FOREST :: STAR : ?",
+    "options": [
+      "A) Sky",
+      "B) Galaxy",
+      "C) Universe",
+      "D) Constellation"
+    ],
+    "correct_answer": "B) Galaxy",
+    "explanation": "Many Trees together form a Forest. Similarly, many Stars together form a Galaxy. The relationship is individual unit to the collective group."
+  },
+  {
+    "id": 32,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "BREAD : BAKER :: FURNITURE : ?",
+    "options": [
+      "A) Carpenter",
+      "B) Plumber",
+      "C) Mason",
+      "D) Weaver"
+    ],
+    "correct_answer": "A) Carpenter",
+    "explanation": "Bread is made by a Baker. Similarly, Furniture is made by a Carpenter. The relationship is product to its maker."
+  },
+  {
+    "id": 33,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "RIVER : DAM :: TRAFFIC : ?",
+    "options": [
+      "A) Road",
+      "B) Signal",
+      "C) Police",
+      "D) Vehicle"
+    ],
+    "correct_answer": "B) Signal",
+    "explanation": "A Dam controls the flow of a River. Similarly, a Signal controls the flow of Traffic. The relationship is flow to its controlling mechanism."
+  },
+  {
+    "id": 34,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "HORSE : STABLE :: DOG : ?",
+    "options": [
+      "A) Den",
+      "B) Kennel",
+      "C) Burrow",
+      "D) Cage"
+    ],
+    "correct_answer": "B) Kennel",
+    "explanation": "A Horse lives in a Stable. Similarly, a Dog lives in a Kennel. The relationship is animal to its dwelling place."
+  },
+  {
+    "id": 35,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "LIGHT : DARKNESS :: KNOWLEDGE : ?",
+    "options": [
+      "A) Study",
+      "B) Wisdom",
+      "C) Ignorance",
+      "D) Education"
+    ],
+    "correct_answer": "C) Ignorance",
+    "explanation": "Light is the opposite of Darkness. Similarly, Knowledge is the opposite of Ignorance. The relationship is antonyms."
+  },
+  {
+    "id": 36,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "COTTON : CLOTH :: CLAY : ?",
+    "options": [
+      "A) Mud",
+      "B) Pot",
+      "C) Soil",
+      "D) Brick"
+    ],
+    "correct_answer": "B) Pot",
+    "explanation": "Cotton is the raw material used to make Cloth. Similarly, Clay is the raw material used to make a Pot."
+  },
+  {
+    "id": 37,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "LION : ROAR :: DOG : ?",
+    "options": [
+      "A) Hiss",
+      "B) Bark",
+      "C) Growl",
+      "D) Howl"
+    ],
+    "correct_answer": "B) Bark",
+    "explanation": "The sound made by a Lion is called a Roar. Similarly, the sound made by a Dog is called a Bark."
+  },
+  {
+    "id": 38,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "JANUARY : MONTH :: MONDAY : ?",
+    "options": [
+      "A) Year",
+      "B) Week",
+      "C) Day",
+      "D) Date"
+    ],
+    "correct_answer": "C) Day",
+    "explanation": "January is a Month (of the year). Similarly, Monday is a Day (of the week). The relationship is specific unit to its time category."
+  },
+  {
+    "id": 39,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "MICROSCOPE : SMALL :: TELESCOPE : ?",
+    "options": [
+      "A) Large",
+      "B) Distant",
+      "C) Bright",
+      "D) Clear"
+    ],
+    "correct_answer": "B) Distant",
+    "explanation": "A Microscope is used to view Small objects. Similarly, a Telescope is used to view Distant objects. The relationship is instrument to what it helps observe."
+  },
+  {
+    "id": 40,
+    "topic": "Verbal Analogies",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "POET : POEM :: COMPOSER : ?",
+    "options": [
+      "A) Song",
+      "B) Music",
+      "C) Symphony",
+      "D) Lyrics"
+    ],
+    "correct_answer": "C) Symphony",
+    "explanation": "A Poet creates a Poem. Similarly, a Composer creates a Symphony. The relationship is artist to their specific creation."
+  },
+  {
+    "id": 41,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "ACROPHOBIA : HEIGHT :: CLAUSTROPHOBIA : ?",
+    "options": [
+      "A) Water",
+      "B) Darkness",
+      "C) Enclosed spaces",
+      "D) Crowds"
+    ],
+    "correct_answer": "C) Enclosed spaces",
+    "explanation": "Acrophobia is the fear of Heights. Similarly, Claustrophobia is the fear of Enclosed spaces. The relationship is phobia name to its feared subject."
+  },
+  {
+    "id": 42,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "PISCICULTURE : FISH :: APICULTURE : ?",
+    "options": [
+      "A) Apes",
+      "B) Bees",
+      "C) Birds",
+      "D) Silkworms"
+    ],
+    "correct_answer": "B) Bees",
+    "explanation": "Pisciculture is the rearing/cultivation of Fish. Similarly, Apiculture is the rearing/cultivation of Bees (for honey). The relationship is cultivation practice to the organism involved."
+  },
+  {
+    "id": 43,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "OPHTHALMOLOGY : EYES :: CARDIOLOGY : ?",
+    "options": [
+      "A) Brain",
+      "B) Lungs",
+      "C) Heart",
+      "D) Bones"
+    ],
+    "correct_answer": "C) Heart",
+    "explanation": "Ophthalmology is the branch of medicine dealing with Eyes. Similarly, Cardiology deals with the Heart. The relationship is medical branch to the organ it studies."
+  },
+  {
+    "id": 44,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "MARATHON : RUNNING :: REGATTA : ?",
+    "options": [
+      "A) Swimming",
+      "B) Cycling",
+      "C) Rowing/Sailing",
+      "D) Wrestling"
+    ],
+    "correct_answer": "C) Rowing/Sailing",
+    "explanation": "A Marathon is a race involving Running. Similarly, a Regatta is a race involving Rowing or Sailing. The relationship is event name to the sport involved."
+  },
+  {
+    "id": 45,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "NUMISMATICS : COINS :: PHILATELY : ?",
+    "options": [
+      "A) Stamps",
+      "B) Antiques",
+      "C) Books",
+      "D) Paintings"
+    ],
+    "correct_answer": "A) Stamps",
+    "explanation": "Numismatics is the study/collection of Coins. Similarly, Philately is the study/collection of Stamps. The relationship is hobby/study to its subject."
+  },
+  {
+    "id": 46,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "LACONIC : WORDS :: MISERLY : ?",
+    "options": [
+      "A) Time",
+      "B) Money",
+      "C) Food",
+      "D) Effort"
+    ],
+    "correct_answer": "B) Money",
+    "explanation": "Laconic means using very few Words (sparing with words). Similarly, Miserly means being very sparing with Money. The relationship is adjective to what one is sparing with."
+  },
+  {
+    "id": 47,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "HERBIVORE : PLANTS :: CARNIVORE : ?",
+    "options": [
+      "A) Grass",
+      "B) Insects",
+      "C) Flesh",
+      "D) Fruits"
+    ],
+    "correct_answer": "C) Flesh",
+    "explanation": "A Herbivore eats Plants. Similarly, a Carnivore eats Flesh (meat). The relationship is dietary classification to the food consumed."
+  },
+  {
+    "id": 48,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "BIOGRAPHY : PERSON :: AUTOBIOGRAPHY : ?",
+    "options": [
+      "A) Others",
+      "B) Oneself",
+      "C) History",
+      "D) Fiction"
+    ],
+    "correct_answer": "B) Oneself",
+    "explanation": "A Biography is a written account of a Person's life by someone else. An Autobiography is a written account of Oneself's own life. The relationship is type of life account to the subject."
+  },
+  {
+    "id": 49,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "ARCHIPELAGO : ISLANDS :: CONSTELLATION : ?",
+    "options": [
+      "A) Planets",
+      "B) Stars",
+      "C) Galaxies",
+      "D) Comets"
+    ],
+    "correct_answer": "B) Stars",
+    "explanation": "An Archipelago is a group of Islands. Similarly, a Constellation is a group of Stars. The relationship is collective noun to the individual units."
+  },
+  {
+    "id": 50,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "ENDEMIC : REGION :: EPIDEMIC : ?",
+    "options": [
+      "A) Hospital",
+      "B) Country",
+      "C) World",
+      "D) Community"
+    ],
+    "correct_answer": "B) Country",
+    "explanation": "Endemic refers to a disease confined to a particular Region. Epidemic refers to a disease spread across a Country or large area. The relationship is disease spread type to its geographic scope."
+  },
+  {
+    "id": 51,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "PEDAGOGY : TEACHING :: GERONTOLOGY : ?",
+    "options": [
+      "A) Geography",
+      "B) Aging/Elderly",
+      "C) Genetics",
+      "D) Geology"
+    ],
+    "correct_answer": "B) Aging/Elderly",
+    "explanation": "Pedagogy is the study/science of Teaching. Similarly, Gerontology is the study of Aging and the Elderly. The relationship is study field to its subject."
+  },
+  {
+    "id": 52,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "EPHEMERAL : PERMANENT :: VERBOSE : ?",
+    "options": [
+      "A) Talkative",
+      "B) Concise",
+      "C) Loud",
+      "D) Fluent"
+    ],
+    "correct_answer": "B) Concise",
+    "explanation": "Ephemeral (short-lived) is the opposite of Permanent. Similarly, Verbose (using too many words) is the opposite of Concise. The relationship is antonyms."
+  },
+  {
+    "id": 53,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "SEISMOGRAPH : EARTHQUAKES :: BAROMETER : ?",
+    "options": [
+      "A) Temperature",
+      "B) Humidity",
+      "C) Atmospheric pressure",
+      "D) Wind speed"
+    ],
+    "correct_answer": "C) Atmospheric pressure",
+    "explanation": "A Seismograph measures Earthquakes (seismic activity). Similarly, a Barometer measures Atmospheric pressure. The relationship is instrument to what it measures."
+  },
+  {
+    "id": 54,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "PARLIAMENT : INDIA :: CONGRESS : ?",
+    "options": [
+      "A) UK",
+      "B) France",
+      "C) USA",
+      "D) Canada"
+    ],
+    "correct_answer": "C) USA",
+    "explanation": "Parliament is the legislative body of India. Similarly, Congress is the legislative body of the USA. The relationship is legislative body to its country."
+  },
+  {
+    "id": 55,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "IGNEOUS : VOLCANIC ACTIVITY :: SEDIMENTARY : ?",
+    "options": [
+      "A) Heat and pressure",
+      "B) Deposition of layers",
+      "C) Metamorphism",
+      "D) Crystallization"
+    ],
+    "correct_answer": "B) Deposition of layers",
+    "explanation": "Igneous rocks are formed by Volcanic Activity (cooling of magma). Similarly, Sedimentary rocks are formed by Deposition of layers of sediment. The relationship is rock type to its formation process."
+  },
+  {
+    "id": 56,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "FRUGAL : EXTRAVAGANT :: TIMID : ?",
+    "options": [
+      "A) Shy",
+      "B) Bold",
+      "C) Quiet",
+      "D) Nervous"
+    ],
+    "correct_answer": "B) Bold",
+    "explanation": "Frugal (careful with money) is the opposite of Extravagant (wasteful). Similarly, Timid (lacking courage) is the opposite of Bold. The relationship is antonyms."
+  },
+  {
+    "id": 57,
+    "topic": "Verbal Analogies",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "ORNITHOLOGY : BIRDS :: ENTOMOLOGY : ?",
+    "options": [
+      "A) Plants",
+      "B) Reptiles",
+      "C) Insects",
+      "D) Mammals"
+    ],
+    "correct_answer": "C) Insects",
+    "explanation": "Ornithology is the scientific study of Birds. Similarly, Entomology is the scientific study of Insects. The relationship is scientific study to its subject."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "aptitude-generation",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.98.1",
+    "express": "^4.21.0"
+  }
+}

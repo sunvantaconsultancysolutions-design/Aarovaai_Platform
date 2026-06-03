@@ -1,0 +1,421 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All dogs are animals. All animals need food.\nConclusions:\nI. All dogs need food.\nII. All animals are dogs.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "From 'All dogs are animals' and 'All animals need food,' we conclude all dogs need food (I follows). However, 'All animals are dogs' is a reversal and does not follow."
+  },
+  {
+    "id": 2,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some cats are black. All black things are beautiful.\nConclusions:\nI. Some cats are beautiful.\nII. All cats are beautiful.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some cats are black, and all black things are beautiful, so some cats are beautiful (I follows). We cannot conclude ALL cats are beautiful since only some cats are black."
+  },
+  {
+    "id": 3,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No birds are fish. All fish live in water.\nConclusions:\nI. No birds live in water.\nII. Some fish are not birds.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Since no birds are fish, all fish are non-birds, so 'Some fish are not birds' (II) follows. Conclusion I is incorrect because birds may live in water for other reasons not stated."
+  },
+  {
+    "id": 4,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All roses are flowers. Some flowers are red.\nConclusions:\nI. Some roses are red.\nII. All flowers are roses.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "We cannot conclude some roses are red because the 'some flowers' that are red may not include roses. Conclusion II is a reversal and does not follow."
+  },
+  {
+    "id": 5,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All students who study hard pass the exam. Ravi studies hard.\nConclusions:\nI. Ravi will pass the exam.\nII. Ravi is a good student.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Since all hard-studying students pass and Ravi studies hard, Ravi will pass (I follows). Being a 'good student' is not defined in the statement, so II does not follow."
+  },
+  {
+    "id": 6,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some books are pens. All pens are stationery.\nConclusions:\nI. Some books are stationery.\nII. All stationery are pens.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some books are pens and all pens are stationery, so some books are stationery (I follows). II reverses the second statement and does not follow."
+  },
+  {
+    "id": 7,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All mangoes are fruits. All fruits are healthy.\nConclusions:\nI. All mangoes are healthy.\nII. Some healthy things are mangoes.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All mangoes → fruits → healthy, so all mangoes are healthy (I). Since all mangoes are healthy, some healthy things are mangoes (II). Both follow."
+  },
+  {
+    "id": 8,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No tables are chairs. All chairs are furniture.\nConclusions:\nI. No tables are furniture.\nII. Some furniture are not tables.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Since all chairs are furniture and no tables are chairs, some furniture (chairs) are not tables (II follows). I is wrong because tables could still be furniture through other means."
+  },
+  {
+    "id": 9,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All teachers are educated. Some educated people are rich.\nConclusions:\nI. Some teachers are rich.\nII. All educated people are teachers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "The 'some educated people' who are rich may not be teachers. II reverses the first statement. Neither conclusion follows definitively."
+  },
+  {
+    "id": 10,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All cars are vehicles. All vehicles use fuel.\nConclusions:\nI. All cars use fuel.\nII. Some vehicles are cars.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All cars → vehicles → use fuel, so I follows. Since all cars are vehicles, some vehicles are cars (conversion of universal affirmative), so II follows."
+  },
+  {
+    "id": 11,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some apples are sweet. All sweet things are liked by children.\nConclusions:\nI. Some apples are liked by children.\nII. All apples are liked by children.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some apples are sweet and all sweet things are liked, so some apples are liked (I). We cannot extend this to ALL apples since only some are sweet."
+  },
+  {
+    "id": 12,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No plastic is biodegradable. All biodegradable things are eco-friendly.\nConclusions:\nI. No plastic is eco-friendly.\nII. Some eco-friendly things are not plastic.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Since all biodegradable things are eco-friendly and no plastic is biodegradable, some eco-friendly things (biodegradable ones) are not plastic (II). I cannot be concluded as plastic may be eco-friendly through other means."
+  },
+  {
+    "id": 13,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All doctors are professionals. All professionals earn well.\nConclusions:\nI. All doctors earn well.\nII. Some professionals are doctors.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All doctors → professionals → earn well, so I follows. Since all doctors are professionals, some professionals are doctors (II follows by conversion)."
+  },
+  {
+    "id": 14,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some birds can fly. All flying creatures have wings.\nConclusions:\nI. Some birds have wings.\nII. All birds have wings.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some birds can fly and all flying creatures have wings, so some birds have wings (I). We cannot say ALL birds have wings since only some birds fly."
+  },
+  {
+    "id": 15,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All computers are machines. No machine is alive.\nConclusions:\nI. No computer is alive.\nII. All machines are computers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "All computers are machines and no machine is alive, so no computer is alive (I follows). II reverses the first statement and does not follow."
+  },
+  {
+    "id": 16,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some singers are dancers. All dancers are performers.\nConclusions:\nI. Some singers are performers.\nII. All performers are singers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some singers are dancers and all dancers are performers, so some singers are performers (I). II is an unjustified reversal and does not follow."
+  },
+  {
+    "id": 17,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All planets revolve around the sun. Earth is a planet.\nConclusions:\nI. Earth revolves around the sun.\nII. The sun revolves around Earth.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Earth is a planet and all planets revolve around the sun, so Earth revolves around the sun (I). II contradicts the statement and does not follow."
+  },
+  {
+    "id": 18,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No fish is a mammal. All whales are mammals.\nConclusions:\nI. No whale is a fish.\nII. Some mammals are not fish.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "Since no fish is a mammal, no mammal is a fish (conversion). All whales are mammals, so no whale is a fish (I). Since all whales are mammals and no whale is a fish, some mammals (whales) are not fish (II)."
+  },
+  {
+    "id": 19,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All athletes are fit. Some fit people are tall.\nConclusions:\nI. Some athletes are tall.\nII. All fit people are athletes.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "The 'some fit people' who are tall may not be athletes. II reverses the first statement. Neither conclusion follows."
+  },
+  {
+    "id": 20,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All metals conduct electricity. Copper is a metal.\nConclusions:\nI. Copper conducts electricity.\nII. All conductors of electricity are metals.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Copper is a metal and all metals conduct electricity, so copper conducts electricity (I). II is an unjustified reversal — other non-metals may also conduct electricity."
+  },
+  {
+    "id": 21,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some houses are buildings. All buildings have roofs.\nConclusions:\nI. Some houses have roofs.\nII. All houses are buildings.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some houses are buildings and all buildings have roofs, so some houses have roofs (I). II cannot be concluded since only 'some' houses are buildings."
+  },
+  {
+    "id": 22,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All rivers flow into the sea. The Nile is a river.\nConclusions:\nI. The Nile flows into the sea.\nII. The sea is formed by rivers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "The Nile is a river and all rivers flow into the sea, so the Nile flows into the sea (I). II is an assumption not supported by the statement."
+  },
+  {
+    "id": 23,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No stone is soft. All pillows are soft.\nConclusions:\nI. No pillow is a stone.\nII. Some soft things are not stones.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "No stone is soft, so no soft thing is a stone. All pillows are soft, so no pillow is a stone (I). Since pillows are soft and not stones, some soft things are not stones (II). Both follow."
+  },
+  {
+    "id": 24,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All lawyers know the law. Some lawyers are judges.\nConclusions:\nI. Some judges know the law.\nII. All judges are lawyers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some lawyers are judges and all lawyers know the law, so some judges know the law (I). II cannot be concluded since only some lawyers are judges, not all judges are lawyers."
+  },
+  {
+    "id": 25,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All chairs have legs. Some chairs are wooden.\nConclusions:\nI. Some wooden things have legs.\nII. All wooden things are chairs.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some chairs are wooden and all chairs have legs, so some wooden things (wooden chairs) have legs (I). II is an unjustified reversal and does not follow."
+  },
+  {
+    "id": 26,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All pens write. Some pens are blue.\nConclusions:\nI. Some blue things write.\nII. All blue things are pens.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some pens are blue and all pens write, so some blue things (blue pens) write (I). II is an unjustified reversal and does not follow."
+  },
+  {
+    "id": 27,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No cloud is white. All snow is white.\nConclusions:\nI. No snow is a cloud.\nII. All white things are snow.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "No cloud is white, so no white thing is a cloud. All snow is white, so no snow is a cloud (I). II is an unjustified reversal of the second statement."
+  },
+  {
+    "id": 28,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All scientists are intelligent. Some intelligent people are creative.\nConclusions:\nI. Some scientists are creative.\nII. All creative people are scientists.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "The 'some intelligent people' who are creative may not be scientists. II is an unjustified reversal. Neither conclusion follows."
+  },
+  {
+    "id": 29,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All trains run on tracks. Some tracks are rusty.\nConclusions:\nI. Some trains run on rusty tracks.\nII. All tracks have trains.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "The rusty tracks may not be the ones trains run on. II is an unjustified reversal. Neither conclusion follows."
+  },
+  {
+    "id": 30,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All keys open locks. This object is a key.\nConclusions:\nI. This object opens a lock.\nII. All objects that open locks are keys.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "This object is a key and all keys open locks, so this object opens a lock (I). II is an unjustified reversal — other tools may also open locks."
+  },
+  {
+    "id": 31,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some grapes are sour. All sour things cause acidity.\nConclusions:\nI. Some grapes cause acidity.\nII. All grapes cause acidity.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some grapes are sour and all sour things cause acidity, so some grapes cause acidity (I). We cannot extend to ALL grapes since only some are sour."
+  },
+  {
+    "id": 32,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All newspapers contain news. Some newspapers are free.\nConclusions:\nI. Some free things contain news.\nII. All free things are newspapers.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some newspapers are free and all newspapers contain news, so some free things (free newspapers) contain news (I). II is an unjustified reversal."
+  },
+  {
+    "id": 33,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: No lion is a herbivore. All deer are herbivores.\nConclusions:\nI. No deer is a lion.\nII. All herbivores are deer.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "No lion is a herbivore, so no herbivore is a lion. All deer are herbivores, so no deer is a lion (I). II is an unjustified reversal of the second statement."
+  },
+  {
+    "id": 34,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All diamonds are precious. Some precious things are rare.\nConclusions:\nI. Some diamonds are rare.\nII. All rare things are diamonds.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "The 'some precious things' that are rare may not include diamonds. II is an unjustified reversal. Neither conclusion follows."
+  },
+  {
+    "id": 35,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All pilots are trained. All trained people are disciplined.\nConclusions:\nI. All pilots are disciplined.\nII. Some disciplined people are pilots.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "C) Both I and II follow",
+    "explanation": "All pilots → trained → disciplined, so I follows. Since all pilots are disciplined, some disciplined people are pilots (II follows by conversion)."
+  },
+  {
+    "id": 36,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some phones are smart. All smart devices connect to the internet.\nConclusions:\nI. Some phones connect to the internet.\nII. All phones are smart.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some phones are smart and all smart devices connect to the internet, so some phones connect to the internet (I). We cannot say ALL phones are smart since only some are."
+  },
+  {
+    "id": 37,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All hospitals have doctors. No doctor is uneducated.\nConclusions:\nI. No hospital has uneducated staff.\nII. Some educated people work in hospitals.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "All hospitals have doctors and no doctor is uneducated, so doctors in hospitals are educated — some educated people work in hospitals (II). I is too broad; hospitals may have other uneducated staff."
+  },
+  {
+    "id": 38,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All squares are rectangles. All rectangles are quadrilaterals.\nConclusions:\nI. All squares are quadrilaterals.\nII. All quadrilaterals are squares.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "All squares → rectangles → quadrilaterals, so I follows. II is an unjustified reversal — not all quadrilaterals are squares."
+  },
+  {
+    "id": 39,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: Some clouds bring rain. All rain is beneficial for crops.\nConclusions:\nI. Some clouds are beneficial for crops.\nII. All clouds bring rain.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "A) Only I follows",
+    "explanation": "Some clouds bring rain and all rain is beneficial, so some clouds are beneficial for crops (I). II cannot be concluded since only some clouds bring rain."
+  },
+  {
+    "id": 40,
+    "topic": "Statement and Conclusion",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Statement: All eggs are fragile. Some fragile things are expensive.\nConclusions:\nI. Some eggs are expensive.\nII. All fragile things are eggs.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "D) Neither I nor II follows",
+    "explanation": "The 'some fragile things' that are expensive may not be eggs. II is an unjustified reversal. Neither conclusion follows."
+  },
+  {
+    "id": 41,
+    "topic": "Statement and Conclusion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: The government has decided to increase the tax on luxury goods.\nConclusions:\nI. People will stop buying luxury goods.\nII. The government wants to generate more revenue.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "Increasing tax on luxury goods is a common revenue-generation strategy (II follows). I is too extreme — people may reduce but not completely stop buying luxury goods."
+  },
+  {
+    "id": 42,
+    "topic": "Statement and Conclusion",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "Statement: Most students who attend coaching classes perform better in competitive exams.\nConclusions:\nI. Coaching classes guarantee success in competitive exams.\nII. Attending coaching classes improves exam performance for many students.\nWhich conclusion(s) follow?",
+    "options": ["A) Only I follows", "B) Only II follows", "C) Both I and II follow", "D) Neither I nor II follows"],
+    "correct_answer": "B) Only II follows",
+    "explanation": "'Most students' perform better, so II (many students improve) follows. I uses 'guarantee' which is too absolute — '

@@ -1,0 +1,471 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a 'class' in Object-Oriented Data Modeling?",
+    "options": ["A) A single instance of data", "B) A blueprint that defines attributes and behaviors for objects", "C) A database table with rows and columns", "D) A function that processes data"],
+    "correct_answer": "B) A blueprint that defines attributes and behaviors for objects",
+    "explanation": "A class is a template or blueprint that defines the structure (attributes) and behavior (methods) of objects. Objects are instances created from this blueprint."
+  },
+  {
+    "id": 2,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO data modeling, what is an 'object'?",
+    "options": ["A) A class definition", "B) A specific instance of a class", "C) A method inside a class", "D) An abstract data type"],
+    "correct_answer": "B) A specific instance of a class",
+    "explanation": "An object is a concrete instance of a class. For example, 'Car' is a class, and a specific car like 'Toyota Corolla with ID 101' is an object."
+  },
+  {
+    "id": 3,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which OOP concept allows a class to inherit properties and methods from another class?",
+    "options": ["A) Encapsulation", "B) Polymorphism", "C) Inheritance", "D) Abstraction"],
+    "correct_answer": "C) Inheritance",
+    "explanation": "Inheritance allows a child (subclass) to acquire attributes and methods from a parent (superclass), promoting code reuse and hierarchical modeling."
+  },
+  {
+    "id": 4,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'encapsulation' mean in Object-Oriented Data Modeling?",
+    "options": ["A) Hiding internal details and exposing only necessary parts", "B) Creating multiple instances of a class", "C) Inheriting properties from a parent class", "D) Defining multiple methods with the same name"],
+    "correct_answer": "A) Hiding internal details and exposing only necessary parts",
+    "explanation": "Encapsulation bundles data and methods together and restricts direct access to internal state, exposing only what is needed through public interfaces."
+  },
+  {
+    "id": 5,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In UML class diagrams, which symbol represents an association relationship between two classes?",
+    "options": ["A) A dashed arrow", "B) A solid line", "C) A hollow triangle arrow", "D) A filled diamond"],
+    "correct_answer": "B) A solid line",
+    "explanation": "A solid line between two classes in a UML diagram represents an association, indicating that objects of one class are related to objects of another class."
+  },
+  {
+    "id": 6,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a pillar of Object-Oriented Programming?",
+    "options": ["A) Encapsulation", "B) Inheritance", "C) Compilation", "D) Polymorphism"],
+    "correct_answer": "C) Compilation",
+    "explanation": "The four pillars of OOP are Encapsulation, Inheritance, Polymorphism, and Abstraction. Compilation is a process of converting code, not an OOP concept."
+  },
+  {
+    "id": 7,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the term for the ability of different objects to respond to the same message in different ways?",
+    "options": ["A) Encapsulation", "B) Abstraction", "C) Polymorphism", "D) Aggregation"],
+    "correct_answer": "C) Polymorphism",
+    "explanation": "Polymorphism allows objects of different classes to be treated as objects of a common superclass, with each responding differently to the same method call."
+  },
+  {
+    "id": 8,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO modeling, what is an 'attribute'?",
+    "options": ["A) A function defined in a class", "B) A property or characteristic of a class", "C) A relationship between two classes", "D) An instance of a class"],
+    "correct_answer": "B) A property or characteristic of a class",
+    "explanation": "Attributes are data members or fields of a class that describe the state or properties of objects. For example, 'color' and 'speed' are attributes of a 'Car' class."
+  },
+  {
+    "id": 9,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which relationship in OO modeling represents a 'whole-part' relationship where parts can exist independently?",
+    "options": ["A) Composition", "B) Aggregation", "C) Inheritance", "D) Dependency"],
+    "correct_answer": "B) Aggregation",
+    "explanation": "Aggregation is a 'has-a' relationship where the part can exist independently of the whole. For example, a Department has Employees, but Employees can exist without the Department."
+  },
+  {
+    "id": 10,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In UML, which notation is used to represent inheritance (generalization)?",
+    "options": ["A) A solid line with a filled arrowhead", "B) A dashed line with an open arrowhead", "C) A solid line with a hollow triangle arrowhead", "D) A solid line with a filled diamond"],
+    "correct_answer": "C) A solid line with a hollow triangle arrowhead",
+    "explanation": "Generalization (inheritance) in UML is shown as a solid line with a hollow (open) triangle pointing toward the parent/superclass."
+  },
+  {
+    "id": 11,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the term for a class that cannot be instantiated directly and must be subclassed?",
+    "options": ["A) Final class", "B) Abstract class", "C) Static class", "D) Interface class"],
+    "correct_answer": "B) Abstract class",
+    "explanation": "An abstract class cannot be instantiated directly. It serves as a base class and may contain abstract methods that must be implemented by subclasses."
+  },
+  {
+    "id": 12,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO data modeling, what is 'method overriding'?",
+    "options": ["A) Defining multiple methods with the same name but different parameters", "B) A subclass providing a specific implementation of a method already defined in its superclass", "C) Hiding a method from external access", "D) Creating a new method in a subclass"],
+    "correct_answer": "B) A subclass providing a specific implementation of a method already defined in its superclass",
+    "explanation": "Method overriding occurs when a subclass redefines a method from its superclass with the same signature, providing its own specific behavior."
+  },
+  {
+    "id": 13,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes 'abstraction' in OO modeling?",
+    "options": ["A) Combining data and methods into a single unit", "B) Showing only essential features while hiding complexity", "C) Allowing a class to inherit from multiple parents", "D) Creating multiple objects from one class"],
+    "correct_answer": "B) Showing only essential features while hiding complexity",
+    "explanation": "Abstraction focuses on exposing only the relevant details of an object to the outside world while hiding the internal implementation complexity."
+  },
+  {
+    "id": 14,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In a UML class diagram, how are class attributes typically represented?",
+    "options": ["A) In the top section of the class box", "B) In the middle section of the class box", "C) In the bottom section of the class box", "D) Outside the class box with arrows"],
+    "correct_answer": "B) In the middle section of the class box",
+    "explanation": "A UML class box has three sections: top (class name), middle (attributes), and bottom (methods/operations). Attributes are listed in the middle section."
+  },
+  {
+    "id": 15,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the multiplicity '1..*' mean in a UML association?",
+    "options": ["A) Exactly one", "B) Zero or more", "C) One or more", "D) Zero or one"],
+    "correct_answer": "C) One or more",
+    "explanation": "'1..*' means one or more — at least one instance must participate in the relationship. '0..*' means zero or more, and '0..1' means zero or one."
+  },
+  {
+    "id": 16,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which OO concept allows the same method name to work differently based on the number or type of parameters?",
+    "options": ["A) Method overriding", "B) Method overloading", "C) Encapsulation", "D) Aggregation"],
+    "correct_answer": "B) Method overloading",
+    "explanation": "Method overloading (compile-time polymorphism) allows multiple methods with the same name but different parameter lists within the same class."
+  },
+  {
+    "id": 17,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO modeling, what is a 'constructor'?",
+    "options": ["A) A method that destroys an object", "B) A special method called when an object is created", "C) A method that returns the class type", "D) A static method of a class"],
+    "correct_answer": "B) A special method called when an object is created",
+    "explanation": "A constructor is a special method with the same name as the class that is automatically invoked when an object is instantiated to initialize its attributes."
+  },
+  {
+    "id": 18,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the relationship called when Class B 'is-a' type of Class A?",
+    "options": ["A) Aggregation", "B) Composition", "C) Inheritance", "D) Association"],
+    "correct_answer": "C) Inheritance",
+    "explanation": "The 'is-a' relationship represents inheritance. For example, 'Dog is-a Animal' means Dog inherits from Animal class."
+  },
+  {
+    "id": 19,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO data modeling, what does 'composition' differ from 'aggregation'?",
+    "options": ["A) In composition, parts cannot exist without the whole", "B) In composition, parts can exist independently", "C) Composition uses a dashed line in UML", "D) Composition represents an 'is-a' relationship"],
+    "correct_answer": "A) In composition, parts cannot exist without the whole",
+    "explanation": "Composition is a strong 'has-a' relationship where the part's lifecycle depends on the whole. If the whole is destroyed, the parts are also destroyed."
+  },
+  {
+    "id": 20,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which access modifier makes a class member accessible only within the same class?",
+    "options": ["A) Public", "B) Protected", "C) Private", "D) Default"],
+    "correct_answer": "C) Private",
+    "explanation": "Private access modifier restricts access to the member only within the class it is declared. It is the most restrictive access level in OOP."
+  },
+  {
+    "id": 21,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an 'interface' in OO modeling?",
+    "options": ["A) A class with all concrete methods", "B) A contract that defines method signatures without implementation", "C) A type of inheritance", "D) A database connection object"],
+    "correct_answer": "B) A contract that defines method signatures without implementation",
+    "explanation": "An interface defines a set of method signatures that implementing classes must provide. It specifies 'what' to do, not 'how' to do it."
+  },
+  {
+    "id": 22,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In UML, what does a filled diamond at one end of an association line represent?",
+    "options": ["A) Aggregation", "B) Composition", "C) Inheritance", "D) Dependency"],
+    "correct_answer": "B) Composition",
+    "explanation": "A filled (solid) diamond in UML represents composition — a strong whole-part relationship where parts cannot exist without the whole."
+  },
+  {
+    "id": 23,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the term for a class that is derived from another class?",
+    "options": ["A) Superclass", "B) Base class", "C) Subclass", "D) Abstract class"],
+    "correct_answer": "C) Subclass",
+    "explanation": "A subclass (also called derived class or child class) inherits from a superclass (base class or parent class). It can extend or override inherited behavior."
+  },
+  {
+    "id": 24,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a 'has-a' relationship?",
+    "options": ["A) Dog is-a Animal", "B) Car has-a Engine", "C) Manager is-a Employee", "D) Circle is-a Shape"],
+    "correct_answer": "B) Car has-a Engine",
+    "explanation": "'Has-a' relationships represent aggregation or composition. 'Car has-a Engine' means Engine is a part of Car. 'Is-a' relationships represent inheritance."
+  },
+  {
+    "id": 25,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO modeling, what is a 'static' attribute?",
+    "options": ["A) An attribute that changes with each object", "B) An attribute shared by all instances of a class", "C) An attribute that cannot be modified", "D) An attribute defined in a subclass"],
+    "correct_answer": "B) An attribute shared by all instances of a class",
+    "explanation": "A static (class-level) attribute belongs to the class itself, not to individual objects. All instances share the same value of a static attribute."
+  },
+  {
+    "id": 26,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the multiplicity '0..1' represent in a UML association?",
+    "options": ["A) Exactly one", "B) Zero or more", "C) One or more", "D) Zero or one (optional)"],
+    "correct_answer": "D) Zero or one (optional)",
+    "explanation": "'0..1' means the relationship is optional — zero or exactly one instance can participate. This is commonly used for optional associations."
+  },
+  {
+    "id": 27,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which diagram in UML is primarily used to show the static structure of a system including classes and their relationships?",
+    "options": ["A) Sequence diagram", "B) Use case diagram", "C) Class diagram", "D) Activity diagram"],
+    "correct_answer": "C) Class diagram",
+    "explanation": "UML class diagrams show the static structure of a system — classes, their attributes, methods, and the relationships between them."
+  },
+  {
+    "id": 28,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO data modeling, what is 'message passing'?",
+    "options": ["A) Sending data between databases", "B) The mechanism by which objects communicate by calling each other's methods", "C) Passing parameters to a constructor", "D) Transferring data over a network"],
+    "correct_answer": "B) The mechanism by which objects communicate by calling each other's methods",
+    "explanation": "Message passing is how objects interact — one object sends a message (calls a method) to another object to request a service or share information."
+  },
+  {
+    "id": 29,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of a 'destructor' in OO modeling?",
+    "options": ["A) To create a new object", "B) To initialize object attributes", "C) To clean up resources when an object is destroyed", "D) To copy an object"],
+    "correct_answer": "C) To clean up resources when an object is destroyed",
+    "explanation": "A destructor is called when an object goes out of scope or is explicitly deleted. It releases resources like memory, file handles, or database connections."
+  },
+  {
+    "id": 30,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes 'multiple inheritance'?",
+    "options": ["A) A class inheriting from more than one parent class", "B) Multiple objects created from one class", "C) A class with multiple constructors", "D) Inheriting from a class multiple times"],
+    "correct_answer": "A) A class inheriting from more than one parent class",
+    "explanation": "Multiple inheritance allows a class to inherit attributes and methods from more than one parent class. C++ supports it; Java does not support it for classes but does for interfaces."
+  },
+  {
+    "id": 31,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO modeling, what is an 'object identity'?",
+    "options": ["A) The class name of an object", "B) A unique identifier that distinguishes one object from another", "C) The set of attributes of an object", "D) The method list of an object"],
+    "correct_answer": "B) A unique identifier that distinguishes one object from another",
+    "explanation": "Object identity is a unique identifier (like OID) assigned to each object, allowing it to be distinguished from all other objects even if they have identical attribute values."
+  },
+  {
+    "id": 32,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'data hiding' in OO modeling?",
+    "options": ["A) Encrypting data in a database", "B) Restricting access to internal object data using access modifiers", "C) Removing unused data from a class", "D) Compressing data for storage"],
+    "correct_answer": "B) Restricting access to internal object data using access modifiers",
+    "explanation": "Data hiding is part of encapsulation — using private or protected access modifiers to prevent external code from directly accessing or modifying internal object state."
+  },
+  {
+    "id": 33,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In UML class diagrams, what does a hollow diamond at one end of an association represent?",
+    "options": ["A) Composition", "B) Aggregation", "C) Inheritance", "D) Realization"],
+    "correct_answer": "B) Aggregation",
+    "explanation": "A hollow (empty) diamond in UML represents aggregation — a weak whole-part relationship where parts can exist independently of the whole."
+  },
+  {
+    "id": 34,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the term for a method that has no implementation in the base class and must be implemented by derived classes?",
+    "options": ["A) Static method", "B) Abstract method", "C) Virtual method", "D) Overloaded method"],
+    "correct_answer": "B) Abstract method",
+    "explanation": "An abstract method is declared without implementation in the abstract base class. All concrete subclasses must provide their own implementation of the abstract method."
+  },
+  {
+    "id": 35,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of Object-Oriented databases compared to relational databases?",
+    "options": ["A) Data is stored in tables with rows and columns", "B) Data is stored as objects with attributes and methods", "C) Data uses only flat file structures", "D) Data cannot have relationships"],
+    "correct_answer": "B) Data is stored as objects with attributes and methods",
+    "explanation": "Object-Oriented databases store data as objects (like in OOP), supporting complex data types, inheritance, and encapsulation, unlike relational databases that use tables."
+  },
+  {
+    "id": 36,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 'instantiation' in OO modeling?",
+    "options": ["A) Defining a new class", "B) Creating an object from a class", "C) Inheriting from a parent class", "D) Deleting an object"],
+    "correct_answer": "B) Creating an object from a class",
+    "explanation": "Instantiation is the process of creating a specific object (instance) from a class definition. The 'new' keyword is commonly used for instantiation."
+  },
+  {
+    "id": 37,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO modeling, what does 'realization' relationship mean in UML?",
+    "options": ["A) A class inheriting from another class", "B) A class implementing an interface", "C) Two classes having an association", "D) A class depending on another class"],
+    "correct_answer": "B) A class implementing an interface",
+    "explanation": "Realization in UML represents the relationship between a class and an interface, where the class provides concrete implementations of the interface's method signatures."
+  },
+  {
+    "id": 38,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the 'this' keyword used for in OO programming?",
+    "options": ["A) To refer to the parent class", "B) To refer to the current object instance", "C) To create a new object", "D) To call a static method"],
+    "correct_answer": "B) To refer to the current object instance",
+    "explanation": "'this' is a reference to the current object within a method or constructor. It is used to distinguish between instance variables and local variables with the same name."
+  },
+  {
+    "id": 39,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of runtime polymorphism?",
+    "options": ["A) Method overloading", "B) Constructor overloading", "C) Method overriding", "D) Operator overloading"],
+    "correct_answer": "C) Method overriding",
+    "explanation": "Method overriding is runtime (dynamic) polymorphism — the method to be called is determined at runtime based on the actual object type, not the reference type."
+  },
+  {
+    "id": 40,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In OO data modeling, what is a 'persistent object'?",
+    "options": ["A) An object that exists only during program execution", "B) An object whose state is saved and can be retrieved after program termination", "C) An object that cannot be modified", "D) An object with no attributes"],
+    "correct_answer": "B) An object whose state is saved and can be retrieved after program termination",
+    "explanation": "A persistent object is stored in a database or file system so its state survives beyond the program's execution. This is a key concept in object-oriented databases."
+  },
+  {
+    "id": 41,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a class hierarchy: Animal → Mammal → Dog. If Dog overrides the 'speak()' method from Animal, and we have Animal a = new Dog(), which 'speak()' is called?",
+    "options": ["A) Animal's speak()", "B) Mammal's speak()", "C) Dog's speak()", "D) Compilation error"],
+    "correct_answer": "C) Dog's speak()",
+    "explanation": "Due to runtime polymorphism, the actual object type (Dog) determines which method is called, not the reference type (Animal). Dog's speak() is invoked at runtime."
+  },
+  {
+    "id": 42,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In an OO data model, a University has Departments, and Departments have Professors. If the University is deleted, Departments are also deleted, but Professors can exist independently. What relationships are these?",
+    "options": ["A) Both are Composition", "B) University-Department is Composition; Department-Professor is Aggregation", "C) Both are Aggregation", "D) University-Department is Aggregation; Department-Professor is Composition"],
+    "correct_answer": "B) University-Department is Composition; Department-Professor is Aggregation",
+    "explanation": "Departments cannot exist without University (Composition). Professors can exist without Department (Aggregation). The lifecycle dependency determines the relationship type."
+  },
+  {
+    "id": 43,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In UML, a class diagram shows: Employee (1) ---- (0..*) Project. What does this mean?",
+    "options": ["A) One employee works on exactly one project", "B) One employee can work on zero or more projects", "C) Zero or more employees work on one project", "D) One project has exactly one employee"],
+    "correct_answer": "B) One employee can work on zero or more projects",
+    "explanation": "Reading from Employee side: one Employee (multiplicity 1) is associated with zero or more Projects (multiplicity 0..*). This means an employee can work on multiple or no projects."
+  },
+  {
+    "id": 44,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which design pattern ensures that only one instance of a class is created throughout the application lifecycle?",
+    "options": ["A) Factory Pattern", "B) Observer Pattern", "C) Singleton Pattern", "D) Decorator Pattern"],
+    "correct_answer": "C) Singleton Pattern",
+    "explanation": "The Singleton pattern restricts instantiation of a class to a single object. It uses a private constructor and a static method to return the single instance."
+  },
+  {
+    "id": 45,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In Object-Relational Mapping (ORM), how is an inheritance hierarchy typically mapped to relational tables using the 'Table per Class Hierarchy' strategy?",
+    "options": ["A) Each class gets its own table", "B) All classes in the hierarchy share one table with a discriminator column", "C) Only the root class gets a table", "D) Only leaf classes get tables"],
+    "correct_answer": "B) All classes in the hierarchy share one table with a discriminator column",
+    "explanation": "Table per Class Hierarchy (Single Table Inheritance) maps all classes to one table. A discriminator column identifies which subclass each row belongs to, though it may cause null values."
+  },
+  {
+    "id": 46,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the 'impedance mismatch' problem in OO data modeling?",
+    "options": ["A) Performance issues in OO databases", "B) The structural difference between OO models and relational database models", "C) Incompatibility between different programming languages", "D) Memory allocation issues in OOP"],
+    "correct_answer": "B) The structural difference between OO models and relational database models",
+    "explanation": "Impedance mismatch refers to the conceptual gap between OO models (objects, inheritance, complex types) and relational models (tables, rows, flat structures), requiring mapping layers like ORM."
+  },
+  {
+    "id": 47,
+    "topic": "Object-Oriented Data Modeling",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In OO modeling, what is the difference between 'association' and 'dependency'?",
+    "options": ["A) Association is permanent; dependency is temporary", "B) Dependency is permanent; association is temporary", "C) Both are the same", "D) Association uses dashed lines; dependency uses solid lines"],
+    "correct_answer": "A) Association is permanent; dependency is temporary",
+    "explanation": "Association represents a structural relationship (objects know about each other long-term). Dependency is a weaker, temporary relationship where one class uses another (e.g

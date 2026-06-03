@@ -1,0 +1,469 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a data model in the context of database design?",
+    "options": ["A) A physical storage structure for data", "B) An abstract representation of data, relationships, and constraints", "C) A programming language for querying databases", "D) A backup mechanism for databases"],
+    "correct_answer": "B) An abstract representation of data, relationships, and constraints",
+    "explanation": "A data model is an abstract framework that defines how data is organized, related, and constrained. It serves as a blueprint for designing databases."
+  },
+  {
+    "id": 2,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which data model uses a tree-like structure to represent data relationships?",
+    "options": ["A) Relational model", "B) Network model", "C) Hierarchical model", "D) Object-oriented model"],
+    "correct_answer": "C) Hierarchical model",
+    "explanation": "The hierarchical model organizes data in a tree structure with parent-child relationships. Each parent can have multiple children, but each child has only one parent."
+  },
+  {
+    "id": 3,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the Entity-Relationship (ER) model, what does an entity represent?",
+    "options": ["A) A relationship between two tables", "B) A real-world object or concept with distinct existence", "C) A column in a database table", "D) A query result set"],
+    "correct_answer": "B) A real-world object or concept with distinct existence",
+    "explanation": "An entity in the ER model represents a real-world object or concept (e.g., Student, Employee) that has a distinct existence and can be uniquely identified."
+  },
+  {
+    "id": 4,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the primary key in a relational database?",
+    "options": ["A) A key that can have NULL values", "B) A key that uniquely identifies each record in a table", "C) A key that references another table", "D) A key used only for indexing"],
+    "correct_answer": "B) A key that uniquely identifies each record in a table",
+    "explanation": "A primary key uniquely identifies each row in a table. It cannot contain NULL values and must be unique across all records."
+  },
+  {
+    "id": 5,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a type of data model?",
+    "options": ["A) Hierarchical model", "B) Relational model", "C) Procedural model", "D) Network model"],
+    "correct_answer": "C) Procedural model",
+    "explanation": "The main types of data models include hierarchical, network, relational, and object-oriented models. Procedural model is a programming paradigm, not a data model."
+  },
+  {
+    "id": 6,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, what shape is used to represent an entity?",
+    "options": ["A) Diamond", "B) Circle/Ellipse", "C) Rectangle", "D) Triangle"],
+    "correct_answer": "C) Rectangle",
+    "explanation": "In ER diagrams, rectangles represent entities, ellipses represent attributes, diamonds represent relationships, and lines connect them."
+  },
+  {
+    "id": 7,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does a foreign key in a relational database do?",
+    "options": ["A) Uniquely identifies a record in its own table", "B) Establishes a link between two tables", "C) Encrypts data in a column", "D) Speeds up query execution"],
+    "correct_answer": "B) Establishes a link between two tables",
+    "explanation": "A foreign key is a column (or set of columns) in one table that references the primary key of another table, establishing referential integrity between the two tables."
+  },
+  {
+    "id": 8,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which normal form eliminates partial dependencies?",
+    "options": ["A) First Normal Form (1NF)", "B) Second Normal Form (2NF)", "C) Third Normal Form (3NF)", "D) Boyce-Codd Normal Form (BCNF)"],
+    "correct_answer": "B) Second Normal Form (2NF)",
+    "explanation": "2NF eliminates partial dependencies, meaning every non-key attribute must be fully functionally dependent on the entire primary key, not just part of it."
+  },
+  {
+    "id": 9,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the relational model, a table is also called a:",
+    "options": ["A) Node", "B) Relation", "C) Segment", "D) Record set"],
+    "correct_answer": "B) Relation",
+    "explanation": "In the relational model, a table is formally called a relation. Each row is a tuple and each column is an attribute."
+  },
+  {
+    "id": 10,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cardinality of a relationship between two entities where one student can enroll in many courses and one course can have many students?",
+    "options": ["A) One-to-One (1:1)", "B) One-to-Many (1:N)", "C) Many-to-Many (M:N)", "D) Zero-to-Many (0:N)"],
+    "correct_answer": "C) Many-to-Many (M:N)",
+    "explanation": "When one student can enroll in many courses AND one course can have many students, the relationship is Many-to-Many (M:N)."
+  },
+  {
+    "id": 11,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of the relational data model?",
+    "options": ["A) Data is stored in tree structures", "B) Data is stored in tables with rows and columns", "C) Data is stored as objects with methods", "D) Data is stored in linked lists"],
+    "correct_answer": "B) Data is stored in tables with rows and columns",
+    "explanation": "The relational model organizes data into tables (relations) consisting of rows (tuples) and columns (attributes), introduced by E.F. Codd in 1970."
+  },
+  {
+    "id": 12,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is an attribute in the context of an ER model?",
+    "options": ["A) A table in the database", "B) A property or characteristic of an entity", "C) A relationship between entities", "D) A constraint on data values"],
+    "correct_answer": "B) A property or characteristic of an entity",
+    "explanation": "An attribute describes a property of an entity. For example, 'Name', 'Age', and 'Address' are attributes of the 'Employee' entity."
+  },
+  {
+    "id": 13,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following represents a one-to-many relationship in a relational database?",
+    "options": ["A) One department has one manager", "B) One customer places many orders", "C) Many students study many subjects", "D) One employee has one employee ID"],
+    "correct_answer": "B) One customer places many orders",
+    "explanation": "A one-to-many relationship means one record in Table A can relate to multiple records in Table B. One customer placing many orders is a classic example."
+  },
+  {
+    "id": 14,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database design, what is normalization?",
+    "options": ["A) The process of adding redundancy to improve performance", "B) The process of organizing data to reduce redundancy and improve integrity", "C) The process of encrypting database tables", "D) The process of backing up database data"],
+    "correct_answer": "B) The process of organizing data to reduce redundancy and improve integrity",
+    "explanation": "Normalization is the process of structuring a relational database to reduce data redundancy and improve data integrity through a series of normal forms."
+  },
+  {
+    "id": 15,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does DDL stand for in database terminology?",
+    "options": ["A) Data Definition Language", "B) Data Derivation Logic", "C) Database Design Layer", "D) Data Distribution Language"],
+    "correct_answer": "A) Data Definition Language",
+    "explanation": "DDL (Data Definition Language) includes SQL commands like CREATE, ALTER, DROP, and TRUNCATE used to define and modify database schema structures."
+  },
+  {
+    "id": 16,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is an example of a weak entity?",
+    "options": ["A) Employee with a unique Employee ID", "B) Order Line Item that depends on an Order", "C) Product with a unique Product Code", "D) Department with a unique Department ID"],
+    "correct_answer": "B) Order Line Item that depends on an Order",
+    "explanation": "A weak entity cannot be uniquely identified by its own attributes alone and depends on a strong entity. An Order Line Item depends on the Order entity for its existence."
+  },
+  {
+    "id": 17,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER diagram, what shape represents a relationship?",
+    "options": ["A) Rectangle", "B) Ellipse", "C) Diamond", "D) Circle"],
+    "correct_answer": "C) Diamond",
+    "explanation": "In ER diagrams, diamonds represent relationships between entities, rectangles represent entities, and ellipses represent attributes."
+  },
+  {
+    "id": 18,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the degree of a relation in a relational database?",
+    "options": ["A) The number of rows in a table", "B) The number of columns (attributes) in a table", "C) The number of tables in a database", "D) The number of indexes on a table"],
+    "correct_answer": "B) The number of columns (attributes) in a table",
+    "explanation": "The degree of a relation refers to the number of attributes (columns) in the relation. The number of rows is called cardinality."
+  },
+  {
+    "id": 19,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which concept ensures that a foreign key value must match an existing primary key value or be NULL?",
+    "options": ["A) Entity integrity", "B) Referential integrity", "C) Domain integrity", "D) User-defined integrity"],
+    "correct_answer": "B) Referential integrity",
+    "explanation": "Referential integrity ensures that a foreign key value in one table must either match a primary key value in the referenced table or be NULL."
+  },
+  {
+    "id": 20,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a schema in database design?",
+    "options": ["A) The actual data stored in the database", "B) The logical structure or blueprint of the database", "C) A type of query language", "D) A backup copy of the database"],
+    "correct_answer": "B) The logical structure or blueprint of the database",
+    "explanation": "A schema defines the logical structure of a database, including tables, columns, data types, and relationships, without containing the actual data."
+  },
+  {
+    "id": 21,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is the correct order of database design phases?",
+    "options": ["A) Physical → Logical → Conceptual", "B) Conceptual → Logical → Physical", "C) Logical → Conceptual → Physical", "D) Physical → Conceptual → Logical"],
+    "correct_answer": "B) Conceptual → Logical → Physical",
+    "explanation": "Database design follows three phases: Conceptual (ER model), Logical (relational schema), and Physical (actual storage implementation)."
+  },
+  {
+    "id": 22,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A table in First Normal Form (1NF) must:",
+    "options": ["A) Have no transitive dependencies", "B) Have atomic (indivisible) values in each column", "C) Have no partial dependencies", "D) Have all attributes dependent on the primary key"],
+    "correct_answer": "B) Have atomic (indivisible) values in each column",
+    "explanation": "1NF requires that each column contains atomic (indivisible) values, there are no repeating groups, and each row is unique."
+  },
+  {
+    "id": 23,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a composite key?",
+    "options": ["A) A key made up of two or more attributes to uniquely identify a record", "B) A key that references another table", "C) A key that allows NULL values", "D) A key used for sorting records"],
+    "correct_answer": "A) A key made up of two or more attributes to uniquely identify a record",
+    "explanation": "A composite key consists of two or more columns that together uniquely identify a row in a table when no single column can do so alone."
+  },
+  {
+    "id": 24,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database design, what is an instance?",
+    "options": ["A) The structure of the database", "B) The actual data stored in the database at a particular moment", "C) A type of relationship between entities", "D) A constraint on the database"],
+    "correct_answer": "B) The actual data stored in the database at a particular moment",
+    "explanation": "An instance (or database state) refers to the actual data stored in the database at a specific point in time, as opposed to the schema which is the structure."
+  },
+  {
+    "id": 25,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which model was proposed by E.F. Codd and forms the basis of most modern database systems?",
+    "options": ["A) Hierarchical model", "B) Network model", "C) Relational model", "D) Object-relational model"],
+    "correct_answer": "C) Relational model",
+    "explanation": "E.F. Codd proposed the relational model in 1970, which organizes data into tables and uses mathematical set theory. It forms the basis of SQL-based RDBMS systems."
+  },
+  {
+    "id": 26,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is a candidate key?",
+    "options": ["A) Any key that can potentially serve as a primary key", "B) A key that references another table", "C) A key with duplicate values", "D) A key used only in views"],
+    "correct_answer": "A) Any key that can potentially serve as a primary key",
+    "explanation": "A candidate key is a minimal set of attributes that can uniquely identify a tuple. One candidate key is chosen as the primary key; others become alternate keys."
+  },
+  {
+    "id": 27,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In the context of ER modeling, what is a multivalued attribute?",
+    "options": ["A) An attribute derived from other attributes", "B) An attribute that can have multiple values for a single entity", "C) An attribute that uniquely identifies an entity", "D) An attribute shared between two entities"],
+    "correct_answer": "B) An attribute that can have multiple values for a single entity",
+    "explanation": "A multivalued attribute can hold multiple values for a single entity instance. For example, a person can have multiple phone numbers. It is represented by a double ellipse in ER diagrams."
+  },
+  {
+    "id": 28,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following SQL commands is used to create a new table?",
+    "options": ["A) INSERT TABLE", "B) MAKE TABLE", "C) CREATE TABLE", "D) BUILD TABLE"],
+    "correct_answer": "C) CREATE TABLE",
+    "explanation": "CREATE TABLE is the DDL command used to create a new table in a database, specifying column names, data types, and constraints."
+  },
+  {
+    "id": 29,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the term 'tuple' refer to in a relational database?",
+    "options": ["A) A column in a table", "B) A row in a table", "C) A table in a database", "D) An index on a table"],
+    "correct_answer": "B) A row in a table",
+    "explanation": "In relational database terminology, a tuple refers to a single row in a relation (table). Each tuple represents one instance of the entity."
+  },
+  {
+    "id": 30,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following best describes a conceptual data model?",
+    "options": ["A) A model that describes physical storage details", "B) A high-level model that describes what data is stored and relationships", "C) A model that includes SQL table definitions", "D) A model that specifies indexing strategies"],
+    "correct_answer": "B) A high-level model that describes what data is stored and relationships",
+    "explanation": "A conceptual data model is a high-level, technology-independent representation of data and relationships, typically expressed as an ER diagram."
+  },
+  {
+    "id": 31,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is denormalization in database design?",
+    "options": ["A) The process of removing all tables from a database", "B) The intentional introduction of redundancy to improve query performance", "C) The process of converting ER diagrams to tables", "D) The removal of foreign keys from tables"],
+    "correct_answer": "B) The intentional introduction of redundancy to improve query performance",
+    "explanation": "Denormalization intentionally adds redundancy to a normalized database to improve read performance by reducing the number of joins needed in queries."
+  },
+  {
+    "id": 32,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In an ER model, what is a derived attribute?",
+    "options": ["A) An attribute that can have multiple values", "B) An attribute whose value is calculated from other attributes", "C) An attribute that identifies an entity uniquely", "D) An attribute shared between two entities"],
+    "correct_answer": "B) An attribute whose value is calculated from other attributes",
+    "explanation": "A derived attribute's value can be computed from other attributes. For example, 'Age' can be derived from 'Date of Birth'. It is shown with a dashed ellipse in ER diagrams."
+  },
+  {
+    "id": 33,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a NULL value in a database?",
+    "options": ["A) NULL means zero", "B) NULL means an empty string", "C) NULL represents an unknown or missing value", "D) NULL is the same as FALSE"],
+    "correct_answer": "C) NULL represents an unknown or missing value",
+    "explanation": "NULL in a database represents an unknown, missing, or inapplicable value. It is not the same as zero, empty string, or FALSE."
+  },
+  {
+    "id": 34,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the purpose of an index in a database?",
+    "options": ["A) To enforce referential integrity", "B) To speed up data retrieval operations", "C) To normalize the database", "D) To define relationships between tables"],
+    "correct_answer": "B) To speed up data retrieval operations",
+    "explanation": "An index is a data structure that improves the speed of data retrieval operations on a table at the cost of additional storage space and slower write operations."
+  },
+  {
+    "id": 35,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "In database design, what is a surrogate key?",
+    "options": ["A) A natural key derived from business data", "B) A system-generated unique identifier with no business meaning", "C) A key that references another table", "D) A composite key with multiple columns"],
+    "correct_answer": "B) A system-generated unique identifier with no business meaning",
+    "explanation": "A surrogate key is an artificially created unique identifier (like an auto-increment integer) with no business meaning, used as a primary key."
+  },
+  {
+    "id": 36,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a characteristic of the network data model?",
+    "options": ["A) Data is organized in a tree structure", "B) A child record can have multiple parent records", "C) Data is stored in tables", "D) Data is stored as objects"],
+    "correct_answer": "B) A child record can have multiple parent records",
+    "explanation": "The network model extends the hierarchical model by allowing a child record to have multiple parent records, forming a graph structure rather than a tree."
+  },
+  {
+    "id": 37,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the role of a data dictionary in database design?",
+    "options": ["A) To store the actual business data", "B) To store metadata about the database structure", "C) To execute SQL queries", "D) To manage user authentication"],
+    "correct_answer": "B) To store metadata about the database structure",
+    "explanation": "A data dictionary (system catalog) stores metadata about the database, including table names, column names, data types, constraints, and relationships."
+  },
+  {
+    "id": 38,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "When converting an ER diagram to a relational schema, each entity typically becomes:",
+    "options": ["A) A column in an existing table", "B) A separate table", "C) A constraint on a table", "D) An index on a table"],
+    "correct_answer": "B) A separate table",
+    "explanation": "In the ER-to-relational mapping process, each entity type is converted into a separate table, with entity attributes becoming columns of that table."
+  },
+  {
+    "id": 39,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the cardinality of a relation with 5 rows and 4 columns?",
+    "options": ["A) 4", "B) 5", "C) 20", "D) 9"],
+    "correct_answer": "B) 5",
+    "explanation": "Cardinality of a relation refers to the number of tuples (rows) in the relation. With 5 rows, the cardinality is 5. The number of columns (4) is called the degree."
+  },
+  {
+    "id": 40,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a property of a relational table?",
+    "options": ["A) Each row is unique", "B) Column values are atomic", "C) Rows are ordered from top to bottom", "D) Each column has a unique name"],
+    "correct_answer": "C) Rows are ordered from top to bottom",
+    "explanation": "In a relational table, rows have no inherent order. The other properties — unique rows, atomic column values, and unique column names — are all valid properties."
+  },
+  {
+    "id": 41,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a relation R(A, B, C, D) with functional dependencies: A→B, B→C, A→D. Which normal form is R in if A is the primary key?",
+    "options": ["A) 1NF only", "B) 2NF but not 3NF", "C) 3NF but not BCNF", "D) BCNF"],
+    "correct_answer": "B) 2NF but not 3NF",
+    "explanation": "Since A is the primary key, there are no partial dependencies (2NF is satisfied). However, B→C is a transitive dependency (A→B→C), violating 3NF. So R is in 2NF but not 3NF."
+  },
+  {
+    "id": 42,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In converting a Many-to-Many relationship between entities A and B to a relational schema, what is the standard approach?",
+    "options": ["A) Add a foreign key in table A referencing table B", "B) Add a foreign key in table B referencing table A", "C) Create a new junction table with foreign keys to both A and B", "D) Merge tables A and B into a single table"],
+    "correct_answer": "C) Create a new junction table with foreign keys to both A and B",
+    "explanation": "A Many-to-Many relationship is resolved by creating a junction (associative) table that contains foreign keys referencing both entity tables, with the combination forming the primary key."
+  },
+  {
+    "id": 43,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "A relation R has attributes {A, B, C, D, E}. The functional dependencies are: AB→C, C→D, D→E. What is the closure of {A, B}?",
+    "options": ["A) {A, B, C}", "B) {A, B, C, D}", "C) {A, B, C, D, E}", "D) {A, B}"],
+    "correct_answer": "C) {A, B, C, D, E}",
+    "explanation": "Starting with {A,B}: AB→C adds C → {A,B,C}; C→D adds D → {A,B,C,D}; D→E adds E → {A,B,C,D,E}. So closure of {A,B} is {A,B,C,D,E}."
+  },
+  {
+    "id": 44,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following correctly describes BCNF (Boyce-Codd Normal Form)?",
+    "options": ["A) For every functional dependency X→Y, X must be a superkey", "B) No partial dependencies exist", "C) No transitive dependencies exist", "D) All attributes are atomic"],
+    "correct_answer": "A) For every functional dependency X→Y, X must be a superkey",
+    "explanation": "BCNF requires that for every non-trivial functional dependency X→Y, X must be a superkey. BCNF is stricter than 3NF and eliminates all anomalies based on FDs."
+  },
+  {
+    "id": 45,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "In ER-to-relational mapping, how is a one-to-one relationship typically implemented?",
+    "options": ["A) By creating a separate junction table", "B) By adding a foreign key in either entity's table", "C) By merging both entities into one table always", "D) By creating a new attribute in both tables"],
+    "correct_answer": "B) By adding a foreign key in either entity's table",
+    "explanation": "For a 1:1 relationship, a foreign key can be placed in either entity's table. Typically, it's placed in the table with total participation to avoid NULL values."
+  },
+  {
+    "id": 46,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Consider a university database where a Student can belong to multiple Clubs and a Club can have multiple Students. If we also need to store the 'join_date' for each enrollment, where should this attribute be stored?",
+    "options": ["A) In the Student table", "B) In the Club table", "C) In the junction table (Student_Club)", "D) In a separate Date table"],
+    "correct_answer": "C) In the junction table (Student_Club)",
+    "explanation": "Attributes that describe a many-to-many relationship (like join_date) belong in the junction table, as they depend on both the student and the club together."
+  },
+  {
+    "id": 47,
+    "topic": "Data Models into Database Designs",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is a functional dependency X→Y in a relation?",
+    "options": ["A) Y determines X uniquely", "B) For each value of X, there is

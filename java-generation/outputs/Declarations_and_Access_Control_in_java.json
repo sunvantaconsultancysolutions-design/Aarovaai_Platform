@@ -1,0 +1,481 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which access modifier makes a member accessible only within the same class?",
+    "options": ["A) public", "B) protected", "C) private", "D) default"],
+    "correct_answer": "C) private",
+    "explanation": "The 'private' access modifier restricts access to only the class in which the member is declared. No other class, even subclasses, can access private members."
+  },
+  {
+    "id": 2,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default access modifier in Java when no modifier is specified?",
+    "options": ["A) public", "B) private", "C) protected", "D) package-private (default)"],
+    "correct_answer": "D) package-private (default)",
+    "explanation": "When no access modifier is specified, Java uses 'package-private' (also called default), which allows access only within the same package."
+  },
+  {
+    "id": 3,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to declare a constant in Java?",
+    "options": ["A) static", "B) final", "C) const", "D) constant"],
+    "correct_answer": "B) final",
+    "explanation": "The 'final' keyword is used to declare constants in Java. Once assigned, a final variable's value cannot be changed. 'const' is a reserved word but not used in Java."
+  },
+  {
+    "id": 4,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid declaration of a Java class?",
+    "options": ["A) class MyClass{}", "B) Class MyClass{}", "C) myclass MyClass{}", "D) declare class MyClass{}"],
+    "correct_answer": "A) class MyClass{}",
+    "explanation": "In Java, the keyword 'class' is lowercase. 'Class' with uppercase C is a java.lang.Class object, not a keyword for declaring classes."
+  },
+  {
+    "id": 5,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which access modifier allows access from any class anywhere?",
+    "options": ["A) private", "B) protected", "C) default", "D) public"],
+    "correct_answer": "D) public",
+    "explanation": "The 'public' access modifier provides the widest access — any class from any package can access public members."
+  },
+  {
+    "id": 6,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does the 'static' keyword mean when applied to a variable?",
+    "options": ["A) The variable is constant", "B) The variable belongs to the class, not instances", "C) The variable cannot be inherited", "D) The variable is thread-safe"],
+    "correct_answer": "B) The variable belongs to the class, not instances",
+    "explanation": "A static variable is shared among all instances of a class. It belongs to the class itself rather than any particular object instance."
+  },
+  {
+    "id": 7,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares an integer array in Java?",
+    "options": ["A) int arr[]", "B) int[] arr", "C) Both A and B", "D) array int arr"],
+    "correct_answer": "C) Both A and B",
+    "explanation": "Java allows both 'int arr[]' and 'int[] arr' as valid array declarations. The preferred style is 'int[] arr' as it clearly associates the type with the array."
+  },
+  {
+    "id": 8,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a top-level class be declared as 'private' in Java?",
+    "options": ["A) Yes", "B) No", "C) Only in Java 9+", "D) Only abstract classes"],
+    "correct_answer": "B) No",
+    "explanation": "Top-level classes can only be 'public' or package-private (default). Only inner classes can be declared private, protected, or static."
+  },
+  {
+    "id": 9,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to declare a method that returns nothing?",
+    "options": ["A) null methodName()", "B) void methodName()", "C) empty methodName()", "D) none methodName()"],
+    "correct_answer": "B) void methodName()",
+    "explanation": "The 'void' keyword is used as the return type when a method does not return any value. It is a mandatory part of the method declaration."
+  },
+  {
+    "id": 10,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a valid access modifier in Java?",
+    "options": ["A) public", "B) private", "C) internal", "D) protected"],
+    "correct_answer": "C) internal",
+    "explanation": "'internal' is an access modifier in C#, not Java. Java's access modifiers are: public, private, protected, and default (no keyword)."
+  },
+  {
+    "id": 11,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What happens when you declare a variable as 'final' in Java?",
+    "options": ["A) It becomes static", "B) Its value cannot be changed after initialization", "C) It is automatically initialized to 0", "D) It becomes thread-safe"],
+    "correct_answer": "B) Its value cannot be changed after initialization",
+    "explanation": "A final variable can only be assigned once. Attempting to reassign it causes a compile-time error. It does not automatically become static or thread-safe."
+  },
+  {
+    "id": 12,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which modifier prevents a method from being overridden in a subclass?",
+    "options": ["A) static", "B) private", "C) final", "D) abstract"],
+    "correct_answer": "C) final",
+    "explanation": "A method declared as 'final' cannot be overridden by subclasses. This is used when you want to lock the implementation of a method."
+  },
+  {
+    "id": 13,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to declare a Java interface?",
+    "options": ["A) interface MyInterface{}", "B) Interface MyInterface{}", "C) implements MyInterface{}", "D) abstract interface MyInterface{}"],
+    "correct_answer": "A) interface MyInterface{}",
+    "explanation": "The keyword 'interface' (lowercase) is used to declare an interface in Java. 'Interface' with uppercase is not a keyword."
+  },
+  {
+    "id": 14,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a 'protected' member?",
+    "options": ["A) Accessible only within the same class", "B) Accessible within the same package and subclasses", "C) Accessible from anywhere", "D) Not accessible from subclasses"],
+    "correct_answer": "B) Accessible within the same package and subclasses",
+    "explanation": "Protected members are accessible within the same package and also by subclasses (even in different packages). This is broader than default but narrower than public."
+  },
+  {
+    "id": 15,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default value of an instance variable of type 'int' in Java?",
+    "options": ["A) null", "B) 1", "C) 0", "D) undefined"],
+    "correct_answer": "C) 0",
+    "explanation": "Instance variables of type int are automatically initialized to 0 in Java. Local variables, however, must be explicitly initialized before use."
+  },
+  {
+    "id": 16,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["A) implements", "B) inherits", "C) extends", "D) super"],
+    "correct_answer": "C) extends",
+    "explanation": "The 'extends' keyword is used for class inheritance in Java. A class uses 'implements' for interfaces and 'extends' for inheriting from another class."
+  },
+  {
+    "id": 17,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default value of a boolean instance variable in Java?",
+    "options": ["A) true", "B) false", "C) 0", "D) null"],
+    "correct_answer": "B) false",
+    "explanation": "Boolean instance variables are automatically initialized to 'false' in Java. This is the default value for all boolean fields."
+  },
+  {
+    "id": 18,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following declarations is valid for a Java abstract class?",
+    "options": ["A) abstract class Shape{}", "B) Abstract class Shape{}", "C) abstract Shape{}", "D) class abstract Shape{}"],
+    "correct_answer": "A) abstract class Shape{}",
+    "explanation": "The correct syntax is 'abstract class ClassName{}'. The modifier 'abstract' must come before the keyword 'class'."
+  },
+  {
+    "id": 19,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an abstract class have a constructor in Java?",
+    "options": ["A) No, abstract classes cannot have constructors", "B) Yes, abstract classes can have constructors", "C) Only if the constructor is private", "D) Only if the constructor is static"],
+    "correct_answer": "B) Yes, abstract classes can have constructors",
+    "explanation": "Abstract classes can have constructors, which are called when a subclass is instantiated. However, you cannot directly instantiate an abstract class."
+  },
+  {
+    "id": 20,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default value of an object reference variable in Java?",
+    "options": ["A) 0", "B) empty", "C) null", "D) undefined"],
+    "correct_answer": "C) null",
+    "explanation": "Object reference variables are initialized to 'null' by default in Java. This means they don't point to any object until explicitly assigned."
+  },
+  {
+    "id": 21,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a 'static' method?",
+    "options": ["A) It can access instance variables directly", "B) It can be called without creating an object", "C) It must return a value", "D) It cannot be overloaded"],
+    "correct_answer": "B) It can be called without creating an object",
+    "explanation": "Static methods belong to the class and can be called using the class name without creating an instance. They cannot directly access non-static (instance) members."
+  },
+  {
+    "id": 22,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following correctly declares a String variable in Java?",
+    "options": ["A) string name = \"Java\";", "B) String name = \"Java\";", "C) STRING name = \"Java\";", "D) str name = \"Java\";"],
+    "correct_answer": "B) String name = \"Java\";",
+    "explanation": "In Java, 'String' is a class and must be capitalized. 'string' (lowercase) is not valid in Java (it is valid in C#)."
+  },
+  {
+    "id": 23,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What does 'final class' mean in Java?",
+    "options": ["A) The class is abstract", "B) The class cannot be instantiated", "C) The class cannot be subclassed", "D) The class has only static members"],
+    "correct_answer": "C) The class cannot be subclassed",
+    "explanation": "A final class cannot be extended (subclassed). For example, java.lang.String is a final class. It can still be instantiated normally."
+  },
+  {
+    "id": 24,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is a valid identifier in Java?",
+    "options": ["A) 2myVar", "B) my-Var", "C) _myVar", "D) my Var"],
+    "correct_answer": "C) _myVar",
+    "explanation": "Java identifiers can start with a letter, underscore (_), or dollar sign ($). They cannot start with a digit or contain hyphens or spaces."
+  },
+  {
+    "id": 25,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which keyword is used to implement an interface in Java?",
+    "options": ["A) extends", "B) implements", "C) inherits", "D) uses"],
+    "correct_answer": "B) implements",
+    "explanation": "A class uses the 'implements' keyword to implement an interface. A class can implement multiple interfaces separated by commas."
+  },
+  {
+    "id": 26,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct declaration of the main method in Java?",
+    "options": ["A) public static void main(String args)", "B) public static void main(String[] args)", "C) public void main(String[] args)", "D) static void main(String[] args)"],
+    "correct_answer": "B) public static void main(String[] args)",
+    "explanation": "The main method must be 'public static void main(String[] args)'. It must be public (accessible by JVM), static (called without object), and void (returns nothing)."
+  },
+  {
+    "id": 27,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can an interface have instance variables in Java?",
+    "options": ["A) Yes, any type of variable", "B) No, interfaces cannot have any variables", "C) Yes, but they are implicitly public, static, and final", "D) Yes, but only private variables"],
+    "correct_answer": "C) Yes, but they are implicitly public, static, and final",
+    "explanation": "Variables declared in an interface are implicitly public, static, and final (constants). They must be initialized at the time of declaration."
+  },
+  {
+    "id": 28,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following primitive types has the largest range in Java?",
+    "options": ["A) int", "B) long", "C) float", "D) short"],
+    "correct_answer": "B) long",
+    "explanation": "The 'long' type is a 64-bit integer with range -2^63 to 2^63-1, which is larger than int (32-bit), short (16-bit), and float (32-bit floating point)."
+  },
+  {
+    "id": 29,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the size of a 'char' data type in Java?",
+    "options": ["A) 8 bits", "B) 16 bits", "C) 32 bits", "D) 64 bits"],
+    "correct_answer": "B) 16 bits",
+    "explanation": "In Java, 'char' is a 16-bit Unicode character (unlike C/C++ where it's 8 bits). It can represent values from 0 to 65,535."
+  },
+  {
+    "id": 30,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about abstract methods?",
+    "options": ["A) They have a method body", "B) They must be declared in abstract classes or interfaces", "C) They can be declared in any class", "D) They are automatically static"],
+    "correct_answer": "B) They must be declared in abstract classes or interfaces",
+    "explanation": "Abstract methods have no body (no implementation). They must be declared inside abstract classes or interfaces and must be overridden by concrete subclasses."
+  },
+  {
+    "id": 31,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to declare a multi-dimensional array in Java?",
+    "options": ["A) int[2][3] arr", "B) int arr[2][3]", "C) int[][] arr", "D) int arr = new int[2,3]"],
+    "correct_answer": "C) int[][] arr",
+    "explanation": "The correct declaration syntax is 'int[][] arr'. The size is not specified in the declaration; it's specified during initialization with 'new int[2][3]'."
+  },
+  {
+    "id": 32,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following statements about constructors is true?",
+    "options": ["A) Constructors must have a return type", "B) Constructors can be inherited", "C) Constructors have the same name as the class", "D) Constructors cannot be overloaded"],
+    "correct_answer": "C) Constructors have the same name as the class",
+    "explanation": "Constructors must have the same name as the class, have no return type (not even void), cannot be inherited, and can be overloaded."
+  },
+  {
+    "id": 33,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the default value of a 'double' instance variable in Java?",
+    "options": ["A) 0", "B) 0.0", "C) null", "D) NaN"],
+    "correct_answer": "B) 0.0",
+    "explanation": "The default value for double (and float) instance variables is 0.0. For int/long it's 0, for boolean it's false, and for object references it's null."
+  },
+  {
+    "id": 34,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following can be declared inside an interface in Java 8+?",
+    "options": ["A) Only abstract methods", "B) Abstract methods and default methods", "C) Abstract, default, and static methods", "D) Only static methods"],
+    "correct_answer": "C) Abstract, default, and static methods",
+    "explanation": "Java 8 introduced default and static methods in interfaces. Java 9 further added private methods. So interfaces can have abstract, default, and static methods in Java 8+."
+  },
+  {
+    "id": 35,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which access modifier should be used for a class that should only be accessible within its package?",
+    "options": ["A) public", "B) private", "C) protected", "D) No modifier (default)"],
+    "correct_answer": "D) No modifier (default)",
+    "explanation": "Using no access modifier (default/package-private) restricts access to within the same package. This is the appropriate choice for package-level encapsulation."
+  },
+  {
+    "id": 36,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct way to declare a constant PI in Java?",
+    "options": ["A) const double PI = 3.14;", "B) final double PI = 3.14;", "C) static double PI = 3.14;", "D) constant double PI = 3.14;"],
+    "correct_answer": "B) final double PI = 3.14;",
+    "explanation": "In Java, 'final' is used to declare constants. 'const' is a reserved word but not used in Java. For class-level constants, 'static final' is typically used."
+  },
+  {
+    "id": 37,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a Java enum?",
+    "options": ["A) Enums cannot have methods", "B) Enums are implicitly final", "C) Enums can extend other classes", "D) Enums cannot implement interfaces"],
+    "correct_answer": "B) Enums are implicitly final",
+    "explanation": "Java enums are implicitly final (cannot be subclassed) and implicitly extend java.lang.Enum. They can have methods and implement interfaces but cannot extend other classes."
+  },
+  {
+    "id": 38,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the correct syntax to declare a variable of type long in Java?",
+    "options": ["A) long x = 100;", "B) long x = 100L;", "C) Both A and B are valid", "D) long x = 100l; only"],
+    "correct_answer": "C) Both A and B are valid",
+    "explanation": "Both 'long x = 100;' and 'long x = 100L;' are valid. The 'L' suffix explicitly marks the literal as long. Without it, the integer literal 100 is automatically widened to long."
+  },
+  {
+    "id": 39,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Which of the following is NOT a primitive data type in Java?",
+    "options": ["A) int", "B) boolean", "C) String", "D) char"],
+    "correct_answer": "C) String",
+    "explanation": "String is a class (reference type) in Java, not a primitive. Java's 8 primitive types are: byte, short, int, long, float, double, char, and boolean."
+  },
+  {
+    "id": 40,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Can a class implement multiple interfaces in Java?",
+    "options": ["A) No, Java does not support multiple interface implementation", "B) Yes, a class can implement multiple interfaces", "C) Yes, but only if the interfaces have no methods", "D) Yes, but only up to 3 interfaces"],
+    "correct_answer": "B) Yes, a class can implement multiple interfaces",
+    "explanation": "Java supports implementing multiple interfaces using a comma-separated list: 'class MyClass implements Interface1, Interface2, Interface3'. This is Java's way of achieving multiple inheritance."
+  },
+  {
+    "id": 41,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will happen when you try to compile and run the following code?\n```java\npublic class Test {\n    private int x = 10;\n    public static void main(String[] args) {\n        Test t = new Test();\n        System.out.println(t.x);\n    }\n}\n```",
+    "options": ["A) Compile error: x is private", "B) Runtime error", "C) Prints 10", "D) Prints 0"],
+    "correct_answer": "C) Prints 10",
+    "explanation": "Private members are accessible within the same class. The main method is inside the Test class, so it can access the private field 'x' through the object 't'. Output is 10."
+  },
+  {
+    "id": 42,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about a static initializer block in Java?",
+    "options": ["A) It runs every time an object is created", "B) It runs once when the class is loaded", "C) It can access instance variables", "D) It must be declared public"],
+    "correct_answer": "B) It runs once when the class is loaded",
+    "explanation": "A static initializer block (static { }) runs exactly once when the class is first loaded by the JVM. It cannot access instance variables since no object exists at that point."
+  },
+  {
+    "id": 43,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n```java\nclass A {\n    protected int x = 5;\n}\nclass B extends A {\n    void show() { System.out.println(x); }\n}\npublic class Test {\n    public static void main(String[] args) {\n        new B().show();\n    }\n}\n```",
+    "options": ["A) Compile error", "B) 0", "C) 5", "D) null"],
+    "correct_answer": "C) 5",
+    "explanation": "Class B extends A and inherits the protected field 'x'. Protected members are accessible in subclasses, so B's show() method can access x, which is 5."
+  },
+  {
+    "id": 44,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following method declarations is valid in an abstract class?",
+    "options": ["A) abstract void method() {}", "B) abstract void method();", "C) abstract static void method();", "D) abstract final void method();"],
+    "correct_answer": "B) abstract void method();",
+    "explanation": "Abstract methods have no body — they end with a semicolon. An abstract method cannot be static (static methods cannot be overridden) or final (final methods cannot be overridden)."
+  },
+  {
+    "id": 45,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the output of the following code?\n```java\npublic class Test {\n    static int count = 0;\n    Test() { count++; }\n    public static void main(String[] args) {\n        Test t1 = new Test();\n        Test t2 = new Test();\n        Test t3 = new Test();\n        System.out.println(Test.count);\n    }\n}\n```",
+    "options": ["A) 0", "B) 1", "C) 3", "D) Compile error"],
+    "correct_answer": "C) 3",
+    "explanation": "The static variable 'count' is shared across all instances. Each constructor call increments count by 1. After creating 3 objects, count = 3."
+  },
+  {
+    "id": 46,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about method overloading in Java?",
+    "options": ["A) Overloaded methods must have different return types", "B) Overloaded methods must have different parameter lists", "C) Overloaded methods must have different access modifiers", "D) Overloaded methods must be in different classes"],
+    "correct_answer": "B) Overloaded methods must have different parameter lists",
+    "explanation": "Method overloading requires different parameter lists (number, type, or order of parameters). Return type and access modifiers alone cannot distinguish overloaded methods."
+  },
+  {
+    "id": 47,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What will be the output of the following code?\n```java\npublic class Test {\n    final int x;\n    Test() { x = 42; }\n    public static void main(String[] args) {\n        Test t = new Test();\n        System.out.println(t.x);\n    }\n}\n```",
+    "options": ["A) 0", "B) 42", "C) Compile error", "D) Runtime error"],
+    "correct_answer": "B) 42",
+    "explanation": "A blank final instance variable must be initialized in the constructor. Here, x is initialized to 42 in the constructor, which is valid. Output is 42."
+  },
+  {
+    "id": 48,
+    "topic": "Declarations and Access Control in java",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Which of the following is true about inner classes in Java?",
+    "options": ["A) Inner classes cannot access outer class members", "B) Static inner classes can access non-static outer class members", "C) Non-static inner classes can access all outer class members", "D) Inner classes cannot have constructors"],
+    "correct_answer": "C) Non-static inner classes can access all outer class members",
+    "explanation": "Non-static inner classes have an implicit reference to the outer class instance and can access all its members (including private

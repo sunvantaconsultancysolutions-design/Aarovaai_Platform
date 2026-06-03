@@ -1,0 +1,433 @@
+```json
+[
+  {
+    "id": 1,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A manager notices that whenever it rains, employee attendance drops by 20%. On a normal day, 50 employees report to work. How many employees are expected on a rainy day?",
+    "options": ["A) 35", "B) 40", "C) 45", "D) 30"],
+    "correct_answer": "B) 40",
+    "explanation": "20% of 50 = 10. So attendance on rainy day = 50 - 10 = 40 employees."
+  },
+  {
+    "id": 2,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A company policy states that any employee who is late more than 3 times in a month gets a warning. Ravi was late 5 times in January. What judgment should be made?",
+    "options": ["A) Ravi should be promoted", "B) Ravi should receive a warning", "C) Ravi should be fired", "D) No action needed"],
+    "correct_answer": "B) Ravi should receive a warning",
+    "explanation": "Ravi was late 5 times, which exceeds the threshold of 3 times. Per company policy, he should receive a warning."
+  },
+  {
+    "id": 3,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A store offers a 15% discount on all items above ₹500. A customer buys a jacket worth ₹800. What is the final price?",
+    "options": ["A) ₹680", "B) ₹700", "C) ₹720", "D) ₹650"],
+    "correct_answer": "A) ₹680",
+    "explanation": "15% of ₹800 = ₹120. Final price = ₹800 - ₹120 = ₹680."
+  },
+  {
+    "id": 4,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A project deadline is in 10 days. The team has completed 60% of the work. If the remaining work requires 6 days, will the team meet the deadline?",
+    "options": ["A) Yes, with 4 days to spare", "B) No, they will miss by 2 days", "C) Yes, exactly on time", "D) Cannot be determined"],
+    "correct_answer": "A) Yes, with 4 days to spare",
+    "explanation": "Remaining work needs 6 days. Deadline is in 10 days. So they finish 4 days before the deadline."
+  },
+  {
+    "id": 5,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A quality check rule states: reject any product with more than 2 defects. Product A has 1 defect, Product B has 3 defects, Product C has 2 defects. Which product(s) should be rejected?",
+    "options": ["A) Product A only", "B) Product B only", "C) Products B and C", "D) All three"],
+    "correct_answer": "B) Product B only",
+    "explanation": "Only Product B has more than 2 defects (it has 3). Products A and C meet the standard."
+  },
+  {
+    "id": 6,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A train travels at 60 km/h. A car travels at 90 km/h. Both start from the same point. After 2 hours, how far apart are they?",
+    "options": ["A) 30 km", "B) 60 km", "C) 90 km", "D) 120 km"],
+    "correct_answer": "B) 60 km",
+    "explanation": "Distance by train = 60×2 = 120 km. Distance by car = 90×2 = 180 km. Difference = 180 - 120 = 60 km."
+  },
+  {
+    "id": 7,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A school rule says students scoring below 40% fail. Priya scored 36 out of 100. What is the correct judgment?",
+    "options": ["A) Priya passes", "B) Priya fails", "C) Priya needs a re-test", "D) Cannot be determined"],
+    "correct_answer": "B) Priya fails",
+    "explanation": "Priya scored 36%, which is below the passing threshold of 40%. Hence, she fails."
+  },
+  {
+    "id": 8,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A budget of ₹10,000 is allocated for a project. Expenses so far are ₹7,500. A new requirement costs ₹3,000. What is the correct judgment?",
+    "options": ["A) The project is within budget", "B) The project will exceed budget by ₹500", "C) The project will exceed budget by ₹1,000", "D) The project will save ₹500"],
+    "correct_answer": "B) The project will exceed budget by ₹500",
+    "explanation": "Total expenses = ₹7,500 + ₹3,000 = ₹10,500. Budget = ₹10,000. Excess = ₹500."
+  },
+  {
+    "id": 9,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A hiring rule states: candidates with less than 2 years of experience are not eligible. Candidate X has 1.5 years of experience. What is the judgment?",
+    "options": ["A) X is eligible", "B) X is not eligible", "C) X needs further evaluation", "D) X should be given a test"],
+    "correct_answer": "B) X is not eligible",
+    "explanation": "X has 1.5 years of experience, which is less than the required 2 years. Hence, X is not eligible."
+  },
+  {
+    "id": 10,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A water tank fills at 5 liters/minute and drains at 2 liters/minute. How long will it take to fill a 60-liter tank?",
+    "options": ["A) 10 minutes", "B) 15 minutes", "C) 20 minutes", "D) 12 minutes"],
+    "correct_answer": "C) 20 minutes",
+    "explanation": "Net fill rate = 5 - 2 = 3 liters/minute. Time = 60 ÷ 3 = 20 minutes."
+  },
+  {
+    "id": 11,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A company gives a bonus if sales exceed ₹1,00,000 in a month. Sales in March were ₹95,000 and in April were ₹1,05,000. In which month is the bonus given?",
+    "options": ["A) March only", "B) April only", "C) Both months", "D) Neither month"],
+    "correct_answer": "B) April only",
+    "explanation": "March sales (₹95,000) < ₹1,00,000 — no bonus. April sales (₹1,05,000) > ₹1,00,000 — bonus given."
+  },
+  {
+    "id": 12,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A recipe requires 3 cups of flour for 12 cookies. How many cups of flour are needed for 36 cookies?",
+    "options": ["A) 6 cups", "B) 9 cups", "C) 12 cups", "D) 8 cups"],
+    "correct_answer": "B) 9 cups",
+    "explanation": "Ratio: 3 cups for 12 cookies. For 36 cookies = (3/12) × 36 = 9 cups."
+  },
+  {
+    "id": 13,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule states: employees working more than 8 hours get overtime pay. Anita worked 10 hours on Monday. What is the correct judgment?",
+    "options": ["A) Anita gets no extra pay", "B) Anita gets overtime pay for 2 hours", "C) Anita gets overtime pay for 10 hours", "D) Anita gets a bonus"],
+    "correct_answer": "B) Anita gets overtime pay for 2 hours",
+    "explanation": "Anita worked 10 hours. Regular hours = 8. Overtime = 10 - 8 = 2 hours of overtime pay."
+  },
+  {
+    "id": 14,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A car rental charges ₹500/day plus ₹10/km. If a customer rents for 2 days and drives 150 km, what is the total charge?",
+    "options": ["A) ₹2,500", "B) ₹2,000", "C) ₹1,500", "D) ₹3,000"],
+    "correct_answer": "A) ₹2,500",
+    "explanation": "Daily charge = 2 × ₹500 = ₹1,000. Km charge = 150 × ₹10 = ₹1,500. Total = ₹2,500."
+  },
+  {
+    "id": 15,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A library rule: books must be returned within 14 days or a fine of ₹2/day is charged. Suresh borrowed a book on Jan 1 and returned it on Jan 20. What is his fine?",
+    "options": ["A) ₹10", "B) ₹12", "C) ₹14", "D) ₹8"],
+    "correct_answer": "B) ₹12",
+    "explanation": "Due date = Jan 15. Returned on Jan 20. Overdue = 5 days. Fine = 5 × ₹2 = ₹10. Wait — Jan 1 + 14 days = Jan 15. Jan 15 to Jan 20 = 5 days. Fine = 5 × ₹2 = ₹10. Correct answer is A) ₹10.",
+    "correct_answer": "A) ₹10",
+    "explanation": "Due date = Jan 1 + 14 = Jan 15. Returned Jan 20. Overdue = 5 days. Fine = 5 × ₹2 = ₹10."
+  },
+  {
+    "id": 16,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A company policy: employees with attendance below 75% are not eligible for promotion. Raj's attendance is 72%. What is the judgment?",
+    "options": ["A) Raj is eligible for promotion", "B) Raj is not eligible for promotion", "C) Raj needs a review", "D) Raj should be given a warning"],
+    "correct_answer": "B) Raj is not eligible for promotion",
+    "explanation": "Raj's attendance (72%) is below the required 75%, so he is not eligible for promotion."
+  },
+  {
+    "id": 17,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A fruit seller buys apples at ₹40/kg and sells at ₹55/kg. What is the profit percentage?",
+    "options": ["A) 37.5%", "B) 27.5%", "C) 25%", "D) 30%"],
+    "correct_answer": "A) 37.5%",
+    "explanation": "Profit = ₹55 - ₹40 = ₹15. Profit% = (15/40) × 100 = 37.5%."
+  },
+  {
+    "id": 18,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule states: if a product's weight is less than 500g, it is underweight. Product X weighs 480g. What is the judgment?",
+    "options": ["A) Product X is acceptable", "B) Product X is overweight", "C) Product X is underweight", "D) Product X needs retesting"],
+    "correct_answer": "C) Product X is underweight",
+    "explanation": "Product X weighs 480g, which is less than 500g. Hence, it is classified as underweight."
+  },
+  {
+    "id": 19,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A team of 4 people can complete a task in 12 days. How many days will 6 people take to complete the same task?",
+    "options": ["A) 6 days", "B) 8 days", "C) 10 days", "D) 9 days"],
+    "correct_answer": "B) 8 days",
+    "explanation": "Total work = 4 × 12 = 48 person-days. With 6 people: 48 ÷ 6 = 8 days."
+  },
+  {
+    "id": 20,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A company rule: if a customer complaint is not resolved within 48 hours, escalate to the manager. A complaint was filed at 9 AM Monday. It is now 11 AM Wednesday. What is the judgment?",
+    "options": ["A) No action needed", "B) Escalate to manager", "C) Close the complaint", "D) Wait 24 more hours"],
+    "correct_answer": "B) Escalate to manager",
+    "explanation": "From 9 AM Monday to 9 AM Wednesday = 48 hours. It is now 11 AM Wednesday, which is 50 hours — exceeds 48 hours. Escalate."
+  },
+  {
+    "id": 21,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A speed limit on a highway is 100 km/h. Car A travels at 95 km/h and Car B at 110 km/h. Which car is violating the rule?",
+    "options": ["A) Car A only", "B) Car B only", "C) Both cars", "D) Neither car"],
+    "correct_answer": "B) Car B only",
+    "explanation": "Car A (95 km/h) is within the limit. Car B (110 km/h) exceeds 100 km/h and is violating the rule."
+  },
+  {
+    "id": 22,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A savings account gives 6% annual interest. If ₹5,000 is deposited, what is the interest earned in 1 year?",
+    "options": ["A) ₹250", "B) ₹300", "C) ₹350", "D) ₹400"],
+    "correct_answer": "B) ₹300",
+    "explanation": "Simple Interest = (5000 × 6 × 1) / 100 = ₹300."
+  },
+  {
+    "id": 23,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule states: any invoice above ₹50,000 requires two approvals. Invoice A is ₹45,000 and Invoice B is ₹55,000. Which invoice needs two approvals?",
+    "options": ["A) Invoice A only", "B) Invoice B only", "C) Both invoices", "D) Neither invoice"],
+    "correct_answer": "B) Invoice B only",
+    "explanation": "Invoice A (₹45,000) is below ₹50,000 — one approval. Invoice B (₹55,000) exceeds ₹50,000 — two approvals needed."
+  },
+  {
+    "id": 24,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A shop sells 3 pens for ₹45. What is the cost of 7 pens?",
+    "options": ["A) ₹100", "B) ₹105", "C) ₹110", "D) ₹95"],
+    "correct_answer": "B) ₹105",
+    "explanation": "Cost per pen = ₹45 ÷ 3 = ₹15. Cost of 7 pens = 7 × ₹15 = ₹105."
+  },
+  {
+    "id": 25,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule states: employees must complete 40 training hours per year. By June (halfway through the year), Meena has completed 15 hours. Is she on track?",
+    "options": ["A) Yes, she is ahead of schedule", "B) No, she is behind schedule", "C) Yes, she is exactly on track", "D) Cannot be determined"],
+    "correct_answer": "B) No, she is behind schedule",
+    "explanation": "By mid-year, she should have 20 hours (40/2). She has only 15 hours, so she is 5 hours behind schedule."
+  },
+  {
+    "id": 26,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A taxi charges ₹30 for the first km and ₹15 for each additional km. What is the fare for a 5 km ride?",
+    "options": ["A) ₹75", "B) ₹90", "C) ₹85", "D) ₹80"],
+    "correct_answer": "B) ₹90",
+    "explanation": "Fare = ₹30 + (4 × ₹15) = ₹30 + ₹60 = ₹90."
+  },
+  {
+    "id": 27,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule: if temperature exceeds 35°C, outdoor work must stop. The temperature today is 37°C. What is the correct judgment?",
+    "options": ["A) Outdoor work can continue", "B) Outdoor work must stop", "C) Work can continue with precautions", "D) No judgment can be made"],
+    "correct_answer": "B) Outdoor work must stop",
+    "explanation": "Temperature is 37°C, which exceeds 35°C. Per the rule, outdoor work must stop."
+  },
+  {
+    "id": 28,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A company has 200 employees. 30% are in the IT department. How many employees are in the IT department?",
+    "options": ["A) 50", "B) 60", "C) 70", "D) 80"],
+    "correct_answer": "B) 60",
+    "explanation": "30% of 200 = (30/100) × 200 = 60 employees."
+  },
+  {
+    "id": 29,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule: students must score at least 50% in each subject to pass. Arjun scored 48 in Math and 65 in Science (out of 100 each). What is the judgment?",
+    "options": ["A) Arjun passes in both subjects", "B) Arjun fails in Math only", "C) Arjun fails in Science only", "D) Arjun fails in both subjects"],
+    "correct_answer": "B) Arjun fails in Math only",
+    "explanation": "Math: 48% < 50% — fail. Science: 65% > 50% — pass. Arjun fails only in Math."
+  },
+  {
+    "id": 30,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A machine produces 120 units in 8 hours. How many units does it produce in 5 hours?",
+    "options": ["A) 60", "B) 70", "C) 75", "D) 80"],
+    "correct_answer": "C) 75",
+    "explanation": "Rate = 120/8 = 15 units/hour. In 5 hours = 15 × 5 = 75 units."
+  },
+  {
+    "id": 31,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A policy states: leave applications submitted less than 3 days in advance are rejected. Kavya submits her leave application 2 days before her leave. What is the judgment?",
+    "options": ["A) Application is approved", "B) Application is rejected", "C) Application needs review", "D) Application is pending"],
+    "correct_answer": "B) Application is rejected",
+    "explanation": "Kavya submitted 2 days in advance, which is less than the required 3 days. The application is rejected."
+  },
+  {
+    "id": 32,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A shopkeeper marks a product at ₹600 and offers a 10% discount. What is the selling price?",
+    "options": ["A) ₹520", "B) ₹540", "C) ₹560", "D) ₹580"],
+    "correct_answer": "B) ₹540",
+    "explanation": "Discount = 10% of ₹600 = ₹60. Selling price = ₹600 - ₹60 = ₹540."
+  },
+  {
+    "id": 33,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule: vehicles older than 15 years are not allowed on the road. A vehicle was manufactured in 2005. The current year is 2023. What is the judgment?",
+    "options": ["A) Vehicle is allowed", "B) Vehicle is not allowed", "C) Vehicle needs inspection", "D) Cannot be determined"],
+    "correct_answer": "B) Vehicle is not allowed",
+    "explanation": "Age of vehicle = 2023 - 2005 = 18 years. Since 18 > 15, the vehicle is not allowed on the road."
+  },
+  {
+    "id": 34,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A company's revenue was ₹8 lakh last year and ₹10 lakh this year. What is the percentage increase in revenue?",
+    "options": ["A) 20%", "B) 25%", "C) 15%", "D) 30%"],
+    "correct_answer": "B) 25%",
+    "explanation": "Increase = ₹2 lakh. % increase = (2/8) × 100 = 25%."
+  },
+  {
+    "id": 35,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule: if a package weighs more than 10 kg, extra shipping charges apply. Package A weighs 9.5 kg and Package B weighs 11 kg. Which package incurs extra charges?",
+    "options": ["A) Package A only", "B) Package B only", "C) Both packages", "D) Neither package"],
+    "correct_answer": "B) Package B only",
+    "explanation": "Package A (9.5 kg) ≤ 10 kg — no extra charge. Package B (11 kg) > 10 kg — extra charges apply."
+  },
+  {
+    "id": 36,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A pipe fills a tank in 6 hours. Another pipe drains it in 12 hours. If both are open, how long to fill the tank?",
+    "options": ["A) 8 hours", "B) 10 hours", "C) 12 hours", "D) 9 hours"],
+    "correct_answer": "C) 12 hours",
+    "explanation": "Net fill rate = 1/6 - 1/12 = 2/12 - 1/12 = 1/12. Time to fill = 12 hours."
+  },
+  {
+    "id": 37,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule: employees must wear ID cards at all times. During an audit, 3 out of 10 employees were found without ID cards. What percentage is non-compliant?",
+    "options": ["A) 20%", "B) 25%", "C) 30%", "D) 35%"],
+    "correct_answer": "C) 30%",
+    "explanation": "Non-compliant = 3 out of 10. Percentage = (3/10) × 100 = 30%."
+  },
+  {
+    "id": 38,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A student needs 360 marks out of 600 to pass. She scored 55% of the total marks. Did she pass?",
+    "options": ["A) Yes, she passed", "B) No, she failed", "C) She exactly passed", "D) Cannot be determined"],
+    "correct_answer": "A) Yes, she passed",
+    "explanation": "55% of 600 = 330 marks. Wait — 330 < 360. She failed. Correct answer is B."
+  },
+  {
+    "id": 38,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A student needs 360 marks out of 600 to pass. She scored 65% of the total marks. Did she pass?",
+    "options": ["A) Yes, she passed", "B) No, she failed", "C) She exactly passed", "D) Cannot be determined"],
+    "correct_answer": "A) Yes, she passed",
+    "explanation": "65% of 600 = 390 marks. Required = 360 marks. Since 390 > 360, she passed."
+  },
+  {
+    "id": 39,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A rule: any transaction above ₹10,000 must be reported. Transactions of ₹8,000, ₹12,000, and ₹9,500 were made. How many must be reported?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 3"],
+    "correct_answer": "B) 1",
+    "explanation": "Only ₹12,000 exceeds ₹10,000. The other two are below the threshold. So 1 transaction must be reported."
+  },
+  {
+    "id": 40,
+    "topic": "Making Judgments",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "A company rule: if a project is delayed by more than 5 days, a penalty of ₹1,000/day is charged. A project was delayed by 8 days. What is the total penalty?",
+    "options": ["A) ₹3,000", "B) ₹5,000", "C) ₹8,000", "D) ₹1,000"],
+    "correct_answer": "C) ₹8,000",
+    "explanation": "The penalty applies for all 8 days of delay. Total penalty = 8 × ₹1,000 = ₹8,000."
+  },
+  {
+    "id": 41,
+    "topic": "Making Judgments",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A government scheme provides a subsidy of 40% on fertilizers for farmers owning less than 5 acres of land. Farmer A owns 4.5 acres and buys fertilizers worth ₹8,000. Farmer B owns 6 acres and buys fertilizers worth ₹10,000. What is the total subsidy given?",
+    "options": ["A) ₹3,200", "B) ₹4,000", "C) ₹7,200", "D) ₹3,600"],
+    "correct_answer": "A) ₹3,200",
+    "explanation": "Only Farmer A qualifies (4.5 < 5 acres). Subsidy = 40% of ₹8,000 = ₹3,200. Farmer B does not qualify."
+  },
+  {
+    "id": 42,
+    "topic": "Making Judgments",
+    "difficulty": "medium",
+    "exam_type": "government",
+    "question": "A bank rule: loans above ₹5 lakh require collateral. Loans above ₹10 lakh require two guarantors AND collateral. Ramesh applies for a ₹12 lakh loan. What does he need?",
+    "options": ["A) Collateral only", "B) Two guarantors only", "C) Two guarantors and collateral", "D) No requirements"],
+    "correct_answer": "C) Two guarantors and collateral",
+    "explanation": "₹12 lakh > ₹10 lakh, so Ramesh needs both two

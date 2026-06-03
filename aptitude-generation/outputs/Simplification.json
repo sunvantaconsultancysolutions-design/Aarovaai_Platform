@@ -1,0 +1,536 @@
+[
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 25 + 5 × 4 - 10 ÷ 2",
+    "options": ["40", "42", "38", "44"],
+    "correct_answer": "40",
+    "explanation": "Using BODMAS: 10 ÷ 2 = 5, 5 × 4 = 20. So 25 + 20 - 5 = 40."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of 3/4 + 5/8?",
+    "options": ["11/8", "8/12", "1/2", "13/8"],
+    "correct_answer": "11/8",
+    "explanation": "LCM of 4 and 8 is 8. 3/4 = 6/8. So 6/8 + 5/8 = 11/8."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 144 ÷ 12 × 3 + 6 - 2",
+    "options": ["40", "38", "42", "36"],
+    "correct_answer": "40",
+    "explanation": "144 ÷ 12 = 12, 12 × 3 = 36, 36 + 6 - 2 = 40."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 15% of 200?",
+    "options": ["25", "30", "35", "40"],
+    "correct_answer": "30",
+    "explanation": "15% of 200 = (15/100) × 200 = 30."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: (18 + 12) ÷ 6 × 2",
+    "options": ["10", "12", "8", "6"],
+    "correct_answer": "10",
+    "explanation": "(18 + 12) = 30, 30 ÷ 6 = 5, 5 × 2 = 10."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Find the value of √169 + √64",
+    "options": ["21", "19", "23", "17"],
+    "correct_answer": "21",
+    "explanation": "√169 = 13, √64 = 8. So 13 + 8 = 21."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: 2³ + 3² - 4",
+    "options": ["13", "15", "11", "17"],
+    "correct_answer": "13",
+    "explanation": "2³ = 8, 3² = 9. So 8 + 9 - 4 = 13."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 1/3 of 270?",
+    "options": ["80", "90", "100", "70"],
+    "correct_answer": "90",
+    "explanation": "1/3 × 270 = 90."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 56 ÷ 7 + 3 × 5 - 8",
+    "options": ["15", "17", "13", "19"],
+    "correct_answer": "15",
+    "explanation": "56 ÷ 7 = 8, 3 × 5 = 15. So 8 + 15 - 8 = 15."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of 0.5 × 0.5 + 0.25?",
+    "options": ["0.5", "0.75", "1.0", "0.25"],
+    "correct_answer": "0.5",
+    "explanation": "0.5 × 0.5 = 0.25. So 0.25 + 0.25 = 0.5."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: 100 - 4 × (5 + 3)",
+    "options": ["68", "72", "64", "76"],
+    "correct_answer": "68",
+    "explanation": "5 + 3 = 8, 4 × 8 = 32. So 100 - 32 = 68."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 3/5 of 125?",
+    "options": ["65", "70", "75", "80"],
+    "correct_answer": "75",
+    "explanation": "3/5 × 125 = 375/5 = 75."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: 48 ÷ (4 × 3) + 7",
+    "options": ["11", "9", "13", "15"],
+    "correct_answer": "11",
+    "explanation": "4 × 3 = 12, 48 ÷ 12 = 4. So 4 + 7 = 11."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of (7 + 3)² - 50?",
+    "options": ["50", "40", "60", "30"],
+    "correct_answer": "50",
+    "explanation": "(7 + 3)² = 10² = 100. So 100 - 50 = 50."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 5/6 - 1/3",
+    "options": ["1/2", "2/3", "1/3", "4/6"],
+    "correct_answer": "1/2",
+    "explanation": "1/3 = 2/6. So 5/6 - 2/6 = 3/6 = 1/2."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 20% of 350?",
+    "options": ["60", "65", "70", "75"],
+    "correct_answer": "70",
+    "explanation": "20% of 350 = (20/100) × 350 = 70."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: 36 + 4² ÷ 2 - 6",
+    "options": ["38", "36", "40", "34"],
+    "correct_answer": "38",
+    "explanation": "4² = 16, 16 ÷ 2 = 8. So 36 + 8 - 6 = 38."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of 7 × 8 - 6 × 9?",
+    "options": ["2", "4", "6", "8"],
+    "correct_answer": "2",
+    "explanation": "7 × 8 = 56, 6 × 9 = 54. So 56 - 54 = 2."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: 1000 ÷ 25 × 5",
+    "options": ["200", "150", "250", "100"],
+    "correct_answer": "200",
+    "explanation": "1000 ÷ 25 = 40, 40 × 5 = 200."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 2/7 + 3/14?",
+    "options": ["7/14", "5/14", "7/21", "1/2"],
+    "correct_answer": "7/14",
+    "explanation": "2/7 = 4/14. So 4/14 + 3/14 = 7/14 = 1/2."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 64 ÷ 8 + 5² - 17",
+    "options": ["16", "14", "18", "12"],
+    "correct_answer": "16",
+    "explanation": "64 ÷ 8 = 8, 5² = 25. So 8 + 25 - 17 = 16."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of √225?",
+    "options": ["13", "14", "15", "16"],
+    "correct_answer": "15",
+    "explanation": "15 × 15 = 225, so √225 = 15."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: 3 × (4 + 6) - 2 × 5",
+    "options": ["20", "25", "15", "30"],
+    "correct_answer": "20",
+    "explanation": "4 + 6 = 10, 3 × 10 = 30, 2 × 5 = 10. So 30 - 10 = 20."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 45% of 80?",
+    "options": ["34", "36", "38", "40"],
+    "correct_answer": "36",
+    "explanation": "45% of 80 = (45/100) × 80 = 36."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: 0.8 × 5 + 0.6 × 10",
+    "options": ["8", "10", "12", "14"],
+    "correct_answer": "10",
+    "explanation": "0.8 × 5 = 4, 0.6 × 10 = 6. So 4 + 6 = 10."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of 4! (4 factorial)?",
+    "options": ["16", "24", "20", "12"],
+    "correct_answer": "24",
+    "explanation": "4! = 4 × 3 × 2 × 1 = 24."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 72 ÷ 9 × 4 - 12 + 5",
+    "options": ["25", "27", "23", "29"],
+    "correct_answer": "25",
+    "explanation": "72 ÷ 9 = 8, 8 × 4 = 32. So 32 - 12 + 5 = 25."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 7/8 of 64?",
+    "options": ["48", "52", "56", "60"],
+    "correct_answer": "56",
+    "explanation": "7/8 × 64 = 7 × 8 = 56."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: (15 - 5) × (8 + 2) ÷ 5",
+    "options": ["18", "20", "22", "16"],
+    "correct_answer": "20",
+    "explanation": "(15 - 5) = 10, (8 + 2) = 10, 10 × 10 = 100, 100 ÷ 5 = 20."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is the value of 1.5² + 2.5²?",
+    "options": ["8.5", "9.5", "8.0", "10.0"],
+    "correct_answer": "8.5",
+    "explanation": "1.5² = 2.25, 2.5² = 6.25. So 2.25 + 6.25 = 8.5."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: 120 ÷ (4 + 6) × 3",
+    "options": ["36", "30", "42", "24"],
+    "correct_answer": "36",
+    "explanation": "4 + 6 = 10, 120 ÷ 10 = 12, 12 × 3 = 36."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is 5/9 + 4/9?",
+    "options": ["1", "9/18", "10/9", "8/9"],
+    "correct_answer": "1",
+    "explanation": "5/9 + 4/9 = 9/9 = 1."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 250 × 4 ÷ 100 + 8",
+    "options": ["16", "14", "18", "12"],
+    "correct_answer": "18",
+    "explanation": "250 × 4 = 1000, 1000 ÷ 100 = 10. So 10 + 8 = 18."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is the value of 13² - 12²?",
+    "options": ["23", "25", "27", "29"],
+    "correct_answer": "25",
+    "explanation": "Using a² - b² = (a+b)(a-b): (13+12)(13-12) = 25 × 1 = 25."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "Simplify: 6 + 4 × 3 - 2 ÷ 1",
+    "options": ["16", "18", "20", "14"],
+    "correct_answer": "16",
+    "explanation": "4 × 3 = 12, 2 ÷ 1 = 2. So 6 + 12 - 2 = 16."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "What is 30% of 90?",
+    "options": ["25", "27", "29", "31"],
+    "correct_answer": "27",
+    "explanation": "30% of 90 = (30/100) × 90 = 27."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "Simplify: 81 ÷ 9 + 4 × 6 - 15",
+    "options": ["18", "16", "20", "14"],
+    "correct_answer": "18",
+    "explanation": "81 ÷ 9 = 9, 4 × 6 = 24. So 9 + 24 - 15 = 18."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "campus",
+    "question": "What is the value of (2 + 3)³?",
+    "options": ["100", "125", "150", "75"],
+    "correct_answer": "125",
+    "explanation": "(2 + 3)³ = 5³ = 125."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "govt",
+    "question": "Simplify: 4/5 × 25",
+    "options": ["16", "18", "20", "22"],
+    "correct_answer": "20",
+    "explanation": "4/5 × 25 = 4 × 5 = 20."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "easy",
+    "exam_type": "mixed",
+    "question": "What is 0.25 + 0.75 × 4?",
+    "options": ["3.25", "3.5", "4.0", "2.75"],
+    "correct_answer": "3.25",
+    "explanation": "0.75 × 4 = 3.0. So 0.25 + 3.0 = 3.25."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Simplify: (3/4 + 5/6) ÷ (7/12)",
+    "options": ["19/7", "19/6", "2", "19/8"],
+    "correct_answer": "19/7",
+    "explanation": "3/4 + 5/6 = 9/12 + 10/12 = 19/12. Then (19/12) ÷ (7/12) = 19/12 × 12/7 = 19/7."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of 999 × 999?",
+    "options": ["998001", "997001", "999001", "996001"],
+    "correct_answer": "998001",
+    "explanation": "999² = (1000 - 1)² = 1000000 - 2000 + 1 = 998001."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Simplify: [18 - {7 - (4 + 3)}] × 2",
+    "options": ["36", "32", "28", "40"],
+    "correct_answer": "36",
+    "explanation": "Innermost: 4 + 3 = 7. Then 7 - 7 = 0. Then 18 - 0 = 18. So 18 × 2 = 36."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of (1.2)³ + (0.8)³?",
+    "options": ["2.0", "2.048", "1.952", "2.512"],
+    "correct_answer": "2.0",
+    "explanation": "Using a³ + b³ = (a+b)(a² - ab + b²). a+b = 2, a² - ab + b² = 1.44 - 0.96 + 0.64 = 1.12. But easier: 1.728 + 0.512 = 2.240. Wait: 1.2³ = 1.728, 0.8³ = 0.512, sum = 2.240. Correct answer is 2.240. Let me recalculate options.",
+    "options": ["2.240", "2.048", "1.952", "2.512"],
+    "correct_answer": "2.240",
+    "explanation": "1.2³ = 1.728, 0.8³ = 0.512. Sum = 1.728 + 0.512 = 2.240."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Simplify: 5 + [3 × {8 - (4 + 2)} + 10]",
+    "options": ["25", "21", "27", "23"],
+    "correct_answer": "21",
+    "explanation": "4 + 2 = 6, 8 - 6 = 2, 3 × 2 = 6, 6 + 10 = 16. So 5 + 16 = 21."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of (0.1 + 0.2 + 0.3)² ÷ 0.36?",
+    "options": ["0.9", "1.0", "1.1", "0.8"],
+    "correct_answer": "1.0",
+    "explanation": "0.1 + 0.2 + 0.3 = 0.6. (0.6)² = 0.36. So 0.36 ÷ 0.36 = 1.0."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Simplify: (2⁵ × 3²) ÷ (4 × 6)",
+    "options": ["12", "10", "8", "6"],
+    "correct_answer": "12",
+    "explanation": "2⁵ = 32, 3² = 9. 32 × 9 = 288. 4 × 6 = 24. 288 ÷ 24 = 12."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of 1/(1×2) + 1/(2×3) + 1/(3×4) + 1/(4×5)?",
+    "options": ["4/5", "3/4", "2/3", "1/2"],
+    "correct_answer": "4/5",
+    "explanation": "Each term 1/(n(n+1)) = 1/n - 1/(n+1). Sum = 1 - 1/5 = 4/5."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Simplify: 3.6 × 0.48 + 3.6 × 0.52",
+    "options": ["3.6", "3.8", "4.0", "3.4"],
+    "correct_answer": "3.6",
+    "explanation": "3.6 × (0.48 + 0.52) = 3.6 × 1 = 3.6."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of √(0.0625)?",
+    "options": ["0.025", "0.25", "0.025", "2.5"],
+    "correct_answer": "0.25",
+    "explanation": "0.0625 = 625/10000. √(625/10000) = 25/100 = 0.25."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Simplify: 4 × [5 + 3 × {6 - (2 + 1)}]",
+    "options": ["56", "60", "52", "64"],
+    "correct_answer": "56",
+    "explanation": "2 + 1 = 3, 6 - 3 = 3, 3 × 3 = 9, 5 + 9 = 14, 4 × 14 = 56."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of (1 + 1/2)(1 + 1/3)(1 + 1/4)?",
+    "options": ["5/2", "3/2", "7/4", "2"],
+    "correct_answer": "5/2",
+    "explanation": "(3/2)(4/3)(5/4) = (3 × 4 × 5)/(2 × 3 × 4) = 60/24 = 5/2."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Simplify: 2 + 2 × 2 + 2 ÷ 2 - 2",
+    "options": ["5", "4", "6", "3"],
+    "correct_answer": "5",
+    "explanation": "2 × 2 = 4, 2 ÷ 2 = 1. So 2 + 4 + 1 - 2 = 5."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "What is the value of 103 × 97?",
+    "options": ["9991", "9981", "10009", "9909"],
+    "correct_answer": "9991",
+    "explanation": "103 × 97 = (100 + 3)(100 - 3) = 100² - 3² = 10000 - 9 = 9991."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "Simplify: (5/8 ÷ 5/4) × 8",
+    "options": ["4", "5", "6", "3"],
+    "correct_answer": "4",
+    "explanation": "5/8 ÷ 5/4 = 5/8 × 4/5 = 4/8 = 1/2. So 1/2 × 8 = 4."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "What is the value of (√5 + √3)² - (√5 - √3)²?",
+    "options": ["4√15", "8√15", "2√15", "6√15"],
+    "correct_answer": "4√15",
+    "explanation": "Using (a+b)² - (a-b)² = 4ab. Here a = √5, b = √3. So 4 × √5 × √3 = 4√15."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "govt",
+    "question": "Simplify: 12.5% of 96 + 6.25% of 64",
+    "options": ["14", "16", "18", "20"],
+    "correct_answer": "16",
+    "explanation": "12.5% of 96 = 12, 6.25% of 64 = 4. So 12 + 4 = 16."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "mixed",
+    "question": "What is the value of 1.5 × 1.5 × 1.5 + 0.5 × 0.5 × 0.5?",
+    "options": ["3.5", "3.75", "4.0", "3.25"],
+    "correct_answer": "3.5",
+    "explanation": "1.5³ = 3.375, 0.5³ = 0.125. Sum = 3.375 + 0.125 = 3.5."
+  },
+  {
+    "topic": "Simplification",
+    "difficulty": "medium",
+    "exam_type": "campus",
+    "question": "Simplify: 7 × 8 + 6 × 5 - 4 × 9 ÷ 3",
+    "options": ["74", "70", "78", "66"],
+    "correct_answer": "74",
+    "explanation": "7 × 8 = 56, 6 × 5 = 30, 4 × 9 = 36, 36 ÷ 3 = 12. So 56 + 30 - 12 = 74."
+  }
+]
