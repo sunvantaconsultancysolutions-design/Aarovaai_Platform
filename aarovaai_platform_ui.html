@@ -234,6 +234,7 @@ html,body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,s
   <div class="sb-item" onclick="window.location.href='aarovaai_java.html'"><div class="icon">☕</div>Java Language<span class="sb-count">11</span></div>
   <div class="sb-item" onclick="window.location.href='aarovaai_database.html'"><div class="icon">🗄️</div>Database<span class="sb-count">29</span></div>
   <div class="sb-item" onclick="window.location.href='aarovaai_networks.html'"><div class="icon">🌐</div>Networks<span class="sb-count">15</span></div>
+  <div class="sb-item" onclick="window.location.href='ide/index.html'" title="Open AarovaAI IDE"><div class="icon">⚡</div>Code IDE <span class="sb-count" style="background:var(--accbg);color:var(--acc2)">NEW</span></div>
 
   <div class="sb-section">Tests</div>
   <div class="sb-item" onclick="window.location.href='aarovaai_aptitude_test_ui.html'"><div class="icon">⚡</div>Online Tests</div>
@@ -461,7 +462,8 @@ async function loadDashboardTopics() {
       {id:'c-language', n:'C Language', e:'💻', bg:'#020c1e', total:19, done:0, status:'new', cat:'c-language'},
       {id:'java', n:'Java Language', e:'☕', bg:'#130010', total:11, done:0, status:'new', cat:'java'},
       {id:'database', n:'Database Management', e:'🗄️', bg:'#1a103c', total:29, done:0, status:'new', cat:'database'},
-      {id:'networks', n:'Networks', e:'🌐', bg:'#020c1e', total:15, done:0, status:'new', cat:'networks'}
+      {id:'networks', n:'Networks', e:'🌐', bg:'#020c1e', total:15, done:0, status:'new', cat:'networks'},
+      {id:'ide-compiler', n:'AarovaAI IDE', e:'⚡', bg:'#1a0a30', total:0, done:0, status:'new', cat:'ide', isIDE:true}
     ];
     
     // Default load
@@ -532,6 +534,7 @@ function switchDashboardModule(mod) {
       <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_java.html'">☕ Java Language</button>
       <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_database.html'">🗄️ Database Management</button>
       <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:var(--card);border-color:var(--border);color:var(--text)" onclick="window.location.href='aarovaai_networks.html'">🌐 Networks</button>
+      <button class="tb-btn primary" style="font-size:12px;padding:7px 16px;background:linear-gradient(135deg,#7c5cfc,#a855f7);border-color:#7c5cfc;color:#fff" onclick="window.open('ide/index.html','_blank')">⚡ Open IDE</button>
     `;
     
     filterTabs.innerHTML = `
@@ -633,15 +636,20 @@ function renderTopicGrid() {
         <button onclick="togglePlatformBookmark('${t.id}')" title="Bookmark" style="background:none;border:none;cursor:pointer;font-size:15px;color:${isBookmarked?'var(--amber)':'var(--muted)'};padding:2px 4px;line-height:1">${isBookmarked?'⚑':'⚐'}</button>
       </div>
       <div class="tc-name">${t.n}</div>
-      <div class="tc-meta"><span>${t.total} questions</span><span class="tc-badge" style="${badgeStyle}">${badgeLabel}</span></div>
-      <div class="tc-diff">${diffBars}</div>
+      <div class="tc-meta"><span>${t.isIDE ? '20+ languages' : t.total + ' questions'}</span><span class="tc-badge" style="${t.isIDE ? 'background:#7c5cfc22;color:var(--acc2);border:1px solid #7c5cfc44' : badgeStyle}">${t.isIDE ? 'Multi-Language' : badgeLabel}</span></div>
+      <div class="tc-diff">${t.isIDE ? '<div class="tc-diff-bar" style="background:var(--acc)"></div><div class="tc-diff-bar" style="background:#a855f7"></div><div class="tc-diff-bar" style="background:var(--cyan)"></div>' : diffBars}</div>
       <div class="tc-progress">
         <div class="tc-prog-bar"><div class="tc-prog-fill" style="width:${pct}%"></div></div>
         <span>${t.done}/${t.total}</span>
       </div>
       <div class="tc-actions">
-        <div class="tc-btn tc-btn-prac" onclick="goToPractice('${t.id}','${encodeURIComponent(t.n)}','${t.cat}')">${pracLabel}</div>
-        <div class="tc-btn tc-btn-test" onclick="goToTest('${t.id}','${encodeURIComponent(t.n)}','${t.cat}')">${testLabel}</div>
+        ${t.isIDE ? `
+          <div class="tc-btn tc-btn-prac" style="background:linear-gradient(135deg,#7c5cfc22,#a855f722);border-color:#7c5cfc44;color:var(--acc2)" onclick="window.open('ide/index.html','_blank')">⚡ Open IDE</div>
+          <div class="tc-btn tc-btn-test" onclick="window.open('ide/index.html','_blank')">20+ Langs</div>
+        ` : `
+          <div class="tc-btn tc-btn-prac" onclick="goToPractice('${t.id}','${encodeURIComponent(t.n)}','${t.cat}')">${pracLabel}</div>
+          <div class="tc-btn tc-btn-test" onclick="goToTest('${t.id}','${encodeURIComponent(t.n)}','${t.cat}')">${testLabel}</div>
+        `}
       </div>
     </div>`;
   }).join('');
