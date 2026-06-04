@@ -11,17 +11,17 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 :root{
-  --bg:#08080e;--surf:#0f0f18;--card:#161620;--card2:#1c1c28;--card3:#222232;
-  --b1:#252538;--b2:#333348;--b3:#44445a;
-  --acc:#7c5cfc;--acc2:#a78bfa;--acc3:#c4b5fd;
-  --accbg:#7c5cfc12;--accbg2:#7c5cfc22;--accbg3:#7c5cfc33;
+  --bg:#080d18;--surf:#0d1322;--card:#111927;--card2:#162030;--card3:#1c2a3e;
+  --b1:#1e2d45;--b2:#264060;--b3:#2e5075;
+  --acc:#ff6a00;--acc2:#ff8c38;--acc3:#ffb07a;
+  --accbg:#ff6a0012;--accbg2:#ff6a0022;--accbg3:#ff6a0033;
   --gr:#22c55e;--grbg:#031a09;--grb:#154828;
   --am:#f59e0b;--ambg:#120d00;--amb:#3d2a00;
   --rd:#ef4444;--rdbg:#130202;--rdb:#4a1010;
   --bl:#3b82f6;--blbg:#020c1e;--blb:#0c2a5a;
   --tl:#14b8a6;--tlbg:#011410;
   --pk:#ec4899;--pkbg:#130010;
-  --tx:#eeeeff;--tx2:#9898b8;--tx3:#5a5a7a;--tx4:#3a3a52;
+  --tx:#eef2ff;--tx2:#8a9fc0;--tx3:#4a5878;--tx4:#303d55;
   --r:14px;--rs:9px;--rxs:6px;
 }
 html,body{background:var(--bg);color:var(--tx);font-family:'Sora',sans-serif;min-height:100vh;font-size:14px;line-height:1.5;overflow-x:hidden}
@@ -36,7 +36,7 @@ button{cursor:pointer;font-family:inherit}
 .sidebar::-webkit-scrollbar{width:3px}
 .sidebar::-webkit-scrollbar-thumb{background:var(--b2);border-radius:99px}
 .sb-head{padding:16px 14px 13px;border-bottom:1px solid var(--b1);display:flex;align-items:center;gap:10px}
-.sb-logo-box{width:36px;height:36px;background:var(--acc);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;color:#fff;flex-shrink:0}
+.sb-logo-box{width:36px;height:36px;background:linear-gradient(135deg,var(--acc),var(--acc2));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;color:#fff;flex-shrink:0}
 .sb-logo-txt{font-size:15px;font-weight:700;letter-spacing:-.4px}
 .sb-logo-txt span{color:var(--acc2)}
 .sb-close{display:none;margin-left:auto;background:none;border:none;color:var(--tx2);font-size:20px}
@@ -83,8 +83,8 @@ button{cursor:pointer;font-family:inherit}
 .pd-divider{height:1px;background:var(--b1);margin:4px 0}
 
 /* ── SUMMARY HERO ── */
-.summary-hero{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;background:linear-gradient(135deg,#161030 0%,#141428 45%,#101820 100%);border:1px solid var(--b2);border-radius:16px;padding:24px 28px;margin-bottom:20px;position:relative;overflow:hidden}
-.summary-hero::before{content:"";position:absolute;top:-50px;right:-50px;width:240px;height:240px;background:radial-gradient(circle,#7c5cfc18 0%,transparent 65%);pointer-events:none}
+.summary-hero{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;background:linear-gradient(135deg,#0d1828 0%,#0a1520 45%,#080f1a 100%);border:1px solid var(--b2);border-radius:16px;padding:24px 28px;margin-bottom:20px;position:relative;overflow:hidden}
+.summary-hero::before{content:"";position:absolute;top:-50px;right:-50px;width:240px;height:240px;background:radial-gradient(circle,#ff6a0018 0%,transparent 65%);pointer-events:none}
 .hero-avatar{width:72px;height:72px;border-radius:20px;background:linear-gradient(135deg,var(--acc),var(--acc2));display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:#fff;flex-shrink:0;letter-spacing:-.5px;position:relative}
 .hero-avatar::after{content:"";position:absolute;inset:-2px;border-radius:22px;background:linear-gradient(135deg,var(--acc),var(--acc2));z-index:-1;opacity:.4;filter:blur(8px)}
 .hero-info h2{font-size:20px;font-weight:800;letter-spacing:-.4px;margin-bottom:4px}
@@ -344,7 +344,7 @@ canvas{width:100% !important;height:100% !important}
             <circle cx="40" cy="40" r="32" fill="none" stroke="url(#g1)" stroke-width="7" stroke-linecap="round" stroke-dasharray="201.1" stroke-dashoffset="64.4"/>
           </svg>
           <defs>
-            <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7c5cfc"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient>
+            <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff6a00"/><stop offset="100%" stop-color="#ff8c38"/></linearGradient>
             <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#16a34a"/></linearGradient>
             <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#d97706"/></linearGradient>
           </defs>
@@ -615,12 +615,12 @@ const TOPICS=[
 ];
 
 const TESTS=[
-  {n:"Percentage — Full Test",e:"📊",bg:"#7c5cfc18",score:88,qs:10,time:"45 min",date:"Today",diff:"Mixed"},
+  {n:"Percentage — Full Test",e:"📊",bg:"#ff6a0018",score:88,qs:10,time:"45 min",date:"Today",diff:"Mixed"},
   {n:"Time & Work — Quick Test",e:"⏱️",bg:"var(--grbg)",score:80,qs:10,time:"22 min",date:"Yesterday",diff:"Easy"},
   {n:"Profit & Loss — Practice",e:"💰",bg:"var(--rdbg)",score:54,qs:20,time:"38 min",date:"2 days ago",diff:"Medium"},
   {n:"Average — Quick Test",e:"📉",bg:"var(--grbg)",score:91,qs:10,time:"18 min",date:"3 days ago",diff:"Easy"},
   {n:"Time & Distance — Test",e:"🚆",bg:"var(--pkbg)",score:72,qs:10,time:"28 min",date:"4 days ago",diff:"Medium"},
-  {n:"Ratio & Proportion",e:"⚖️",bg:"#7c5cfc12",score:45,qs:10,time:"20 min",date:"5 days ago",diff:"Hard"},
+  {n:"Ratio & Proportion",e:"⚖️",bg:"#ff6a0012",score:45,qs:10,time:"20 min",date:"5 days ago",diff:"Hard"},
 ];
 
 const BADGES=[
@@ -747,7 +747,7 @@ function drawAccChart(period) {
   // Grid lines
   [0,25,50,75,100].forEach(v => {
     const y = pad.t + H2*(1-v/100);
-    ctx.strokeStyle = '#252538'; ctx.lineWidth = .7;
+    ctx.strokeStyle = '#1e2d45'; ctx.lineWidth = .7;
     ctx.beginPath(); ctx.moveTo(pad.l,y); ctx.lineTo(W-pad.r,y); ctx.stroke();
   });
 
@@ -768,7 +768,7 @@ function drawAccChart(period) {
     i===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
   });
   const grad = ctx.createLinearGradient(0, pad.t, 0, H-pad.b);
-  grad.addColorStop(0, '#7c5cfc40'); grad.addColorStop(1, '#7c5cfc00');
+  grad.addColorStop(0, '#ff6a0040'); grad.addColorStop(1, '#ff6a0000');
   const lastX = pad.l+(n-1)*(W2/(n-1));
   ctx.lineTo(lastX, H-pad.b); ctx.lineTo(pad.l, H-pad.b); ctx.closePath();
   ctx.fillStyle = grad; ctx.fill();
@@ -780,15 +780,15 @@ function drawAccChart(period) {
     const y = pad.t + H2*(1-v/100);
     i===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
   });
-  ctx.strokeStyle = '#7c5cfc'; ctx.lineWidth = 2; ctx.lineJoin = 'round'; ctx.stroke();
+  ctx.strokeStyle = '#ff6a00'; ctx.lineWidth = 2; ctx.lineJoin = 'round'; ctx.stroke();
 
   // Dots
   acc.forEach((v,i) => {
     const x = pad.l + i*(W2/(n-1));
     const y = pad.t + H2*(1-v/100);
     ctx.beginPath(); ctx.arc(x,y,3.5,0,Math.PI*2);
-    ctx.fillStyle = '#7c5cfc'; ctx.fill();
-    ctx.strokeStyle = '#08080e'; ctx.lineWidth = 1.5; ctx.stroke();
+    ctx.fillStyle = '#ff6a00'; ctx.fill();
+    ctx.strokeStyle = '#080d18'; ctx.lineWidth = 1.5; ctx.stroke();
   });
 
   // X labels
@@ -804,7 +804,7 @@ function drawExamDonut(){
   if (!cv) return;
   const ctx=cv.getContext("2d");
   cv.width=160;cv.height=160;
-  const segs=[{v:.52,col:"#7c5cfc"},{v:.30,col:"#22c55e"},{v:.18,col:"#f59e0b"}];
+  const segs=[{v:.52,col:"#ff6a00"},{v:.30,col:"#22c55e"},{v:.18,col:"#f59e0b"}];
   let start=-Math.PI/2;
   segs.forEach(s=>{
     const angle=s.v*2*Math.PI;

@@ -11,17 +11,17 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 :root{
-  --bg:#08080e;--surf:#0f0f18;--card:#161620;--card2:#1c1c28;--card3:#222232;
-  --b1:#252538;--b2:#333348;--b3:#44445a;
-  --acc:#7c5cfc;--acc2:#a78bfa;--acc3:#c4b5fd;
-  --accbg:#7c5cfc12;--accbg2:#7c5cfc22;--accbg3:#7c5cfc33;
+  --bg:#080d18;--surf:#0d1322;--card:#111927;--card2:#162030;--card3:#1c2a3e;
+  --b1:#1e2d45;--b2:#264060;--b3:#2e5075;
+  --acc:#ff6a00;--acc2:#ff8c38;--acc3:#ffb07a;
+  --accbg:#ff6a0012;--accbg2:#ff6a0022;--accbg3:#ff6a0033;
   --gr:#22c55e;--grbg:#031a09;--grb:#154828;
   --am:#f59e0b;--ambg:#120d00;--amb:#3d2a00;
   --rd:#ef4444;--rdbg:#130202;--rdb:#4a1010;
   --bl:#3b82f6;--blbg:#020c1e;
   --tl:#14b8a6;--tlbg:#011410;
   --pk:#ec4899;--pkbg:#130010;
-  --tx:#eeeeff;--tx2:#9898b8;--tx3:#5a5a7a;--tx4:#3a3a52;
+  --tx:#eef2ff;--tx2:#8a9fc0;--tx3:#4a5878;--tx4:#303d55;
   --r:14px;--rs:9px;--rxs:6px;
   --sh:0 4px 24px #00000044;
 }
@@ -98,7 +98,7 @@ img{display:block}
   margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;gap:20px;
   position:relative;overflow:hidden;
 }
-.hero::before{content:"";position:absolute;top:-60px;right:-60px;width:260px;height:260px;background:radial-gradient(circle,#7c5cfc1a 0%,transparent 65%);pointer-events:none}
+.hero::before{content:"";position:absolute;top:-60px;right:-60px;width:260px;height:260px;background:radial-gradient(circle,#ff6a001a 0%,transparent 65%);pointer-events:none}
 .hero::after{content:"";position:absolute;bottom:-40px;left:60px;width:160px;height:160px;background:radial-gradient(circle,#22c55e0a 0%,transparent 65%);pointer-events:none}
 .hero-left h2{font-size:21px;font-weight:800;line-height:1.25;margin-bottom:8px;letter-spacing:-.4px}
 .hero-left h2 em{color:var(--acc2);font-style:normal}
@@ -138,7 +138,7 @@ img{display:block}
 .tcard::before{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--acc),var(--acc2));transform:scaleX(0);transition:.2s;transform-origin:left}
 .tcard:hover{border-color:var(--b2);background:var(--card2);transform:translateY(-2px);box-shadow:var(--sh)}
 .tcard:hover::before{transform:scaleX(1)}
-.tcard.feat{border-color:#7c5cfc40;background:#14142a}
+.tcard.feat{border-color:#ff6a0040;background:#0d1828}
 .tcard.feat::before{transform:scaleX(1)}
 
 .tc-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px}
@@ -367,7 +367,7 @@ img{display:block}
 
     <!-- Stat cards -->
     <div class="stats-row">
-      <div class="scard"><div class="si" style="background:#7c5cfc18">🎯</div><div class="scard-info"><b id="stat-accuracy" style="color:var(--acc2)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Avg accuracy</span></div></div>
+      <div class="scard"><div class="si" style="background:#ff6a0018">🎯</div><div class="scard-info"><b id="stat-accuracy" style="color:var(--acc2)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Avg accuracy</span></div></div>
       <div class="scard"><div class="si" style="background:var(--grbg)">⚡</div><div class="scard-info"><b id="stat-tests" style="color:var(--gr)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Tests taken</span></div></div>
       <div class="scard"><div class="si" style="background:var(--tlbg)">🟢</div><div class="scard-info"><b id="stat-practices" style="color:var(--tl)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Practices</span></div></div>
       <div class="scard"><div class="si" style="background:var(--ambg)">🔥</div><div class="scard-info"><b id="stat-streak" style="color:var(--am)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Streak</span></div></div>
@@ -431,28 +431,28 @@ const DATABASE_FILE_MAP = [
   { file: 'Data_Warehousing.json', name: 'Data Warehousing', id: 'data-warehousing', e: '🗄️', bg: '#011410' },
   { file: 'Data_and_Database_Administration.json', name: 'Data and Database Administration', id: 'data-and-database-administration', e: '🗄️', bg: '#031a09' },
   { file: 'Database_Design_Using_Normalization.json', name: 'Database Design Using Normalization', id: 'database-design-using-normalization', e: '🗄️', bg: '#130202' },
-  { file: 'Database_Processing_for_BIS.json', name: 'Database Processing for BIS', id: 'database-processing-for-bis', e: '🗄️', bg: '#7c5cfc12' },
+  { file: 'Database_Processing_for_BIS.json', name: 'Database Processing for BIS', id: 'database-processing-for-bis', e: '🗄️', bg: '#ff6a0012' },
   { file: 'Database_Redesign.json', name: 'Database Redesign', id: 'database-redesign', e: '🗄️', bg: '#020c1e' },
   { file: 'Distributed_Databases.json', name: 'Distributed Databases', id: 'distributed-databases', e: '🗄️', bg: '#130010' },
   { file: 'ER_Model_and_Business_Rules.json', name: 'ER Model and Business Rules', id: 'er-model-and-business-rules', e: '🗄️', bg: '#120d00' },
   { file: 'Introduction_to_Database.json', name: 'Introduction to Database', id: 'introduction-to-database', e: '🗄️', bg: '#011410' },
   { file: 'Introduction_to_SQL.json', name: 'Introduction to SQL', id: 'introduction-to-sql', e: '🗄️', bg: '#031a09' },
   { file: 'JDBC,_Java_Server_Pages,_and_MySQL.json', name: 'JDBC, Java Server Pages, and MySQL', id: 'jdbc-java-server-pages-and-mysql', e: '🗄️', bg: '#130202' },
-  { file: 'Logical_Database_Design.json', name: 'Logical Database Design', id: 'logical-database-design', e: '🗄️', bg: '#7c5cfc12' },
+  { file: 'Logical_Database_Design.json', name: 'Logical Database Design', id: 'logical-database-design', e: '🗄️', bg: '#ff6a0012' },
   { file: 'Managing_Databases_with_Oracle.json', name: 'Managing Databases with Oracle', id: 'managing-databases-with-oracle', e: '🗄️', bg: '#020c1e' },
   { file: 'Managing_Multiuser_Databases.json', name: 'Managing Multiuser Databases', id: 'managing-multiuser-databases', e: '🗄️', bg: '#130010' },
   { file: 'Modeling_Data_in_the_Organization.json', name: 'Modeling Data in the Organization', id: 'modeling-data-in-the-organization', e: '🗄️', bg: '#120d00' },
   { file: 'ODBC,_OLE_DB,_ADO,_and_ASP.json', name: 'ODBC, OLE DB, ADO, and ASP', id: 'odbc-ole-db-ado-and-asp', e: '🗄️', bg: '#011410' },
   { file: 'Object-Oriented_Data_Modeling.json', name: 'Object-Oriented Data Modeling', id: 'object-oriented-data-modeling', e: '🗄️', bg: '#031a09' },
   { file: 'Object-Oriented_Database.json', name: 'Object-Oriented Database', id: 'object-oriented-database', e: '🗄️', bg: '#130202' },
-  { file: 'Physical_Database_Design.json', name: 'Physical Database Design', id: 'physical-database-design', e: '🗄️', bg: '#7c5cfc12' },
+  { file: 'Physical_Database_Design.json', name: 'Physical Database Design', id: 'physical-database-design', e: '🗄️', bg: '#ff6a0012' },
   { file: 'SQL_Server_2000.json', name: 'SQL Server 2000', id: 'sql-server-2000', e: '🗄️', bg: '#020c1e' },
   { file: 'SQL_for_Database_Construction.json', name: 'SQL for Database Construction', id: 'sql-for-database-construction', e: '🗄️', bg: '#130010' },
   { file: 'The_Client-Server_Database.json', name: 'The Client-Server Database', id: 'the-client-server-database', e: '🗄️', bg: '#120d00' },
   { file: 'The_Database_Development_Process.json', name: 'The Database Development Process', id: 'the-database-development-process', e: '🗄️', bg: '#011410' },
   { file: 'The_Database_Environment.json', name: 'The Database Environment', id: 'the-database-environment', e: '🗄️', bg: '#031a09' },
   { file: 'The_Internet_Database_Environment.json', name: 'The Internet Database Environment', id: 'the-internet-database-environment', e: '🗄️', bg: '#130202' },
-  { file: 'The_Relational_Model_and_Normalization.json', name: 'The Relational Model and Normalization', id: 'the-relational-model-and-normalization', e: '🗄️', bg: '#7c5cfc12' },
+  { file: 'The_Relational_Model_and_Normalization.json', name: 'The Relational Model and Normalization', id: 'the-relational-model-and-normalization', e: '🗄️', bg: '#ff6a0012' },
   { file: 'XML_and_ADO.NET.json', name: 'XML and ADO.NET', id: 'xml-and-ado-net', e: '🗄️', bg: '#020c1e' }
 ];
 
@@ -617,7 +617,7 @@ async function init(){
       if (actList && actRes.activity && actRes.activity.length) {
         actList.innerHTML = actRes.activity.map(a => `
           <div class="act-item">
-            <div class="act-ico" style="background:#7c5cfc18">${a.icon||'📊'}</div>
+            <div class="act-ico" style="background:#ff6a0018">${a.icon||'📊'}</div>
             <div class="act-info">
               <div class="act-name">${a.name}</div>
               <div class="act-sub">${a.date} · ${a.time}</div>

@@ -11,17 +11,17 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 :root{
-  --bg:#08080e;--surf:#0f0f18;--card:#161620;--card2:#1c1c28;--card3:#222232;
-  --b1:#252538;--b2:#333348;--b3:#44445a;
-  --acc:#7c5cfc;--acc2:#a78bfa;--acc3:#c4b5fd;
-  --accbg:#7c5cfc12;--accbg2:#7c5cfc22;--accbg3:#7c5cfc33;
+  --bg:#080d18;--surf:#0d1322;--card:#111927;--card2:#162030;--card3:#1c2a3e;
+  --b1:#1e2d45;--b2:#264060;--b3:#2e5075;
+  --acc:#ff6a00;--acc2:#ff8c38;--acc3:#ffb07a;
+  --accbg:#ff6a0012;--accbg2:#ff6a0022;--accbg3:#ff6a0033;
   --gr:#22c55e;--grbg:#031a09;--grb:#154828;
   --am:#f59e0b;--ambg:#120d00;--amb:#3d2a00;
   --rd:#ef4444;--rdbg:#130202;--rdb:#4a1010;
   --bl:#3b82f6;--blbg:#020c1e;
   --tl:#14b8a6;--tlbg:#011410;
   --pk:#ec4899;--pkbg:#130010;
-  --tx:#eeeeff;--tx2:#9898b8;--tx3:#5a5a7a;--tx4:#3a3a52;
+  --tx:#eef2ff;--tx2:#8a9fc0;--tx3:#4a5878;--tx4:#303d55;
   --r:14px;--rs:9px;--rxs:6px;
   --sh:0 4px 24px #00000044;
 }
@@ -48,7 +48,7 @@ img{display:block}
 .sidebar::-webkit-scrollbar-thumb{background:var(--b2);border-radius:99px}
 
 .sb-head{padding:16px 14px 13px;border-bottom:1px solid var(--b1);display:flex;align-items:center;gap:10px}
-.sb-logo-box{width:36px;height:36px;background:var(--acc);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;color:#fff;flex-shrink:0;letter-spacing:-.5px}
+.sb-logo-box{width:36px;height:36px;background:linear-gradient(135deg,var(--acc),var(--acc2));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;color:#fff;flex-shrink:0;letter-spacing:-.5px}
 .sb-logo-txt{font-size:15px;font-weight:700;letter-spacing:-.4px;line-height:1}
 .sb-logo-txt span{color:var(--acc2)}
 .sb-close{display:none;margin-left:auto;background:none;border:none;color:var(--tx2);font-size:20px;line-height:1}
@@ -85,8 +85,8 @@ img{display:block}
 .btn{display:inline-flex;align-items:center;gap:6px;border-radius:var(--rs);padding:7px 16px;font-size:12px;font-weight:600;border:none;transition:.13s;font-family:inherit;white-space:nowrap}
 .btn-ghost{background:var(--card);border:1px solid var(--b1);color:var(--tx2)}
 .btn-ghost:hover{border-color:var(--b2);color:var(--tx)}
-.btn-acc{background:var(--acc);color:#fff}
-.btn-acc:hover{background:#6b4ef0;transform:translateY(-1px)}
+.btn-acc{background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff}
+.btn-acc:hover{background:linear-gradient(135deg,#e05e00,var(--acc));transform:translateY(-1px)}
 .btn-gr{background:var(--gr);color:#fff;border:none}
 .btn-gr:hover{background:#16a34a}
 .btn-out{background:transparent;border:1.5px solid var(--b2);color:var(--tx2);border-radius:var(--rs);padding:8px 14px;font-size:12px;font-weight:600;font-family:inherit}
@@ -103,7 +103,7 @@ img{display:block}
   margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;gap:20px;
   position:relative;overflow:hidden;
 }
-.hero::before{content:"";position:absolute;top:-60px;right:-60px;width:260px;height:260px;background:radial-gradient(circle,#7c5cfc1a 0%,transparent 65%);pointer-events:none}
+.hero::before{content:"";position:absolute;top:-60px;right:-60px;width:260px;height:260px;background:radial-gradient(circle,#ff6a001a 0%,transparent 65%);pointer-events:none}
 .hero::after{content:"";position:absolute;bottom:-40px;left:60px;width:160px;height:160px;background:radial-gradient(circle,#22c55e0a 0%,transparent 65%);pointer-events:none}
 .hero-left h2{font-size:21px;font-weight:800;line-height:1.25;margin-bottom:8px;letter-spacing:-.4px}
 .hero-left h2 em{color:var(--acc2);font-style:normal}
@@ -143,7 +143,7 @@ img{display:block}
 .tcard::before{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--acc),var(--acc2));transform:scaleX(0);transition:.2s;transform-origin:left}
 .tcard:hover{border-color:var(--b2);background:var(--card2);transform:translateY(-2px);box-shadow:var(--sh)}
 .tcard:hover::before{transform:scaleX(1)}
-.tcard.feat{border-color:#7c5cfc40;background:#14142a}
+.tcard.feat{border-color:#ff6a0040;background:#0d1828}
 .tcard.feat::before{transform:scaleX(1)}
 
 .tc-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px}
@@ -232,7 +232,7 @@ img{display:block}
 .qdot{width:31px;height:31px;border-radius:8px;border:1.5px solid var(--b1);background:var(--card);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--tx3);cursor:pointer;transition:.12s;position:relative}
 .qdot:hover{border-color:var(--b3)}
 .qdot.cur{background:var(--acc);border-color:var(--acc);color:#fff}
-.qdot.ans{border-color:#7c5cfc60;color:var(--acc2);background:var(--accbg)}
+.qdot.ans{border-color:#ff6a0060;color:var(--acc2);background:var(--accbg)}
 .qdot.mrk{border-color:var(--am);color:var(--am);background:var(--ambg)}
 .qdot.mrk::after{content:"";position:absolute;top:-3px;right:-3px;width:7px;height:7px;border-radius:50%;background:var(--am);border:1.5px solid var(--bg)}
 .qdot.skp{border-color:var(--b3);color:var(--tx3)}
@@ -250,7 +250,7 @@ img{display:block}
 .opts{display:flex;flex-direction:column;gap:9px;margin-bottom:16px}
 .opt{background:var(--card2);border:1.5px solid var(--b1);border-radius:11px;padding:14px 18px;cursor:pointer;display:flex;align-items:center;gap:14px;transition:.13s;font-size:14px;font-weight:500;line-height:1.45}
 .opt:hover:not(.sel){border-color:var(--b2);background:var(--card3)}
-.opt.sel{border-color:var(--acc);background:#16163a}
+.opt.sel{border-color:var(--acc);background:#0d1828}
 .oltr{width:30px;height:30px;border-radius:8px;background:var(--card);border:1px solid var(--b2);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;color:var(--tx2);transition:.13s;font-family:'JetBrains Mono',monospace}
 .opt.sel .oltr{background:var(--acc);border-color:var(--acc);color:#fff}
 
@@ -265,8 +265,8 @@ img{display:block}
 .btn-skip:hover{border-color:var(--b2);color:var(--tx)}
 .btn-mrk{flex:1.4;background:var(--ambg);border:1.5px solid var(--amb);border-radius:10px;padding:12px;font-size:13px;font-weight:600;color:var(--am);transition:.12s;font-family:inherit}
 .btn-mrk.on{background:#2a1a00;border-color:var(--am)}
-.btn-next{flex:2;background:var(--acc);border:none;border-radius:10px;padding:12px;font-size:14px;font-weight:700;color:#fff;transition:.13s;font-family:inherit}
-.btn-next:hover{background:#6b4ef0}
+.btn-next{flex:2;background:linear-gradient(135deg,var(--acc),var(--acc2));border:none;border-radius:10px;padding:12px;font-size:14px;font-weight:700;color:#fff;transition:.13s;font-family:inherit}
+.btn-next:hover{background:linear-gradient(135deg,#e05e00,var(--acc))}
 .btn-submit-q{flex:2;background:linear-gradient(135deg,var(--gr),#16a34a);border:none;border-radius:10px;padding:12px;font-size:14px;font-weight:700;color:#fff;font-family:inherit}
 
 /* ══════════════════ RESULT SCREEN ══════════════════ */
@@ -362,7 +362,7 @@ img{display:block}
 
 /* ── SKELETON LOADERS ── */
 .skeleton-pulse {
-  background: linear-gradient(90deg, #1c1c27 25%, #2a2a3c 50%, #1c1c27 75%);
+  background: linear-gradient(90deg, #111927 25%, #162030 50%, #111927 75%);
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.5s infinite;
   border-radius: 4px;
@@ -503,7 +503,7 @@ img{display:block}
 
     <!-- Stat cards -->
     <div class="stats-row">
-      <div class="scard"><div class="si" style="background:#7c5cfc18">🎯</div><div class="scard-info"><b id="stat-accuracy" style="color:var(--acc2)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Avg accuracy</span></div></div>
+      <div class="scard"><div class="si" style="background:#ff6a0018">🎯</div><div class="scard-info"><b id="stat-accuracy" style="color:var(--acc2)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Avg accuracy</span></div></div>
       <div class="scard"><div class="si" style="background:var(--grbg)">⚡</div><div class="scard-info"><b id="stat-tests" style="color:var(--gr)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Tests taken</span></div></div>
       <div class="scard"><div class="si" style="background:var(--tlbg)">🟢</div><div class="scard-info"><b id="stat-practices" style="color:var(--tl)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Practices</span></div></div>
       <div class="scard"><div class="si" style="background:var(--ambg)">🔥</div><div class="scard-info"><b id="stat-streak" style="color:var(--am)"><div class="skeleton-pulse skeleton-stat"></div></b><span>Streak</span></div></div>
@@ -587,7 +587,7 @@ img{display:block}
           <circle cx="68" cy="68" r="56" fill="none" stroke="url(#rg)" stroke-width="10"
             stroke-linecap="round" stroke-dasharray="351.9" id="ring-arc" stroke-dashoffset="351.9"/>
           <defs><linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#7c5cfc"/>
+            <stop offset="0%" stop-color="#ff6a00"/>
             <stop offset="100%" stop-color="#22c55e"/>
           </linearGradient></defs>
         </svg>
@@ -639,7 +639,7 @@ img{display:block}
 <script>
 // ══════ DATA (loaded from API) ══════
 let TOPICS_DATA = [];
-const BG_MAP={"📊":"#7c5cfc18","💰":"#120202","🏦":"#020c1e","📈":"#011410","⏱️":"#031a09","🚆":"#130010","⚖️":"#7c5cfc12","📉":"#031a09","🎲":"#020c1e","🔢":"#120d00","🧮":"#7c5cfc12","🔣":"#120202"};
+const BG_MAP={"📊":"#ff6a0018","💰":"#120202","🏦":"#020c1e","📈":"#011410","⏱️":"#031a09","🚆":"#130010","⚖️":"#ff6a0012","📉":"#031a09","🎲":"#020c1e","🔢":"#120d00","🧮":"#ff6a0012","🔣":"#120202"};
 
 // QDB is now fetched per-topic on demand from the API
 const QDB = {};
@@ -1044,16 +1044,16 @@ async function init(){
   } catch(e) {
     // Fallback topics
     TOPICS_DATA = [
-      {n:'Percentage',id:'percentage',e:'📊',bg:'#7c5cfc18',status:'new',prog:0,q:100},
+      {n:'Percentage',id:'percentage',e:'📊',bg:'#ff6a0018',status:'new',prog:0,q:100},
       {n:'Profit & Loss',id:'profit-loss',e:'💰',bg:'#130202',status:'new',prog:0,q:100},
       {n:'Simple Interest',id:'simple-interest',e:'🏦',bg:'#020c1e',status:'new',prog:0,q:100},
       {n:'Compound Interest',id:'compound-interest',e:'📈',bg:'#011410',status:'new',prog:0,q:100},
       {n:'Time & Work',id:'time-work',e:'⏱️',bg:'#031a09',status:'new',prog:0,q:100},
       {n:'Time & Distance',id:'time-distance',e:'🚆',bg:'#130010',status:'new',prog:0,q:100},
-      {n:'Ratio & Proportion',id:'ratio-proportion',e:'⚖️',bg:'#7c5cfc12',status:'new',prog:0,q:100},
+      {n:'Ratio & Proportion',id:'ratio-proportion',e:'⚖️',bg:'#ff6a0012',status:'new',prog:0,q:100},
       {n:'Average',id:'average',e:'📉',bg:'#031a09',status:'new',prog:0,q:100},
       {n:'Probability',id:'probability',e:'🎲',bg:'#020c1e',status:'new',prog:0,q:100},
-      {n:'HCF & LCM',id:'hcf-lcm',e:'🧮',bg:'#7c5cfc12',status:'new',prog:0,q:100},
+      {n:'HCF & LCM',id:'hcf-lcm',e:'🧮',bg:'#ff6a0012',status:'new',prog:0,q:100},
       {n:'Number System',id:'number-system',e:'🔣',bg:'#130202',status:'new',prog:0,q:100},
     ];
   }
@@ -1083,7 +1083,7 @@ async function init(){
     if (actList && actRes.activity && actRes.activity.length) {
       actList.innerHTML = actRes.activity.map(a => `
         <div class="act-item">
-          <div class="act-ico" style="background:#7c5cfc18">${a.icon||'📊'}</div>
+          <div class="act-ico" style="background:#ff6a0018">${a.icon||'📊'}</div>
           <div class="act-info">
             <div class="act-name">${a.name}</div>
             <div class="act-sub">${a.date} · ${a.time}</div>

@@ -18,15 +18,15 @@ if(!localStorage.getItem('aarovaai_token')){
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 :root{
-  --bg:#08080e;--surf:#0f0f18;--card:#161620;--card2:#1c1c28;--card3:#222232;
-  --b1:#252538;--b2:#333348;--b3:#44445a;
-  --acc:#7c5cfc;--acc2:#a78bfa;--acc3:#c4b5fd;
-  --accbg:#7c5cfc12;--accbg2:#7c5cfc22;--accbg3:#7c5cfc33;
+  --bg:#080d18;--surf:#0d1322;--card:#111927;--card2:#162030;--card3:#1c2a3e;
+  --b1:#1e2d45;--b2:#264060;--b3:#2e5075;
+  --acc:#ff6a00;--acc2:#ff8c38;--acc3:#ffb07a;
+  --accbg:#ff6a0012;--accbg2:#ff6a0022;--accbg3:#ff6a0033;
   --gr:#22c55e;--grbg:#031a09;--grb:#154828;
   --am:#f59e0b;--ambg:#120d00;--amb:#3d2a00;
   --rd:#ef4444;--rdbg:#130202;--rdb:#4a1010;
   --bl:#3b82f6;--blbg:#020c1e;
-  --tx:#eeeeff;--tx2:#9898b8;--tx3:#5a5a7a;--tx4:#3a3a52;
+  --tx:#eef2ff;--tx2:#8a9fc0;--tx3:#4a5878;--tx4:#303d55;
   --r:14px;--rs:9px;
   --sh:0 4px 24px #00000044;
 }
@@ -45,7 +45,7 @@ button{cursor:pointer;font-family:inherit}
 .logo{font-size:17px;font-weight:800;letter-spacing:-.4px}
 .logo span{color:var(--acc2)}
 .mock-badge{
-  background:linear-gradient(135deg,var(--acc),#5b3fd9);
+  background:linear-gradient(135deg,var(--acc),var(--acc2));
   color:#fff;font-size:11px;font-weight:700;border-radius:99px;
   padding:4px 12px;letter-spacing:.04em;text-transform:uppercase;
 }
@@ -75,7 +75,7 @@ button{cursor:pointer;font-family:inherit}
   border:1px solid var(--b2);border-radius:18px;
   margin-bottom:28px;position:relative;overflow:hidden;
 }
-.setup-hero::before{content:"";position:absolute;top:-80px;right:-80px;width:300px;height:300px;background:radial-gradient(circle,#7c5cfc15 0%,transparent 65%);pointer-events:none}
+.setup-hero::before{content:"";position:absolute;top:-80px;right:-80px;width:300px;height:300px;background:radial-gradient(circle,#ff6a0015 0%,transparent 65%);pointer-events:none}
 .setup-hero h1{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:10px}
 .setup-hero h1 em{color:var(--acc2);font-style:normal}
 .setup-hero p{font-size:13px;color:var(--tx2);max-width:400px;margin:0 auto 22px;line-height:1.7}
@@ -99,12 +99,12 @@ button{cursor:pointer;font-family:inherit}
 .cfg-btn.active{border-color:var(--acc);color:var(--acc2);background:var(--accbg2)}
 
 .start-btn{
-  width:100%;background:linear-gradient(135deg,var(--acc),#5b3fd9);
+  width:100%;background:linear-gradient(135deg,var(--acc),var(--acc2));
   color:#fff;border:none;border-radius:14px;padding:18px;
   font-size:16px;font-weight:700;letter-spacing:.01em;transition:.15s;
   display:flex;align-items:center;justify-content:center;gap:10px;
 }
-.start-btn:hover{transform:translateY(-2px);box-shadow:0 8px 32px #7c5cfc44}
+.start-btn:hover{transform:translateY(-2px);box-shadow:0 8px 32px #ff6a0044}
 .start-btn:active{transform:scale(.98)}
 
 /* ── QUIZ SCREEN ── */
@@ -128,7 +128,7 @@ button{cursor:pointer;font-family:inherit}
 /* ── PAUSE BANNER ── */
 .pause-banner{
   display:none;
-  background:linear-gradient(135deg,#14102a,#0e1420);
+  background:linear-gradient(135deg,#0d1828,#080f1a);
   border:1.5px solid var(--acc);border-radius:16px;
   padding:28px;text-align:center;margin-bottom:18px;
 }
@@ -137,7 +137,7 @@ button{cursor:pointer;font-family:inherit}
 .pause-banner p{color:var(--tx2);font-size:13px;margin-bottom:20px;line-height:1.65}
 .pause-actions{display:flex;gap:10px}
 .btn-resume{
-  flex:2;background:linear-gradient(135deg,var(--acc),#5b3fd9);
+  flex:2;background:linear-gradient(135deg,var(--acc),var(--acc2));
   border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:700;
   color:#fff;cursor:pointer;font-family:inherit;transition:.15s;
 }
@@ -184,7 +184,7 @@ button{cursor:pointer;font-family:inherit}
   font-family:inherit;width:100%;text-align:left;
 }
 .opt:hover:not(.selected){border-color:var(--b2);background:var(--card3)}
-.opt.selected{border-color:var(--acc);background:#16163a}
+.opt.selected{border-color:var(--acc);background:#0d1828}
 .oltr{
   width:30px;height:30px;border-radius:8px;background:var(--card);
   border:1px solid var(--b2);display:flex;align-items:center;justify-content:center;
@@ -206,10 +206,10 @@ button{cursor:pointer;font-family:inherit}
 }
 .btn-pause-quiz:hover{background:var(--ambg)}
 .btn-next{
-  flex:2;background:linear-gradient(135deg,var(--acc),#5b3fd9);
+  flex:2;background:linear-gradient(135deg,var(--acc),var(--acc2));
   border:none;border-radius:11px;padding:13px;font-size:14px;font-weight:700;color:#fff;transition:.13s;font-family:inherit;
 }
-.btn-next:hover{transform:translateY(-1px);box-shadow:0 4px 20px #7c5cfc44}
+.btn-next:hover{transform:translateY(-1px);box-shadow:0 4px 20px #ff6a0044}
 
 /* ── RESULT SCREEN ── */
 .result-hero{text-align:center;padding:32px 0 24px}
@@ -254,7 +254,7 @@ button{cursor:pointer;font-family:inherit}
 .res-acts{display:flex;gap:8px}
 .btn-back{flex:1;background:var(--card);border:1px solid var(--b1);border-radius:12px;padding:14px;font-size:14px;font-weight:600;color:var(--tx);cursor:pointer;transition:.15s;font-family:inherit}
 .btn-back:hover{border-color:var(--b2);color:var(--acc2)}
-.btn-retry{flex:2;background:linear-gradient(135deg,var(--acc),#5b3fd9);border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:700;color:#fff;cursor:pointer;transition:.15s;font-family:inherit}
+.btn-retry{flex:2;background:linear-gradient(135deg,var(--acc),var(--acc2));border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:700;color:#fff;cursor:pointer;transition:.15s;font-family:inherit}
 .btn-retry:hover{transform:translateY(-1px)}
 
 /* ── LOADER ── */
@@ -391,7 +391,7 @@ button{cursor:pointer;font-family:inherit}
         <circle cx="75" cy="75" r="62" fill="none" stroke="url(#mrg)" stroke-width="11"
           stroke-linecap="round" stroke-dasharray="389.6" id="ring-arc" stroke-dashoffset="389.6"/>
         <defs><linearGradient id="mrg" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#7c5cfc"/>
+          <stop offset="0%" stop-color="#ff6a00"/>
           <stop offset="100%" stop-color="#22c55e"/>
         </linearGradient></defs>
       </svg>
